@@ -127,7 +127,7 @@ workflows:
   upload:
     triggers:
       - schedule:
-          cron: "0,15,30,45 * * * *" # TODO
+          cron: "0 5,11,17,23 * * *" # 02:00, 08:00, 14:00, 20:00 JST
           filters:
             branches:
               only:
