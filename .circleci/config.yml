@@ -98,7 +98,7 @@ jobs:
             username = api
             EOF
             . venv/bin/activate
-            tx -q pull -l ja
+            tx pull -l ja
 
       - run:
           name: upload catalog files
