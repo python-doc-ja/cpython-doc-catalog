@@ -116,7 +116,7 @@ workflows:
   catalog:
     triggers:
       - schedule:
-          cron: "0 * * * *" # TODO
+          cron: "0,15,30,45 * * * *" # TODO
           filters:
             branches:
               only:
@@ -127,7 +127,7 @@ workflows:
   upload:
     triggers:
       - schedule:
-          cron: "" # TODO
+          cron: "0 0 1 1 *" # TODO
           filters:
             branches:
               only:
