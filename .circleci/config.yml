@@ -1,0 +1,136 @@
+version: 2
+jobs:
+  renew-catalog-template:
+    docker:
+      - image: circleci/python:3.6.1
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - run:
+          name: install dependencies
+          working_directory: ~/repo/Doc
+          command: |
+            make venv
+            venv/bin/python3 -m pip install transifex-client
+            venv/bin/python3 -m pip install sphinx-intl
+            venv/bin/python3 -m pip freeze -l
+
+      - run:
+          name: update files
+          command: |
+            git config --global user.email "circleci-build-bot@example.com"
+            git config --global user.name "Autobuild bot on CircleCI"
+            git remote add upstream https://github.com/python/cpython.git
+            git remote -v
+            git fetch upstream
+            git merge --no-ff upstream/3.6 -m "Merge remote-tracking branch 'upstream/3.6' into catalog-3.6 by Autobuild bot"
+
+      - run:
+          name: generate catalog templates
+          working_directory: ~/repo/Doc
+          command: |
+            make build ALLSPHINXOPTS="-E -b gettext -D gettext_compact=0 -d build/.doctrees . locales/pot"
+            ls -lt locales/pot
+
+      - run:
+          name: upload .pot files
+          working_directory: ~/repo/Doc/locales
+          command: |
+            git add pot
+            if [ $(git status -s | wc -l) -eq 0 ]; then echo "no pot file to update"; exit 0; fi
+            cat <<EOF > ~/.transifexrc
+            [https://www.transifex.com]
+            hostname = https://www.transifex.com
+            password = ${TX_TOKEN}
+            token = 
+            username = api
+            EOF
+            . ../venv/bin/activate
+            rm -rf .tx
+            sphinx-intl create-txconfig
+            sphinx-intl update-txconfig-resources --transifex-project-name=python-36 --locale-dir . --pot-dir pot
+            git add .tx
+            tx push -s
+
+      - run:
+          name: store commit history
+          command: |
+            if [ $(git status --short | wc -l) -eq 0 ]; then echo "nothing to commit"; exit 0; fi
+            git commit --all --message="Update .pot files and .tx/config"
+            git push --quiet "https://${GH_TOKEN}@github.com/python-doc-ja/cpython-doc-catalog.git" catalog-3.6:catalog-3.6
+
+  upload-catalog:
+    docker:
+      - image: circleci/python:3.6.1
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - run:
+          name: checkout catalog repository
+          command: |
+            git clone --depth 1 --branch 3.6 "https://github.com/python/python-docs-ja.git" Doc/locales/ja/LC_MESSAGES
+
+      - run:
+          name: install dependencies
+          working_directory: ~/repo/Doc/locales
+          command: |
+            # TODO .gitignore (venv)
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install transifex-client
+            pip freeze -l
+
+      - run:
+          name: get .po files
+          working_directory: ~/repo/Doc/locales
+          command: |
+            cat <<EOF > ~/.transifexrc
+            [https://www.transifex.com]
+            hostname = https://www.transifex.com
+            password = ${TX_TOKEN}
+            token = 
+            username = api
+            EOF
+            . venv/bin/activate
+            tx -q pull -l ja
+
+      - run:
+          name: upload catalog files
+          working_directory: ~/repo/Doc/locales/ja/LC_MESSAGES
+          command: |
+            git config --global user.email "circleci-build-bot@example.com"
+            git config --global user.name "Autobuild bot on CircleCI"
+            git add .
+            if [ $(git status --short | wc -l) -eq 0 ]; then echo "no .po file to upload"; exit 0; fi
+            git commit --all --message="Update .po files"
+            git push --quiet "https://${GH_TOKEN}@github.com/python/python-docs-ja.git" 3.6:3.6
+
+workflows:
+  version: 2
+  catalog:
+    triggers:
+      - schedule:
+          cron: "0 * * * *" # TODO
+          filters:
+            branches:
+              only:
+                - catalog-3.6
+    jobs:
+      - renew-catalog-template
+
+  upload:
+    triggers:
+      - schedule:
+          cron: "" # TODO
+          filters:
+            branches:
+              only:
+                - catalog-3.6
+    jobs:
+      - upload-catalog
