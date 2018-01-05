@@ -80,7 +80,6 @@ jobs:
           name: install dependencies
           working_directory: ~/repo/Doc/locales
           command: |
-            # TODO .gitignore (venv)
             python3 -m venv venv
             . venv/bin/activate
             pip install transifex-client
