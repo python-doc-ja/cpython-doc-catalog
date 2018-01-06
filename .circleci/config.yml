@@ -126,7 +126,9 @@ workflows:
   upload:
     triggers:
       - schedule:
-          cron: "0 5,11,17,23 * * *" # 02:00, 08:00, 14:00, 20:00 JST
+          # in order to reduce monthly build time (< 1500h)
+          # cron: "0 5,11,17,23 * * *" # 02:00, 08:00, 14:00, 20:00 JST
+          cron: "0 17 * * *" # 02:00 JST
           filters:
             branches:
               only:
