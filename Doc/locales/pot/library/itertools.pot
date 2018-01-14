@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-01-14 15:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -598,7 +598,7 @@ msgstr ""
 msgid "The extended tools offer the same high performance as the underlying toolset. The superior memory performance is kept by processing elements one at a time rather than bringing the whole iterable into memory all at once. Code volume is kept small by linking the tools together in a functional style which helps eliminate temporary variables.  High speed is retained by preferring \"vectorized\" building blocks over the use of for-loops and :term:`generator`\\s which incur interpreter overhead."
 msgstr ""
 
-#: ../../library/itertools.rst:862
+#: ../../library/itertools.rst:885
 msgid "Note, many of the above recipes can be optimized by replacing global lookups with local variables defined as default values.  For example, the *dotproduct* recipe can be written as::"
 msgstr ""
 
