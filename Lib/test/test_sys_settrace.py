@@ -619,7 +619,7 @@ class JumpTestCase(unittest.TestCase):
     def test_jump_in_nested_finally_2(output):
         try:
             output.append(2)
-            1/0
+            1.0/0.0
             return
         finally:
             output.append(6)
@@ -630,7 +630,7 @@ class JumpTestCase(unittest.TestCase):
     def test_jump_in_nested_finally_3(output):
         try:
             output.append(2)
-            1/0
+            1.0/0.0
             return
         finally:
             output.append(6)
@@ -697,7 +697,7 @@ class JumpTestCase(unittest.TestCase):
     @jump_test(5, 7, [4, 7, 8])
     def test_jump_between_except_blocks(output):
         try:
-            1/0
+            1.0/0.0
         except ZeroDivisionError:
             output.append(4)
             output.append(5)
@@ -708,12 +708,20 @@ class JumpTestCase(unittest.TestCase):
     @jump_test(5, 6, [4, 6, 7])
     def test_jump_within_except_block(output):
         try:
-            1/0
+            1.0/0.0
         except:
             output.append(4)
             output.append(5)
             output.append(6)
         output.append(7)
+
+    @jump_test(2, 4, [1, 4, 5, -4])
+    def test_jump_across_with(output):
+        output.append(1)
+        with tracecontext(output, 2):
+            output.append(3)
+        with tracecontext(output, 4):
+            output.append(5)
 
     @jump_test(8, 11, [1, 3, 5, 11, 12])
     def test_jump_out_of_complex_nested_blocks(output):
@@ -765,6 +773,17 @@ class JumpTestCase(unittest.TestCase):
             output.append(11)
             break
         output.append(13)
+
+    @jump_test(1, 7, [7, 8])
+    def test_jump_over_for_block_before_else(output):
+        output.append(1)
+        if not output:  # always false
+            for i in [3]:
+                output.append(4)
+        else:
+            output.append(6)
+            output.append(7)
+        output.append(8)
 
     # The second set of 'jump' tests are for things that are not allowed:
 
@@ -911,21 +930,24 @@ class JumpTestCase(unittest.TestCase):
         finally:
             output.append(5)
 
-    @jump_test(2, 4, [1, 4, 5, -4])
-    def test_jump_across_with(output):
+    @jump_test(3, 5, [1, 2, -2], (ValueError, 'into'))
+    def test_no_jump_between_with_blocks(output):
         output.append(1)
         with tracecontext(output, 2):
             output.append(3)
         with tracecontext(output, 4):
             output.append(5)
 
-    @jump_test(3, 5, [1, 2, -2], (ValueError, 'into'))
-    def test_jump_across_with_2(output):
+    @jump_test(7, 4, [1, 6], (ValueError, 'into'))
+    def test_no_jump_into_for_block_before_else(output):
         output.append(1)
-        with tracecontext(output, 2):
-            output.append(3)
-        with tracecontext(output, 4):
-            output.append(5)
+        if not output:  # always false
+            for i in [3]:
+                output.append(4)
+        else:
+            output.append(6)
+            output.append(7)
+        output.append(8)
 
     def test_no_jump_to_non_integers(self):
         self.run_test(no_jump_to_non_integers, 2, "Spam", [True])
