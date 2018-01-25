@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-01-25 12:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,166 +903,181 @@ msgid "Set the flags used by the interpreter for :c:func:`dlopen` calls, such as
 msgstr ""
 
 #: ../../library/sys.rst:857
-msgid "Set the system's profile function, which allows you to implement a Python source code profiler in Python.  See chapter :ref:`profile` for more information on the Python profiler.  The system's profile function is called similarly to the system's trace function (see :func:`settrace`), but it isn't called for each executed line of code (only on call and return, but the return event is reported even when an exception has been set).  The function is thread-specific, but there is no way for the profiler to know about context switches between threads, so it does not make sense to use this in the presence of multiple threads. Also, its return value is not used, so it can simply return ``None``."
+msgid "Set the system's profile function, which allows you to implement a Python source code profiler in Python.  See chapter :ref:`profile` for more information on the Python profiler.  The system's profile function is called similarly to the system's trace function (see :func:`settrace`), but it is called with different events, for example it isn't called for each executed line of code (only on call and return, but the return event is reported even when an exception has been set). The function is thread-specific, but there is no way for the profiler to know about context switches between threads, so it does not make sense to use this in the presence of multiple threads. Also, its return value is not used, so it can simply return ``None``."
 msgstr ""
 
-#: ../../library/sys.rst:870
-msgid "Set the maximum depth of the Python interpreter stack to *limit*.  This limit prevents infinite recursion from causing an overflow of the C stack and crashing Python."
+#: ../../library/sys.rst:867
+msgid "Profile functions should have three arguments: *frame*, *event*, and *arg*. *frame* is the current stack frame.  *event* is a string: ``'call'``, ``'return'``, ``'c_call'``, ``'c_return'``, or ``'c_exception'``. *arg* depends on the event type."
 msgstr ""
 
-#: ../../library/sys.rst:874
-msgid "The highest possible limit is platform-dependent.  A user may need to set the limit higher when she has a program that requires deep recursion and a platform that supports a higher limit.  This should be done with care, because a too-high limit can lead to a crash."
-msgstr ""
-
-#: ../../library/sys.rst:886
-msgid "Set the system's trace function, which allows you to implement a Python source code debugger in Python.  The function is thread-specific; for a debugger to support multiple threads, it must be registered using :func:`settrace` for each thread being debugged."
-msgstr ""
-
-#: ../../library/sys.rst:891
-msgid "Trace functions should have three arguments: *frame*, *event*, and *arg*. *frame* is the current stack frame.  *event* is a string: ``'call'``, ``'line'``, ``'return'``, ``'exception'``, ``'c_call'``, ``'c_return'``, or ``'c_exception'``. *arg* depends on the event type."
-msgstr ""
-
-#: ../../library/sys.rst:896
-msgid "The trace function is invoked (with *event* set to ``'call'``) whenever a new local scope is entered; it should return a reference to a local trace function to be used that scope, or ``None`` if the scope shouldn't be traced."
-msgstr ""
-
-#: ../../library/sys.rst:900
-msgid "The local trace function should return a reference to itself (or to another function for further tracing in that scope), or ``None`` to turn off tracing in that scope."
-msgstr ""
-
-#: ../../library/sys.rst:904
+#: ../../library/sys.rst:872
+#: ../../library/sys.rst:929
 msgid "The events have the following meaning:"
 msgstr ""
 
-#: ../../library/sys.rst:909
+#: ../../library/sys.rst:876
+#: ../../library/sys.rst:934
 msgid "``'call'``"
 msgstr ""
 
-#: ../../library/sys.rst:907
-msgid "A function is called (or some other code block entered).  The global trace function is called; *arg* is ``None``; the return value specifies the local trace function."
+#: ../../library/sys.rst:875
+msgid "A function is called (or some other code block entered).  The profile function is called; *arg* is ``None``."
 msgstr ""
 
-#: ../../library/sys.rst:916
-msgid "``'line'``"
-msgstr ""
-
-#: ../../library/sys.rst:912
-msgid "The interpreter is about to execute a new line of code or re-execute the condition of a loop.  The local trace function is called; *arg* is ``None``; the return value specifies the new local trace function.  See :file:`Objects/lnotab_notes.txt` for a detailed explanation of how this works."
-msgstr ""
-
-#: ../../library/sys.rst:922
+#: ../../library/sys.rst:881
+#: ../../library/sys.rst:947
 msgid "``'return'``"
 msgstr ""
 
-#: ../../library/sys.rst:919
-msgid "A function (or other code block) is about to return.  The local trace function is called; *arg* is the value that will be returned, or ``None`` if the event is caused by an exception being raised.  The trace function's return value is ignored."
+#: ../../library/sys.rst:879
+msgid "A function (or other code block) is about to return.  The profile function is called; *arg* is the value that will be returned, or ``None`` if the event is caused by an exception being raised."
 msgstr ""
 
-#: ../../library/sys.rst:927
-msgid "``'exception'``"
-msgstr ""
-
-#: ../../library/sys.rst:925
-msgid "An exception has occurred.  The local trace function is called; *arg* is a tuple ``(exception, value, traceback)``; the return value specifies the new local trace function."
-msgstr ""
-
-#: ../../library/sys.rst:931
+#: ../../library/sys.rst:885
 msgid "``'c_call'``"
 msgstr ""
 
-#: ../../library/sys.rst:930
+#: ../../library/sys.rst:884
 msgid "A C function is about to be called.  This may be an extension function or a built-in.  *arg* is the C function object."
 msgstr ""
 
-#: ../../library/sys.rst:934
+#: ../../library/sys.rst:888
 msgid "``'c_return'``"
 msgstr ""
 
-#: ../../library/sys.rst:934
+#: ../../library/sys.rst:888
 msgid "A C function has returned. *arg* is the C function object."
 msgstr ""
 
-#: ../../library/sys.rst:937
+#: ../../library/sys.rst:890
 msgid "``'c_exception'``"
 msgstr ""
 
-#: ../../library/sys.rst:937
+#: ../../library/sys.rst:891
 msgid "A C function has raised an exception.  *arg* is the C function object."
 msgstr ""
 
-#: ../../library/sys.rst:939
-msgid "Note that as an exception is propagated down the chain of callers, an ``'exception'`` event is generated at each level."
+#: ../../library/sys.rst:895
+msgid "Set the maximum depth of the Python interpreter stack to *limit*.  This limit prevents infinite recursion from causing an overflow of the C stack and crashing Python."
 msgstr ""
 
-#: ../../library/sys.rst:942
-msgid "For more information on code and frame objects, refer to :ref:`types`."
+#: ../../library/sys.rst:899
+msgid "The highest possible limit is platform-dependent.  A user may need to set the limit higher when she has a program that requires deep recursion and a platform that supports a higher limit.  This should be done with care, because a too-high limit can lead to a crash."
 msgstr ""
 
-#: ../../library/sys.rst:946
-msgid "The :func:`settrace` function is intended only for implementing debuggers, profilers, coverage tools and the like.  Its behavior is part of the implementation platform, rather than part of the language definition, and thus may not be available in all Python implementations."
+#: ../../library/sys.rst:911
+msgid "Set the system's trace function, which allows you to implement a Python source code debugger in Python.  The function is thread-specific; for a debugger to support multiple threads, it must be registered using :func:`settrace` for each thread being debugged."
+msgstr ""
+
+#: ../../library/sys.rst:916
+msgid "Trace functions should have three arguments: *frame*, *event*, and *arg*. *frame* is the current stack frame.  *event* is a string: ``'call'``, ``'line'``, ``'return'`` or ``'exception'``.  *arg* depends on the event type."
+msgstr ""
+
+#: ../../library/sys.rst:921
+msgid "The trace function is invoked (with *event* set to ``'call'``) whenever a new local scope is entered; it should return a reference to a local trace function to be used that scope, or ``None`` if the scope shouldn't be traced."
+msgstr ""
+
+#: ../../library/sys.rst:925
+msgid "The local trace function should return a reference to itself (or to another function for further tracing in that scope), or ``None`` to turn off tracing in that scope."
+msgstr ""
+
+#: ../../library/sys.rst:932
+msgid "A function is called (or some other code block entered).  The global trace function is called; *arg* is ``None``; the return value specifies the local trace function."
+msgstr ""
+
+#: ../../library/sys.rst:941
+msgid "``'line'``"
+msgstr ""
+
+#: ../../library/sys.rst:937
+msgid "The interpreter is about to execute a new line of code or re-execute the condition of a loop.  The local trace function is called; *arg* is ``None``; the return value specifies the new local trace function.  See :file:`Objects/lnotab_notes.txt` for a detailed explanation of how this works."
+msgstr ""
+
+#: ../../library/sys.rst:944
+msgid "A function (or other code block) is about to return.  The local trace function is called; *arg* is the value that will be returned, or ``None`` if the event is caused by an exception being raised.  The trace function's return value is ignored."
+msgstr ""
+
+#: ../../library/sys.rst:952
+msgid "``'exception'``"
+msgstr ""
+
+#: ../../library/sys.rst:950
+msgid "An exception has occurred.  The local trace function is called; *arg* is a tuple ``(exception, value, traceback)``; the return value specifies the new local trace function."
 msgstr ""
 
 #: ../../library/sys.rst:954
+msgid "Note that as an exception is propagated down the chain of callers, an ``'exception'`` event is generated at each level."
+msgstr ""
+
+#: ../../library/sys.rst:957
+msgid "For more information on code and frame objects, refer to :ref:`types`."
+msgstr ""
+
+#: ../../library/sys.rst:961
+msgid "The :func:`settrace` function is intended only for implementing debuggers, profilers, coverage tools and the like.  Its behavior is part of the implementation platform, rather than part of the language definition, and thus may not be available in all Python implementations."
+msgstr ""
+
+#: ../../library/sys.rst:969
 msgid "Activate dumping of VM measurements using the Pentium timestamp counter, if *on_flag* is true. Deactivate these dumps if *on_flag* is off. The function is available only if Python was compiled with ``--with-tsc``. To understand the output of this dump, read :file:`Python/ceval.c` in the Python sources."
 msgstr ""
 
-#: ../../library/sys.rst:963
+#: ../../library/sys.rst:978
 msgid "This function is intimately bound to CPython implementation details and thus not likely to be implemented elsewhere."
 msgstr ""
 
-#: ../../library/sys.rst:975
+#: ../../library/sys.rst:990
 msgid "File objects corresponding to the interpreter's standard input, output and error streams.  ``stdin`` is used for all interpreter input except for scripts but including calls to :func:`input` and :func:`raw_input`.  ``stdout`` is used for the output of :keyword:`print` and :term:`expression` statements and for the prompts of :func:`input` and :func:`raw_input`. The interpreter's own prompts and (almost all of) its error messages go to ``stderr``.  ``stdout`` and ``stderr`` needn't be built-in file objects: any object is acceptable as long as it has a :meth:`write` method that takes a string argument.  (Changing these objects doesn't affect the standard I/O streams of processes executed by :func:`os.popen`, :func:`os.system` or the :func:`exec\\*` family of functions in the :mod:`os` module.)"
 msgstr ""
 
-#: ../../library/sys.rst:992
+#: ../../library/sys.rst:1007
 msgid "These objects contain the original values of ``stdin``, ``stderr`` and ``stdout`` at the start of the program.  They are used during finalization, and could be useful to print to the actual standard stream no matter if the ``sys.std*`` object has been redirected."
 msgstr ""
 
-#: ../../library/sys.rst:997
+#: ../../library/sys.rst:1012
 msgid "It can also be used to restore the actual files to known working file objects in case they have been overwritten with a broken object.  However, the preferred way to do this is to explicitly save the previous stream before replacing it, and restore the saved object."
 msgstr ""
 
-#: ../../library/sys.rst:1005
+#: ../../library/sys.rst:1020
 msgid "A triple (repo, branch, version) representing the Subversion information of the Python interpreter. *repo* is the name of the repository, ``'CPython'``. *branch* is a string of one of the forms ``'trunk'``, ``'branches/name'`` or ``'tags/name'``. *version* is the output of ``svnversion``, if the interpreter was built from a Subversion checkout; it contains the revision number (range) and possibly a trailing 'M' if there were local modifications. If the tree was exported (or svnversion was not available), it is the revision of ``Include/patchlevel.h`` if the branch is a tag. Otherwise, it is ``None``."
 msgstr ""
 
-#: ../../library/sys.rst:1017
+#: ../../library/sys.rst:1032
 msgid "Python is now `developed <https://docs.python.org/devguide/>`_ using Mercurial.  In recent Python 2.7 bugfix releases, :data:`subversion` therefore contains placeholder information.  It is removed in Python 3.3."
 msgstr ""
 
-#: ../../library/sys.rst:1025
+#: ../../library/sys.rst:1040
 msgid "When this variable is set to an integer value, it determines the maximum number of levels of traceback information printed when an unhandled exception occurs. The default is ``1000``.  When set to ``0`` or less, all traceback information is suppressed and only the exception type and value are printed."
 msgstr ""
 
-#: ../../library/sys.rst:1033
+#: ../../library/sys.rst:1048
 msgid "A string containing the version number of the Python interpreter plus additional information on the build number and compiler used.  This string is displayed when the interactive interpreter is started.  Do not extract version information out of it, rather, use :data:`version_info` and the functions provided by the :mod:`platform` module."
 msgstr ""
 
-#: ../../library/sys.rst:1042
+#: ../../library/sys.rst:1057
 msgid "The C API version for this interpreter.  Programmers may find this useful when debugging version conflicts between Python and extension modules."
 msgstr ""
 
-#: ../../library/sys.rst:1050
+#: ../../library/sys.rst:1065
 msgid "A tuple containing the five components of the version number: *major*, *minor*, *micro*, *releaselevel*, and *serial*.  All values except *releaselevel* are integers; the release level is ``'alpha'``, ``'beta'``, ``'candidate'``, or ``'final'``.  The ``version_info`` value corresponding to the Python version 2.0 is ``(2, 0, 0, 'final', 0)``.  The components can also be accessed by name, so ``sys.version_info[0]`` is equivalent to ``sys.version_info.major`` and so on."
 msgstr ""
 
-#: ../../library/sys.rst:1059
+#: ../../library/sys.rst:1074
 msgid "Added named component attributes"
 msgstr ""
 
-#: ../../library/sys.rst:1065
+#: ../../library/sys.rst:1080
 msgid "This is an implementation detail of the warnings framework; do not modify this value.  Refer to the :mod:`warnings` module for more information on the warnings framework."
 msgstr ""
 
-#: ../../library/sys.rst:1072
+#: ../../library/sys.rst:1087
 msgid "The version number used to form registry keys on Windows platforms. This is stored as string resource 1000 in the Python DLL.  The value is normally the first three characters of :const:`version`.  It is provided in the :mod:`sys` module for informational purposes; modifying this value has no effect on the registry keys used by Python. Availability: Windows."
 msgstr ""
 
-#: ../../library/sys.rst:1079
+#: ../../library/sys.rst:1094
 msgid "Citations"
 msgstr ""
 
-#: ../../library/sys.rst:1080
+#: ../../library/sys.rst:1095
 msgid "ISO/IEC 9899:1999.  \"Programming languages -- C.\"  A public draft of this standard is available at http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf\\ ."
 msgstr ""
 
