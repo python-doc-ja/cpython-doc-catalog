@@ -1063,12 +1063,12 @@ Python-level trace functions in previous versions.
    +------------------------------+--------------------------------------+
    | Value of *what*              | Meaning of *arg*                     |
    +==============================+======================================+
-   | :const:`PyTrace_CALL`        | Always *NULL*.                       |
+   | :const:`PyTrace_CALL`        | Always :c:data:`Py_None`.            |
    +------------------------------+--------------------------------------+
    | :const:`PyTrace_EXCEPTION`   | Exception information as returned by |
    |                              | :func:`sys.exc_info`.                |
    +------------------------------+--------------------------------------+
-   | :const:`PyTrace_LINE`        | Always *NULL*.                       |
+   | :const:`PyTrace_LINE`        | Always :c:data:`Py_None`.            |
    +------------------------------+--------------------------------------+
    | :const:`PyTrace_RETURN`      | Value being returned to the caller,  |
    |                              | or *NULL* if caused by an exception. |
@@ -1110,7 +1110,7 @@ Python-level trace functions in previous versions.
 .. c:var:: int PyTrace_RETURN
 
    The value for the *what* parameter to :c:type:`Py_tracefunc` functions when a
-   call is returning without propagating an exception.
+   call is about to return.
 
 
 .. c:var:: int PyTrace_C_CALL
