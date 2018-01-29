@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-25 12:23+0900\n"
+"POT-Creation-Date: 2018-01-29 12:25+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -583,7 +583,7 @@ msgstr ""
 
 #: ../../c-api/init.rst:1066
 #: ../../c-api/init.rst:1071
-msgid "Always *NULL*."
+msgid "Always :c:data:`Py_None`."
 msgstr ""
 
 #: ../../c-api/init.rst:1068
@@ -637,7 +637,7 @@ msgid "The value passed as the *what* parameter to a trace function (but not a p
 msgstr ""
 
 #: ../../c-api/init.rst:1112
-msgid "The value for the *what* parameter to :c:type:`Py_tracefunc` functions when a call is returning without propagating an exception."
+msgid "The value for the *what* parameter to :c:type:`Py_tracefunc` functions when a call is about to return."
 msgstr ""
 
 #: ../../c-api/init.rst:1118
