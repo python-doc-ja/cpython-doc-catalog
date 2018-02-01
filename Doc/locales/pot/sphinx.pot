@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-31 12:26+0900\n"
+"POT-Creation-Date: 2018-02-01 12:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,6 +70,47 @@ msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:17
 msgid "Audio/Visual Talks"
+msgstr ""
+
+#: ../../tools/templates/layout.html:10
+msgid "Documentation"
+msgstr ""
+
+#: ../../tools/templates/layout.html:33
+#: ../../tools/templates/indexcontent.html:63
+msgid "Copyright"
+msgstr ""
+
+#: ../../tools/templates/layout.html:35
+msgid "The Python Software Foundation is a non-profit corporation."
+msgstr ""
+
+#: ../../tools/templates/layout.html:36
+msgid "Please donate."
+msgstr ""
+
+#: ../../tools/templates/layout.html:38
+msgid "Last updated on %(last_update)s."
+msgstr ""
+
+#: ../../tools/templates/layout.html:39
+msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
+msgstr ""
+
+#: ../../tools/templates/layout.html:41
+msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
+msgstr ""
+
+#: ../../tools/templates/layout.html:46
+msgid "This Page"
+msgstr ""
+
+#: ../../tools/templates/layout.html:48
+msgid "Report a Bug"
+msgstr ""
+
+#: ../../tools/templates/layout.html:50
+msgid "Show Source"
 msgstr ""
 
 #: ../../tools/templates/download.html:10
@@ -332,46 +373,5 @@ msgstr ""
 
 #: ../../tools/templates/indexcontent.html:62
 msgid "History and License of Python"
-msgstr ""
-
-#: ../../tools/templates/indexcontent.html:63
-#: ../../tools/templates/layout.html:33
-msgid "Copyright"
-msgstr ""
-
-#: ../../tools/templates/layout.html:10
-msgid "Documentation"
-msgstr ""
-
-#: ../../tools/templates/layout.html:35
-msgid "The Python Software Foundation is a non-profit corporation."
-msgstr ""
-
-#: ../../tools/templates/layout.html:36
-msgid "Please donate."
-msgstr ""
-
-#: ../../tools/templates/layout.html:38
-msgid "Last updated on %(last_update)s."
-msgstr ""
-
-#: ../../tools/templates/layout.html:39
-msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
-msgstr ""
-
-#: ../../tools/templates/layout.html:41
-msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-msgstr ""
-
-#: ../../tools/templates/layout.html:46
-msgid "This Page"
-msgstr ""
-
-#: ../../tools/templates/layout.html:48
-msgid "Report a Bug"
-msgstr ""
-
-#: ../../tools/templates/layout.html:50
-msgid "Show Source"
 msgstr ""
 
