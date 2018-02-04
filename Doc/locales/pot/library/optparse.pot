@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-02-04 12:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -474,7 +474,7 @@ msgid "where"
 msgstr ""
 
 #: ../../library/optparse.rst:570
-msgid "parser is the :class:`OptionParser` instance the group will be insterted in to"
+msgid "parser is the :class:`OptionParser` instance the group will be inserted in to"
 msgstr ""
 
 #: ../../library/optparse.rst:572
