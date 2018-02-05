@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 12:29+0900\n"
+"POT-Creation-Date: 2018-02-05 12:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,10 +66,6 @@ msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:18
 msgid "Audio/Visual Talks"
-msgstr ""
-
-#: ../../tools/templates/dummy.html:6
-msgid "CPython implementation detail:"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:8
@@ -233,6 +229,18 @@ msgstr ""
 msgid "Copyright"
 msgstr ""
 
+#: ../../tools/templates/customsourcelink.html:3
+msgid "This Page"
+msgstr ""
+
+#: ../../tools/templates/customsourcelink.html:5
+msgid "Report a Bug"
+msgstr ""
+
+#: ../../tools/templates/customsourcelink.html:8
+msgid "Show Source"
+msgstr ""
+
 #: ../../tools/templates/layout.html:10
 msgid "Documentation "
 msgstr ""
@@ -265,15 +273,7 @@ msgstr ""
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
-#: ../../tools/templates/customsourcelink.html:3
-msgid "This Page"
-msgstr ""
-
-#: ../../tools/templates/customsourcelink.html:5
-msgid "Report a Bug"
-msgstr ""
-
-#: ../../tools/templates/customsourcelink.html:8
-msgid "Show Source"
+#: ../../tools/templates/dummy.html:6
+msgid "CPython implementation detail:"
 msgstr ""
 
