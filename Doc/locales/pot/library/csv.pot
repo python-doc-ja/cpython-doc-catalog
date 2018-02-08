@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-02-08 12:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,15 +104,15 @@ msgid "The :mod:`csv` module defines the following classes:"
 msgstr ""
 
 #: ../../library/csv.rst:171
-msgid "Create an object which operates like a regular reader but maps the information read into a dict whose keys are given by the optional *fieldnames* parameter.  The *fieldnames* parameter is a :ref:`sequence <collections-abstract-base-classes>` whose elements are associated with the fields of the input data in order. These elements become the keys of the resulting dictionary.  If the *fieldnames* parameter is omitted, the values in the first row of the *csvfile* will be used as the fieldnames.  If the row read has more fields than the fieldnames sequence, the remaining data is added as a sequence keyed by the value of *restkey*.  If the row read has fewer fields than the fieldnames sequence, the remaining keys take the value of the optional *restval* parameter.  Any other optional or keyword arguments are passed to the underlying :class:`reader` instance."
+msgid "Create an object which operates like a regular reader but maps the information read into a dict whose keys are given by the optional *fieldnames* parameter.  The *fieldnames* parameter is a :ref:`sequence <collections-abstract-base-classes>` whose elements are associated with the fields of the input data in order. These elements become the keys of the resulting dictionary.  If the *fieldnames* parameter is omitted, the values in the first row of the file *f* will be used as the fieldnames.  If the row read has more fields than the fieldnames sequence, the remaining data is added as a sequence keyed by the value of *restkey*.  If the row read has fewer fields than the fieldnames sequence, the remaining keys take the value of the optional *restval* parameter.  Any other optional or keyword arguments are passed to the underlying :class:`reader` instance."
 msgstr ""
 
 #: ../../library/csv.rst:200
-msgid "Create an object which operates like a regular writer but maps dictionaries onto output rows.  The *fieldnames* parameter is a :ref:`sequence <collections-abstract-base-classes>` of keys that identify the order in which values in the dictionary passed to the :meth:`writerow` method are written to the *csvfile*.  The optional *restval* parameter specifies the value to be written if the dictionary is missing a key in *fieldnames*.  If the dictionary passed to the :meth:`writerow` method contains a key not found in *fieldnames*, the optional *extrasaction* parameter indicates what action to take.  If it is set to ``'raise'`` a :exc:`ValueError` is raised. If it is set to ``'ignore'``, extra values in the dictionary are ignored. Any other optional or keyword arguments are passed to the underlying :class:`writer` instance."
+msgid "Create an object which operates like a regular writer but maps dictionaries onto output rows.  The *fieldnames* parameter is a :ref:`sequence <collections-abstract-base-classes>` of keys that identify the order in which values in the dictionary passed to the :meth:`writerow` method are written to the file *f*.  The optional *restval* parameter specifies the value to be written if the dictionary is missing a key in *fieldnames*.  If the dictionary passed to the :meth:`writerow` method contains a key not found in *fieldnames*, the optional *extrasaction* parameter indicates what action to take.  If it is set to ``'raise'`` a :exc:`ValueError` is raised. If it is set to ``'ignore'``, extra values in the dictionary are ignored. Any other optional or keyword arguments are passed to the underlying :class:`writer` instance."
 msgstr ""
 
 #: ../../library/csv.rst:213
-msgid "Note that unlike the :class:`DictReader` class, the *fieldnames* parameter of the :class:`DictWriter` is not optional.  Since Python's :class:`dict` objects are not ordered, there is not enough information available to deduce the order in which the row should be written to the *csvfile*."
+msgid "Note that unlike the :class:`DictReader` class, the *fieldnames* parameter of the :class:`DictWriter` is not optional.  Since Python's :class:`dict` objects are not ordered, there is not enough information available to deduce the order in which the row should be written to the file *f*."
 msgstr ""
 
 #: ../../library/csv.rst:234
