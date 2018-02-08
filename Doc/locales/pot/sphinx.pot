@@ -8,66 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-07 12:29+0900\n"
+"POT-Creation-Date: 2018-02-08 12:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../../tools/templates/layout.html:10
-msgid "Documentation "
-msgstr ""
-
-#: ../../tools/templates/layout.html:21
-msgid "Quick search"
-msgstr ""
-
-#: ../../tools/templates/layout.html:22
-msgid "Go"
-msgstr ""
-
-#: ../../tools/templates/layout.html:108
-#: ../../tools/templates/indexcontent.html:63
-msgid "Copyright"
-msgstr ""
-
-#: ../../tools/templates/layout.html:110
-msgid "The Python Software Foundation is a non-profit corporation."
-msgstr ""
-
-#: ../../tools/templates/layout.html:111
-msgid "Please donate."
-msgstr ""
-
-#: ../../tools/templates/layout.html:113
-msgid "Last updated on %(last_updated)s."
-msgstr ""
-
-#: ../../tools/templates/layout.html:114
-msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
-msgstr ""
-
-#: ../../tools/templates/layout.html:116
-msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
-msgstr ""
-
-#: ../../tools/templates/customsourcelink.html:3
-msgid "This Page"
-msgstr ""
-
-#: ../../tools/templates/customsourcelink.html:5
-msgid "Report a Bug"
-msgstr ""
-
-#: ../../tools/templates/customsourcelink.html:8
-msgid "Show Source"
-msgstr ""
-
-#: ../../tools/templates/dummy.html:6
-msgid "CPython implementation detail:"
-msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:1
 msgid "Download"
@@ -119,6 +66,18 @@ msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:18
 msgid "Audio/Visual Talks"
+msgstr ""
+
+#: ../../tools/templates/customsourcelink.html:3
+msgid "This Page"
+msgstr ""
+
+#: ../../tools/templates/customsourcelink.html:5
+msgid "Report a Bug"
+msgstr ""
+
+#: ../../tools/templates/customsourcelink.html:8
+msgid "Show Source"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:8
@@ -275,5 +234,46 @@ msgstr ""
 
 #: ../../tools/templates/indexcontent.html:62
 msgid "History and License of Python"
+msgstr ""
+
+#: ../../tools/templates/indexcontent.html:63
+#: ../../tools/templates/layout.html:108
+msgid "Copyright"
+msgstr ""
+
+#: ../../tools/templates/dummy.html:6
+msgid "CPython implementation detail:"
+msgstr ""
+
+#: ../../tools/templates/layout.html:10
+msgid "Documentation "
+msgstr ""
+
+#: ../../tools/templates/layout.html:21
+msgid "Quick search"
+msgstr ""
+
+#: ../../tools/templates/layout.html:22
+msgid "Go"
+msgstr ""
+
+#: ../../tools/templates/layout.html:110
+msgid "The Python Software Foundation is a non-profit corporation."
+msgstr ""
+
+#: ../../tools/templates/layout.html:111
+msgid "Please donate."
+msgstr ""
+
+#: ../../tools/templates/layout.html:113
+msgid "Last updated on %(last_updated)s."
+msgstr ""
+
+#: ../../tools/templates/layout.html:114
+msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
+msgstr ""
+
+#: ../../tools/templates/layout.html:116
+msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
