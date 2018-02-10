@@ -1,6 +1,5 @@
 [main]
 host = https://www.transifex.com
-type = PO
 
 [python-36.about]
 file_filter = <lang>/LC_MESSAGES/about.po

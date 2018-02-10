@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-29 12:25+0900\n"
+"POT-Creation-Date: 2018-02-10 12:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Return true (nonzero) when the Python interpreter has been initialized, f
 msgstr ""
 
 #: ../../c-api/init.rst:61
-msgid "Undo all initializations made by :c:func:`Py_Initialize` and subsequent use of Python/C API functions, and destroy all sub-interpreters (see :c:func:`Py_NewInterpreter` below) that were created and not yet destroyed since the last call to :c:func:`Py_Initialize`.  Ideally, this frees all memory allocated by the Python interpreter.  This is a no-op when called for a second time (without calling :c:func:`Py_Initialize` again first).  Normally the return value is 0.  If there were errors during finalization (flushing buffered data), -1 is returned."
+msgid "Undo all initializations made by :c:func:`Py_Initialize` and subsequent use of Python/C API functions, and destroy all sub-interpreters (see :c:func:`Py_NewInterpreter` below) that were created and not yet destroyed since the last call to :c:func:`Py_Initialize`.  Ideally, this frees all memory allocated by the Python interpreter.  This is a no-op when called for a second time (without calling :c:func:`Py_Initialize` again first).  Normally the return value is ``0``.  If there were errors during finalization (flushing buffered data), ``-1`` is returned."
 msgstr ""
 
 #: ../../c-api/init.rst:70

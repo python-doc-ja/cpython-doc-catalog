@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-02-10 12:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid "by filling the :c:member:`~PyTypeObject.tp_init` slot. ::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:389
-msgid "The :c:member:`~PyTypeObject.tp_init` slot is exposed in Python as the :meth:`__init__` method. It is used to initialize an object after it's created. Unlike the new method, we can't guarantee that the initializer is called.  The initializer isn't called when unpickling objects and it can be overridden.  Our initializer accepts arguments to provide initial values for our instance. Initializers always accept positional and keyword arguments. Initializers should return either 0 on success or -1 on error."
+msgid "The :c:member:`~PyTypeObject.tp_init` slot is exposed in Python as the :meth:`__init__` method. It is used to initialize an object after it's created. Unlike the new method, we can't guarantee that the initializer is called.  The initializer isn't called when unpickling objects and it can be overridden.  Our initializer accepts arguments to provide initial values for our instance. Initializers always accept positional and keyword arguments. Initializers should return either ``0`` on success or ``-1`` on error."
 msgstr ""
 
 #: ../../extending/newtypes.rst:397

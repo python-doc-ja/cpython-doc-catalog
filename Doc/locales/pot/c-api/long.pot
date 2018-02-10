@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-30 12:25+0900\n"
+"POT-Creation-Date: 2018-02-10 12:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,7 +117,7 @@ msgstr ""
 #: ../../c-api/long.rst:200
 #: ../../c-api/long.rst:262
 #: ../../c-api/long.rst:274
-msgid "Returns -1 on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
+msgid "Returns ``-1`` on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 #: ../../c-api/long.rst:149
@@ -206,7 +206,7 @@ msgid "Raise :exc:`OverflowError` if the value of *pylong* is out of range for a
 msgstr ""
 
 #: ../../c-api/long.rst:285
-msgid "Returns -1.0 on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
+msgid "Returns ``-1.0`` on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 #: ../../c-api/long.rst:290
@@ -214,6 +214,6 @@ msgid "Convert a Python integer *pylong* to a C :c:type:`void` pointer. If *pylo
 msgstr ""
 
 #: ../../c-api/long.rst:295
-msgid "Returns NULL on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
+msgid "Returns *NULL* on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
