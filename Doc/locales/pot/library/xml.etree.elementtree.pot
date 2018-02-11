@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-02-11 12:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,7 +178,7 @@ msgid "Parsing XML with Namespaces"
 msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:272
-msgid "If the XML input has `namespaces <https://en.wikipedia.org/wiki/XML_namespace>`__, tags and attributes with prefixes in the form ``prefix:sometag`` get expanded to ``{uri}sometag`` where the *prefix* is replaced by the full *URI*. Also, if there is a `default namespace <https://www.w3.org/TR/2006/REC-xml-names-20060816/#defaulting>`__, that full URI gets prepended to all of the non-prefixed tags."
+msgid "If the XML input has `namespaces <https://en.wikipedia.org/wiki/XML_namespace>`__, tags and attributes with prefixes in the form ``prefix:sometag`` get expanded to ``{uri}sometag`` where the *prefix* is replaced by the full *URI*. Also, if there is a `default namespace <https://www.w3.org/TR/xml-names/#defaulting>`__, that full URI gets prepended to all of the non-prefixed tags."
 msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:280
