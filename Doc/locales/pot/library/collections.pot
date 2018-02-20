@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-05 12:29+0900\n"
+"POT-Creation-Date: 2018-02-20 12:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgid "Remove and return an element from the left side of the deque. If no eleme
 msgstr ""
 
 #: ../../library/collections.rst:303
-msgid "Removed the first occurrence of *value*.  If not found, raises a :exc:`ValueError`."
+msgid "Remove the first occurrence of *value*.  If not found, raises a :exc:`ValueError`."
 msgstr ""
 
 #: ../../library/collections.rst:310
