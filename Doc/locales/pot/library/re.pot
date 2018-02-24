@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-02-24 12:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -704,10 +704,6 @@ msgstr ""
 
 #: ../../library/re.rst:799
 msgid "Unknown escapes in *pattern* consisting of ``'\\'`` and an ASCII letter now are errors."
-msgstr ""
-
-#: ../../library/re.rst:805
-msgid "Deprecated since version 3.5, will be removed in version 3.7: Unknown escapes in repl consisting of '\\' and an ASCII letter now raise a deprecation warning and will be forbidden in Python 3.7."
 msgstr ""
 
 #: ../../library/re.rst:805
