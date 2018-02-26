@@ -52,6 +52,11 @@
 #include <sys/poll.h>
 #endif
 
+#ifndef MS_WINDOWS
+/* inet_pton */
+#include <arpa/inet.h>
+#endif
+
 /* Don't warn about deprecated functions */
 #ifdef __GNUC__
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
@@ -118,8 +123,26 @@ struct py_ssl_library_code {
 #endif
 
 /* ALPN added in OpenSSL 1.0.2 */
-#if !defined(LIBRESSL_VERSION_NUMBER) && OPENSSL_VERSION_NUMBER >= 0x1000200fL && !defined(OPENSSL_NO_TLSEXT)
-# define HAVE_ALPN
+#ifdef TLSEXT_TYPE_application_layer_protocol_negotiation
+# define HAVE_ALPN 1
+#else
+# define HAVE_ALPN 0
+#endif
+
+/* We cannot rely on OPENSSL_NO_NEXTPROTONEG because LibreSSL 2.6.1 dropped
+ * NPN support but did not set OPENSSL_NO_NEXTPROTONEG for compatibility
+ * reasons. The check for TLSEXT_TYPE_next_proto_neg works with
+ * OpenSSL 1.0.1+ and LibreSSL.
+ * OpenSSL 1.1.1-pre1 dropped NPN but still has TLSEXT_TYPE_next_proto_neg.
+ */
+#ifdef OPENSSL_NO_NEXTPROTONEG
+# define HAVE_NPN 0
+#elif (OPENSSL_VERSION_NUMBER >= 0x10101000L) && !defined(LIBRESSL_VERSION_NUMBER)
+# define HAVE_NPN 0
+#elif defined(TLSEXT_TYPE_next_proto_neg)
+# define HAVE_NPN 1
+#else
+# define HAVE_NPN 0
 #endif
 
 #ifndef INVALID_SOCKET /* MS defines this */
@@ -280,11 +303,11 @@ static unsigned int _ssl_locks_count = 0;
 typedef struct {
     PyObject_HEAD
     SSL_CTX *ctx;
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
     unsigned char *npn_protocols;
     int npn_protocols_len;
 #endif
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     unsigned char *alpn_protocols;
     int alpn_protocols_len;
 #endif
@@ -575,8 +598,42 @@ newPySSLSocket(PySSLContext *sslctx, PySocketSockObject *sock,
     SSL_set_mode(self->ssl, mode);
 
 #if HAVE_SNI
-    if (server_hostname != NULL)
-        SSL_set_tlsext_host_name(self->ssl, server_hostname);
+    if (server_hostname != NULL) {
+/* Don't send SNI for IP addresses. We cannot simply use inet_aton() and
+ * inet_pton() here. inet_aton() may be linked weakly and inet_pton() isn't
+ * available on all platforms. Use OpenSSL's IP address parser. It's
+ * available since 1.0.2 and LibreSSL since at least 2.3.0. */
+        int send_sni = 1;
+#if OPENSSL_VERSION_NUMBER >= 0x10200000L
+        ASN1_OCTET_STRING *ip = a2i_IPADDRESS(server_hostname);
+        if (ip == NULL) {
+            send_sni = 1;
+            ERR_clear_error();
+        } else {
+            send_sni = 0;
+            ASN1_OCTET_STRING_free(ip);
+        }
+#elif defined(HAVE_INET_PTON)
+#ifdef ENABLE_IPV6
+	#define PySSL_MAX(x, y) (((x) > (y)) ? (x) : (y))
+        char packed[PySSL_MAX(sizeof(struct in_addr), sizeof(struct in6_addr))];
+#else
+        char packed[sizeof(struct in_addr)];
+#endif /* ENABLE_IPV6 */
+        if (inet_pton(AF_INET, server_hostname, packed)) {
+            send_sni = 0;
+#ifdef ENABLE_IPV6
+        } else if(inet_pton(AF_INET6, server_hostname, packed)) {
+            send_sni = 0;
+#endif /* ENABLE_IPV6 */
+        } else {
+            send_sni = 1;
+        }
+#endif /* HAVE_INET_PTON */
+        if (send_sni) {
+            SSL_set_tlsext_host_name(self->ssl, server_hostname);
+        }
+    }
 #endif
 
     /* If the socket is in non-blocking mode or timeout mode, set the BIO
@@ -1534,7 +1591,7 @@ static PyObject *PySSL_selected_npn_protocol(PySSLSocket *self) {
 }
 #endif
 
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
 static PyObject *PySSL_selected_alpn_protocol(PySSLSocket *self) {
     const unsigned char *out;
     unsigned int outlen;
@@ -2051,7 +2108,7 @@ static PyMethodDef PySSLMethods[] = {
 #ifdef OPENSSL_NPN_NEGOTIATED
     {"selected_npn_protocol", (PyCFunction)PySSL_selected_npn_protocol, METH_NOARGS},
 #endif
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     {"selected_alpn_protocol", (PyCFunction)PySSL_selected_alpn_protocol, METH_NOARGS},
 #endif
     {"compression", (PyCFunction)PySSL_compression, METH_NOARGS},
@@ -2157,10 +2214,10 @@ context_new(PyTypeObject *type, PyObject *args, PyObject *kwds)
         return NULL;
     }
     self->ctx = ctx;
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
     self->npn_protocols = NULL;
 #endif
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     self->alpn_protocols = NULL;
 #endif
 #ifndef OPENSSL_NO_TLSEXT
@@ -2235,10 +2292,10 @@ context_dealloc(PySSLContext *self)
     PyObject_GC_UnTrack(self);
     context_clear(self);
     SSL_CTX_free(self->ctx);
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
     PyMem_FREE(self->npn_protocols);
 #endif
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     PyMem_FREE(self->alpn_protocols);
 #endif
     Py_TYPE(self)->tp_free(self);
@@ -2265,7 +2322,7 @@ set_ciphers(PySSLContext *self, PyObject *args)
     Py_RETURN_NONE;
 }
 
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG) || defined(HAVE_ALPN)
+#if HAVE_NPN || HAVE_ALPN
 static int
 do_protocol_selection(int alpn, unsigned char **out, unsigned char *outlen,
                       const unsigned char *server_protocols, unsigned int server_protocols_len,
@@ -2291,7 +2348,7 @@ do_protocol_selection(int alpn, unsigned char **out, unsigned char *outlen,
 }
 #endif
 
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
 /* this callback gets passed to SSL_CTX_set_next_protos_advertise_cb */
 static int
 _advertiseNPN_cb(SSL *s,
@@ -2326,7 +2383,7 @@ _selectNPN_cb(SSL *s,
 static PyObject *
 _set_npn_protocols(PySSLContext *self, PyObject *args)
 {
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
     Py_buffer protos;
 
     if (!PyArg_ParseTuple(args, "s*:set_npn_protocols", &protos))
@@ -2362,7 +2419,7 @@ _set_npn_protocols(PySSLContext *self, PyObject *args)
 #endif
 }
 
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
 static int
 _selectALPN_cb(SSL *s,
               const unsigned char **out, unsigned char *outlen,
@@ -2379,7 +2436,7 @@ _selectALPN_cb(SSL *s,
 static PyObject *
 _set_alpn_protocols(PySSLContext *self, PyObject *args)
 {
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     Py_buffer protos;
 
     if (!PyArg_ParseTuple(args, "s*:set_npn_protocols", &protos))
@@ -2983,13 +3040,25 @@ load_dh_params(PySSLContext *self, PyObject *filepath)
 {
     BIO *bio;
     DH *dh;
-    char *path = PyBytes_AsString(filepath);
-    if (!path) {
-        return NULL;
+    PyObject *filepath_bytes = NULL;
+
+    if (PyString_Check(filepath)) {
+        Py_INCREF(filepath);
+        filepath_bytes = filepath;
+    } else {
+        PyObject *u = PyUnicode_FromObject(filepath);
+        if (!u)
+            return NULL;
+        filepath_bytes = PyUnicode_AsEncodedString(
+            u, Py_FileSystemDefaultEncoding, NULL);
+        Py_DECREF(u);
+        if (!filepath_bytes)
+            return NULL;
     }
 
-    bio = BIO_new_file(path, "r");
+    bio = BIO_new_file(PyBytes_AS_STRING(filepath_bytes), "r");
     if (bio == NULL) {
+        Py_DECREF(filepath_bytes);
         ERR_clear_error();
         PyErr_SetFromErrnoWithFilenameObject(PyExc_IOError, filepath);
         return NULL;
@@ -2998,6 +3067,7 @@ load_dh_params(PySSLContext *self, PyObject *filepath)
     PySSL_BEGIN_ALLOW_THREADS
     dh = PEM_read_bio_DHparams(bio, NULL, NULL, NULL);
     BIO_free(bio);
+    Py_DECREF(filepath_bytes);
     PySSL_END_ALLOW_THREADS
     if (dh == NULL) {
         if (errno != 0) {
@@ -4322,7 +4392,7 @@ init_ssl(void)
     Py_INCREF(r);
     PyModule_AddObject(m, "HAS_ECDH", r);
 
-#if defined(OPENSSL_NPN_NEGOTIATED) && !defined(OPENSSL_NO_NEXTPROTONEG)
+#if HAVE_NPN
     r = Py_True;
 #else
     r = Py_False;
@@ -4330,7 +4400,7 @@ init_ssl(void)
     Py_INCREF(r);
     PyModule_AddObject(m, "HAS_NPN", r);
 
-#ifdef HAVE_ALPN
+#if HAVE_ALPN
     r = Py_True;
 #else
     r = Py_False;
