@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-02-26 12:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Here are two ways to write a table of squares and cubes::"
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:103
-msgid "(Note that in the first example, one space between each column was added by the way :keyword:`print` works: it always adds spaces between its arguments.)"
+msgid "(Note that in the first example, one space between each column was added by the way :keyword:`print` works: by default it adds spaces between its arguments.)"
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:106
