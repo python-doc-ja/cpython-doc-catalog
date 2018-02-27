@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 12:29+0900\n"
+"POT-Creation-Date: 2018-02-27 12:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -898,7 +898,7 @@ msgid "(``__file__``)"
 msgstr ""
 
 #: ../../library/importlib.rst:1077
-msgid "Name of the place from which the module is loaded, e.g. \"builtin\" for built-in modules and the filename for modules loaded from source. Normally \"origin\" should be set, but it may be ``None`` (the default) which indicates it is unspecified (e.g. for namespace packages)."
+msgid "Name of the place from which the module is loaded, e.g. \"builtin\" for built-in modules and the filename for modules loaded from source. Normally \"origin\" should be set, but it may be ``None`` (the default) which indicates it is unspecified."
 msgstr ""
 
 #: ../../library/importlib.rst:1084
