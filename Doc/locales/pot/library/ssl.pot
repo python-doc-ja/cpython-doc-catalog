@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-26 12:43+0900\n"
+"POT-Creation-Date: 2018-03-11 12:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1158,7 +1158,7 @@ msgid "This method will raise :exc:`NotImplementedError` if the OpenSSL library 
 msgstr ""
 
 #: ../../library/ssl.rst:1542
-msgid "Load the key generation parameters for Diffie-Helman (DH) key exchange. Using DH key exchange improves forward secrecy at the expense of computational resources (both on the server and on the client). The *dhfile* parameter should be the path to a file containing DH parameters in PEM format."
+msgid "Load the key generation parameters for Diffie-Hellman (DH) key exchange. Using DH key exchange improves forward secrecy at the expense of computational resources (both on the server and on the client). The *dhfile* parameter should be the path to a file containing DH parameters in PEM format."
 msgstr ""
 
 #: ../../library/ssl.rst:1548
@@ -1699,7 +1699,7 @@ msgid "`SSL/TLS Strong Encryption: An Introduction <https://httpd.apache.org/doc
 msgstr ""
 
 #: ../../library/ssl.rst:2346
-msgid "Intro from the Apache webserver documentation"
+msgid "Intro from the Apache HTTP Server documentation"
 msgstr ""
 
 #: ../../library/ssl.rst:2349
