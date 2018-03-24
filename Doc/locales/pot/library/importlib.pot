@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-27 12:47+0900\n"
+"POT-Creation-Date: 2018-03-24 12:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -704,7 +704,7 @@ msgid "An :term:`importer` for frozen modules. This class implements the :class:
 msgstr ""
 
 #: ../../library/importlib.rst:801
-msgid ":term:`Finder` for modules declared in the Windows registry.  This class implements the :class:`importlib.abc.Finder` ABC."
+msgid ":term:`Finder` for modules declared in the Windows registry.  This class implements the :class:`importlib.abc.MetaPathFinder` ABC."
 msgstr ""
 
 #: ../../library/importlib.rst:809
