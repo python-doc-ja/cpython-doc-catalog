@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-25 12:23+0900\n"
+"POT-Creation-Date: 2018-04-03 12:57+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2030,7 +2030,7 @@ msgid "When *topdown* is ``True``, the caller can modify the *dirnames* list in-
 msgstr ""
 
 #: ../../library/os.rst:2728
-msgid "By default, errors from the :func:`listdir` call are ignored.  If optional argument *onerror* is specified, it should be a function; it will be called with one argument, an :exc:`OSError` instance.  It can report the error to continue with the walk, or raise the exception to abort the walk.  Note that the filename is available as the ``filename`` attribute of the exception object."
+msgid "By default, errors from the :func:`scandir` call are ignored.  If optional argument *onerror* is specified, it should be a function; it will be called with one argument, an :exc:`OSError` instance.  It can report the error to continue with the walk, or raise the exception to abort the walk.  Note that the filename is available as the ``filename`` attribute of the exception object."
 msgstr ""
 
 #: ../../library/os.rst:2734
