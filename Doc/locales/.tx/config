@@ -511,6 +511,12 @@ source_file = pot/extending/windows.pot
 source_lang = en
 type = PO
 
+[python-36.extending--newtypes_tutorial]
+file_filter = <lang>/LC_MESSAGES/extending/newtypes_tutorial.po
+source_file = pot/extending/newtypes_tutorial.pot
+source_lang = en
+type = PO
+
 [python-36.faq--design]
 file_filter = <lang>/LC_MESSAGES/faq/design.po
 source_file = pot/faq/design.pot
