@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-04-21 13:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,7 +108,7 @@ msgid "Print the textual representation of the message object structure rooted a
 msgstr ""
 
 #: ../../library/email.generator.rst:182
-msgid "If the :mod:`~email.policy` option :attr:`~email.policy.Policy.cte_type` is ``8bit``, generate the message as if the option were set to ``7bit``. (This is required because strings cannot represent non-ASCII bytes.) Convert any bytes with the high bit set as needed using an ASCII-compatible :mailheader:`Content-Transfer-Encoding`.  That is, transform parts with non-ASCII :mailheader:`Cotnent-Transfer-Encoding` (:mailheader:`Content-Transfer-Encoding: 8bit`) to an ASCII compatibile :mailheader:`Content-Transfer-Encoding`, and encode RFC-invalid non-ASCII bytes in headers using the MIME ``unknown-8bit`` character set, thus rendering them RFC-compliant."
+msgid "If the :mod:`~email.policy` option :attr:`~email.policy.Policy.cte_type` is ``8bit``, generate the message as if the option were set to ``7bit``. (This is required because strings cannot represent non-ASCII bytes.) Convert any bytes with the high bit set as needed using an ASCII-compatible :mailheader:`Content-Transfer-Encoding`.  That is, transform parts with non-ASCII :mailheader:`Cotnent-Transfer-Encoding` (:mailheader:`Content-Transfer-Encoding: 8bit`) to an ASCII compatible :mailheader:`Content-Transfer-Encoding`, and encode RFC-invalid non-ASCII bytes in headers using the MIME ``unknown-8bit`` character set, thus rendering them RFC-compliant."
 msgstr ""
 
 #: ../../library/email.generator.rst:205
