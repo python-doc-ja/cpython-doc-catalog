@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-18 13:04+0900\n"
+"POT-Creation-Date: 2018-04-22 13:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1050,31 +1050,35 @@ msgstr ""
 msgid "The image object can then be used wherever an ``image`` option is supported by some widget (e.g. labels, buttons, menus). In these cases, Tk will not keep a reference to the image. When the last Python reference to the image object is deleted, the image data is deleted as well, and Tk will display an empty box wherever the image was used."
 msgstr ""
 
-#: ../../library/tkinter.rst:807
+#: ../../library/tkinter.rst:805
+msgid "The `Pillow <http://python-pillow.org/>`_ package adds support for formats such as BMP, JPEG, TIFF, and WebP, among others."
+msgstr ""
+
+#: ../../library/tkinter.rst:811
 msgid "File Handlers"
 msgstr ""
 
-#: ../../library/tkinter.rst:809
+#: ../../library/tkinter.rst:813
 msgid "Tk allows you to register and unregister a callback function which will be called from the Tk mainloop when I/O is possible on a file descriptor. Only one handler may be registered per file descriptor. Example code::"
 msgstr ""
 
-#: ../../library/tkinter.rst:820
+#: ../../library/tkinter.rst:824
 msgid "This feature is not available on Windows."
 msgstr ""
 
-#: ../../library/tkinter.rst:822
+#: ../../library/tkinter.rst:826
 msgid "Since you don't know how many bytes are available for reading, you may not want to use the :class:`~io.BufferedIOBase` or :class:`~io.TextIOBase` :meth:`~io.BufferedIOBase.read` or :meth:`~io.IOBase.readline` methods, since these will insist on reading a predefined number of bytes. For sockets, the :meth:`~socket.socket.recv` or :meth:`~socket.socket.recvfrom` methods will work fine; for other files, use raw reads or ``os.read(file.fileno(), maxbytecount)``."
 msgstr ""
 
-#: ../../library/tkinter.rst:833
+#: ../../library/tkinter.rst:837
 msgid "Registers the file handler callback function *func*. The *file* argument may either be an object with a :meth:`~io.IOBase.fileno` method (such as a file or socket object), or an integer file descriptor. The *mask* argument is an ORed combination of any of the three constants below. The callback is called as follows::"
 msgstr ""
 
-#: ../../library/tkinter.rst:844
+#: ../../library/tkinter.rst:848
 msgid "Unregisters a file handler."
 msgstr ""
 
-#: ../../library/tkinter.rst:851
+#: ../../library/tkinter.rst:855
 msgid "Constants used in the *mask* arguments."
 msgstr ""
 
