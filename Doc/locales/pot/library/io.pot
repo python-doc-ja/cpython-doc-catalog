@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-15 13:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -713,7 +713,7 @@ msgid "On input, if *newline* is ``None``, :term:`universal newlines` mode is en
 msgstr ""
 
 #: ../../library/io.rst:811
-msgid "If *line_buffering* is ``True``, :meth:`flush` is implied when a call to write contains a newline character."
+msgid "If *line_buffering* is ``True``, :meth:`flush` is implied when a call to write contains a newline character or a carriage return."
 msgstr ""
 
 #: ../../library/io.rst:814
