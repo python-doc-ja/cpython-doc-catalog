@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "In a world of graphical displays, one might ask \"why bother\"?  It's tru
 msgstr ""
 
 #: ../../howto/curses.rst:36
-msgid "The curses library provides fairly basic functionality, providing the programmer with an abstraction of a display containing multiple non-overlapping windows of text.  The contents of a window can be changed in various ways---adding text, erasing it, changing its appearance---and the curses library will figure out what control codes need to be sent to the terminal to produce the right output.  curses doesn't provide many user-interface concepts such as buttons, checkboxes, or dialogs; if you need such features, consider a user interface library such as `Urwid <https://pypi.python.org/pypi/urwid/>`_."
+msgid "The curses library provides fairly basic functionality, providing the programmer with an abstraction of a display containing multiple non-overlapping windows of text.  The contents of a window can be changed in various ways---adding text, erasing it, changing its appearance---and the curses library will figure out what control codes need to be sent to the terminal to produce the right output.  curses doesn't provide many user-interface concepts such as buttons, checkboxes, or dialogs; if you need such features, consider a user interface library such as `Urwid <https://pypi.org/project/urwid/>`_."
 msgstr ""
 
 #: ../../howto/curses.rst:46
@@ -61,7 +61,7 @@ msgid "The curses library was originally written for BSD Unix; the later System 
 msgstr ""
 
 #: ../../howto/curses.rst:56
-msgid "The Windows version of Python doesn't include the :mod:`curses` module.  A ported version called `UniCurses <https://pypi.python.org/pypi/UniCurses>`_ is available.  You could also try `the Console module <http://effbot.org/zone/console-index.htm>`_ written by Fredrik Lundh, which doesn't use the same API as curses but provides cursor-addressable text output and full support for mouse and keyboard input."
+msgid "The Windows version of Python doesn't include the :mod:`curses` module.  A ported version called `UniCurses <https://pypi.org/project/UniCurses>`_ is available.  You could also try `the Console module <http://effbot.org/zone/console-index.htm>`_ written by Fredrik Lundh, which doesn't use the same API as curses but provides cursor-addressable text output and full support for mouse and keyboard input."
 msgstr ""
 
 #: ../../howto/curses.rst:66
@@ -358,7 +358,7 @@ msgid "User Input"
 msgstr ""
 
 #: ../../howto/curses.rst:433
-msgid "The C curses library offers only very simple input mechanisms. Python's :mod:`curses` module adds a basic text-input widget.  (Other libraries such as `Urwid <https://pypi.python.org/pypi/urwid/>`_ have more extensive collections of widgets.)"
+msgid "The C curses library offers only very simple input mechanisms. Python's :mod:`curses` module adds a basic text-input widget.  (Other libraries such as `Urwid <https://pypi.org/project/urwid/>`_ have more extensive collections of widgets.)"
 msgstr ""
 
 #: ../../howto/curses.rst:438

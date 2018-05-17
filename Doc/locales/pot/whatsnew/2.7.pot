@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1151,7 +1151,7 @@ msgid "Updated module: unittest"
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:1826
-msgid "The :mod:`unittest` module was greatly enhanced; many new features were added.  Most of these features were implemented by Michael Foord, unless otherwise noted.  The enhanced version of the module is downloadable separately for use with Python versions 2.4 to 2.6, packaged as the :mod:`unittest2` package, from https://pypi.python.org/pypi/unittest2."
+msgid "The :mod:`unittest` module was greatly enhanced; many new features were added.  Most of these features were implemented by Michael Foord, unless otherwise noted.  The enhanced version of the module is downloadable separately for use with Python versions 2.4 to 2.6, packaged as the :mod:`unittest2` package, from https://pypi.org/project/unittest2."
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:1833

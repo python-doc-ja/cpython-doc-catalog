@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -790,7 +790,7 @@ msgid "New :class:`~collections.abc.Awaitable`, :class:`~collections.abc.Corouti
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:953
-msgid "For earlier Python versions, a backport of the new ABCs is available in an external `PyPI package <https://pypi.python.org/pypi/backports_abc>`_."
+msgid "For earlier Python versions, a backport of the new ABCs is available in an external `PyPI package <https://pypi.org/project/backports_abc>`_."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:958

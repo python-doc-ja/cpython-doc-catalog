@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Mock is very easy to use and is designed for use with :mod:`unittest`. Mo
 msgstr ""
 
 #: ../../library/unittest.mock.rst:37
-msgid "There is a backport of :mod:`unittest.mock` for earlier versions of Python, available as `mock on PyPI <https://pypi.python.org/pypi/mock>`_."
+msgid "There is a backport of :mod:`unittest.mock` for earlier versions of Python, available as `mock on PyPI <https://pypi.org/project/mock>`_."
 msgstr ""
 
 #: ../../library/unittest.mock.rst:42
@@ -1221,7 +1221,7 @@ msgid "The *mock* argument is the mock object to configure. If ``None`` (the def
 msgstr ""
 
 #: ../../library/unittest.mock.rst:2079
-msgid "*read_data* is a string for the :meth:`~io.IOBase.read`, :meth:`~io.IOBase.readline`, and :meth:`~io.IOBase.readlines` methods of the file handle to return.  Calls to those methods will take data from *read_data* until it is depleted.  The mock of these methods is pretty simplistic: every time the *mock* is called, the *read_data* is rewound to the start.  If you need more control over the data that you are feeding to the tested code you will need to customize this mock for yourself.  When that is insufficient, one of the in-memory filesystem packages on `PyPI <https://pypi.python.org/pypi>`_ can offer a realistic filesystem for testing."
+msgid "*read_data* is a string for the :meth:`~io.IOBase.read`, :meth:`~io.IOBase.readline`, and :meth:`~io.IOBase.readlines` methods of the file handle to return.  Calls to those methods will take data from *read_data* until it is depleted.  The mock of these methods is pretty simplistic: every time the *mock* is called, the *read_data* is rewound to the start.  If you need more control over the data that you are feeding to the tested code you will need to customize this mock for yourself.  When that is insufficient, one of the in-memory filesystem packages on `PyPI <https://pypi.org>`_ can offer a realistic filesystem for testing."
 msgstr ""
 
 #: ../../library/unittest.mock.rst:2089
