@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,7 @@ msgid "Another new keyword parameter is ``download_url``, which should be set to
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:231
-msgid "Another new enhancement to the Python package index at https://pypi.python.org is storing source and binary archives for a package.  The new :command:`upload` Distutils command will upload a package to the repository."
+msgid "Another new enhancement to the Python package index at https://pypi.org is storing source and binary archives for a package.  The new :command:`upload` Distutils command will upload a package to the repository."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:236

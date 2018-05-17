@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Check :ref:`the Library Reference <library-index>` to see if there's a re
 msgstr ""
 
 #: ../../faq/library.rst:21
-msgid "For third-party packages, search the `Python Package Index <https://pypi.python.org/pypi>`_ or try `Google <https://www.google.com>`_ or another Web search engine.  Searching for \"Python\" plus a keyword or two for your topic of interest will usually find something helpful."
+msgid "For third-party packages, search the `Python Package Index <https://pypi.org>`_ or try `Google <https://www.google.com>`_ or another Web search engine.  Searching for \"Python\" plus a keyword or two for your topic of interest will usually find something helpful."
 msgstr ""
 
 #: ../../faq/library.rst:28
@@ -401,7 +401,7 @@ msgid "In many cases, all you really need is to run some data through a command 
 msgstr ""
 
 #: ../../faq/library.rst:583
-msgid "Note that many interactive programs (e.g. vi) don't work well with pipes substituted for standard input and output.  You will have to use pseudo ttys (\"ptys\") instead of pipes. Or you can use a Python interface to Don Libes' \"expect\" library.  A Python extension that interfaces to expect is called \"expy\" and available from http://expectpy.sourceforge.net.  A pure Python solution that works like expect is `pexpect <https://pypi.python.org/pypi/pexpect/>`_."
+msgid "Note that many interactive programs (e.g. vi) don't work well with pipes substituted for standard input and output.  You will have to use pseudo ttys (\"ptys\") instead of pipes. Or you can use a Python interface to Don Libes' \"expect\" library.  A Python extension that interfaces to expect is called \"expy\" and available from http://expectpy.sourceforge.net.  A pure Python solution that works like expect is `pexpect <https://pypi.org/project/pexpect/>`_."
 msgstr ""
 
 #: ../../faq/library.rst:592

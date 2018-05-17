@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -398,7 +398,7 @@ msgid "Support for the long-requested Python catalog makes its first appearance 
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:658
-msgid "The heart of the catalog is the new Distutils :command:`register` command. Running ``python setup.py register`` will collect the metadata describing a package, such as its name, version, maintainer, description, &c., and send it to a central catalog server.  The resulting catalog is available from https://pypi.python.org/pypi."
+msgid "The heart of the catalog is the new Distutils :command:`register` command. Running ``python setup.py register`` will collect the metadata describing a package, such as its name, version, maintainer, description, &c., and send it to a central catalog server.  The resulting catalog is available from https://pypi.org."
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:664

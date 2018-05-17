@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1083,7 +1083,7 @@ msgid "Applications that can't bear such ambiguities should avoid using hybrid :
 msgstr ""
 
 #: ../../library/datetime.rst:1574
-msgid "`pytz <https://pypi.python.org/pypi/pytz/>`_"
+msgid "`pytz <https://pypi.org/project/pytz/>`_"
 msgstr ""
 
 #: ../../library/datetime.rst:1570

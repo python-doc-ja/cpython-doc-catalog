@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-17 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,7 +213,7 @@ msgid "A list of categories for the package"
 msgstr ""
 
 #: ../../distutils/apiref.rst:80
-msgid "a list of strings; valid classifiers are listed on `PyPI <https://pypi.python.org/pypi?:action=list_classifiers>`_."
+msgid "a list of strings; valid classifiers are listed on `PyPI <https://pypi.org/classifiers>`_."
 msgstr ""
 
 #: ../../distutils/apiref.rst:83
