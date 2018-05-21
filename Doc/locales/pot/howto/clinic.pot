@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 13:00+0900\n"
+"POT-Creation-Date: 2018-05-21 13:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Argument Clinic is a preprocessor for CPython C files. Its purpose is to 
 msgstr ""
 
 #: ../../howto/clinic.rst:19
-msgid "Currently Argument Clinic is considered internal-only for CPython.  Its use is not supported for files outside CPython, and no guarantees are made regarding backwards compatibility for future versions.  In other words: if you maintain an external C extension for CPython, you're welcome to experiment with Argument Clinic in your own code.  But the version of Argument Clinic that ships with CPython 3.5 *could* be totally incompatible and break all your code."
+msgid "Currently Argument Clinic is considered internal-only for CPython.  Its use is not supported for files outside CPython, and no guarantees are made regarding backwards compatibility for future versions.  In other words: if you maintain an external C extension for CPython, you're welcome to experiment with Argument Clinic in your own code.  But the version of Argument Clinic that ships with the next version of CPython *could* be totally incompatible and break all your code."
 msgstr ""
 
 #: ../../howto/clinic.rst:29
