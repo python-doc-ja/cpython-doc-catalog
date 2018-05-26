@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-05-26 13:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -857,7 +857,7 @@ msgid "Lambdas"
 msgstr ""
 
 #: ../../reference/expressions.rst:1391
-msgid "Lambda expressions (sometimes called lambda forms) have the same syntactic position as expressions.  They are a shorthand to create anonymous functions; the expression ``lambda arguments: expression`` yields a function object.  The unnamed object behaves like a function object defined with ::"
+msgid "Lambda expressions (sometimes called lambda forms) have the same syntactic position as expressions.  They are a shorthand to create anonymous functions; the expression ``lambda parameters: expression`` yields a function object.  The unnamed object behaves like a function object defined with ::"
 msgstr ""
 
 #: ../../reference/expressions.rst:1399
