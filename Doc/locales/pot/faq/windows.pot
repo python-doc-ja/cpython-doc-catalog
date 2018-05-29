@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 13:00+0900\n"
+"POT-Creation-Date: 2018-05-29 13:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,12 +20,20 @@ msgstr ""
 msgid "Python on Windows FAQ"
 msgstr ""
 
+#: ../../faq/windows.rst:12
+msgid "Contents"
+msgstr ""
+
 #: ../../faq/windows.rst:20
 msgid "How do I run a Python program under Windows?"
 msgstr ""
 
 #: ../../faq/windows.rst:22
 msgid "This is not necessarily a straightforward question. If you are already familiar with running programs from the Windows command line then everything will seem obvious; otherwise, you might need a little more guidance."
+msgstr ""
+
+#: ../../faq/windows.rst:None
+msgid "|Python Development on XP|_"
 msgstr ""
 
 #: ../../faq/windows.rst:29
@@ -70,6 +78,10 @@ msgstr ""
 
 #: ../../faq/windows.rst:106
 msgid "If the ``python`` command, instead of displaying the interpreter prompt ``>>>``, gives you a message like::"
+msgstr ""
+
+#: ../../faq/windows.rst:None
+msgid "|Adding Python to DOS Path|_"
 msgstr ""
 
 #: ../../faq/windows.rst:114

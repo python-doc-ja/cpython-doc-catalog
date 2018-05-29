@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-21 13:20+0900\n"
+"POT-Creation-Date: 2018-05-29 13:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../howto/clinic.rst:7
 msgid "Larry Hastings"
+msgstr ""
+
+#: ../../howto/clinic.rst:None
+msgid "Abstract"
 msgstr ""
 
 #: ../../howto/clinic.rst:12
