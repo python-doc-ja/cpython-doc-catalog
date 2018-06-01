@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-08 10:51+0900\n"
+"POT-Creation-Date: 2018-06-01 13:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -425,7 +425,7 @@ msgid "The useful mapping keys in a :class:`LogRecord` are given in the section 
 msgstr ""
 
 #: ../../library/logging.rst:515
-msgid "Returns a new instance of the :class:`Formatter` class.  The instance is initialized with a format string for the message as a whole, as well as a format string for the date/time portion of a message.  If no *fmt* is specified, ``'%(message)s'`` is used.  If no *datefmt* is specified, an ISO8601-like (or RFC3339-like) date format is used. See the :meth:`formatTime` documentation for more details."
+msgid "Returns a new instance of the :class:`Formatter` class.  The instance is initialized with a format string for the message as a whole, as well as a format string for the date/time portion of a message.  If no *fmt* is specified, ``'%(message)s'`` is used.  If no *datefmt* is specified, an ISO8601-like (or :rfc:`3339`-like) date format is used. See the :meth:`formatTime` documentation for more details."
 msgstr ""
 
 #: ../../library/logging.rst:522
