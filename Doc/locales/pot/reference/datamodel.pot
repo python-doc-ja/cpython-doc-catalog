@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-21 13:20+0900\n"
+"POT-Creation-Date: 2018-06-03 13:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -598,7 +598,7 @@ msgid "Custom class types are typically created by class definitions (see sectio
 msgstr ""
 
 #: ../../reference/datamodel.rst:763
-msgid "When a class attribute reference (for class :class:`C`, say) would yield a class method object, it is transformed into an instance method object whose :attr:`__self__` attributes is :class:`C`.  When it would yield a static method object, it is transformed into the object wrapped by the static method object. See section :ref:`descriptors` for another way in which attributes retrieved from a class may differ from those actually contained in its :attr:`~object.__dict__`."
+msgid "When a class attribute reference (for class :class:`C`, say) would yield a class method object, it is transformed into an instance method object whose :attr:`__self__` attribute is :class:`C`.  When it would yield a static method object, it is transformed into the object wrapped by the static method object. See section :ref:`descriptors` for another way in which attributes retrieved from a class may differ from those actually contained in its :attr:`~object.__dict__`."
 msgstr ""
 
 #: ../../reference/datamodel.rst:773
