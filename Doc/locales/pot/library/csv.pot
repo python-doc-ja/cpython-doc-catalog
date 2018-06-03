@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-08 12:29+0900\n"
+"POT-Creation-Date: 2018-06-03 13:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -280,62 +280,62 @@ msgid "Write the *row* parameter to the writer's file object, formatted accordin
 msgstr ""
 
 #: ../../library/csv.rst:456
-msgid "Write all the *rows* parameters (a list of *row* objects as described above) to the writer's file object, formatted according to the current dialect."
+msgid "Write all elements in *rows* (an iterable of *row* objects as described above) to the writer's file object, formatted according to the current dialect."
 msgstr ""
 
-#: ../../library/csv.rst:459
+#: ../../library/csv.rst:460
 msgid "Writer objects have the following public attribute:"
 msgstr ""
 
-#: ../../library/csv.rst:464
+#: ../../library/csv.rst:465
 msgid "A read-only description of the dialect in use by the writer."
 msgstr ""
 
-#: ../../library/csv.rst:467
+#: ../../library/csv.rst:468
 msgid "DictWriter objects have the following public method:"
 msgstr ""
 
-#: ../../library/csv.rst:472
+#: ../../library/csv.rst:473
 msgid "Write a row with the field names (as specified in the constructor)."
 msgstr ""
 
-#: ../../library/csv.rst:480
+#: ../../library/csv.rst:481
 msgid "Examples"
 msgstr ""
 
-#: ../../library/csv.rst:482
+#: ../../library/csv.rst:483
 msgid "The simplest example of reading a CSV file::"
 msgstr ""
 
-#: ../../library/csv.rst:490
+#: ../../library/csv.rst:491
 msgid "Reading a file with an alternate format::"
 msgstr ""
 
-#: ../../library/csv.rst:498
+#: ../../library/csv.rst:499
 msgid "The corresponding simplest possible writing example is::"
 msgstr ""
 
-#: ../../library/csv.rst:505
+#: ../../library/csv.rst:506
 msgid "Registering a new dialect::"
 msgstr ""
 
-#: ../../library/csv.rst:512
+#: ../../library/csv.rst:513
 msgid "A slightly more advanced use of the reader --- catching and reporting errors::"
 msgstr ""
 
-#: ../../library/csv.rst:524
+#: ../../library/csv.rst:525
 msgid "And while the module doesn't directly support parsing strings, it can easily be done::"
 msgstr ""
 
-#: ../../library/csv.rst:531
+#: ../../library/csv.rst:532
 msgid "The :mod:`csv` module doesn't directly support reading and writing Unicode, but it is 8-bit-clean save for some problems with ASCII NUL characters.  So you can write functions or classes that handle the encoding and decoding for you as long as you avoid encodings like UTF-16 that use NULs.  UTF-8 is recommended."
 msgstr ""
 
-#: ../../library/csv.rst:536
+#: ../../library/csv.rst:537
 msgid ":func:`unicode_csv_reader` below is a :term:`generator` that wraps :class:`csv.reader` to handle Unicode CSV data (a list of Unicode strings).  :func:`utf_8_encoder` is a :term:`generator` that encodes the Unicode strings as UTF-8, one string (or row) at a time.  The encoded strings are parsed by the CSV reader, and :func:`unicode_csv_reader` decodes the UTF-8-encoded cells back into Unicode::"
 msgstr ""
 
-#: ../../library/csv.rst:556
+#: ../../library/csv.rst:557
 msgid "For all other encodings the following :class:`UnicodeReader` and :class:`UnicodeWriter` classes can be used. They take an additional *encoding* parameter in their constructor and make sure that the data passes the real reader or writer encoded as UTF-8::"
 msgstr ""
 
