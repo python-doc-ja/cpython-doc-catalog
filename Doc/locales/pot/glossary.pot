@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-26 13:24+0900\n"
+"POT-Creation-Date: 2018-06-10 13:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -317,7 +317,7 @@ msgid "generator"
 msgstr ""
 
 #: ../../glossary.rst:293
-msgid "A function which returns an iterator.  It looks like a normal function except that it contains :keyword:`yield` statements for producing a series of values usable in a for-loop or that can be retrieved one at a time with the :func:`next` function. Each :keyword:`yield` temporarily suspends processing, remembering the location execution state (including local variables and pending try-statements).  When the generator resumes, it picks-up where it left-off (in contrast to functions which start fresh on every invocation)."
+msgid "A function which returns an iterator.  It looks like a normal function except that it contains :keyword:`yield` statements for producing a series of values usable in a for-loop or that can be retrieved one at a time with the :func:`next` function. Each :keyword:`yield` temporarily suspends processing, remembering the location execution state (including local variables and pending try-statements).  When the generator resumes, it picks up where it left off (in contrast to functions which start fresh on every invocation)."
 msgstr ""
 
 #: ../../glossary.rst:303
