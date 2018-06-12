@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-06-12 13:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -619,7 +619,7 @@ msgid "Either the author or the maintainer must be identified. If maintainer is 
 msgstr ""
 
 #: ../../distutils/setupscript.rst:610
-msgid "These fields should not be used if your package is to be compatible with Python versions prior to 2.2.3 or 2.3.  The list is available from the `PyPI website <https://pypi.python.org/pypi>`_."
+msgid "These fields should not be used if your package is to be compatible with Python versions prior to 2.2.3 or 2.3.  The list is available from the `PyPI website <https://pypi.org/>`_."
 msgstr ""
 
 #: ../../distutils/setupscript.rst:615
