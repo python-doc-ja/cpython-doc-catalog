@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-30 13:11+0900\n"
+"POT-Creation-Date: 2018-06-16 13:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "*spawn* added on all unix platforms, and *forkserver* added for some unix
 msgstr ""
 
 #: ../../library/multiprocessing.rst:133
-msgid "On Unix using the *spawn* or *forkserver* start methods will also start a *semaphore tracker* process which tracks the unlinked named semaphores created by processes of the program.  When all processes have exited the semaphore tracker unlinks any remaining semaphores. Usually there should be none, but if a process was killed by a signal there may some \"leaked\" semaphores.  (Unlinking the named semaphores is a serious matter since the system allows only a limited number, and they will not be automatically unlinked until the next reboot.)"
+msgid "On Unix using the *spawn* or *forkserver* start methods will also start a *semaphore tracker* process which tracks the unlinked named semaphores created by processes of the program.  When all processes have exited the semaphore tracker unlinks any remaining semaphores. Usually there should be none, but if a process was killed by a signal there may be some \"leaked\" semaphores.  (Unlinking the named semaphores is a serious matter since the system allows only a limited number, and they will not be automatically unlinked until the next reboot.)"
 msgstr ""
 
 #: ../../library/multiprocessing.rst:142
@@ -121,7 +121,7 @@ msgid "Alternatively, you can use :func:`get_context` to obtain a context object
 msgstr ""
 
 #: ../../library/multiprocessing.rst:180
-msgid "Note that objects related to one context may not be compatible with processes for a different context.  In particular, locks created using the *fork* context cannot be passed to a processes started using the *spawn* or *forkserver* start methods."
+msgid "Note that objects related to one context may not be compatible with processes for a different context.  In particular, locks created using the *fork* context cannot be passed to processes started using the *spawn* or *forkserver* start methods."
 msgstr ""
 
 #: ../../library/multiprocessing.rst:185
