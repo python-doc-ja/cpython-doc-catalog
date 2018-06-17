@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-24 12:51+0900\n"
+"POT-Creation-Date: 2018-06-17 13:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,7 +265,7 @@ msgid "Use :class:`MetaPathFinder` or :class:`PathEntryFinder` instead."
 msgstr ""
 
 #: ../../library/importlib.rst:246
-msgid "An abstact method for finding a :term:`loader` for the specified module.  Originally specified in :pep:`302`, this method was meant for use in :data:`sys.meta_path` and in the path-based import subsystem."
+msgid "An abstract method for finding a :term:`loader` for the specified module.  Originally specified in :pep:`302`, this method was meant for use in :data:`sys.meta_path` and in the path-based import subsystem."
 msgstr ""
 
 #: ../../library/importlib.rst:250

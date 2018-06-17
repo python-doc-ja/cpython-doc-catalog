@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-10 12:31+0900\n"
+"POT-Creation-Date: 2018-06-17 13:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1400,7 +1400,7 @@ msgid "http"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1414
-msgid ":class:`http.server.BaseHTTPRequestHandler` now buffers the headers and writes them all at once when :meth:`~http.server.BaseHTTPRequestHandler.end_headers` is called.  A new method :meth:`~http.server.BaseHTTPRequestHandler.flush_headers` can be used to directly manage when the accumlated headers are sent. (Contributed by Andrew Schaaf in :issue:`3709`.)"
+msgid ":class:`http.server.BaseHTTPRequestHandler` now buffers the headers and writes them all at once when :meth:`~http.server.BaseHTTPRequestHandler.end_headers` is called.  A new method :meth:`~http.server.BaseHTTPRequestHandler.flush_headers` can be used to directly manage when the accumulated headers are sent. (Contributed by Andrew Schaaf in :issue:`3709`.)"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1420
