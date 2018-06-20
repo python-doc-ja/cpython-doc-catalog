@@ -1,14 +1,14 @@
-"Test , coverage 16%."
+"Test zoomheight, coverage 66%."
+# Some code is system dependent.
 
-from idlelib import iomenu
+from idlelib import zoomheight
 import unittest
 from test.support import requires
-from tkinter import Tk
-
+from tkinter import Tk, Text
 from idlelib.editor import EditorWindow
 
 
-class IOBindigTest(unittest.TestCase):
+class Test(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
@@ -20,7 +20,6 @@ class IOBindigTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.editwin._close()
-        del cls.editwin
         cls.root.update_idletasks()
         for id in cls.root.tk.call('after', 'info'):
             cls.root.after_cancel(id)  # Need for EditorWindow.
@@ -28,9 +27,12 @@ class IOBindigTest(unittest.TestCase):
         del cls.root
 
     def test_init(self):
-        io = iomenu.IOBinding(self.editwin)
-        self.assertIs(io.editwin, self.editwin)
-        io.close
+        zoom = zoomheight.ZoomHeight(self.editwin)
+        self.assertIs(zoom.editwin, self.editwin)
+
+    def test_zoom_height_event(self):
+        zoom = zoomheight.ZoomHeight(self.editwin)
+        zoom.zoom_height_event()
 
 
 if __name__ == '__main__':

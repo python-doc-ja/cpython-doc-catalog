@@ -1,26 +1,22 @@
-"Test , coverage 16%."
+"Test runscript, coverage 16%."
 
-from idlelib import iomenu
+from idlelib import runscript
 import unittest
 from test.support import requires
 from tkinter import Tk
-
 from idlelib.editor import EditorWindow
 
 
-class IOBindigTest(unittest.TestCase):
+class ScriptBindingTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
         requires('gui')
         cls.root = Tk()
         cls.root.withdraw()
-        cls.editwin = EditorWindow(root=cls.root)
 
     @classmethod
     def tearDownClass(cls):
-        cls.editwin._close()
-        del cls.editwin
         cls.root.update_idletasks()
         for id in cls.root.tk.call('after', 'info'):
             cls.root.after_cancel(id)  # Need for EditorWindow.
@@ -28,9 +24,9 @@ class IOBindigTest(unittest.TestCase):
         del cls.root
 
     def test_init(self):
-        io = iomenu.IOBinding(self.editwin)
-        self.assertIs(io.editwin, self.editwin)
-        io.close
+        ew = EditorWindow(root=self.root)
+        sb = runscript.ScriptBinding(ew)
+        ew._close()
 
 
 if __name__ == '__main__':
