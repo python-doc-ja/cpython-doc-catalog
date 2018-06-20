@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 12:29+0900\n"
+"POT-Creation-Date: 2018-06-20 13:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1423,7 +1423,7 @@ msgid "Raising errors in a callback"
 msgstr ""
 
 #: ../../library/optparse.rst:1676
-msgid "The callback function should raise :exc:`OptionValueError` if there are any problems with the option or its argument(s).  :mod:`optparse` catches this and terminates the program, printing the error message you supply to stderr.  Your message should be clear, concise, accurate, and mention the option at fault. Otherwise, the user will have a hard time figuring out what he did wrong."
+msgid "The callback function should raise :exc:`OptionValueError` if there are any problems with the option or its argument(s).  :mod:`optparse` catches this and terminates the program, printing the error message you supply to stderr.  Your message should be clear, concise, accurate, and mention the option at fault. Otherwise, the user will have a hard time figuring out what they did wrong."
 msgstr ""
 
 #: ../../library/optparse.rst:1686

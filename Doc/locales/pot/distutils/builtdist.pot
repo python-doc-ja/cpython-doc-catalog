@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-06-20 13:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "A built distribution is how you make life as easy as possible for install
 msgstr ""
 
 #: ../../distutils/builtdist.rst:24
-msgid "Of course, the module developer could be his own packager; or the packager could be a volunteer \"out there\" somewhere who has access to a platform which the original developer does not; or it could be software periodically grabbing new source distributions and turning them into built distributions for as many platforms as the software has access to.  Regardless of who they are, a packager uses the setup script and the :command:`bdist` command family to generate built distributions."
+msgid "Of course, the module developer could be their own packager; or the packager could be a volunteer \"out there\" somewhere who has access to a platform which the original developer does not; or it could be software periodically grabbing new source distributions and turning them into built distributions for as many platforms as the software has access to.  Regardless of who they are, a packager uses the setup script and the :command:`bdist` command family to generate built distributions."
 msgstr ""
 
 #: ../../distutils/builtdist.rst:32
