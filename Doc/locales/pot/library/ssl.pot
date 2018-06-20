@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 13:31+0900\n"
+"POT-Creation-Date: 2018-06-20 13:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1050,7 +1050,7 @@ msgid "Certificates in general are part of a public-key / private-key system.  I
 msgstr ""
 
 #: ../../library/ssl.rst:1396
-msgid "A certificate contains information about two principals.  It contains the name of a *subject*, and the subject's public key.  It also contains a statement by a second principal, the *issuer*, that the subject is who he claims to be, and that this is indeed the subject's public key.  The issuer's statement is signed with the issuer's private key, which only the issuer knows.  However, anyone can verify the issuer's statement by finding the issuer's public key, decrypting the statement with it, and comparing it to the other information in the certificate. The certificate also contains information about the time period over which it is valid.  This is expressed as two fields, called \"notBefore\" and \"notAfter\"."
+msgid "A certificate contains information about two principals.  It contains the name of a *subject*, and the subject's public key.  It also contains a statement by a second principal, the *issuer*, that the subject is who they claim to be, and that this is indeed the subject's public key.  The issuer's statement is signed with the issuer's private key, which only the issuer knows.  However, anyone can verify the issuer's statement by finding the issuer's public key, decrypting the statement with it, and comparing it to the other information in the certificate. The certificate also contains information about the time period over which it is valid.  This is expressed as two fields, called \"notBefore\" and \"notAfter\"."
 msgstr ""
 
 #: ../../library/ssl.rst:1406

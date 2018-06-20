@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-06-20 13:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgid "*os2*: scheme for OS/2 platforms."
 msgstr ""
 
 #: ../../library/sysconfig.rst:86
-msgid "*os2_home*: scheme for OS/2 patforms, when the *user* option is used."
+msgid "*os2_home*: scheme for OS/2 platforms, when the *user* option is used."
 msgstr ""
 
 #: ../../library/sysconfig.rst:88
