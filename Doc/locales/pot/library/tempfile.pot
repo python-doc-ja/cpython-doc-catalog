@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-06-22 13:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,7 +210,7 @@ msgid "When set to a value other than ``None``, this variable defines the defaul
 msgstr ""
 
 #: ../../library/tempfile.rst:256
-msgid "If ``tempdir`` is unset or ``None`` at any call to any of the above functions except :func:`gettempprefix` it is initialized following the algorithm described in :func:`gettempdir`."
+msgid "If ``tempdir`` is ``None`` (the default) at any call to any of the above functions except :func:`gettempprefix` it is initialized following the algorithm described in :func:`gettempdir`."
 msgstr ""
 
 #: ../../library/tempfile.rst:263
