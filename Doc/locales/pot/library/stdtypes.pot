@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-16 13:40+0900\n"
+"POT-Creation-Date: 2018-06-26 13:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1849,7 +1849,7 @@ msgid "See also the :mod:`codecs` module for a more flexible approach to custom 
 msgstr ""
 
 #: ../../library/stdtypes.rst:2044
-msgid "Return a copy of the string with all the cased characters [4]_ converted to uppercase.  Note that ``str.upper().isupper()`` might be ``False`` if ``s`` contains uncased characters or if the Unicode category of the resulting character(s) is not \"Lu\" (Letter, uppercase), but e.g. \"Lt\" (Letter, titlecase)."
+msgid "Return a copy of the string with all the cased characters [4]_ converted to uppercase.  Note that ``s.upper().isupper()`` might be ``False`` if ``s`` contains uncased characters or if the Unicode category of the resulting character(s) is not \"Lu\" (Letter, uppercase), but e.g. \"Lt\" (Letter, titlecase)."
 msgstr ""
 
 #: ../../library/stdtypes.rst:2050
