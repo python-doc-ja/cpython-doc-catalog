@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-27 12:24+0900\n"
+"POT-Creation-Date: 2018-06-26 13:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1289,7 +1289,7 @@ msgid "For Unicode objects, the :meth:`translate` method does not accept the opt
 msgstr ""
 
 #: ../../library/stdtypes.rst:1383
-msgid "Return a copy of the string with all the cased characters [4]_ converted to uppercase.  Note that ``str.upper().isupper()`` might be ``False`` if ``s`` contains uncased characters or if the Unicode category of the resulting character(s) is not \"Lu\" (Letter, uppercase), but e.g. \"Lt\" (Letter, titlecase)."
+msgid "Return a copy of the string with all the cased characters [4]_ converted to uppercase.  Note that ``s.upper().isupper()`` might be ``False`` if ``s`` contains uncased characters or if the Unicode category of the resulting character(s) is not \"Lu\" (Letter, uppercase), but e.g. \"Lt\" (Letter, titlecase)."
 msgstr ""
 
 #: ../../library/stdtypes.rst:1393
