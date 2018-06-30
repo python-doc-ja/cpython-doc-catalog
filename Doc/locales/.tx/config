@@ -1,12 +1,6 @@
 [main]
 host = https://www.transifex.com
 
-[python-newest.sphinx]
-file_filter = <lang>/LC_MESSAGES/sphinx.po
-source_file = pot/sphinx.pot
-source_lang = en
-type = PO
-
 [python-newest.about]
 file_filter = <lang>/LC_MESSAGES/about.po
 source_file = pot/about.pot
@@ -40,6 +34,12 @@ type = PO
 [python-newest.license]
 file_filter = <lang>/LC_MESSAGES/license.po
 source_file = pot/license.pot
+source_lang = en
+type = PO
+
+[python-newest.sphinx]
+file_filter = <lang>/LC_MESSAGES/sphinx.po
+source_file = pot/sphinx.pot
 source_lang = en
 type = PO
 
@@ -631,15 +631,15 @@ source_file = pot/howto/ipaddress.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--logging]
-file_filter = <lang>/LC_MESSAGES/howto/logging.po
-source_file = pot/howto/logging.pot
-source_lang = en
-type = PO
-
 [python-newest.howto--logging-cookbook]
 file_filter = <lang>/LC_MESSAGES/howto/logging-cookbook.po
 source_file = pot/howto/logging-cookbook.pot
+source_lang = en
+type = PO
+
+[python-newest.howto--logging]
+file_filter = <lang>/LC_MESSAGES/howto/logging.po
+source_file = pot/howto/logging.pot
 source_lang = en
 type = PO
 
@@ -769,12 +769,6 @@ source_file = pot/library/asynchat.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio]
-file_filter = <lang>/LC_MESSAGES/library/asyncio.po
-source_file = pot/library/asyncio.pot
-source_lang = en
-type = PO
-
 [python-newest.library--asyncio-dev]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-dev.po
 source_file = pot/library/asyncio-dev.pot
@@ -826,6 +820,12 @@ type = PO
 [python-newest.library--asyncio-task]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-task.po
 source_file = pot/library/asyncio-task.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio]
+file_filter = <lang>/LC_MESSAGES/library/asyncio.po
+source_file = pot/library/asyncio.pot
 source_lang = en
 type = PO
 
@@ -949,15 +949,15 @@ source_file = pot/library/codeop.pot
 source_lang = en
 type = PO
 
-[python-newest.library--collections]
-file_filter = <lang>/LC_MESSAGES/library/collections.po
-source_file = pot/library/collections.pot
-source_lang = en
-type = PO
-
 [python-newest.library--collections_abc]
 file_filter = <lang>/LC_MESSAGES/library/collections.abc.po
 source_file = pot/library/collections.abc.pot
+source_lang = en
+type = PO
+
+[python-newest.library--collections]
+file_filter = <lang>/LC_MESSAGES/library/collections.po
+source_file = pot/library/collections.pot
 source_lang = en
 type = PO
 
@@ -979,15 +979,15 @@ source_file = pot/library/concurrency.pot
 source_lang = en
 type = PO
 
-[python-newest.library--concurrent]
-file_filter = <lang>/LC_MESSAGES/library/concurrent.po
-source_file = pot/library/concurrent.pot
-source_lang = en
-type = PO
-
 [python-newest.library--concurrent_futures]
 file_filter = <lang>/LC_MESSAGES/library/concurrent.futures.po
 source_file = pot/library/concurrent.futures.pot
+source_lang = en
+type = PO
+
+[python-newest.library--concurrent]
+file_filter = <lang>/LC_MESSAGES/library/concurrent.po
+source_file = pot/library/concurrent.pot
 source_lang = en
 type = PO
 
@@ -1051,12 +1051,6 @@ source_file = pot/library/ctypes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--curses]
-file_filter = <lang>/LC_MESSAGES/library/curses.po
-source_file = pot/library/curses.pot
-source_lang = en
-type = PO
-
 [python-newest.library--curses_ascii]
 file_filter = <lang>/LC_MESSAGES/library/curses.ascii.po
 source_file = pot/library/curses.ascii.pot
@@ -1066,6 +1060,12 @@ type = PO
 [python-newest.library--curses_panel]
 file_filter = <lang>/LC_MESSAGES/library/curses.panel.po
 source_file = pot/library/curses.panel.pot
+source_lang = en
+type = PO
+
+[python-newest.library--curses]
+file_filter = <lang>/LC_MESSAGES/library/curses.po
+source_file = pot/library/curses.pot
 source_lang = en
 type = PO
 
@@ -1153,12 +1153,6 @@ source_file = pot/library/dummy_threading.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email]
-file_filter = <lang>/LC_MESSAGES/library/email.po
-source_file = pot/library/email.pot
-source_lang = en
-type = PO
-
 [python-newest.library--email_charset]
 file_filter = <lang>/LC_MESSAGES/library/email.charset.po
 source_file = pot/library/email.charset.pot
@@ -1240,6 +1234,12 @@ type = PO
 [python-newest.library--email_policy]
 file_filter = <lang>/LC_MESSAGES/library/email.policy.po
 source_file = pot/library/email.policy.pot
+source_lang = en
+type = PO
+
+[python-newest.library--email]
+file_filter = <lang>/LC_MESSAGES/library/email.po
+source_file = pot/library/email.pot
 source_lang = en
 type = PO
 
@@ -1417,12 +1417,6 @@ source_file = pot/library/hmac.pot
 source_lang = en
 type = PO
 
-[python-newest.library--html]
-file_filter = <lang>/LC_MESSAGES/library/html.po
-source_file = pot/library/html.pot
-source_lang = en
-type = PO
-
 [python-newest.library--html_entities]
 file_filter = <lang>/LC_MESSAGES/library/html.entities.po
 source_file = pot/library/html.entities.pot
@@ -1435,9 +1429,9 @@ source_file = pot/library/html.parser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http]
-file_filter = <lang>/LC_MESSAGES/library/http.po
-source_file = pot/library/http.pot
+[python-newest.library--html]
+file_filter = <lang>/LC_MESSAGES/library/html.po
+source_file = pot/library/html.pot
 source_lang = en
 type = PO
 
@@ -1456,6 +1450,12 @@ type = PO
 [python-newest.library--http_cookies]
 file_filter = <lang>/LC_MESSAGES/library/http.cookies.po
 source_file = pot/library/http.cookies.pot
+source_lang = en
+type = PO
+
+[python-newest.library--http]
+file_filter = <lang>/LC_MESSAGES/library/http.po
+source_file = pot/library/http.pot
 source_lang = en
 type = PO
 
@@ -1579,12 +1579,6 @@ source_file = pot/library/locale.pot
 source_lang = en
 type = PO
 
-[python-newest.library--logging]
-file_filter = <lang>/LC_MESSAGES/library/logging.po
-source_file = pot/library/logging.pot
-source_lang = en
-type = PO
-
 [python-newest.library--logging_config]
 file_filter = <lang>/LC_MESSAGES/library/logging.config.po
 source_file = pot/library/logging.config.pot
@@ -1594,6 +1588,12 @@ type = PO
 [python-newest.library--logging_handlers]
 file_filter = <lang>/LC_MESSAGES/library/logging.handlers.po
 source_file = pot/library/logging.handlers.pot
+source_lang = en
+type = PO
+
+[python-newest.library--logging]
+file_filter = <lang>/LC_MESSAGES/library/logging.po
+source_file = pot/library/logging.pot
 source_lang = en
 type = PO
 
@@ -1741,15 +1741,15 @@ source_file = pot/library/optparse.pot
 source_lang = en
 type = PO
 
-[python-newest.library--os]
-file_filter = <lang>/LC_MESSAGES/library/os.po
-source_file = pot/library/os.pot
-source_lang = en
-type = PO
-
 [python-newest.library--os_path]
 file_filter = <lang>/LC_MESSAGES/library/os.path.po
 source_file = pot/library/os.path.pot
+source_lang = en
+type = PO
+
+[python-newest.library--os]
+file_filter = <lang>/LC_MESSAGES/library/os.po
+source_file = pot/library/os.pot
 source_lang = en
 type = PO
 
@@ -2293,9 +2293,9 @@ source_file = pot/library/unicodedata.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unittest]
-file_filter = <lang>/LC_MESSAGES/library/unittest.po
-source_file = pot/library/unittest.pot
+[python-newest.library--unittest_mock-examples]
+file_filter = <lang>/LC_MESSAGES/library/unittest.mock-examples.po
+source_file = pot/library/unittest.mock-examples.pot
 source_lang = en
 type = PO
 
@@ -2305,21 +2305,15 @@ source_file = pot/library/unittest.mock.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unittest_mock-examples]
-file_filter = <lang>/LC_MESSAGES/library/unittest.mock-examples.po
-source_file = pot/library/unittest.mock-examples.pot
+[python-newest.library--unittest]
+file_filter = <lang>/LC_MESSAGES/library/unittest.po
+source_file = pot/library/unittest.pot
 source_lang = en
 type = PO
 
 [python-newest.library--unix]
 file_filter = <lang>/LC_MESSAGES/library/unix.po
 source_file = pot/library/unix.pot
-source_lang = en
-type = PO
-
-[python-newest.library--urllib]
-file_filter = <lang>/LC_MESSAGES/library/urllib.po
-source_file = pot/library/urllib.pot
 source_lang = en
 type = PO
 
@@ -2332,6 +2326,12 @@ type = PO
 [python-newest.library--urllib_parse]
 file_filter = <lang>/LC_MESSAGES/library/urllib.parse.po
 source_file = pot/library/urllib.parse.pot
+source_lang = en
+type = PO
+
+[python-newest.library--urllib]
+file_filter = <lang>/LC_MESSAGES/library/urllib.po
+source_file = pot/library/urllib.pot
 source_lang = en
 type = PO
 
@@ -2419,21 +2419,15 @@ source_file = pot/library/xdrlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml]
-file_filter = <lang>/LC_MESSAGES/library/xml.po
-source_file = pot/library/xml.pot
+[python-newest.library--xml_dom_minidom]
+file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
+source_file = pot/library/xml.dom.minidom.pot
 source_lang = en
 type = PO
 
 [python-newest.library--xml_dom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.po
 source_file = pot/library/xml.dom.pot
-source_lang = en
-type = PO
-
-[python-newest.library--xml_dom_minidom]
-file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
-source_file = pot/library/xml.dom.minidom.pot
 source_lang = en
 type = PO
 
@@ -2449,15 +2443,21 @@ source_file = pot/library/xml.etree.elementtree.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_sax]
-file_filter = <lang>/LC_MESSAGES/library/xml.sax.po
-source_file = pot/library/xml.sax.pot
+[python-newest.library--xml]
+file_filter = <lang>/LC_MESSAGES/library/xml.po
+source_file = pot/library/xml.pot
 source_lang = en
 type = PO
 
 [python-newest.library--xml_sax_handler]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.handler.po
 source_file = pot/library/xml.sax.handler.pot
+source_lang = en
+type = PO
+
+[python-newest.library--xml_sax]
+file_filter = <lang>/LC_MESSAGES/library/xml.sax.po
+source_file = pot/library/xml.sax.pot
 source_lang = en
 type = PO
 
