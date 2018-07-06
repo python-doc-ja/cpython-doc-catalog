@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-07-07 02:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,7 +261,7 @@ msgid "Answer 1: Unfortunately, the interpreter pushes at least one C stack fram
 msgstr ""
 
 #: ../../faq/design.rst:351
-msgid "Answer 2: Fortunately, there is `Stackless Python <https://bitbucket.org/stackless-dev/stackless/wiki/Home>`_, which has a completely redesigned interpreter loop that avoids the C stack."
+msgid "Answer 2: Fortunately, there is `Stackless Python <https://github.com/stackless-dev/stackless/wiki>`_, which has a completely redesigned interpreter loop that avoids the C stack."
 msgstr ""
 
 #: ../../faq/design.rst:356
