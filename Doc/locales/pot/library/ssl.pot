@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-07-08 08:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1191,7 +1191,7 @@ msgid "Load a set of default \"certification authority\" (CA) certificates from 
 msgstr ""
 
 #: ../../library/ssl.rst:1608
-msgid "Set the available ciphers for sockets created with this context. It should be a string in the `OpenSSL cipher list format <https://wiki.openssl.org/index.php/Manual:Ciphers(1)#CIPHER_LIST_FORMAT>`_. If no cipher can be selected (because compile-time options or other configuration forbids use of all the specified ciphers), an :class:`SSLError` will be raised."
+msgid "Set the available ciphers for sockets created with this context. It should be a string in the `OpenSSL cipher list format <https://www.openssl.org/docs/manmaster/man1/ciphers.html>`_. If no cipher can be selected (because compile-time options or other configuration forbids use of all the specified ciphers), an :class:`SSLError` will be raised."
 msgstr ""
 
 #: ../../library/ssl.rst:1616
