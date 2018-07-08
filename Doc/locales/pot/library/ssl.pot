@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-20 13:43+0900\n"
+"POT-Creation-Date: 2018-07-08 13:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,7 +239,7 @@ msgid "Which connections succeed will vary depending on the version of OpenSSL. 
 msgstr ""
 
 #: ../../library/ssl.rst:215
-msgid "The *ciphers* parameter sets the available ciphers for this SSL object. It should be a string in the `OpenSSL cipher list format <https://wiki.openssl.org/index.php/Manual:Ciphers(1)#CIPHER_LIST_FORMAT>`_."
+msgid "The *ciphers* parameter sets the available ciphers for this SSL object. It should be a string in the `OpenSSL cipher list format <https://www.openssl.org/docs/manmaster/man1/ciphers.html>`_."
 msgstr ""
 
 #: ../../library/ssl.rst:219
@@ -902,7 +902,7 @@ msgid "Load a set of default \"certification authority\" (CA) certificates from 
 msgstr ""
 
 #: ../../library/ssl.rst:1171
-msgid "Set the available ciphers for sockets created with this context. It should be a string in the `OpenSSL cipher list format <https://wiki.openssl.org/index.php/Manual:Ciphers(1)#CIPHER_LIST_FORMAT>`_. If no cipher can be selected (because compile-time options or other configuration forbids use of all the specified ciphers), an :class:`SSLError` will be raised."
+msgid "Set the available ciphers for sockets created with this context. It should be a string in the `OpenSSL cipher list format <https://www.openssl.org/docs/manmaster/man1/ciphers.html>`_. If no cipher can be selected (because compile-time options or other configuration forbids use of all the specified ciphers), an :class:`SSLError` will be raised."
 msgstr ""
 
 #: ../../library/ssl.rst:1179

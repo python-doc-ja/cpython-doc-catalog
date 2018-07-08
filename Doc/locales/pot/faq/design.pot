@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-24 13:38+0900\n"
+"POT-Creation-Date: 2018-07-08 13:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -365,11 +365,11 @@ msgid "Tuples are immutable, meaning that once a tuple has been created, you can
 msgstr ""
 
 #: ../../faq/design.rst:507
-msgid "How are lists implemented?"
+msgid "How are lists implemented in CPython?"
 msgstr ""
 
 #: ../../faq/design.rst:509
-msgid "Python's lists are really variable-length arrays, not Lisp-style linked lists. The implementation uses a contiguous array of references to other objects, and keeps a pointer to this array and the array's length in a list head structure."
+msgid "CPython's lists are really variable-length arrays, not Lisp-style linked lists. The implementation uses a contiguous array of references to other objects, and keeps a pointer to this array and the array's length in a list head structure."
 msgstr ""
 
 #: ../../faq/design.rst:513
@@ -381,11 +381,11 @@ msgid "When items are appended or inserted, the array of references is resized. 
 msgstr ""
 
 #: ../../faq/design.rst:523
-msgid "How are dictionaries implemented?"
+msgid "How are dictionaries implemented in CPython?"
 msgstr ""
 
 #: ../../faq/design.rst:525
-msgid "Python's dictionaries are implemented as resizable hash tables.  Compared to B-trees, this gives better performance for lookup (the most common operation by far) under most circumstances, and the implementation is simpler."
+msgid "CPython's dictionaries are implemented as resizable hash tables.  Compared to B-trees, this gives better performance for lookup (the most common operation by far) under most circumstances, and the implementation is simpler."
 msgstr ""
 
 #: ../../faq/design.rst:529
