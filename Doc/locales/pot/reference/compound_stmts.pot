@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-07-08 13:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgid "With more than one item, the context managers are processed as if multipl
 msgstr ""
 
 #: ../../reference/compound_stmts.rst:431
-#: ../../reference/compound_stmts.rst:622
+#: ../../reference/compound_stmts.rst:623
 msgid "is equivalent to ::"
 msgstr ""
 
@@ -245,190 +245,190 @@ msgstr ""
 msgid "A function definition defines a user-defined function object (see section :ref:`types`):"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:483
+#: ../../reference/compound_stmts.rst:484
 msgid "A function definition is an executable statement.  Its execution binds the function name in the current local namespace to a function object (a wrapper around the executable code for the function).  This function object contains a reference to the current global namespace as the global namespace to be used when the function is called."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:489
+#: ../../reference/compound_stmts.rst:490
 msgid "The function definition does not execute the function body; this gets executed only when the function is called. [#]_"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:495
+#: ../../reference/compound_stmts.rst:496
 msgid "A function definition may be wrapped by one or more :term:`decorator` expressions. Decorator expressions are evaluated when the function is defined, in the scope that contains the function definition.  The result must be a callable, which is invoked with the function object as the only argument. The returned value is bound to the function name instead of the function object.  Multiple decorators are applied in nested fashion. For example, the following code ::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:506
-#: ../../reference/compound_stmts.rst:649
+#: ../../reference/compound_stmts.rst:507
+#: ../../reference/compound_stmts.rst:650
 msgid "is roughly equivalent to ::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:511
+#: ../../reference/compound_stmts.rst:512
 msgid "except that the original function is not temporarily bound to the name ``func``."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:517
+#: ../../reference/compound_stmts.rst:518
 msgid "When one or more :term:`parameters <parameter>` have the form *parameter* ``=`` *expression*, the function is said to have \"default parameter values.\"  For a parameter with a default value, the corresponding :term:`argument` may be omitted from a call, in which case the parameter's default value is substituted.  If a parameter has a default value, all following parameters up until the \"``*``\" must also have a default value --- this is a syntactic restriction that is not expressed by the grammar."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:525
+#: ../../reference/compound_stmts.rst:526
 msgid "**Default parameter values are evaluated from left to right when the function definition is executed.** This means that the expression is evaluated once, when the function is defined, and that the same \"pre-computed\" value is used for each call.  This is especially important to understand when a default parameter is a mutable object, such as a list or a dictionary: if the function modifies the object (e.g. by appending an item to a list), the default value is in effect modified.  This is generally not what was intended.  A way around this is to use ``None`` as the default, and explicitly test for it in the body of the function, e.g.::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:545
+#: ../../reference/compound_stmts.rst:546
 msgid "Function call semantics are described in more detail in section :ref:`calls`. A function call always assigns values to all parameters mentioned in the parameter list, either from position arguments, from keyword arguments, or from default values.  If the form \"``*identifier``\" is present, it is initialized to a tuple receiving any excess positional parameters, defaulting to the empty tuple. If the form \"``**identifier``\" is present, it is initialized to a new ordered mapping receiving any excess keyword arguments, defaulting to a new empty mapping of the same type.  Parameters after \"``*``\" or \"``*identifier``\" are keyword-only parameters and may only be passed used keyword arguments."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:558
+#: ../../reference/compound_stmts.rst:559
 msgid "Parameters may have annotations of the form \"``: expression``\" following the parameter name.  Any parameter may have an annotation even those of the form ``*identifier`` or ``**identifier``.  Functions may have \"return\" annotation of the form \"``-> expression``\" after the parameter list.  These annotations can be any valid Python expression and are evaluated when the function definition is executed.  Annotations may be evaluated in a different order than they appear in the source code.  The presence of annotations does not change the semantics of a function.  The annotation values are available as values of a dictionary keyed by the parameters' names in the :attr:`__annotations__` attribute of the function object."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:571
+#: ../../reference/compound_stmts.rst:572
 msgid "It is also possible to create anonymous functions (functions not bound to a name), for immediate use in expressions.  This uses lambda expressions, described in section :ref:`lambda`.  Note that the lambda expression is merely a shorthand for a simplified function definition; a function defined in a \":keyword:`def`\" statement can be passed around or assigned to another name just like a function defined by a lambda expression.  The \":keyword:`def`\" form is actually more powerful since it allows the execution of multiple statements and annotations."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:579
+#: ../../reference/compound_stmts.rst:580
 msgid "**Programmer's note:** Functions are first-class objects.  A \"``def``\" statement executed inside a function definition defines a local function that can be returned or passed around.  Free variables used in the nested function can access the local variables of the function containing the def.  See section :ref:`naming` for details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:587
+#: ../../reference/compound_stmts.rst:588
 msgid ":pep:`3107` - Function Annotations"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:588
+#: ../../reference/compound_stmts.rst:589
 msgid "The original specification for function annotations."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:594
+#: ../../reference/compound_stmts.rst:595
 msgid "Class definitions"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:606
+#: ../../reference/compound_stmts.rst:607
 msgid "A class definition defines a class object (see section :ref:`types`):"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:613
+#: ../../reference/compound_stmts.rst:614
 msgid "A class definition is an executable statement.  The inheritance list usually gives a list of base classes (see :ref:`metaclasses` for more advanced uses), so each item in the list should evaluate to a class object which allows subclassing.  Classes without an inheritance list inherit, by default, from the base class :class:`object`; hence, ::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:627
+#: ../../reference/compound_stmts.rst:628
 msgid "The class's suite is then executed in a new execution frame (see :ref:`naming`), using a newly created local namespace and the original global namespace. (Usually, the suite contains mostly function definitions.)  When the class's suite finishes execution, its execution frame is discarded but its local namespace is saved. [#]_ A class object is then created using the inheritance list for the base classes and the saved local namespace for the attribute dictionary.  The class name is bound to this class object in the original local namespace."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:636
+#: ../../reference/compound_stmts.rst:637
 msgid "The order in which attributes are defined in the class body is preserved in the new class's ``__dict__``.  Note that this is reliable only right after the class is created and only for classes that were defined using the definition syntax."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:641
+#: ../../reference/compound_stmts.rst:642
 msgid "Class creation can be customized heavily using :ref:`metaclasses <metaclasses>`."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:643
+#: ../../reference/compound_stmts.rst:644
 msgid "Classes can also be decorated: just like when decorating functions, ::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:654
+#: ../../reference/compound_stmts.rst:655
 msgid "The evaluation rules for the decorator expressions are the same as for function decorators.  The result is then bound to the class name."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:657
+#: ../../reference/compound_stmts.rst:658
 msgid "**Programmer's note:** Variables defined in the class definition are class attributes; they are shared by instances.  Instance attributes can be set in a method with ``self.name = value``.  Both class and instance attributes are accessible through the notation \"``self.name``\", and an instance attribute hides a class attribute with the same name when accessed in this way.  Class attributes can be used as defaults for instance attributes, but using mutable values there can lead to unexpected results.  :ref:`Descriptors <descriptors>` can be used to create instance variables with different implementation details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:669
+#: ../../reference/compound_stmts.rst:670
 msgid ":pep:`3115` - Metaclasses in Python 3 :pep:`3129` - Class Decorators"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:674
+#: ../../reference/compound_stmts.rst:675
 msgid "Coroutines"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:682
+#: ../../reference/compound_stmts.rst:683
 msgid "Coroutine function definition"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:691
+#: ../../reference/compound_stmts.rst:693
 msgid "Execution of Python coroutines can be suspended and resumed at many points (see :term:`coroutine`).  In the body of a coroutine, any ``await`` and ``async`` identifiers become reserved keywords; :keyword:`await` expressions, :keyword:`async for` and :keyword:`async with` can only be used in coroutine bodies."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:697
+#: ../../reference/compound_stmts.rst:699
 msgid "Functions defined with ``async def`` syntax are always coroutine functions, even if they do not contain ``await`` or ``async`` keywords."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:700
+#: ../../reference/compound_stmts.rst:702
 msgid "It is a :exc:`SyntaxError` to use ``yield from`` expressions in ``async def`` coroutines."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:703
+#: ../../reference/compound_stmts.rst:705
 msgid "An example of a coroutine function::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:714
+#: ../../reference/compound_stmts.rst:716
 msgid "The :keyword:`async for` statement"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:719
+#: ../../reference/compound_stmts.rst:721
 msgid "An :term:`asynchronous iterable` is able to call asynchronous code in its *iter* implementation, and :term:`asynchronous iterator` can call asynchronous code in its *next* method."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:723
+#: ../../reference/compound_stmts.rst:725
 msgid "The ``async for`` statement allows convenient iteration over asynchronous iterators."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:726
-#: ../../reference/compound_stmts.rst:766
+#: ../../reference/compound_stmts.rst:728
+#: ../../reference/compound_stmts.rst:768
 msgid "The following code::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:733
-#: ../../reference/compound_stmts.rst:771
+#: ../../reference/compound_stmts.rst:735
+#: ../../reference/compound_stmts.rst:773
 msgid "Is semantically equivalent to::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:748
+#: ../../reference/compound_stmts.rst:750
 msgid "See also :meth:`__aiter__` and :meth:`__anext__` for details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:750
+#: ../../reference/compound_stmts.rst:752
 msgid "It is a :exc:`SyntaxError` to use ``async for`` statement outside of an :keyword:`async def` function."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:758
+#: ../../reference/compound_stmts.rst:760
 msgid "The :keyword:`async with` statement"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:763
+#: ../../reference/compound_stmts.rst:765
 msgid "An :term:`asynchronous context manager` is a :term:`context manager` that is able to suspend execution in its *enter* and *exit* methods."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:786
+#: ../../reference/compound_stmts.rst:788
 msgid "See also :meth:`__aenter__` and :meth:`__aexit__` for details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:788
+#: ../../reference/compound_stmts.rst:790
 msgid "It is a :exc:`SyntaxError` to use ``async with`` statement outside of an :keyword:`async def` function."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:793
+#: ../../reference/compound_stmts.rst:795
 msgid ":pep:`492` - Coroutines with async and await syntax"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:797
+#: ../../reference/compound_stmts.rst:799
 msgid "Footnotes"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:798
+#: ../../reference/compound_stmts.rst:800
 msgid "The exception is propagated to the invocation stack unless there is a :keyword:`finally` clause which happens to raise another exception. That new exception causes the old one to be lost."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:802
+#: ../../reference/compound_stmts.rst:804
 msgid "Currently, control \"flows off the end\" except in the case of an exception or the execution of a :keyword:`return`, :keyword:`continue`, or :keyword:`break` statement."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:806
+#: ../../reference/compound_stmts.rst:808
 msgid "A string literal appearing as the first statement in the function body is transformed into the function's ``__doc__`` attribute and therefore the function's :term:`docstring`."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:810
+#: ../../reference/compound_stmts.rst:812
 msgid "A string literal appearing as the first statement in the class body is transformed into the namespace's ``__doc__`` item and therefore the class's :term:`docstring`."
 msgstr ""
 
