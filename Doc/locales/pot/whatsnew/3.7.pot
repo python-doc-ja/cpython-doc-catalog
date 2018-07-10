@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-07-11 08:33+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1221,7 +1221,7 @@ msgid "The :mod:`ssl` module now uses OpenSSL's builtin API instead of :func:`~s
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:1305
-msgid "The improved host name check requires a *libssl* implementation compatible with OpenSSL 1.0.2 or 1.1.  Consequently, OpenSSL 0.9.8 and 1.0.1 are no longer supported.  The ssl module is mostly compatible with LibreSSL 2.7.2 and newer."
+msgid "The improved host name check requires a *libssl* implementation compatible with OpenSSL 1.0.2 or 1.1.  Consequently, OpenSSL 0.9.8 and 1.0.1 are no longer supported (see :ref:`37-platform-support-removals` for more details). The ssl module is mostly compatible with LibreSSL 2.7.2 and newer."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:1310
@@ -1861,300 +1861,320 @@ msgstr ""
 msgid ":c:func:`PyOS_AfterFork` has been deprecated.  Use :c:func:`PyOS_BeforeFork`, :c:func:`PyOS_AfterFork_Parent` or :c:func:`PyOS_AfterFork_Child()` instead. (Contributed by Antoine Pitrou in :issue:`16500`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2073
+#: ../../whatsnew/3.7.rst:2075
 msgid "Platform Support Removals"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2075
+#: ../../whatsnew/3.7.rst:2077
 msgid "FreeBSD 9 and older are no longer officially supported."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2079
-msgid "API and Feature Removals"
+#: ../../whatsnew/3.7.rst:2078
+msgid "For full Unicode support, including within extension modules, \\*nix platforms are now expected to provide at least one of ``C.UTF-8`` (full locale), ``C.utf8`` (full locale) or ``UTF-8`` (``LC_CTYPE``-only locale) as an alternative to the legacy ``ASCII``-based ``C`` locale."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2081
-msgid "The following features and APIs have been removed from Python 3.7:"
+#: ../../whatsnew/3.7.rst:2082
+msgid "OpenSSL 0.9.8 and 1.0.1 are no longer supported, which means building CPython 3.7 with SSL/TLS support on older platforms still using these versions requires custom build options that link to a more recent version of OpenSSL."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2083
-msgid "The ``os.stat_float_times()`` function has been removed. It was introduced in Python 2.3 for backward compatibility with Python 2.2, and was deprecated since Python 3.1."
+#: ../../whatsnew/3.7.rst:2086
+msgid "Notably, this issue affects the Debian 8 (aka \"jessie\") and Ubuntu 14.04 (aka \"Trusty\") LTS Linux distributions, as they still use OpenSSL 1.0.1 by default."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2087
-msgid "Unknown escapes consisting of ``'\\'`` and an ASCII letter in replacement templates for :func:`re.sub` were deprecated in Python 3.5, and will now cause an error."
-msgstr ""
-
-#: ../../whatsnew/3.7.rst:2091
-msgid "Removed support of the *exclude* argument in :meth:`tarfile.TarFile.add`. It was deprecated in Python 2.7 and 3.2.  Use the *filter* argument instead."
+#: ../../whatsnew/3.7.rst:2090
+msgid "Debian 9 (\"stretch\") and Ubuntu 16.04 (\"xenial\"), as well as recent releases of other LTS Linux releases (e.g. RHEL/CentOS 7.5, SLES 12-SP3), use OpenSSL 1.0.2 or later, and remain supported in the default build configuration."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2094
-msgid "The ``splitunc()`` function in the :mod:`ntpath` module was deprecated in Python 3.1, and has now been removed.  Use the :func:`~os.path.splitdrive` function instead."
+msgid "CPython's own :source:`CI configuration file <.travis.yml>` provides an example of using the SSL :source:`compatibility testing infrastructure <Tools/ssl/multissltests.py>` in CPython's test suite to build and link against OpenSSL 1.1.0 rather than an outdated system provided OpenSSL."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2098
-msgid ":func:`collections.namedtuple` no longer supports the *verbose* parameter or ``_source`` attribute which showed the generated source code for the named tuple class.  This was part of an optimization designed to speed-up class creation.  (Contributed by Jelle Zijlstra with further improvements by INADA Naoki, Serhiy Storchaka, and Raymond Hettinger in :issue:`28638`.)"
+#: ../../whatsnew/3.7.rst:2102
+msgid "API and Feature Removals"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2104
-msgid "Functions :func:`bool`, :func:`float`, :func:`list` and :func:`tuple` no longer take keyword arguments.  The first argument of :func:`int` can now be passed only as positional argument."
+msgid "The following features and APIs have been removed from Python 3.7:"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2108
-msgid "Removed previously deprecated in Python 2.4 classes ``Plist``, ``Dict`` and ``_InternalDict`` in the :mod:`plistlib` module.  Dict values in the result of functions :func:`~plistlib.readPlist` and :func:`~plistlib.readPlistFromBytes` are now normal dicts.  You no longer can use attribute access to access items of these dictionaries."
+#: ../../whatsnew/3.7.rst:2106
+msgid "The ``os.stat_float_times()`` function has been removed. It was introduced in Python 2.3 for backward compatibility with Python 2.2, and was deprecated since Python 3.1."
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2110
+msgid "Unknown escapes consisting of ``'\\'`` and an ASCII letter in replacement templates for :func:`re.sub` were deprecated in Python 3.5, and will now cause an error."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2114
-msgid "The ``asyncio.windows_utils.socketpair()`` function has been removed.  Use the :func:`socket.socketpair` function instead, it is available on all platforms since Python 3.5. ``asyncio.windows_utils.socketpair`` was just an alias to ``socket.socketpair`` on Python 3.5 and newer."
+msgid "Removed support of the *exclude* argument in :meth:`tarfile.TarFile.add`. It was deprecated in Python 2.7 and 3.2.  Use the *filter* argument instead."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2120
-msgid ":mod:`asyncio` no longer exports the :mod:`selectors` and :mod:`_overlapped` modules as ``asyncio.selectors`` and ``asyncio._overlapped``. Replace ``from asyncio import selectors`` with ``import selectors``."
+#: ../../whatsnew/3.7.rst:2117
+msgid "The ``splitunc()`` function in the :mod:`ntpath` module was deprecated in Python 3.1, and has now been removed.  Use the :func:`~os.path.splitdrive` function instead."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2125
-msgid "Direct instantiation of :class:`ssl.SSLSocket` and :class:`ssl.SSLObject` objects is now prohibited. The constructors were never documented, tested, or designed as public constructors.  Users were supposed to use :func:`ssl.wrap_socket` or :class:`ssl.SSLContext`. (Contributed by Christian Heimes in :issue:`32951`.)"
+#: ../../whatsnew/3.7.rst:2121
+msgid ":func:`collections.namedtuple` no longer supports the *verbose* parameter or ``_source`` attribute which showed the generated source code for the named tuple class.  This was part of an optimization designed to speed-up class creation.  (Contributed by Jelle Zijlstra with further improvements by INADA Naoki, Serhiy Storchaka, and Raymond Hettinger in :issue:`28638`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2127
+msgid "Functions :func:`bool`, :func:`float`, :func:`list` and :func:`tuple` no longer take keyword arguments.  The first argument of :func:`int` can now be passed only as positional argument."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2131
-msgid "The unused :mod:`distutils` ``install_misc`` command has been removed. (Contributed by Eric N. Vander Weele in :issue:`29218`.)"
+msgid "Removed previously deprecated in Python 2.4 classes ``Plist``, ``Dict`` and ``_InternalDict`` in the :mod:`plistlib` module.  Dict values in the result of functions :func:`~plistlib.readPlist` and :func:`~plistlib.readPlistFromBytes` are now normal dicts.  You no longer can use attribute access to access items of these dictionaries."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2136
-msgid "Module Removals"
+#: ../../whatsnew/3.7.rst:2137
+msgid "The ``asyncio.windows_utils.socketpair()`` function has been removed.  Use the :func:`socket.socketpair` function instead, it is available on all platforms since Python 3.5. ``asyncio.windows_utils.socketpair`` was just an alias to ``socket.socketpair`` on Python 3.5 and newer."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2138
-msgid "The ``fpectl`` module has been removed.  It was never enabled by default, never worked correctly on x86-64, and it changed the Python ABI in ways that caused unexpected breakage of C extensions. (Contributed by Nathaniel J. Smith in :issue:`29137`.)"
+#: ../../whatsnew/3.7.rst:2143
+msgid ":mod:`asyncio` no longer exports the :mod:`selectors` and :mod:`_overlapped` modules as ``asyncio.selectors`` and ``asyncio._overlapped``. Replace ``from asyncio import selectors`` with ``import selectors``."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2145
-#: ../../whatsnew/3.7.rst:2411
-msgid "Windows-only Changes"
-msgstr ""
-
-#: ../../whatsnew/3.7.rst:2147
-msgid "The python launcher, (py.exe), can accept 32 & 64 bit specifiers **without** having to specify a minor version as well. So ``py -3-32`` and ``py -3-64`` become valid as well as ``py -3.7-32``, also the -*m*-64 and -*m.n*-64 forms are now accepted to force 64 bit python even if 32 bit would have otherwise been used. If the specified version is not available py.exe will error exit. (Contributed by Steve Barnes in :issue:`30291`.)"
+#: ../../whatsnew/3.7.rst:2148
+msgid "Direct instantiation of :class:`ssl.SSLSocket` and :class:`ssl.SSLObject` objects is now prohibited. The constructors were never documented, tested, or designed as public constructors.  Users were supposed to use :func:`ssl.wrap_socket` or :class:`ssl.SSLContext`. (Contributed by Christian Heimes in :issue:`32951`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2154
-msgid "The launcher can be run as ``py -0`` to produce a list of the installed pythons, *with default marked with an asterisk*. Running ``py -0p`` will include the paths. If py is run with a version specifier that cannot be matched it will also print the *short form* list of available specifiers. (Contributed by Steve Barnes in :issue:`30362`.)"
+msgid "The unused :mod:`distutils` ``install_misc`` command has been removed. (Contributed by Eric N. Vander Weele in :issue:`29218`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2164
-msgid "Porting to Python 3.7"
+#: ../../whatsnew/3.7.rst:2159
+msgid "Module Removals"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2166
-msgid "This section lists previously described changes and other bugfixes that may require changes to your code."
+#: ../../whatsnew/3.7.rst:2161
+msgid "The ``fpectl`` module has been removed.  It was never enabled by default, never worked correctly on x86-64, and it changed the Python ABI in ways that caused unexpected breakage of C extensions. (Contributed by Nathaniel J. Smith in :issue:`29137`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2171
-msgid "Changes in Python Behavior"
+#: ../../whatsnew/3.7.rst:2168
+#: ../../whatsnew/3.7.rst:2434
+msgid "Windows-only Changes"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2173
-msgid ":keyword:`async` and :keyword:`await` names are now reserved keywords. Code using these names as identifiers will now raise a :exc:`SyntaxError`. (Contributed by Jelle Zijlstra in :issue:`30406`.)"
+#: ../../whatsnew/3.7.rst:2170
+msgid "The python launcher, (py.exe), can accept 32 & 64 bit specifiers **without** having to specify a minor version as well. So ``py -3-32`` and ``py -3-64`` become valid as well as ``py -3.7-32``, also the -*m*-64 and -*m.n*-64 forms are now accepted to force 64 bit python even if 32 bit would have otherwise been used. If the specified version is not available py.exe will error exit. (Contributed by Steve Barnes in :issue:`30291`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2177
-msgid ":pep:`479` is enabled for all code in Python 3.7, meaning that :exc:`StopIteration` exceptions raised directly or indirectly in coroutines and generators are transformed into :exc:`RuntimeError` exceptions. (Contributed by Yury Selivanov in :issue:`32670`.)"
+msgid "The launcher can be run as ``py -0`` to produce a list of the installed pythons, *with default marked with an asterisk*. Running ``py -0p`` will include the paths. If py is run with a version specifier that cannot be matched it will also print the *short form* list of available specifiers. (Contributed by Steve Barnes in :issue:`30362`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2183
-msgid ":meth:`object.__aiter__` methods can no longer be declared as asynchronous.  (Contributed by Yury Selivanov in :issue:`31709`.)"
+#: ../../whatsnew/3.7.rst:2187
+msgid "Porting to Python 3.7"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2186
-msgid "Due to an oversight, earlier Python versions erroneously accepted the following syntax::"
+#: ../../whatsnew/3.7.rst:2189
+msgid "This section lists previously described changes and other bugfixes that may require changes to your code."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2194
-msgid "Python 3.7 now correctly raises a :exc:`SyntaxError`, as a generator expression always needs to be directly inside a set of parentheses and cannot have a comma on either side, and the duplication of the parentheses can be omitted only on calls. (Contributed by Serhiy Storchaka in :issue:`32012` and :issue:`32023`.)"
+msgid "Changes in Python Behavior"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2196
+msgid ":keyword:`async` and :keyword:`await` names are now reserved keywords. Code using these names as identifiers will now raise a :exc:`SyntaxError`. (Contributed by Jelle Zijlstra in :issue:`30406`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2200
+msgid ":pep:`479` is enabled for all code in Python 3.7, meaning that :exc:`StopIteration` exceptions raised directly or indirectly in coroutines and generators are transformed into :exc:`RuntimeError` exceptions. (Contributed by Yury Selivanov in :issue:`32670`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2206
+msgid ":meth:`object.__aiter__` methods can no longer be declared as asynchronous.  (Contributed by Yury Selivanov in :issue:`31709`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2209
+msgid "Due to an oversight, earlier Python versions erroneously accepted the following syntax::"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2217
+msgid "Python 3.7 now correctly raises a :exc:`SyntaxError`, as a generator expression always needs to be directly inside a set of parentheses and cannot have a comma on either side, and the duplication of the parentheses can be omitted only on calls. (Contributed by Serhiy Storchaka in :issue:`32012` and :issue:`32023`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2223
 msgid "When using the :option:`-m` switch, the initial working directory is now added to :data:`sys.path`, rather than an empty string (which dynamically denoted the current working directory at the time of each import). Any programs that are checking for the empty string, or otherwise relying on the previous behaviour, will need to be updated accordingly (e.g. by also checking for ``os.getcwd()`` or ``os.path.dirname(__main__.__file__)``, depending on why the code was checking for the empty string in the first place)."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2210
+#: ../../whatsnew/3.7.rst:2233
 msgid "Changes in the Python API"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2212
+#: ../../whatsnew/3.7.rst:2235
 msgid ":meth:`socketserver.ThreadingMixIn.server_close` now waits until all non-daemon threads complete.  Set the new :attr:`socketserver.ThreadingMixIn.block_on_close` class attribute to ``False`` to get the pre-3.7 behaviour. (Contributed by Victor Stinner in :issue:`31233` and :issue:`33540`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2218
+#: ../../whatsnew/3.7.rst:2241
 msgid ":meth:`socketserver.ForkingMixIn.server_close` now waits until all child processes complete. Set the new :attr:`socketserver.ForkingMixIn.block_on_close` class attribute to ``False`` to get the pre-3.7 behaviour. (Contributed by Victor Stinner in :issue:`31151` and :issue:`33540`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2224
+#: ../../whatsnew/3.7.rst:2247
 msgid "The :func:`locale.localeconv` function now temporarily sets the ``LC_CTYPE`` locale to the value of ``LC_NUMERIC`` in some cases. (Contributed by Victor Stinner in :issue:`31900`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2228
+#: ../../whatsnew/3.7.rst:2251
 msgid ":meth:`pkgutil.walk_packages` now raises a :exc:`ValueError` if *path* is a string.  Previously an empty list was returned. (Contributed by Sanyam Khurana in :issue:`24744`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2232
+#: ../../whatsnew/3.7.rst:2255
 msgid "A format string argument for :meth:`string.Formatter.format` is now :ref:`positional-only <positional-only_parameter>`. Passing it as a keyword argument was deprecated in Python 3.5. (Contributed by Serhiy Storchaka in :issue:`29193`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2237
+#: ../../whatsnew/3.7.rst:2260
 msgid "Attributes :attr:`~http.cookies.Morsel.key`, :attr:`~http.cookies.Morsel.value` and :attr:`~http.cookies.Morsel.coded_value` of class :class:`http.cookies.Morsel` are now read-only. Assigning to them was deprecated in Python 3.5. Use the :meth:`~http.cookies.Morsel.set` method for setting them. (Contributed by Serhiy Storchaka in :issue:`29192`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2245
+#: ../../whatsnew/3.7.rst:2268
 msgid "The *mode* argument of :func:`os.makedirs` no longer affects the file permission bits of newly-created intermediate-level directories. To set their file permission bits you can set the umask before invoking ``makedirs()``. (Contributed by Serhiy Storchaka in :issue:`19930`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2251
+#: ../../whatsnew/3.7.rst:2274
 msgid "The :attr:`struct.Struct.format` type is now :class:`str` instead of :class:`bytes`. (Contributed by Victor Stinner in :issue:`21071`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2254
+#: ../../whatsnew/3.7.rst:2277
 msgid ":func:`~cgi.parse_multipart` now accepts the *encoding* and *errors* arguments and returns the same results as :class:`~FieldStorage`: for non-file fields, the value associated to a key is a list of strings, not bytes. (Contributed by Pierre Quentel in :issue:`29979`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2260
+#: ../../whatsnew/3.7.rst:2283
 msgid "Due to internal changes in :mod:`socket`, calling :func:`socket.fromshare` on a socket created by :func:`socket.share <socket.socket.share>` in older Python versions is not supported."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2264
+#: ../../whatsnew/3.7.rst:2287
 msgid "``repr`` for :exc:`BaseException` has changed to not include the trailing comma.  Most exceptions are affected by this change. (Contributed by Serhiy Storchaka in :issue:`30399`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2268
+#: ../../whatsnew/3.7.rst:2291
 msgid "``repr`` for :class:`datetime.timedelta` has changed to include the keyword arguments in the output. (Contributed by Utkarsh Upadhyay in :issue:`30302`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2271
+#: ../../whatsnew/3.7.rst:2294
 msgid "Because :func:`shutil.rmtree` is now implemented using the :func:`os.scandir` function, the user specified handler *onerror* is now called with the first argument ``os.scandir`` instead of ``os.listdir`` when listing the directory is failed."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2276
+#: ../../whatsnew/3.7.rst:2299
 msgid "Support for nested sets and set operations in regular expressions as in `Unicode Technical Standard #18`_ might be added in the future.  This would change the syntax.  To facilitate this future change a :exc:`FutureWarning` will be raised in ambiguous cases for the time being. That include sets starting with a literal ``'['`` or containing literal character sequences ``'--'``, ``'&&'``, ``'~~'``, and ``'||'``.  To avoid a warning, escape them with a backslash. (Contributed by Serhiy Storchaka in :issue:`30349`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2287
+#: ../../whatsnew/3.7.rst:2310
 msgid "The result of splitting a string on a :mod:`regular expression <re>` that could match an empty string has been changed.  For example splitting on ``r'\\s*'`` will now split not only on whitespaces as it did previously, but also on empty strings before all non-whitespace characters and just before the end of the string. The previous behavior can be restored by changing the pattern to ``r'\\s+'``.  A :exc:`FutureWarning` was emitted for such patterns since Python 3.5."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2296
+#: ../../whatsnew/3.7.rst:2319
 msgid "For patterns that match both empty and non-empty strings, the result of searching for all matches may also be changed in other cases.  For example in the string ``'a\\n\\n'``, the pattern ``r'(?m)^\\s*?$'`` will not only match empty strings at positions 2 and 3, but also the string ``'\\n'`` at positions 2--3.  To match only blank lines, the pattern should be rewritten as ``r'(?m)^[^\\S\\n]*$'``."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2303
+#: ../../whatsnew/3.7.rst:2326
 msgid ":func:`re.sub()` now replaces empty matches adjacent to a previous non-empty match.  For example ``re.sub('x*', '-', 'abxd')`` returns now ``'-a-b--d-'`` instead of ``'-a-b-d-'`` (the first minus between 'b' and 'd' replaces 'x', and the second minus replaces an empty string between 'x' and 'd')."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2309
+#: ../../whatsnew/3.7.rst:2332
 msgid "(Contributed by Serhiy Storchaka in :issue:`25054` and :issue:`32308`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2311
+#: ../../whatsnew/3.7.rst:2334
 msgid "Change :func:`re.escape` to only escape regex special characters instead of escaping all characters other than ASCII letters, numbers, and ``'_'``. (Contributed by Serhiy Storchaka in :issue:`29995`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2315
+#: ../../whatsnew/3.7.rst:2338
 msgid ":class:`tracemalloc.Traceback` frames are now sorted from oldest to most recent to be more consistent with :mod:`traceback`. (Contributed by Jesse Bakker in :issue:`32121`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2319
+#: ../../whatsnew/3.7.rst:2342
 msgid "On OSes that support :const:`socket.SOCK_NONBLOCK` or :const:`socket.SOCK_CLOEXEC` bit flags, the :attr:`socket.type <socket.socket.type>` no longer has them applied. Therefore, checks like ``if sock.type == socket.SOCK_STREAM`` work as expected on all platforms. (Contributed by Yury Selivanov in :issue:`32331`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2326
+#: ../../whatsnew/3.7.rst:2349
 msgid "On Windows the default for the *close_fds* argument of :class:`subprocess.Popen` was changed from :const:`False` to :const:`True` when redirecting the standard handles. If you previously depended on handles being inherited when using :class:`subprocess.Popen` with standard io redirection, you will have to pass ``close_fds=False`` to preserve the previous behaviour, or use :attr:`STARTUPINFO.lpAttributeList <subprocess.STARTUPINFO.lpAttributeList>`."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2334
+#: ../../whatsnew/3.7.rst:2357
 msgid ":meth:`importlib.machinery.PathFinder.invalidate_caches` -- which implicitly affects :func:`importlib.invalidate_caches` -- now deletes entries in :data:`sys.path_importer_cache` which are set to ``None``. (Contributed by Brett Cannon in :issue:`33169`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2339
+#: ../../whatsnew/3.7.rst:2362
 msgid "In :mod:`asyncio`, :meth:`loop.sock_recv() <asyncio.AbstractEventLoop.sock_recv>`, :meth:`loop.sock_sendall() <asyncio.AbstractEventLoop.sock_sendall>`, :meth:`loop.sock_accept() <asyncio.AbstractEventLoop.sock_accept>`, :meth:`loop.getaddrinfo() <asyncio.AbstractEventLoop.getaddrinfo>`, :meth:`loop.getnameinfo() <asyncio.AbstractEventLoop.getnameinfo>` have been changed to be proper coroutine methods to match their documentation.  Previously, these methods returned :class:`asyncio.Future` instances. (Contributed by Yury Selivanov in :issue:`32327`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2350
+#: ../../whatsnew/3.7.rst:2373
 msgid ":attr:`asyncio.Server.sockets` now returns a copy of the internal list of server sockets, instead of returning it directly. (Contributed by Yury Selivanov in :issue:`32662`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2354
+#: ../../whatsnew/3.7.rst:2377
 msgid ":attr:`Struct.format <struct.Struct.format>` is now a :class:`str` instance instead of a :class:`bytes` instance. (Contributed by Victor Stinner in :issue:`21071`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2358
+#: ../../whatsnew/3.7.rst:2381
 msgid ":meth:`ast.literal_eval()` is now stricter.  Addition and subtraction of arbitrary numbers are no longer allowed. (Contributed by Serhiy Storchaka in :issue:`31778`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2362
+#: ../../whatsnew/3.7.rst:2385
 msgid ":meth:`Calendar.itermonthdates <calendar.Calendar.itermonthdates>` will now consistently raise an exception when a date falls outside of the ``0001-01-01`` through ``9999-12-31`` range.  To support applications that cannot tolerate such exceptions, the new :meth:`Calendar.itermonthdays3 <calendar.Calendar.itermonthdays3>` and :meth:`Calendar.itermonthdays4 <calendar.Calendar.itermonthdays4>` can be used. The new methods return tuples and are not restricted by the range supported by :class:`datetime.date`. (Contributed by Alexander Belopolsky in :issue:`28292`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2372
+#: ../../whatsnew/3.7.rst:2395
 msgid ":class:`collections.ChainMap` now preserves the order of the underlying mappings.  (Contributed by Raymond Hettinger in :issue:`32792`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2375
+#: ../../whatsnew/3.7.rst:2398
 msgid "The ``submit()`` method of :class:`concurrent.futures.ThreadPoolExecutor` and :class:`concurrent.futures.ProcessPoolExecutor` now raises a :exc:`RuntimeError` if called during interpreter shutdown. (Contributed by Mark Nemec in :issue:`33097`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2380
+#: ../../whatsnew/3.7.rst:2403
 msgid "The :class:`configparser.ConfigParser` constructor now uses ``read_dict()`` to process the default values, making its behavior consistent with the rest of the parser.  Non-string keys and values in the defaults dictionary are now being implicitly converted to strings. (Contributed by James Tocknell in :issue:`23835`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2388
+#: ../../whatsnew/3.7.rst:2411
 msgid "Changes in the C API"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2390
+#: ../../whatsnew/3.7.rst:2413
 msgid "The function :c:func:`PySlice_GetIndicesEx` is considered unsafe for resizable sequences.  If the slice indices are not instances of :class:`int`, but objects that implement the :meth:`!__index__` method, the sequence can be resized after passing its length to :c:func:`!PySlice_GetIndicesEx`.  This can lead to returning indices out of the length of the sequence.  For avoiding possible problems use new functions :c:func:`PySlice_Unpack` and :c:func:`PySlice_AdjustIndices`. (Contributed by Serhiy Storchaka in :issue:`27867`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2401
+#: ../../whatsnew/3.7.rst:2424
 msgid "CPython bytecode changes"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2403
+#: ../../whatsnew/3.7.rst:2426
 msgid "There are two new opcodes: :opcode:`LOAD_METHOD` and :opcode:`CALL_METHOD`. (Contributed by Yury Selivanov and INADA Naoki in :issue:`26110`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2406
+#: ../../whatsnew/3.7.rst:2429
 msgid "The :opcode:`STORE_ANNOTATION` opcode has been removed. (Contributed by Mark Shannon in :issue:`32550`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2413
+#: ../../whatsnew/3.7.rst:2436
 msgid "The file used to override :data:`sys.path` is now called ``<python-executable>._pth`` instead of ``'sys.path'``. See :ref:`finding_modules` for more information. (Contributed by Steve Dower in :issue:`28137`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2420
+#: ../../whatsnew/3.7.rst:2443
 msgid "Other CPython implementation changes"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2422
+#: ../../whatsnew/3.7.rst:2445
 msgid "In preparation for potential future changes to the public CPython runtime initialization API (see :pep:`432` for an initial, but somewhat outdated, draft), CPython's internal startup and configuration management logic has been significantly refactored. While these updates are intended to be entirely transparent to both embedding applications and users of the regular CPython CLI, they're being mentioned here as the refactoring changes the internal order of various operations during interpreter startup, and hence may uncover previously latent defects, either in embedding applications, or in CPython itself. (Initially contributed by Nick Coghlan and Eric Snow as part of :issue:`22257`, and further updated by Nick, Eric, and Victor Stinner in a number of other issues). Some known details affected:"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2435
+#: ../../whatsnew/3.7.rst:2458
 msgid ":c:func:`PySys_AddWarnOptionUnicode` is not currently usable by embedding applications due to the requirement to create a Unicode object prior to calling `Py_Initialize`. Use :c:func:`PySys_AddWarnOption` instead."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2439
+#: ../../whatsnew/3.7.rst:2462
 msgid "warnings filters added by an embedding application with :c:func:`PySys_AddWarnOption` should now more consistently take precedence over the default filters set by the interpreter"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2443
+#: ../../whatsnew/3.7.rst:2466
 msgid "Due to changes in the way the default warnings filters are configured, setting :c:data:`Py_BytesWarningFlag` to a value greater than one is no longer sufficient to both emit :exc:`BytesWarning` messages and have them converted to exceptions.  Instead, the flag must be set (to cause the warnings to be emitted in the first place), and an explicit ``error::BytesWarning`` warnings filter added to convert them to exceptions."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2450
+#: ../../whatsnew/3.7.rst:2473
 msgid "Due to a change in the way docstrings are handled by the compiler, the implicit ``return None`` in a function body consisting solely of a docstring is now marked as occurring on the same line as the docstring, not on the function's header line."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2455
+#: ../../whatsnew/3.7.rst:2478
 msgid "The current exception state has been moved from the frame object to the co-routine. This simplified the interpreter and fixed a couple of obscure bugs caused by having swap exception state when entering or exiting a generator. (Contributed by Mark Shannon in :issue:`25612`.)"
 msgstr ""
 
