@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-07-18 13:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,7 +349,7 @@ msgid "Raised when a Unicode-related error occurs during translating.  It is a s
 msgstr ""
 
 #: ../../library/exceptions.rst:527
-msgid "Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as :exc:`IndexError`."
+msgid "Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as :exc:`IndexError`."
 msgstr ""
 
 #: ../../library/exceptions.rst:534
