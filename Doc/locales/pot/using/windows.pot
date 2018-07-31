@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 13:19+0900\n"
+"POT-Creation-Date: 2018-07-31 14:01+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,7 +271,7 @@ msgid "PrependPath"
 msgstr ""
 
 #: ../../using/windows.rst:149
-msgid "Add install and Scripts directories tho :envvar:`PATH` and ``.PY`` to :envvar:`PATHEXT`"
+msgid "Add install and Scripts directories to :envvar:`PATH` and ``.PY`` to :envvar:`PATHEXT`"
 msgstr ""
 
 #: ../../using/windows.rst:153
@@ -415,7 +415,7 @@ msgid "(Note that omitting the launcher also omits file associations, and is onl
 msgstr ""
 
 #: ../../using/windows.rst:209
-msgid "The options listed above can also be provided in a file named ``unattend.xml`` alongside the executable. This file specifies a list of options and values. When a value is provided as an attribute, it will be converted to a number if possible. Values provided as element text are always left as strings. This example file sets the same options and the previous example:"
+msgid "The options listed above can also be provided in a file named ``unattend.xml`` alongside the executable. This file specifies a list of options and values. When a value is provided as an attribute, it will be converted to a number if possible. Values provided as element text are always left as strings. This example file sets the same options as the previous example:"
 msgstr ""
 
 #: ../../using/windows.rst:228
@@ -795,7 +795,7 @@ msgid "Customization via INI files"
 msgstr ""
 
 #: ../../using/windows.rst:611
-msgid "Two .ini files will be searched by the launcher - ``py.ini`` in the current user's \"application data\" directory (i.e. the directory returned by calling the Windows function SHGetFolderPath with CSIDL_LOCAL_APPDATA) and ``py.ini`` in the same directory as the launcher. The same .ini files are used for both the 'console' version of the launcher (i.e. py.exe) and for the 'windows' version (i.e. pyw.exe)"
+msgid "Two .ini files will be searched by the launcher - ``py.ini`` in the current user's \"application data\" directory (i.e. the directory returned by calling the Windows function ``SHGetFolderPath`` with ``CSIDL_LOCAL_APPDATA``) and ``py.ini`` in the same directory as the launcher. The same .ini files are used for both the 'console' version of the launcher (i.e. py.exe) and for the 'windows' version (i.e. pyw.exe)"
 msgstr ""
 
 #: ../../using/windows.rst:618
@@ -963,7 +963,7 @@ msgid "If you cannot use the previous suggestions (for example, you are a distri
 msgstr ""
 
 #: ../../using/windows.rst:816
-msgid "These will ensure that the files in a system-wide installation will not take precedence over the copy of the standard library bundled with your application. Otherwise, your users may experience problems using your application. Note that the first suggestion is the best, as the other may still be susceptible to non-standard paths in the registry and user site-packages."
+msgid "These will ensure that the files in a system-wide installation will not take precedence over the copy of the standard library bundled with your application. Otherwise, your users may experience problems using your application. Note that the first suggestion is the best, as the others may still be susceptible to non-standard paths in the registry and user site-packages."
 msgstr ""
 
 #: ../../using/windows.rst:825
