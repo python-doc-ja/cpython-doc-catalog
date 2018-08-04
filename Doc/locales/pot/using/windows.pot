@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 08:49+0900\n"
+"POT-Creation-Date: 2018-08-04 08:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -583,7 +583,7 @@ msgid "The :envvar:`PYTHONPATH` variable is used by all versions of Python 2 and
 msgstr ""
 
 #: ../../using/windows.rst:385
-msgid "https://support.microsoft.com/en-us/help/100843/environment-variables-in-windows-nt"
+msgid "https://www.microsoft.com/en-us/wdsi/help/folder-variables"
 msgstr ""
 
 #: ../../using/windows.rst:385
