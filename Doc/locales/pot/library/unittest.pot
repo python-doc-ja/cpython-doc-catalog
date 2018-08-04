@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 13:27+0900\n"
+"POT-Creation-Date: 2018-08-04 14:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,7 +329,7 @@ msgid "If :meth:`~TestCase.setUp` succeeded, :meth:`~TestCase.tearDown` will be 
 msgstr ""
 
 #: ../../library/unittest.rst:393
-msgid "Such a working environment for the testing code is called a :dfn:`test fixture`.  A new TestCase instance is created as a unique test fixture used to execute each individual test method.  Thus `~TestCase.setUp`, `~TestCase.tearDown`, and `~TestCase.__init__` will be called once per test."
+msgid "Such a working environment for the testing code is called a :dfn:`test fixture`.  A new TestCase instance is created as a unique test fixture used to execute each individual test method.  Thus :meth:`~TestCase.setUp`, :meth:`~TestCase.tearDown`, and :meth:`~TestCase.__init__` will be called once per test."
 msgstr ""
 
 #: ../../library/unittest.rst:399

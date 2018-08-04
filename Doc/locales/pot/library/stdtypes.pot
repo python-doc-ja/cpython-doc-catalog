@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-29 13:58+0900\n"
+"POT-Creation-Date: 2018-08-04 14:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1389,7 +1389,7 @@ msgid "The :attr:`~range.start`, :attr:`~range.stop` and :attr:`~range.step` att
 msgstr ""
 
 #: ../../library/stdtypes.rst:1373
-msgid "The `linspace recipe <http://code.activestate.com/recipes/579000/>`_ shows how to implement a lazy version of range that suitable for floating point applications."
+msgid "The `linspace recipe <http://code.activestate.com/recipes/579000/>`_ shows how to implement a lazy version of range suitable for floating point applications."
 msgstr ""
 
 #: ../../library/stdtypes.rst:1385
