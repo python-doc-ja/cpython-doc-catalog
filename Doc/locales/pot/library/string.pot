@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-13 13:36+0900\n"
+"POT-Creation-Date: 2018-08-07 14:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -471,7 +471,7 @@ msgid "``'f'``"
 msgstr ""
 
 #: ../../library/string.rst:467
-msgid "Fixed point. Displays the number as a fixed-point number.  The default precision is ``6``."
+msgid "Fixed-point notation. Displays the number as a fixed-point number.  The default precision is ``6``."
 msgstr ""
 
 #: ../../library/string.rst:470
@@ -479,7 +479,7 @@ msgid "``'F'``"
 msgstr ""
 
 #: ../../library/string.rst:470
-msgid "Fixed point. Same as ``'f'``."
+msgid "Fixed point notation. Same as ``'f'``."
 msgstr ""
 
 #: ../../library/string.rst:472
