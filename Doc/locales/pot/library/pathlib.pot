@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-04 14:02+0900\n"
+"POT-Creation-Date: 2018-08-07 14:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -486,74 +486,74 @@ msgid "Return the decoded contents of the pointed-to file as a string::"
 msgstr ""
 
 #: ../../library/pathlib.rst:900
-msgid "The optional parameters have the same meaning as in :func:`open`."
+msgid "The file is opened and then closed. The optional parameters have the same meaning as in :func:`open`."
 msgstr ""
 
-#: ../../library/pathlib.rst:907
+#: ../../library/pathlib.rst:908
 msgid "Rename this file or directory to the given *target*.  On Unix, if *target* exists and is a file, it will be replaced silently if the user has permission.  *target* can be either a string or another path object::"
 msgstr ""
 
-#: ../../library/pathlib.rst:922
+#: ../../library/pathlib.rst:923
 msgid "Rename this file or directory to the given *target*.  If *target* points to an existing file or directory, it will be unconditionally replaced."
 msgstr ""
 
-#: ../../library/pathlib.rst:928
+#: ../../library/pathlib.rst:929
 msgid "Make the path absolute, resolving any symlinks.  A new path object is returned::"
 msgstr ""
 
-#: ../../library/pathlib.rst:937
+#: ../../library/pathlib.rst:938
 msgid "\"``..``\" components are also eliminated (this is the only method to do so)::"
 msgstr ""
 
-#: ../../library/pathlib.rst:943
+#: ../../library/pathlib.rst:944
 msgid "If the path doesn't exist and *strict* is ``True``, :exc:`FileNotFoundError` is raised.  If *strict* is ``False``, the path is resolved as far as possible and any remainder is appended without checking whether it exists.  If an infinite loop is encountered along the resolution path, :exc:`RuntimeError` is raised."
 msgstr ""
 
-#: ../../library/pathlib.rst:949
+#: ../../library/pathlib.rst:950
 msgid "The *strict* argument."
 msgstr ""
 
-#: ../../library/pathlib.rst:954
+#: ../../library/pathlib.rst:955
 msgid "This is like calling :meth:`Path.glob` with \"``**``\" added in front of the given *pattern*:"
 msgstr ""
 
-#: ../../library/pathlib.rst:967
+#: ../../library/pathlib.rst:968
 msgid "Remove this directory.  The directory must be empty."
 msgstr ""
 
-#: ../../library/pathlib.rst:972
+#: ../../library/pathlib.rst:973
 msgid "Return whether this path points to the same file as *other_path*, which can be either a Path object, or a string.  The semantics are similar to :func:`os.path.samefile` and :func:`os.path.samestat`."
 msgstr ""
 
-#: ../../library/pathlib.rst:976
+#: ../../library/pathlib.rst:977
 msgid "An :exc:`OSError` can be raised if either file cannot be accessed for some reason."
 msgstr ""
 
-#: ../../library/pathlib.rst:991
+#: ../../library/pathlib.rst:992
 msgid "Make this path a symbolic link to *target*.  Under Windows, *target_is_directory* must be true (default ``False``) if the link's target is a directory.  Under POSIX, *target_is_directory*'s value is ignored."
 msgstr ""
 
-#: ../../library/pathlib.rst:1005
+#: ../../library/pathlib.rst:1006
 msgid "The order of arguments (link, target) is the reverse of :func:`os.symlink`'s."
 msgstr ""
 
-#: ../../library/pathlib.rst:1011
+#: ../../library/pathlib.rst:1012
 msgid "Create a file at this given path.  If *mode* is given, it is combined with the process' ``umask`` value to determine the file mode and access flags.  If the file already exists, the function succeeds if *exist_ok* is true (and its modification time is updated to the current time), otherwise :exc:`FileExistsError` is raised."
 msgstr ""
 
-#: ../../library/pathlib.rst:1020
+#: ../../library/pathlib.rst:1021
 msgid "Remove this file or symbolic link.  If the path points to a directory, use :func:`Path.rmdir` instead."
 msgstr ""
 
-#: ../../library/pathlib.rst:1026
+#: ../../library/pathlib.rst:1027
 msgid "Open the file pointed to in bytes mode, write *data* to it, and close the file::"
 msgstr ""
 
-#: ../../library/pathlib.rst:1035
+#: ../../library/pathlib.rst:1036
 msgid "An existing file of the same name is overwritten."
 msgstr ""
 
-#: ../../library/pathlib.rst:1042
+#: ../../library/pathlib.rst:1043
 msgid "Open the file pointed to in text mode, write *data* to it, and close the file::"
 msgstr ""
 
