@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 08:33+0900\n"
+"POT-Creation-Date: 2018-08-08 08:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -321,7 +321,7 @@ msgid "Here's a sample usage of the ``generate_ints()`` generator:"
 msgstr ""
 
 #: ../../howto/functional.rst:482
-msgid "You could equally write ``for i in generate_ints(5)``, or ``a,b,c = generate_ints(3)``."
+msgid "You could equally write ``for i in generate_ints(5)``, or ``a, b, c = generate_ints(3)``."
 msgstr ""
 
 #: ../../howto/functional.rst:485
