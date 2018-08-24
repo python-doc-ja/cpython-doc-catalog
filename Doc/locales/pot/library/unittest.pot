@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-04 08:47+0900\n"
+"POT-Creation-Date: 2018-08-24 08:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -549,7 +549,7 @@ msgid "Method called immediately after the test method has been called and the r
 msgstr ""
 
 #: ../../library/unittest.rst:727
-msgid "A class method called before tests in an individual class run. ``setUpClass`` is called with the class as the only argument and must be decorated as a :func:`classmethod`::"
+msgid "A class method called before tests in an individual class are run. ``setUpClass`` is called with the class as the only argument and must be decorated as a :func:`classmethod`::"
 msgstr ""
 
 #: ../../library/unittest.rst:735
