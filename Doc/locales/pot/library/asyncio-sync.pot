@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-08-25 08:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -285,7 +285,7 @@ msgid "This raises :exc:`ValueError` in :meth:`~Semaphore.release` if it would i
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:271
-msgid "Bounded semapthores support the :ref:`context management protocol <async-with-locks>`."
+msgid "Bounded semaphores support the :ref:`context management protocol <async-with-locks>`."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:280
