@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-09-12 09:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,187 +124,187 @@ msgstr ""
 msgid "This only works with two literals though, not with variables or expressions::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:232
+#: ../../tutorial/introduction.rst:236
 msgid "If you want to concatenate variables or a variable and a literal, use ``+``::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:237
+#: ../../tutorial/introduction.rst:241
 msgid "Strings can be *indexed* (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:247
+#: ../../tutorial/introduction.rst:251
 msgid "Indices may also be negative numbers, to start counting from the right::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:256
+#: ../../tutorial/introduction.rst:260
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:258
+#: ../../tutorial/introduction.rst:262
 msgid "In addition to indexing, *slicing* is also supported.  While indexing is used to obtain individual characters, *slicing* allows you to obtain substring::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:266
+#: ../../tutorial/introduction.rst:270
 msgid "Note how the start is always included, and the end always excluded.  This makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:274
+#: ../../tutorial/introduction.rst:278
 msgid "Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced. ::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:284
+#: ../../tutorial/introduction.rst:288
 msgid "One way to remember how slices work is to think of the indices as pointing *between* characters, with the left edge of the first character numbered 0. Then the right edge of the last character of a string of *n* characters has index *n*, for example::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:295
+#: ../../tutorial/introduction.rst:299
 msgid "The first row of numbers gives the position of the indices 0...6 in the string; the second row gives the corresponding negative indices. The slice from *i* to *j* consists of all characters between the edges labeled *i* and *j*, respectively."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:300
+#: ../../tutorial/introduction.rst:304
 msgid "For non-negative indices, the length of a slice is the difference of the indices, if both are within bounds.  For example, the length of ``word[1:3]`` is 2."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:304
+#: ../../tutorial/introduction.rst:308
 msgid "Attempting to use an index that is too large will result in an error::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:311
+#: ../../tutorial/introduction.rst:315
 msgid "However, out of range slice indexes are handled gracefully when used for slicing::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:319
+#: ../../tutorial/introduction.rst:323
 msgid "Python strings cannot be changed --- they are :term:`immutable`. Therefore, assigning to an indexed position in the string results in an error::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:329
+#: ../../tutorial/introduction.rst:335
 msgid "If you need a different string, you should create a new one::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:336
+#: ../../tutorial/introduction.rst:342
 msgid "The built-in function :func:`len` returns the length of a string::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:347
+#: ../../tutorial/introduction.rst:353
 msgid ":ref:`textseq`"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:346
+#: ../../tutorial/introduction.rst:352
 msgid "Strings are examples of *sequence types*, and support the common operations supported by such types."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:351
+#: ../../tutorial/introduction.rst:357
 msgid ":ref:`string-methods`"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:350
+#: ../../tutorial/introduction.rst:356
 msgid "Strings support a large number of methods for basic transformations and searching."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:354
+#: ../../tutorial/introduction.rst:360
 msgid ":ref:`f-strings`"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:354
+#: ../../tutorial/introduction.rst:360
 msgid "String literals that have embedded expressions."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:357
+#: ../../tutorial/introduction.rst:363
 msgid ":ref:`formatstrings`"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:357
+#: ../../tutorial/introduction.rst:363
 msgid "Information about string formatting with :meth:`str.format`."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:360
+#: ../../tutorial/introduction.rst:366
 msgid ":ref:`old-string-formatting`"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:360
+#: ../../tutorial/introduction.rst:366
 msgid "The old formatting operations invoked when strings are the left operand of the ``%`` operator are described in more detail here."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:367
+#: ../../tutorial/introduction.rst:373
 msgid "Lists"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:369
+#: ../../tutorial/introduction.rst:375
 msgid "Python knows a number of *compound* data types, used to group together other values.  The most versatile is the *list*, which can be written as a list of comma-separated values (items) between square brackets.  Lists might contain items of different types, but usually the items all have the same type. ::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:378
+#: ../../tutorial/introduction.rst:384
 msgid "Like strings (and all other built-in :term:`sequence` type), lists can be indexed and sliced::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:388
+#: ../../tutorial/introduction.rst:394
 msgid "All slice operations return a new list containing the requested elements.  This means that the following slice returns a new (shallow) copy of the list::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:394
+#: ../../tutorial/introduction.rst:400
 msgid "Lists also support operations like concatenation::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:399
+#: ../../tutorial/introduction.rst:405
 msgid "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` type, i.e. it is possible to change their content::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:409
+#: ../../tutorial/introduction.rst:415
 msgid "You can also add new items at the end of the list, by using the :meth:`~list.append` *method* (we will see more about methods later)::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:417
+#: ../../tutorial/introduction.rst:423
 msgid "Assignment to slices is also possible, and this can even change the size of the list or clear it entirely::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:436
+#: ../../tutorial/introduction.rst:442
 msgid "The built-in function :func:`len` also applies to lists::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:442
+#: ../../tutorial/introduction.rst:448
 msgid "It is possible to nest lists (create lists containing other lists), for example::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:458
+#: ../../tutorial/introduction.rst:464
 msgid "First Steps Towards Programming"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:460
+#: ../../tutorial/introduction.rst:466
 msgid "Of course, we can use Python for more complicated tasks than adding two and two together.  For instance, we can write an initial sub-sequence of the `Fibonacci series <https://en.wikipedia.org/wiki/Fibonacci_number>`_ as follows::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:480
+#: ../../tutorial/introduction.rst:486
 msgid "This example introduces several new features."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:482
+#: ../../tutorial/introduction.rst:488
 msgid "The first line contains a *multiple assignment*: the variables ``a`` and ``b`` simultaneously get the new values 0 and 1.  On the last line this is used again, demonstrating that the expressions on the right-hand side are all evaluated first before any of the assignments take place.  The right-hand side expressions are evaluated  from the left to the right."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:488
+#: ../../tutorial/introduction.rst:494
 msgid "The :keyword:`while` loop executes as long as the condition (here: ``a < 10``) remains true.  In Python, like in C, any non-zero integer value is true; zero is false.  The condition may also be a string or list value, in fact any sequence; anything with a non-zero length is true, empty sequences are false.  The test used in the example is a simple comparison.  The standard comparison operators are written the same as in C: ``<`` (less than), ``>`` (greater than), ``==`` (equal to), ``<=`` (less than or equal to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:497
+#: ../../tutorial/introduction.rst:503
 msgid "The *body* of the loop is *indented*: indentation is Python's way of grouping statements.  At the interactive prompt, you have to type a tab or space(s) for each indented line.  In practice you will prepare more complicated input for Python with a text editor; all decent text editors have an auto-indent facility.  When a compound statement is entered interactively, it must be followed by a blank line to indicate completion (since the parser cannot guess when you have typed the last line).  Note that each line within a basic block must be indented by the same amount."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:506
+#: ../../tutorial/introduction.rst:512
 msgid "The :func:`print` function writes the value of the argument(s) it is given. It differs from just writing the expression you want to write (as we did earlier in the calculator examples) in the way it handles multiple arguments, floating point quantities, and strings.  Strings are printed without quotes, and a space is inserted between items, so you can format things nicely, like this::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:517
+#: ../../tutorial/introduction.rst:523
 msgid "The keyword argument *end* can be used to avoid the newline after the output, or end the output with a different string::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:529
+#: ../../tutorial/introduction.rst:535
 msgid "Footnotes"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:530
+#: ../../tutorial/introduction.rst:536
 msgid "Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you can use ``(-3)**2``."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:534
+#: ../../tutorial/introduction.rst:540
 msgid "Unlike other languages, special characters such as ``\\n`` have the same meaning with both single (``'...'``) and double (``\"...\"``) quotes. The only difference between the two is that within single quotes you don't need to escape ``\"`` (but you have to escape ``\\'``) and vice versa."
 msgstr ""
 
