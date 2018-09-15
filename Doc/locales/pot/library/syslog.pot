@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-09-15 09:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "The optional *ident* keyword argument is a string which is prepended to e
 msgstr ""
 
 #: ../../library/syslog.rst:48
-msgid "In previous versions, keyword arguments were not allowed, and *ident* was required.  The default for *ident* was dependent on the system libraries, and often was ``python`` instead of the name of the python program file."
+msgid "In previous versions, keyword arguments were not allowed, and *ident* was required.  The default for *ident* was dependent on the system libraries, and often was ``python`` instead of the name of the Python program file."
 msgstr ""
 
 #: ../../library/syslog.rst:56

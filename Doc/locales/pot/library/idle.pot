@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-09-15 09:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -563,7 +563,7 @@ msgid "Turtle Demo"
 msgstr ""
 
 #: ../../library/idle.rst:306
-msgid "Run the turtledemo module with example python code and turtle drawings."
+msgid "Run the turtledemo module with example Python code and turtle drawings."
 msgstr ""
 
 #: ../../library/idle.rst:308
