@@ -2515,6 +2515,42 @@ source_file = pot/library/zlib.pot
 source_lang = en
 type = PO
 
+[python-newest.library--asyncio-api-index]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-api-index.po
+source_file = pot/library/asyncio-api-index.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-exceptions]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-exceptions.po
+source_file = pot/library/asyncio-exceptions.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-future]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-future.po
+source_file = pot/library/asyncio-future.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-llapi-index]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-llapi-index.po
+source_file = pot/library/asyncio-llapi-index.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-platforms]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-platforms.po
+source_file = pot/library/asyncio-platforms.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-policy]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-policy.po
+source_file = pot/library/asyncio-policy.pot
+source_lang = en
+type = PO
+
 [python-newest.reference--compound_stmts]
 file_filter = <lang>/LC_MESSAGES/reference/compound_stmts.po
 source_file = pot/reference/compound_stmts.pot

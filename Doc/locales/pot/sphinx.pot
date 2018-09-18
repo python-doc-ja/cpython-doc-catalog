@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-09-18 09:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,7 +193,6 @@ msgid "History and License of Python"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:63
-#: ../../tools/templates/layout.html:108
 msgid "Copyright"
 msgstr ""
 
@@ -249,35 +248,7 @@ msgstr ""
 msgid "Audio/Visual Talks"
 msgstr ""
 
-#: ../../tools/templates/layout.html:10
+#: ../../tools/templates/layout.html:9
 msgid "Documentation "
-msgstr ""
-
-#: ../../tools/templates/layout.html:21
-msgid "Quick search"
-msgstr ""
-
-#: ../../tools/templates/layout.html:22
-msgid "Go"
-msgstr ""
-
-#: ../../tools/templates/layout.html:110
-msgid "The Python Software Foundation is a non-profit corporation."
-msgstr ""
-
-#: ../../tools/templates/layout.html:111
-msgid "Please donate."
-msgstr ""
-
-#: ../../tools/templates/layout.html:113
-msgid "Last updated on %(last_updated)s."
-msgstr ""
-
-#: ../../tools/templates/layout.html:114
-msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
-msgstr ""
-
-#: ../../tools/templates/layout.html:116
-msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
