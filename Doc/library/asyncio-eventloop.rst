@@ -152,8 +152,12 @@ Running and stopping the loop
    close with an :meth:`~agen.aclose()` call.  After calling this method,
    the event loop will issue a warning if a new asynchronous generator
    is iterated. This should be used to reliably finalize all scheduled
-   asynchronous generators, e.g.::
+   asynchronous generators.
 
+   Note that there is no need to call this function when
+   :func:`asyncio.run` is used.
+
+   Example::
 
     try:
         loop.run_forever()
@@ -979,7 +983,7 @@ Availability: Unix.
 Executing code in thread or process pools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. coroutinemethod:: loop.run_in_executor(executor, func, \*args)
+.. awaitablemethod:: loop.run_in_executor(executor, func, \*args)
 
    Arrange for *func* to be called in the specified executor.
 
