@@ -769,6 +769,12 @@ source_file = pot/library/asynchat.pot
 source_lang = en
 type = PO
 
+[python-newest.library--asyncio-api-index]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-api-index.po
+source_file = pot/library/asyncio-api-index.pot
+source_lang = en
+type = PO
+
 [python-newest.library--asyncio-dev]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-dev.po
 source_file = pot/library/asyncio-dev.pot
@@ -784,6 +790,36 @@ type = PO
 [python-newest.library--asyncio-eventloops]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-eventloops.po
 source_file = pot/library/asyncio-eventloops.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-exceptions]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-exceptions.po
+source_file = pot/library/asyncio-exceptions.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-future]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-future.po
+source_file = pot/library/asyncio-future.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-llapi-index]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-llapi-index.po
+source_file = pot/library/asyncio-llapi-index.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-platforms]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-platforms.po
+source_file = pot/library/asyncio-platforms.pot
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-policy]
+file_filter = <lang>/LC_MESSAGES/library/asyncio-policy.po
+source_file = pot/library/asyncio-policy.pot
 source_lang = en
 type = PO
 
@@ -2419,15 +2455,15 @@ source_file = pot/library/xdrlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_dom_minidom]
-file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
-source_file = pot/library/xml.dom.minidom.pot
-source_lang = en
-type = PO
-
 [python-newest.library--xml_dom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.po
 source_file = pot/library/xml.dom.pot
+source_lang = en
+type = PO
+
+[python-newest.library--xml_dom_minidom]
+file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
+source_file = pot/library/xml.dom.minidom.pot
 source_lang = en
 type = PO
 
@@ -2461,12 +2497,6 @@ source_file = pot/library/xml.sax.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xmlrpc]
-file_filter = <lang>/LC_MESSAGES/library/xmlrpc.po
-source_file = pot/library/xmlrpc.pot
-source_lang = en
-type = PO
-
 [python-newest.library--xml_sax_reader]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.reader.po
 source_file = pot/library/xml.sax.reader.pot
@@ -2482,6 +2512,12 @@ type = PO
 [python-newest.library--xmlrpc_client]
 file_filter = <lang>/LC_MESSAGES/library/xmlrpc.client.po
 source_file = pot/library/xmlrpc.client.pot
+source_lang = en
+type = PO
+
+[python-newest.library--xmlrpc]
+file_filter = <lang>/LC_MESSAGES/library/xmlrpc.po
+source_file = pot/library/xmlrpc.pot
 source_lang = en
 type = PO
 
@@ -2512,42 +2548,6 @@ type = PO
 [python-newest.library--zlib]
 file_filter = <lang>/LC_MESSAGES/library/zlib.po
 source_file = pot/library/zlib.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-api-index]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-api-index.po
-source_file = pot/library/asyncio-api-index.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-exceptions]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-exceptions.po
-source_file = pot/library/asyncio-exceptions.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-future]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-future.po
-source_file = pot/library/asyncio-future.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-llapi-index]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-llapi-index.po
-source_file = pot/library/asyncio-llapi-index.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-platforms]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-platforms.po
-source_file = pot/library/asyncio-platforms.pot
-source_lang = en
-type = PO
-
-[python-newest.library--asyncio-policy]
-file_filter = <lang>/LC_MESSAGES/library/asyncio-policy.po
-source_file = pot/library/asyncio-policy.pot
 source_lang = en
 type = PO
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 09:12+0900\n"
+"POT-Creation-Date: 2018-09-19 09:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Futures"
 msgstr ""
 
 #: ../../library/asyncio-future.rst:10
-msgid "*Future* objects are used to bridge low-level callback-based code with high-level async/await code."
+msgid "*Future* objects are used to bridge **low-level callback-based code** with high-level async/await code."
 msgstr ""
 
 #: ../../library/asyncio-future.rst:15
