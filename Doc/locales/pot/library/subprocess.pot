@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-08 13:31+0900\n"
+"POT-Creation-Date: 2018-09-22 14:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -838,7 +838,7 @@ msgid "A trailing newline is stripped from the output. The exit code for the com
 msgstr ""
 
 #: ../../library/subprocess.rst:1196
-#: ../../library/subprocess.rst:1215
+#: ../../library/subprocess.rst:1216
 msgid "Availability: POSIX & Windows"
 msgstr ""
 
@@ -847,58 +847,58 @@ msgid "Windows support was added."
 msgstr ""
 
 #: ../../library/subprocess.rst:1201
-msgid "The function now returns (exitcode, output) instead of (status, output) as it did in Python 3.3.3 and earlier.  See :func:`WEXITSTATUS`."
+msgid "The function now returns (exitcode, output) instead of (status, output) as it did in Python 3.3.3 and earlier.  exitcode has the same value as :attr:`~Popen.returncode`."
 msgstr ""
 
-#: ../../library/subprocess.rst:1207
+#: ../../library/subprocess.rst:1208
 msgid "Return output (stdout and stderr) of executing *cmd* in a shell."
 msgstr ""
 
-#: ../../library/subprocess.rst:1209
-msgid "Like :func:`getstatusoutput`, except the exit status is ignored and the return value is a string containing the command's output.  Example::"
+#: ../../library/subprocess.rst:1210
+msgid "Like :func:`getstatusoutput`, except the exit code is ignored and the return value is a string containing the command's output.  Example::"
 msgstr ""
 
-#: ../../library/subprocess.rst:1217
+#: ../../library/subprocess.rst:1218
 msgid "Windows support added"
 msgstr ""
 
-#: ../../library/subprocess.rst:1222
+#: ../../library/subprocess.rst:1223
 msgid "Notes"
 msgstr ""
 
-#: ../../library/subprocess.rst:1227
+#: ../../library/subprocess.rst:1228
 msgid "Converting an argument sequence to a string on Windows"
 msgstr ""
 
-#: ../../library/subprocess.rst:1229
+#: ../../library/subprocess.rst:1230
 msgid "On Windows, an *args* sequence is converted to a string that can be parsed using the following rules (which correspond to the rules used by the MS C runtime):"
 msgstr ""
 
-#: ../../library/subprocess.rst:1233
+#: ../../library/subprocess.rst:1234
 msgid "Arguments are delimited by white space, which is either a space or a tab."
 msgstr ""
 
-#: ../../library/subprocess.rst:1236
+#: ../../library/subprocess.rst:1237
 msgid "A string surrounded by double quotation marks is interpreted as a single argument, regardless of white space contained within.  A quoted string can be embedded in an argument."
 msgstr ""
 
-#: ../../library/subprocess.rst:1241
+#: ../../library/subprocess.rst:1242
 msgid "A double quotation mark preceded by a backslash is interpreted as a literal double quotation mark."
 msgstr ""
 
-#: ../../library/subprocess.rst:1244
+#: ../../library/subprocess.rst:1245
 msgid "Backslashes are interpreted literally, unless they immediately precede a double quotation mark."
 msgstr ""
 
-#: ../../library/subprocess.rst:1247
+#: ../../library/subprocess.rst:1248
 msgid "If backslashes immediately precede a double quotation mark, every pair of backslashes is interpreted as a literal backslash.  If the number of backslashes is odd, the last backslash escapes the next double quotation mark as described in rule 3."
 msgstr ""
 
-#: ../../library/subprocess.rst:1256
+#: ../../library/subprocess.rst:1257
 msgid ":mod:`shlex`"
 msgstr ""
 
-#: ../../library/subprocess.rst:1257
+#: ../../library/subprocess.rst:1258
 msgid "Module which provides function to parse and escape command lines."
 msgstr ""
 
