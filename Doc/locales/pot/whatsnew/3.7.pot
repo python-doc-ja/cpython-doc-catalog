@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-20 09:13+0900\n"
+"POT-Creation-Date: 2018-09-22 09:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2188,5 +2188,9 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2491
 msgid "Starting in 3.7.1, :c:func:`Py_Initialize` now consistently reads and respects all of the same environment settings as :c:func:`Py_Main` (in earlier Python versions, it respected an ill-defined subset of those environment variables, while in Python 3.7.0 it didn't read any of them due to :issue:`34247`). If this behavior is unwanted, set :c:data:`Py_IgnoreEnvironmentFlag` to 1 before calling :c:func:`Py_Initialize`."
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2498
+msgid "In 3.7.1 the C API for Context Variables :ref:`was updated <contextvarsobjects_pointertype_change>` to use :c:type:`PyObject` pointers.  See also :issue:`34762`."
 msgstr ""
 
