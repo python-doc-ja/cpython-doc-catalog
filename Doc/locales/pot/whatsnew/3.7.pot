@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-26 09:18+0900\n"
+"POT-Creation-Date: 2018-09-28 09:18+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2215,6 +2215,6 @@ msgid "In 3.7.1 the C API for Context Variables :ref:`was updated <contextvarsob
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2524
-msgid ":mod:`xml.dom.minidom` and mod:`xml.sax` modules no longer process external entities by default. See also :issue:`17239`."
+msgid ":mod:`xml.dom.minidom` and :mod:`xml.sax` modules no longer process external entities by default. See also :issue:`17239`."
 msgstr ""
 
