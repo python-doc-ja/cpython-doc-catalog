@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-10-02 14:33+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Convert the characters ``&``, ``<`` and ``>`` in string *s* to HTML-safe 
 msgstr ""
 
 #: ../../library/html.rst:26
-msgid "Convert all named and numeric character references (e.g. ``&gt;``, ``&#62;``, ``&x3e;``) in the string *s* to the corresponding unicode characters.  This function uses the rules defined by the HTML 5 standard for both valid and invalid character references, and the :data:`list of HTML 5 named character references <html.entities.html5>`."
+msgid "Convert all named and numeric character references (e.g. ``&gt;``, ``&#62;``, ``&#x3e;``) in the string *s* to the corresponding Unicode characters.  This function uses the rules defined by the HTML 5 standard for both valid and invalid character references, and the :data:`list of HTML 5 named character references <html.entities.html5>`."
 msgstr ""
 
 #: ../../library/html.rst:36
