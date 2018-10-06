@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-26 09:18+0900\n"
+"POT-Creation-Date: 2018-10-06 09:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1409,7 +1409,7 @@ msgid "The :const:`typing.ClassVar` type construct has been added to mark class 
 msgstr ""
 
 #: ../../whatsnew/3.6.rst:1625
-msgid "A new :const:`~typing.TYPE_CHECKING` constant that is assumed to be ``True`` by the static type chekers, but is ``False`` at runtime. (Contributed by Guido van Rossum in `Github #230 <https://github.com/python/typing/issues/230>`_.)"
+msgid "A new :const:`~typing.TYPE_CHECKING` constant that is assumed to be ``True`` by the static type checkers, but is ``False`` at runtime. (Contributed by Guido van Rossum in `Github #230 <https://github.com/python/typing/issues/230>`_.)"
 msgstr ""
 
 #: ../../whatsnew/3.6.rst:1630

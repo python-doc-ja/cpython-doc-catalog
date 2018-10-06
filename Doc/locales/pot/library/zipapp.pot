@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 09:11+0900\n"
+"POT-Creation-Date: 2018-10-06 09:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgid "Pack up a directory into an archive, and run it."
 msgstr ""
 
 #: ../../library/zipapp.rst:198
-msgid "The same can be done using the :func:`create_archive` functon::"
+msgid "The same can be done using the :func:`create_archive` function::"
 msgstr ""
 
 #: ../../library/zipapp.rst:203
