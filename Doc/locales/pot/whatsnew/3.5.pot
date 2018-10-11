@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-12 13:39+0900\n"
+"POT-Creation-Date: 2018-10-11 14:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2092,7 +2092,7 @@ msgid "The :class:`http.cookies.Morsel` dict-like interface has been made self c
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:2468
-msgid ":pep:`488` has removed ``.pyo`` files from Python and introduced the optional ``opt-`` tag in ``.pyc`` file names. The :func:`importlib.util.cache_from_source` has gained an *optimization* parameter to help control the ``opt-`` tag. Because of this, the *debug_override* parameter of the function is now deprecated. `.pyo` files are also no longer supported as a file argument to the Python interpreter and thus serve no purpose when distributed on their own (i.e. sourcless code distribution). Due to the fact that the magic number for bytecode has changed in Python 3.5, all old `.pyo` files from previous versions of Python are invalid regardless of this PEP."
+msgid ":pep:`488` has removed ``.pyo`` files from Python and introduced the optional ``opt-`` tag in ``.pyc`` file names. The :func:`importlib.util.cache_from_source` has gained an *optimization* parameter to help control the ``opt-`` tag. Because of this, the *debug_override* parameter of the function is now deprecated. `.pyo` files are also no longer supported as a file argument to the Python interpreter and thus serve no purpose when distributed on their own (i.e. sourceless code distribution). Due to the fact that the magic number for bytecode has changed in Python 3.5, all old `.pyo` files from previous versions of Python are invalid regardless of this PEP."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:2479
