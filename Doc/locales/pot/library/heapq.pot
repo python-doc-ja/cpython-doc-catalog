@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-10-16 14:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,11 +105,11 @@ msgid "Added the optional *key* and *reverse* parameters."
 msgstr ""
 
 #: ../../library/heapq.rst:111
-msgid "Return a list with the *n* largest elements from the dataset defined by *iterable*.  *key*, if provided, specifies a function of one argument that is used to extract a comparison key from each element in the iterable: ``key=str.lower`` Equivalent to:  ``sorted(iterable, key=key, reverse=True)[:n]``"
+msgid "Return a list with the *n* largest elements from the dataset defined by *iterable*.  *key*, if provided, specifies a function of one argument that is used to extract a comparison key from each element in *iterable* (for example, ``key=str.lower``).  Equivalent to:  ``sorted(iterable, key=key, reverse=True)[:n]``."
 msgstr ""
 
 #: ../../library/heapq.rst:120
-msgid "Return a list with the *n* smallest elements from the dataset defined by *iterable*.  *key*, if provided, specifies a function of one argument that is used to extract a comparison key from each element in the iterable: ``key=str.lower`` Equivalent to:  ``sorted(iterable, key=key)[:n]``"
+msgid "Return a list with the *n* smallest elements from the dataset defined by *iterable*.  *key*, if provided, specifies a function of one argument that is used to extract a comparison key from each element in *iterable* (for example, ``key=str.lower``).  Equivalent to:  ``sorted(iterable, key=key)[:n]``."
 msgstr ""
 
 #: ../../library/heapq.rst:126
