@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-10-17 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,8 +84,8 @@ msgstr ""
 msgid "Raises :exc:`ProcessLookupError` when *pid* can't be found and :exc:`PermissionError` when the user doesn't have ``CAP_SYS_RESOURCE`` for the process."
 msgstr ""
 
-#: ../../library/resource.rst:95
-msgid "Availability: Linux 2.6.36 or later with glibc 2.13 or later"
+#: ../../library/resource.rst:96
+msgid "Availability: Linux 2.6.36 or later with glibc 2.13 or later."
 msgstr ""
 
 #: ../../library/resource.rst:100
@@ -148,8 +148,8 @@ msgstr ""
 msgid "The number of bytes that can be allocated for POSIX message queues."
 msgstr ""
 
-#: ../../library/resource.rst:181
-#: ../../library/resource.rst:218
+#: ../../library/resource.rst:182
+#: ../../library/resource.rst:219
 msgid "Availability: Linux 2.6.8 or later."
 msgstr ""
 
@@ -157,8 +157,8 @@ msgstr ""
 msgid "The ceiling for the process's nice level (calculated as 20 - rlim_cur)."
 msgstr ""
 
-#: ../../library/resource.rst:190
-#: ../../library/resource.rst:199
+#: ../../library/resource.rst:191
+#: ../../library/resource.rst:200
 msgid "Availability: Linux 2.6.12 or later."
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "The time limit (in microseconds) on CPU time that a process can spend under real-time scheduling without making a blocking syscall."
 msgstr ""
 
-#: ../../library/resource.rst:209
+#: ../../library/resource.rst:210
 msgid "Availability: Linux 2.6.25 or later."
 msgstr ""
 
@@ -182,9 +182,9 @@ msgstr ""
 msgid "The maximum size (in bytes) of socket buffer usage for this user. This limits the amount of network memory, and hence the amount of mbufs, that this user may hold at any time."
 msgstr ""
 
-#: ../../library/resource.rst:228
-#: ../../library/resource.rst:239
-#: ../../library/resource.rst:247
+#: ../../library/resource.rst:229
+#: ../../library/resource.rst:240
+#: ../../library/resource.rst:248
 msgid "Availability: FreeBSD 9 or later."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 09:00+0900\n"
+"POT-Creation-Date: 2018-10-17 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1186,7 +1186,7 @@ msgid "Has two optional arguments which must be specified as keyword arguments."
 msgstr ""
 
 #: ../../library/functions.rst:1407
-msgid "*key* specifies a function of one argument that is used to extract a comparison key from each list element: ``key=str.lower``.  The default value is ``None`` (compare the elements directly)."
+msgid "*key* specifies a function of one argument that is used to extract a comparison key from each element in *iterable* (for example, ``key=str.lower``).  The default value is ``None`` (compare the elements directly)."
 msgstr ""
 
 #: ../../library/functions.rst:1411

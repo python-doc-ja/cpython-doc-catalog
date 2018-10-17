@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-10-17 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,5 +46,17 @@ msgstr ""
 
 #: ../../library/intro.rst:48
 msgid "Let the show begin!"
+msgstr ""
+
+#: ../../library/intro.rst:54
+msgid "Notes on availability"
+msgstr ""
+
+#: ../../library/intro.rst:56
+msgid "An \"Availability: Unix\" note means that this function is commonly found on Unix systems.  It does not make any claims about its existence on a specific operating system."
+msgstr ""
+
+#: ../../library/intro.rst:60
+msgid "If not separately noted, all functions that claim \"Availability: Unix\" are supported on Mac OS X, which builds on a Unix core."
 msgstr ""
 

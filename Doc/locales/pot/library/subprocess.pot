@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-22 09:14+0900\n"
+"POT-Creation-Date: 2018-10-17 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -969,9 +969,9 @@ msgstr ""
 msgid "A trailing newline is stripped from the output. The exit code for the command can be interpreted as the return code of subprocess.  Example::"
 msgstr ""
 
-#: ../../library/subprocess.rst:1333
-#: ../../library/subprocess.rst:1353
-msgid "Availability: POSIX & Windows"
+#: ../../library/subprocess.rst:1334
+#: ../../library/subprocess.rst:1354
+msgid "Availability: POSIX & Windows."
 msgstr ""
 
 #: ../../library/subprocess.rst:1335

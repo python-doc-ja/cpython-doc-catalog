@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-20 09:13+0900\n"
+"POT-Creation-Date: 2018-10-17 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -618,9 +618,9 @@ msgstr ""
 msgid "This may also be enabled at runtime with :func:`sys._enablelegacywindowsfsencoding()`."
 msgstr ""
 
-#: ../../using/cmdline.rst:772
-#: ../../using/cmdline.rst:786
-msgid "Availability: Windows"
+#: ../../using/cmdline.rst:773
+#: ../../using/cmdline.rst:787
+msgid "Availability: Windows."
 msgstr ""
 
 #: ../../using/cmdline.rst:774
@@ -671,9 +671,9 @@ msgstr ""
 msgid "Also note that even when locale coercion is disabled, or when it fails to find a suitable target locale, :envvar:`PYTHONUTF8` will still activate by default in legacy ASCII-based locales. Both features must be disabled in order to force the interpreter to use ``ASCII`` instead of ``UTF-8`` for system interfaces."
 msgstr ""
 
-#: ../../using/cmdline.rst:837
-#: ../../using/cmdline.rst:898
-msgid "Availability: \\*nix"
+#: ../../using/cmdline.rst:838
+#: ../../using/cmdline.rst:899
+msgid "Availability: *nix."
 msgstr ""
 
 #: ../../using/cmdline.rst:839
