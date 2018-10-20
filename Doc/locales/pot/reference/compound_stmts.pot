@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 14:01+0900\n"
+"POT-Creation-Date: 2018-10-20 14:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,101 +334,117 @@ msgstr ""
 msgid "**Programmer's note:** Variables defined in the class definition are class attributes; they are shared by instances.  Instance attributes can be set in a method with ``self.name = value``.  Both class and instance attributes are accessible through the notation \"``self.name``\", and an instance attribute hides a class attribute with the same name when accessed in this way.  Class attributes can be used as defaults for instance attributes, but using mutable values there can lead to unexpected results.  :ref:`Descriptors <descriptors>` can be used to create instance variables with different implementation details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:670
-msgid ":pep:`3115` - Metaclasses in Python 3 :pep:`3129` - Class Decorators"
+#: ../../reference/compound_stmts.rst:673
+msgid ":pep:`3115` - Metaclasses in Python 3000"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:675
+#: ../../reference/compound_stmts.rst:671
+msgid "The proposal that changed the declaration of metaclasses to the current syntax, and the semantics for how classes with metaclasses are constructed."
+msgstr ""
+
+#: ../../reference/compound_stmts.rst:676
+msgid ":pep:`3129` - Class Decorators"
+msgstr ""
+
+#: ../../reference/compound_stmts.rst:676
+msgid "The proposal that added class decorators.  Function and method decorators were introduced in :pep:`318`."
+msgstr ""
+
+#: ../../reference/compound_stmts.rst:681
 msgid "Coroutines"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:683
+#: ../../reference/compound_stmts.rst:689
 msgid "Coroutine function definition"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:693
+#: ../../reference/compound_stmts.rst:699
 msgid "Execution of Python coroutines can be suspended and resumed at many points (see :term:`coroutine`).  In the body of a coroutine, any ``await`` and ``async`` identifiers become reserved keywords; :keyword:`await` expressions, :keyword:`async for` and :keyword:`async with` can only be used in coroutine bodies."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:699
+#: ../../reference/compound_stmts.rst:705
 msgid "Functions defined with ``async def`` syntax are always coroutine functions, even if they do not contain ``await`` or ``async`` keywords."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:702
+#: ../../reference/compound_stmts.rst:708
 msgid "It is a :exc:`SyntaxError` to use ``yield from`` expressions in ``async def`` coroutines."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:705
+#: ../../reference/compound_stmts.rst:711
 msgid "An example of a coroutine function::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:716
+#: ../../reference/compound_stmts.rst:722
 msgid "The :keyword:`async for` statement"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:721
+#: ../../reference/compound_stmts.rst:727
 msgid "An :term:`asynchronous iterable` is able to call asynchronous code in its *iter* implementation, and :term:`asynchronous iterator` can call asynchronous code in its *next* method."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:725
+#: ../../reference/compound_stmts.rst:731
 msgid "The ``async for`` statement allows convenient iteration over asynchronous iterators."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:728
-#: ../../reference/compound_stmts.rst:768
+#: ../../reference/compound_stmts.rst:734
+#: ../../reference/compound_stmts.rst:774
 msgid "The following code::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:735
-#: ../../reference/compound_stmts.rst:773
+#: ../../reference/compound_stmts.rst:741
+#: ../../reference/compound_stmts.rst:779
 msgid "Is semantically equivalent to::"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:750
+#: ../../reference/compound_stmts.rst:756
 msgid "See also :meth:`__aiter__` and :meth:`__anext__` for details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:752
+#: ../../reference/compound_stmts.rst:758
 msgid "It is a :exc:`SyntaxError` to use ``async for`` statement outside of an :keyword:`async def` function."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:760
+#: ../../reference/compound_stmts.rst:766
 msgid "The :keyword:`async with` statement"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:765
+#: ../../reference/compound_stmts.rst:771
 msgid "An :term:`asynchronous context manager` is a :term:`context manager` that is able to suspend execution in its *enter* and *exit* methods."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:788
+#: ../../reference/compound_stmts.rst:794
 msgid "See also :meth:`__aenter__` and :meth:`__aexit__` for details."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:790
+#: ../../reference/compound_stmts.rst:796
 msgid "It is a :exc:`SyntaxError` to use ``async with`` statement outside of an :keyword:`async def` function."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:795
+#: ../../reference/compound_stmts.rst:802
 msgid ":pep:`492` - Coroutines with async and await syntax"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:799
+#: ../../reference/compound_stmts.rst:802
+msgid "The proposal that made coroutines a proper standalone concept in Python, and added supporting syntax."
+msgstr ""
+
+#: ../../reference/compound_stmts.rst:807
 msgid "Footnotes"
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:800
+#: ../../reference/compound_stmts.rst:808
 msgid "The exception is propagated to the invocation stack unless there is a :keyword:`finally` clause which happens to raise another exception. That new exception causes the old one to be lost."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:804
+#: ../../reference/compound_stmts.rst:812
 msgid "Currently, control \"flows off the end\" except in the case of an exception or the execution of a :keyword:`return`, :keyword:`continue`, or :keyword:`break` statement."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:808
+#: ../../reference/compound_stmts.rst:816
 msgid "A string literal appearing as the first statement in the function body is transformed into the function's ``__doc__`` attribute and therefore the function's :term:`docstring`."
 msgstr ""
 
-#: ../../reference/compound_stmts.rst:812
+#: ../../reference/compound_stmts.rst:820
 msgid "A string literal appearing as the first statement in the class body is transformed into the namespace's ``__doc__`` item and therefore the class's :term:`docstring`."
 msgstr ""
 
