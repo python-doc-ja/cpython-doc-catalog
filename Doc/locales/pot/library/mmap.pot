@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-10-20 14:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "*tagname*, if specified and not ``None``, is a string giving a tag name f
 msgstr ""
 
 #: ../../library/mmap.rst:69
-msgid "*offset* may be specified as a non-negative integer offset. mmap references will be relative to the offset from the beginning of the file. *offset* defaults to 0.  *offset* must be a multiple of the ALLOCATIONGRANULARITY."
+msgid "*offset* may be specified as a non-negative integer offset. mmap references will be relative to the offset from the beginning of the file. *offset* defaults to 0.  *offset* must be a multiple of the :const:`ALLOCATIONGRANULARITY`."
 msgstr ""
 
 #: ../../library/mmap.rst:77
@@ -73,7 +73,7 @@ msgid "*access* may be specified in lieu of *flags* and *prot* as an optional ke
 msgstr ""
 
 #: ../../library/mmap.rst:98
-msgid "*offset* may be specified as a non-negative integer offset. mmap references will be relative to the offset from the beginning of the file. *offset* defaults to 0.  *offset* must be a multiple of the PAGESIZE or ALLOCATIONGRANULARITY."
+msgid "*offset* may be specified as a non-negative integer offset. mmap references will be relative to the offset from the beginning of the file. *offset* defaults to 0. *offset* must be a multiple of :const:`ALLOCATIONGRANULARITY` which is equal to :const:`PAGESIZE` on Unix systems."
 msgstr ""
 
 #: ../../library/mmap.rst:103
@@ -101,58 +101,58 @@ msgid "Returns the lowest index in the object where the substring *string* is fo
 msgstr ""
 
 #: ../../library/mmap.rst:170
-msgid "Flushes changes made to the in-memory copy of a file back to disk. Without use of this call there is no guarantee that changes are written back before the object is destroyed.  If *offset* and *size* are specified, only changes to the given range of bytes will be flushed to disk; otherwise, the whole extent of the mapping is flushed."
+msgid "Flushes changes made to the in-memory copy of a file back to disk. Without use of this call there is no guarantee that changes are written back before the object is destroyed.  If *offset* and *size* are specified, only changes to the given range of bytes will be flushed to disk; otherwise, the whole extent of the mapping is flushed.  *offset* must be a multiple of the :const:`PAGESIZE` or :const:`ALLOCATIONGRANULARITY`."
 msgstr ""
 
-#: ../../library/mmap.rst:176
+#: ../../library/mmap.rst:177
 msgid "**(Windows version)** A nonzero value returned indicates success; zero indicates failure."
 msgstr ""
 
-#: ../../library/mmap.rst:179
+#: ../../library/mmap.rst:180
 msgid "**(Unix version)** A zero value is returned to indicate success. An exception is raised when the call failed."
 msgstr ""
 
-#: ../../library/mmap.rst:185
+#: ../../library/mmap.rst:186
 msgid "Copy the *count* bytes starting at offset *src* to the destination index *dest*.  If the mmap was created with :const:`ACCESS_READ`, then calls to move will raise a :exc:`TypeError` exception."
 msgstr ""
 
-#: ../../library/mmap.rst:192
+#: ../../library/mmap.rst:193
 msgid "Return a string containing up to *num* bytes starting from the current file position; the file position is updated to point after the bytes that were returned."
 msgstr ""
 
-#: ../../library/mmap.rst:199
+#: ../../library/mmap.rst:200
 msgid "Returns a string of length 1 containing the character at the current file position, and advances the file position by 1."
 msgstr ""
 
-#: ../../library/mmap.rst:205
+#: ../../library/mmap.rst:206
 msgid "Returns a single line, starting at the current file position and up to the next newline."
 msgstr ""
 
-#: ../../library/mmap.rst:211
+#: ../../library/mmap.rst:212
 msgid "Resizes the map and the underlying file, if any. If the mmap was created with :const:`ACCESS_READ` or :const:`ACCESS_COPY`, resizing the map will raise a :exc:`TypeError` exception."
 msgstr ""
 
-#: ../../library/mmap.rst:218
+#: ../../library/mmap.rst:219
 msgid "Returns the highest index in the object where the substring *string* is found, such that *string* is contained in the range [*start*, *end*]. Optional arguments *start* and *end* are interpreted as in slice notation. Returns ``-1`` on failure."
 msgstr ""
 
-#: ../../library/mmap.rst:226
+#: ../../library/mmap.rst:227
 msgid "Set the file's current position.  *whence* argument is optional and defaults to ``os.SEEK_SET`` or ``0`` (absolute file positioning); other values are ``os.SEEK_CUR`` or ``1`` (seek relative to the current position) and ``os.SEEK_END`` or ``2`` (seek relative to the file's end)."
 msgstr ""
 
-#: ../../library/mmap.rst:234
+#: ../../library/mmap.rst:235
 msgid "Return the length of the file, which can be larger than the size of the memory-mapped area."
 msgstr ""
 
-#: ../../library/mmap.rst:240
+#: ../../library/mmap.rst:241
 msgid "Returns the current position of the file pointer."
 msgstr ""
 
-#: ../../library/mmap.rst:245
+#: ../../library/mmap.rst:246
 msgid "Write the bytes in *string* into memory at the current position of the file pointer; the file position is updated to point after the bytes that were written. If the mmap was created with :const:`ACCESS_READ`, then writing to it will raise a :exc:`TypeError` exception."
 msgstr ""
 
-#: ../../library/mmap.rst:253
+#: ../../library/mmap.rst:254
 msgid "Write the single-character string *byte* into memory at the current position of the file pointer; the file position is advanced by ``1``. If the mmap was created with :const:`ACCESS_READ`, then writing to it will raise a :exc:`TypeError` exception."
 msgstr ""
 

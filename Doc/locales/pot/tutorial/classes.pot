@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 13:58+0900\n"
+"POT-Creation-Date: 2018-10-20 14:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -369,110 +369,114 @@ msgid "Name mangling is helpful for letting subclasses override methods without 
 msgstr ""
 
 #: ../../tutorial/classes.rst:654
+msgid "The above example would work even if ``MappingSubclass`` were to introduce a ``__update`` identifier since it is replaced with ``_Mapping__update`` in the ``Mapping`` class  and ``_MappingSubclass__update`` in the ``MappingSubclass`` class respectively."
+msgstr ""
+
+#: ../../tutorial/classes.rst:659
 msgid "Note that the mangling rules are designed mostly to avoid accidents; it still is possible to access or modify a variable that is considered private.  This can even be useful in special circumstances, such as in the debugger."
 msgstr ""
 
-#: ../../tutorial/classes.rst:658
+#: ../../tutorial/classes.rst:663
 msgid "Notice that code passed to ``exec``, ``eval()`` or ``execfile()`` does not consider the classname of the invoking  class to be the current class; this is similar to the effect of the  ``global`` statement, the effect of which is likewise restricted to  code that is byte-compiled together.  The same restriction applies to ``getattr()``, ``setattr()`` and ``delattr()``, as well as when referencing ``__dict__`` directly."
 msgstr ""
 
-#: ../../tutorial/classes.rst:669
+#: ../../tutorial/classes.rst:674
 msgid "Odds and Ends"
 msgstr ""
 
-#: ../../tutorial/classes.rst:671
+#: ../../tutorial/classes.rst:676
 msgid "Sometimes it is useful to have a data type similar to the Pascal \"record\" or C \"struct\", bundling together a few named data items.  An empty class definition will do nicely::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:685
+#: ../../tutorial/classes.rst:690
 msgid "A piece of Python code that expects a particular abstract data type can often be passed a class that emulates the methods of that data type instead.  For instance, if you have a function that formats some data from a file object, you can define a class with methods :meth:`read` and :meth:`!readline` that get the data from a string buffer instead, and pass it as an argument."
 msgstr ""
 
-#: ../../tutorial/classes.rst:696
+#: ../../tutorial/classes.rst:701
 msgid "Instance method objects have attributes, too: ``m.im_self`` is the instance object with the method :meth:`m`, and ``m.im_func`` is the function object corresponding to the method."
 msgstr ""
 
-#: ../../tutorial/classes.rst:704
+#: ../../tutorial/classes.rst:709
 msgid "Exceptions Are Classes Too"
 msgstr ""
 
-#: ../../tutorial/classes.rst:706
+#: ../../tutorial/classes.rst:711
 msgid "User-defined exceptions are identified by classes as well.  Using this mechanism it is possible to create extensible hierarchies of exceptions."
 msgstr ""
 
-#: ../../tutorial/classes.rst:709
+#: ../../tutorial/classes.rst:714
 msgid "There are two new valid (semantic) forms for the :keyword:`raise` statement::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:715
+#: ../../tutorial/classes.rst:720
 msgid "In the first form, ``instance`` must be an instance of :class:`Class` or of a class derived from it.  The second form is a shorthand for::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:720
+#: ../../tutorial/classes.rst:725
 msgid "A class in an :keyword:`except` clause is compatible with an exception if it is the same class or a base class thereof (but not the other way around --- an except clause listing a derived class is not compatible with a base class).  For example, the following code will print B, C, D in that order::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:742
+#: ../../tutorial/classes.rst:747
 msgid "Note that if the except clauses were reversed (with ``except B`` first), it would have printed B, B, B --- the first matching except clause is triggered."
 msgstr ""
 
-#: ../../tutorial/classes.rst:745
+#: ../../tutorial/classes.rst:750
 msgid "When an error message is printed for an unhandled exception, the exception's class name is printed, then a colon and a space, and finally the instance converted to a string using the built-in function :func:`str`."
 msgstr ""
 
-#: ../../tutorial/classes.rst:753
+#: ../../tutorial/classes.rst:758
 msgid "Iterators"
 msgstr ""
 
-#: ../../tutorial/classes.rst:755
+#: ../../tutorial/classes.rst:760
 msgid "By now you have probably noticed that most container objects can be looped over using a :keyword:`for` statement::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:769
+#: ../../tutorial/classes.rst:774
 msgid "This style of access is clear, concise, and convenient.  The use of iterators pervades and unifies Python.  Behind the scenes, the :keyword:`for` statement calls :func:`iter` on the container object.  The function returns an iterator object that defines the method :meth:`~iterator.next` which accesses elements in the container one at a time.  When there are no more elements, :meth:`~iterator.next` raises a :exc:`StopIteration` exception which tells the :keyword:`for` loop to terminate. This example shows how it all works::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:794
+#: ../../tutorial/classes.rst:799
 msgid "Having seen the mechanics behind the iterator protocol, it is easy to add iterator behavior to your classes.  Define an :meth:`__iter__` method which returns an object with a :meth:`~iterator.next` method.  If the class defines :meth:`~iterator.next`, then :meth:`__iter__` can just return ``self``::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:831
+#: ../../tutorial/classes.rst:836
 msgid "Generators"
 msgstr ""
 
-#: ../../tutorial/classes.rst:833
+#: ../../tutorial/classes.rst:838
 msgid ":term:`Generator`\\s are a simple and powerful tool for creating iterators.  They are written like regular functions but use the :keyword:`yield` statement whenever they want to return data.  Each time :func:`next` is called on it, the generator resumes where it left off (it remembers all the data values and which statement was last executed).  An example shows that generators can be trivially easy to create::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:854
+#: ../../tutorial/classes.rst:859
 msgid "Anything that can be done with generators can also be done with class-based iterators as described in the previous section.  What makes generators so compact is that the :meth:`__iter__` and :meth:`~generator.next` methods are created automatically."
 msgstr ""
 
-#: ../../tutorial/classes.rst:859
+#: ../../tutorial/classes.rst:864
 msgid "Another key feature is that the local variables and execution state are automatically saved between calls.  This made the function easier to write and much more clear than an approach using instance variables like ``self.index`` and ``self.data``."
 msgstr ""
 
-#: ../../tutorial/classes.rst:864
+#: ../../tutorial/classes.rst:869
 msgid "In addition to automatic method creation and saving program state, when generators terminate, they automatically raise :exc:`StopIteration`. In combination, these features make it easy to create iterators with no more effort than writing a regular function."
 msgstr ""
 
-#: ../../tutorial/classes.rst:873
+#: ../../tutorial/classes.rst:878
 msgid "Generator Expressions"
 msgstr ""
 
-#: ../../tutorial/classes.rst:875
+#: ../../tutorial/classes.rst:880
 msgid "Some simple generators can be coded succinctly as expressions using a syntax similar to list comprehensions but with parentheses instead of square brackets. These expressions are designed for situations where the generator is used right away by an enclosing function.  Generator expressions are more compact but less versatile than full generator definitions and tend to be more memory friendly than equivalent list comprehensions."
 msgstr ""
 
-#: ../../tutorial/classes.rst:882
+#: ../../tutorial/classes.rst:887
 msgid "Examples::"
 msgstr ""
 
-#: ../../tutorial/classes.rst:906
+#: ../../tutorial/classes.rst:911
 msgid "Footnotes"
 msgstr ""
 
-#: ../../tutorial/classes.rst:907
+#: ../../tutorial/classes.rst:912
 msgid "Except for one thing.  Module objects have a secret read-only attribute called :attr:`~object.__dict__` which returns the dictionary used to implement the module's namespace; the name :attr:`~object.__dict__` is an attribute but not a global name. Obviously, using this violates the abstraction of namespace implementation, and should be restricted to things like post-mortem debuggers."
 msgstr ""
 
