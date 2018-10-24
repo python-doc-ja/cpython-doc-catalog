@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-15 15:01+0000\n"
+"POT-Creation-Date: 2018-10-24 14:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgid "Added *follow_symlinks* argument. Now returns path to the newly created f
 msgstr ""
 
 #: ../../library/shutil.rst:168
-msgid "Identical to :func:`~shutil.copy` except that :func:`copy2` also attempts to preserve all file metadata."
+msgid "Identical to :func:`~shutil.copy` except that :func:`copy2` also attempts to preserve file metadata."
 msgstr ""
 
 #: ../../library/shutil.rst:171
