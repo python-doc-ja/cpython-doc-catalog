@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-11 09:24+0900\n"
+"POT-Creation-Date: 2018-10-27 09:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -466,7 +466,7 @@ msgid "This is a backwards incompatible change, so to enable the new behavior, a
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:595
-msgid "Without a ``__future__`` import, a :exc:`PendingDeprecationWarning` will be raised whenever a ``StopIteration`` exception is raised inside a generator."
+msgid "Without a ``__future__`` import, a :exc:`PendingDeprecationWarning` will be raised whenever a :exc:`StopIteration` exception is raised inside a generator."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:601

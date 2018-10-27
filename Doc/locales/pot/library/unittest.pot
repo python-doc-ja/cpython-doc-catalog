@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 08:59+0900\n"
+"POT-Creation-Date: 2018-10-27 09:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1028,7 +1028,7 @@ msgid "If *delta* is supplied instead of *places* then the difference between *f
 msgstr ""
 
 #: ../../library/unittest.rst:1164
-msgid "Supplying both *delta* and *places* raises a ``TypeError``."
+msgid "Supplying both *delta* and *places* raises a :exc:`TypeError`."
 msgstr ""
 
 #: ../../library/unittest.rst:1166

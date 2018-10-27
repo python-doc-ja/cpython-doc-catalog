@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-07 09:22+0900\n"
+"POT-Creation-Date: 2018-10-27 09:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -376,7 +376,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:296
 #: ../../library/datetime.rst:511
-#: ../../library/datetime.rst:2164
+#: ../../library/datetime.rst:2167
 msgid "Notes:"
 msgstr ""
 
@@ -834,13 +834,13 @@ msgid "``datetime2 = datetime1 + timedelta``"
 msgstr ""
 
 #: ../../library/datetime.rst:943
-#: ../../library/datetime.rst:2039
-#: ../../library/datetime.rst:2044
-#: ../../library/datetime.rst:2056
-#: ../../library/datetime.rst:2061
-#: ../../library/datetime.rst:2121
-#: ../../library/datetime.rst:2126
-#: ../../library/datetime.rst:2130
+#: ../../library/datetime.rst:2042
+#: ../../library/datetime.rst:2047
+#: ../../library/datetime.rst:2059
+#: ../../library/datetime.rst:2064
+#: ../../library/datetime.rst:2124
+#: ../../library/datetime.rst:2129
+#: ../../library/datetime.rst:2133
 msgid "\\(1)"
 msgstr ""
 
@@ -849,7 +849,7 @@ msgid "``datetime2 = datetime1 - timedelta``"
 msgstr ""
 
 #: ../../library/datetime.rst:945
-#: ../../library/datetime.rst:2072
+#: ../../library/datetime.rst:2075
 msgid "\\(2)"
 msgstr ""
 
@@ -971,7 +971,7 @@ msgstr ""
 #: ../../library/datetime.rst:1716
 #: ../../library/datetime.rst:1957
 #: ../../library/datetime.rst:1968
-#: ../../library/datetime.rst:2220
+#: ../../library/datetime.rst:2223
 msgid "The UTC offset is not restricted to a whole number of minutes."
 msgstr ""
 
@@ -1415,59 +1415,59 @@ msgstr ""
 msgid "The UTC timezone, ``timezone(timedelta(0))``."
 msgstr ""
 
-#: ../../library/datetime.rst:2005
+#: ../../library/datetime.rst:2008
 msgid ":meth:`strftime` and :meth:`strptime` Behavior"
 msgstr ""
 
-#: ../../library/datetime.rst:2007
+#: ../../library/datetime.rst:2010
 msgid ":class:`date`, :class:`.datetime`, and :class:`.time` objects all support a ``strftime(format)`` method, to create a string representing the time under the control of an explicit format string.  Broadly speaking, ``d.strftime(fmt)`` acts like the :mod:`time` module's ``time.strftime(fmt, d.timetuple())`` although not all objects support a :meth:`timetuple` method."
 msgstr ""
 
-#: ../../library/datetime.rst:2013
+#: ../../library/datetime.rst:2016
 msgid "Conversely, the :meth:`datetime.strptime` class method creates a :class:`.datetime` object from a string representing a date and time and a corresponding format string. ``datetime.strptime(date_string, format)`` is equivalent to ``datetime(*(time.strptime(date_string, format)[0:6]))``."
 msgstr ""
 
-#: ../../library/datetime.rst:2018
+#: ../../library/datetime.rst:2021
 msgid "For :class:`.time` objects, the format codes for year, month, and day should not be used, as time objects have no such values.  If they're used anyway, ``1900`` is substituted for the year, and ``1`` for the month and day."
 msgstr ""
 
-#: ../../library/datetime.rst:2022
+#: ../../library/datetime.rst:2025
 msgid "For :class:`date` objects, the format codes for hours, minutes, seconds, and microseconds should not be used, as :class:`date` objects have no such values.  If they're used anyway, ``0`` is substituted for them."
 msgstr ""
 
-#: ../../library/datetime.rst:2026
+#: ../../library/datetime.rst:2029
 msgid "The full set of format codes supported varies across platforms, because Python calls the platform C library's :func:`strftime` function, and platform variations are common.  To see the full set of format codes supported on your platform, consult the :manpage:`strftime(3)` documentation."
 msgstr ""
 
-#: ../../library/datetime.rst:2031
+#: ../../library/datetime.rst:2034
 msgid "The following is a list of all the format codes that the C standard (1989 version) requires, and these work on all platforms with a standard C implementation.  Note that the 1999 version of the C standard added additional format codes."
 msgstr ""
 
-#: ../../library/datetime.rst:2037
-#: ../../library/datetime.rst:2144
+#: ../../library/datetime.rst:2040
+#: ../../library/datetime.rst:2147
 msgid "Directive"
 msgstr ""
 
-#: ../../library/datetime.rst:2037
-#: ../../library/datetime.rst:2144
+#: ../../library/datetime.rst:2040
+#: ../../library/datetime.rst:2147
 msgid "Meaning"
 msgstr ""
 
-#: ../../library/datetime.rst:2037
-#: ../../library/datetime.rst:2144
+#: ../../library/datetime.rst:2040
+#: ../../library/datetime.rst:2147
 msgid "Example"
 msgstr ""
 
-#: ../../library/datetime.rst:2037
-#: ../../library/datetime.rst:2144
+#: ../../library/datetime.rst:2040
+#: ../../library/datetime.rst:2147
 msgid "Notes"
 msgstr ""
 
-#: ../../library/datetime.rst:2039
+#: ../../library/datetime.rst:2042
 msgid "``%a``"
 msgstr ""
 
-#: ../../library/datetime.rst:2039
+#: ../../library/datetime.rst:2042
 msgid "Weekday as locale's abbreviated name."
 msgstr ""
 
@@ -1479,11 +1479,11 @@ msgstr ""
 msgid "So, Mo, ..., Sa (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2044
+#: ../../library/datetime.rst:2047
 msgid "``%A``"
 msgstr ""
 
-#: ../../library/datetime.rst:2044
+#: ../../library/datetime.rst:2047
 msgid "Weekday as locale's full name."
 msgstr ""
 
@@ -1495,35 +1495,35 @@ msgstr ""
 msgid "Sonntag, Montag, ..., Samstag (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2049
+#: ../../library/datetime.rst:2052
 msgid "``%w``"
 msgstr ""
 
-#: ../../library/datetime.rst:2049
+#: ../../library/datetime.rst:2052
 msgid "Weekday as a decimal number, where 0 is Sunday and 6 is Saturday."
 msgstr ""
 
-#: ../../library/datetime.rst:2049
+#: ../../library/datetime.rst:2052
 msgid "0, 1, ..., 6"
 msgstr ""
 
-#: ../../library/datetime.rst:2053
+#: ../../library/datetime.rst:2056
 msgid "``%d``"
 msgstr ""
 
-#: ../../library/datetime.rst:2053
+#: ../../library/datetime.rst:2056
 msgid "Day of the month as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2053
+#: ../../library/datetime.rst:2056
 msgid "01, 02, ..., 31"
 msgstr ""
 
-#: ../../library/datetime.rst:2056
+#: ../../library/datetime.rst:2059
 msgid "``%b``"
 msgstr ""
 
-#: ../../library/datetime.rst:2056
+#: ../../library/datetime.rst:2059
 msgid "Month as locale's abbreviated name."
 msgstr ""
 
@@ -1535,11 +1535,11 @@ msgstr ""
 msgid "Jan, Feb, ..., Dez (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2061
+#: ../../library/datetime.rst:2064
 msgid "``%B``"
 msgstr ""
 
-#: ../../library/datetime.rst:2061
+#: ../../library/datetime.rst:2064
 msgid "Month as locale's full name."
 msgstr ""
 
@@ -1551,69 +1551,69 @@ msgstr ""
 msgid "Januar, Februar, ..., Dezember (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2066
+#: ../../library/datetime.rst:2069
 msgid "``%m``"
 msgstr ""
 
-#: ../../library/datetime.rst:2066
+#: ../../library/datetime.rst:2069
 msgid "Month as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2066
-#: ../../library/datetime.rst:2078
+#: ../../library/datetime.rst:2069
+#: ../../library/datetime.rst:2081
 msgid "01, 02, ..., 12"
 msgstr ""
 
-#: ../../library/datetime.rst:2069
+#: ../../library/datetime.rst:2072
 msgid "``%y``"
 msgstr ""
 
-#: ../../library/datetime.rst:2069
+#: ../../library/datetime.rst:2072
 msgid "Year without century as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2069
+#: ../../library/datetime.rst:2072
 msgid "00, 01, ..., 99"
 msgstr ""
 
-#: ../../library/datetime.rst:2072
+#: ../../library/datetime.rst:2075
 msgid "``%Y``"
 msgstr ""
 
-#: ../../library/datetime.rst:2072
+#: ../../library/datetime.rst:2075
 msgid "Year with century as a decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2072
-#: ../../library/datetime.rst:2146
+#: ../../library/datetime.rst:2075
+#: ../../library/datetime.rst:2149
 msgid "0001, 0002, ..., 2013, 2014, ..., 9998, 9999"
 msgstr ""
 
-#: ../../library/datetime.rst:2075
+#: ../../library/datetime.rst:2078
 msgid "``%H``"
 msgstr ""
 
-#: ../../library/datetime.rst:2075
+#: ../../library/datetime.rst:2078
 msgid "Hour (24-hour clock) as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2075
+#: ../../library/datetime.rst:2078
 msgid "00, 01, ..., 23"
 msgstr ""
 
-#: ../../library/datetime.rst:2078
+#: ../../library/datetime.rst:2081
 msgid "``%I``"
 msgstr ""
 
-#: ../../library/datetime.rst:2078
+#: ../../library/datetime.rst:2081
 msgid "Hour (12-hour clock) as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2081
+#: ../../library/datetime.rst:2084
 msgid "``%p``"
 msgstr ""
 
-#: ../../library/datetime.rst:2081
+#: ../../library/datetime.rst:2084
 msgid "Locale's equivalent of either AM or PM."
 msgstr ""
 
@@ -1625,124 +1625,124 @@ msgstr ""
 msgid "am, pm (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2081
+#: ../../library/datetime.rst:2084
 msgid "\\(1), \\(3)"
 msgstr ""
 
-#: ../../library/datetime.rst:2084
+#: ../../library/datetime.rst:2087
 msgid "``%M``"
 msgstr ""
 
-#: ../../library/datetime.rst:2084
+#: ../../library/datetime.rst:2087
 msgid "Minute as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2084
 #: ../../library/datetime.rst:2087
+#: ../../library/datetime.rst:2090
 msgid "00, 01, ..., 59"
 msgstr ""
 
-#: ../../library/datetime.rst:2087
+#: ../../library/datetime.rst:2090
 msgid "``%S``"
 msgstr ""
 
-#: ../../library/datetime.rst:2087
+#: ../../library/datetime.rst:2090
 msgid "Second as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2087
+#: ../../library/datetime.rst:2090
 msgid "\\(4)"
 msgstr ""
 
-#: ../../library/datetime.rst:2090
+#: ../../library/datetime.rst:2093
 msgid "``%f``"
 msgstr ""
 
-#: ../../library/datetime.rst:2090
+#: ../../library/datetime.rst:2093
 msgid "Microsecond as a decimal number, zero-padded on the left."
 msgstr ""
 
-#: ../../library/datetime.rst:2090
+#: ../../library/datetime.rst:2093
 msgid "000000, 000001, ..., 999999"
 msgstr ""
 
-#: ../../library/datetime.rst:2090
+#: ../../library/datetime.rst:2093
 msgid "\\(5)"
 msgstr ""
 
-#: ../../library/datetime.rst:2094
-#: ../../library/datetime.rst:2218
+#: ../../library/datetime.rst:2097
+#: ../../library/datetime.rst:2221
 msgid "``%z``"
 msgstr ""
 
-#: ../../library/datetime.rst:2094
+#: ../../library/datetime.rst:2097
 msgid "UTC offset in the form ±HHMM[SS[.ffffff]] (empty string if the object is naive)."
 msgstr ""
 
-#: ../../library/datetime.rst:2094
+#: ../../library/datetime.rst:2097
 msgid "(empty), +0000, -0400, +1030, +063415, -030712.345216"
 msgstr ""
 
-#: ../../library/datetime.rst:2094
+#: ../../library/datetime.rst:2097
 msgid "\\(6)"
 msgstr ""
 
-#: ../../library/datetime.rst:2099
-#: ../../library/datetime.rst:2233
+#: ../../library/datetime.rst:2102
+#: ../../library/datetime.rst:2236
 msgid "``%Z``"
 msgstr ""
 
-#: ../../library/datetime.rst:2099
+#: ../../library/datetime.rst:2102
 msgid "Time zone name (empty string if the object is naive)."
 msgstr ""
 
-#: ../../library/datetime.rst:2099
+#: ../../library/datetime.rst:2102
 msgid "(empty), UTC, EST, CST"
 msgstr ""
 
-#: ../../library/datetime.rst:2102
+#: ../../library/datetime.rst:2105
 msgid "``%j``"
 msgstr ""
 
-#: ../../library/datetime.rst:2102
+#: ../../library/datetime.rst:2105
 msgid "Day of the year as a zero-padded decimal number."
 msgstr ""
 
-#: ../../library/datetime.rst:2102
+#: ../../library/datetime.rst:2105
 msgid "001, 002, ..., 366"
 msgstr ""
 
-#: ../../library/datetime.rst:2105
+#: ../../library/datetime.rst:2108
 msgid "``%U``"
 msgstr ""
 
-#: ../../library/datetime.rst:2105
+#: ../../library/datetime.rst:2108
 msgid "Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0."
 msgstr ""
 
-#: ../../library/datetime.rst:2105
-#: ../../library/datetime.rst:2113
+#: ../../library/datetime.rst:2108
+#: ../../library/datetime.rst:2116
 msgid "00, 01, ..., 53"
 msgstr ""
 
-#: ../../library/datetime.rst:2105
-#: ../../library/datetime.rst:2113
+#: ../../library/datetime.rst:2108
+#: ../../library/datetime.rst:2116
 msgid "\\(7)"
 msgstr ""
 
-#: ../../library/datetime.rst:2113
+#: ../../library/datetime.rst:2116
 msgid "``%W``"
 msgstr ""
 
-#: ../../library/datetime.rst:2113
+#: ../../library/datetime.rst:2116
 msgid "Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0."
 msgstr ""
 
-#: ../../library/datetime.rst:2121
+#: ../../library/datetime.rst:2124
 msgid "``%c``"
 msgstr ""
 
-#: ../../library/datetime.rst:2121
+#: ../../library/datetime.rst:2124
 msgid "Locale's appropriate date and time representation."
 msgstr ""
 
@@ -1754,11 +1754,11 @@ msgstr ""
 msgid "Di 16 Aug 21:30:00 1988 (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2126
+#: ../../library/datetime.rst:2129
 msgid "``%x``"
 msgstr ""
 
-#: ../../library/datetime.rst:2126
+#: ../../library/datetime.rst:2129
 msgid "Locale's appropriate date representation."
 msgstr ""
 
@@ -1774,11 +1774,11 @@ msgstr ""
 msgid "16.08.1988 (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2130
+#: ../../library/datetime.rst:2133
 msgid "``%X``"
 msgstr ""
 
-#: ../../library/datetime.rst:2130
+#: ../../library/datetime.rst:2133
 msgid "Locale's appropriate time representation."
 msgstr ""
 
@@ -1790,128 +1790,128 @@ msgstr ""
 msgid "21:30:00 (de_DE)"
 msgstr ""
 
-#: ../../library/datetime.rst:2133
+#: ../../library/datetime.rst:2136
 msgid "``%%``"
 msgstr ""
 
-#: ../../library/datetime.rst:2133
+#: ../../library/datetime.rst:2136
 msgid "A literal ``'%'`` character."
 msgstr ""
 
-#: ../../library/datetime.rst:2133
+#: ../../library/datetime.rst:2136
 msgid "%"
 msgstr ""
 
-#: ../../library/datetime.rst:2136
+#: ../../library/datetime.rst:2139
 msgid "Several additional directives not required by the C89 standard are included for convenience. These parameters all correspond to ISO 8601 date values. These may not be available on all platforms when used with the :meth:`strftime` method. The ISO 8601 year and ISO 8601 week directives are not interchangeable with the year and week number directives above. Calling :meth:`strptime` with incomplete or ambiguous ISO 8601 directives will raise a :exc:`ValueError`."
 msgstr ""
 
-#: ../../library/datetime.rst:2146
+#: ../../library/datetime.rst:2149
 msgid "``%G``"
 msgstr ""
 
-#: ../../library/datetime.rst:2146
+#: ../../library/datetime.rst:2149
 msgid "ISO 8601 year with century representing the year that contains the greater part of the ISO week (``%V``)."
 msgstr ""
 
-#: ../../library/datetime.rst:2146
-#: ../../library/datetime.rst:2154
+#: ../../library/datetime.rst:2149
+#: ../../library/datetime.rst:2157
 msgid "\\(8)"
 msgstr ""
 
-#: ../../library/datetime.rst:2151
+#: ../../library/datetime.rst:2154
 msgid "``%u``"
 msgstr ""
 
-#: ../../library/datetime.rst:2151
+#: ../../library/datetime.rst:2154
 msgid "ISO 8601 weekday as a decimal number where 1 is Monday."
 msgstr ""
 
-#: ../../library/datetime.rst:2151
+#: ../../library/datetime.rst:2154
 msgid "1, 2, ..., 7"
 msgstr ""
 
-#: ../../library/datetime.rst:2154
+#: ../../library/datetime.rst:2157
 msgid "``%V``"
 msgstr ""
 
-#: ../../library/datetime.rst:2154
+#: ../../library/datetime.rst:2157
 msgid "ISO 8601 week as a decimal number with Monday as the first day of the week. Week 01 is the week containing Jan 4."
 msgstr ""
 
-#: ../../library/datetime.rst:2154
+#: ../../library/datetime.rst:2157
 msgid "01, 02, ..., 53"
 msgstr ""
 
-#: ../../library/datetime.rst:2161
+#: ../../library/datetime.rst:2164
 msgid "``%G``, ``%u`` and ``%V`` were added."
 msgstr ""
 
-#: ../../library/datetime.rst:2167
+#: ../../library/datetime.rst:2170
 msgid "Because the format depends on the current locale, care should be taken when making assumptions about the output value. Field orderings will vary (for example, \"month/day/year\" versus \"day/month/year\"), and the output may contain Unicode characters encoded using the locale's default encoding (for example, if the current locale is ``ja_JP``, the default encoding could be any one of ``eucJP``, ``SJIS``, or ``utf-8``; use :meth:`locale.getlocale` to determine the current locale's encoding)."
 msgstr ""
 
-#: ../../library/datetime.rst:2176
+#: ../../library/datetime.rst:2179
 msgid "The :meth:`strptime` method can parse years in the full [1, 9999] range, but years < 1000 must be zero-filled to 4-digit width."
 msgstr ""
 
-#: ../../library/datetime.rst:2179
+#: ../../library/datetime.rst:2182
 msgid "In previous versions, :meth:`strftime` method was restricted to years >= 1900."
 msgstr ""
 
-#: ../../library/datetime.rst:2183
+#: ../../library/datetime.rst:2186
 msgid "In version 3.2, :meth:`strftime` method was restricted to years >= 1000."
 msgstr ""
 
-#: ../../library/datetime.rst:2188
+#: ../../library/datetime.rst:2191
 msgid "When used with the :meth:`strptime` method, the ``%p`` directive only affects the output hour field if the ``%I`` directive is used to parse the hour."
 msgstr ""
 
-#: ../../library/datetime.rst:2192
+#: ../../library/datetime.rst:2195
 msgid "Unlike the :mod:`time` module, the :mod:`datetime` module does not support leap seconds."
 msgstr ""
 
-#: ../../library/datetime.rst:2196
+#: ../../library/datetime.rst:2199
 msgid "When used with the :meth:`strptime` method, the ``%f`` directive accepts from one to six digits and zero pads on the right.  ``%f`` is an extension to the set of format characters in the C standard (but implemented separately in datetime objects, and therefore always available)."
 msgstr ""
 
-#: ../../library/datetime.rst:2203
+#: ../../library/datetime.rst:2206
 msgid "For a naive object, the ``%z`` and ``%Z`` format codes are replaced by empty strings."
 msgstr ""
 
-#: ../../library/datetime.rst:2206
+#: ../../library/datetime.rst:2209
 msgid "For an aware object:"
 msgstr ""
 
-#: ../../library/datetime.rst:2209
+#: ../../library/datetime.rst:2212
 msgid ":meth:`utcoffset` is transformed into a string of the form ±HHMM[SS[.ffffff]], where HH is a 2-digit string giving the number of UTC offset hours, MM is a 2-digit string giving the number of UTC offset minutes, SS is a 2-digit string giving the number of UTC offset seconds and ffffff is a 6-digit string giving the number of UTC offset microseconds.  The ffffff part is omitted when the offset is a whole number of seconds and both the ffffff and the SS part is omitted when the offset is a whole number of minutes.  For example, if :meth:`utcoffset` returns ``timedelta(hours=-3, minutes=-30)``, ``%z`` is replaced with the string ``'-0330'``."
 msgstr ""
 
-#: ../../library/datetime.rst:2223
+#: ../../library/datetime.rst:2226
 msgid "When the ``%z`` directive is provided to the  :meth:`strptime` method, the UTC offsets can have a colon as a separator between hours, minutes and seconds. For example, ``'+01:00:00'`` will be parsed as an offset of one hour. In addition, providing ``'Z'`` is identical to ``'+00:00'``."
 msgstr ""
 
-#: ../../library/datetime.rst:2231
+#: ../../library/datetime.rst:2234
 msgid "If :meth:`tzname` returns ``None``, ``%Z`` is replaced by an empty string.  Otherwise ``%Z`` is replaced by the returned value, which must be a string."
 msgstr ""
 
-#: ../../library/datetime.rst:2235
+#: ../../library/datetime.rst:2238
 msgid "When the ``%z`` directive is provided to the :meth:`strptime` method, an aware :class:`.datetime` object will be produced.  The ``tzinfo`` of the result will be set to a :class:`timezone` instance."
 msgstr ""
 
-#: ../../library/datetime.rst:2241
+#: ../../library/datetime.rst:2244
 msgid "When used with the :meth:`strptime` method, ``%U`` and ``%W`` are only used in calculations when the day of the week and the calendar year (``%Y``) are specified."
 msgstr ""
 
-#: ../../library/datetime.rst:2246
+#: ../../library/datetime.rst:2249
 msgid "Similar to ``%U`` and ``%W``, ``%V`` is only used in calculations when the day of the week and the ISO year (``%G``) are specified in a :meth:`strptime` format string. Also note that ``%G`` and ``%Y`` are not interchangeable."
 msgstr ""
 
-#: ../../library/datetime.rst:2252
+#: ../../library/datetime.rst:2255
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/datetime.rst:2253
+#: ../../library/datetime.rst:2256
 msgid "If, that is, we ignore the effects of Relativity"
 msgstr ""
 

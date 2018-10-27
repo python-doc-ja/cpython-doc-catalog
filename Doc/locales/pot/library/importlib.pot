@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-10-27 09:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1149,7 +1149,7 @@ msgid "Accepts a :term:`path-like object`."
 msgstr ""
 
 #: ../../library/importlib.rst:1406
-msgid "Given the *path* to a :pep:`3147` file name, return the associated source code file path.  For example, if *path* is ``/foo/bar/__pycache__/baz.cpython-32.pyc`` the returned path would be ``/foo/bar/baz.py``.  *path* need not exist, however if it does not conform to :pep:`3147` or :pep:`488` format, a ``ValueError`` is raised. If :attr:`sys.implementation.cache_tag` is not defined, :exc:`NotImplementedError` is raised."
+msgid "Given the *path* to a :pep:`3147` file name, return the associated source code file path.  For example, if *path* is ``/foo/bar/__pycache__/baz.cpython-32.pyc`` the returned path would be ``/foo/bar/baz.py``.  *path* need not exist, however if it does not conform to :pep:`3147` or :pep:`488` format, a :exc:`ValueError` is raised. If :attr:`sys.implementation.cache_tag` is not defined, :exc:`NotImplementedError` is raised."
 msgstr ""
 
 #: ../../library/importlib.rst:1421

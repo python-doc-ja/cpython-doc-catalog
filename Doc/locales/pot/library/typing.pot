@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-27 09:17+0900\n"
+"POT-Creation-Date: 2018-10-27 09:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -566,7 +566,7 @@ msgid "This is often the same as ``obj.__annotations__``. In addition, forward r
 msgstr ""
 
 #: ../../library/typing.rst:893
-msgid "The ``@overload`` decorator allows describing functions and methods that support multiple different combinations of argument types. A series of ``@overload``-decorated definitions must be followed by exactly one non-``@overload``-decorated definition (for the same function/method). The ``@overload``-decorated definitions are for the benefit of the type checker only, since they will be overwritten by the non-``@overload``-decorated definition, while the latter is used at runtime but should be ignored by a type checker.  At runtime, calling a ``@overload``-decorated function directly will raise ``NotImplementedError``. An example of overload that gives a more precise type than can be expressed using a union or a type variable::"
+msgid "The ``@overload`` decorator allows describing functions and methods that support multiple different combinations of argument types. A series of ``@overload``-decorated definitions must be followed by exactly one non-``@overload``-decorated definition (for the same function/method). The ``@overload``-decorated definitions are for the benefit of the type checker only, since they will be overwritten by the non-``@overload``-decorated definition, while the latter is used at runtime but should be ignored by a type checker.  At runtime, calling a ``@overload``-decorated function directly will raise :exc:`NotImplementedError`. An example of overload that gives a more precise type than can be expressed using a union or a type variable::"
 msgstr ""
 
 #: ../../library/typing.rst:917
