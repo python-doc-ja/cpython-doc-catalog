@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-10-27 14:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,11 +160,11 @@ msgstr ""
 #: ../../library/time.rst:167
 #: ../../library/time.rst:177
 #: ../../library/time.rst:187
-#: ../../library/time.rst:551
-#: ../../library/time.rst:653
-#: ../../library/time.rst:672
-#: ../../library/time.rst:681
-#: ../../library/time.rst:694
+#: ../../library/time.rst:557
+#: ../../library/time.rst:659
+#: ../../library/time.rst:678
+#: ../../library/time.rst:687
+#: ../../library/time.rst:700
 msgid "Availability: Unix."
 msgstr ""
 
@@ -264,617 +264,617 @@ msgstr ""
 msgid "The function now sleeps at least *secs* even if the sleep is interrupted by a signal, except if the signal handler raises an exception (see :pep:`475` for the rationale)."
 msgstr ""
 
-#: ../../library/time.rst:313
+#: ../../library/time.rst:316
 msgid "Convert a tuple or :class:`struct_time` representing a time as returned by :func:`gmtime` or :func:`localtime` to a string as specified by the *format* argument.  If *t* is not provided, the current time as returned by :func:`localtime` is used.  *format* must be a string.  :exc:`ValueError` is raised if any field in *t* is outside of the allowed range."
 msgstr ""
 
-#: ../../library/time.rst:319
+#: ../../library/time.rst:322
 msgid "0 is a legal argument for any position in the time tuple; if it is normally illegal the value is forced to a correct one."
 msgstr ""
 
-#: ../../library/time.rst:322
+#: ../../library/time.rst:325
 msgid "The following directives can be embedded in the *format* string. They are shown without the optional field width and precision specification, and are replaced by the indicated characters in the :func:`strftime` result:"
 msgstr ""
 
-#: ../../library/time.rst:327
+#: ../../library/time.rst:330
 msgid "Directive"
 msgstr ""
 
-#: ../../library/time.rst:327
+#: ../../library/time.rst:330
 msgid "Meaning"
 msgstr ""
 
-#: ../../library/time.rst:327
+#: ../../library/time.rst:330
 msgid "Notes"
 msgstr ""
 
-#: ../../library/time.rst:329
+#: ../../library/time.rst:332
 msgid "``%a``"
 msgstr ""
 
-#: ../../library/time.rst:329
+#: ../../library/time.rst:332
 msgid "Locale's abbreviated weekday name."
 msgstr ""
 
-#: ../../library/time.rst:332
+#: ../../library/time.rst:335
 msgid "``%A``"
 msgstr ""
 
-#: ../../library/time.rst:332
+#: ../../library/time.rst:335
 msgid "Locale's full weekday name."
 msgstr ""
 
-#: ../../library/time.rst:334
+#: ../../library/time.rst:337
 msgid "``%b``"
 msgstr ""
 
-#: ../../library/time.rst:334
+#: ../../library/time.rst:337
 msgid "Locale's abbreviated month name."
 msgstr ""
 
-#: ../../library/time.rst:337
+#: ../../library/time.rst:340
 msgid "``%B``"
 msgstr ""
 
-#: ../../library/time.rst:337
+#: ../../library/time.rst:340
 msgid "Locale's full month name."
 msgstr ""
 
-#: ../../library/time.rst:339
+#: ../../library/time.rst:342
 msgid "``%c``"
 msgstr ""
 
-#: ../../library/time.rst:339
+#: ../../library/time.rst:342
 msgid "Locale's appropriate date and time representation."
 msgstr ""
 
-#: ../../library/time.rst:342
+#: ../../library/time.rst:345
 msgid "``%d``"
 msgstr ""
 
-#: ../../library/time.rst:342
+#: ../../library/time.rst:345
 msgid "Day of the month as a decimal number [01,31]."
 msgstr ""
 
-#: ../../library/time.rst:345
+#: ../../library/time.rst:348
 msgid "``%H``"
 msgstr ""
 
-#: ../../library/time.rst:345
+#: ../../library/time.rst:348
 msgid "Hour (24-hour clock) as a decimal number [00,23]."
 msgstr ""
 
-#: ../../library/time.rst:348
+#: ../../library/time.rst:351
 msgid "``%I``"
 msgstr ""
 
-#: ../../library/time.rst:348
+#: ../../library/time.rst:351
 msgid "Hour (12-hour clock) as a decimal number [01,12]."
 msgstr ""
 
-#: ../../library/time.rst:351
+#: ../../library/time.rst:354
 msgid "``%j``"
 msgstr ""
 
-#: ../../library/time.rst:351
+#: ../../library/time.rst:354
 msgid "Day of the year as a decimal number [001,366]."
 msgstr ""
 
-#: ../../library/time.rst:354
+#: ../../library/time.rst:357
 msgid "``%m``"
 msgstr ""
 
-#: ../../library/time.rst:354
+#: ../../library/time.rst:357
 msgid "Month as a decimal number [01,12]."
 msgstr ""
 
-#: ../../library/time.rst:357
+#: ../../library/time.rst:360
 msgid "``%M``"
 msgstr ""
 
-#: ../../library/time.rst:357
+#: ../../library/time.rst:360
 msgid "Minute as a decimal number [00,59]."
 msgstr ""
 
-#: ../../library/time.rst:360
+#: ../../library/time.rst:363
 msgid "``%p``"
 msgstr ""
 
-#: ../../library/time.rst:360
+#: ../../library/time.rst:363
 msgid "Locale's equivalent of either AM or PM."
 msgstr ""
 
-#: ../../library/time.rst:360
+#: ../../library/time.rst:363
 msgid "\\(1)"
 msgstr ""
 
-#: ../../library/time.rst:363
+#: ../../library/time.rst:366
 msgid "``%S``"
 msgstr ""
 
-#: ../../library/time.rst:363
+#: ../../library/time.rst:366
 msgid "Second as a decimal number [00,61]."
 msgstr ""
 
-#: ../../library/time.rst:363
+#: ../../library/time.rst:366
 msgid "\\(2)"
 msgstr ""
 
-#: ../../library/time.rst:366
+#: ../../library/time.rst:369
 msgid "``%U``"
 msgstr ""
 
-#: ../../library/time.rst:366
+#: ../../library/time.rst:369
 msgid "Week number of the year (Sunday as the first day of the week) as a decimal number [00,53]. All days in a new year preceding the first Sunday are considered to be in week 0."
 msgstr ""
 
-#: ../../library/time.rst:366
-#: ../../library/time.rst:377
+#: ../../library/time.rst:369
+#: ../../library/time.rst:380
 msgid "\\(3)"
 msgstr ""
 
-#: ../../library/time.rst:374
+#: ../../library/time.rst:377
 msgid "``%w``"
 msgstr ""
 
-#: ../../library/time.rst:374
+#: ../../library/time.rst:377
 msgid "Weekday as a decimal number [0(Sunday),6]."
 msgstr ""
 
-#: ../../library/time.rst:377
+#: ../../library/time.rst:380
 msgid "``%W``"
 msgstr ""
 
-#: ../../library/time.rst:377
+#: ../../library/time.rst:380
 msgid "Week number of the year (Monday as the first day of the week) as a decimal number [00,53]. All days in a new year preceding the first Monday are considered to be in week 0."
 msgstr ""
 
-#: ../../library/time.rst:385
+#: ../../library/time.rst:388
 msgid "``%x``"
 msgstr ""
 
-#: ../../library/time.rst:385
+#: ../../library/time.rst:388
 msgid "Locale's appropriate date representation."
 msgstr ""
 
-#: ../../library/time.rst:388
+#: ../../library/time.rst:391
 msgid "``%X``"
 msgstr ""
 
-#: ../../library/time.rst:388
+#: ../../library/time.rst:391
 msgid "Locale's appropriate time representation."
 msgstr ""
 
-#: ../../library/time.rst:391
+#: ../../library/time.rst:394
 msgid "``%y``"
 msgstr ""
 
-#: ../../library/time.rst:391
+#: ../../library/time.rst:394
 msgid "Year without century as a decimal number [00,99]."
 msgstr ""
 
-#: ../../library/time.rst:394
+#: ../../library/time.rst:397
 msgid "``%Y``"
 msgstr ""
 
-#: ../../library/time.rst:394
+#: ../../library/time.rst:397
 msgid "Year with century as a decimal number."
 msgstr ""
 
-#: ../../library/time.rst:397
+#: ../../library/time.rst:400
 msgid "``%z``"
 msgstr ""
 
-#: ../../library/time.rst:397
+#: ../../library/time.rst:400
 msgid "Time zone offset indicating a positive or negative time difference from UTC/GMT of the form +HHMM or -HHMM, where H represents decimal hour digits and M represents decimal minute digits [-23:59, +23:59]."
 msgstr ""
 
-#: ../../library/time.rst:403
+#: ../../library/time.rst:406
 msgid "``%Z``"
 msgstr ""
 
-#: ../../library/time.rst:403
+#: ../../library/time.rst:406
 msgid "Time zone name (no characters if no time zone exists)."
 msgstr ""
 
-#: ../../library/time.rst:406
+#: ../../library/time.rst:409
 msgid "``%%``"
 msgstr ""
 
-#: ../../library/time.rst:406
+#: ../../library/time.rst:409
 msgid "A literal ``'%'`` character."
 msgstr ""
 
-#: ../../library/time.rst:409
+#: ../../library/time.rst:412
 msgid "Notes:"
 msgstr ""
 
-#: ../../library/time.rst:412
+#: ../../library/time.rst:415
 msgid "When used with the :func:`strptime` function, the ``%p`` directive only affects the output hour field if the ``%I`` directive is used to parse the hour."
 msgstr ""
 
-#: ../../library/time.rst:416
+#: ../../library/time.rst:419
 msgid "The range really is ``0`` to ``61``; value ``60`` is valid in timestamps representing `leap seconds`_ and value ``61`` is supported for historical reasons."
 msgstr ""
 
-#: ../../library/time.rst:421
+#: ../../library/time.rst:424
 msgid "When used with the :func:`strptime` function, ``%U`` and ``%W`` are only used in calculations when the day of the week and the year are specified."
 msgstr ""
 
-#: ../../library/time.rst:424
+#: ../../library/time.rst:427
 msgid "Here is an example, a format for dates compatible with that specified  in the :rfc:`2822` Internet email standard.  [#]_ ::"
 msgstr ""
 
-#: ../../library/time.rst:431
+#: ../../library/time.rst:434
 msgid "Additional directives may be supported on certain platforms, but only the ones listed here have a meaning standardized by ANSI C.  To see the full set of format codes supported on your platform, consult the :manpage:`strftime(3)` documentation."
 msgstr ""
 
-#: ../../library/time.rst:436
+#: ../../library/time.rst:439
 msgid "On some platforms, an optional field width and precision specification can immediately follow the initial ``'%'`` of a directive in the following order; this is also not portable. The field width is normally 2 except for ``%j`` where it is 3."
 msgstr ""
 
-#: ../../library/time.rst:444
+#: ../../library/time.rst:450
 msgid "Parse a string representing a time according to a format.  The return value is a :class:`struct_time` as returned by :func:`gmtime` or :func:`localtime`."
 msgstr ""
 
-#: ../../library/time.rst:448
+#: ../../library/time.rst:454
 msgid "The *format* parameter uses the same directives as those used by :func:`strftime`; it defaults to ``\"%a %b %d %H:%M:%S %Y\"`` which matches the formatting returned by :func:`ctime`. If *string* cannot be parsed according to *format*, or if it has excess data after parsing, :exc:`ValueError` is raised. The default values used to fill in any missing data when more accurate values cannot be inferred are ``(1900, 1, 1, 0, 0, 0, 0, 1, -1)``. Both *string* and *format* must be strings."
 msgstr ""
 
-#: ../../library/time.rst:456
+#: ../../library/time.rst:462
 msgid "For example:"
 msgstr ""
 
-#: ../../library/time.rst:463
+#: ../../library/time.rst:469
 msgid "Support for the ``%Z`` directive is based on the values contained in ``tzname`` and whether ``daylight`` is true.  Because of this, it is platform-specific except for recognizing UTC and GMT which are always known (and are considered to be non-daylight savings timezones)."
 msgstr ""
 
-#: ../../library/time.rst:468
+#: ../../library/time.rst:474
 msgid "Only the directives specified in the documentation are supported.  Because ``strftime()`` is implemented per platform it can sometimes offer more directives than those listed.  But ``strptime()`` is independent of any platform and thus does not necessarily support all directives available that are not documented as supported."
 msgstr ""
 
-#: ../../library/time.rst:477
+#: ../../library/time.rst:483
 msgid "The type of the time value sequence returned by :func:`gmtime`, :func:`localtime`, and :func:`strptime`.  It is an object with a :term:`named tuple` interface: values can be accessed by index and by attribute name.  The following values are present:"
 msgstr ""
 
-#: ../../library/time.rst:483
+#: ../../library/time.rst:489
 msgid "Index"
 msgstr ""
 
-#: ../../library/time.rst:483
+#: ../../library/time.rst:489
 msgid "Attribute"
 msgstr ""
 
-#: ../../library/time.rst:483
+#: ../../library/time.rst:489
 msgid "Values"
 msgstr ""
 
-#: ../../library/time.rst:485
+#: ../../library/time.rst:491
 msgid "0"
 msgstr ""
 
-#: ../../library/time.rst:485
+#: ../../library/time.rst:491
 msgid ":attr:`tm_year`"
 msgstr ""
 
-#: ../../library/time.rst:485
+#: ../../library/time.rst:491
 msgid "(for example, 1993)"
 msgstr ""
 
-#: ../../library/time.rst:487
+#: ../../library/time.rst:493
 msgid "1"
 msgstr ""
 
-#: ../../library/time.rst:487
+#: ../../library/time.rst:493
 msgid ":attr:`tm_mon`"
 msgstr ""
 
-#: ../../library/time.rst:487
+#: ../../library/time.rst:493
 msgid "range [1, 12]"
 msgstr ""
 
-#: ../../library/time.rst:489
+#: ../../library/time.rst:495
 msgid "2"
 msgstr ""
 
-#: ../../library/time.rst:489
+#: ../../library/time.rst:495
 msgid ":attr:`tm_mday`"
 msgstr ""
 
-#: ../../library/time.rst:489
+#: ../../library/time.rst:495
 msgid "range [1, 31]"
 msgstr ""
 
-#: ../../library/time.rst:491
+#: ../../library/time.rst:497
 msgid "3"
 msgstr ""
 
-#: ../../library/time.rst:491
+#: ../../library/time.rst:497
 msgid ":attr:`tm_hour`"
 msgstr ""
 
-#: ../../library/time.rst:491
+#: ../../library/time.rst:497
 msgid "range [0, 23]"
 msgstr ""
 
-#: ../../library/time.rst:493
+#: ../../library/time.rst:499
 msgid "4"
 msgstr ""
 
-#: ../../library/time.rst:493
+#: ../../library/time.rst:499
 msgid ":attr:`tm_min`"
 msgstr ""
 
-#: ../../library/time.rst:493
+#: ../../library/time.rst:499
 msgid "range [0, 59]"
 msgstr ""
 
-#: ../../library/time.rst:495
+#: ../../library/time.rst:501
 msgid "5"
 msgstr ""
 
-#: ../../library/time.rst:495
+#: ../../library/time.rst:501
 msgid ":attr:`tm_sec`"
 msgstr ""
 
-#: ../../library/time.rst:495
+#: ../../library/time.rst:501
 msgid "range [0, 61]; see **(2)** in :func:`strftime` description"
 msgstr ""
 
-#: ../../library/time.rst:498
+#: ../../library/time.rst:504
 msgid "6"
 msgstr ""
 
-#: ../../library/time.rst:498
+#: ../../library/time.rst:504
 msgid ":attr:`tm_wday`"
 msgstr ""
 
-#: ../../library/time.rst:498
+#: ../../library/time.rst:504
 msgid "range [0, 6], Monday is 0"
 msgstr ""
 
-#: ../../library/time.rst:500
+#: ../../library/time.rst:506
 msgid "7"
 msgstr ""
 
-#: ../../library/time.rst:500
+#: ../../library/time.rst:506
 msgid ":attr:`tm_yday`"
 msgstr ""
 
-#: ../../library/time.rst:500
+#: ../../library/time.rst:506
 msgid "range [1, 366]"
 msgstr ""
 
-#: ../../library/time.rst:502
+#: ../../library/time.rst:508
 msgid "8"
 msgstr ""
 
-#: ../../library/time.rst:502
+#: ../../library/time.rst:508
 msgid ":attr:`tm_isdst`"
 msgstr ""
 
-#: ../../library/time.rst:502
+#: ../../library/time.rst:508
 msgid "0, 1 or -1; see below"
 msgstr ""
 
-#: ../../library/time.rst:504
-#: ../../library/time.rst:506
+#: ../../library/time.rst:510
+#: ../../library/time.rst:512
 msgid "N/A"
 msgstr ""
 
-#: ../../library/time.rst:504
+#: ../../library/time.rst:510
 msgid ":attr:`tm_zone`"
 msgstr ""
 
-#: ../../library/time.rst:504
+#: ../../library/time.rst:510
 msgid "abbreviation of timezone name"
 msgstr ""
 
-#: ../../library/time.rst:506
+#: ../../library/time.rst:512
 msgid ":attr:`tm_gmtoff`"
 msgstr ""
 
-#: ../../library/time.rst:506
+#: ../../library/time.rst:512
 msgid "offset east of UTC in seconds"
 msgstr ""
 
-#: ../../library/time.rst:509
+#: ../../library/time.rst:515
 msgid "Note that unlike the C structure, the month value is a range of [1, 12], not [0, 11]."
 msgstr ""
 
-#: ../../library/time.rst:512
+#: ../../library/time.rst:518
 msgid "In calls to :func:`mktime`, :attr:`tm_isdst` may be set to 1 when daylight savings time is in effect, and 0 when it is not.  A value of -1 indicates that this is not known, and will usually result in the correct state being filled in."
 msgstr ""
 
-#: ../../library/time.rst:516
+#: ../../library/time.rst:522
 msgid "When a tuple with an incorrect length is passed to a function expecting a :class:`struct_time`, or having elements of the wrong type, a :exc:`TypeError` is raised."
 msgstr ""
 
-#: ../../library/time.rst:522
+#: ../../library/time.rst:528
 msgid "Return the time in seconds since the epoch_ as a floating point number. The specific date of the epoch and the handling of `leap seconds`_ is platform dependent. On Windows and most Unix systems, the epoch is January 1, 1970, 00:00:00 (UTC) and leap seconds are not counted towards the time in seconds since the epoch. This is commonly referred to as `Unix time <https://en.wikipedia.org/wiki/Unix_time>`_. To find out what the epoch is on a given platform, look at ``gmtime(0)``."
 msgstr ""
 
-#: ../../library/time.rst:532
+#: ../../library/time.rst:538
 msgid "Note that even though the time is always returned as a floating point number, not all systems provide time with a better precision than 1 second. While this function normally returns non-decreasing values, it can return a lower value than a previous call if the system clock has been set back between the two calls."
 msgstr ""
 
-#: ../../library/time.rst:538
+#: ../../library/time.rst:544
 msgid "The number returned by :func:`.time` may be converted into a more common time format (i.e. year, month, day, hour, etc...) in UTC by passing it to :func:`gmtime` function or in local time by passing it to the :func:`localtime` function. In both cases a :class:`struct_time` object is returned, from which the components of the calendar date may be accessed as attributes."
 msgstr ""
 
-#: ../../library/time.rst:548
+#: ../../library/time.rst:554
 msgid "Resets the time conversion rules used by the library routines. The environment variable :envvar:`TZ` specifies how this is done."
 msgstr ""
 
-#: ../../library/time.rst:555
+#: ../../library/time.rst:561
 msgid "Although in many cases, changing the :envvar:`TZ` environment variable may affect the output of functions like :func:`localtime` without calling :func:`tzset`, this behavior should not be relied on."
 msgstr ""
 
-#: ../../library/time.rst:559
+#: ../../library/time.rst:565
 msgid "The :envvar:`TZ` environment variable should contain no whitespace."
 msgstr ""
 
-#: ../../library/time.rst:561
+#: ../../library/time.rst:567
 msgid "The standard format of the :envvar:`TZ` environment variable is (whitespace added for clarity)::"
 msgstr ""
 
-#: ../../library/time.rst:566
+#: ../../library/time.rst:572
 msgid "Where the components are:"
 msgstr ""
 
-#: ../../library/time.rst:570
+#: ../../library/time.rst:576
 msgid "``std`` and ``dst``"
 msgstr ""
 
-#: ../../library/time.rst:569
+#: ../../library/time.rst:575
 msgid "Three or more alphanumerics giving the timezone abbreviations. These will be propagated into time.tzname"
 msgstr ""
 
-#: ../../library/time.rst:576
+#: ../../library/time.rst:582
 msgid "``offset``"
 msgstr ""
 
-#: ../../library/time.rst:573
+#: ../../library/time.rst:579
 msgid "The offset has the form: ``± hh[:mm[:ss]]``. This indicates the value added the local time to arrive at UTC.  If preceded by a '-', the timezone is east of the Prime Meridian; otherwise, it is west. If no offset follows dst, summer time is assumed to be one hour ahead of standard time."
 msgstr ""
 
-#: ../../library/time.rst:598
+#: ../../library/time.rst:604
 msgid "``start[/time], end[/time]``"
 msgstr ""
 
-#: ../../library/time.rst:579
+#: ../../library/time.rst:585
 msgid "Indicates when to change to and back from DST. The format of the start and end dates are one of the following:"
 msgstr ""
 
-#: ../../library/time.rst:584
+#: ../../library/time.rst:590
 msgid ":samp:`J{n}`"
 msgstr ""
 
-#: ../../library/time.rst:583
+#: ../../library/time.rst:589
 msgid "The Julian day *n* (1 <= *n* <= 365). Leap days are not counted, so in all years February 28 is day 59 and March 1 is day 60."
 msgstr ""
 
-#: ../../library/time.rst:588
+#: ../../library/time.rst:594
 msgid ":samp:`{n}`"
 msgstr ""
 
-#: ../../library/time.rst:587
+#: ../../library/time.rst:593
 msgid "The zero-based Julian day (0 <= *n* <= 365). Leap days are counted, and it is possible to refer to February 29."
 msgstr ""
 
-#: ../../library/time.rst:595
+#: ../../library/time.rst:601
 msgid ":samp:`M{m}.{n}.{d}`"
 msgstr ""
 
-#: ../../library/time.rst:591
+#: ../../library/time.rst:597
 msgid "The *d*'th day (0 <= *d* <= 6) of week *n* of month *m* of the year (1 <= *n* <= 5, 1 <= *m* <= 12, where week 5 means \"the last *d* day in month *m*\" which may occur in either the fourth or the fifth week). Week 1 is the first week in which the *d*'th day occurs. Day zero is a Sunday."
 msgstr ""
 
-#: ../../library/time.rst:597
+#: ../../library/time.rst:603
 msgid "``time`` has the same format as ``offset`` except that no leading sign ('-' or '+') is allowed. The default, if time is not given, is 02:00:00."
 msgstr ""
 
-#: ../../library/time.rst:611
+#: ../../library/time.rst:617
 msgid "On many Unix systems (including \\*BSD, Linux, Solaris, and Darwin), it is more convenient to use the system's zoneinfo (:manpage:`tzfile(5)`)  database to specify the timezone rules. To do this, set the  :envvar:`TZ` environment variable to the path of the required timezone  datafile, relative to the root of the systems 'zoneinfo' timezone database, usually located at :file:`/usr/share/zoneinfo`. For example,  ``'US/Eastern'``, ``'Australia/Melbourne'``, ``'Egypt'`` or  ``'Europe/Amsterdam'``. ::"
 msgstr ""
 
-#: ../../library/time.rst:632
+#: ../../library/time.rst:638
 msgid "Clock ID Constants"
 msgstr ""
 
-#: ../../library/time.rst:634
+#: ../../library/time.rst:640
 msgid "These constants are used as parameters for :func:`clock_getres` and :func:`clock_gettime`."
 msgstr ""
 
-#: ../../library/time.rst:639
+#: ../../library/time.rst:645
 msgid "The Solaris OS has a ``CLOCK_HIGHRES`` timer that attempts to use an optimal hardware source, and may give close to nanosecond resolution. ``CLOCK_HIGHRES`` is the nonadjustable, high-resolution clock."
 msgstr ""
 
-#: ../../library/time.rst:643
+#: ../../library/time.rst:649
 msgid "Availability: Solaris."
 msgstr ""
 
-#: ../../library/time.rst:650
+#: ../../library/time.rst:656
 msgid "Clock that cannot be set and represents monotonic time since some unspecified starting point."
 msgstr ""
 
-#: ../../library/time.rst:660
+#: ../../library/time.rst:666
 msgid "Similar to :data:`CLOCK_MONOTONIC`, but provides access to a raw hardware-based time that is not subject to NTP adjustments."
 msgstr ""
 
-#: ../../library/time.rst:663
+#: ../../library/time.rst:669
 msgid "Availability: Linux 2.6.28 or later."
 msgstr ""
 
-#: ../../library/time.rst:670
+#: ../../library/time.rst:676
 msgid "High-resolution per-process timer from the CPU."
 msgstr ""
 
-#: ../../library/time.rst:679
+#: ../../library/time.rst:685
 msgid "Thread-specific CPU-time clock."
 msgstr ""
 
-#: ../../library/time.rst:686
+#: ../../library/time.rst:692
 msgid "The following constant is the only parameter that can be sent to :func:`clock_settime`."
 msgstr ""
 
-#: ../../library/time.rst:691
+#: ../../library/time.rst:697
 msgid "System-wide real-time clock.  Setting this clock requires appropriate privileges."
 msgstr ""
 
-#: ../../library/time.rst:702
+#: ../../library/time.rst:708
 msgid "Timezone Constants"
 msgstr ""
 
-#: ../../library/time.rst:706
+#: ../../library/time.rst:712
 msgid "The offset of the local DST timezone, in seconds west of UTC, if one is defined. This is negative if the local DST timezone is east of UTC (as in Western Europe, including the UK).  Only use this if ``daylight`` is nonzero.  See note below."
 msgstr ""
 
-#: ../../library/time.rst:712
+#: ../../library/time.rst:718
 msgid "Nonzero if a DST timezone is defined.  See note below."
 msgstr ""
 
-#: ../../library/time.rst:716
+#: ../../library/time.rst:722
 msgid "The offset of the local (non-DST) timezone, in seconds west of UTC (negative in most of Western Europe, positive in the US, zero in the UK).  See note below."
 msgstr ""
 
-#: ../../library/time.rst:721
+#: ../../library/time.rst:727
 msgid "A tuple of two strings: the first is the name of the local non-DST timezone, the second is the name of the local DST timezone.  If no DST timezone is defined, the second string should not be used.  See note below."
 msgstr ""
 
-#: ../../library/time.rst:727
+#: ../../library/time.rst:733
 msgid "For the above Timezone constants (:data:`altzone`, :data:`daylight`, :data:`timezone`, and :data:`tzname`), the value is determined by the timezone rules in effect at module load time or the last time :func:`tzset` is called and may be incorrect for times in the past.  It is recommended to use the :attr:`tm_gmtoff` and :attr:`tm_zone` results from :func:`localtime` to obtain timezone information."
 msgstr ""
 
-#: ../../library/time.rst:737
+#: ../../library/time.rst:743
 msgid "Module :mod:`datetime`"
 msgstr ""
 
-#: ../../library/time.rst:737
+#: ../../library/time.rst:743
 msgid "More object-oriented interface to dates and times."
 msgstr ""
 
-#: ../../library/time.rst:741
+#: ../../library/time.rst:747
 msgid "Module :mod:`locale`"
 msgstr ""
 
-#: ../../library/time.rst:740
+#: ../../library/time.rst:746
 msgid "Internationalization services.  The locale setting affects the interpretation of many format specifiers in :func:`strftime` and :func:`strptime`."
 msgstr ""
 
-#: ../../library/time.rst:744
+#: ../../library/time.rst:750
 msgid "Module :mod:`calendar`"
 msgstr ""
 
-#: ../../library/time.rst:744
+#: ../../library/time.rst:750
 msgid "General calendar-related functions.   :func:`~calendar.timegm` is the inverse of :func:`gmtime` from this module."
 msgstr ""
 
-#: ../../library/time.rst:748
+#: ../../library/time.rst:754
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/time.rst:749
+#: ../../library/time.rst:755
 msgid "The use of ``%Z`` is now deprecated, but the ``%z`` escape that expands to the preferred  hour/minute offset is not supported by all ANSI C libraries. Also, a strict reading of the original 1982 :rfc:`822` standard calls for a two-digit year (%y rather than %Y), but practice moved to 4-digit years long before the year 2000.  After that, :rfc:`822` became obsolete and the 4-digit year has been first recommended by :rfc:`1123` and then mandated by :rfc:`2822`."
 msgstr ""
 
