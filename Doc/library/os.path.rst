@@ -152,6 +152,8 @@ the :mod:`glob` module.)
       Accepts a :term:`path-like object`.
 
 
+.. index:: single: ~; home directory expansion
+
 .. function:: expanduser(path)
 
    On Unix and Windows, return the argument with an initial component of ``~`` or
@@ -175,6 +177,9 @@ the :mod:`glob` module.)
    .. versionchanged:: 3.6
       Accepts a :term:`path-like object`.
 
+.. index::
+   single: $; environment variables expansion
+   single: %; environment variables expansion (Windows)
 
 .. function:: expandvars(path)
 
@@ -312,7 +317,7 @@ the :mod:`glob` module.)
    Normalize the case of a pathname.  On Unix and Mac OS X, this returns the
    path unchanged; on case-insensitive filesystems, it converts the path to
    lowercase.  On Windows, it also converts forward slashes to backward slashes.
-   Raise a TypeError if the type of *path* is not ``str`` or ``bytes`` (directly
+   Raise a :exc:`TypeError` if the type of *path* is not ``str`` or ``bytes`` (directly
    or indirectly through the :class:`os.PathLike` interface).
 
    .. versionchanged:: 3.6
