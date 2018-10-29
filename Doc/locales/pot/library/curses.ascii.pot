@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-10-29 14:57+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -412,11 +412,11 @@ msgstr ""
 msgid "The following function takes either a single-character string or integer value; it returns a string."
 msgstr ""
 
-#: ../../library/curses.ascii.rst:212
+#: ../../library/curses.ascii.rst:216
 msgid "Return a string representation of the ASCII character *c*.  If *c* is printable, this string is the character itself.  If the character is a control character (0x00--0x1f) the string consists of a caret (``'^'``) followed by the corresponding uppercase letter. If the character is an ASCII delete (0x7f) the string is ``'^?'``.  If the character has its meta bit (0x80) set, the meta bit is stripped, the preceding rules applied, and ``'!'`` prepended to the result."
 msgstr ""
 
-#: ../../library/curses.ascii.rst:222
+#: ../../library/curses.ascii.rst:226
 msgid "A 33-element string array that contains the ASCII mnemonics for the thirty-two ASCII control characters from 0 (NUL) to 0x1f (US), in order, plus the mnemonic ``SP`` for the space character."
 msgstr ""
 
