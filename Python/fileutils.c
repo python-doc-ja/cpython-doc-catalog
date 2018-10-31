@@ -180,6 +180,18 @@ error:
     return 1;
 }
 
+
+int
+_Py_GetForceASCII(void)
+{
+    if (force_ascii == -1) {
+        force_ascii = check_force_ascii();
+    }
+    return force_ascii;
+}
+
+
+
 static int
 encode_ascii(const wchar_t *text, char **str,
              size_t *error_pos, const char **reason,
@@ -232,6 +244,12 @@ encode_ascii(const wchar_t *text, char **str,
     }
     *out = '\0';
     *str = result;
+    return 0;
+}
+#else
+int
+_Py_GetForceASCII(void)
+{
     return 0;
 }
 #endif   /* !defined(__APPLE__) && !defined(__ANDROID__) && !defined(MS_WINDOWS) */
