@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-29 14:57+0900\n"
+"POT-Creation-Date: 2018-11-01 14:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -426,7 +426,7 @@ msgid "``'x'``"
 msgstr ""
 
 #: ../../library/string.rst:461
-msgid "Hex format. Outputs the number in base 16, using lower- case letters for the digits above 9."
+msgid "Hex format. Outputs the number in base 16, using lower-case letters for the digits above 9."
 msgstr ""
 
 #: ../../library/string.rst:464
@@ -434,7 +434,7 @@ msgid "``'X'``"
 msgstr ""
 
 #: ../../library/string.rst:464
-msgid "Hex format. Outputs the number in base 16, using upper- case letters for the digits above 9."
+msgid "Hex format. Outputs the number in base 16, using upper-case letters for the digits above 9."
 msgstr ""
 
 #: ../../library/string.rst:467
