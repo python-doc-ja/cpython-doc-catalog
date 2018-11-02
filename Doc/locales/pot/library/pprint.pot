@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-11-02 09:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "To demonstrate several uses of the :func:`pprint` function and its parameters, let's fetch information about a project from `PyPI <https://pypi.org>`_::"
 msgstr ""
 
-#: ../../library/pprint.rst:225
+#: ../../library/pprint.rst:223
 msgid "In its basic form, :func:`pprint` shows the whole object::"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "The result can be limited to a certain *depth* (ellipsis is used for deeper contents)::"
 msgstr ""
 
-#: ../../library/pprint.rst:313
+#: ../../library/pprint.rst:325
 msgid "Additionally, maximum character *width* can be suggested. If a long object cannot be split, the specified width will be exceeded::"
 msgstr ""
 

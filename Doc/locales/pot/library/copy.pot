@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-11-02 09:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "The :func:`deepcopy` function avoids these problems by:"
 msgstr ""
 
 #: ../../library/copy.rst:55
-msgid "keeping a \"memo\" dictionary of objects already copied during the current copying pass; and"
+msgid "keeping a ``memo`` dictionary of objects already copied during the current copying pass; and"
 msgstr ""
 
 #: ../../library/copy.rst:58
@@ -93,7 +93,7 @@ msgid "Classes can use the same interfaces to control copying that they use to c
 msgstr ""
 
 #: ../../library/copy.rst:81
-msgid "In order for a class to define its own copy implementation, it can define special methods :meth:`__copy__` and :meth:`__deepcopy__`.  The former is called to implement the shallow copy operation; no additional arguments are passed. The latter is called to implement the deep copy operation; it is passed one argument, the memo dictionary.  If the :meth:`__deepcopy__` implementation needs to make a deep copy of a component, it should call the :func:`deepcopy` function with the component as first argument and the memo dictionary as second argument."
+msgid "In order for a class to define its own copy implementation, it can define special methods :meth:`__copy__` and :meth:`__deepcopy__`.  The former is called to implement the shallow copy operation; no additional arguments are passed. The latter is called to implement the deep copy operation; it is passed one argument, the ``memo`` dictionary.  If the :meth:`__deepcopy__` implementation needs to make a deep copy of a component, it should call the :func:`deepcopy` function with the component as first argument and the memo dictionary as second argument."
 msgstr ""
 
 #: ../../library/copy.rst:93
