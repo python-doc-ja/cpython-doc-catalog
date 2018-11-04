@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-11-04 09:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgid "Exception classes can be defined which do anything any other class can do
 msgstr ""
 
 #: ../../tutorial/errors.rst:317
-msgid "Most exceptions are defined with names that end in \"Error,\" similar to the naming of the standard exceptions."
+msgid "Most exceptions are defined with names that end in \"Error\", similar to the naming of the standard exceptions."
 msgstr ""
 
 #: ../../tutorial/errors.rst:320
