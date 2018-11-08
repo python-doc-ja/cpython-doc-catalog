@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 09:30+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,6 +183,6 @@ msgid "Load MIME type information from the Windows registry."
 msgstr ""
 
 #: ../../library/mimetypes.rst:261
-msgid "Availability: Windows."
+msgid ":ref:`Availability <availability>`: Windows."
 msgstr ""
 

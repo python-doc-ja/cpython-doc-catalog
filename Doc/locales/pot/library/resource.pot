@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 09:30+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Raises :exc:`ProcessLookupError` when *pid* can't be found and :exc:`Perm
 msgstr ""
 
 #: ../../library/resource.rst:96
-msgid "Availability: Linux 2.6.36 or later with glibc 2.13 or later."
+msgid ":ref:`Availability <availability>`: Linux 2.6.36 or later with glibc 2.13 or later."
 msgstr ""
 
 #: ../../library/resource.rst:100
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../library/resource.rst:182
 #: ../../library/resource.rst:219
-msgid "Availability: Linux 2.6.8 or later."
+msgid ":ref:`Availability <availability>`: Linux 2.6.8 or later."
 msgstr ""
 
 #: ../../library/resource.rst:188
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../library/resource.rst:191
 #: ../../library/resource.rst:200
-msgid "Availability: Linux 2.6.12 or later."
+msgid ":ref:`Availability <availability>`: Linux 2.6.12 or later."
 msgstr ""
 
 #: ../../library/resource.rst:197
@@ -171,7 +171,7 @@ msgid "The time limit (in microseconds) on CPU time that a process can spend und
 msgstr ""
 
 #: ../../library/resource.rst:210
-msgid "Availability: Linux 2.6.25 or later."
+msgid ":ref:`Availability <availability>`: Linux 2.6.25 or later."
 msgstr ""
 
 #: ../../library/resource.rst:216
@@ -185,7 +185,7 @@ msgstr ""
 #: ../../library/resource.rst:229
 #: ../../library/resource.rst:240
 #: ../../library/resource.rst:248
-msgid "Availability: FreeBSD 9 or later."
+msgid ":ref:`Availability <availability>`: FreeBSD 9 or later."
 msgstr ""
 
 #: ../../library/resource.rst:234

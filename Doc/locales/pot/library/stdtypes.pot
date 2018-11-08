@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-29 09:36+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2882,7 +2882,7 @@ msgid "The underlying object of the memoryview::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:3772
-msgid "``nbytes == product(shape) * itemsize == len(m.tobytes())``. This is the amount of space in bytes that the array would use in a contiguous representation. It is not necessarily equal to len(m)::"
+msgid "``nbytes == product(shape) * itemsize == len(m.tobytes())``. This is the amount of space in bytes that the array would use in a contiguous representation. It is not necessarily equal to ``len(m)``::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:3791

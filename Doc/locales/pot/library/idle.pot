@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-07 09:40+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -935,94 +935,98 @@ msgid "User output in Shell"
 msgstr ""
 
 #: ../../library/idle.rst:670
-msgid "When a program outputs text, the result is determined by the corresponding output device.  When IDLE executes user code, ``sys.stdout`` and ``sys.stderr`` are connected to the display area of IDLE's Shell.  Some of its features are inherited from the underlying Tk Text widget.  Others are programmed additions."
+msgid "When a program outputs text, the result is determined by the corresponding output device.  When IDLE executes user code, ``sys.stdout`` and ``sys.stderr`` are connected to the display area of IDLE's Shell.  Some of its features are inherited from the underlying Tk Text widget.  Others are programmed additions.  Where it matters, Shell is designed for development rather than production runs."
 msgstr ""
 
-#: ../../library/idle.rst:676
-msgid "Text widgets display a subset of Unicode, the Basic Multilingual Plane (BMP). Which characters get a proper glyph instead of a replacement box depends on the operating system and installed fonts.  Newline characters cause following text to appear on a new line, but other control characters are replaced with a box.  But note that the ``repr()`` function, which is used for interactive echo of expression values, replaces control characters with escape codes before they are output."
+#: ../../library/idle.rst:677
+msgid "For instance, Shell never throws away output.  A program that sends unlimited output to Shell will eventually fill memory, resulting in a memory error. In contrast, some system text windows only keep the last n lines of output. A Windows console, for instance, keeps a user-settable 1 to 9999 lines, with 300 the default."
 msgstr ""
 
-#: ../../library/idle.rst:684
+#: ../../library/idle.rst:683
+msgid "Text widgets display a subset of Unicode, the Basic Multilingual Plane (BMP). Which characters get a proper glyph instead of a replacement box depends on the operating system and installed fonts.  Newline characters cause following text to appear on a new line, but other control characters are either replaced with a box or deleted.  However, ``repr()``, which is used for interactive echo of expression values, replaces control characters, some BMP codepoints, and all non-BMP characters with escape codes before they are output."
+msgstr ""
+
+#: ../../library/idle.rst:692
 msgid "Normal and error output are generally kept separate (on separate lines) from code input and each other.  They each get different highlight colors."
 msgstr ""
 
-#: ../../library/idle.rst:687
+#: ../../library/idle.rst:695
 msgid "For SyntaxError tracebacks, the normal '^' marking where the error was detected is replaced by coloring the text with an error highlight. When code run from a file causes other exceptions, one may right click on a traceback line to jump to the corresponding line in an IDLE editor. The file will be opened if necessary."
 msgstr ""
 
-#: ../../library/idle.rst:693
+#: ../../library/idle.rst:701
 msgid "Shell has a special facility for squeezing output lines down to a 'Squeezed text' label.  This is done automatically for output over N lines (N = 50 by default). N can be changed in the PyShell section of the General page of the Settings dialog.  Output with fewer lines can be squeezed by right clicking on the output.  This can be useful lines long enough to slow down scrolling."
 msgstr ""
 
-#: ../../library/idle.rst:701
+#: ../../library/idle.rst:709
 msgid "Squeezed output is expanded in place by double-clicking the label. It can also be sent to the clipboard or a separate view window by right-clicking the label."
 msgstr ""
 
-#: ../../library/idle.rst:706
+#: ../../library/idle.rst:714
 msgid "Developing tkinter applications"
 msgstr ""
 
-#: ../../library/idle.rst:708
+#: ../../library/idle.rst:716
 msgid "IDLE is intentionally different from standard Python in order to facilitate development of tkinter programs.  Enter ``import tkinter as tk; root = tk.Tk()`` in standard Python and nothing appears.  Enter the same in IDLE and a tk window appears.  In standard Python, one must also enter ``root.update()`` to see the window.  IDLE does the equivalent in the background, about 20 times a second, which is about every 50 milleseconds. Next enter ``b = tk.Button(root, text='button'); b.pack()``.  Again, nothing visibly changes in standard Python until one enters ``root.update()``."
 msgstr ""
 
-#: ../../library/idle.rst:717
+#: ../../library/idle.rst:725
 msgid "Most tkinter programs run ``root.mainloop()``, which usually does not return until the tk app is destroyed.  If the program is run with ``python -i`` or from an IDLE editor, a ``>>>`` shell prompt does not appear until ``mainloop()`` returns, at which time there is nothing left to interact with."
 msgstr ""
 
-#: ../../library/idle.rst:723
+#: ../../library/idle.rst:731
 msgid "When running a tkinter program from an IDLE editor, one can comment out the mainloop call.  One then gets a shell prompt immediately and can interact with the live application.  One just has to remember to re-enable the mainloop call when running in standard Python."
 msgstr ""
 
-#: ../../library/idle.rst:729
+#: ../../library/idle.rst:737
 msgid "Running without a subprocess"
 msgstr ""
 
-#: ../../library/idle.rst:731
+#: ../../library/idle.rst:739
 msgid "By default, IDLE executes user code in a separate subprocess via a socket, which uses the internal loopback interface.  This connection is not externally visible and no data is sent to or received from the Internet. If firewall software complains anyway, you can ignore it."
 msgstr ""
 
-#: ../../library/idle.rst:736
+#: ../../library/idle.rst:744
 msgid "If the attempt to make the socket connection fails, Idle will notify you. Such failures are sometimes transient, but if persistent, the problem may be either a firewall blocking the connection or misconfiguration of a particular system.  Until the problem is fixed, one can run Idle with the -n command line switch."
 msgstr ""
 
-#: ../../library/idle.rst:742
+#: ../../library/idle.rst:750
 msgid "If IDLE is started with the -n command line switch it will run in a single process and will not create the subprocess which runs the RPC Python execution server.  This can be useful if Python cannot create the subprocess or the RPC socket interface on your platform.  However, in this mode user code is not isolated from IDLE itself.  Also, the environment is not restarted when Run/Run Module (F5) is selected.  If your code has been modified, you must reload() the affected modules and re-import any specific items (e.g. from foo import baz) if the changes are to take effect.  For these reasons, it is preferable to run IDLE with the default subprocess if at all possible."
 msgstr ""
 
-#: ../../library/idle.rst:757
+#: ../../library/idle.rst:765
 msgid "Help and preferences"
 msgstr ""
 
-#: ../../library/idle.rst:760
+#: ../../library/idle.rst:768
 msgid "Help sources"
 msgstr ""
 
-#: ../../library/idle.rst:762
+#: ../../library/idle.rst:770
 msgid "Help menu entry \"IDLE Help\" displays a formatted html version of the IDLE chapter of the Library Reference.  The result, in a read-only tkinter text window, is close to what one sees in a web browser. Navigate through the text with a mousewheel, the scrollbar, or up and down arrow keys held down. Or click the TOC (Table of Contents) button and select a section header in the opened box."
 msgstr ""
 
-#: ../../library/idle.rst:770
+#: ../../library/idle.rst:778
 msgid "Help menu entry \"Python Docs\" opens the extensive sources of help, including tutorials, available at docs.python.org/x.y, where 'x.y' is the currently running Python version.  If your system has an off-line copy of the docs (this may be an installation option), that will be opened instead."
 msgstr ""
 
-#: ../../library/idle.rst:776
+#: ../../library/idle.rst:784
 msgid "Selected URLs can be added or removed from the help menu at any time using the General tab of the Configure IDLE dialog ."
 msgstr ""
 
-#: ../../library/idle.rst:780
+#: ../../library/idle.rst:788
 msgid "Setting preferences"
 msgstr ""
 
-#: ../../library/idle.rst:782
+#: ../../library/idle.rst:790
 msgid "The font preferences, highlighting, keys, and general preferences can be changed via Configure IDLE on the Option menu.  Keys can be user defined; IDLE ships with four built-in key sets. In addition, a user can create a custom key set in the Configure IDLE dialog under the keys tab."
 msgstr ""
 
-#: ../../library/idle.rst:788
+#: ../../library/idle.rst:796
 msgid "Extensions"
 msgstr ""
 
-#: ../../library/idle.rst:790
+#: ../../library/idle.rst:798
 msgid "IDLE contains an extension facility.  Preferences for extensions can be changed with the Extensions tab of the preferences dialog. See the beginning of config-extensions.def in the idlelib directory for further information.  The only current default extension is zzdummy, an example also used for testing."
 msgstr ""
 

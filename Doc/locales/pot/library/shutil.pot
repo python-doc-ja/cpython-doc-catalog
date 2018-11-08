@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-24 09:34+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid "Return disk usage statistics about the given path as a :term:`named tuple
 msgstr ""
 
 #: ../../library/shutil.rst:326
-msgid "Availability: Unix, Windows."
+msgid ":ref:`Availability <availability>`: Unix, Windows."
 msgstr ""
 
 #: ../../library/shutil.rst:330
@@ -249,7 +249,7 @@ msgid "See also :func:`os.chown`, the underlying function."
 msgstr ""
 
 #: ../../library/shutil.rst:338
-msgid "Availability: Unix."
+msgid ":ref:`Availability <availability>`: Unix."
 msgstr ""
 
 #: ../../library/shutil.rst:344

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-29 09:36+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,7 @@ msgstr ""
 #: ../../library/os.rst:3988
 #: ../../library/os.rst:3998
 #: ../../library/os.rst:4007
-msgid "Availability: Unix."
+msgid ":ref:`Availability <availability>`: Unix."
 msgstr ""
 
 #: ../../library/os.rst:104
@@ -298,7 +298,7 @@ msgstr ""
 #: ../../library/os.rst:229
 #: ../../library/os.rst:442
 #: ../../library/os.rst:645
-msgid "Availability: most flavors of Unix, Windows."
+msgid ":ref:`Availability <availability>`: most flavors of Unix, Windows."
 msgstr ""
 
 #: ../../library/os.rst:234
@@ -310,7 +310,7 @@ msgid ":func:`getenvb` is only available if :data:`supports_bytes_environ` is Tr
 msgstr ""
 
 #: ../../library/os.rst:241
-msgid "Availability: most flavors of Unix."
+msgid ":ref:`Availability <availability>`: most flavors of Unix."
 msgstr ""
 
 #: ../../library/os.rst:247
@@ -360,7 +360,7 @@ msgstr ""
 #: ../../library/os.rst:3508
 #: ../../library/os.rst:3576
 #: ../../library/os.rst:3600
-msgid "Availability: Unix, Windows."
+msgid ":ref:`Availability <availability>`: Unix, Windows."
 msgstr ""
 
 #: ../../library/os.rst:330
@@ -524,7 +524,7 @@ msgid "Some systems truncate :attr:`nodename` to 8 characters or to the leading 
 msgstr ""
 
 #: ../../library/os.rst:626
-msgid "Availability: recent flavors of Unix."
+msgid ":ref:`Availability <availability>`: recent flavors of Unix."
 msgstr ""
 
 #: ../../library/os.rst:627
@@ -803,7 +803,7 @@ msgstr ""
 #: ../../library/os.rst:1006
 #: ../../library/os.rst:1032
 #: ../../library/os.rst:3312
-msgid "Availability: some flavors of Unix."
+msgid ":ref:`Availability <availability>`: some flavors of Unix."
 msgstr ""
 
 #: ../../library/os.rst:1007
@@ -874,7 +874,7 @@ msgid "Combine the functionality of :func:`os.readv` and :func:`os.pread`."
 msgstr ""
 
 #: ../../library/os.rst:1112
-msgid "Availability: Linux 2.6.30 and newer, FreeBSD 6.0 and newer, OpenBSD 2.7 and newer. Using flags requires Linux 4.6 or newer."
+msgid ":ref:`Availability <availability>`: Linux 2.6.30 and newer, FreeBSD 6.0 and newer, OpenBSD 2.7 and newer. Using flags requires Linux 4.6 or newer."
 msgstr ""
 
 #: ../../library/os.rst:1118
@@ -886,7 +886,7 @@ msgid "If some data was successfully read, it will return the number of bytes re
 msgstr ""
 
 #: ../../library/os.rst:1127
-msgid "Availability: Linux 4.14 and newer."
+msgid ":ref:`Availability <availability>`: Linux 4.14 and newer."
 msgstr ""
 
 #: ../../library/os.rst:1133
@@ -898,7 +898,7 @@ msgid "Currently, on Linux, this feature is usable only on a file descriptor ope
 msgstr ""
 
 #: ../../library/os.rst:1141
-msgid "Availability: Linux 4.6 and newer."
+msgid ":ref:`Availability <availability>`: Linux 4.6 and newer."
 msgstr ""
 
 #: ../../library/os.rst:1147
@@ -931,7 +931,7 @@ msgid "Combine the functionality of :func:`os.writev` and :func:`os.pwrite`."
 msgstr ""
 
 #: ../../library/os.rst:1180
-msgid "Availability: Linux 2.6.30 and newer, FreeBSD 6.0 and newer, OpenBSD 2.7 and newer. Using flags requires Linux 4.7 or newer."
+msgid ":ref:`Availability <availability>`: Linux 2.6.30 and newer, FreeBSD 6.0 and newer, OpenBSD 2.7 and newer. Using flags requires Linux 4.7 or newer."
 msgstr ""
 
 #: ../../library/os.rst:1186
@@ -940,7 +940,7 @@ msgstr ""
 
 #: ../../library/os.rst:1190
 #: ../../library/os.rst:1200
-msgid "Availability: Linux 4.7 and newer."
+msgid ":ref:`Availability <availability>`: Linux 4.7 and newer."
 msgstr ""
 
 #: ../../library/os.rst:1196
@@ -1095,7 +1095,7 @@ msgstr ""
 #: ../../library/os.rst:1442
 #: ../../library/os.rst:3520
 #: ../../library/os.rst:3549
-msgid "Availability: Windows."
+msgid ":ref:`Availability <availability>`: Windows."
 msgstr ""
 
 #: ../../library/os.rst:1440
@@ -2485,7 +2485,7 @@ msgid "As an example, the following calls to :func:`spawnlp` and :func:`spawnvpe
 msgstr ""
 
 #: ../../library/os.rst:3484
-msgid "Availability: Unix, Windows.  spawnlp(), spawnlpe(), spawnvp() and spawnvpe() are not available on Windows.  spawnle() and spawnve() are not thread-safe on Windows; we advise you to use the subprocess module instead."
+msgid ":ref:`Availability <availability>`: Unix, Windows.  :func:`spawnlp`, :func:`spawnlpe`, :func:`spawnvp` and :func:`spawnvpe` are not available on Windows.  :func:`spawnle` and :func:`spawnve` are not thread-safe on Windows; we advise you to use the :mod:`subprocess` module instead."
 msgstr ""
 
 #: ../../library/os.rst:3492
@@ -2625,7 +2625,7 @@ msgid "This option causes child processes to be reported if they have been conti
 msgstr ""
 
 #: ../../library/os.rst:3738
-msgid "Availability: some Unix systems."
+msgid ":ref:`Availability <availability>`: some Unix systems."
 msgstr ""
 
 #: ../../library/os.rst:3743
@@ -2873,7 +2873,7 @@ msgid "See also the `Linux getrandom() manual page <http://man7.org/linux/man-pa
 msgstr ""
 
 #: ../../library/os.rst:4128
-msgid "Availability: Linux 3.17 and newer."
+msgid ":ref:`Availability <availability>`: Linux 3.17 and newer."
 msgstr ""
 
 #: ../../library/os.rst:4133

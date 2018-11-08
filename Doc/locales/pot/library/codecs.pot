@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 09:38+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2105,7 +2105,7 @@ msgid "Encode operand according to the ANSI codepage (CP_ACP)."
 msgstr ""
 
 #: ../../library/codecs.rst:1483
-msgid "Availability: Windows only."
+msgid ":ref:`Availability <availability>`: Windows only."
 msgstr ""
 
 #: ../../library/codecs.rst:1484

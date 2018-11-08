@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 09:38+0900\n"
+"POT-Creation-Date: 2018-11-08 09:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -497,7 +497,7 @@ msgstr ""
 #: ../../library/asyncio-eventloop.rst:508
 #: ../../library/asyncio-eventloop.rst:628
 #: ../../library/asyncio-eventloop.rst:976
-msgid "Availability: Unix."
+msgid ":ref:`Availability <availability>`: Unix."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:515
@@ -1251,7 +1251,7 @@ msgid "Uses the most efficient *selector* available for the given platform.  It 
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1420
-msgid "Availability: Unix, Windows."
+msgid ":ref:`Availability <availability>`: Unix, Windows."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1425
@@ -1259,7 +1259,7 @@ msgid "An event loop for Windows that uses \"I/O Completion Ports\" (IOCP)."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1428
-msgid "Availability: Windows."
+msgid ":ref:`Availability <availability>`: Windows."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1429
