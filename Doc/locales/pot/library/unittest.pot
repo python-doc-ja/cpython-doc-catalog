@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-28 09:36+0900\n"
+"POT-Creation-Date: 2018-11-10 09:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -493,7 +493,7 @@ msgid "Distinguishing test iterations using subtests"
 msgstr ""
 
 #: ../../library/unittest.rst:610
-msgid "When some of your tests differ only by a some very small differences, for instance some parameters, unittest allows you to distinguish them inside the body of a test method using the :meth:`~TestCase.subTest` context manager."
+msgid "When there are very small differences among your tests, for instance some parameters, unittest allows you to distinguish them inside the body of a test method using the :meth:`~TestCase.subTest` context manager."
 msgstr ""
 
 #: ../../library/unittest.rst:614

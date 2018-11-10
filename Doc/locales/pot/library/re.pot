@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-29 09:36+0900\n"
+"POT-Creation-Date: 2018-11-10 09:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1161,11 +1161,11 @@ msgstr ""
 msgid "The text categories are specified with regular expressions.  The technique is to combine those into a single master regular expression and to loop over successive matches::"
 msgstr ""
 
-#: ../../library/re.rst:1653
+#: ../../library/re.rst:1655
 msgid "The tokenizer produces the following output::"
 msgstr ""
 
-#: ../../library/re.rst:1676
+#: ../../library/re.rst:1678
 msgid "Friedl, Jeffrey. Mastering Regular Expressions. 3rd ed., O'Reilly Media, 2009. The third edition of the book no longer covers Python at all, but the first edition covered writing good regular expression patterns in great detail."
 msgstr ""
 
