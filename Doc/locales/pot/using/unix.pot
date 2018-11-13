@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-11-13 09:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,7 +181,7 @@ msgid "Editors and IDEs"
 msgstr ""
 
 #: ../../using/unix.rst:142
-msgid "There are a number of IDEs that support Python programming language. Many editors and IDEs provide syntax highlighting, debugging tools, and PEP-8 checks."
+msgid "There are a number of IDEs that support Python programming language. Many editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` checks."
 msgstr ""
 
 #: ../../using/unix.rst:145

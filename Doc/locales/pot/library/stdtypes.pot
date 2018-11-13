@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 09:41+0900\n"
+"POT-Creation-Date: 2018-11-13 09:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3243,7 +3243,7 @@ msgid "Dictionaries preserve insertion order.  Note that updating a key does not
 msgstr ""
 
 #: ../../library/stdtypes.rst:4293
-msgid "Dictionary order is guaranteed to be insertion order.  This behavior was implementation detail of CPython from 3.6."
+msgid "Dictionary order is guaranteed to be insertion order.  This behavior was an implementation detail of CPython from 3.6."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4298
