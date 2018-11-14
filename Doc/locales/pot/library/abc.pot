@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-22 12:36+0900\n"
+"POT-Creation-Date: 2018-11-14 14:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "This module provides the infrastructure for defining :term:`abstract base
 msgstr ""
 
 #: ../../library/abc.rst:20
-msgid "The :mod:`collections` module has some concrete classes that derive from ABCs; these can, of course, be further derived. In addition the :mod:`collections.abc` submodule has some ABCs that can be used to test whether a class or instance provides a particular interface, for example, is it hashable or a mapping."
+msgid "The :mod:`collections` module has some concrete classes that derive from ABCs; these can, of course, be further derived. In addition, the :mod:`collections.abc` submodule has some ABCs that can be used to test whether a class or instance provides a particular interface, for example, if it is hashable or if it is a mapping."
 msgstr ""
 
 #: ../../library/abc.rst:27
@@ -121,7 +121,7 @@ msgid "When :func:`abstractmethod` is applied in combination with other method d
 msgstr ""
 
 #: ../../library/abc.rst:216
-msgid "In order to correctly interoperate with the abstract base class machinery, the descriptor must identify itself as abstract using :attr:`__isabstractmethod__`. In general, this attribute should be ``True`` if any of the methods used to compose the descriptor are abstract. For example, Python's built-in property does the equivalent of::"
+msgid "In order to correctly interoperate with the abstract base class machinery, the descriptor must identify itself as abstract using :attr:`__isabstractmethod__`. In general, this attribute should be ``True`` if any of the methods used to compose the descriptor are abstract. For example, Python's built-in :class:`property` does the equivalent of::"
 msgstr ""
 
 #: ../../library/abc.rst:231
