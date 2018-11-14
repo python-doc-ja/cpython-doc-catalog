@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-27 09:37+0900\n"
+"POT-Creation-Date: 2018-11-14 09:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -441,7 +441,7 @@ msgid "PEP 552: Hash-based .pyc Files"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:429
-msgid "Python has traditionally checked the up-to-dateness of bytecode cache files (i.e., ``.pyc`` files) by comparing the source metadata (last-modified timestamp and size) with source metadata saved in the cache file header when it was generated. While effective, this invalidation method has its drawbacks.  When filesystem timestamps are too coarse, Python can miss source updates, leading to user confusion. Additionally, having a timestamp in the cache file is problematic for `build reproduciblity <https://reproducible-builds.org/>`_ and content-based build systems."
+msgid "Python has traditionally checked the up-to-dateness of bytecode cache files (i.e., ``.pyc`` files) by comparing the source metadata (last-modified timestamp and size) with source metadata saved in the cache file header when it was generated. While effective, this invalidation method has its drawbacks.  When filesystem timestamps are too coarse, Python can miss source updates, leading to user confusion. Additionally, having a timestamp in the cache file is problematic for `build reproducibility <https://reproducible-builds.org/>`_ and content-based build systems."
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:438
