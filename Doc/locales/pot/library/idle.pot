@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-11 14:53+0900\n"
+"POT-Creation-Date: 2018-11-16 14:57+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "coded in 100% pure Python, using the :mod:`tkinter` GUI toolkit"
 msgstr ""
 
 #: ../../library/idle.rst:23
-msgid "cross-platform: works mostly the same on Windows, Unix, and Mac OS X"
+msgid "cross-platform: works mostly the same on Windows, Unix, and macOS"
 msgstr ""
 
 #: ../../library/idle.rst:25
@@ -73,7 +73,7 @@ msgid "Output windows, such as used for Edit => Find in Files, are a subtype of 
 msgstr ""
 
 #: ../../library/idle.rst:51
-msgid "On MacOS, there is one application menu.  It dynamically changes according to the window currently selected.  It has an IDLE menu, and some entries described below are moved around to conform to Apple guidlines."
+msgid "On macOS, there is one application menu.  It dynamically changes according to the window currently selected.  It has an IDLE menu, and some entries described below are moved around to conform to Apple guidlines."
 msgstr ""
 
 #: ../../library/idle.rst:56
@@ -503,7 +503,7 @@ msgid "Configure IDLE"
 msgstr ""
 
 #: ../../library/idle.rst:268
-msgid "Open a configuration dialog and change preferences for the following: fonts, indentation, keybindings, text color themes, startup windows and size, additional help sources, and extensions (see below).  On OS X, open the configuration dialog by selecting Preferences in the application menu.  To use a new built-in color theme (IDLE Dark) with older IDLEs, save it as a new custom theme."
+msgid "Open a configuration dialog and change preferences for the following: fonts, indentation, keybindings, text color themes, startup windows and size, additional help sources, and extensions (see below).  On macOS, open the configuration dialog by selecting Preferences in the application menu.  To use a new built-in color theme (IDLE Dark) with older IDLEs, save it as a new custom theme."
 msgstr ""
 
 #: ../../library/idle.rst:275
@@ -579,7 +579,7 @@ msgid "Context Menus"
 msgstr ""
 
 #: ../../library/idle.rst:327
-msgid "Open a context menu by right-clicking in a window (Control-click on OS X). Context menus have the standard clipboard functions also on the Edit menu."
+msgid "Open a context menu by right-clicking in a window (Control-click on macOS). Context menus have the standard clipboard functions also on the Edit menu."
 msgstr ""
 
 #: ../../library/idle.rst:339
@@ -651,7 +651,7 @@ msgid "Key bindings"
 msgstr ""
 
 #: ../../library/idle.rst:383
-msgid "In this section, 'C' refers to the :kbd:`Control` key on Windows and Unix and the :kbd:`Command` key on Mac OSX."
+msgid "In this section, 'C' refers to the :kbd:`Control` key on Windows and Unix and the :kbd:`Command` key on macOS."
 msgstr ""
 
 #: ../../library/idle.rst:386
@@ -827,11 +827,11 @@ msgid "Command history"
 msgstr ""
 
 #: ../../library/idle.rst:528
-msgid ":kbd:`Alt-p` retrieves previous command matching what you have typed. On OS X use :kbd:`C-p`."
+msgid ":kbd:`Alt-p` retrieves previous command matching what you have typed. On macOS use :kbd:`C-p`."
 msgstr ""
 
 #: ../../library/idle.rst:531
-msgid ":kbd:`Alt-n` retrieves next. On OS X use :kbd:`C-n`."
+msgid ":kbd:`Alt-n` retrieves next. On macOS use :kbd:`C-n`."
 msgstr ""
 
 #: ../../library/idle.rst:533
@@ -1027,7 +1027,7 @@ msgid "The font preferences, highlighting, keys, and general preferences can be 
 msgstr ""
 
 #: ../../library/idle.rst:800
-msgid "IDLE on MacOS"
+msgid "IDLE on macOS"
 msgstr ""
 
 #: ../../library/idle.rst:802
