@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-11-21 14:58+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,19 +181,19 @@ msgstr ""
 msgid "(default: ``None``) If not ``None``, then the output will contain at most *max_lines* lines, with *placeholder* appearing at the end of the output."
 msgstr ""
 
-#: ../../library/textwrap.rst:273
+#: ../../library/textwrap.rst:275
 msgid "(default: ``' [...]'``) String that will appear at the end of the output text if it has been truncated."
 msgstr ""
 
-#: ../../library/textwrap.rst:279
+#: ../../library/textwrap.rst:281
 msgid ":class:`TextWrapper` also provides some public methods, analogous to the module-level convenience functions:"
 msgstr ""
 
-#: ../../library/textwrap.rst:284
+#: ../../library/textwrap.rst:286
 msgid "Wraps the single paragraph in *text* (a string) so every line is at most :attr:`width` characters long.  All wrapping options are taken from instance attributes of the :class:`TextWrapper` instance.  Returns a list of output lines, without final newlines.  If the wrapped output has no content, the returned list is empty."
 msgstr ""
 
-#: ../../library/textwrap.rst:293
+#: ../../library/textwrap.rst:295
 msgid "Wraps the single paragraph in *text*, and returns a single string containing the wrapped paragraph."
 msgstr ""
 
