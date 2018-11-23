@@ -2641,6 +2641,12 @@ source_file = pot/library/zlib.pot
 source_lang = en
 type = PO
 
+[python-27.library--email_utils]
+file_filter = <lang>/LC_MESSAGES/library/email.utils.po
+source_file = pot/library/email.utils.pot
+source_lang = en
+type = PO
+
 [python-27.reference--compound_stmts]
 file_filter = <lang>/LC_MESSAGES/reference/compound_stmts.po
 source_file = pot/reference/compound_stmts.pot
