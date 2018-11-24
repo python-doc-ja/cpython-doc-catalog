@@ -523,6 +523,7 @@ done:
 char *
 _Py_SetLocaleFromEnv(int category)
 {
+    char *res;
 #ifdef __ANDROID__
     const char *locale;
     const char **pvar;
@@ -569,10 +570,12 @@ _Py_SetLocaleFromEnv(int category)
         }
     }
 #endif
-    return setlocale(category, utf8_locale);
-#else /* __ANDROID__ */
-    return setlocale(category, "");
-#endif /* __ANDROID__ */
+    res = setlocale(category, utf8_locale);
+#else /* !defined(__ANDROID__) */
+    res = setlocale(category, "");
+#endif
+    _Py_ResetForceASCII();
+    return res;
 }
 
 
@@ -967,8 +970,8 @@ _Py_InitializeMainInterpreter(PyInterpreterState *interp,
     }
 
     /* Initialize warnings. */
-    PyObject *warnoptions = PySys_GetObject("warnoptions");
-    if (warnoptions != NULL && PyList_Size(warnoptions) > 0)
+    if (interp->config.warnoptions != NULL &&
+        PyList_Size(interp->config.warnoptions) > 0)
     {
         PyObject *warnings_module = PyImport_ImportModule("warnings");
         if (warnings_module == NULL) {
