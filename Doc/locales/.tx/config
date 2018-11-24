@@ -1231,6 +1231,12 @@ source_file = pot/library/email.util.pot
 source_lang = en
 type = PO
 
+[python-36.library--email_utils]
+file_filter = <lang>/LC_MESSAGES/library/email.utils.po
+source_file = pot/library/email.utils.pot
+source_lang = en
+type = PO
+
 [python-36.library--ensurepip]
 file_filter = <lang>/LC_MESSAGES/library/ensurepip.po
 source_file = pot/library/ensurepip.pot
@@ -1531,15 +1537,15 @@ source_file = pot/library/ipc.pot
 source_lang = en
 type = PO
 
-[python-36.library--itertools]
-file_filter = <lang>/LC_MESSAGES/library/itertools.po
-source_file = pot/library/itertools.pot
-source_lang = en
-type = PO
-
 [python-36.library--json]
 file_filter = <lang>/LC_MESSAGES/library/json.po
 source_file = pot/library/json.pot
+source_lang = en
+type = PO
+
+[python-36.library--itertools]
+file_filter = <lang>/LC_MESSAGES/library/itertools.po
+source_file = pot/library/itertools.pot
 source_lang = en
 type = PO
 
@@ -2500,12 +2506,6 @@ type = PO
 [python-36.library--zlib]
 file_filter = <lang>/LC_MESSAGES/library/zlib.po
 source_file = pot/library/zlib.pot
-source_lang = en
-type = PO
-
-[python-36.library--email_utils]
-file_filter = <lang>/LC_MESSAGES/library/email.utils.po
-source_file = pot/library/email.utils.pot
 source_lang = en
 type = PO
 
