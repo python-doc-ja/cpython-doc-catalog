@@ -1285,6 +1285,12 @@ source_file = pot/library/email.util.pot
 source_lang = en
 type = PO
 
+[python-newest.library--email_utils]
+file_filter = <lang>/LC_MESSAGES/library/email.utils.po
+source_file = pot/library/email.utils.pot
+source_lang = en
+type = PO
+
 [python-newest.library--ensurepip]
 file_filter = <lang>/LC_MESSAGES/library/ensurepip.po
 source_file = pot/library/ensurepip.pot
@@ -2455,15 +2461,15 @@ source_file = pot/library/xdrlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_dom]
-file_filter = <lang>/LC_MESSAGES/library/xml.dom.po
-source_file = pot/library/xml.dom.pot
-source_lang = en
-type = PO
-
 [python-newest.library--xml_dom_minidom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
 source_file = pot/library/xml.dom.minidom.pot
+source_lang = en
+type = PO
+
+[python-newest.library--xml_dom]
+file_filter = <lang>/LC_MESSAGES/library/xml.dom.po
+source_file = pot/library/xml.dom.pot
 source_lang = en
 type = PO
 
@@ -2548,12 +2554,6 @@ type = PO
 [python-newest.library--zlib]
 file_filter = <lang>/LC_MESSAGES/library/zlib.po
 source_file = pot/library/zlib.pot
-source_lang = en
-type = PO
-
-[python-newest.library--email_utils]
-file_filter = <lang>/LC_MESSAGES/library/email.utils.po
-source_file = pot/library/email.utils.pot
 source_lang = en
 type = PO
 

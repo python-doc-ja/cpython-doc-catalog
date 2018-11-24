@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-11 09:08+0900\n"
+"POT-Creation-Date: 2018-11-24 09:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "An :class:`SMTP` instance encapsulates an SMTP connection.  It has method
 msgstr ""
 
 #: ../../library/smtplib.rst:43
-msgid "For normal use, you should only require the initialization/connect, :meth:`sendmail`, and :meth:`~smtplib.quit` methods. An example is included below."
+msgid "For normal use, you should only require the initialization/connect, :meth:`sendmail`, and :meth:`SMTP.quit` methods. An example is included below."
 msgstr ""
 
 #: ../../library/smtplib.rst:47
