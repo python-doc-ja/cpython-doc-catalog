@@ -1237,6 +1237,12 @@ source_file = pot/library/email.util.pot
 source_lang = en
 type = PO
 
+[python-27.library--email_utils]
+file_filter = <lang>/LC_MESSAGES/library/email.utils.po
+source_file = pot/library/email.utils.pot
+source_lang = en
+type = PO
+
 [python-27.library--ensurepip]
 file_filter = <lang>/LC_MESSAGES/library/ensurepip.po
 source_file = pot/library/ensurepip.pot
@@ -2638,12 +2644,6 @@ type = PO
 [python-27.library--zlib]
 file_filter = <lang>/LC_MESSAGES/library/zlib.po
 source_file = pot/library/zlib.pot
-source_lang = en
-type = PO
-
-[python-27.library--email_utils]
-file_filter = <lang>/LC_MESSAGES/library/email.utils.po
-source_file = pot/library/email.utils.pot
 source_lang = en
 type = PO
 
