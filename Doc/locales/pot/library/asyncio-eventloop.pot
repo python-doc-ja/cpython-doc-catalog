@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 09:41+0900\n"
+"POT-Creation-Date: 2018-12-05 09:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -704,8 +704,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:752
 #: ../../library/asyncio-eventloop.rst:966
-#: ../../library/asyncio-eventloop.rst:1036
-msgid "Use :func:`functools.partial` :ref:`to pass keyword arguments <asyncio-pass-keywords>` to *func*."
+msgid "Use :func:`functools.partial` :ref:`to pass keyword arguments <asyncio-pass-keywords>` to *callback*."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:757
@@ -916,6 +915,10 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1034
 msgid "This method returns a :class:`asyncio.Future` object."
+msgstr ""
+
+#: ../../library/asyncio-eventloop.rst:1036
+msgid "Use :func:`functools.partial` :ref:`to pass keyword arguments <asyncio-pass-keywords>` to *func*."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:1039
