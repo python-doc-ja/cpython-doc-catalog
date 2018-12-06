@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-06 09:58+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "the default behavior when *maxheaderlen* is not specified was changed fro
 msgstr ""
 
 #: ../../library/email.message.rst:95
-msgid "Equivalent to `as_string(policy=self.policy.clone(utf8=True)`.  Allows ``str(msg)`` to produce a string containing the serialized message in a readable format."
+msgid "Equivalent to ``as_string(policy=self.policy.clone(utf8=True))``.  Allows ``str(msg)`` to produce a string containing the serialized message in a readable format."
 msgstr ""
 
 #: ../../library/email.message.rst:99
@@ -243,7 +243,7 @@ msgid "Use of the *requote* parameter with :class:`EmailMessage` objects is depr
 msgstr ""
 
 #: ../../library/email.message.rst:380
-msgid "Note that existing parameter values of headers may be accessed through the :attr:`~email.headerregistry.BaseHeader.params` attribute of the header value (for example, ``msg['Content-Type'].params['charset']``."
+msgid "Note that existing parameter values of headers may be accessed through the :attr:`~email.headerregistry.BaseHeader.params` attribute of the header value (for example, ``msg['Content-Type'].params['charset']``)."
 msgstr ""
 
 #: ../../library/email.message.rst:384
@@ -383,7 +383,7 @@ msgid "If the message is a ``multipart/alternative``, create a new message objec
 msgstr ""
 
 #: ../../library/email.message.rst:673
-msgid "If the message is a ``multipart/mixed``, create a new message object, pass all of the arguments to its :meth:`set_content` method, and :meth:`~email.message.Message.attach` it to the ``multipart``.  If the message is a non-``multipart``, ``multipart/related``, or ``multipart/alternative``, call :meth:`make_mixed` and then proceed as above. If *content_manager* is not specified, use the ``content_manager`` specified by the current :mod:`~email.policy`.  If the added part has no :mailheader:`Content-Disposition` header, add one with the value ``attachment``.  This method can be used both for explicit attachments (:mailheader:`Content-Disposition: attachment` and ``inline`` attachments (:mailheader:`Content-Disposition: inline`), by passing appropriate options to the ``content_manager``."
+msgid "If the message is a ``multipart/mixed``, create a new message object, pass all of the arguments to its :meth:`set_content` method, and :meth:`~email.message.Message.attach` it to the ``multipart``.  If the message is a non-``multipart``, ``multipart/related``, or ``multipart/alternative``, call :meth:`make_mixed` and then proceed as above. If *content_manager* is not specified, use the ``content_manager`` specified by the current :mod:`~email.policy`.  If the added part has no :mailheader:`Content-Disposition` header, add one with the value ``attachment``.  This method can be used both for explicit attachments (:mailheader:`Content-Disposition: attachment`) and ``inline`` attachments (:mailheader:`Content-Disposition: inline`), by passing appropriate options to the ``content_manager``."
 msgstr ""
 
 #: ../../library/email.message.rst:689

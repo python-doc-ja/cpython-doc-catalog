@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 09:41+0900\n"
+"POT-Creation-Date: 2018-12-06 09:58+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1003,7 +1003,7 @@ msgid "The expression ``x or y`` first evaluates *x*; if *x* is true, its value 
 msgstr ""
 
 #: ../../reference/expressions.rst:1647
-msgid "(Note that neither :keyword:`and` nor :keyword:`or` restrict the value and type they return to ``False`` and ``True``, but rather return the last evaluated argument.  This is sometimes useful, e.g., if ``s`` is a string that should be replaced by a default value if it is empty, the expression ``s or 'foo'`` yields the desired value.  Because :keyword:`not` has to create a new value, it returns a boolean value regardless of the type of its argument (for example, ``not 'foo'`` produces ``False`` rather than ``''``.)"
+msgid "Note that neither :keyword:`and` nor :keyword:`or` restrict the value and type they return to ``False`` and ``True``, but rather return the last evaluated argument.  This is sometimes useful, e.g., if ``s`` is a string that should be replaced by a default value if it is empty, the expression ``s or 'foo'`` yields the desired value.  Because :keyword:`not` has to create a new value, it returns a boolean value regardless of the type of its argument (for example, ``not 'foo'`` produces ``False`` rather than ``''``.)"
 msgstr ""
 
 #: ../../reference/expressions.rst:1657

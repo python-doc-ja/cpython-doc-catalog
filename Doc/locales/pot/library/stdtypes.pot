@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 09:43+0900\n"
+"POT-Creation-Date: 2018-12-06 09:58+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -650,7 +650,7 @@ msgid "A right shift by *n* bits is equivalent to division by ``pow(2, n)`` with
 msgstr ""
 
 #: ../../library/stdtypes.rst:446
-msgid "Performing these calculations with at least one extra sign extension bit in a finite two's complement representation (a working bit-width of ``1 + max(x.bit_length(), y.bit_length()`` or more) is sufficient to get the same result as if there were an infinite number of sign bits."
+msgid "Performing these calculations with at least one extra sign extension bit in a finite two's complement representation (a working bit-width of ``1 + max(x.bit_length(), y.bit_length())`` or more) is sufficient to get the same result as if there were an infinite number of sign bits."
 msgstr ""
 
 #: ../../library/stdtypes.rst:453
@@ -2674,7 +2674,7 @@ msgid "Return a copy of the sequence with all the lowercase ASCII characters con
 msgstr ""
 
 #: ../../library/stdtypes.rst:3204
-msgid "Return a copy of the sequence left filled with ASCII ``b'0'`` digits to make a sequence of length *width*. A leading sign prefix (``b'+'``/ ``b'-'`` is handled by inserting the padding *after* the sign character rather than before. For :class:`bytes` objects, the original sequence is returned if *width* is less than or equal to ``len(seq)``."
+msgid "Return a copy of the sequence left filled with ASCII ``b'0'`` digits to make a sequence of length *width*. A leading sign prefix (``b'+'``/ ``b'-'``) is handled by inserting the padding *after* the sign character rather than before. For :class:`bytes` objects, the original sequence is returned if *width* is less than or equal to ``len(seq)``."
 msgstr ""
 
 #: ../../library/stdtypes.rst:3226
