@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 01:52+0900\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1200,15 +1200,15 @@ msgid ":keyword:`for` loops expect that an :exc:`IndexError` will be raised for 
 msgstr ""
 
 #: ../../reference/datamodel.rst:1924
-msgid "Called by :class:`dict`\\ .\\ :meth:`__getitem__` to implement ``self[key]`` for dict subclasses when key is not in the dictionary."
-msgstr ""
-
-#: ../../reference/datamodel.rst:1930
 msgid "Called to implement assignment to ``self[key]``.  Same note as for :meth:`__getitem__`.  This should only be implemented for mappings if the objects support changes to the values for keys, or if new keys can be added, or for sequences if elements can be replaced.  The same exceptions should be raised for improper *key* values as for the :meth:`__getitem__` method."
 msgstr ""
 
-#: ../../reference/datamodel.rst:1939
+#: ../../reference/datamodel.rst:1933
 msgid "Called to implement deletion of ``self[key]``.  Same note as for :meth:`__getitem__`.  This should only be implemented for mappings if the objects support removal of keys, or for sequences if elements can be removed from the sequence.  The same exceptions should be raised for improper *key* values as for the :meth:`__getitem__` method."
+msgstr ""
+
+#: ../../reference/datamodel.rst:1942
+msgid "Called by :class:`dict`\\ .\\ :meth:`__getitem__` to implement ``self[key]`` for dict subclasses when key is not in the dictionary."
 msgstr ""
 
 #: ../../reference/datamodel.rst:1948
