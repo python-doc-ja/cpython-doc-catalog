@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 14:40+0900\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,7 +117,7 @@ msgid "Read all the data from the binary file-like object *fp*, parse the result
 msgstr ""
 
 #: ../../library/email.parser.rst:161
-msgid "The bytes contained in *fp* must be formatted as a block of :rfc:`5322` (or, if :attr:`~email.policy.Policy.utf8` is ``True``, :rfc:`6532`) style headers and header continuation lines, optionally preceded by an envelope header.  The header block is terminated either by the end of the data or by a blank line.  Following the header block is the body of the message (which may contain MIME-encoded subparts, including subparts with a :mailheader:`Content-Transfer-Encoding` of ``8bit``."
+msgid "The bytes contained in *fp* must be formatted as a block of :rfc:`5322` (or, if :attr:`~email.policy.Policy.utf8` is ``True``, :rfc:`6532`) style headers and header continuation lines, optionally preceded by an envelope header.  The header block is terminated either by the end of the data or by a blank line.  Following the header block is the body of the message (which may contain MIME-encoded subparts, including subparts with a :mailheader:`Content-Transfer-Encoding` of ``8bit``)."
 msgstr ""
 
 #: ../../library/email.parser.rst:169

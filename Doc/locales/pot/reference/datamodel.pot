@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 14:56+0900\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1389,15 +1389,15 @@ msgstr ""
 msgid "Called to implement :func:`operator.length_hint`. Should return an estimated length for the object (which may be greater or less than the actual length). The length must be an integer ``>=`` 0. This method is purely an optimization and is never required for correctness."
 msgstr ""
 
-#: ../../reference/datamodel.rst:2050
+#: ../../reference/datamodel.rst:2052
 msgid "Slicing is done exclusively with the following three methods.  A call like ::"
 msgstr ""
 
-#: ../../reference/datamodel.rst:2054
+#: ../../reference/datamodel.rst:2056
 msgid "is translated to ::"
 msgstr ""
 
-#: ../../reference/datamodel.rst:2058
+#: ../../reference/datamodel.rst:2060
 msgid "and so forth.  Missing slice items are always filled in with ``None``."
 msgstr ""
 
@@ -1410,15 +1410,15 @@ msgid ":keyword:`for` loops expect that an :exc:`IndexError` will be raised for 
 msgstr ""
 
 #: ../../reference/datamodel.rst:2082
-msgid "Called by :class:`dict`\\ .\\ :meth:`__getitem__` to implement ``self[key]`` for dict subclasses when key is not in the dictionary."
-msgstr ""
-
-#: ../../reference/datamodel.rst:2088
 msgid "Called to implement assignment to ``self[key]``.  Same note as for :meth:`__getitem__`.  This should only be implemented for mappings if the objects support changes to the values for keys, or if new keys can be added, or for sequences if elements can be replaced.  The same exceptions should be raised for improper *key* values as for the :meth:`__getitem__` method."
 msgstr ""
 
-#: ../../reference/datamodel.rst:2097
+#: ../../reference/datamodel.rst:2091
 msgid "Called to implement deletion of ``self[key]``.  Same note as for :meth:`__getitem__`.  This should only be implemented for mappings if the objects support removal of keys, or for sequences if elements can be removed from the sequence.  The same exceptions should be raised for improper *key* values as for the :meth:`__getitem__` method."
+msgstr ""
+
+#: ../../reference/datamodel.rst:2100
+msgid "Called by :class:`dict`\\ .\\ :meth:`__getitem__` to implement ``self[key]`` for dict subclasses when key is not in the dictionary."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2106

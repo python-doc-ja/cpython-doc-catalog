@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-05 15:01+0000\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "The :mod:`crypt` module defines the following functions:"
 msgstr ""
 
 #: ../../library/crypt.rst:81
-msgid "*word* will usually be a user's password as typed at a prompt or  in a graphical interface.  The optional *salt* is either a string as returned from :func:`mksalt`, one of the ``crypt.METHOD_*`` values (though not all may be available on all platforms), or a full encrypted password including salt, as returned by this function.  If *salt* is not provided, the strongest method will be used (as returned by :func:`methods`."
+msgid "*word* will usually be a user's password as typed at a prompt or  in a graphical interface.  The optional *salt* is either a string as returned from :func:`mksalt`, one of the ``crypt.METHOD_*`` values (though not all may be available on all platforms), or a full encrypted password including salt, as returned by this function.  If *salt* is not provided, the strongest method will be used (as returned by :func:`methods`)."
 msgstr ""
 
 #: ../../library/crypt.rst:89

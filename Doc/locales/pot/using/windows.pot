@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 14:01+0900\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -795,11 +795,11 @@ msgid "Customization via INI files"
 msgstr ""
 
 #: ../../using/windows.rst:611
-msgid "Two .ini files will be searched by the launcher - ``py.ini`` in the current user's \"application data\" directory (i.e. the directory returned by calling the Windows function ``SHGetFolderPath`` with ``CSIDL_LOCAL_APPDATA``) and ``py.ini`` in the same directory as the launcher. The same .ini files are used for both the 'console' version of the launcher (i.e. py.exe) and for the 'windows' version (i.e. pyw.exe)"
+msgid "Two .ini files will be searched by the launcher - ``py.ini`` in the current user's \"application data\" directory (i.e. the directory returned by calling the Windows function ``SHGetFolderPath`` with ``CSIDL_LOCAL_APPDATA``) and ``py.ini`` in the same directory as the launcher. The same .ini files are used for both the 'console' version of the launcher (i.e. py.exe) and for the 'windows' version (i.e. pyw.exe)."
 msgstr ""
 
 #: ../../using/windows.rst:618
-msgid "Customization specified in the \"application directory\" will have precedence over the one next to the executable, so a user, who may not have write access to the .ini file next to the launcher, can override commands in that global .ini file)"
+msgid "Customization specified in the \"application directory\" will have precedence over the one next to the executable, so a user, who may not have write access to the .ini file next to the launcher, can override commands in that global .ini file."
 msgstr ""
 
 #: ../../using/windows.rst:623

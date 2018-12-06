@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 13:26+0900\n"
+"POT-Creation-Date: 2018-12-06 15:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgid "The easiest way to do it in C is to call :c:func:`PyRun_InteractiveLoop` 
 msgstr ""
 
 #: ../../faq/extending.rst:276
-msgid "However sometimes you have to run the embedded Python interpreter in the same thread as your rest application and you can't allow the :c:func:`PyRun_InteractiveLoop` to stop while waiting for user input.  The one solution then is to call :c:func:`PyParser_ParseString` and test for ``e.error`` equal to ``E_EOF``, which means the input is incomplete).  Here's a sample code fragment, untested, inspired by code from Alex Farber::"
+msgid "However sometimes you have to run the embedded Python interpreter in the same thread as your rest application and you can't allow the :c:func:`PyRun_InteractiveLoop` to stop while waiting for user input.  The one solution then is to call :c:func:`PyParser_ParseString` and test for ``e.error`` equal to ``E_EOF``, which means the input is incomplete.  Here's a sample code fragment, untested, inspired by code from Alex Farber::"
 msgstr ""
 
 #: ../../faq/extending.rst:309
