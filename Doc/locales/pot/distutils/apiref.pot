@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 09:38+0900\n"
+"POT-Creation-Date: 2018-12-07 09:58+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -979,7 +979,7 @@ msgid "Walk two filename lists in parallel, testing if each source is newer than
 msgstr ""
 
 #: ../../distutils/apiref.rst:943
-msgid "Return true if *target* is out-of-date with respect to any file listed in *sources*  In other words, if *target* exists and is newer than every file in *sources*, return false; otherwise return true. *missing* controls what we do when a source file is missing; the default (``'error'``) is to blow up with an :exc:`OSError` from  inside :func:`os.stat`; if it is ``'ignore'``, we silently drop any missing source files; if it is ``'newer'``, any missing source files make us assume that *target* is out-of-date (this is handy in \"dry-run\" mode: it'll make you pretend to carry out commands that wouldn't work because inputs are missing, but that doesn't matter because you're not actually going to run the commands)."
+msgid "Return true if *target* is out-of-date with respect to any file listed in *sources*.  In other words, if *target* exists and is newer than every file in *sources*, return false; otherwise return true. *missing* controls what we do when a source file is missing; the default (``'error'``) is to blow up with an :exc:`OSError` from  inside :func:`os.stat`; if it is ``'ignore'``, we silently drop any missing source files; if it is ``'newer'``, any missing source files make us assume that *target* is out-of-date (this is handy in \"dry-run\" mode: it'll make you pretend to carry out commands that wouldn't work because inputs are missing, but that doesn't matter because you're not actually going to run the commands)."
 msgstr ""
 
 #: ../../distutils/apiref.rst:956
