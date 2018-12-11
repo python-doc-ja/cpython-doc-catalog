@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-14 09:45+0900\n"
+"POT-Creation-Date: 2018-12-11 10:01+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2220,5 +2220,13 @@ msgstr ""
 
 #: ../../whatsnew/3.7.rst:2527
 msgid "In 3.7.1 the :mod:`tokenize` module now implicitly emits a ``NEWLINE`` token when provided with input that does not have a trailing new line.  This behavior now matches what the C tokenizer does internally. (Contributed by Ammar Askar in :issue:`33899`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2533
+msgid "Notable changes in Python 3.7.2"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2535
+msgid "In 3.7.2, :mod:`venv` on Windows no longer copies the original binaries, but creates redirector scripts named ``python.exe`` and ``pythonw.exe`` instead. This resolves a long standing issue where all virtual environments would have to be upgraded or recreated with each Python update. However, note that this release will still require recreation of virtual environments in order to get the new scripts."
 msgstr ""
 
