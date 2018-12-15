@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 09:41+0900\n"
+"POT-Creation-Date: 2018-12-15 10:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -708,7 +708,7 @@ msgid "This function has been added on a provisional basis (see :pep:`411` for d
 msgstr ""
 
 #: ../../library/sys.rst:685
-msgid "Get the current coroutine origin tracking depth, as set by func:`set_coroutine_origin_tracking_depth`."
+msgid "Get the current coroutine origin tracking depth, as set by :func:`set_coroutine_origin_tracking_depth`."
 msgstr ""
 
 #: ../../library/sys.rst:691
