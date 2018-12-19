@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-19 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,6 +173,6 @@ msgid "If *o* can be converted to a Python int but the attempt to convert to a P
 msgstr ""
 
 #: ../../c-api/number.rst:281
-msgid "Returns ``1`` if *o* is an index integer (has the nb_index slot of  the tp_as_number structure filled in), and ``0`` otherwise."
+msgid "Returns ``1`` if *o* is an index integer (has the nb_index slot of  the tp_as_number structure filled in), and ``0`` otherwise. This function always succeeds."
 msgstr ""
 

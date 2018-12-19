@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-19 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "As side effect, this tries to load the :mod:`encodings` package, if not y
 msgstr ""
 
 #: ../../c-api/codec.rst:15
-msgid "Return ``1`` or ``0`` depending on whether there is a registered codec for the given *encoding*."
+msgid "Return ``1`` or ``0`` depending on whether there is a registered codec for the given *encoding*.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/codec.rst:20
