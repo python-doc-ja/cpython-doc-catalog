@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-27 09:37+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,7 @@ msgid "It is legal though generally not very useful to reload built-in or dynami
 msgstr ""
 
 #: ../../library/imp.rst:179
-msgid "If a module imports objects from another module using :keyword:`from` ... :keyword:`import` ..., calling :func:`reload` for the other module does not redefine the objects imported from it --- one way around this is to re-execute the :keyword:`from` statement, another is to use :keyword:`import` and qualified names (*module*.*name*) instead."
+msgid "If a module imports objects from another module using :keyword:`from` ... :keyword:`import` ..., calling :func:`reload` for the other module does not redefine the objects imported from it --- one way around this is to re-execute the :keyword:`!from` statement, another is to use :keyword:`!import` and qualified names (*module*.*name*) instead."
 msgstr ""
 
 #: ../../library/imp.rst:185

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 10:01+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "Operations and built-in functions that have a Boolean result always retur
 msgstr ""
 
 #: ../../library/stdtypes.rst:78
-msgid "Boolean Operations --- :keyword:`and`, :keyword:`or`, :keyword:`not`"
+msgid "Boolean Operations --- :keyword:`!and`, :keyword:`!or`, :keyword:`!not`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:82
@@ -3303,7 +3303,7 @@ msgid "Python's :keyword:`with` statement supports the concept of a runtime cont
 msgstr ""
 
 #: ../../library/stdtypes.rst:4394
-msgid "Enter the runtime context and return either this object or another object related to the runtime context. The value returned by this method is bound to the identifier in the :keyword:`as` clause of :keyword:`with` statements using this context manager."
+msgid "Enter the runtime context and return either this object or another object related to the runtime context. The value returned by this method is bound to the identifier in the :keyword:`!as` clause of :keyword:`with` statements using this context manager."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4399
@@ -3311,7 +3311,7 @@ msgid "An example of a context manager that returns itself is a :term:`file obje
 msgstr ""
 
 #: ../../library/stdtypes.rst:4403
-msgid "An example of a context manager that returns a related object is the one returned by :func:`decimal.localcontext`. These managers set the active decimal context to a copy of the original decimal context and then return the copy. This allows changes to be made to the current decimal context in the body of the :keyword:`with` statement without affecting code outside the :keyword:`with` statement."
+msgid "An example of a context manager that returns a related object is the one returned by :func:`decimal.localcontext`. These managers set the active decimal context to a copy of the original decimal context and then return the copy. This allows changes to be made to the current decimal context in the body of the :keyword:`with` statement without affecting code outside the :keyword:`!with` statement."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4413
@@ -3319,7 +3319,7 @@ msgid "Exit the runtime context and return a Boolean flag indicating if any exce
 msgstr ""
 
 #: ../../library/stdtypes.rst:4418
-msgid "Returning a true value from this method will cause the :keyword:`with` statement to suppress the exception and continue execution with the statement immediately following the :keyword:`with` statement. Otherwise the exception continues propagating after this method has finished executing. Exceptions that occur during execution of this method will replace any exception that occurred in the body of the :keyword:`with` statement."
+msgid "Returning a true value from this method will cause the :keyword:`with` statement to suppress the exception and continue execution with the statement immediately following the :keyword:`!with` statement. Otherwise the exception continues propagating after this method has finished executing. Exceptions that occur during execution of this method will replace any exception that occurred in the body of the :keyword:`!with` statement."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4425

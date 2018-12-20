@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 08:48+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -689,7 +689,7 @@ msgid "If there's a Python built-in or a module function that's suitable, you do
 msgstr ""
 
 #: ../../howto/functional.rst:1110
-msgid "If the function you need doesn't exist, you need to write it.  One way to write small functions is to use the :keyword:`lambda` statement.  ``lambda`` takes a number of parameters and an expression combining these parameters, and creates an anonymous function that returns the value of the expression::"
+msgid "If the function you need doesn't exist, you need to write it.  One way to write small functions is to use the :keyword:`lambda` expression.  ``lambda`` takes a number of parameters and an expression combining these parameters, and creates an anonymous function that returns the value of the expression::"
 msgstr ""
 
 #: ../../howto/functional.rst:1119

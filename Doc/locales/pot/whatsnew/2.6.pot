@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,7 @@ msgid "PEP 343: The 'with' statement"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:250
-msgid "The previous version, Python 2.5, added the ':keyword:`with`' statement as an optional feature, to be enabled by a ``from __future__ import with_statement`` directive.  In 2.6 the statement no longer needs to be specially enabled; this means that :keyword:`with` is now always a keyword.  The rest of this section is a copy of the corresponding section from the \"What's New in Python 2.5\" document; if you're familiar with the ':keyword:`with`' statement from Python 2.5, you can skip this section."
+msgid "The previous version, Python 2.5, added the ':keyword:`with`' statement as an optional feature, to be enabled by a ``from __future__ import with_statement`` directive.  In 2.6 the statement no longer needs to be specially enabled; this means that :keyword:`!with` is now always a keyword.  The rest of this section is a copy of the corresponding section from the \"What's New in Python 2.5\" document; if you're familiar with the ':keyword:`!with`' statement from Python 2.5, you can skip this section."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:259
@@ -249,7 +249,7 @@ msgid "Writing Context Managers"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:333
-msgid "Under the hood, the ':keyword:`with`' statement is fairly complicated. Most people will only use ':keyword:`with`' in company with existing objects and don't need to know these details, so you can skip the rest of this section if you like.  Authors of new objects will need to understand the details of the underlying implementation and should keep reading."
+msgid "Under the hood, the ':keyword:`with`' statement is fairly complicated. Most people will only use ':keyword:`!with`' in company with existing objects and don't need to know these details, so you can skip the rest of this section if you like.  Authors of new objects will need to understand the details of the underlying implementation and should keep reading."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:339
@@ -313,7 +313,7 @@ msgid "The :mod:`contextlib` module provides some functions and a decorator that
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:436
-msgid "The decorator is called :func:`contextmanager`, and lets you write a single generator function instead of defining a new class.  The generator should yield exactly one value.  The code up to the :keyword:`yield` will be executed as the :meth:`__enter__` method, and the value yielded will be the method's return value that will get bound to the variable in the ':keyword:`with`' statement's :keyword:`as` clause, if any.  The code after the :keyword:`yield` will be executed in the :meth:`__exit__` method.  Any exception raised in the block will be raised by the :keyword:`yield` statement."
+msgid "The decorator is called :func:`contextmanager`, and lets you write a single generator function instead of defining a new class.  The generator should yield exactly one value.  The code up to the :keyword:`yield` will be executed as the :meth:`__enter__` method, and the value yielded will be the method's return value that will get bound to the variable in the ':keyword:`with`' statement's :keyword:`!as` clause, if any.  The code after the :keyword:`!yield` will be executed in the :meth:`__exit__` method.  Any exception raised in the block will be raised by the :keyword:`!yield` statement."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:445
@@ -321,7 +321,7 @@ msgid "Using this decorator, our database example from the previous section coul
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:465
-msgid "The :mod:`contextlib` module also has a ``nested(mgr1, mgr2, ...)`` function that combines a number of context managers so you don't need to write nested ':keyword:`with`' statements.  In this example, the single ':keyword:`with`' statement both starts a database transaction and acquires a thread lock::"
+msgid "The :mod:`contextlib` module also has a ``nested(mgr1, mgr2, ...)`` function that combines a number of context managers so you don't need to write nested ':keyword:`with`' statements.  In this example, the single ':keyword:`!with`' statement both starts a database transaction and acquires a thread lock::"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:474
@@ -1143,7 +1143,7 @@ msgid "Instance method objects have new attributes for the object and function c
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1684
-msgid "An obscure change: when you use the :func:`locals` function inside a :keyword:`class` statement, the resulting dictionary no longer returns free variables.  (Free variables, in this case, are variables referenced in the :keyword:`class` statement  that aren't attributes of the class.)"
+msgid "An obscure change: when you use the :func:`locals` function inside a :keyword:`class` statement, the resulting dictionary no longer returns free variables.  (Free variables, in this case, are variables referenced in the :keyword:`!class` statement  that aren't attributes of the class.)"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1693

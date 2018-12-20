@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-24 09:50+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "For normal use, you should only require the initialization/connect, :meth
 msgstr ""
 
 #: ../../library/smtplib.rst:47
-msgid "The :class:`SMTP` class supports the :keyword:`with` statement.  When used like this, the SMTP ``QUIT`` command is issued automatically when the :keyword:`with` statement exits.  E.g.::"
+msgid "The :class:`SMTP` class supports the :keyword:`with` statement.  When used like this, the SMTP ``QUIT`` command is issued automatically when the :keyword:`!with` statement exits.  E.g.::"
 msgstr ""
 
 #: ../../library/smtplib.rst:58

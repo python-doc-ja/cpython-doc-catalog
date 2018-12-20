@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 09:51+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgid "If the file is created with mode ``'w'``, ``'x'`` or ``'a'`` and then :me
 msgstr ""
 
 #: ../../library/zipfile.rst:176
-msgid "ZipFile is also a context manager and therefore supports the :keyword:`with` statement.  In the example, *myzip* is closed after the :keyword:`with` statement's suite is finished---even if an exception occurs::"
+msgid "ZipFile is also a context manager and therefore supports the :keyword:`with` statement.  In the example, *myzip* is closed after the :keyword:`!with` statement's suite is finished---even if an exception occurs::"
 msgstr ""
 
 #: ../../library/zipfile.rst:183

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "Note that in general the practice of importing ``*`` from a module or pac
 msgstr ""
 
 #: ../../tutorial/modules.rst:115
-msgid "If the module name is followed by :keyword:`as`, then the name following :keyword:`as` is bound directly to the imported module."
+msgid "If the module name is followed by :keyword:`!as`, then the name following :keyword:`!as` is bound directly to the imported module."
 msgstr ""
 
 #: ../../tutorial/modules.rst:124

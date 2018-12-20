@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-06 09:58+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -514,7 +514,7 @@ msgid "Generator functions"
 msgstr ""
 
 #: ../../reference/datamodel.rst:618
-msgid "A function or method which uses the :keyword:`yield` statement (see section :ref:`yield`) is called a :dfn:`generator function`.  Such a function, when called, always returns an iterator object which can be used to execute the body of the function:  calling the iterator's :meth:`iterator.__next__` method will cause the function to execute until it provides a value using the :keyword:`yield` statement.  When the function executes a :keyword:`return` statement or falls off the end, a :exc:`StopIteration` exception is raised and the iterator will have reached the end of the set of values to be returned."
+msgid "A function or method which uses the :keyword:`yield` statement (see section :ref:`yield`) is called a :dfn:`generator function`.  Such a function, when called, always returns an iterator object which can be used to execute the body of the function:  calling the iterator's :meth:`iterator.__next__` method will cause the function to execute until it provides a value using the :keyword:`!yield` statement.  When the function executes a :keyword:`return` statement or falls off the end, a :exc:`StopIteration` exception is raised and the iterator will have reached the end of the set of values to be returned."
 msgstr ""
 
 #: ../../reference/datamodel.rst:636
@@ -574,7 +574,7 @@ msgid "Modules"
 msgstr ""
 
 #: ../../reference/datamodel.rst:701
-msgid "Modules are a basic organizational unit of Python code, and are created by the :ref:`import system <importsystem>` as invoked either by the :keyword:`import` statement (see :keyword:`import`), or by calling functions such as :func:`importlib.import_module` and built-in :func:`__import__`.  A module object has a namespace implemented by a dictionary object (this is the dictionary referenced by the ``__globals__`` attribute of functions defined in the module).  Attribute references are translated to lookups in this dictionary, e.g., ``m.x`` is equivalent to ``m.__dict__[\"x\"]``. A module object does not contain the code object used to initialize the module (since it isn't needed once the initialization is done)."
+msgid "Modules are a basic organizational unit of Python code, and are created by the :ref:`import system <importsystem>` as invoked either by the :keyword:`import` statement, or by calling functions such as :func:`importlib.import_module` and built-in :func:`__import__`.  A module object has a namespace implemented by a dictionary object (this is the dictionary referenced by the ``__globals__`` attribute of functions defined in the module).  Attribute references are translated to lookups in this dictionary, e.g., ``m.x`` is equivalent to ``m.__dict__[\"x\"]``. A module object does not contain the code object used to initialize the module (since it isn't needed once the initialization is done)."
 msgstr ""
 
 #: ../../reference/datamodel.rst:713
@@ -1599,7 +1599,7 @@ msgid "With Statement Context Managers"
 msgstr ""
 
 #: ../../reference/datamodel.rst:2423
-msgid "A :dfn:`context manager` is an object that defines the runtime context to be established when executing a :keyword:`with` statement. The context manager handles the entry into, and the exit from, the desired runtime context for the execution of the block of code.  Context managers are normally invoked using the :keyword:`with` statement (described in section :ref:`with`), but can also be used by directly invoking their methods."
+msgid "A :dfn:`context manager` is an object that defines the runtime context to be established when executing a :keyword:`with` statement. The context manager handles the entry into, and the exit from, the desired runtime context for the execution of the block of code.  Context managers are normally invoked using the :keyword:`!with` statement (described in section :ref:`with`), but can also be used by directly invoking their methods."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2434
@@ -1611,7 +1611,7 @@ msgid "For more information on context managers, see :ref:`typecontextmanager`."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2442
-msgid "Enter the runtime context related to this object. The :keyword:`with` statement will bind this method's return value to the target(s) specified in the :keyword:`as` clause of the statement, if any."
+msgid "Enter the runtime context related to this object. The :keyword:`with` statement will bind this method's return value to the target(s) specified in the :keyword:`!as` clause of the statement, if any."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2449

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-04 09:44+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "If an exception occurs which does not match the exception named in the ex
 msgstr ""
 
 #: ../../tutorial/errors.rst:114
-msgid "A :keyword:`try` statement may have more than one except clause, to specify handlers for different exceptions.  At most one handler will be executed. Handlers only handle exceptions that occur in the corresponding try clause, not in other handlers of the same :keyword:`try` statement.  An except clause may name multiple exceptions as a parenthesized tuple, for example::"
+msgid "A :keyword:`try` statement may have more than one except clause, to specify handlers for different exceptions.  At most one handler will be executed. Handlers only handle exceptions that occur in the corresponding try clause, not in other handlers of the same :keyword:`!try` statement.  An except clause may name multiple exceptions as a parenthesized tuple, for example::"
 msgstr ""
 
 #: ../../tutorial/errors.rst:123
@@ -109,7 +109,7 @@ msgid "The :keyword:`try` ... :keyword:`except` statement has an optional *else 
 msgstr ""
 
 #: ../../tutorial/errors.rst:183
-msgid "The use of the :keyword:`else` clause is better than adding additional code to the :keyword:`try` clause because it avoids accidentally catching an exception that wasn't raised by the code being protected by the :keyword:`try` ... :keyword:`except` statement."
+msgid "The use of the :keyword:`!else` clause is better than adding additional code to the :keyword:`try` clause because it avoids accidentally catching an exception that wasn't raised by the code being protected by the :keyword:`!try` ... :keyword:`!except` statement."
 msgstr ""
 
 #: ../../tutorial/errors.rst:188
@@ -173,11 +173,11 @@ msgid "The :keyword:`try` statement has another optional clause which is intende
 msgstr ""
 
 #: ../../tutorial/errors.rst:344
-msgid "A *finally clause* is always executed before leaving the :keyword:`try` statement, whether an exception has occurred or not. When an exception has occurred in the :keyword:`try` clause and has not been handled by an :keyword:`except` clause (or it has occurred in an :keyword:`except` or :keyword:`else` clause), it is re-raised after the :keyword:`finally` clause has been executed.  The :keyword:`finally` clause is also executed \"on the way out\" when any other clause of the :keyword:`try` statement is left via a :keyword:`break`, :keyword:`continue` or :keyword:`return` statement.  A more complicated example::"
+msgid "A *finally clause* is always executed before leaving the :keyword:`try` statement, whether an exception has occurred or not. When an exception has occurred in the :keyword:`!try` clause and has not been handled by an :keyword:`except` clause (or it has occurred in an :keyword:`!except` or :keyword:`!else` clause), it is re-raised after the :keyword:`finally` clause has been executed.  The :keyword:`!finally` clause is also executed \"on the way out\" when any other clause of the :keyword:`!try` statement is left via a :keyword:`break`, :keyword:`continue` or :keyword:`return` statement.  A more complicated example::"
 msgstr ""
 
 #: ../../tutorial/errors.rst:377
-msgid "As you can see, the :keyword:`finally` clause is executed in any event.  The :exc:`TypeError` raised by dividing two strings is not handled by the :keyword:`except` clause and therefore re-raised after the :keyword:`finally` clause has been executed."
+msgid "As you can see, the :keyword:`finally` clause is executed in any event.  The :exc:`TypeError` raised by dividing two strings is not handled by the :keyword:`except` clause and therefore re-raised after the :keyword:`!finally` clause has been executed."
 msgstr ""
 
 #: ../../tutorial/errors.rst:382

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 10:01+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1762,7 +1762,7 @@ msgid "Deprecated Python Behavior"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:1910
-msgid "Yield expressions (both ``yield`` and ``yield from`` clauses) are now deprecated in comprehensions and generator expressions (aside from the iterable expression in the leftmost :keyword:`for` clause). This ensures that comprehensions always immediately return a container of the appropriate type (rather than potentially returning a :term:`generator iterator` object), while generator expressions won't attempt to interleave their implicit output with the output from any explicit yield expressions.  In Python 3.7, such expressions emit :exc:`DeprecationWarning` when compiled, in Python 3.8 this will be a :exc:`SyntaxError`. (Contributed by Serhiy Storchaka in :issue:`10544`.)"
+msgid "Yield expressions (both ``yield`` and ``yield from`` clauses) are now deprecated in comprehensions and generator expressions (aside from the iterable expression in the leftmost :keyword:`!for` clause). This ensures that comprehensions always immediately return a container of the appropriate type (rather than potentially returning a :term:`generator iterator` object), while generator expressions won't attempt to interleave their implicit output with the output from any explicit yield expressions.  In Python 3.7, such expressions emit :exc:`DeprecationWarning` when compiled, in Python 3.8 this will be a :exc:`SyntaxError`. (Contributed by Serhiy Storchaka in :issue:`10544`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:1921

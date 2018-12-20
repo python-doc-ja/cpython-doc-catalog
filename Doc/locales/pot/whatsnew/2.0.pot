@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,7 +185,7 @@ msgid "The existing :func:`map` and :func:`filter` functions can be used for thi
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:286
-msgid "Because of Python's scoping rules, a default argument is used so that the anonymous function created by the :keyword:`lambda` statement knows what substring is being searched for.  List comprehensions make this cleaner::"
+msgid "Because of Python's scoping rules, a default argument is used so that the anonymous function created by the :keyword:`lambda` expression knows what substring is being searched for.  List comprehensions make this cleaner::"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:292
@@ -193,7 +193,7 @@ msgid "List comprehensions have the form::"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:299
-msgid "The :keyword:`for`...\\ :keyword:`in` clauses contain the sequences to be iterated over.  The sequences do not have to be the same length, because they are *not* iterated over in parallel, but from left to right; this is explained more clearly in the following paragraphs.  The elements of the generated list will be the successive values of *expression*.  The final :keyword:`if` clause is optional; if present, *expression* is only evaluated and added to the result if *condition* is true."
+msgid "The :keyword:`!for`...\\ :keyword:`!in` clauses contain the sequences to be iterated over.  The sequences do not have to be the same length, because they are *not* iterated over in parallel, but from left to right; this is explained more clearly in the following paragraphs.  The elements of the generated list will be the successive values of *expression*.  The final :keyword:`!if` clause is optional; if present, *expression* is only evaluated and added to the result if *condition* is true."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:307
@@ -201,7 +201,7 @@ msgid "To make the semantics very clear, a list comprehension is equivalent to t
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:319
-msgid "This means that when there are multiple :keyword:`for`...\\ :keyword:`in` clauses, the resulting list will be equal to the product of the lengths of all the sequences.  If you have two lists of length 3, the output list is 9 elements long::"
+msgid "This means that when there are multiple :keyword:`!for`...\\ :keyword:`!in` clauses, the resulting list will be equal to the product of the lengths of all the sequences.  If you have two lists of length 3, the output list is 9 elements long::"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:330
@@ -325,7 +325,7 @@ msgid "A new format style is available when using the ``%`` operator; '%r' will 
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:538
-msgid "Previously there was no way to implement a class that overrode Python's built-in :keyword:`in` operator and implemented a custom version.  ``obj in seq`` returns true if *obj* is present in the sequence *seq*; Python computes this by simply trying every index of the sequence until either *obj* is found or an :exc:`IndexError` is encountered.  Moshe Zadka contributed a patch which adds a :meth:`__contains__` magic method for providing a custom implementation for :keyword:`in`. Additionally, new built-in objects written in C can define what :keyword:`in` means for them via a new slot in the sequence protocol."
+msgid "Previously there was no way to implement a class that overrode Python's built-in :keyword:`in` operator and implemented a custom version.  ``obj in seq`` returns true if *obj* is present in the sequence *seq*; Python computes this by simply trying every index of the sequence until either *obj* is found or an :exc:`IndexError` is encountered.  Moshe Zadka contributed a patch which adds a :meth:`__contains__` magic method for providing a custom implementation for :keyword:`!in`. Additionally, new built-in objects written in C can define what :keyword:`!in` means for them via a new slot in the sequence protocol."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:547

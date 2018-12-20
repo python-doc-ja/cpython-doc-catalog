@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 09:20+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -566,7 +566,7 @@ msgid "Is it possible to write obfuscated one-liners in Python?"
 msgstr ""
 
 #: ../../faq/programming.rst:740
-msgid "Yes.  Usually this is done by nesting :keyword:`lambda` within :keyword:`lambda`.  See the following three examples, due to Ulf Bartelt::"
+msgid "Yes.  Usually this is done by nesting :keyword:`lambda` within :keyword:`!lambda`.  See the following three examples, due to Ulf Bartelt::"
 msgstr ""
 
 #: ../../faq/programming.rst:767

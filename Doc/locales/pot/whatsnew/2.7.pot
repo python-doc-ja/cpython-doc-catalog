@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -453,7 +453,7 @@ msgid "Backported by Alexandre Vassalotti; :issue:`2333`."
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:709
-msgid "The :keyword:`with` statement can now use multiple context managers in one statement.  Context managers are processed from left to right and each one is treated as beginning a new :keyword:`with` statement. This means that::"
+msgid "The :keyword:`with` statement can now use multiple context managers in one statement.  Context managers are processed from left to right and each one is treated as beginning a new :keyword:`!with` statement. This means that::"
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:717
@@ -533,7 +533,7 @@ msgid "(Contributed by Fredrik Johansson and Victor Stinner; :issue:`3439`.)"
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:845
-msgid "The :keyword:`import` statement will no longer try an absolute import if a relative import (e.g. ``from .os import sep``) fails.  This fixes a bug, but could possibly break certain :keyword:`import` statements that were only working by accident.  (Fixed by Meador Inge; :issue:`7902`.)"
+msgid "The :keyword:`import` statement will no longer try an absolute import if a relative import (e.g. ``from .os import sep``) fails.  This fixes a bug, but could possibly break certain :keyword:`!import` statements that were only working by accident.  (Fixed by Meador Inge; :issue:`7902`.)"
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:851
@@ -718,7 +718,7 @@ msgid "(Contributed by Mats Kindahl; :issue:`7005`.)"
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:1159
-msgid "Deprecated function: :func:`contextlib.nested`, which allows handling more than one context manager with a single :keyword:`with` statement, has been deprecated, because the :keyword:`with` statement now supports multiple context managers."
+msgid "Deprecated function: :func:`contextlib.nested`, which allows handling more than one context manager with a single :keyword:`with` statement, has been deprecated, because the :keyword:`!with` statement now supports multiple context managers."
 msgstr ""
 
 #: ../../whatsnew/2.7.rst:1164

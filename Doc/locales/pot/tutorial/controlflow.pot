@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-27 09:37+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Besides the :keyword:`while` statement just introduced, Python knows the 
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:14
-msgid ":keyword:`if` Statements"
+msgid ":keyword:`!if` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:16
@@ -33,15 +33,15 @@ msgid "Perhaps the most well-known statement type is the :keyword:`if` statement
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:33
-msgid "There can be zero or more :keyword:`elif` parts, and the :keyword:`else` part is optional.  The keyword ':keyword:`elif`' is short for 'else if', and is useful to avoid excessive indentation.  An  :keyword:`if` ... :keyword:`elif` ... :keyword:`elif` ... sequence is a substitute for the ``switch`` or ``case`` statements found in other languages."
+msgid "There can be zero or more :keyword:`elif` parts, and the :keyword:`else` part is optional.  The keyword ':keyword:`!elif`' is short for 'else if', and is useful to avoid excessive indentation.  An  :keyword:`!if` ... :keyword:`!elif` ... :keyword:`!elif` ... sequence is a substitute for the ``switch`` or ``case`` statements found in other languages."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:43
-msgid ":keyword:`for` Statements"
+msgid ":keyword:`!for` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:48
-msgid "The :keyword:`for` statement in Python differs a bit from what you may be used to in C or Pascal.  Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python's :keyword:`for` statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.  For example (no pun intended):"
+msgid "The :keyword:`for` statement in Python differs a bit from what you may be used to in C or Pascal.  Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python's :keyword:`!for` statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.  For example (no pun intended):"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:69
@@ -89,7 +89,7 @@ msgid "Later we will see more functions that return iterables and take iterables
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:158
-msgid ":keyword:`break` and :keyword:`continue` Statements, and :keyword:`else` Clauses on Loops"
+msgid ":keyword:`!break` and :keyword:`!continue` Statements, and :keyword:`!else` Clauses on Loops"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:160
@@ -97,7 +97,7 @@ msgid "The :keyword:`break` statement, like in C, breaks out of the innermost en
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:163
-msgid "Loop statements may have an ``else`` clause; it is executed when the loop terminates through exhaustion of the list (with :keyword:`for`) or when the condition becomes false (with :keyword:`while`), but not when the loop is terminated by a :keyword:`break` statement.  This is exemplified by the following loop, which searches for prime numbers::"
+msgid "Loop statements may have an :keyword:`!else` clause; it is executed when the loop terminates through exhaustion of the list (with :keyword:`for`) or when the condition becomes false (with :keyword:`while`), but not when the loop is terminated by a :keyword:`break` statement.  This is exemplified by the following loop, which searches for prime numbers::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:187
@@ -105,7 +105,7 @@ msgid "(Yes, this is the correct code.  Look closely: the ``else`` clause belong
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:190
-msgid "When used with a loop, the ``else`` clause has more in common with the ``else`` clause of a :keyword:`try` statement than it does that of :keyword:`if` statements: a :keyword:`try` statement's ``else`` clause runs when no exception occurs, and a loop's ``else`` clause runs when no ``break`` occurs. For more on the :keyword:`try` statement and exceptions, see :ref:`tut-handling`."
+msgid "When used with a loop, the ``else`` clause has more in common with the ``else`` clause of a :keyword:`try` statement than it does that of :keyword:`if` statements: a :keyword:`!try` statement's ``else`` clause runs when no exception occurs, and a loop's ``else`` clause runs when no ``break`` occurs. For more on the :keyword:`!try` statement and exceptions, see :ref:`tut-handling`."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:197
@@ -113,7 +113,7 @@ msgid "The :keyword:`continue` statement, also borrowed from C, continues with t
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:217
-msgid ":keyword:`pass` Statements"
+msgid ":keyword:`!pass` Statements"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:219
@@ -125,7 +125,7 @@ msgid "This is commonly used for creating minimal classes::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:232
-msgid "Another place :keyword:`pass` can be used is as a place-holder for a function or conditional body when you are working on new code, allowing you to keep thinking at a more abstract level.  The :keyword:`pass` is silently ignored::"
+msgid "Another place :keyword:`pass` can be used is as a place-holder for a function or conditional body when you are working on new code, allowing you to keep thinking at a more abstract level.  The :keyword:`!pass` is silently ignored::"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:243
@@ -169,7 +169,7 @@ msgid "This example, as usual, demonstrates some new Python features:"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:333
-msgid "The :keyword:`return` statement returns with a value from a function. :keyword:`return` without an expression argument returns ``None``. Falling off the end of a function also returns ``None``."
+msgid "The :keyword:`return` statement returns with a value from a function. :keyword:`!return` without an expression argument returns ``None``. Falling off the end of a function also returns ``None``."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:337

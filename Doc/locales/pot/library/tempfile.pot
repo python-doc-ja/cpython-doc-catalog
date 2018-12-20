@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "This function securely creates a temporary directory using the same rules
 msgstr ""
 
 #: ../../library/tempfile.rst:116
-msgid "The directory name can be retrieved from the :attr:`name` attribute of the returned object.  When the returned object is used as a context manager, the :attr:`name` will be assigned to the target of the :keyword:`as` clause in the :keyword:`with` statement, if there is one."
+msgid "The directory name can be retrieved from the :attr:`name` attribute of the returned object.  When the returned object is used as a context manager, the :attr:`name` will be assigned to the target of the :keyword:`!as` clause in the :keyword:`with` statement, if there is one."
 msgstr ""
 
 #: ../../library/tempfile.rst:121

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "These four classes process requests :dfn:`synchronously`; each request mu
 msgstr ""
 
 #: ../../library/socketserver.rst:50
-msgid "Creating a server requires several steps.  First, you must create a request handler class by subclassing the :class:`BaseRequestHandler` class and overriding its :meth:`~BaseRequestHandler.handle` method; this method will process incoming requests.  Second, you must instantiate one of the server classes, passing it the server's address and the request handler class. It is recommended to use the server in a :keyword:`with` statement. Then call the :meth:`~BaseServer.handle_request` or :meth:`~BaseServer.serve_forever` method of the server object to process one or many requests.  Finally, call :meth:`~BaseServer.server_close` to close the socket (unless you used a :keyword:`with` statement)."
+msgid "Creating a server requires several steps.  First, you must create a request handler class by subclassing the :class:`BaseRequestHandler` class and overriding its :meth:`~BaseRequestHandler.handle` method; this method will process incoming requests.  Second, you must instantiate one of the server classes, passing it the server's address and the request handler class. It is recommended to use the server in a :keyword:`with` statement. Then call the :meth:`~BaseServer.handle_request` or :meth:`~BaseServer.serve_forever` method of the server object to process one or many requests.  Finally, call :meth:`~BaseServer.server_close` to close the socket (unless you used a :keyword:`!with` statement)."
 msgstr ""
 
 #: ../../library/socketserver.rst:62

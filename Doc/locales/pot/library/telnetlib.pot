@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "This class has many :meth:`read_\\*` methods.  Note that some of them  ra
 msgstr ""
 
 #: ../../library/telnetlib.rst:46
-msgid "A :class:`Telnet` object is a context manager and can be used in a :keyword:`with` statement.  When the :keyword:`with` block ends, the :meth:`close` method is called::"
+msgid "A :class:`Telnet` object is a context manager and can be used in a :keyword:`with` statement.  When the :keyword:`!with` block ends, the :meth:`close` method is called::"
 msgstr ""
 
 #: ../../library/telnetlib.rst:55

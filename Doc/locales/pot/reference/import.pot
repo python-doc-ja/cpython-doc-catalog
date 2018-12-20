@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 09:41+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Python code in one :term:`module` gains access to the code in another mod
 msgstr ""
 
 #: ../../reference/import.rst:16
-msgid "The :keyword:`import` statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope.  The search operation of the :keyword:`import` statement is defined as a call to the :func:`__import__` function, with the appropriate arguments. The return value of :func:`__import__` is used to perform the name binding operation of the :keyword:`import` statement.  See the :keyword:`import` statement for the exact details of that name binding operation."
+msgid "The :keyword:`import` statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope.  The search operation of the :keyword:`!import` statement is defined as a call to the :func:`__import__` function, with the appropriate arguments. The return value of :func:`__import__` is used to perform the name binding operation of the :keyword:`!import` statement.  See the :keyword:`!import` statement for the exact details of that name binding operation."
 msgstr ""
 
 #: ../../reference/import.rst:25

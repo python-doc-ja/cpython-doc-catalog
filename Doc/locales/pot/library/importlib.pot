@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-06 09:47+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../library/importlib.rst:2
-msgid ":mod:`importlib` --- The implementation of :keyword:`import`"
+msgid ":mod:`!importlib` --- The implementation of :keyword:`!import`"
 msgstr ""
 
 #: ../../library/importlib.rst:12
@@ -29,7 +29,7 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../library/importlib.rst:19
-msgid "The purpose of the :mod:`importlib` package is two-fold. One is to provide the implementation of the :keyword:`import` statement (and thus, by extension, the :func:`__import__` function) in Python source code. This provides an implementation of :keyword:`import` which is portable to any Python interpreter. This also provides an implementation which is easier to comprehend than one implemented in a programming language other than Python."
+msgid "The purpose of the :mod:`importlib` package is two-fold. One is to provide the implementation of the :keyword:`import` statement (and thus, by extension, the :func:`__import__` function) in Python source code. This provides an implementation of :keyword:`!import` which is portable to any Python interpreter. This also provides an implementation which is easier to comprehend than one implemented in a programming language other than Python."
 msgstr ""
 
 #: ../../library/importlib.rst:26
@@ -241,7 +241,7 @@ msgid "It is generally not very useful to reload built-in or dynamically loaded 
 msgstr ""
 
 #: ../../library/importlib.rst:197
-msgid "If a module imports objects from another module using :keyword:`from` ... :keyword:`import` ..., calling :func:`reload` for the other module does not redefine the objects imported from it --- one way around this is to re-execute the :keyword:`from` statement, another is to use :keyword:`import` and qualified names (*module.name*) instead."
+msgid "If a module imports objects from another module using :keyword:`from` ... :keyword:`import` ..., calling :func:`reload` for the other module does not redefine the objects imported from it --- one way around this is to re-execute the :keyword:`!from` statement, another is to use :keyword:`!import` and qualified names (*module.name*) instead."
 msgstr ""
 
 #: ../../library/importlib.rst:203

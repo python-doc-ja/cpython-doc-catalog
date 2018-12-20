@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgid "Break internal references within the DOM so that it will be garbage colle
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:127
-msgid "You can avoid calling this method explicitly by using the :keyword:`with` statement. The following code will automatically unlink *dom* when the :keyword:`with` block is exited::"
+msgid "You can avoid calling this method explicitly by using the :keyword:`with` statement. The following code will automatically unlink *dom* when the :keyword:`!with` block is exited::"
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:137

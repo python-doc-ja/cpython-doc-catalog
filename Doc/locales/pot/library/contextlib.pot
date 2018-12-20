@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-07 09:22+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../library/contextlib.rst:2
-msgid ":mod:`contextlib` --- Utilities for :keyword:`with`\\ -statement contexts"
+msgid ":mod:`!contextlib` --- Utilities for :keyword:`!with`\\ -statement contexts"
 msgstr ""
 
 #: ../../library/contextlib.rst:7
@@ -57,11 +57,11 @@ msgid "An abstract example would be the following to ensure correct resource man
 msgstr ""
 
 #: ../../library/contextlib.rst:73
-msgid "The function being decorated must return a :term:`generator`-iterator when called. This iterator must yield exactly one value, which will be bound to the targets in the :keyword:`with` statement's :keyword:`as` clause, if any."
+msgid "The function being decorated must return a :term:`generator`-iterator when called. This iterator must yield exactly one value, which will be bound to the targets in the :keyword:`with` statement's :keyword:`!as` clause, if any."
 msgstr ""
 
 #: ../../library/contextlib.rst:77
-msgid "At the point where the generator yields, the block nested in the :keyword:`with` statement is executed.  The generator is then resumed after the block is exited. If an unhandled exception occurs in the block, it is reraised inside the generator at the point where the yield occurred.  Thus, you can use a :keyword:`try`...\\ :keyword:`except`...\\ :keyword:`finally` statement to trap the error (if any), or ensure that some cleanup takes place. If an exception is trapped merely in order to log it or to perform some action (rather than to suppress it entirely), the generator must reraise that exception. Otherwise the generator context manager will indicate to the :keyword:`with` statement that the exception has been handled, and execution will resume with the statement immediately following the :keyword:`with` statement."
+msgid "At the point where the generator yields, the block nested in the :keyword:`with` statement is executed.  The generator is then resumed after the block is exited. If an unhandled exception occurs in the block, it is reraised inside the generator at the point where the yield occurred.  Thus, you can use a :keyword:`try`...\\ :keyword:`except`...\\ :keyword:`finally` statement to trap the error (if any), or ensure that some cleanup takes place. If an exception is trapped merely in order to log it or to perform some action (rather than to suppress it entirely), the generator must reraise that exception. Otherwise the generator context manager will indicate to the :keyword:`!with` statement that the exception has been handled, and execution will resume with the statement immediately following the :keyword:`!with` statement."
 msgstr ""
 
 #: ../../library/contextlib.rst:89
@@ -187,7 +187,7 @@ msgid "Existing context managers that already have a base class can be extended 
 msgstr ""
 
 #: ../../library/contextlib.rst:346
-msgid "As the decorated function must be able to be called multiple times, the underlying context manager must support use in multiple :keyword:`with` statements. If this is not the case, then the original construct with the explicit :keyword:`with` statement inside the function should be used."
+msgid "As the decorated function must be able to be called multiple times, the underlying context manager must support use in multiple :keyword:`with` statements. If this is not the case, then the original construct with the explicit :keyword:`!with` statement inside the function should be used."
 msgstr ""
 
 #: ../../library/contextlib.rst:356
@@ -427,7 +427,7 @@ msgid "Reentrant context managers"
 msgstr ""
 
 #: ../../library/contextlib.rst:772
-msgid "More sophisticated context managers may be \"reentrant\". These context managers can not only be used in multiple :keyword:`with` statements, but may also be used *inside* a :keyword:`with` statement that is already using the same context manager."
+msgid "More sophisticated context managers may be \"reentrant\". These context managers can not only be used in multiple :keyword:`with` statements, but may also be used *inside* a :keyword:`!with` statement that is already using the same context manager."
 msgstr ""
 
 #: ../../library/contextlib.rst:777

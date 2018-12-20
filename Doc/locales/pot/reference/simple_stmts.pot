@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-12 09:42+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -222,7 +222,7 @@ msgid "The proposal that added the :mod:`typing` module to provide a standard sy
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:373
-msgid "The :keyword:`assert` statement"
+msgid "The :keyword:`!assert` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:380
@@ -246,7 +246,7 @@ msgid "Assignments to :const:`__debug__` are illegal.  The value for the built-i
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:416
-msgid "The :keyword:`pass` statement"
+msgid "The :keyword:`!pass` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:426
@@ -254,7 +254,7 @@ msgid ":keyword:`pass` is a null operation --- when it is executed, nothing happ
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:438
-msgid "The :keyword:`del` statement"
+msgid "The :keyword:`!del` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:448
@@ -278,7 +278,7 @@ msgid "Previously it was illegal to delete a name from the local namespace if it
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:477
-msgid "The :keyword:`return` statement"
+msgid "The :keyword:`!return` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:487
@@ -294,7 +294,7 @@ msgid ":keyword:`return` leaves the current function call with the expression li
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:497
-msgid "When :keyword:`return` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`finally` clause is executed before really leaving the function."
+msgid "When :keyword:`return` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`!finally` clause is executed before really leaving the function."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:501
@@ -302,11 +302,11 @@ msgid "In a generator function, the :keyword:`return` statement indicates that t
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:506
-msgid "In an asynchronous generator function, an empty :keyword:`return` statement indicates that the asynchronous generator is done and will cause :exc:`StopAsyncIteration` to be raised.  A non-empty :keyword:`return` statement is a syntax error in an asynchronous generator function."
+msgid "In an asynchronous generator function, an empty :keyword:`return` statement indicates that the asynchronous generator is done and will cause :exc:`StopAsyncIteration` to be raised.  A non-empty :keyword:`!return` statement is a syntax error in an asynchronous generator function."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:514
-msgid "The :keyword:`yield` statement"
+msgid "The :keyword:`!yield` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:526
@@ -326,7 +326,7 @@ msgid "For full details of :keyword:`yield` semantics, refer to the :ref:`yielde
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:550
-msgid "The :keyword:`raise` statement"
+msgid "The :keyword:`!raise` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:561
@@ -370,7 +370,7 @@ msgid "The ``__suppress_context__`` attribute to suppress automatic display of t
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:653
-msgid "The :keyword:`break` statement"
+msgid "The :keyword:`!break` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:664
@@ -378,7 +378,7 @@ msgid ":keyword:`break` may only occur syntactically nested in a :keyword:`for` 
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:671
-msgid "It terminates the nearest enclosing loop, skipping the optional :keyword:`else` clause if the loop has one."
+msgid "It terminates the nearest enclosing loop, skipping the optional :keyword:`!else` clause if the loop has one."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:674
@@ -386,11 +386,11 @@ msgid "If a :keyword:`for` loop is terminated by :keyword:`break`, the loop cont
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:679
-msgid "When :keyword:`break` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`finally` clause is executed before really leaving the loop."
+msgid "When :keyword:`break` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`!finally` clause is executed before really leaving the loop."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:687
-msgid "The :keyword:`continue` statement"
+msgid "The :keyword:`!continue` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:699
@@ -398,11 +398,11 @@ msgid ":keyword:`continue` may only occur syntactically nested in a :keyword:`fo
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:704
-msgid "When :keyword:`continue` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`finally` clause is executed before really starting the next loop cycle."
+msgid "When :keyword:`continue` passes control out of a :keyword:`try` statement with a :keyword:`finally` clause, that :keyword:`!finally` clause is executed before really starting the next loop cycle."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:713
-msgid "The :keyword:`import` statement"
+msgid "The :keyword:`!import` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:734
@@ -430,7 +430,7 @@ msgid "If the requested module is retrieved successfully, it will be made availa
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:759
-msgid "If the module name is followed by :keyword:`as`, then the name following :keyword:`as` is bound directly to the imported module."
+msgid "If the module name is followed by :keyword:`!as`, then the name following :keyword:`!as` is bound directly to the imported module."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:761
@@ -466,7 +466,7 @@ msgid "if the attribute is not found, :exc:`ImportError` is raised."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:784
-msgid "otherwise, a reference to that value is stored in the local namespace, using the name in the :keyword:`as` clause if it is present, otherwise using the attribute name"
+msgid "otherwise, a reference to that value is stored in the local namespace, using the name in the :keyword:`!as` clause if it is present, otherwise using the attribute name"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:788
@@ -574,15 +574,15 @@ msgid "The original proposal for the __future__ mechanism."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:927
-msgid "The :keyword:`global` statement"
+msgid "The :keyword:`!global` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:937
-msgid "The :keyword:`global` statement is a declaration which holds for the entire current code block.  It means that the listed identifiers are to be interpreted as globals.  It would be impossible to assign to a global variable without :keyword:`global`, although free variables may refer to globals without being declared global."
+msgid "The :keyword:`global` statement is a declaration which holds for the entire current code block.  It means that the listed identifiers are to be interpreted as globals.  It would be impossible to assign to a global variable without :keyword:`!global`, although free variables may refer to globals without being declared global."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:943
-msgid "Names listed in a :keyword:`global` statement must not be used in the same code block textually preceding that :keyword:`global` statement."
+msgid "Names listed in a :keyword:`global` statement must not be used in the same code block textually preceding that :keyword:`!global` statement."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:946
@@ -594,11 +594,11 @@ msgid "The current implementation does not enforce some of these restrictions, b
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:962
-msgid "**Programmer's note:** :keyword:`global` is a directive to the parser.  It applies only to code parsed at the same time as the :keyword:`global` statement. In particular, a :keyword:`global` statement contained in a string or code object supplied to the built-in :func:`exec` function does not affect the code block *containing* the function call, and code contained in such a string is unaffected by :keyword:`global` statements in the code containing the function call.  The same applies to the :func:`eval` and :func:`compile` functions."
+msgid "**Programmer's note:** :keyword:`global` is a directive to the parser.  It applies only to code parsed at the same time as the :keyword:`!global` statement. In particular, a :keyword:`!global` statement contained in a string or code object supplied to the built-in :func:`exec` function does not affect the code block *containing* the function call, and code contained in such a string is unaffected by :keyword:`!global` statements in the code containing the function call.  The same applies to the :func:`eval` and :func:`compile` functions."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:974
-msgid "The :keyword:`nonlocal` statement"
+msgid "The :keyword:`!nonlocal` statement"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:986

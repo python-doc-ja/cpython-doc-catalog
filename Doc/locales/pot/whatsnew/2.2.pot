@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "So how do you define a new-style class?  You do it by subclassing an exis
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:121
-msgid "This means that :keyword:`class` statements that don't have any base classes are always classic classes in Python 2.2.  (Actually you can also change this by setting a module-level variable named :attr:`__metaclass__` --- see :pep:`253` for the details --- but it's easier to just subclass :keyword:`object`.)"
+msgid "This means that :keyword:`class` statements that don't have any base classes are always classic classes in Python 2.2.  (Actually you can also change this by setting a module-level variable named :attr:`__metaclass__` --- see :pep:`253` for the details --- but it's easier to just subclass :class:`object`.)"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:126
@@ -333,11 +333,11 @@ msgid "Here's the simplest example of a generator function::"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:562
-msgid "A new keyword, :keyword:`yield`, was introduced for generators.  Any function containing a :keyword:`yield` statement is a generator function; this is detected by Python's bytecode compiler which compiles the function specially as a result.  Because a new keyword was introduced, generators must be explicitly enabled in a module by including a ``from __future__ import generators`` statement near the top of the module's source code.  In Python 2.3 this statement will become unnecessary."
+msgid "A new keyword, :keyword:`yield`, was introduced for generators.  Any function containing a :keyword:`!yield` statement is a generator function; this is detected by Python's bytecode compiler which compiles the function specially as a result.  Because a new keyword was introduced, generators must be explicitly enabled in a module by including a ``from __future__ import generators`` statement near the top of the module's source code.  In Python 2.3 this statement will become unnecessary."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:570
-msgid "When you call a generator function, it doesn't return a single value; instead it returns a generator object that supports the iterator protocol.  On executing the :keyword:`yield` statement, the generator outputs the value of ``i``, similar to a :keyword:`return` statement.  The big difference between :keyword:`yield` and a :keyword:`return` statement is that on reaching a :keyword:`yield` the generator's state of execution is suspended and local variables are preserved.  On the next call to the generator's ``next()`` method, the function will resume executing immediately after the :keyword:`yield` statement.  (For complicated reasons, the :keyword:`yield` statement isn't allowed inside the :keyword:`try` block of a :keyword:`try`...\\ :keyword:`finally` statement; read :pep:`255` for a full explanation of the interaction between :keyword:`yield` and exceptions.)"
+msgid "When you call a generator function, it doesn't return a single value; instead it returns a generator object that supports the iterator protocol.  On executing the :keyword:`yield` statement, the generator outputs the value of ``i``, similar to a :keyword:`return` statement.  The big difference between :keyword:`!yield` and a :keyword:`!return` statement is that on reaching a :keyword:`!yield` the generator's state of execution is suspended and local variables are preserved.  On the next call to the generator's ``next()`` method, the function will resume executing immediately after the :keyword:`!yield` statement.  (For complicated reasons, the :keyword:`!yield` statement isn't allowed inside the :keyword:`!try` block of a :keyword:`try`...\\ :keyword:`finally` statement; read :pep:`255` for a full explanation of the interaction between :keyword:`!yield` and exceptions.)"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:583
@@ -349,7 +349,7 @@ msgid "You could equally write ``for i in generate_ints(5)``, or ``a,b,c = gener
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:603
-msgid "Inside a generator function, the :keyword:`return` statement can only be used without a value, and signals the end of the procession of values; afterwards the generator cannot return any further values. :keyword:`return` with a value, such as ``return 5``, is a syntax error inside a generator function.  The end of the generator's results can also be indicated by raising :exc:`StopIteration` manually, or by just letting the flow of execution fall off the bottom of the function."
+msgid "Inside a generator function, the :keyword:`return` statement can only be used without a value, and signals the end of the procession of values; afterwards the generator cannot return any further values. :keyword:`!return` with a value, such as ``return 5``, is a syntax error inside a generator function.  The end of the generator's results can also be indicated by raising :exc:`StopIteration` manually, or by just letting the flow of execution fall off the bottom of the function."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:611
@@ -505,7 +505,7 @@ msgid "The largest change introduced in Python 2.1, and made complete in 2.2, is
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:862
-msgid "The function :func:`g` will always raise a :exc:`NameError` exception, because the binding of the name ``g`` isn't in either its local namespace or in the module-level namespace.  This isn't much of a problem in practice (how often do you recursively define interior functions like this?), but this also made using the :keyword:`lambda` statement clumsier, and this was a problem in practice. In code which uses :keyword:`lambda` you can often find local variables being copied by passing them as the default values of arguments. ::"
+msgid "The function :func:`g` will always raise a :exc:`NameError` exception, because the binding of the name ``g`` isn't in either its local namespace or in the module-level namespace.  This isn't much of a problem in practice (how often do you recursively define interior functions like this?), but this also made using the :keyword:`lambda` expression clumsier, and this was a problem in practice. In code which uses :keyword:`!lambda` you can often find local variables being copied by passing them as the default values of arguments. ::"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:876

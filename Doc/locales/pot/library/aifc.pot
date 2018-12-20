@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Module :mod:`aifc` defines the following function:"
 msgstr ""
 
 #: ../../library/aifc.rst:39
-msgid "Open an AIFF or AIFF-C file and return an object instance with methods that are described below.  The argument *file* is either a string naming a file or a :term:`file object`.  *mode* must be ``'r'`` or ``'rb'`` when the file must be opened for reading, or ``'w'``  or ``'wb'`` when the file must be opened for writing. If omitted, ``file.mode`` is used if it exists, otherwise ``'rb'`` is used.  When used for writing, the file object should be seekable, unless you know ahead of time how many samples you are going to write in total and use :meth:`writeframesraw` and :meth:`setnframes`. The :func:`.open` function may be used in a :keyword:`with` statement.  When the :keyword:`with` block completes, the :meth:`~aifc.close` method is called."
+msgid "Open an AIFF or AIFF-C file and return an object instance with methods that are described below.  The argument *file* is either a string naming a file or a :term:`file object`.  *mode* must be ``'r'`` or ``'rb'`` when the file must be opened for reading, or ``'w'``  or ``'wb'`` when the file must be opened for writing. If omitted, ``file.mode`` is used if it exists, otherwise ``'rb'`` is used.  When used for writing, the file object should be seekable, unless you know ahead of time how many samples you are going to write in total and use :meth:`writeframesraw` and :meth:`setnframes`. The :func:`.open` function may be used in a :keyword:`with` statement.  When the :keyword:`!with` block completes, the :meth:`~aifc.close` method is called."
 msgstr ""
 
 #: ../../library/aifc.rst:50

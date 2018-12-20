@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-20 10:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "Create an instance of the :class:`FileInput` class.  The instance will be
 msgstr ""
 
 #: ../../library/fileinput.rst:64
-msgid "The :class:`FileInput` instance can be used as a context manager in the :keyword:`with` statement.  In this example, *input* is closed after the :keyword:`with` statement is exited, even if an exception occurs::"
+msgid "The :class:`FileInput` instance can be used as a context manager in the :keyword:`with` statement.  In this example, *input* is closed after the :keyword:`!with` statement is exited, even if an exception occurs::"
 msgstr ""
 
 #: ../../library/fileinput.rst:72
@@ -135,7 +135,7 @@ msgid "The *openhook*, when given, must be a function that takes two arguments, 
 msgstr ""
 
 #: ../../library/fileinput.rst:156
-msgid "A :class:`FileInput` instance can be used as a context manager in the :keyword:`with` statement.  In this example, *input* is closed after the :keyword:`with` statement is exited, even if an exception occurs::"
+msgid "A :class:`FileInput` instance can be used as a context manager in the :keyword:`with` statement.  In this example, *input* is closed after the :keyword:`!with` statement is exited, even if an exception occurs::"
 msgstr ""
 
 #: ../../library/fileinput.rst:166
