@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-06 15:07+0900\n"
+"POT-Creation-Date: 2018-12-21 15:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -437,7 +437,7 @@ msgid "Buffer-related functions"
 msgstr ""
 
 #: ../../c-api/buffer.rst:430
-msgid "Return ``1`` if *obj* supports the buffer interface otherwise ``0``.  When ``1`` is returned, it doesn't guarantee that :c:func:`PyObject_GetBuffer` will succeed."
+msgid "Return ``1`` if *obj* supports the buffer interface otherwise ``0``.  When ``1`` is returned, it doesn't guarantee that :c:func:`PyObject_GetBuffer` will succeed.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/buffer.rst:437
@@ -465,7 +465,7 @@ msgid "Return the implied :c:data:`~Py_buffer.itemsize` from :c:data:`~Py_buffer
 msgstr ""
 
 #: ../../c-api/buffer.rst:471
-msgid "Return ``1`` if the memory defined by the *view* is C-style (*order* is ``'C'``) or Fortran-style (*order* is ``'F'``) :term:`contiguous` or either one (*order* is ``'A'``).  Return ``0`` otherwise."
+msgid "Return ``1`` if the memory defined by the *view* is C-style (*order* is ``'C'``) or Fortran-style (*order* is ``'F'``) :term:`contiguous` or either one (*order* is ``'A'``).  Return ``0`` otherwise.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/buffer.rst:478
