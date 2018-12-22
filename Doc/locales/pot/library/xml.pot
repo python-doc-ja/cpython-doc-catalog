@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-25 09:16+0900\n"
+"POT-Creation-Date: 2018-12-22 10:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgid ":mod:`xmlrpclib` doesn't expand external entities and omits them."
 msgstr ""
 
 #: ../../library/xml.rst:78
-msgid "Since Python 3.8.0, external general entities are no longer processed by default since Python."
+msgid "Since Python 3.7.1, external general entities are no longer processed by default."
 msgstr ""
 
 #: ../../library/xml.rst:87
