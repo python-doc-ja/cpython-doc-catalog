@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 10:06+0900\n"
+"POT-Creation-Date: 2018-12-24 10:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3183,7 +3183,7 @@ msgid "Return a shallow copy of the dictionary."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4206
-msgid "Create a new dictionary with keys from *seq* and values set to *value*."
+msgid "Create a new dictionary with keys from *iterable* and values set to *value*."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4208
