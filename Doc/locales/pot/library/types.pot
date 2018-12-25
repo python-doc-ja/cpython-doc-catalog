@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 05:56+0900\n"
+"POT-Creation-Date: 2018-12-25 10:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "**Source code:** :source:`Lib/types.py`"
 msgstr ""
 
 #: ../../library/types.rst:11
-msgid "This module defines utility function to assist in dynamic creation of new types."
+msgid "This module defines utility functions to assist in dynamic creation of new types."
 msgstr ""
 
 #: ../../library/types.rst:14

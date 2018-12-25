@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 10:06+0900\n"
+"POT-Creation-Date: 2018-12-25 10:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,7 +182,7 @@ msgid "Annotated assignment statements"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:328
-msgid "Annotation assignment is the combination, in a single statement, of a variable or attribute annotation and an optional assignment statement:"
+msgid ":term:`Annotation <variable annotation>` assignment is the combination, in a single statement, of a variable or attribute annotation and an optional assignment statement:"
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:334

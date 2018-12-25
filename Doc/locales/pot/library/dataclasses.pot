@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-25 08:59+0900\n"
+"POT-Creation-Date: 2018-12-25 10:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "This function is a :term:`decorator` that is used to add generated :term:
 msgstr ""
 
 #: ../../library/dataclasses.rst:52
-msgid "The :func:`dataclass` decorator examines the class to find ``field``\\s.  A ``field`` is defined as class variable that has a type annotation.  With two exceptions described below, nothing in :func:`dataclass` examines the type specified in the variable annotation."
+msgid "The :func:`dataclass` decorator examines the class to find ``field``\\s.  A ``field`` is defined as class variable that has a :term:`type annotation <variable annotation>`.  With two exceptions described below, nothing in :func:`dataclass` examines the type specified in the variable annotation."
 msgstr ""
 
 #: ../../library/dataclasses.rst:58
