@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-02 09:20+0900\n"
+"POT-Creation-Date: 2018-12-27 10:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -423,7 +423,7 @@ msgid "See the :ref:`concurrency and multithreading <asyncio-multithreading>` se
 msgstr ""
 
 #: ../../library/asyncio-task.rst:607
-msgid "Unlike other asyncio functions this functions requires the *loop* argument to be passed explicitly."
+msgid "Unlike other asyncio functions this function requires the *loop* argument to be passed explicitly."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:614
