@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-30 10:13+0900\n"
+"POT-Creation-Date: 2018-12-31 10:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -451,7 +451,7 @@ msgid "`bpo-35591 <https://bugs.python.org/issue35591>`__: Find Selection now wo
 msgstr ""
 
 #: ../../../build/NEWS:108
-msgid "`bpo-35598 <https://bugs.python.org/issue35598>`__: Apply PEP8 naming convention to config_key.py."
+msgid "`bpo-35598 <https://bugs.python.org/issue35598>`__: Update config_key: use PEP 8 names, ttk widgets, and add tests."
 msgstr ""
 
 #: ../../../build/NEWS:110
