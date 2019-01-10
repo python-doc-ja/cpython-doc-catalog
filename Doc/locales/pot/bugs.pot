@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-01-10 15:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Documentation bugs"
 msgstr ""
 
 #: ../../bugs.rst:15
-msgid "If you find a bug in this documentation or would like to propose an improvement, please submit a bug report on the :ref:`tracker <using-the-tracker>`.  If you have a suggestion how to fix it, include that as well."
+msgid "If you find a bug in this documentation or would like to propose an improvement, please submit a bug report on the :ref:`tracker <using-the-tracker>`.  If you have a suggestion on how to fix it, include that as well."
 msgstr ""
 
 #: ../../bugs.rst:19
