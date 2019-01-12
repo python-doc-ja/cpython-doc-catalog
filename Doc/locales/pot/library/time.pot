@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-01-12 10:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,6 +181,7 @@ msgstr ""
 #: ../../library/time.rst:649
 #: ../../library/time.rst:766
 #: ../../library/time.rst:785
+#: ../../library/time.rst:803
 #: ../../library/time.rst:827
 msgid ":ref:`Availability <availability>`: Unix."
 msgstr ""
@@ -867,8 +868,8 @@ msgstr ""
 msgid "Similar to :data:`CLOCK_MONOTONIC`, but provides access to a raw hardware-based time that is not subject to NTP adjustments."
 msgstr ""
 
-#: ../../library/time.rst:775
-msgid "Availability: Linux 2.6.28 or later."
+#: ../../library/time.rst:776
+msgid ":ref:`Availability <availability>`: Linux 2.6.28 and newer, macOS 10.12 and newer."
 msgstr ""
 
 #: ../../library/time.rst:782
@@ -882,10 +883,6 @@ msgstr ""
 
 #: ../../library/time.rst:800
 msgid "Thread-specific CPU-time clock."
-msgstr ""
-
-#: ../../library/time.rst:802
-msgid "Availability: Unix."
 msgstr ""
 
 #: ../../library/time.rst:809
