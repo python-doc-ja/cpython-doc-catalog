@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-01-18 10:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "Block until all items in the queue have been received and processed."
 msgstr ""
 
 #: ../../library/asyncio-queue.rst:66
-msgid "The count of unfinished tasks goes up whenever an item is added to the queue. The count goes down whenever a consumer thread calls :meth:`task_done` to indicate that the item was retrieved and all work on it is complete.  When the count of unfinished tasks drops to zero, :meth:`join` unblocks."
+msgid "The count of unfinished tasks goes up whenever an item is added to the queue. The count goes down whenever a consumer coroutine calls :meth:`task_done` to indicate that the item was retrieved and all work on it is complete.  When the count of unfinished tasks drops to zero, :meth:`join` unblocks."
 msgstr ""
 
 #: ../../library/asyncio-queue.rst:74
