@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:22+0900\n"
+"POT-Creation-Date: 2019-01-18 15:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgid "Unless intentionally delayed, login is normally performed during the :cla
 msgstr ""
 
 #: ../../library/nntplib.rst:237
-msgid "Send a ``STARTTLS`` command.  This will enable encryption on the NNTP connection.  The *ssl_context* argument is optional and should be a :class:`ssl.SSLContext` object.  Please read :ref:`ssl-security` for best practices."
+msgid "Send a ``STARTTLS`` command.  This will enable encryption on the NNTP connection.  The *context* argument is optional and should be a :class:`ssl.SSLContext` object.  Please read :ref:`ssl-security` for best practices."
 msgstr ""
 
 #: ../../library/nntplib.rst:242
