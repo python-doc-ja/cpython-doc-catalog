@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-01-24 10:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "Defaults to be passed to the ConfigParser can be specified in this argume
 msgstr ""
 
 #: ../../library/logging.config.rst:105
-msgid "If specified as ``False``, loggers which exist when this call is made are left enabled. The default is ``True`` because this enables old behaviour in a backward-compatible way. This behaviour is to disable any existing loggers unless they or their ancestors are explicitly named in the logging configuration."
+msgid "If specified as ``False``, loggers which exist when this call is made are left enabled. The default is ``True`` because this enables old behaviour in a backward-compatible way. This behaviour is to disable any existing non-root loggers unless they or their ancestors are explicitly named in the logging configuration."
 msgstr ""
 
 #: ../../library/logging.config.rst:114
@@ -266,7 +266,7 @@ msgid "If the specified value is ``True``, the configuration is processed as des
 msgstr ""
 
 #: ../../library/logging.config.rst:311
-msgid "*disable_existing_loggers* - whether any existing loggers are to be disabled. This setting mirrors the parameter of the same name in :func:`fileConfig`. If absent, this parameter defaults to ``True``. This value is ignored if *incremental* is ``True``."
+msgid "*disable_existing_loggers* - whether any existing non-root loggers are to be disabled. This setting mirrors the parameter of the same name in :func:`fileConfig`. If absent, this parameter defaults to ``True``. This value is ignored if *incremental* is ``True``."
 msgstr ""
 
 #: ../../library/logging.config.rst:319
