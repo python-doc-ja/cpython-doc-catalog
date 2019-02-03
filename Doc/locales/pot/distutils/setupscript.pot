@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-02-03 15:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -397,304 +397,308 @@ msgstr ""
 msgid "``data_files`` specifies a sequence of (*directory*, *files*) pairs in the following way::"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:526
-msgid "Note that you can specify the directory names where the data files will be installed, but you cannot rename the data files themselves."
+#: ../../distutils/setupscript.rst:525
+msgid "Each (*directory*, *files*) pair in the sequence specifies the installation directory and the files to install there."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:529
-msgid "Each (*directory*, *files*) pair in the sequence specifies the installation directory and the files to install there.  If *directory* is a relative path, it is interpreted relative to the installation prefix (Python's ``sys.prefix`` for pure-Python packages, ``sys.exec_prefix`` for packages that contain extension modules).  Each file name in *files* is interpreted relative to the :file:`setup.py` script at the top of the package source distribution.  No directory information from *files* is used to determine the final location of the installed file; only the name of the file is used."
+#: ../../distutils/setupscript.rst:528
+msgid "Each file name in *files* is interpreted relative to the :file:`setup.py` script at the top of the package source distribution. Note that you can specify the directory where the data files will be installed, but you cannot rename the data files themselves."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:538
+#: ../../distutils/setupscript.rst:533
+msgid "The *directory* should be a relative path. It is interpreted relative to the installation prefix (Python's ``sys.prefix`` for system installations; ``site.USER_BASE`` for user installations). Distutils allows *directory* to be an absolute installation path, but this is discouraged since it is incompatible with the wheel packaging format. No directory information from *files* is used to determine the final location of the installed file; only the name of the file is used."
+msgstr ""
+
+#: ../../distutils/setupscript.rst:541
 msgid "You can specify the ``data_files`` options as a simple sequence of files without specifying a target directory, but this is not recommended, and the :command:`install` command will print a warning in this case. To install data files directly in the target directory, an empty string should be given as the directory."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:544
+#: ../../distutils/setupscript.rst:547
 msgid "All the files that match ``data_files`` will be added to the ``MANIFEST`` file if no template is provided. See :ref:`manifest`."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:553
+#: ../../distutils/setupscript.rst:556
 msgid "Additional meta-data"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:555
+#: ../../distutils/setupscript.rst:558
 msgid "The setup script may include additional meta-data beyond the name and version. This information includes:"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:559
+#: ../../distutils/setupscript.rst:562
 msgid "Meta-Data"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:559
+#: ../../distutils/setupscript.rst:562
 msgid "Description"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:559
+#: ../../distutils/setupscript.rst:562
 msgid "Value"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:559
+#: ../../distutils/setupscript.rst:562
 msgid "Notes"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:561
+#: ../../distutils/setupscript.rst:564
 msgid "``name``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:561
+#: ../../distutils/setupscript.rst:564
 msgid "name of the package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:561
-#: ../../distutils/setupscript.rst:563
-#: ../../distutils/setupscript.rst:565
-#: ../../distutils/setupscript.rst:570
-#: ../../distutils/setupscript.rst:577
-#: ../../distutils/setupscript.rst:591
+#: ../../distutils/setupscript.rst:564
+#: ../../distutils/setupscript.rst:566
+#: ../../distutils/setupscript.rst:568
+#: ../../distutils/setupscript.rst:573
+#: ../../distutils/setupscript.rst:580
+#: ../../distutils/setupscript.rst:594
 msgid "short string"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:561
-#: ../../distutils/setupscript.rst:575
+#: ../../distutils/setupscript.rst:564
+#: ../../distutils/setupscript.rst:578
 msgid "\\(1)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:563
+#: ../../distutils/setupscript.rst:566
 msgid "``version``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:563
+#: ../../distutils/setupscript.rst:566
 msgid "version of this release"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:563
+#: ../../distutils/setupscript.rst:566
 msgid "(1)(2)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:565
+#: ../../distutils/setupscript.rst:568
 msgid "``author``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:565
+#: ../../distutils/setupscript.rst:568
 msgid "package author's name"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:565
-#: ../../distutils/setupscript.rst:567
+#: ../../distutils/setupscript.rst:568
 #: ../../distutils/setupscript.rst:570
-#: ../../distutils/setupscript.rst:572
+#: ../../distutils/setupscript.rst:573
+#: ../../distutils/setupscript.rst:575
 msgid "\\(3)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:567
+#: ../../distutils/setupscript.rst:570
 msgid "``author_email``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:567
+#: ../../distutils/setupscript.rst:570
 msgid "email address of the package author"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:567
-#: ../../distutils/setupscript.rst:572
+#: ../../distutils/setupscript.rst:570
+#: ../../distutils/setupscript.rst:575
 msgid "email address"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:570
+#: ../../distutils/setupscript.rst:573
 msgid "``maintainer``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:570
+#: ../../distutils/setupscript.rst:573
 msgid "package maintainer's name"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:572
+#: ../../distutils/setupscript.rst:575
 msgid "``maintainer_email``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:572
+#: ../../distutils/setupscript.rst:575
 msgid "email address of the package maintainer"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:575
+#: ../../distutils/setupscript.rst:578
 msgid "``url``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:575
+#: ../../distutils/setupscript.rst:578
 msgid "home page for the package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:575
-#: ../../distutils/setupscript.rst:584
+#: ../../distutils/setupscript.rst:578
+#: ../../distutils/setupscript.rst:587
 msgid "URL"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:577
+#: ../../distutils/setupscript.rst:580
 msgid "``description``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:577
+#: ../../distutils/setupscript.rst:580
 msgid "short, summary description of the package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:581
+#: ../../distutils/setupscript.rst:584
 msgid "``long_description``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:581
+#: ../../distutils/setupscript.rst:584
 msgid "longer description of the package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:581
+#: ../../distutils/setupscript.rst:584
 msgid "long string"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:581
+#: ../../distutils/setupscript.rst:584
 msgid "\\(5)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:584
+#: ../../distutils/setupscript.rst:587
 msgid "``download_url``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:584
+#: ../../distutils/setupscript.rst:587
 msgid "location where the package may be downloaded"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:584
 #: ../../distutils/setupscript.rst:587
+#: ../../distutils/setupscript.rst:590
 msgid "\\(4)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:587
+#: ../../distutils/setupscript.rst:590
 msgid "``classifiers``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:587
+#: ../../distutils/setupscript.rst:590
 msgid "a list of classifiers"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:587
-#: ../../distutils/setupscript.rst:589
+#: ../../distutils/setupscript.rst:590
+#: ../../distutils/setupscript.rst:592
 msgid "list of strings"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:589
+#: ../../distutils/setupscript.rst:592
 msgid "``platforms``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:589
+#: ../../distutils/setupscript.rst:592
 msgid "a list of platforms"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:591
+#: ../../distutils/setupscript.rst:594
 msgid "``license``"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:591
+#: ../../distutils/setupscript.rst:594
 msgid "license for the package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:591
+#: ../../distutils/setupscript.rst:594
 msgid "\\(6)"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:594
+#: ../../distutils/setupscript.rst:597
 msgid "Notes:"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:597
+#: ../../distutils/setupscript.rst:600
 msgid "These fields are required."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:600
+#: ../../distutils/setupscript.rst:603
 msgid "It is recommended that versions take the form *major.minor[.patch[.sub]]*."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:603
+#: ../../distutils/setupscript.rst:606
 msgid "Either the author or the maintainer must be identified. If maintainer is provided, distutils lists it as the author in :file:`PKG-INFO`."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:607
+#: ../../distutils/setupscript.rst:610
 msgid "These fields should not be used if your package is to be compatible with Python versions prior to 2.2.3 or 2.3.  The list is available from the `PyPI website <https://pypi.org>`_."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:612
+#: ../../distutils/setupscript.rst:615
 msgid "The ``long_description`` field is used by PyPI when you are :ref:`registering <package-register>` a package, to :ref:`build its home page <package-display>`."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:617
+#: ../../distutils/setupscript.rst:620
 msgid "The ``license`` field is a text indicating the license covering the package where the license is not a selection from the \"License\" Trove classifiers. See the ``Classifier`` field. Notice that there's a ``licence`` distribution option which is deprecated but still acts as an alias for ``license``."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:624
+#: ../../distutils/setupscript.rst:627
 msgid "'short string'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:624
+#: ../../distutils/setupscript.rst:627
 msgid "A single line of text, not more than 200 characters."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:628
+#: ../../distutils/setupscript.rst:631
 msgid "'long string'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:627
+#: ../../distutils/setupscript.rst:630
 msgid "Multiple lines of plain text in reStructuredText format (see http://docutils.sourceforge.net/)."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:631
+#: ../../distutils/setupscript.rst:634
 msgid "'list of strings'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:631
+#: ../../distutils/setupscript.rst:634
 msgid "See below."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:633
+#: ../../distutils/setupscript.rst:636
 msgid "None of the string values may be Unicode."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:635
+#: ../../distutils/setupscript.rst:638
 msgid "Encoding the version information is an art in itself. Python packages generally adhere to the version format *major.minor[.patch][sub]*. The major number is 0 for initial, experimental releases of software. It is incremented for releases that represent major milestones in a package. The minor number is incremented when important new features are added to the package. The patch number increments when bug-fix releases are made. Additional trailing version information is sometimes used to indicate sub-releases.  These are \"a1,a2,...,aN\" (for alpha releases, where functionality and API may change), \"b1,b2,...,bN\" (for beta releases, which only fix bugs) and \"pr1,pr2,...,prN\" (for final pre-release release testing). Some examples:"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:647
+#: ../../distutils/setupscript.rst:650
 msgid "0.1.0"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:647
+#: ../../distutils/setupscript.rst:650
 msgid "the first, experimental release of a package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:650
+#: ../../distutils/setupscript.rst:653
 msgid "1.0.1a2"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:650
+#: ../../distutils/setupscript.rst:653
 msgid "the second alpha release of the first patch version of 1.0"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:652
+#: ../../distutils/setupscript.rst:655
 msgid "``classifiers`` are specified in a Python list::"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:673
+#: ../../distutils/setupscript.rst:676
 msgid "If you wish to include classifiers in your :file:`setup.py` file and also wish to remain backwards-compatible with Python releases prior to 2.2.3, then you can include the following code fragment in your :file:`setup.py` before the :func:`setup` call. ::"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:690
+#: ../../distutils/setupscript.rst:693
 msgid "Debugging the setup script"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:692
+#: ../../distutils/setupscript.rst:695
 msgid "Sometimes things go wrong, and the setup script doesn't do what the developer wants."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:695
+#: ../../distutils/setupscript.rst:698
 msgid "Distutils catches any exceptions when running the setup script, and print a simple error message before the script is terminated.  The motivation for this behaviour is to not confuse administrators who don't know much about Python and are trying to install a package.  If they get a big long traceback from deep inside the guts of Distutils, they may think the package or the Python installation is broken because they don't read all the way down to the bottom and see that it's a permission problem."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:703
+#: ../../distutils/setupscript.rst:706
 msgid "On the other hand, this doesn't help the developer to find the cause of the failure. For this purpose, the :envvar:`DISTUTILS_DEBUG` environment variable can be set to anything except an empty string, and distutils will now print detailed information about what it is doing, dump the full traceback when an exception occurs, and print the whole command line when an external program (like a C compiler) fails."
 msgstr ""
 
