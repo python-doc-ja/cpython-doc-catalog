@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-02-11 10:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,7 +218,7 @@ msgid "Python 3.7 (stable)"
 msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:7
-msgid "Python 3.6 (stable)"
+msgid "Python 3.6 (security-fixes)"
 msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:8
