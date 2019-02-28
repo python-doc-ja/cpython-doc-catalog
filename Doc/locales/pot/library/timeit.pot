@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-02-28 11:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgid "Time *number* executions of the main statement.  This executes the setup 
 msgstr ""
 
 #: ../../library/timeit.rst:130
-msgid "By default, :meth:`.timeit` temporarily turns off :term:`garbage collection` during the timing.  The advantage of this approach is that it makes independent timings more comparable.  This disadvantage is that GC may be an important component of the performance of the function being measured.  If so, GC can be re-enabled as the first statement in the *setup* string.  For example::"
+msgid "By default, :meth:`.timeit` temporarily turns off :term:`garbage collection` during the timing.  The advantage of this approach is that it makes independent timings more comparable.  The disadvantage is that GC may be an important component of the performance of the function being measured.  If so, GC can be re-enabled as the first statement in the *setup* string.  For example::"
 msgstr ""
 
 #: ../../library/timeit.rst:142
