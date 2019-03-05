@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 10:16+0900\n"
+"POT-Creation-Date: 2019-03-05 10:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -749,7 +749,7 @@ msgid "A :class:`Popen` ``creationflags`` parameter to specify that a new proces
 msgstr ""
 
 #: ../../library/subprocess.rst:961
-msgid "A :class:`Popen` ``creationflags`` parameter to specify that a new process will not create a window"
+msgid "A :class:`Popen` ``creationflags`` parameter to specify that a new process will not create a window."
 msgstr ""
 
 #: ../../library/subprocess.rst:968
@@ -939,7 +939,7 @@ msgid ":class:`Popen` raises an exception if the execution fails."
 msgstr ""
 
 #: ../../library/subprocess.rst:1298
-msgid "the *capturestderr* argument is replaced with the *stderr* argument."
+msgid "The *capturestderr* argument is replaced with the *stderr* argument."
 msgstr ""
 
 #: ../../library/subprocess.rst:1300
