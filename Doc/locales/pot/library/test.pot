@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-03-06 15:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,149 +176,153 @@ msgstr ""
 msgid "Set to a name that is safe to use as the name of a temporary file.  Any temporary file that is created should be closed and unlinked (removed)."
 msgstr ""
 
-#: ../../library/test.rst:249
-msgid "The :mod:`test.support` module defines the following functions:"
+#: ../../library/test.rst:252
+msgid "Define the URL of a dedicated HTTP server for the network tests."
 msgstr ""
 
 #: ../../library/test.rst:254
+msgid "The :mod:`test.support` module defines the following functions:"
+msgstr ""
+
+#: ../../library/test.rst:259
 msgid "Remove the module named *module_name* from ``sys.modules`` and delete any byte-compiled files of the module."
 msgstr ""
 
-#: ../../library/test.rst:260
+#: ../../library/test.rst:265
 msgid "Return :const:`True` if *resource* is enabled and available. The list of available resources is only set when :mod:`test.regrtest` is executing the tests."
 msgstr ""
 
-#: ../../library/test.rst:267
+#: ../../library/test.rst:272
 msgid "Raise :exc:`ResourceDenied` if *resource* is not available. *msg* is the argument to :exc:`ResourceDenied` if it is raised. Always returns :const:`True` if called by a function whose ``__name__`` is ``'__main__'``. Used when tests are executed by :mod:`test.regrtest`."
 msgstr ""
 
-#: ../../library/test.rst:275
+#: ../../library/test.rst:280
 msgid "Return the path to the file named *filename*. If no match is found *filename* is returned. This does not equal a failure since it could be the path to the file."
 msgstr ""
 
-#: ../../library/test.rst:282
+#: ../../library/test.rst:287
 msgid "Execute :class:`unittest.TestCase` subclasses passed to the function. The function scans the classes for methods starting with the prefix ``test_`` and executes the tests individually."
 msgstr ""
 
-#: ../../library/test.rst:286
+#: ../../library/test.rst:291
 msgid "It is also legal to pass strings as parameters; these should be keys in ``sys.modules``. Each associated module will be scanned by ``unittest.TestLoader.loadTestsFromModule()``. This is usually seen in the following :func:`test_main` function::"
 msgstr ""
 
-#: ../../library/test.rst:294
+#: ../../library/test.rst:299
 msgid "This will run all tests defined in the named module."
 msgstr ""
 
-#: ../../library/test.rst:299
+#: ../../library/test.rst:304
 msgid "A convenience wrapper for :func:`warnings.catch_warnings()` that makes it easier to test that a warning was correctly raised.  It is approximately equivalent to calling ``warnings.catch_warnings(record=True)`` with :meth:`warnings.simplefilter` set to ``always`` and with the option to automatically validate the results that are recorded."
 msgstr ""
 
-#: ../../library/test.rst:305
+#: ../../library/test.rst:310
 msgid "``check_warnings`` accepts 2-tuples of the form ``(\"message regexp\", WarningCategory)`` as positional arguments. If one or more *filters* are provided, or if the optional keyword argument *quiet* is :const:`False`, it checks to make sure the warnings are as expected:  each specified filter must match at least one of the warnings raised by the enclosed code or the test fails, and if any warnings are raised that do not match any of the specified filters the test fails.  To disable the first of these checks, set *quiet* to :const:`True`."
 msgstr ""
 
-#: ../../library/test.rst:314
+#: ../../library/test.rst:319
 msgid "If no arguments are specified, it defaults to::"
 msgstr ""
 
-#: ../../library/test.rst:318
+#: ../../library/test.rst:323
 msgid "In this case all warnings are caught and no errors are raised."
 msgstr ""
 
-#: ../../library/test.rst:320
+#: ../../library/test.rst:325
 msgid "On entry to the context manager, a :class:`WarningRecorder` instance is returned. The underlying warnings list from :func:`~warnings.catch_warnings` is available via the recorder object's :attr:`warnings` attribute.  As a convenience, the attributes of the object representing the most recent warning can also be accessed directly through the recorder object (see example below).  If no warning has been raised, then any of the attributes that would otherwise be expected on an object representing a warning will return :const:`None`."
 msgstr ""
 
-#: ../../library/test.rst:329
+#: ../../library/test.rst:334
 msgid "The recorder object also has a :meth:`reset` method, which clears the warnings list."
 msgstr ""
 
-#: ../../library/test.rst:332
+#: ../../library/test.rst:337
 msgid "The context manager is designed to be used like this::"
 msgstr ""
 
-#: ../../library/test.rst:339
+#: ../../library/test.rst:344
 msgid "In this case if either warning was not raised, or some other warning was raised, :func:`check_warnings` would raise an error."
 msgstr ""
 
-#: ../../library/test.rst:342
+#: ../../library/test.rst:347
 msgid "When a test needs to look more deeply into the warnings, rather than just checking whether or not they occurred, code like this can be used::"
 msgstr ""
 
-#: ../../library/test.rst:355
+#: ../../library/test.rst:360
 msgid "Here all warnings will be caught, and the test code tests the captured warnings directly."
 msgstr ""
 
-#: ../../library/test.rst:359
+#: ../../library/test.rst:364
 msgid "New optional arguments *filters* and *quiet*."
 msgstr ""
 
-#: ../../library/test.rst:365
+#: ../../library/test.rst:370
 msgid "Similar to :func:`check_warnings`, but for Python 3 compatibility warnings. If ``sys.py3kwarning == 1``, it checks if the warning is effectively raised. If ``sys.py3kwarning == 0``, it checks that no warning is raised.  It accepts 2-tuples of the form ``(\"message regexp\", WarningCategory)`` as positional arguments.  When the optional keyword argument *quiet* is :const:`True`, it does not fail if a filter catches nothing.  Without arguments, it defaults to::"
 msgstr ""
 
-#: ../../library/test.rst:380
+#: ../../library/test.rst:385
 msgid "This is a context manager that runs the :keyword:`with` statement body using a :class:`StringIO.StringIO` object as sys.stdout.  That object can be retrieved using the ``as`` clause of the :keyword:`with` statement."
 msgstr ""
 
-#: ../../library/test.rst:384
-#: ../../library/test.rst:429
+#: ../../library/test.rst:389
+#: ../../library/test.rst:434
 msgid "Example use::"
 msgstr ""
 
-#: ../../library/test.rst:395
+#: ../../library/test.rst:400
 msgid "This function imports and returns the named module. Unlike a normal import, this function raises :exc:`unittest.SkipTest` if the module cannot be imported."
 msgstr ""
 
-#: ../../library/test.rst:399
-#: ../../library/test.rst:423
+#: ../../library/test.rst:404
+#: ../../library/test.rst:428
 msgid "Module and package deprecation messages are suppressed during this import if *deprecated* is :const:`True`."
 msgstr ""
 
-#: ../../library/test.rst:407
+#: ../../library/test.rst:412
 msgid "This function imports and returns a fresh copy of the named Python module by removing the named module from ``sys.modules`` before doing the import. Note that unlike :func:`reload`, the original module is not affected by this operation."
 msgstr ""
 
-#: ../../library/test.rst:412
+#: ../../library/test.rst:417
 msgid "*fresh* is an iterable of additional module names that are also removed from the ``sys.modules`` cache before doing the import."
 msgstr ""
 
-#: ../../library/test.rst:415
+#: ../../library/test.rst:420
 msgid "*blocked* is an iterable of module names that are replaced with :const:`0` in the module cache during the import to ensure that attempts to import them raise :exc:`ImportError`."
 msgstr ""
 
-#: ../../library/test.rst:419
+#: ../../library/test.rst:424
 msgid "The named module and any modules named in the *fresh* and *blocked* parameters are saved before starting the import and then reinserted into ``sys.modules`` when the fresh import is complete."
 msgstr ""
 
-#: ../../library/test.rst:426
+#: ../../library/test.rst:431
 msgid "This function will raise :exc:`unittest.SkipTest` if the named module cannot be imported."
 msgstr ""
 
-#: ../../library/test.rst:441
+#: ../../library/test.rst:446
 msgid "The :mod:`test.support` module defines the following classes:"
 msgstr ""
 
-#: ../../library/test.rst:445
+#: ../../library/test.rst:450
 msgid "Instances are a context manager that raises :exc:`ResourceDenied` if the specified exception type is raised.  Any keyword arguments are treated as attribute/value pairs to be compared against any exception raised within the :keyword:`with` statement.  Only if all pairs match properly against attributes on the exception is :exc:`ResourceDenied` raised."
 msgstr ""
 
-#: ../../library/test.rst:454
+#: ../../library/test.rst:459
 msgid "Class used to temporarily set or unset environment variables.  Instances can be used as a context manager and have a complete dictionary interface for querying/modifying the underlying ``os.environ``. After exit from the context manager all changes to environment variables done through this instance will be rolled back."
 msgstr ""
 
-#: ../../library/test.rst:461
+#: ../../library/test.rst:466
 msgid "Added dictionary interface."
 msgstr ""
 
-#: ../../library/test.rst:467
+#: ../../library/test.rst:472
 msgid "Temporarily set the environment variable ``envvar`` to the value of ``value``."
 msgstr ""
 
-#: ../../library/test.rst:473
+#: ../../library/test.rst:478
 msgid "Temporarily unset the environment variable ``envvar``."
 msgstr ""
 
-#: ../../library/test.rst:478
+#: ../../library/test.rst:483
 msgid "Class used to record warnings for unit tests. See documentation of :func:`check_warnings` above for more details."
 msgstr ""
 
