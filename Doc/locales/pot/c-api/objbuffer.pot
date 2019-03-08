@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-03-08 11:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Returns ``1`` if *o* supports the single-segment readable buffer interfac
 msgstr ""
 
 #: ../../c-api/objbuffer.rst:44
-msgid "Note that this function tries to get and release a buffer, and exceptions which occur while calling correspoding functions will get suppressed. To get error reporting use :c:func:`PyObject_GetBuffer()` instead."
+msgid "Note that this function tries to get and release a buffer, and exceptions which occur while calling corresponding functions will get suppressed. To get error reporting use :c:func:`PyObject_GetBuffer()` instead."
 msgstr ""
 
 #: ../../c-api/objbuffer.rst:51
