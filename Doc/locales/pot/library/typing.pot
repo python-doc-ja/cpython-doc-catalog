@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 10:17+0900\n"
+"POT-Creation-Date: 2019-03-17 10:52+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -502,7 +502,7 @@ msgid "These type aliases correspond to the return types from :func:`re.compile`
 msgstr ""
 
 #: ../../library/typing.rst:818
-msgid "Typed version of namedtuple."
+msgid "Typed version of :func:`collections.namedtuple`."
 msgstr ""
 
 #: ../../library/typing.rst:826
