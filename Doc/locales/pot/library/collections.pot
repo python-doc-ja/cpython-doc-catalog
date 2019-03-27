@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-17 10:52+0900\n"
+"POT-Creation-Date: 2019-03-27 10:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -613,7 +613,7 @@ msgid "To retrieve a field whose name is stored in a string, use the :func:`geta
 msgstr ""
 
 #: ../../library/collections.rst:962
-msgid "To convert a dictionary to a named tuple, use the double-star-operator (as described in :ref:`tut-unpacking-arguments`):"
+msgid "To convert a dictionary to a named tuple, use the ``**`` operator (as described in :ref:`tut-unpacking-arguments`):"
 msgstr ""
 
 #: ../../library/collections.rst:969
