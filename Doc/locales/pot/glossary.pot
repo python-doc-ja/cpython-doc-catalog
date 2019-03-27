@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-03-27 16:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -465,7 +465,7 @@ msgid "keyword argument"
 msgstr ""
 
 #: ../../glossary.rst:456
-#: ../../glossary.rst:645
+#: ../../glossary.rst:650
 msgid "See :term:`argument`."
 msgstr ""
 
@@ -514,298 +514,306 @@ msgid "An object that loads a module. It must define a method named :meth:`load_
 msgstr ""
 
 #: ../../glossary.rst:492
+msgid "magic method"
+msgstr ""
+
+#: ../../glossary.rst:496
+msgid "An informal synonym for :term:`special method`."
+msgstr ""
+
+#: ../../glossary.rst:497
 msgid "mapping"
 msgstr ""
 
-#: ../../glossary.rst:494
+#: ../../glossary.rst:499
 msgid "A container object that supports arbitrary key lookups and implements the methods specified in the :class:`~collections.Mapping` or :class:`~collections.MutableMapping` :ref:`abstract base classes <collections-abstract-base-classes>`.  Examples include :class:`dict`, :class:`collections.defaultdict`, :class:`collections.OrderedDict` and :class:`collections.Counter`."
 msgstr ""
 
-#: ../../glossary.rst:500
+#: ../../glossary.rst:505
 msgid "metaclass"
 msgstr ""
 
-#: ../../glossary.rst:502
+#: ../../glossary.rst:507
 msgid "The class of a class.  Class definitions create a class name, a class dictionary, and a list of base classes.  The metaclass is responsible for taking those three arguments and creating the class.  Most object oriented programming languages provide a default implementation.  What makes Python special is that it is possible to create custom metaclasses.  Most users never need this tool, but when the need arises, metaclasses can provide powerful, elegant solutions.  They have been used for logging attribute access, adding thread-safety, tracking object creation, implementing singletons, and many other tasks."
 msgstr ""
 
-#: ../../glossary.rst:512
+#: ../../glossary.rst:517
 msgid "More information can be found in :ref:`metaclasses`."
 msgstr ""
 
-#: ../../glossary.rst:513
+#: ../../glossary.rst:518
 msgid "method"
 msgstr ""
 
-#: ../../glossary.rst:515
+#: ../../glossary.rst:520
 msgid "A function which is defined inside a class body.  If called as an attribute of an instance of that class, the method will get the instance object as its first :term:`argument` (which is usually called ``self``). See :term:`function` and :term:`nested scope`."
 msgstr ""
 
-#: ../../glossary.rst:519
+#: ../../glossary.rst:524
 msgid "method resolution order"
 msgstr ""
 
-#: ../../glossary.rst:521
+#: ../../glossary.rst:526
 msgid "Method Resolution Order is the order in which base classes are searched for a member during lookup. See `The Python 2.3 Method Resolution Order <https://www.python.org/download/releases/2.3/mro/>`_ for details of the algorithm used by the Python interpreter since the 2.3 release."
 msgstr ""
 
-#: ../../glossary.rst:525
+#: ../../glossary.rst:530
 msgid "module"
 msgstr ""
 
-#: ../../glossary.rst:527
+#: ../../glossary.rst:532
 msgid "An object that serves as an organizational unit of Python code.  Modules have a namespace containing arbitrary Python objects.  Modules are loaded into Python by the process of :term:`importing`."
 msgstr ""
 
-#: ../../glossary.rst:531
+#: ../../glossary.rst:536
 msgid "See also :term:`package`."
 msgstr ""
 
-#: ../../glossary.rst:532
+#: ../../glossary.rst:537
 msgid "MRO"
 msgstr ""
 
-#: ../../glossary.rst:534
+#: ../../glossary.rst:539
 msgid "See :term:`method resolution order`."
 msgstr ""
 
-#: ../../glossary.rst:535
+#: ../../glossary.rst:540
 msgid "mutable"
 msgstr ""
 
-#: ../../glossary.rst:537
+#: ../../glossary.rst:542
 msgid "Mutable objects can change their value but keep their :func:`id`.  See also :term:`immutable`."
 msgstr ""
 
-#: ../../glossary.rst:539
+#: ../../glossary.rst:544
 msgid "named tuple"
 msgstr ""
 
-#: ../../glossary.rst:541
+#: ../../glossary.rst:546
 msgid "Any tuple-like class whose indexable elements are also accessible using named attributes (for example, :func:`time.localtime` returns a tuple-like object where the *year* is accessible either with an index such as ``t[0]`` or with a named attribute like ``t.tm_year``)."
 msgstr ""
 
-#: ../../glossary.rst:546
+#: ../../glossary.rst:551
 msgid "A named tuple can be a built-in type such as :class:`time.struct_time`, or it can be created with a regular class definition.  A full featured named tuple can also be created with the factory function :func:`collections.namedtuple`.  The latter approach automatically provides extra features such as a self-documenting representation like ``Employee(name='jones', title='programmer')``."
 msgstr ""
 
-#: ../../glossary.rst:552
+#: ../../glossary.rst:557
 msgid "namespace"
 msgstr ""
 
-#: ../../glossary.rst:554
+#: ../../glossary.rst:559
 msgid "The place where a variable is stored.  Namespaces are implemented as dictionaries.  There are the local, global and built-in namespaces as well as nested namespaces in objects (in methods).  Namespaces support modularity by preventing naming conflicts.  For instance, the functions :func:`__builtin__.open` and :func:`os.open` are distinguished by their namespaces.  Namespaces also aid readability and maintainability by making it clear which module implements a function.  For instance, writing :func:`random.seed` or :func:`itertools.izip` makes it clear that those functions are implemented by the :mod:`random` and :mod:`itertools` modules, respectively."
 msgstr ""
 
-#: ../../glossary.rst:564
+#: ../../glossary.rst:569
 msgid "nested scope"
 msgstr ""
 
-#: ../../glossary.rst:566
+#: ../../glossary.rst:571
 msgid "The ability to refer to a variable in an enclosing definition.  For instance, a function defined inside another function can refer to variables in the outer function.  Note that nested scopes work only for reference and not for assignment which will always write to the innermost scope.  In contrast, local variables both read and write in the innermost scope.  Likewise, global variables read and write to the global namespace."
 msgstr ""
 
-#: ../../glossary.rst:572
+#: ../../glossary.rst:577
 msgid "new-style class"
 msgstr ""
 
-#: ../../glossary.rst:574
+#: ../../glossary.rst:579
 msgid "Any class which inherits from :class:`object`.  This includes all built-in types like :class:`list` and :class:`dict`.  Only new-style classes can use Python's newer, versatile features like :attr:`~object.__slots__`, descriptors, properties, and :meth:`__getattribute__`."
 msgstr ""
 
-#: ../../glossary.rst:579
+#: ../../glossary.rst:584
 msgid "More information can be found in :ref:`newstyle`."
 msgstr ""
 
-#: ../../glossary.rst:580
+#: ../../glossary.rst:585
 msgid "object"
 msgstr ""
 
-#: ../../glossary.rst:582
+#: ../../glossary.rst:587
 msgid "Any data with state (attributes or value) and defined behavior (methods).  Also the ultimate base class of any :term:`new-style class`."
 msgstr ""
 
-#: ../../glossary.rst:585
+#: ../../glossary.rst:590
 msgid "package"
 msgstr ""
 
-#: ../../glossary.rst:587
+#: ../../glossary.rst:592
 msgid "A Python :term:`module` which can contain submodules or recursively, subpackages.  Technically, a package is a Python module with an ``__path__`` attribute."
 msgstr ""
 
-#: ../../glossary.rst:590
+#: ../../glossary.rst:595
 msgid "parameter"
 msgstr ""
 
-#: ../../glossary.rst:592
+#: ../../glossary.rst:597
 msgid "A named entity in a :term:`function` (or method) definition that specifies an :term:`argument` (or in some cases, arguments) that the function can accept.  There are four types of parameters:"
 msgstr ""
 
-#: ../../glossary.rst:596
+#: ../../glossary.rst:601
 msgid ":dfn:`positional-or-keyword`: specifies an argument that can be passed either :term:`positionally <argument>` or as a :term:`keyword argument <argument>`.  This is the default kind of parameter, for example *foo* and *bar* in the following::"
 msgstr ""
 
-#: ../../glossary.rst:603
+#: ../../glossary.rst:608
 msgid ":dfn:`positional-only`: specifies an argument that can be supplied only by position.  Python has no syntax for defining positional-only parameters.  However, some built-in functions have positional-only parameters (e.g. :func:`abs`)."
 msgstr ""
 
-#: ../../glossary.rst:608
+#: ../../glossary.rst:613
 msgid ":dfn:`var-positional`: specifies that an arbitrary sequence of positional arguments can be provided (in addition to any positional arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with ``*``, for example *args* in the following::"
 msgstr ""
 
-#: ../../glossary.rst:616
+#: ../../glossary.rst:621
 msgid ":dfn:`var-keyword`: specifies that arbitrarily many keyword arguments can be provided (in addition to any keyword arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with ``**``, for example *kwargs* in the example above."
 msgstr ""
 
-#: ../../glossary.rst:622
+#: ../../glossary.rst:627
 msgid "Parameters can specify both optional and required arguments, as well as default values for some optional arguments."
 msgstr ""
 
-#: ../../glossary.rst:625
+#: ../../glossary.rst:630
 msgid "See also the :term:`argument` glossary entry, the FAQ question on :ref:`the difference between arguments and parameters <faq-argument-vs-parameter>`, and the :ref:`function` section."
 msgstr ""
 
-#: ../../glossary.rst:628
+#: ../../glossary.rst:633
 msgid "PEP"
 msgstr ""
 
-#: ../../glossary.rst:630
+#: ../../glossary.rst:635
 msgid "Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment. PEPs should provide a concise technical specification and a rationale for proposed features."
 msgstr ""
 
-#: ../../glossary.rst:636
+#: ../../glossary.rst:641
 msgid "PEPs are intended to be the primary mechanisms for proposing major new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Python. The PEP author is responsible for building consensus within the community and documenting dissenting opinions."
 msgstr ""
 
-#: ../../glossary.rst:642
+#: ../../glossary.rst:647
 msgid "See :pep:`1`."
 msgstr ""
 
-#: ../../glossary.rst:643
+#: ../../glossary.rst:648
 msgid "positional argument"
 msgstr ""
 
-#: ../../glossary.rst:646
+#: ../../glossary.rst:651
 msgid "Python 3000"
 msgstr ""
 
-#: ../../glossary.rst:648
+#: ../../glossary.rst:653
 msgid "Nickname for the Python 3.x release line (coined long ago when the release of version 3 was something in the distant future.)  This is also abbreviated \"Py3k\"."
 msgstr ""
 
-#: ../../glossary.rst:651
+#: ../../glossary.rst:656
 msgid "Pythonic"
 msgstr ""
 
-#: ../../glossary.rst:653
+#: ../../glossary.rst:658
 msgid "An idea or piece of code which closely follows the most common idioms of the Python language, rather than implementing code using concepts common to other languages.  For example, a common idiom in Python is to loop over all elements of an iterable using a :keyword:`for` statement.  Many other languages don't have this type of construct, so people unfamiliar with Python sometimes use a numerical counter instead::"
 msgstr ""
 
-#: ../../glossary.rst:663
+#: ../../glossary.rst:668
 msgid "As opposed to the cleaner, Pythonic method::"
 msgstr ""
 
-#: ../../glossary.rst:667
+#: ../../glossary.rst:672
 msgid "reference count"
 msgstr ""
 
-#: ../../glossary.rst:669
+#: ../../glossary.rst:674
 msgid "The number of references to an object.  When the reference count of an object drops to zero, it is deallocated.  Reference counting is generally not visible to Python code, but it is a key element of the :term:`CPython` implementation.  The :mod:`sys` module defines a :func:`~sys.getrefcount` function that programmers can call to return the reference count for a particular object."
 msgstr ""
 
-#: ../../glossary.rst:675
+#: ../../glossary.rst:680
 msgid "__slots__"
 msgstr ""
 
-#: ../../glossary.rst:677
+#: ../../glossary.rst:682
 msgid "A declaration inside a :term:`new-style class` that saves memory by pre-declaring space for instance attributes and eliminating instance dictionaries.  Though popular, the technique is somewhat tricky to get right and is best reserved for rare cases where there are large numbers of instances in a memory-critical application."
 msgstr ""
 
-#: ../../glossary.rst:682
+#: ../../glossary.rst:687
 msgid "sequence"
 msgstr ""
 
-#: ../../glossary.rst:684
+#: ../../glossary.rst:689
 msgid "An :term:`iterable` which supports efficient element access using integer indices via the :meth:`__getitem__` special method and defines a :meth:`len` method that returns the length of the sequence. Some built-in sequence types are :class:`list`, :class:`str`, :class:`tuple`, and :class:`unicode`. Note that :class:`dict` also supports :meth:`__getitem__` and :meth:`__len__`, but is considered a mapping rather than a sequence because the lookups use arbitrary :term:`immutable` keys rather than integers."
 msgstr ""
 
-#: ../../glossary.rst:692
+#: ../../glossary.rst:697
 msgid "slice"
 msgstr ""
 
-#: ../../glossary.rst:694
+#: ../../glossary.rst:699
 msgid "An object usually containing a portion of a :term:`sequence`.  A slice is created using the subscript notation, ``[]`` with colons between numbers when several are given, such as in ``variable_name[1:3:5]``.  The bracket (subscript) notation uses :class:`slice` objects internally (or in older versions, :meth:`__getslice__` and :meth:`__setslice__`)."
 msgstr ""
 
-#: ../../glossary.rst:699
+#: ../../glossary.rst:704
 msgid "special method"
 msgstr ""
 
-#: ../../glossary.rst:701
+#: ../../glossary.rst:708
 msgid "A method that is called implicitly by Python to execute a certain operation on a type, such as addition.  Such methods have names starting and ending with double underscores.  Special methods are documented in :ref:`specialnames`."
 msgstr ""
 
-#: ../../glossary.rst:705
+#: ../../glossary.rst:712
 msgid "statement"
 msgstr ""
 
-#: ../../glossary.rst:707
+#: ../../glossary.rst:714
 msgid "A statement is part of a suite (a \"block\" of code).  A statement is either an :term:`expression` or one of several constructs with a keyword, such as :keyword:`if`, :keyword:`while` or :keyword:`for`."
 msgstr ""
 
-#: ../../glossary.rst:710
+#: ../../glossary.rst:717
 msgid "struct sequence"
 msgstr ""
 
-#: ../../glossary.rst:712
+#: ../../glossary.rst:719
 msgid "A tuple with named elements. Struct sequences expose an interface similiar to :term:`named tuple` in that elements can be accessed either by index or as an attribute. However, they do not have any of the named tuple methods like :meth:`~collections.somenamedtuple._make` or :meth:`~collections.somenamedtuple._asdict`. Examples of struct sequences include :data:`sys.float_info` and the return value of :func:`os.stat`."
 msgstr ""
 
-#: ../../glossary.rst:718
+#: ../../glossary.rst:725
 msgid "triple-quoted string"
 msgstr ""
 
-#: ../../glossary.rst:720
+#: ../../glossary.rst:727
 msgid "A string which is bound by three instances of either a quotation mark (\") or an apostrophe (').  While they don't provide any functionality not available with single-quoted strings, they are useful for a number of reasons.  They allow you to include unescaped single and double quotes within a string and they can span multiple lines without the use of the continuation character, making them especially useful when writing docstrings."
 msgstr ""
 
-#: ../../glossary.rst:727
+#: ../../glossary.rst:734
 msgid "type"
 msgstr ""
 
-#: ../../glossary.rst:729
+#: ../../glossary.rst:736
 msgid "The type of a Python object determines what kind of object it is; every object has a type.  An object's type is accessible as its :attr:`~instance.__class__` attribute or can be retrieved with ``type(obj)``."
 msgstr ""
 
-#: ../../glossary.rst:733
+#: ../../glossary.rst:740
 msgid "universal newlines"
 msgstr ""
 
-#: ../../glossary.rst:735
+#: ../../glossary.rst:742
 msgid "A manner of interpreting text streams in which all of the following are recognized as ending a line: the Unix end-of-line convention ``'\\n'``, the Windows convention ``'\\r\\n'``, and the old Macintosh convention ``'\\r'``.  See :pep:`278` and :pep:`3116`, as well as :func:`str.splitlines` for an additional use."
 msgstr ""
 
-#: ../../glossary.rst:740
+#: ../../glossary.rst:747
 msgid "virtual environment"
 msgstr ""
 
-#: ../../glossary.rst:742
+#: ../../glossary.rst:749
 msgid "A cooperatively isolated runtime environment that allows Python users and applications to install and upgrade Python distribution packages without interfering with the behaviour of other Python applications running on the same system."
 msgstr ""
 
-#: ../../glossary.rst:746
+#: ../../glossary.rst:753
 msgid "virtual machine"
 msgstr ""
 
-#: ../../glossary.rst:748
+#: ../../glossary.rst:755
 msgid "A computer defined entirely in software.  Python's virtual machine executes the :term:`bytecode` emitted by the bytecode compiler."
 msgstr ""
 
-#: ../../glossary.rst:750
+#: ../../glossary.rst:757
 msgid "Zen of Python"
 msgstr ""
 
-#: ../../glossary.rst:752
+#: ../../glossary.rst:759
 msgid "Listing of Python design principles and philosophies that are helpful in understanding and using the language.  The listing can be found by typing \"``import this``\" at the interactive prompt."
 msgstr ""
 
