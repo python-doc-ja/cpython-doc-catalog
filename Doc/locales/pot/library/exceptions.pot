@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-04-09 16:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -331,11 +331,15 @@ msgstr ""
 msgid "Base class for warnings related to Unicode."
 msgstr ""
 
-#: ../../library/exceptions.rst:528
+#: ../../library/exceptions.rst:529
+msgid "Base class for warnings related to :class:`str` and :class:`bytearray`."
+msgstr ""
+
+#: ../../library/exceptions.rst:535
 msgid "Exception hierarchy"
 msgstr ""
 
-#: ../../library/exceptions.rst:530
+#: ../../library/exceptions.rst:537
 msgid "The class hierarchy for built-in exceptions is:"
 msgstr ""
 
