@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-04-09 11:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -656,7 +656,7 @@ msgid "``gt(a, b)``"
 msgstr ""
 
 #: ../../library/operator.rst:442
-msgid "Inplace Operators"
+msgid "In-place Operators"
 msgstr ""
 
 #: ../../library/operator.rst:444
@@ -672,7 +672,7 @@ msgid "For immutable targets such as strings, numbers, and tuples, the updated v
 msgstr ""
 
 #: ../../library/operator.rst:465
-msgid "For mutable targets such as lists and dictionaries, the inplace method will perform the update, so no subsequent assignment is necessary:"
+msgid "For mutable targets such as lists and dictionaries, the in-place method will perform the update, so no subsequent assignment is necessary:"
 msgstr ""
 
 #: ../../library/operator.rst:477

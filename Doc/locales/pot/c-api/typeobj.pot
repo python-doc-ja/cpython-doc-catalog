@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-04-09 11:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -855,11 +855,11 @@ msgid "This function may be used by :c:func:`PySequence_Contains` and has the sa
 msgstr ""
 
 #: ../../c-api/typeobj.rst:1255
-msgid "This function is used by :c:func:`PySequence_InPlaceConcat` and has the same signature.  It should modify its first operand, and return it.  This slot may be left to *NULL*, in this case :c:func:`!PySequence_InPlaceConcat` will fall back to :c:func:`PySequence_Concat`.  It is also used by the augmented assignment ``+=``, after trying numeric inplace addition via the :c:member:`~PyNumberMethods.nb_inplace_add` slot."
+msgid "This function is used by :c:func:`PySequence_InPlaceConcat` and has the same signature.  It should modify its first operand, and return it.  This slot may be left to *NULL*, in this case :c:func:`!PySequence_InPlaceConcat` will fall back to :c:func:`PySequence_Concat`.  It is also used by the augmented assignment ``+=``, after trying numeric in-place addition via the :c:member:`~PyNumberMethods.nb_inplace_add` slot."
 msgstr ""
 
 #: ../../c-api/typeobj.rst:1264
-msgid "This function is used by :c:func:`PySequence_InPlaceRepeat` and has the same signature.  It should modify its first operand, and return it.  This slot may be left to *NULL*, in this case :c:func:`!PySequence_InPlaceRepeat` will fall back to :c:func:`PySequence_Repeat`.  It is also used by the augmented assignment ``*=``, after trying numeric inplace multiplication via the :c:member:`~PyNumberMethods.nb_inplace_multiply` slot."
+msgid "This function is used by :c:func:`PySequence_InPlaceRepeat` and has the same signature.  It should modify its first operand, and return it.  This slot may be left to *NULL*, in this case :c:func:`!PySequence_InPlaceRepeat` will fall back to :c:func:`PySequence_Repeat`.  It is also used by the augmented assignment ``*=``, after trying numeric in-place multiplication via the :c:member:`~PyNumberMethods.nb_inplace_multiply` slot."
 msgstr ""
 
 #: ../../c-api/typeobj.rst:1275
