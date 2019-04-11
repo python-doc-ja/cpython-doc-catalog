@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 10:56+0900\n"
+"POT-Creation-Date: 2019-04-11 11:08+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1001,95 +1001,99 @@ msgstr ""
 msgid "Open *fullurl* using the appropriate protocol.  This method sets up cache and proxy information, then calls the appropriate open method with its input arguments.  If the scheme is not recognized, :meth:`open_unknown` is called. The *data* argument has the same meaning as the *data* argument of :func:`urlopen`."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1441
+#: ../../library/urllib.request.rst:1438
+msgid "This method always quotes *fullurl* using :func:`~urllib.parse.quote`."
+msgstr ""
+
+#: ../../library/urllib.request.rst:1442
 msgid "Overridable interface to open unknown URL types."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1446
+#: ../../library/urllib.request.rst:1447
 msgid "Retrieves the contents of *url* and places it in *filename*.  The return value is a tuple consisting of a local filename and either an :class:`email.message.Message` object containing the response headers (for remote URLs) or ``None`` (for local URLs).  The caller must then open and read the contents of *filename*.  If *filename* is not given and the URL refers to a local file, the input filename is returned.  If the URL is non-local and *filename* is not given, the filename is the output of :func:`tempfile.mktemp` with a suffix that matches the suffix of the last path component of the input URL.  If *reporthook* is given, it must be a function accepting three numeric parameters: A chunk number, the maximum size chunks are read in and the total size of the download (-1 if unknown).  It will be called once at the start and after each chunk of data is read from the network.  *reporthook* is ignored for local URLs."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1459
+#: ../../library/urllib.request.rst:1460
 msgid "If the *url* uses the :file:`http:` scheme identifier, the optional *data* argument may be given to specify a ``POST`` request (normally the request type is ``GET``).  The *data* argument must in standard :mimetype:`application/x-www-form-urlencoded` format; see the :func:`urllib.parse.urlencode` function."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1468
+#: ../../library/urllib.request.rst:1469
 msgid "Variable that specifies the user agent of the opener object.  To get :mod:`urllib` to tell servers that it is a particular user agent, set this in a subclass as a class variable or in the constructor before calling the base constructor."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1478
+#: ../../library/urllib.request.rst:1479
 msgid ":class:`FancyURLopener` subclasses :class:`URLopener` providing default handling for the following HTTP response codes: 301, 302, 303, 307 and 401.  For the 30x response codes listed above, the :mailheader:`Location` header is used to fetch the actual URL.  For 401 response codes (authentication required), basic HTTP authentication is performed.  For the 30x response codes, recursion is bounded by the value of the *maxtries* attribute, which defaults to 10."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1485
+#: ../../library/urllib.request.rst:1486
 msgid "For all other response codes, the method :meth:`http_error_default` is called which you can override in subclasses to handle the error appropriately."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1490
+#: ../../library/urllib.request.rst:1491
 msgid "According to the letter of :rfc:`2616`, 301 and 302 responses to POST requests must not be automatically redirected without confirmation by the user.  In reality, browsers do allow automatic redirection of these responses, changing the POST to a GET, and :mod:`urllib` reproduces this behaviour."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1495
+#: ../../library/urllib.request.rst:1496
 msgid "The parameters to the constructor are the same as those for :class:`URLopener`."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1499
+#: ../../library/urllib.request.rst:1500
 msgid "When performing basic authentication, a :class:`FancyURLopener` instance calls its :meth:`prompt_user_passwd` method.  The default implementation asks the users for the required information on the controlling terminal.  A subclass may override this method to support more appropriate behavior if needed."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1504
+#: ../../library/urllib.request.rst:1505
 msgid "The :class:`FancyURLopener` class offers one additional method that should be overloaded to provide the appropriate behavior:"
 msgstr ""
 
-#: ../../library/urllib.request.rst:1509
+#: ../../library/urllib.request.rst:1510
 msgid "Return information needed to authenticate the user at the given host in the specified security realm.  The return value should be a tuple, ``(user, password)``, which can be used for basic authentication."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1513
+#: ../../library/urllib.request.rst:1514
 msgid "The implementation prompts for this information on the terminal; an application should override this method to use an appropriate interaction model in the local environment."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1519
+#: ../../library/urllib.request.rst:1520
 msgid ":mod:`urllib.request` Restrictions"
 msgstr ""
 
-#: ../../library/urllib.request.rst:1525
+#: ../../library/urllib.request.rst:1526
 msgid "Currently, only the following protocols are supported: HTTP (versions 0.9 and 1.0), FTP, local files, and data URLs."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1528
+#: ../../library/urllib.request.rst:1529
 msgid "Added support for data URLs."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1530
+#: ../../library/urllib.request.rst:1531
 msgid "The caching feature of :func:`urlretrieve` has been disabled until someone finds the time to hack proper processing of Expiration time headers."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1533
+#: ../../library/urllib.request.rst:1534
 msgid "There should be a function to query whether a particular URL is in the cache."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1535
+#: ../../library/urllib.request.rst:1536
 msgid "For backward compatibility, if a URL appears to point to a local file but the file can't be opened, the URL is re-interpreted using the FTP protocol.  This can sometimes cause confusing error messages."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1539
+#: ../../library/urllib.request.rst:1540
 msgid "The :func:`urlopen` and :func:`urlretrieve` functions can cause arbitrarily long delays while waiting for a network connection to be set up.  This means that it is difficult to build an interactive Web client using these functions without using threads."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1548
+#: ../../library/urllib.request.rst:1549
 msgid "The data returned by :func:`urlopen` or :func:`urlretrieve` is the raw data returned by the server.  This may be binary data (such as an image), plain text or (for example) HTML.  The HTTP protocol provides type information in the reply header, which can be inspected by looking at the :mailheader:`Content-Type` header.  If the returned data is HTML, you can use the module :mod:`html.parser` to parse it."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1557
+#: ../../library/urllib.request.rst:1558
 msgid "The code handling the FTP protocol cannot differentiate between a file and a directory.  This can lead to unexpected behavior when attempting to read a URL that points to a file that is not accessible.  If the URL ends in a ``/``, it is assumed to refer to a directory and will be handled accordingly.  But if an attempt to read a file leads to a 550 error (meaning the URL cannot be found or is not accessible, often for permission reasons), then the path is treated as a directory in order to handle the case when a directory is specified by a URL but the trailing ``/`` has been left off.  This can cause misleading results when you try to fetch a file whose read permissions make it inaccessible; the FTP code will try to read it, fail with a 550 error, and then perform a directory listing for the unreadable file. If fine-grained control is needed, consider using the :mod:`ftplib` module, subclassing :class:`FancyURLopener`, or changing *_urlopener* to meet your needs."
 msgstr ""
 
-#: ../../library/urllib.request.rst:1574
+#: ../../library/urllib.request.rst:1575
 msgid ":mod:`urllib.response` --- Response classes used by urllib"
 msgstr ""
 
-#: ../../library/urllib.request.rst:1579
+#: ../../library/urllib.request.rst:1580
 msgid "The :mod:`urllib.response` module defines functions and classes which define a minimal file like interface, including ``read()`` and ``readline()``. The typical response object is an addinfourl instance, which defines an ``info()`` method and that returns headers and a ``geturl()`` method that returns the url. Functions defined by this module are used internally by the :mod:`urllib.request` module."
 msgstr ""
 
