@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-04-12 11:10+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -513,7 +513,7 @@ msgid "Return the current state of the decoder. This must be a tuple with two it
 msgstr ""
 
 #: ../../library/codecs.rst:641
-msgid "Set the state of the encoder to *state*. *state* must be a decoder state returned by :meth:`getstate`."
+msgid "Set the state of the decoder to *state*. *state* must be a decoder state returned by :meth:`getstate`."
 msgstr ""
 
 #: ../../library/codecs.rst:646
