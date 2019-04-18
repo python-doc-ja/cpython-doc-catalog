@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 11:09+0900\n"
+"POT-Creation-Date: 2019-04-18 11:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -591,6 +591,10 @@ msgstr ""
 
 #: ../../library/typing.rst:948
 msgid "This decorator is itself not available at runtime. It is mainly intended to mark classes that are defined in type stub files if an implementation returns an instance of a private class::"
+msgstr ""
+
+#: ../../library/typing.rst:959
+msgid "Note that returning instances of private classes is not recommended. It is usually preferable to make such classes public."
 msgstr ""
 
 #: ../../library/typing.rst:964
