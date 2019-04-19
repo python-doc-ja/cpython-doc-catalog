@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-04-19 11:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,8 +270,8 @@ msgstr ""
 msgid "Return the current time, as a :class:`float` value, according to the event loop's internal monotonic clock."
 msgstr ""
 
-#: ../../library/asyncio-eventloop.rst:285
-msgid "Timeouts (relative *delay* or absolute *when*) should not exceed one day."
+#: ../../library/asyncio-eventloop.rst:284
+msgid "In Python 3.7 and earlier timeouts (relative *delay* or absolute *when*) should not exceed one day.  This has been fixed in Python 3.8."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:290
