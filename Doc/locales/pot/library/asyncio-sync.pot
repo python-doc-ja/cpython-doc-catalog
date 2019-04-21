@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-04-21 11:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "methods of these synchronization primitives do not accept the *timeout* a
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:20
-msgid "asyncio has the following basic sychronization primitives:"
+msgid "asyncio has the following basic synchronization primitives:"
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:22
