@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-12 11:10+0900\n"
+"POT-Creation-Date: 2019-05-01 11:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -301,7 +301,7 @@ msgid "Although certain modules are designed to export only names that follow ce
 msgstr ""
 
 #: ../../tutorial/modules.rst:526
-msgid "Remember, there is nothing wrong with using ``from Package import specific_submodule``!  In fact, this is the recommended notation unless the importing module needs to use submodules with the same name from different packages."
+msgid "Remember, there is nothing wrong with using ``from package import specific_submodule``!  In fact, this is the recommended notation unless the importing module needs to use submodules with the same name from different packages."
 msgstr ""
 
 #: ../../tutorial/modules.rst:533
