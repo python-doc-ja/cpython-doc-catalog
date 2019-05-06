@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-06 11:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid "Python knows a number of *compound* data types, used to group together ot
 msgstr ""
 
 #: ../../tutorial/introduction.rst:386
-msgid "Like strings (and all other built-in :term:`sequence` type), lists can be indexed and sliced::"
+msgid "Like strings (and all other built-in :term:`sequence` types), lists can be indexed and sliced::"
 msgstr ""
 
 #: ../../tutorial/introduction.rst:396
