@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 10:43+0900\n"
+"POT-Creation-Date: 2019-05-07 11:22+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,11 +233,12 @@ msgid "``prompt`` -- a String to be used after virtual environment is activated 
 msgstr ""
 
 #: ../../library/venv.rst:131
-#: ../../library/venv.rst:247
+#: ../../library/venv.rst:249
 msgid "Added the ``with_pip`` parameter"
 msgstr ""
 
 #: ../../library/venv.rst:134
+#: ../../library/venv.rst:252
 msgid "Added the ``prompt`` parameter"
 msgstr ""
 
@@ -329,15 +330,15 @@ msgstr ""
 msgid "Create an :class:`EnvBuilder` with the given keyword arguments, and call its :meth:`~EnvBuilder.create` method with the *env_dir* argument."
 msgstr ""
 
-#: ../../library/venv.rst:251
+#: ../../library/venv.rst:256
 msgid "An example of extending ``EnvBuilder``"
 msgstr ""
 
-#: ../../library/venv.rst:253
+#: ../../library/venv.rst:258
 msgid "The following script shows how to extend :class:`EnvBuilder` by implementing a subclass which installs setuptools and pip into a created virtual environment::"
 msgstr ""
 
-#: ../../library/venv.rst:472
+#: ../../library/venv.rst:477
 msgid "This script is also available for download `online <https://gist.github.com/vsajip/4673395>`_."
 msgstr ""
 
