@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 10:40+0900\n"
+"POT-Creation-Date: 2019-05-09 11:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -514,7 +514,7 @@ msgid "If the path doesn't exist and *strict* is ``True``, :exc:`FileNotFoundErr
 msgstr ""
 
 #: ../../library/pathlib.rst:968
-msgid "The *strict* argument."
+msgid "The *strict* argument (pre-3.6 behavior is strict)."
 msgstr ""
 
 #: ../../library/pathlib.rst:973
