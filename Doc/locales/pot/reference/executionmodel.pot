@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-14 11:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgid "Python uses the \"termination\" model of error handling: an exception han
 msgstr ""
 
 #: ../../reference/executionmodel.rst:244
-msgid "When an exception is not handled at all, the interpreter terminates execution of the program, or returns to its interactive main loop.  In either case, it prints a stack backtrace, except when the exception is :exc:`SystemExit`."
+msgid "When an exception is not handled at all, the interpreter terminates execution of the program, or returns to its interactive main loop.  In either case, it prints a stack traceback, except when the exception is :exc:`SystemExit`."
 msgstr ""
 
 #: ../../reference/executionmodel.rst:248

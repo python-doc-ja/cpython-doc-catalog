@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-12 10:20+0900\n"
+"POT-Creation-Date: 2019-05-14 11:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgstr ""
 msgid "On Windows, this function returns wall-clock seconds elapsed since the first call to this function, as a floating point number, based on the Win32 function :c:func:`QueryPerformanceCounter`. The resolution is typically better than one microsecond."
 msgstr ""
 
-#: ../../library/time.rst:156
+#: ../../library/time.rst:159
 msgid "The behaviour of this function depends on the platform: use :func:`perf_counter` or :func:`process_time` instead, depending on your requirements, to have a well defined behaviour."
 msgstr ""
 
