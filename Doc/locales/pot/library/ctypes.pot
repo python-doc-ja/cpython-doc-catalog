@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-16 11:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1574,7 +1574,7 @@ msgid "The :attr:`_fields_` class variable must, however, be defined before the 
 msgstr ""
 
 #: ../../library/ctypes.rst:2368
-msgid "It is possible to defined sub-subclasses of structure types, they inherit the fields of the base class plus the :attr:`_fields_` defined in the sub-subclass, if any."
+msgid "It is possible to define sub-subclasses of structure types, they inherit the fields of the base class plus the :attr:`_fields_` defined in the sub-subclass, if any."
 msgstr ""
 
 #: ../../library/ctypes.rst:2375
@@ -1598,7 +1598,7 @@ msgid "The ``TYPEDESC`` structure describes a COM data type, the ``vt`` field sp
 msgstr ""
 
 #: ../../library/ctypes.rst:2416
-msgid "It is possible to defined sub-subclasses of structures, they inherit the fields of the base class.  If the subclass definition has a separate :attr:`_fields_` variable, the fields specified in this are appended to the fields of the base class."
+msgid "It is possible to define sub-subclasses of structures, they inherit the fields of the base class.  If the subclass definition has a separate :attr:`_fields_` variable, the fields specified in this are appended to the fields of the base class."
 msgstr ""
 
 #: ../../library/ctypes.rst:2421
