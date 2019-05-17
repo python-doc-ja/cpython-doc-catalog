@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-28 11:17+0900\n"
+"POT-Creation-Date: 2019-05-17 11:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "Output windows, such as used for Edit => Find in Files, are a subtype of 
 msgstr ""
 
 #: ../../library/idle.rst:51
-msgid "On macOS, there is one application menu.  It dynamically changes according to the window currently selected.  It has an IDLE menu, and some entries described below are moved around to conform to Apple guidlines."
+msgid "On macOS, there is one application menu.  It dynamically changes according to the window currently selected.  It has an IDLE menu, and some entries described below are moved around to conform to Apple guidelines."
 msgstr ""
 
 #: ../../library/idle.rst:56
@@ -999,7 +999,7 @@ msgid "Developing tkinter applications"
 msgstr ""
 
 #: ../../library/idle.rst:767
-msgid "IDLE is intentionally different from standard Python in order to facilitate development of tkinter programs.  Enter ``import tkinter as tk; root = tk.Tk()`` in standard Python and nothing appears.  Enter the same in IDLE and a tk window appears.  In standard Python, one must also enter ``root.update()`` to see the window.  IDLE does the equivalent in the background, about 20 times a second, which is about every 50 milleseconds. Next enter ``b = tk.Button(root, text='button'); b.pack()``.  Again, nothing visibly changes in standard Python until one enters ``root.update()``."
+msgid "IDLE is intentionally different from standard Python in order to facilitate development of tkinter programs.  Enter ``import tkinter as tk; root = tk.Tk()`` in standard Python and nothing appears.  Enter the same in IDLE and a tk window appears.  In standard Python, one must also enter ``root.update()`` to see the window.  IDLE does the equivalent in the background, about 20 times a second, which is about every 50 milliseconds. Next enter ``b = tk.Button(root, text='button'); b.pack()``.  Again, nothing visibly changes in standard Python until one enters ``root.update()``."
 msgstr ""
 
 #: ../../library/idle.rst:776
