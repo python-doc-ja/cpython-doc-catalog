@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-18 11:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid ":mod:`math` --- Mathematical functions"
 msgstr ""
 
 #: ../../library/math.rst:13
-msgid "This module is always available.  It provides access to the mathematical functions defined by the C standard."
+msgid "This module provides access to the mathematical functions defined by the C standard."
 msgstr ""
 
 #: ../../library/math.rst:16

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-31 11:01+0900\n"
+"POT-Creation-Date: 2019-05-18 11:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1135,7 +1135,7 @@ msgid "Set the interpreter's thread switch interval (in seconds).  This floating
 msgstr ""
 
 #: ../../library/sys.rst:1172
-msgid "Set the system's trace function, which allows you to implement a Python source code debugger in Python.  The function is thread-specific; for a debugger to support multiple threads, it must be registered using :func:`settrace` for each thread being debugged."
+msgid "Set the system's trace function, which allows you to implement a Python source code debugger in Python.  The function is thread-specific; for a debugger to support multiple threads, it must register a trace function using :func:`settrace` for each thread being debugged or use :func:`threading.settrace`."
 msgstr ""
 
 #: ../../library/sys.rst:1177
