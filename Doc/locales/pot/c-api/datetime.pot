@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 11:22+0900\n"
+"POT-Creation-Date: 2019-05-19 11:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,11 +93,11 @@ msgid "Return a :class:`datetime.datetime` object with the specified year, month
 msgstr ""
 
 #: ../../c-api/datetime.rst:111
-msgid "Return a :class:`datetime.time` object with the specified hour, minute, second, microsecond and fold."
+msgid "Return a :class:`datetime.time` object with the specified hour, minute, second and microsecond."
 msgstr ""
 
-#: ../../c-api/datetime.rst:119
-msgid "Return a :class:`datetime.time` object with the specified hour, minute, second and microsecond."
+#: ../../c-api/datetime.rst:117
+msgid "Return a :class:`datetime.time` object with the specified hour, minute, second, microsecond and fold."
 msgstr ""
 
 #: ../../c-api/datetime.rst:125
