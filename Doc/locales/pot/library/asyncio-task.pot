@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-20 11:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgid "Note that simply calling a coroutine will not schedule it to be executed:
 msgstr ""
 
 #: ../../library/asyncio-task.rst:43
-msgid "To actually run a coroutine asyncio provides three main mechanisms:"
+msgid "To actually run a coroutine, asyncio provides three main mechanisms:"
 msgstr ""
 
 #: ../../library/asyncio-task.rst:45
