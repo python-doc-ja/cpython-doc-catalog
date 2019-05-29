@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-29 11:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "The :mod:`readline` module defines a number of functions to facilitate co
 msgstr ""
 
 #: ../../library/readline.rst:20
-msgid "Readline keybindings may be configured via an initialization file, typically ``.inputrc`` in your home directory.  See `Readline Init File <https://cnswww.cns.cwru.edu/php/chet/readline/rluserman.html#SEC9>`_ in the GNU Readline manual for information about the format and allowable constructs of that file, and the capabilities of the Readline library in general."
+msgid "Readline keybindings may be configured via an initialization file, typically ``.inputrc`` in your home directory.  See `Readline Init File <https://tiswww.cwru.edu/php/chet/readline/rluserman.html#SEC9>`_ in the GNU Readline manual for information about the format and allowable constructs of that file, and the capabilities of the Readline library in general."
 msgstr ""
 
 #: ../../library/readline.rst:29

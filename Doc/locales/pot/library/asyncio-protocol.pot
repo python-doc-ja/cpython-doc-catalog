@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-05-29 11:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Transports are classes provided by :mod:`asyncio` in order to abstract va
 msgstr ""
 
 #: ../../library/asyncio-protocol.rst:75
-msgid "Transport objects are always instantiated by an ref:`asyncio event loop <asyncio-event-loop>`."
+msgid "Transport objects are always instantiated by an :ref:`asyncio event loop <asyncio-event-loop>`."
 msgstr ""
 
 #: ../../library/asyncio-protocol.rst:78
