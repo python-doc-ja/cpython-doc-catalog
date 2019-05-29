@@ -17,6 +17,7 @@ import traceback
 import asyncore
 import weakref
 import platform
+import re
 import functools
 try:
     import ctypes
@@ -144,6 +145,38 @@ def skip_if_broken_ubuntu_ssl(func):
         return f
     else:
         return func
+
+def skip_if_openssl_cnf_minprotocol_gt_tls1(func):
+    """Skip a test if the OpenSSL config MinProtocol is > TLSv1.
+
+    OS distros with an /etc/ssl/openssl.cnf and MinProtocol set often do so to
+    require TLSv1.2 or higher (Debian Buster).  Some of our tests for older
+    protocol versions will fail under such a config.
+
+    Alternative workaround: Run this test in a process with
+    OPENSSL_CONF=/dev/null in the environment.
+    """
+    @functools.wraps(func)
+    def f(*args, **kwargs):
+        openssl_cnf = os.environ.get("OPENSSL_CONF", "/etc/ssl/openssl.cnf")
+        try:
+            with open(openssl_cnf, "r") as config:
+                for line in config:
+                    match = re.match(r"MinProtocol\s*=\s*(TLSv\d+\S*)", line)
+                    if match:
+                        tls_ver = match.group(1)
+                        if tls_ver > "TLSv1":
+                            raise unittest.SkipTest(
+                                "%s has MinProtocol = %s which is > TLSv1." %
+                                (openssl_cnf, tls_ver))
+        except (EnvironmentError, UnicodeDecodeError) as err:
+            # no config file found, etc.
+            if support.verbose:
+                sys.stdout.write("\n Could not scan %s for MinProtocol: %s\n"
+                                 % (openssl_cnf, err))
+        return func(*args, **kwargs)
+    return f
+
 
 needs_sni = unittest.skipUnless(ssl.HAS_SNI, "SNI support needed for this test")
 
@@ -2029,6 +2062,16 @@ if _have_threads:
                                 sys.stdout.write(" server: read %r (%s), sending back %r (%s)...\n"
                                                  % (msg, ctype, msg.lower(), ctype))
                             self.write(msg.lower())
+                    except ConnectionResetError:
+                        # XXX: OpenSSL 1.1.1 sometimes raises ConnectionResetError
+                        # when connection is not shut down gracefully.
+                        if self.server.chatty and support.verbose:
+                            sys.stdout.write(
+                                " Connection reset by peer: {}\n".format(
+                                    self.addr)
+                            )
+                        self.close()
+                        self.running = False
                     except OSError:
                         if self.server.chatty:
                             handle_error("Test server failure:\n")
@@ -2108,6 +2151,11 @@ if _have_threads:
                     pass
                 except KeyboardInterrupt:
                     self.stop()
+                except BaseException as e:
+                    if support.verbose and self.chatty:
+                        sys.stdout.write(
+                            ' connection handling failed: ' + repr(e) + '\n')
+
             self.sock.close()
 
         def stop(self):
@@ -2614,6 +2662,7 @@ if _have_threads:
                                client_options=ssl.OP_NO_TLSv1)
 
         @skip_if_broken_ubuntu_ssl
+        @skip_if_openssl_cnf_minprotocol_gt_tls1
         def test_protocol_sslv23(self):
             """Connecting to an SSLv23 server with various client options"""
             if support.verbose:
@@ -2691,6 +2740,7 @@ if _have_threads:
         @skip_if_broken_ubuntu_ssl
         @unittest.skipUnless(hasattr(ssl, "PROTOCOL_TLSv1_1"),
                              "TLS version 1.1 not supported.")
+        @skip_if_openssl_cnf_minprotocol_gt_tls1
         def test_protocol_tlsv1_1(self):
             """Connecting to a TLSv1.1 server with various client options.
                Testing against older TLS versions."""
