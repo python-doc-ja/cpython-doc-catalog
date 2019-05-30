@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-03 15:37+0900\n"
+"POT-Creation-Date: 2019-05-30 16:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -623,82 +623,82 @@ msgid "These fields should not be used if your package is to be compatible with 
 msgstr ""
 
 #: ../../distutils/setupscript.rst:615
-msgid "The ``long_description`` field is used by PyPI when you are :ref:`registering <package-register>` a package, to :ref:`build its home page <package-display>`."
+msgid "The ``long_description`` field is used by PyPI when you publish a package, to build its project page."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:620
+#: ../../distutils/setupscript.rst:619
 msgid "The ``license`` field is a text indicating the license covering the package where the license is not a selection from the \"License\" Trove classifiers. See the ``Classifier`` field. Notice that there's a ``licence`` distribution option which is deprecated but still acts as an alias for ``license``."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:627
+#: ../../distutils/setupscript.rst:626
 msgid "'short string'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:627
+#: ../../distutils/setupscript.rst:626
 msgid "A single line of text, not more than 200 characters."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:631
+#: ../../distutils/setupscript.rst:630
 msgid "'long string'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:630
+#: ../../distutils/setupscript.rst:629
 msgid "Multiple lines of plain text in reStructuredText format (see http://docutils.sourceforge.net/)."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:634
+#: ../../distutils/setupscript.rst:633
 msgid "'list of strings'"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:634
+#: ../../distutils/setupscript.rst:633
 msgid "See below."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:636
+#: ../../distutils/setupscript.rst:635
 msgid "None of the string values may be Unicode."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:638
+#: ../../distutils/setupscript.rst:637
 msgid "Encoding the version information is an art in itself. Python packages generally adhere to the version format *major.minor[.patch][sub]*. The major number is 0 for initial, experimental releases of software. It is incremented for releases that represent major milestones in a package. The minor number is incremented when important new features are added to the package. The patch number increments when bug-fix releases are made. Additional trailing version information is sometimes used to indicate sub-releases.  These are \"a1,a2,...,aN\" (for alpha releases, where functionality and API may change), \"b1,b2,...,bN\" (for beta releases, which only fix bugs) and \"pr1,pr2,...,prN\" (for final pre-release release testing). Some examples:"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:650
+#: ../../distutils/setupscript.rst:649
 msgid "0.1.0"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:650
+#: ../../distutils/setupscript.rst:649
 msgid "the first, experimental release of a package"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:653
+#: ../../distutils/setupscript.rst:652
 msgid "1.0.1a2"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:653
+#: ../../distutils/setupscript.rst:652
 msgid "the second alpha release of the first patch version of 1.0"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:655
+#: ../../distutils/setupscript.rst:654
 msgid "``classifiers`` are specified in a Python list::"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:676
+#: ../../distutils/setupscript.rst:675
 msgid "If you wish to include classifiers in your :file:`setup.py` file and also wish to remain backwards-compatible with Python releases prior to 2.2.3, then you can include the following code fragment in your :file:`setup.py` before the :func:`setup` call. ::"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:693
+#: ../../distutils/setupscript.rst:692
 msgid "Debugging the setup script"
 msgstr ""
 
-#: ../../distutils/setupscript.rst:695
+#: ../../distutils/setupscript.rst:694
 msgid "Sometimes things go wrong, and the setup script doesn't do what the developer wants."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:698
+#: ../../distutils/setupscript.rst:697
 msgid "Distutils catches any exceptions when running the setup script, and print a simple error message before the script is terminated.  The motivation for this behaviour is to not confuse administrators who don't know much about Python and are trying to install a package.  If they get a big long traceback from deep inside the guts of Distutils, they may think the package or the Python installation is broken because they don't read all the way down to the bottom and see that it's a permission problem."
 msgstr ""
 
-#: ../../distutils/setupscript.rst:706
+#: ../../distutils/setupscript.rst:705
 msgid "On the other hand, this doesn't help the developer to find the cause of the failure. For this purpose, the :envvar:`DISTUTILS_DEBUG` environment variable can be set to anything except an empty string, and distutils will now print detailed information about what it is doing, dump the full traceback when an exception occurs, and print the whole command line when an external program (like a C compiler) fails."
 msgstr ""
 
