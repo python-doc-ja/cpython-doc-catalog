@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-18 11:29+0900\n"
+"POT-Creation-Date: 2019-06-01 11:34+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "Return the absolute value of *x*."
 msgstr ""
 
 #: ../../library/math.rst:53
-msgid "Return *x* factorial.  Raises :exc:`ValueError` if *x* is not integral or is negative."
+msgid "Return *x* factorial as an integer.  Raises :exc:`ValueError` if *x* is not integral or is negative."
 msgstr ""
 
 #: ../../library/math.rst:59
