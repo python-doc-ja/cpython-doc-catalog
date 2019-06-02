@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-06-02 11:35+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../library/turtle.rst:22
-msgid "Turtle graphics is a popular way for introducing programming to kids.  It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966."
+msgid "Turtle graphics is a popular way for introducing programming to kids.  It was part of the original Logo programming language developed by Wally Feurzeig, Seymour Papert and Cynthia Solomon in 1967."
 msgstr ""
 
 #: ../../library/turtle.rst:26
