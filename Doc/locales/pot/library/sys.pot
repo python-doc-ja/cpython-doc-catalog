@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-06-05 16:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1042,7 +1042,7 @@ msgid "A triple (repo, branch, version) representing the Subversion information 
 msgstr ""
 
 #: ../../library/sys.rst:1032
-msgid "Python is now `developed <https://docs.python.org/devguide/>`_ using Mercurial.  In recent Python 2.7 bugfix releases, :data:`subversion` therefore contains placeholder information.  It is removed in Python 3.3."
+msgid "Python is now `developed <https://docs.python.org/devguide/>`_ using Git.  In recent Python 2.7 bugfix releases, :data:`subversion` therefore contains placeholder information.  It is removed in Python 3.3."
 msgstr ""
 
 #: ../../library/sys.rst:1040
