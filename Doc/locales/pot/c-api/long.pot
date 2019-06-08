@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-06-08 16:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,19 +124,27 @@ msgstr ""
 msgid "Return a C :c:type:`unsigned long` from a Python long integer, without checking for overflow."
 msgstr ""
 
-#: ../../c-api/long.rst:225
+#: ../../c-api/long.rst:220
+msgid "Returns ``(unsigned long)-1`` on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
+msgstr ""
+
+#: ../../c-api/long.rst:228
 msgid "Return a C :c:type:`unsigned long long` from a Python long integer, without checking for overflow."
 msgstr ""
 
-#: ../../c-api/long.rst:233
+#: ../../c-api/long.rst:231
+msgid "Returns ``(unsigned PY_LONG_LONG)-1`` on error.  Use :c:func:`PyErr_Occurred` to disambiguate."
+msgstr ""
+
+#: ../../c-api/long.rst:239
 msgid "Return a C :c:type:`double` representation of the contents of *pylong*.  If *pylong* cannot be approximately represented as a :c:type:`double`, an :exc:`OverflowError` exception is raised and ``-1.0`` will be returned."
 msgstr ""
 
-#: ../../c-api/long.rst:240
+#: ../../c-api/long.rst:246
 msgid "Convert a Python integer or long integer *pylong* to a C :c:type:`void` pointer. If *pylong* cannot be converted, an :exc:`OverflowError` will be raised.  This is only assured to produce a usable :c:type:`void` pointer for values created with :c:func:`PyLong_FromVoidPtr`."
 msgstr ""
 
-#: ../../c-api/long.rst:247
+#: ../../c-api/long.rst:253
 msgid "For values outside 0..LONG_MAX, both signed and unsigned integers are accepted."
 msgstr ""
 
