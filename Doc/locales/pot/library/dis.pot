@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-03 11:46+0900\n"
+"POT-Creation-Date: 2019-06-13 11:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -861,7 +861,7 @@ msgid "Pushes a slice object on the stack.  *argc* must be 2 or 3.  If it is 2, 
 msgstr ""
 
 #: ../../library/dis.rst:1168
-msgid "Prefixes any opcode which has an argument too big to fit into the default two bytes.  *ext* holds two additional bytes which, taken together with the subsequent opcode's argument, comprise a four-byte argument, *ext* being the two most-significant bytes."
+msgid "Prefixes any opcode which has an argument too big to fit into the default one byte. *ext* holds an additional byte which act as higher bits in the argument. For each opcode, at most three prefixal ``EXTENDED_ARG`` are allowed, forming an argument from two-byte to four-byte."
 msgstr ""
 
 #: ../../library/dis.rst:1176
