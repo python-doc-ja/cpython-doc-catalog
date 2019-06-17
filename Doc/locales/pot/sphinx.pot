@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-16 16:47+0900\n"
+"POT-Creation-Date: 2019-06-17 16:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,7 +263,7 @@ msgid "This document is for an old version of Python that is no longer supported
 msgstr ""
 
 #: ../../tools/templates/layout.html:8
-msgid " Python documentation for the current stable release "
+msgid " Python documentation for the current stable release"
 msgstr ""
 
 #: ../../tools/templates/layout.html:21
