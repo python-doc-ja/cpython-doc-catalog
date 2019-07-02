@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-07-02 11:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -706,7 +706,7 @@ msgid "The example script has a simple function, ``foo``, which just cycles thro
 msgstr ""
 
 #: ../../howto/logging-cookbook.rst:2266
-msgid "The script just arranges to decorate ``foo`` with a decorator which will do the conditional logging that's required. The decorator takes a logger as a parameter and attaches a memory handler for the duration of the call to the decorated function. The decorator can be additionally parameterised using a target handler, a level at which flushing should occur, and a capacity for the buffer. These default to a :class:`~logging.StreamHandler` which writes to ``sys.stderr``, ``logging.ERROR`` and ``100`` respectively."
+msgid "The script just arranges to decorate ``foo`` with a decorator which will do the conditional logging that's required. The decorator takes a logger as a parameter and attaches a memory handler for the duration of the call to the decorated function. The decorator can be additionally parameterised using a target handler, a level at which flushing should occur, and a capacity for the buffer (number of records buffered). These default to a :class:`~logging.StreamHandler` which writes to ``sys.stderr``, ``logging.ERROR`` and ``100`` respectively."
 msgstr ""
 
 #: ../../howto/logging-cookbook.rst:2274

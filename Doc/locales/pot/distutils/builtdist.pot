@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-07-02 11:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -510,7 +510,7 @@ msgid "or the :command:`bdist` command with the :option:`!--formats` option::"
 msgstr ""
 
 #: ../../distutils/builtdist.rst:314
-msgid "If you have a pure module distribution (only containing pure Python modules and packages), the resulting installer will be version independent and have a name like :file:`foo-1.0.win32.exe`.  These installers can even be created on Unix platforms or Mac OS X."
+msgid "If you have a pure module distribution (only containing pure Python modules and packages), the resulting installer will be version independent and have a name like :file:`foo-1.0.win32.exe`. Note that creating ``wininst`` binary distributions in only supported on Windows systems."
 msgstr ""
 
 #: ../../distutils/builtdist.rst:319
