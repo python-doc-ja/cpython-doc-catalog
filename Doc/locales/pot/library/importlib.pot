@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-07-04 11:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -473,7 +473,7 @@ msgid "For any of methods of this class, a *resource* argument is expected to be
 msgstr ""
 
 #: ../../library/importlib.rst:502
-msgid "Loaders that wish to support resource reading are expected to provide a method called ``get_resource_loader(fullname)`` which returns an object implementing this ABC's interface. If the module specified by fullname is not a package, this method should return :const:`None`. An object compatible with this ABC should only be returned when the specified module is a package."
+msgid "Loaders that wish to support resource reading are expected to provide a method called ``get_resource_reader(fullname)`` which returns an object implementing this ABC's interface. If the module specified by fullname is not a package, this method should return :const:`None`. An object compatible with this ABC should only be returned when the specified module is a package."
 msgstr ""
 
 #: ../../library/importlib.rst:513
