@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-07-07 11:52+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "Macro form of :c:func:`PyList_Size` without error checking."
 msgstr ""
 
 #: ../../c-api/list.rst:61
-msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be positive, indexing from the end of the list is not supported.  If *index* is out of bounds, return *NULL* and set an :exc:`IndexError` exception."
+msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be non-negative; indexing from the end of the list is not supported.  If *index* is out of bounds (<0 or >=len(list)), return *NULL* and set an :exc:`IndexError` exception."
 msgstr ""
 
 #: ../../c-api/list.rst:69
