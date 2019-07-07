@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-07-07 17:00+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "This macro returned an :c:type:`int`. This might require changes in your 
 msgstr ""
 
 #: ../../c-api/list.rst:78
-msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be positive, indexing from the end of the list is not supported.  If *index* is out of bounds, return *NULL* and set an :exc:`IndexError` exception."
+msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be non-negative; indexing from the end of the list is not supported.  If *index* is out of bounds (<0 or >=len(list)), return *NULL* and set an :exc:`IndexError` exception."
 msgstr ""
 
 #: ../../c-api/list.rst:83
