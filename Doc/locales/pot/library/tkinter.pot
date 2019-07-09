@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:22+0900\n"
+"POT-Creation-Date: 2019-07-09 17:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "Extensive tutorial plus friendlier widget pages for some of the widgets."
 msgstr ""
 
 #: ../../library/tkinter.rst:35
-msgid "`Tkinter reference: a GUI for Python <https://infohost.nmt.edu/tcc/help/pubs/tkinter/web/index.html>`_"
+msgid "`Tkinter 8.5 reference: a GUI for Python <https://web.archive.org/web/20190524140835/https://infohost.nmt.edu/tcc/help/pubs/tkinter/web/index.html>`_"
 msgstr ""
 
 #: ../../library/tkinter.rst:35
@@ -81,7 +81,7 @@ msgid "`Modern Tkinter for Busy Python Developers <https://www.amazon.com/Modern
 msgstr ""
 
 #: ../../library/tkinter.rst:44
-msgid "Book by Mark Rozerman about building attractive and modern graphical user interfaces with Python and Tkinter."
+msgid "Book by Mark Roseman about building attractive and modern graphical user interfaces with Python and Tkinter."
 msgstr ""
 
 #: ../../library/tkinter.rst:47
