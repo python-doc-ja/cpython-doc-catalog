@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-07-12 17:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,23 +98,23 @@ msgstr ""
 
 #: ../../library/select.rst:123
 #: ../../library/select.rst:221
-#: ../../library/select.rst:322
-#: ../../library/select.rst:351
-#: ../../library/select.rst:382
-#: ../../library/select.rst:390
-#: ../../library/select.rst:410
-#: ../../library/select.rst:433
+#: ../../library/select.rst:323
+#: ../../library/select.rst:352
+#: ../../library/select.rst:383
+#: ../../library/select.rst:391
+#: ../../library/select.rst:411
+#: ../../library/select.rst:434
 msgid "Constant"
 msgstr ""
 
 #: ../../library/select.rst:123
 #: ../../library/select.rst:221
-#: ../../library/select.rst:322
-#: ../../library/select.rst:351
-#: ../../library/select.rst:382
-#: ../../library/select.rst:390
-#: ../../library/select.rst:410
-#: ../../library/select.rst:433
+#: ../../library/select.rst:323
+#: ../../library/select.rst:352
+#: ../../library/select.rst:383
+#: ../../library/select.rst:391
+#: ../../library/select.rst:411
+#: ../../library/select.rst:434
 msgid "Meaning"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgid "Low level interface to kevent"
 msgstr ""
 
 #: ../../library/select.rst:298
-msgid "changelist must be an iterable of kevent object or ``None``"
+msgid "changelist must be an iterable of kevent objects or ``None``"
 msgstr ""
 
 #: ../../library/select.rst:299
@@ -356,344 +356,344 @@ msgid "max_events must be 0 or a positive integer"
 msgstr ""
 
 #: ../../library/select.rst:300
-msgid "timeout in seconds (floats possible)"
+msgid "timeout in seconds (floats possible); the default is ``None``, to wait forever"
 msgstr ""
 
-#: ../../library/select.rst:306
+#: ../../library/select.rst:307
 msgid "Kevent Objects"
 msgstr ""
 
-#: ../../library/select.rst:308
+#: ../../library/select.rst:309
 msgid "https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2"
 msgstr ""
 
-#: ../../library/select.rst:312
+#: ../../library/select.rst:313
 msgid "Value used to identify the event. The interpretation depends on the filter but it's usually the file descriptor. In the constructor ident can either be an int or an object with a fileno() function. kevent stores the integer internally."
 msgstr ""
 
-#: ../../library/select.rst:319
+#: ../../library/select.rst:320
 msgid "Name of the kernel filter."
 msgstr ""
 
-#: ../../library/select.rst:324
+#: ../../library/select.rst:325
 msgid ":const:`KQ_FILTER_READ`"
 msgstr ""
 
-#: ../../library/select.rst:324
+#: ../../library/select.rst:325
 msgid "Takes a descriptor and returns whenever there is data available to read"
 msgstr ""
 
-#: ../../library/select.rst:327
+#: ../../library/select.rst:328
 msgid ":const:`KQ_FILTER_WRITE`"
 msgstr ""
 
-#: ../../library/select.rst:327
+#: ../../library/select.rst:328
 msgid "Takes a descriptor and returns whenever there is data available to write"
 msgstr ""
 
-#: ../../library/select.rst:330
+#: ../../library/select.rst:331
 msgid ":const:`KQ_FILTER_AIO`"
 msgstr ""
 
-#: ../../library/select.rst:330
+#: ../../library/select.rst:331
 msgid "AIO requests"
 msgstr ""
 
-#: ../../library/select.rst:332
+#: ../../library/select.rst:333
 msgid ":const:`KQ_FILTER_VNODE`"
 msgstr ""
 
-#: ../../library/select.rst:332
+#: ../../library/select.rst:333
 msgid "Returns when one or more of the requested events watched in *fflag* occurs"
 msgstr ""
 
-#: ../../library/select.rst:335
+#: ../../library/select.rst:336
 msgid ":const:`KQ_FILTER_PROC`"
 msgstr ""
 
-#: ../../library/select.rst:335
+#: ../../library/select.rst:336
 msgid "Watch for events on a process id"
 msgstr ""
 
-#: ../../library/select.rst:337
+#: ../../library/select.rst:338
 msgid ":const:`KQ_FILTER_NETDEV`"
 msgstr ""
 
-#: ../../library/select.rst:337
+#: ../../library/select.rst:338
 msgid "Watch for events on a network device [not available on Mac OS X]"
 msgstr ""
 
-#: ../../library/select.rst:340
+#: ../../library/select.rst:341
 msgid ":const:`KQ_FILTER_SIGNAL`"
 msgstr ""
 
-#: ../../library/select.rst:340
+#: ../../library/select.rst:341
 msgid "Returns whenever the watched signal is delivered to the process"
 msgstr ""
 
-#: ../../library/select.rst:343
+#: ../../library/select.rst:344
 msgid ":const:`KQ_FILTER_TIMER`"
 msgstr ""
 
-#: ../../library/select.rst:343
+#: ../../library/select.rst:344
 msgid "Establishes an arbitrary timer"
 msgstr ""
 
-#: ../../library/select.rst:348
+#: ../../library/select.rst:349
 msgid "Filter action."
 msgstr ""
 
-#: ../../library/select.rst:353
+#: ../../library/select.rst:354
 msgid ":const:`KQ_EV_ADD`"
 msgstr ""
 
-#: ../../library/select.rst:353
+#: ../../library/select.rst:354
 msgid "Adds or modifies an event"
 msgstr ""
 
-#: ../../library/select.rst:355
+#: ../../library/select.rst:356
 msgid ":const:`KQ_EV_DELETE`"
 msgstr ""
 
-#: ../../library/select.rst:355
+#: ../../library/select.rst:356
 msgid "Removes an event from the queue"
 msgstr ""
 
-#: ../../library/select.rst:357
+#: ../../library/select.rst:358
 msgid ":const:`KQ_EV_ENABLE`"
 msgstr ""
 
-#: ../../library/select.rst:357
+#: ../../library/select.rst:358
 msgid "Permitscontrol() to returns the event"
 msgstr ""
 
-#: ../../library/select.rst:359
+#: ../../library/select.rst:360
 msgid ":const:`KQ_EV_DISABLE`"
 msgstr ""
 
-#: ../../library/select.rst:359
+#: ../../library/select.rst:360
 msgid "Disablesevent"
 msgstr ""
 
-#: ../../library/select.rst:361
+#: ../../library/select.rst:362
 msgid ":const:`KQ_EV_ONESHOT`"
 msgstr ""
 
-#: ../../library/select.rst:361
+#: ../../library/select.rst:362
 msgid "Removes event after first occurrence"
 msgstr ""
 
-#: ../../library/select.rst:363
+#: ../../library/select.rst:364
 msgid ":const:`KQ_EV_CLEAR`"
 msgstr ""
 
-#: ../../library/select.rst:363
+#: ../../library/select.rst:364
 msgid "Reset the state after an event is retrieved"
 msgstr ""
 
-#: ../../library/select.rst:365
+#: ../../library/select.rst:366
 msgid ":const:`KQ_EV_SYSFLAGS`"
 msgstr ""
 
-#: ../../library/select.rst:365
-#: ../../library/select.rst:367
+#: ../../library/select.rst:366
+#: ../../library/select.rst:368
 msgid "internal event"
 msgstr ""
 
-#: ../../library/select.rst:367
+#: ../../library/select.rst:368
 msgid ":const:`KQ_EV_FLAG1`"
 msgstr ""
 
-#: ../../library/select.rst:369
+#: ../../library/select.rst:370
 msgid ":const:`KQ_EV_EOF`"
 msgstr ""
 
-#: ../../library/select.rst:369
+#: ../../library/select.rst:370
 msgid "Filter specific EOF condition"
 msgstr ""
 
-#: ../../library/select.rst:371
+#: ../../library/select.rst:372
 msgid ":const:`KQ_EV_ERROR`"
 msgstr ""
 
-#: ../../library/select.rst:371
+#: ../../library/select.rst:372
 msgid "See return values"
 msgstr ""
 
-#: ../../library/select.rst:377
+#: ../../library/select.rst:378
 msgid "Filter specific flags."
 msgstr ""
 
-#: ../../library/select.rst:379
+#: ../../library/select.rst:380
 msgid ":const:`KQ_FILTER_READ` and  :const:`KQ_FILTER_WRITE` filter flags:"
 msgstr ""
 
-#: ../../library/select.rst:384
+#: ../../library/select.rst:385
 msgid ":const:`KQ_NOTE_LOWAT`"
 msgstr ""
 
-#: ../../library/select.rst:384
+#: ../../library/select.rst:385
 msgid "low water mark of a socket buffer"
 msgstr ""
 
-#: ../../library/select.rst:387
+#: ../../library/select.rst:388
 msgid ":const:`KQ_FILTER_VNODE` filter flags:"
 msgstr ""
 
-#: ../../library/select.rst:392
+#: ../../library/select.rst:393
 msgid ":const:`KQ_NOTE_DELETE`"
 msgstr ""
 
-#: ../../library/select.rst:392
+#: ../../library/select.rst:393
 msgid "*unlink()* was called"
 msgstr ""
 
-#: ../../library/select.rst:394
+#: ../../library/select.rst:395
 msgid ":const:`KQ_NOTE_WRITE`"
 msgstr ""
 
-#: ../../library/select.rst:394
+#: ../../library/select.rst:395
 msgid "a write occurred"
 msgstr ""
 
-#: ../../library/select.rst:396
+#: ../../library/select.rst:397
 msgid ":const:`KQ_NOTE_EXTEND`"
 msgstr ""
 
-#: ../../library/select.rst:396
+#: ../../library/select.rst:397
 msgid "the file was extended"
 msgstr ""
 
-#: ../../library/select.rst:398
+#: ../../library/select.rst:399
 msgid ":const:`KQ_NOTE_ATTRIB`"
 msgstr ""
 
-#: ../../library/select.rst:398
+#: ../../library/select.rst:399
 msgid "an attribute was changed"
 msgstr ""
 
-#: ../../library/select.rst:400
+#: ../../library/select.rst:401
 msgid ":const:`KQ_NOTE_LINK`"
 msgstr ""
 
-#: ../../library/select.rst:400
+#: ../../library/select.rst:401
 msgid "the link count has changed"
 msgstr ""
 
-#: ../../library/select.rst:402
+#: ../../library/select.rst:403
 msgid ":const:`KQ_NOTE_RENAME`"
 msgstr ""
 
-#: ../../library/select.rst:402
+#: ../../library/select.rst:403
 msgid "the file was renamed"
 msgstr ""
 
-#: ../../library/select.rst:404
+#: ../../library/select.rst:405
 msgid ":const:`KQ_NOTE_REVOKE`"
 msgstr ""
 
-#: ../../library/select.rst:404
+#: ../../library/select.rst:405
 msgid "access to the file was revoked"
 msgstr ""
 
-#: ../../library/select.rst:407
+#: ../../library/select.rst:408
 msgid ":const:`KQ_FILTER_PROC` filter flags:"
 msgstr ""
 
-#: ../../library/select.rst:412
+#: ../../library/select.rst:413
 msgid ":const:`KQ_NOTE_EXIT`"
 msgstr ""
 
-#: ../../library/select.rst:412
+#: ../../library/select.rst:413
 msgid "the process has exited"
 msgstr ""
 
-#: ../../library/select.rst:414
+#: ../../library/select.rst:415
 msgid ":const:`KQ_NOTE_FORK`"
 msgstr ""
 
-#: ../../library/select.rst:414
+#: ../../library/select.rst:415
 msgid "the process has called *fork()*"
 msgstr ""
 
-#: ../../library/select.rst:416
+#: ../../library/select.rst:417
 msgid ":const:`KQ_NOTE_EXEC`"
 msgstr ""
 
-#: ../../library/select.rst:416
+#: ../../library/select.rst:417
 msgid "the process has executed a new process"
 msgstr ""
 
-#: ../../library/select.rst:418
+#: ../../library/select.rst:419
 msgid ":const:`KQ_NOTE_PCTRLMASK`"
 msgstr ""
 
-#: ../../library/select.rst:418
-#: ../../library/select.rst:420
+#: ../../library/select.rst:419
+#: ../../library/select.rst:421
 msgid "internal filter flag"
 msgstr ""
 
-#: ../../library/select.rst:420
+#: ../../library/select.rst:421
 msgid ":const:`KQ_NOTE_PDATAMASK`"
 msgstr ""
 
-#: ../../library/select.rst:422
+#: ../../library/select.rst:423
 msgid ":const:`KQ_NOTE_TRACK`"
 msgstr ""
 
-#: ../../library/select.rst:422
+#: ../../library/select.rst:423
 msgid "follow a process across *fork()*"
 msgstr ""
 
-#: ../../library/select.rst:424
+#: ../../library/select.rst:425
 msgid ":const:`KQ_NOTE_CHILD`"
 msgstr ""
 
-#: ../../library/select.rst:424
+#: ../../library/select.rst:425
 msgid "returned on the child process for *NOTE_TRACK*"
 msgstr ""
 
-#: ../../library/select.rst:427
+#: ../../library/select.rst:428
 msgid ":const:`KQ_NOTE_TRACKERR`"
 msgstr ""
 
-#: ../../library/select.rst:427
+#: ../../library/select.rst:428
 msgid "unable to attach to a child"
 msgstr ""
 
-#: ../../library/select.rst:430
+#: ../../library/select.rst:431
 msgid ":const:`KQ_FILTER_NETDEV` filter flags (not available on Mac OS X):"
 msgstr ""
 
-#: ../../library/select.rst:435
+#: ../../library/select.rst:436
 msgid ":const:`KQ_NOTE_LINKUP`"
 msgstr ""
 
-#: ../../library/select.rst:435
+#: ../../library/select.rst:436
 msgid "link is up"
 msgstr ""
 
-#: ../../library/select.rst:437
+#: ../../library/select.rst:438
 msgid ":const:`KQ_NOTE_LINKDOWN`"
 msgstr ""
 
-#: ../../library/select.rst:437
+#: ../../library/select.rst:438
 msgid "link is down"
 msgstr ""
 
-#: ../../library/select.rst:439
+#: ../../library/select.rst:440
 msgid ":const:`KQ_NOTE_LINKINV`"
 msgstr ""
 
-#: ../../library/select.rst:439
+#: ../../library/select.rst:440
 msgid "link state is invalid"
 msgstr ""
 
-#: ../../library/select.rst:445
+#: ../../library/select.rst:446
 msgid "Filter specific data."
 msgstr ""
 
-#: ../../library/select.rst:450
+#: ../../library/select.rst:451
 msgid "User defined value."
 msgstr ""
 
