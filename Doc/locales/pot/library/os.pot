@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-07 11:52+0900\n"
+"POT-Creation-Date: 2019-07-12 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1593,7 +1593,7 @@ msgid "On Windows, if *dst* exists a :exc:`FileExistsError` is always raised."
 msgstr ""
 
 #: ../../library/os.rst:2059
-msgid "On Unix, if *src* is a file and *dst* is a directory or vice-versa, anq:q :exc:`IsADirectoryError` or a :exc:`NotADirectoryError` will be raised respectively.  If both are directories and *dst* is empty, *dst* will be silently replaced.  If *dst* is a non-empty directory, an :exc:`OSError` is raised. If both are files, *dst* it will be replaced silently if the user has permission.  The operation may fail on some Unix flavors if *src* and *dst* are on different filesystems.  If successful, the renaming will be an atomic operation (this is a POSIX requirement)."
+msgid "On Unix, if *src* is a file and *dst* is a directory or vice-versa, an :exc:`IsADirectoryError` or a :exc:`NotADirectoryError` will be raised respectively.  If both are directories and *dst* is empty, *dst* will be silently replaced.  If *dst* is a non-empty directory, an :exc:`OSError` is raised. If both are files, *dst* it will be replaced silently if the user has permission.  The operation may fail on some Unix flavors if *src* and *dst* are on different filesystems.  If successful, the renaming will be an atomic operation (this is a POSIX requirement)."
 msgstr ""
 
 #: ../../library/os.rst:2068
