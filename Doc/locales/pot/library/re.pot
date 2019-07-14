@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-22 11:13+0900\n"
+"POT-Creation-Date: 2019-07-14 11:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -728,7 +728,7 @@ msgid "Escape special characters in *pattern*. This is useful if you want to mat
 msgstr ""
 
 #: ../../library/re.rst:939
-msgid "This functions must not be used for the replacement string in :func:`sub` and :func:`subn`, only backslashes should be escaped.  For example::"
+msgid "This function must not be used for the replacement string in :func:`sub` and :func:`subn`, only backslashes should be escaped.  For example::"
 msgstr ""
 
 #: ../../library/re.rst:947

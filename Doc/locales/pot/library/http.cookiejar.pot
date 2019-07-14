@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-07-14 11:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgid "If policy allows (ie. the :attr:`rfc2965` and :attr:`hide_cookie2` attrib
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:156
-msgid "The *request* object (usually a :class:`urllib.request..Request` instance) must support the methods :meth:`get_full_url`, :meth:`get_host`, :meth:`get_type`, :meth:`unverifiable`, :meth:`has_header`, :meth:`get_header`, :meth:`header_items`, :meth:`add_unredirected_header` and :attr:`origin_req_host` attribute as documented by :mod:`urllib.request`."
+msgid "The *request* object (usually a :class:`urllib.request.Request` instance) must support the methods :meth:`get_full_url`, :meth:`get_host`, :meth:`get_type`, :meth:`unverifiable`, :meth:`has_header`, :meth:`get_header`, :meth:`header_items`, :meth:`add_unredirected_header` and :attr:`origin_req_host` attribute as documented by :mod:`urllib.request`."
 msgstr ""
 
 #: ../../library/http.cookiejar.rst:165
