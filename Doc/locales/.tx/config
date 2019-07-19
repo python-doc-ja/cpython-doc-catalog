@@ -343,6 +343,12 @@ source_file = pot/using/unix.pot
 source_lang = en
 type = PO
 
+[python-newest.using--editors]
+file_filter = <lang>/LC_MESSAGES/using/editors.po
+source_file = pot/using/editors.pot
+source_lang = en
+type = PO
+
 [python-newest.using--index]
 file_filter = <lang>/LC_MESSAGES/using/index.po
 source_file = pot/using/index.pot
