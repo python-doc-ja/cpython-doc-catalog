@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-15 11:54+0900\n"
+"POT-Creation-Date: 2019-08-08 08:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -780,7 +780,7 @@ msgid "Keep in mind that retrieving sub-objects from Structure, Unions, and Arra
 msgstr ""
 
 #: ../../library/ctypes.rst:1178
-msgid "Another example that may behave different from what one would expect is this::"
+msgid "Another example that may behave differently from what one would expect is this::"
 msgstr ""
 
 #: ../../library/ctypes.rst:1190
