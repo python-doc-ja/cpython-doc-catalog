@@ -109,6 +109,7 @@ __all__ = [
     "run_with_locale", "swap_item",
     "swap_attr", "Matcher", "set_memlimit", "SuppressCrashReport", "sortdict",
     "run_with_tz", "PGO", "missing_compiler_executable", "fd_count",
+    "ALWAYS_EQ", "LARGEST", "SMALLEST"
     ]
 
 class Error(Exception):
@@ -2806,7 +2807,7 @@ def fd_count():
     if sys.platform.startswith(('linux', 'freebsd')):
         try:
             names = os.listdir("/proc/self/fd")
-            # Substract one because listdir() opens internally a file
+            # Subtract one because listdir() internally opens a file
             # descriptor to list the content of the /proc/self/fd/ directory.
             return len(names) - 1
         except FileNotFoundError:
@@ -2919,3 +2920,39 @@ class FakePath:
             raise self.path
         else:
             return self.path
+
+
+class _ALWAYS_EQ:
+    """
+    Object that is equal to anything.
+    """
+    def __eq__(self, other):
+        return True
+    def __ne__(self, other):
+        return False
+
+ALWAYS_EQ = _ALWAYS_EQ()
+
+@functools.total_ordering
+class _LARGEST:
+    """
+    Object that is greater than anything (except itself).
+    """
+    def __eq__(self, other):
+        return isinstance(other, _LARGEST)
+    def __lt__(self, other):
+        return False
+
+LARGEST = _LARGEST()
+
+@functools.total_ordering
+class _SMALLEST:
+    """
+    Object that is less than anything (except itself).
+    """
+    def __eq__(self, other):
+        return isinstance(other, _SMALLEST)
+    def __gt__(self, other):
+        return False
+
+SMALLEST = _SMALLEST()
