@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-08-08 13:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -417,7 +417,7 @@ msgstr ""
 #: ../../library/_winreg.rst:430
 #: ../../library/_winreg.rst:445
 #: ../../library/_winreg.rst:460
-msgid "Will generally raise :exc:`NotImplemented` if executed on a 32-bit operating system."
+msgid "Will generally raise :exc:`NotImplementedError` if executed on a 32-bit operating system."
 msgstr ""
 
 #: ../../library/_winreg.rst:433
