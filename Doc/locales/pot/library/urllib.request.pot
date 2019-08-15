@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 11:08+0900\n"
+"POT-Creation-Date: 2019-08-15 03:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,7 @@ msgid "An appropriate ``Content-Type`` header should be included if the *data* a
 msgstr ""
 
 #: ../../library/urllib.request.rst:223
-msgid "The final two arguments are only of interest for correct handling of third-party HTTP cookies:"
+msgid "The next two arguments are only of interest for correct handling of third-party HTTP cookies:"
 msgstr ""
 
 #: ../../library/urllib.request.rst:226
