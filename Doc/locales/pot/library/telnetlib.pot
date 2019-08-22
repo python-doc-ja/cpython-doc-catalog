@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-08-22 03:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "The symbolic constants for the telnet commands are: IAC, DONT, DO, WONT, 
 msgstr ""
 
 #: ../../library/telnetlib.rst:31
-msgid ":class:`Telnet` represents a connection to a Telnet server. The instance is initially not connected by default; the :meth:`open` method must be used to establish a connection.  Alternatively, the host name and optional port number can be passed to the constructor too, in which case the connection to the server will be established before the constructor returns.  The optional *timeout* parameter specifies a timeout in seconds for blocking operations like the connection attempt (if not specified, the global default timeout setting will be used)."
+msgid ":class:`Telnet` represents a connection to a Telnet server. The instance is initially not connected by default; the :meth:`~Telnet.open` method must be used to establish a connection.  Alternatively, the host name and optional port number can be passed to the constructor too, in which case the connection to the server will be established before the constructor returns.  The optional *timeout* parameter specifies a timeout in seconds for blocking operations like the connection attempt (if not specified, the global default timeout setting will be used)."
 msgstr ""
 
 #: ../../library/telnetlib.rst:40
