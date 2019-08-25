@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-24 03:17+0000\n"
+"POT-Creation-Date: 2019-08-25 03:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Security"
 msgstr ""
 
 #: ../../../build/NEWS:12
-msgid "`bpo-37461 <https://bugs.python.org/issue37461>`__: Fix an inifite loop when parsing specially crafted email headers. Patch by Abhilash Raj."
+msgid "`bpo-37461 <https://bugs.python.org/issue37461>`__: Fix an infinite loop when parsing specially crafted email headers. Patch by Abhilash Raj."
 msgstr ""
 
 #: ../../../build/NEWS:15
@@ -535,7 +535,7 @@ msgid "`bpo-37849 <https://bugs.python.org/issue37849>`__: Fixed completions lis
 msgstr ""
 
 #: ../../../build/NEWS:194
-msgid "`bpo-36419 <https://bugs.python.org/issue36419>`__: IDLE - Refactor autocompete and improve testing."
+msgid "`bpo-36419 <https://bugs.python.org/issue36419>`__: Refactor IDLE autocomplete and improve testing."
 msgstr ""
 
 #: ../../../build/NEWS:196

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 11:40+0900\n"
+"POT-Creation-Date: 2019-08-25 03:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -448,7 +448,7 @@ msgid "A :class:`date` object represents a date (year, month and day) in an idea
 msgstr ""
 
 #: ../../library/datetime.rst:404
-msgid "All arguments are required.  Arguments may be integers, in the following ranges:"
+msgid "All arguments are required.  Arguments must be integers in the following ranges:"
 msgstr ""
 
 #: ../../library/datetime.rst:407
@@ -661,7 +661,7 @@ msgid "Constructor:"
 msgstr ""
 
 #: ../../library/datetime.rst:709
-msgid "The year, month and day arguments are required.  *tzinfo* may be ``None``, or an instance of a :class:`tzinfo` subclass.  The remaining arguments may be integers, in the following ranges:"
+msgid "The year, month and day arguments are required.  *tzinfo* may be ``None``, or an instance of a :class:`tzinfo` subclass.  The remaining arguments must be integers in the following ranges:"
 msgstr ""
 
 #: ../../library/datetime.rst:713
@@ -1136,7 +1136,7 @@ msgid "A time object represents a (local) time of day, independent of any partic
 msgstr ""
 
 #: ../../library/datetime.rst:1424
-msgid "All arguments are optional.  *tzinfo* may be ``None``, or an instance of a :class:`tzinfo` subclass.  The remaining arguments may be integers, in the following ranges:"
+msgid "All arguments are optional.  *tzinfo* may be ``None``, or an instance of a :class:`tzinfo` subclass.  The remaining arguments must be integers in the following ranges:"
 msgstr ""
 
 #: ../../library/datetime.rst:1434
