@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-14 11:26+0900\n"
+"POT-Creation-Date: 2019-08-30 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -506,7 +506,7 @@ msgid "How can my code discover the name of an object?"
 msgstr ""
 
 #: ../../faq/programming.rst:661
-msgid "Generally speaking, it can't, because objects don't really have names. Essentially, assignment always binds a name to a value; The same is true of ``def`` and ``class`` statements, but in that case the value is a callable. Consider the following code::"
+msgid "Generally speaking, it can't, because objects don't really have names. Essentially, assignment always binds a name to a value; the same is true of ``def`` and ``class`` statements, but in that case the value is a callable. Consider the following code::"
 msgstr ""
 
 #: ../../faq/programming.rst:677
