@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-09-11 00:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -989,11 +989,11 @@ msgid "``'+'``"
 msgstr ""
 
 #: ../../library/functions.rst:1071
-msgid "open a disk file for updating (reading and writing)"
+msgid "open for updating (reading and writing)"
 msgstr ""
 
 #: ../../library/functions.rst:1074
-msgid "The default mode is ``'r'`` (open for reading text, synonym of ``'rt'``). For binary read-write access, the mode ``'w+b'`` opens and truncates the file to 0 bytes.  ``'r+b'`` opens the file without truncation."
+msgid "The default mode is ``'r'`` (open for reading text, synonym of ``'rt'``). Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and ``'r+b'`` open the file with no truncation."
 msgstr ""
 
 #: ../../library/functions.rst:1078
