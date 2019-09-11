@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-09-11 01:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -575,30 +575,34 @@ msgid "Once :func:`tee` has made a split, the original *iterable* should not be 
 msgstr ""
 
 #: ../../library/itertools.rst:631
+msgid "``tee`` iterators are not threadsafe. A :exc:`RuntimeError` may be raised when using simultaneously iterators returned by the same :func:`tee` call, even if the original *iterable* is threadsafe."
+msgstr ""
+
+#: ../../library/itertools.rst:635
 msgid "This itertool may require significant auxiliary storage (depending on how much temporary data needs to be stored). In general, if one iterator uses most or all of the data before another iterator starts, it is faster to use :func:`list` instead of :func:`tee`."
 msgstr ""
 
-#: ../../library/itertools.rst:639
+#: ../../library/itertools.rst:643
 msgid "Make an iterator that aggregates elements from each of the iterables. If the iterables are of uneven length, missing values are filled-in with *fillvalue*. Iteration continues until the longest iterable is exhausted.  Roughly equivalent to::"
 msgstr ""
 
-#: ../../library/itertools.rst:663
+#: ../../library/itertools.rst:667
 msgid "If one of the iterables is potentially infinite, then the :func:`zip_longest` function should be wrapped with something that limits the number of calls (for example :func:`islice` or :func:`takewhile`).  If not specified, *fillvalue* defaults to ``None``."
 msgstr ""
 
-#: ../../library/itertools.rst:672
+#: ../../library/itertools.rst:676
 msgid "Itertools Recipes"
 msgstr ""
 
-#: ../../library/itertools.rst:674
+#: ../../library/itertools.rst:678
 msgid "This section shows recipes for creating an extended toolset using the existing itertools as building blocks."
 msgstr ""
 
-#: ../../library/itertools.rst:677
+#: ../../library/itertools.rst:681
 msgid "The extended tools offer the same high performance as the underlying toolset. The superior memory performance is kept by processing elements one at a time rather than bringing the whole iterable into memory all at once. Code volume is kept small by linking the tools together in a functional style which helps eliminate temporary variables.  High speed is retained by preferring \"vectorized\" building blocks over the use of for-loops and :term:`generator`\\s which incur interpreter overhead."
 msgstr ""
 
-#: ../../library/itertools.rst:899
+#: ../../library/itertools.rst:903
 msgid "Note, many of the above recipes can be optimized by replacing global lookups with local variables defined as default values.  For example, the *dotproduct* recipe can be written as::"
 msgstr ""
 

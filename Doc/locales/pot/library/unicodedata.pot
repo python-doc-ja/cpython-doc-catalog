@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-09-11 01:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "This module provides access to the Unicode Character Database (UCD) which
 msgstr ""
 
 #: ../../library/unicodedata.rst:23
-msgid "The module uses the same names and symbols as defined by Unicode Standard Annex #44, `\"Unicode Character Database\" <http://www.unicode.org/reports/tr44/tr44-6.html>`_.  It defines the following functions:"
+msgid "The module uses the same names and symbols as defined by Unicode Standard Annex #44, `\"Unicode Character Database\" <https://www.unicode.org/reports/tr44/>`_.  It defines the following functions:"
 msgstr ""
 
 #: ../../library/unicodedata.rst:31
