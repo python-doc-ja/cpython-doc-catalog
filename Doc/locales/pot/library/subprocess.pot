@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-09-12 11:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -818,11 +818,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:1051
 #: ../../library/subprocess.rst:1079
-msgid "Code needing to capture stdout or stderr should use :func:`run` instead:"
-msgstr ""
-
-#: ../../library/subprocess.rst:1053
-msgid "run(...).returncode"
+msgid "Code needing to capture stdout or stderr should use :func:`run` instead::"
 msgstr ""
 
 #: ../../library/subprocess.rst:1055
@@ -842,10 +838,6 @@ msgstr ""
 
 #: ../../library/subprocess.rst:1074
 msgid "Run command with arguments.  Wait for command to complete. If the return code was zero then return, otherwise raise :exc:`CalledProcessError`. The :exc:`CalledProcessError` object will have the return code in the :attr:`~CalledProcessError.returncode` attribute."
-msgstr ""
-
-#: ../../library/subprocess.rst:1081
-msgid "run(..., check=True)"
 msgstr ""
 
 #: ../../library/subprocess.rst:1105
@@ -919,7 +911,7 @@ msgid "Replacing shell pipeline"
 msgstr ""
 
 #: ../../library/subprocess.rst:1201
-msgid "The p1.stdout.close() call after starting the p2 is important in order for p1 to receive a SIGPIPE if p2 exits before p1."
+msgid "The ``p1.stdout.close()`` call after starting the p2 is important in order for p1 to receive a SIGPIPE if p2 exits before p1."
 msgstr ""
 
 #: ../../library/subprocess.rst:1204

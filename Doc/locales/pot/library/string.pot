@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-09-12 11:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,7 +377,7 @@ msgstr ""
 
 #: ../../library/string.rst:443
 #: ../../library/string.rst:470
-#: ../../library/string.rst:531
+#: ../../library/string.rst:532
 msgid "None"
 msgstr ""
 
@@ -438,7 +438,7 @@ msgid "Hex format. Outputs the number in base 16, using upper-case letters for t
 msgstr ""
 
 #: ../../library/string.rst:466
-#: ../../library/string.rst:524
+#: ../../library/string.rst:525
 msgid "``'n'``"
 msgstr ""
 
@@ -499,218 +499,218 @@ msgid "General format.  For a given precision ``p >= 1``, this rounds the number
 msgstr ""
 
 #: ../../library/string.rst:501
-msgid "The precise rules are as follows: suppose that the result formatted with presentation type ``'e'`` and precision ``p-1`` would have exponent ``exp``.  Then if ``-4 <= exp < p``, the number is formatted with presentation type ``'f'`` and precision ``p-1-exp``.  Otherwise, the number is formatted with presentation type ``'e'`` and precision ``p-1``. In both cases insignificant trailing zeros are removed from the significand, and the decimal point is also removed if there are no remaining digits following it."
+msgid "The precise rules are as follows: suppose that the result formatted with presentation type ``'e'`` and precision ``p-1`` would have exponent ``exp``.  Then, if ``m <= exp < p``, where ``m`` is -4 for floats and -6 for :class:`Decimals <decimal.Decimal>`, the number is formatted with presentation type ``'f'`` and precision ``p-1-exp``.  Otherwise, the number is formatted with presentation type ``'e'`` and precision ``p-1``. In both cases insignificant trailing zeros are removed from the significand, and the decimal point is also removed if there are no remaining digits following it."
 msgstr ""
 
-#: ../../library/string.rst:512
+#: ../../library/string.rst:513
 msgid "Positive and negative infinity, positive and negative zero, and nans, are formatted as ``inf``, ``-inf``, ``0``, ``-0`` and ``nan`` respectively, regardless of the precision."
 msgstr ""
 
-#: ../../library/string.rst:517
+#: ../../library/string.rst:518
 msgid "A precision of ``0`` is treated as equivalent to a precision of ``1``.  The default precision is ``6``."
 msgstr ""
 
-#: ../../library/string.rst:520
+#: ../../library/string.rst:521
 msgid "``'G'``"
 msgstr ""
 
-#: ../../library/string.rst:520
+#: ../../library/string.rst:521
 msgid "General format. Same as ``'g'`` except switches to ``'E'`` if the number gets too large. The representations of infinity and NaN are uppercased, too."
 msgstr ""
 
-#: ../../library/string.rst:524
+#: ../../library/string.rst:525
 msgid "Number. This is the same as ``'g'``, except that it uses the current locale setting to insert the appropriate number separator characters."
 msgstr ""
 
-#: ../../library/string.rst:528
+#: ../../library/string.rst:529
 msgid "``'%'``"
 msgstr ""
 
-#: ../../library/string.rst:528
+#: ../../library/string.rst:529
 msgid "Percentage. Multiplies the number by 100 and displays in fixed (``'f'``) format, followed by a percent sign."
 msgstr ""
 
-#: ../../library/string.rst:531
+#: ../../library/string.rst:532
 msgid "Similar to ``'g'``, except that fixed-point notation, when used, has at least one digit past the decimal point. The default precision is as high as needed to represent the particular value. The overall effect is to match the output of :func:`str` as altered by the other format modifiers."
 msgstr ""
 
-#: ../../library/string.rst:543
+#: ../../library/string.rst:544
 msgid "Format examples"
 msgstr ""
 
-#: ../../library/string.rst:545
+#: ../../library/string.rst:546
 msgid "This section contains examples of the :meth:`str.format` syntax and comparison with the old ``%``-formatting."
 msgstr ""
 
-#: ../../library/string.rst:548
+#: ../../library/string.rst:549
 msgid "In most of the cases the syntax is similar to the old ``%``-formatting, with the addition of the ``{}`` and with ``:`` used instead of ``%``. For example, ``'%03.2f'`` can be translated to ``'{:03.2f}'``."
 msgstr ""
 
-#: ../../library/string.rst:552
+#: ../../library/string.rst:553
 msgid "The new format syntax also supports new and different options, shown in the following examples."
 msgstr ""
 
-#: ../../library/string.rst:555
+#: ../../library/string.rst:556
 msgid "Accessing arguments by position::"
 msgstr ""
 
-#: ../../library/string.rst:568
+#: ../../library/string.rst:569
 msgid "Accessing arguments by name::"
 msgstr ""
 
-#: ../../library/string.rst:576
+#: ../../library/string.rst:577
 msgid "Accessing arguments' attributes::"
 msgstr ""
 
-#: ../../library/string.rst:591
+#: ../../library/string.rst:592
 msgid "Accessing arguments' items::"
 msgstr ""
 
-#: ../../library/string.rst:597
+#: ../../library/string.rst:598
 msgid "Replacing ``%s`` and ``%r``::"
 msgstr ""
 
-#: ../../library/string.rst:602
+#: ../../library/string.rst:603
 msgid "Aligning the text and specifying a width::"
 msgstr ""
 
-#: ../../library/string.rst:613
+#: ../../library/string.rst:614
 msgid "Replacing ``%+f``, ``%-f``, and ``% f`` and specifying a sign::"
 msgstr ""
 
-#: ../../library/string.rst:622
+#: ../../library/string.rst:623
 msgid "Replacing ``%x`` and ``%o`` and converting the value to different bases::"
 msgstr ""
 
-#: ../../library/string.rst:631
+#: ../../library/string.rst:632
 msgid "Using the comma as a thousands separator::"
 msgstr ""
 
-#: ../../library/string.rst:636
+#: ../../library/string.rst:637
 msgid "Expressing a percentage::"
 msgstr ""
 
-#: ../../library/string.rst:643
+#: ../../library/string.rst:644
 msgid "Using type-specific formatting::"
 msgstr ""
 
-#: ../../library/string.rst:650
+#: ../../library/string.rst:651
 msgid "Nesting arguments and more complex examples::"
 msgstr ""
 
-#: ../../library/string.rst:684
+#: ../../library/string.rst:685
 msgid "Template strings"
 msgstr ""
 
-#: ../../library/string.rst:686
+#: ../../library/string.rst:687
 msgid "Template strings provide simpler string substitutions as described in :pep:`292`.  A primary use case for template strings is for internationalization (i18n) since in that context, the simpler syntax and functionality makes it easier to translate than other built-in string formatting facilities in Python.  As an example of a library built on template strings for i18n, see the `flufl.i18n <http://flufli18n.readthedocs.io/en/latest/>`_ package."
 msgstr ""
 
-#: ../../library/string.rst:696
+#: ../../library/string.rst:697
 msgid "Template strings support ``$``-based substitutions, using the following rules:"
 msgstr ""
 
-#: ../../library/string.rst:698
+#: ../../library/string.rst:699
 msgid "``$$`` is an escape; it is replaced with a single ``$``."
 msgstr ""
 
-#: ../../library/string.rst:700
+#: ../../library/string.rst:701
 msgid "``$identifier`` names a substitution placeholder matching a mapping key of ``\"identifier\"``.  By default, ``\"identifier\"`` is restricted to any case-insensitive ASCII alphanumeric string (including underscores) that starts with an underscore or ASCII letter.  The first non-identifier character after the ``$`` character terminates this placeholder specification."
 msgstr ""
 
-#: ../../library/string.rst:707
+#: ../../library/string.rst:708
 msgid "``${identifier}`` is equivalent to ``$identifier``.  It is required when valid identifier characters follow the placeholder but are not part of the placeholder, such as ``\"${noun}ification\"``."
 msgstr ""
 
-#: ../../library/string.rst:711
+#: ../../library/string.rst:712
 msgid "Any other appearance of ``$`` in the string will result in a :exc:`ValueError` being raised."
 msgstr ""
 
-#: ../../library/string.rst:714
+#: ../../library/string.rst:715
 msgid "The :mod:`string` module provides a :class:`Template` class that implements these rules.  The methods of :class:`Template` are:"
 msgstr ""
 
-#: ../../library/string.rst:720
+#: ../../library/string.rst:721
 msgid "The constructor takes a single argument which is the template string."
 msgstr ""
 
-#: ../../library/string.rst:725
+#: ../../library/string.rst:726
 msgid "Performs the template substitution, returning a new string.  *mapping* is any dictionary-like object with keys that match the placeholders in the template.  Alternatively, you can provide keyword arguments, where the keywords are the placeholders.  When both *mapping* and *kwds* are given and there are duplicates, the placeholders from *kwds* take precedence."
 msgstr ""
 
-#: ../../library/string.rst:734
+#: ../../library/string.rst:735
 msgid "Like :meth:`substitute`, except that if placeholders are missing from *mapping* and *kwds*, instead of raising a :exc:`KeyError` exception, the original placeholder will appear in the resulting string intact.  Also, unlike with :meth:`substitute`, any other appearances of the ``$`` will simply return ``$`` instead of raising :exc:`ValueError`."
 msgstr ""
 
-#: ../../library/string.rst:740
+#: ../../library/string.rst:741
 msgid "While other exceptions may still occur, this method is called \"safe\" because it always tries to return a usable string instead of raising an exception.  In another sense, :meth:`safe_substitute` may be anything other than safe, since it will silently ignore malformed templates containing dangling delimiters, unmatched braces, or placeholders that are not valid Python identifiers."
 msgstr ""
 
-#: ../../library/string.rst:747
+#: ../../library/string.rst:748
 msgid ":class:`Template` instances also provide one public data attribute:"
 msgstr ""
 
-#: ../../library/string.rst:751
+#: ../../library/string.rst:752
 msgid "This is the object passed to the constructor's *template* argument.  In general, you shouldn't change it, but read-only access is not enforced."
 msgstr ""
 
-#: ../../library/string.rst:754
+#: ../../library/string.rst:755
 msgid "Here is an example of how to use a Template::"
 msgstr ""
 
-#: ../../library/string.rst:772
+#: ../../library/string.rst:773
 msgid "Advanced usage: you can derive subclasses of :class:`Template` to customize the placeholder syntax, delimiter character, or the entire regular expression used to parse template strings.  To do this, you can override these class attributes:"
 msgstr ""
 
-#: ../../library/string.rst:777
+#: ../../library/string.rst:778
 msgid "*delimiter* -- This is the literal string describing a placeholder introducing delimiter.  The default value is ``$``.  Note that this should *not* be a regular expression, as the implementation will call :meth:`re.escape` on this string as needed.  Note further that you cannot change the delimiter after class creation (i.e. a different delimiter must be set in the subclass's class namespace)."
 msgstr ""
 
-#: ../../library/string.rst:784
+#: ../../library/string.rst:785
 msgid "*idpattern* -- This is the regular expression describing the pattern for non-braced placeholders.  The default value is the regular expression ``(?a:[_a-z][_a-z0-9]*)``.  If this is given and *braceidpattern* is ``None`` this pattern will also apply to braced placeholders."
 msgstr ""
 
-#: ../../library/string.rst:791
+#: ../../library/string.rst:792
 msgid "Since default *flags* is ``re.IGNORECASE``, pattern ``[a-z]`` can match with some non-ASCII characters. That's why we use the local ``a`` flag here."
 msgstr ""
 
-#: ../../library/string.rst:795
+#: ../../library/string.rst:796
 msgid "*braceidpattern* can be used to define separate patterns used inside and outside the braces."
 msgstr ""
 
-#: ../../library/string.rst:799
+#: ../../library/string.rst:800
 msgid "*braceidpattern* -- This is like *idpattern* but describes the pattern for braced placeholders.  Defaults to ``None`` which means to fall back to *idpattern* (i.e. the same pattern is used both inside and outside braces). If given, this allows you to define different patterns for braced and unbraced placeholders."
 msgstr ""
 
-#: ../../library/string.rst:807
+#: ../../library/string.rst:808
 msgid "*flags* -- The regular expression flags that will be applied when compiling the regular expression used for recognizing substitutions.  The default value is ``re.IGNORECASE``.  Note that ``re.VERBOSE`` will always be added to the flags, so custom *idpattern*\\ s must follow conventions for verbose regular expressions."
 msgstr ""
 
-#: ../../library/string.rst:815
+#: ../../library/string.rst:816
 msgid "Alternatively, you can provide the entire regular expression pattern by overriding the class attribute *pattern*.  If you do this, the value must be a regular expression object with four named capturing groups.  The capturing groups correspond to the rules given above, along with the invalid placeholder rule:"
 msgstr ""
 
-#: ../../library/string.rst:821
+#: ../../library/string.rst:822
 msgid "*escaped* -- This group matches the escape sequence, e.g. ``$$``, in the default pattern."
 msgstr ""
 
-#: ../../library/string.rst:824
+#: ../../library/string.rst:825
 msgid "*named* -- This group matches the unbraced placeholder name; it should not include the delimiter in capturing group."
 msgstr ""
 
-#: ../../library/string.rst:827
+#: ../../library/string.rst:828
 msgid "*braced* -- This group matches the brace enclosed placeholder name; it should not include either the delimiter or braces in the capturing group."
 msgstr ""
 
-#: ../../library/string.rst:830
+#: ../../library/string.rst:831
 msgid "*invalid* -- This group matches any other delimiter pattern (usually a single delimiter), and it should appear last in the regular expression."
 msgstr ""
 
-#: ../../library/string.rst:835
+#: ../../library/string.rst:836
 msgid "Helper functions"
 msgstr ""
 
-#: ../../library/string.rst:839
+#: ../../library/string.rst:840
 msgid "Split the argument into words using :meth:`str.split`, capitalize each word using :meth:`str.capitalize`, and join the capitalized words using :meth:`str.join`.  If the optional second argument *sep* is absent or ``None``, runs of whitespace characters are replaced by a single space and leading and trailing whitespace are removed, otherwise *sep* is used to split and join the words."
 msgstr ""
 

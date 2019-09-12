@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 11:22+0000\n"
+"POT-Creation-Date: 2019-09-12 11:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,7 +225,7 @@ msgid "This function returns a tuple of three values that give information about
 msgstr ""
 
 #: ../../library/sys.rst:343
-msgid "If no exception is being handled anywhere on the stack, a tuple containing three ``None`` values is returned.  Otherwise, the values returned are ``(type, value, traceback)``.  Their meaning is: *type* gets the type of the exception being handled (a subclass of :exc:`BaseException`); *value* gets the exception instance (an instance of the exception type); *traceback* gets a traceback object (see the Reference Manual) which encapsulates the call stack at the point where the exception originally occurred."
+msgid "If no exception is being handled anywhere on the stack, a tuple containing three ``None`` values is returned.  Otherwise, the values returned are ``(type, value, traceback)``.  Their meaning is: *type* gets the type of the exception being handled (a subclass of :exc:`BaseException`); *value* gets the exception instance (an instance of the exception type); *traceback* gets a :ref:`traceback object <traceback-objects>` which encapsulates the call stack at the point where the exception originally occurred."
 msgstr ""
 
 #: ../../library/sys.rst:354
@@ -257,7 +257,7 @@ msgid "If an error occurs in the cleanup after the Python interpreter has caught
 msgstr ""
 
 #: ../../library/sys.rst:411
-msgid "The :term:`struct sequence` *flags* exposes the status of command line flags. The attributes are read only."
+msgid "The :term:`named tuple` *flags* exposes the status of command line flags. The attributes are read only."
 msgstr ""
 
 #: ../../library/sys.rst:415
@@ -408,7 +408,7 @@ msgid "Added ``dev_mode`` attribute for the new :option:`-X` ``dev`` flag and ``
 msgstr ""
 
 #: ../../library/sys.rst:453
-msgid "A :term:`struct sequence` holding information about the float type. It contains low level information about the precision and internal representation.  The values correspond to the various floating-point constants defined in the standard header file :file:`float.h` for the 'C' programming language; see section 5.2.4.2.2 of the 1999 ISO/IEC C standard [C99]_, 'Characteristics of floating types', for details."
+msgid "A :term:`named tuple` holding information about the float type. It contains low level information about the precision and internal representation.  The values correspond to the various floating-point constants defined in the standard header file :file:`float.h` for the 'C' programming language; see section 5.2.4.2.2 of the 1999 ISO/IEC C standard [C99]_, 'Characteristics of floating types', for details."
 msgstr ""
 
 #: ../../library/sys.rst:463
@@ -793,7 +793,7 @@ msgid "This function has been added on a provisional basis (see :pep:`411` for d
 msgstr ""
 
 #: ../../library/sys.rst:793
-msgid "A :term:`struct sequence` giving parameters of the numeric hash implementation.  For more details about hashing of numeric types, see :ref:`numeric-hash`."
+msgid "A :term:`named tuple` giving parameters of the numeric hash implementation.  For more details about hashing of numeric types, see :ref:`numeric-hash`."
 msgstr ""
 
 #: ../../library/sys.rst:800
@@ -869,7 +869,7 @@ msgid "The version number encoded as a single integer.  This is guaranteed to in
 msgstr ""
 
 #: ../../library/sys.rst:839
-msgid "This is called ``hexversion`` since it only really looks meaningful when viewed as the result of passing it to the built-in :func:`hex` function.  The :term:`struct sequence`  :data:`sys.version_info` may be used for a more human-friendly encoding of the same information."
+msgid "This is called ``hexversion`` since it only really looks meaningful when viewed as the result of passing it to the built-in :func:`hex` function.  The :term:`named tuple`  :data:`sys.version_info` may be used for a more human-friendly encoding of the same information."
 msgstr ""
 
 #: ../../library/sys.rst:844
@@ -905,7 +905,7 @@ msgid "The addition of new required attributes must go through the normal PEP pr
 msgstr ""
 
 #: ../../library/sys.rst:893
-msgid "A :term:`struct sequence` that holds information about Python's internal representation of integers.  The attributes are read only."
+msgid "A :term:`named tuple` that holds information about Python's internal representation of integers.  The attributes are read only."
 msgstr ""
 
 #: ../../library/sys.rst:899
@@ -1395,7 +1395,7 @@ msgid "Under some conditions ``stdin``, ``stdout`` and ``stderr`` as well as the
 msgstr ""
 
 #: ../../library/sys.rst:1483
-msgid "A :term:`struct sequence` holding information about the thread implementation."
+msgid "A :term:`named tuple` holding information about the thread implementation."
 msgstr ""
 
 #: ../../library/sys.rst:1491
