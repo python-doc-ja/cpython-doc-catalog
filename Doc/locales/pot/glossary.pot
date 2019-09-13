@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2019-09-13 11:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -842,7 +842,7 @@ msgid "Several built-in types are named tuples, including the values returned by
 msgstr ""
 
 #: ../../glossary.rst:757
-msgid "Some named tuples are built-in types (such as the above examples). Alternatively, a named tuple can be created from a regular class definition that inherits from :class:`tuple` and that defines named fields.  Such as class can be written by hand or it can be created with the factory function :func:`collections.namedtuple`.  The latter technique also adds some extra methods that may not be found in hand-written or built-in named tuples."
+msgid "Some named tuples are built-in types (such as the above examples). Alternatively, a named tuple can be created from a regular class definition that inherits from :class:`tuple` and that defines named fields.  Such a class can be written by hand or it can be created with the factory function :func:`collections.namedtuple`.  The latter technique also adds some extra methods that may not be found in hand-written or built-in named tuples."
 msgstr ""
 
 #: ../../glossary.rst:764
