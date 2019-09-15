@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-09-15 03:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -888,7 +888,7 @@ msgid "The :mod:`curses` module defines the following data members:"
 msgstr ""
 
 #: ../../library/curses.rst:1279
-msgid "Some curses routines  that  return  an integer, such as  :func:`getch`, return :const:`ERR` upon failure."
+msgid "Some curses routines  that  return  an integer, such as :meth:`~window.getch`, return :const:`ERR` upon failure."
 msgstr ""
 
 #: ../../library/curses.rst:1285

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 01:07+0000\n"
+"POT-Creation-Date: 2019-09-15 03:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgid "``f.tell()`` returns an integer giving the file object's current position
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:413
-msgid "To change the file object's position, use ``f.seek(offset, from_what)``.  The position is computed from adding *offset* to a reference point; the reference point is selected by the *from_what* argument.  A *from_what* value of 0 measures from the beginning of the file, 1 uses the current file position, and 2 uses the end of the file as the reference point.  *from_what* can be omitted and defaults to 0, using the beginning of the file as the reference point. ::"
+msgid "To change the file object's position, use ``f.seek(offset, whence)``.  The position is computed from adding *offset* to a reference point; the reference point is selected by the *whence* argument.  A *whence* value of 0 measures from the beginning of the file, 1 uses the current file position, and 2 uses the end of the file as the reference point.  *whence* can be omitted and defaults to 0, using the beginning of the file as the reference point. ::"
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:432
