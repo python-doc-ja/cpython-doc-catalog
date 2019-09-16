@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-09-16 11:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -373,7 +373,7 @@ msgid "Use keyword-only when names have meaning and the function definition is m
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:698
-msgid "For an API, use positional-only to prevent prevent breaking API changes if the parameter's name is modified in the future."
+msgid "For an API, use positional-only to prevent breaking API changes if the parameter's name is modified in the future."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:704
