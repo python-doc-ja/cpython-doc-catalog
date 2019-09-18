@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 03:32+0000\n"
+"POT-Creation-Date: 2019-09-18 03:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -427,7 +427,7 @@ msgid "Possible value for :attr:`SSLContext.verify_flags`. In this mode, certifi
 msgstr ""
 
 #: ../../library/ssl.rst:607
-msgid "Possible value for :attr:`SSLContext.verify_flags`. In this mode, only the peer cert is check but non of the intermediate CA certificates. The mode requires a valid CRL that is signed by the peer cert's issuer (its direct ancestor CA). If no proper has been loaded :attr:`SSLContext.load_verify_locations`, validation will fail."
+msgid "Possible value for :attr:`SSLContext.verify_flags`. In this mode, only the peer cert is checked but none of the intermediate CA certificates. The mode requires a valid CRL that is signed by the peer cert's issuer (its direct ancestor CA). If no proper CRL has has been loaded with :attr:`SSLContext.load_verify_locations`, validation will fail."
 msgstr ""
 
 #: ../../library/ssl.rst:617
