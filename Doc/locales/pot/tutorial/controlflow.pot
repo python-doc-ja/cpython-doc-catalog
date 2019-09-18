@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 11:27+0000\n"
+"POT-Creation-Date: 2019-09-18 11:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "More Control Flow Tools"
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:7
-msgid "Besides the :keyword:`while` statement just introduced, Python knows the usual control flow statements known from other languages, with some twists."
+msgid "Besides the :keyword:`while` statement just introduced, Python uses the usual flow control statements known from other languages, with some twists."
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:14
