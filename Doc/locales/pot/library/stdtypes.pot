@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 03:30+0000\n"
+"POT-Creation-Date: 2019-09-20 03:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3247,7 +3247,7 @@ msgid "An equality comparison between one ``dict.values()`` view and another wil
 msgstr ""
 
 #: ../../library/stdtypes.rst:4282
-msgid "Dictionaries compare equal if and only if they have the same ``(key, value)`` pairs. Order comparisons ('<', '<=', '>=', '>') raise :exc:`TypeError`."
+msgid "Dictionaries compare equal if and only if they have the same ``(key, value)`` pairs (regardless of ordering). Order comparisons ('<', '<=', '>=', '>') raise :exc:`TypeError`."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4286
