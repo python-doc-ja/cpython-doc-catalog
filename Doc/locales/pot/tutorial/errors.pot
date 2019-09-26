@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2019-09-26 11:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "If a :keyword:`finally` clause is present, the :keyword:`finally` clause 
 msgstr ""
 
 #: ../../tutorial/errors.rst:346
-msgid "If an exception occurs during execution of the :keyword:`!try` clause, the exception may be handled by an :keyword:`except` clause. In all cases, the exception is re-raised after the :keyword:`!finally` clause has been executed."
+msgid "If an exception occurs during execution of the :keyword:`!try` clause, the exception may be handled by an :keyword:`except` clause. If the exception is not handled by an :keyword:`except` clause, the exception is re-raised after the :keyword:`!finally` clause has been executed."
 msgstr ""
 
 #: ../../tutorial/errors.rst:348
