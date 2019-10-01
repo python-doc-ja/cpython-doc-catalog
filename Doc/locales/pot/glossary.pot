@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 11:25+0000\n"
+"POT-Creation-Date: 2019-10-01 11:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,7 +281,7 @@ msgid "coroutine"
 msgstr ""
 
 #: ../../glossary.rst:250
-msgid "Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point.  Coroutines can be entered, exited, and resumed at many different points.  They can be implemented with the :keyword:`async def` statement.  See also :pep:`492`."
+msgid "Coroutines are a more generalized form of subroutines. Subroutines are entered at one point and exited at another point.  Coroutines can be entered, exited, and resumed at many different points.  They can be implemented with the :keyword:`async def` statement.  See also :pep:`492`."
 msgstr ""
 
 #: ../../glossary.rst:255
