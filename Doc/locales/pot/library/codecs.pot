@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-12 11:10+0900\n"
+"POT-Creation-Date: 2019-10-02 03:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,7 +216,7 @@ msgid "Error Handlers"
 msgstr ""
 
 #: ../../library/codecs.rst:293
-msgid "To simplify and standardize error handling, codecs may implement different error handling schemes by accepting the *errors* string argument.  The following string values are defined and implemented by all standard Python codecs:"
+msgid "To simplify and standardize error handling, codecs may implement different error handling schemes by accepting the *errors* string argument. The following string values are defined and implemented by all standard Python codecs:"
 msgstr ""
 
 #: ../../library/codecs.rst:301
@@ -228,6 +228,9 @@ msgstr ""
 #: ../../library/codecs.rst:301
 #: ../../library/codecs.rst:324
 #: ../../library/codecs.rst:357
+#: ../../library/codecs.rst:1270
+#: ../../library/codecs.rst:1343
+#: ../../library/codecs.rst:1398
 msgid "Meaning"
 msgstr ""
 
@@ -236,7 +239,7 @@ msgid "``'strict'``"
 msgstr ""
 
 #: ../../library/codecs.rst:303
-msgid "Raise :exc:`UnicodeError` (or a subclass); this is the default.  Implemented in :func:`strict_errors`."
+msgid "Raise :exc:`UnicodeError` (or a subclass); this is the default. Implemented in :func:`strict_errors`."
 msgstr ""
 
 #: ../../library/codecs.rst:307
@@ -244,7 +247,7 @@ msgid "``'ignore'``"
 msgstr ""
 
 #: ../../library/codecs.rst:307
-msgid "Ignore the malformed data and continue without further notice.  Implemented in :func:`ignore_errors`."
+msgid "Ignore the malformed data and continue without further notice. Implemented in :func:`ignore_errors`."
 msgstr ""
 
 #: ../../library/codecs.rst:312
@@ -256,7 +259,7 @@ msgid "``'replace'``"
 msgstr ""
 
 #: ../../library/codecs.rst:326
-msgid "Replace with a suitable replacement marker; Python will use the official ``U+FFFD`` REPLACEMENT CHARACTER for the built-in codecs on decoding, and '?' on encoding.  Implemented in :func:`replace_errors`."
+msgid "Replace with a suitable replacement marker; Python will use the official ``U+FFFD`` REPLACEMENT CHARACTER for the built-in codecs on decoding, and '?' on encoding. Implemented in :func:`replace_errors`."
 msgstr ""
 
 #: ../../library/codecs.rst:333
@@ -264,7 +267,7 @@ msgid "``'xmlcharrefreplace'``"
 msgstr ""
 
 #: ../../library/codecs.rst:333
-msgid "Replace with the appropriate XML character reference (only for encoding).  Implemented in :func:`xmlcharrefreplace_errors`."
+msgid "Replace with the appropriate XML character reference (only for encoding). Implemented in :func:`xmlcharrefreplace_errors`."
 msgstr ""
 
 #: ../../library/codecs.rst:337
@@ -280,7 +283,7 @@ msgid "``'namereplace'``"
 msgstr ""
 
 #: ../../library/codecs.rst:341
-msgid "Replace with ``\\N{...}`` escape sequences (only for encoding).  Implemented in :func:`namereplace_errors`."
+msgid "Replace with ``\\N{...}`` escape sequences (only for encoding). Implemented in :func:`namereplace_errors`."
 msgstr ""
 
 #: ../../library/codecs.rst:345
@@ -288,7 +291,7 @@ msgid "``'surrogateescape'``"
 msgstr ""
 
 #: ../../library/codecs.rst:345
-msgid "On decoding, replace byte with individual surrogate code ranging from ``U+DC80`` to ``U+DCFF``.  This code will then be turned back into the same byte when the ``'surrogateescape'`` error handler is used when encoding the data.  (See :pep:`383` for more.)"
+msgid "On decoding, replace byte with individual surrogate code ranging from ``U+DC80`` to ``U+DCFF``. This code will then be turned back into the same byte when the ``'surrogateescape'`` error handler is used when encoding the data. (See :pep:`383` for more.)"
 msgstr ""
 
 #: ../../library/codecs.rst:354
@@ -308,7 +311,7 @@ msgid "utf-8, utf-16, utf-32, utf-16-be, utf-16-le, utf-32-be, utf-32-le"
 msgstr ""
 
 #: ../../library/codecs.rst:359
-msgid "Allow encoding and decoding of surrogate codes.  These codecs normally treat the presence of surrogates as an error."
+msgid "Allow encoding and decoding of surrogate codes. These codecs normally treat the presence of surrogates as an error."
 msgstr ""
 
 #: ../../library/codecs.rst:364
@@ -336,7 +339,7 @@ msgid "Register the error handling function *error_handler* under the name *name
 msgstr ""
 
 #: ../../library/codecs.rst:386
-msgid "For encoding, *error_handler* will be called with a :exc:`UnicodeEncodeError` instance, which contains information about the location of the error. The error handler must either raise this or a different exception, or return a tuple with a replacement for the unencodable part of the input and a position where encoding should continue. The replacement may be either :class:`str` or :class:`bytes`.  If the replacement is bytes, the encoder will simply copy them into the output buffer. If the replacement is a string, the encoder will encode the replacement.  Encoding continues on original input at the specified position. Negative position values will be treated as being relative to the end of the input string. If the resulting position is out of bound an :exc:`IndexError` will be raised."
+msgid "For encoding, *error_handler* will be called with a :exc:`UnicodeEncodeError` instance, which contains information about the location of the error. The error handler must either raise this or a different exception, or return a tuple with a replacement for the unencodable part of the input and a position where encoding should continue. The replacement may be either :class:`str` or :class:`bytes`. If the replacement is bytes, the encoder will simply copy them into the output buffer. If the replacement is a string, the encoder will encode the replacement. Encoding continues on original input at the specified position. Negative position values will be treated as being relative to the end of the input string. If the resulting position is out of bound an :exc:`IndexError` will be raised."
 msgstr ""
 
 #: ../../library/codecs.rst:398
@@ -409,7 +412,7 @@ msgid "The encoder must be able to handle zero length input and return an empty 
 msgstr ""
 
 #: ../../library/codecs.rst:486
-msgid "Decodes the object *input* and returns a tuple (output object, length consumed).  For instance, for a :term:`text encoding`, decoding converts a bytes object encoded using a particular character set encoding to a string object."
+msgid "Decodes the object *input* and returns a tuple (output object, length consumed). For instance, for a :term:`text encoding`, decoding converts a bytes object encoded using a particular character set encoding to a string object."
 msgstr ""
 
 #: ../../library/codecs.rst:491
@@ -469,7 +472,7 @@ msgid "Reset the encoder to the initial state. The output is discarded: call ``.
 msgstr ""
 
 #: ../../library/codecs.rst:567
-msgid "Return the current state of the encoder which must be an integer. The implementation should make sure that ``0`` is the most common state. (States that are more complicated than integers can be converted into an integer by marshaling/pickling the state and encoding the bytes of the resulting string into an integer)."
+msgid "Return the current state of the encoder which must be an integer. The implementation should make sure that ``0`` is the most common state. (States that are more complicated than integers can be converted into an integer by marshaling/pickling the state and encoding the bytes of the resulting string into an integer.)"
 msgstr ""
 
 #: ../../library/codecs.rst:576
@@ -613,7 +616,7 @@ msgid "The *chars* argument indicates the number of decoded code points or bytes
 msgstr ""
 
 #: ../../library/codecs.rst:750
-msgid "The *size* argument indicates the approximate maximum number of encoded bytes or code points to read for decoding. The decoder can modify this setting as appropriate. The default value -1 indicates to read and decode as much as possible.  This parameter is intended to prevent having to decode huge files in one step."
+msgid "The *size* argument indicates the approximate maximum number of encoded bytes or code points to read for decoding. The decoder can modify this setting as appropriate. The default value -1 indicates to read and decode as much as possible. This parameter is intended to prevent having to decode huge files in one step."
 msgstr ""
 
 #: ../../library/codecs.rst:757
@@ -641,7 +644,7 @@ msgid "Read all lines available on the input stream and return them as a list of
 msgstr ""
 
 #: ../../library/codecs.rst:783
-msgid "Line-endings are implemented using the codec's decoder method and are included in the list entries if *keepends* is true."
+msgid "Line-endings are implemented using the codec's :meth:`decode` method and are included in the list entries if *keepends* is true."
 msgstr ""
 
 #: ../../library/codecs.rst:786
@@ -653,7 +656,7 @@ msgid "Resets the codec buffers used for keeping state."
 msgstr ""
 
 #: ../../library/codecs.rst:794
-msgid "Note that no stream repositioning should take place.  This method is primarily intended to be able to recover from decoding errors."
+msgid "Note that no stream repositioning should take place. This method is primarily intended to be able to recover from decoding errors."
 msgstr ""
 
 #: ../../library/codecs.rst:798
@@ -694,7 +697,7 @@ msgid "Creates a :class:`StreamRecoder` instance which implements a two-way conv
 msgstr ""
 
 #: ../../library/codecs.rst:844
-msgid "You can use these objects to do transparent transcodings from e.g. Latin-1 to UTF-8 and back."
+msgid "You can use these objects to do transparent transcodings, e.g., from Latin-1 to UTF-8 and back."
 msgstr ""
 
 #: ../../library/codecs.rst:847
@@ -718,7 +721,7 @@ msgid "Encodings and Unicode"
 msgstr ""
 
 #: ../../library/codecs.rst:868
-msgid "Strings are stored internally as sequences of code points in range ``0x0``--``0x10FFFF``.  (See :pep:`393` for more details about the implementation.) Once a string object is used outside of CPU and memory, endianness and how these arrays are stored as bytes become an issue.  As with other codecs, serialising a string into a sequence of bytes is known as *encoding*, and recreating the string from the sequence of bytes is known as *decoding*. There are a variety of different text serialisation codecs, which are collectivity referred to as :term:`text encodings <text encoding>`."
+msgid "Strings are stored internally as sequences of code points in range ``0x0``--``0x10FFFF``. (See :pep:`393` for more details about the implementation.) Once a string object is used outside of CPU and memory, endianness and how these arrays are stored as bytes become an issue. As with other codecs, serialising a string into a sequence of bytes is known as *encoding*, and recreating the string from the sequence of bytes is known as *decoding*. There are a variety of different text serialisation codecs, which are collectivity referred to as :term:`text encodings <text encoding>`."
 msgstr ""
 
 #: ../../library/codecs.rst:878
@@ -802,7 +805,7 @@ msgid "INVERTED QUESTION MARK"
 msgstr ""
 
 #: ../../library/codecs.rst:961
-msgid "in iso-8859-1), this increases the probability that a ``utf-8-sig`` encoding can be correctly guessed from the byte sequence. So here the BOM is not used to be able to determine the byte order used for generating the byte sequence, but as a signature that helps in guessing the encoding. On encoding the utf-8-sig codec will write ``0xef``, ``0xbb``, ``0xbf`` as the first three bytes to the file. On decoding ``utf-8-sig`` will skip those three bytes if they appear as the first three bytes in the file.  In UTF-8, the use of the BOM is discouraged and should generally be avoided."
+msgid "in iso-8859-1), this increases the probability that a ``utf-8-sig`` encoding can be correctly guessed from the byte sequence. So here the BOM is not used to be able to determine the byte order used for generating the byte sequence, but as a signature that helps in guessing the encoding. On encoding the utf-8-sig codec will write ``0xef``, ``0xbb``, ``0xbf`` as the first three bytes to the file. On decoding ``utf-8-sig`` will skip those three bytes if they appear as the first three bytes in the file. In UTF-8, the use of the BOM is discouraged and should generally be avoided."
 msgstr ""
 
 #: ../../library/codecs.rst:974
@@ -814,7 +817,7 @@ msgid "Python comes with a number of codecs built-in, either implemented as C fu
 msgstr ""
 
 #: ../../library/codecs.rst:986
-msgid "Some common encodings can bypass the codecs lookup machinery to improve performance.  These optimization opportunities are only recognized by CPython for a limited set of (case insensitive) aliases: utf-8, utf8, latin-1, latin1, iso-8859-1, iso8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf16, utf-32, utf32, and the same using underscores instead of dashes. Using alternative aliases for these encodings may result in slower execution."
+msgid "Some common encodings can bypass the codecs lookup machinery to improve performance. These optimization opportunities are only recognized by CPython for a limited set of (case insensitive) aliases: utf-8, utf8, latin-1, latin1, iso-8859-1, iso8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf16, utf-32, utf32, and the same using underscores instead of dashes. Using alternative aliases for these encodings may result in slower execution."
 msgstr ""
 
 #: ../../library/codecs.rst:994
@@ -952,6 +955,7 @@ msgstr ""
 #: ../../library/codecs.rst:1052
 #: ../../library/codecs.rst:1088
 #: ../../library/codecs.rst:1095
+#: ../../library/codecs.rst:1153
 #: ../../library/codecs.rst:1181
 #: ../../library/codecs.rst:1208
 msgid "Western Europe"
@@ -1469,10 +1473,6 @@ msgstr ""
 msgid "iso-8859-1, iso8859-1, 8859, cp819, latin, latin1, L1"
 msgstr ""
 
-#: ../../library/codecs.rst:1153
-msgid "West Europe"
-msgstr ""
-
 #: ../../library/codecs.rst:1156
 msgid "iso8859_2"
 msgstr ""
@@ -1811,7 +1811,7 @@ msgid "Python Specific Encodings"
 msgstr ""
 
 #: ../../library/codecs.rst:1253
-msgid "A number of predefined codecs are specific to Python, so their codec names have no meaning outside Python.  These are listed in the tables below based on the expected input and output types (note that while text encodings are the most common use case for codecs, the underlying codec infrastructure supports arbitrary data transforms rather than just text encodings).  For asymmetric codecs, the stated purpose describes the encoding direction."
+msgid "A number of predefined codecs are specific to Python, so their codec names have no meaning outside Python. These are listed in the tables below based on the expected input and output types (note that while text encodings are the most common use case for codecs, the underlying codec infrastructure supports arbitrary data transforms rather than just text encodings). For asymmetric codecs, the stated meaning describes the encoding direction."
 msgstr ""
 
 #: ../../library/codecs.rst:1261
@@ -1822,18 +1822,12 @@ msgstr ""
 msgid "The following codecs provide :class:`str` to :class:`bytes` encoding and :term:`bytes-like object` to :class:`str` decoding, similar to the Unicode text encodings."
 msgstr ""
 
-#: ../../library/codecs.rst:1270
-#: ../../library/codecs.rst:1343
-#: ../../library/codecs.rst:1398
-msgid "Purpose"
-msgstr ""
-
 #: ../../library/codecs.rst:1272
 msgid "idna"
 msgstr ""
 
 #: ../../library/codecs.rst:1272
-msgid "Implements :rfc:`3490`, see also :mod:`encodings.idna`. Only ``errors='strict'`` is supported."
+msgid "Implement :rfc:`3490`, see also :mod:`encodings.idna`. Only ``errors='strict'`` is supported."
 msgstr ""
 
 #: ../../library/codecs.rst:1278
@@ -1845,7 +1839,7 @@ msgid "ansi, dbcs"
 msgstr ""
 
 #: ../../library/codecs.rst:1278
-msgid "Windows only: Encode operand according to the ANSI codepage (CP_ACP)"
+msgid "Windows only: Encode the operand according to the ANSI codepage (CP_ACP)."
 msgstr ""
 
 #: ../../library/codecs.rst:1282
@@ -1853,7 +1847,7 @@ msgid "oem"
 msgstr ""
 
 #: ../../library/codecs.rst:1282
-msgid "Windows only: Encode operand according to the OEM codepage (CP_OEMCP)"
+msgid "Windows only: Encode the operand according to the OEM codepage (CP_OEMCP)."
 msgstr ""
 
 #: ../../library/codecs.rst:1288
@@ -1861,7 +1855,7 @@ msgid "palmos"
 msgstr ""
 
 #: ../../library/codecs.rst:1288
-msgid "Encoding of PalmOS 3.5"
+msgid "Encoding of PalmOS 3.5."
 msgstr ""
 
 #: ../../library/codecs.rst:1290
@@ -1869,7 +1863,7 @@ msgid "punycode"
 msgstr ""
 
 #: ../../library/codecs.rst:1290
-msgid "Implements :rfc:`3492`. Stateful codecs are not supported."
+msgid "Implement :rfc:`3492`. Stateful codecs are not supported."
 msgstr ""
 
 #: ../../library/codecs.rst:1294
@@ -1893,7 +1887,7 @@ msgid "unicode_escape"
 msgstr ""
 
 #: ../../library/codecs.rst:1308
-msgid "Encoding suitable as the contents of a Unicode literal in ASCII-encoded Python source code, except that quotes are not escaped. Decodes from Latin-1 source code. Beware that Python source code actually uses UTF-8 by default."
+msgid "Encoding suitable as the contents of a Unicode literal in ASCII-encoded Python source code, except that quotes are not escaped. Decode from Latin-1 source code. Beware that Python source code actually uses UTF-8 by default."
 msgstr ""
 
 #: ../../library/codecs.rst:1319
@@ -1913,7 +1907,7 @@ msgid "Binary Transforms"
 msgstr ""
 
 #: ../../library/codecs.rst:1335
-msgid "The following codecs provide binary transforms: :term:`bytes-like object` to :class:`bytes` mappings.  They are not supported by :meth:`bytes.decode` (which only produces :class:`str` output)."
+msgid "The following codecs provide binary transforms: :term:`bytes-like object` to :class:`bytes` mappings. They are not supported by :meth:`bytes.decode` (which only produces :class:`str` output)."
 msgstr ""
 
 #: ../../library/codecs.rst:1343
@@ -1929,7 +1923,7 @@ msgid "base64, base_64"
 msgstr ""
 
 #: ../../library/codecs.rst:1345
-msgid "Convert operand to multiline MIME base64 (the result always includes a trailing ``'\\n'``)"
+msgid "Convert the operand to multiline MIME base64 (the result always includes a trailing ``'\\n'``)."
 msgstr ""
 
 #: ../../library/codecs.rst:1350
@@ -1949,7 +1943,7 @@ msgid "bz2"
 msgstr ""
 
 #: ../../library/codecs.rst:1356
-msgid "Compress the operand using bz2"
+msgid "Compress the operand using bz2."
 msgstr ""
 
 #: ../../library/codecs.rst:1356
@@ -1965,7 +1959,7 @@ msgid "hex"
 msgstr ""
 
 #: ../../library/codecs.rst:1359
-msgid "Convert operand to hexadecimal representation, with two digits per byte"
+msgid "Convert the operand to hexadecimal representation, with two digits per byte."
 msgstr ""
 
 #: ../../library/codecs.rst:1359
@@ -1981,7 +1975,7 @@ msgid "quopri, quotedprintable, quoted_printable"
 msgstr ""
 
 #: ../../library/codecs.rst:1364
-msgid "Convert operand to MIME quoted printable"
+msgid "Convert the operand to MIME quoted printable."
 msgstr ""
 
 #: ../../library/codecs.rst:1364
@@ -1997,7 +1991,7 @@ msgid "uu"
 msgstr ""
 
 #: ../../library/codecs.rst:1368
-msgid "Convert the operand using uuencode"
+msgid "Convert the operand using uuencode."
 msgstr ""
 
 #: ../../library/codecs.rst:1368
@@ -2013,7 +2007,7 @@ msgid "zip, zlib"
 msgstr ""
 
 #: ../../library/codecs.rst:1371
-msgid "Compress the operand using gzip"
+msgid "Compress the operand using gzip."
 msgstr ""
 
 #: ../../library/codecs.rst:1371
@@ -2037,7 +2031,7 @@ msgid "Text Transforms"
 msgstr ""
 
 #: ../../library/codecs.rst:1391
-msgid "The following codec provides a text transform: a :class:`str` to :class:`str` mapping.  It is not supported by :meth:`str.encode` (which only produces :class:`bytes` output)."
+msgid "The following codec provides a text transform: a :class:`str` to :class:`str` mapping. It is not supported by :meth:`str.encode` (which only produces :class:`bytes` output)."
 msgstr ""
 
 #: ../../library/codecs.rst:1400
@@ -2049,78 +2043,78 @@ msgid "rot13"
 msgstr ""
 
 #: ../../library/codecs.rst:1400
-msgid "Returns the Caesar-cypher encryption of the operand"
+msgid "Return the Caesar-cypher encryption of the operand."
 msgstr ""
 
-#: ../../library/codecs.rst:1404
+#: ../../library/codecs.rst:1405
 msgid "Restoration of the ``rot_13`` text transform."
 msgstr ""
 
-#: ../../library/codecs.rst:1407
+#: ../../library/codecs.rst:1408
 msgid "Restoration of the ``rot13`` alias."
 msgstr ""
 
-#: ../../library/codecs.rst:1412
+#: ../../library/codecs.rst:1413
 msgid ":mod:`encodings.idna` --- Internationalized Domain Names in Applications"
 msgstr ""
 
-#: ../../library/codecs.rst:1418
+#: ../../library/codecs.rst:1419
 msgid "This module implements :rfc:`3490` (Internationalized Domain Names in Applications) and :rfc:`3492` (Nameprep: A Stringprep Profile for Internationalized Domain Names (IDN)). It builds upon the ``punycode`` encoding and :mod:`stringprep`."
 msgstr ""
 
-#: ../../library/codecs.rst:1423
+#: ../../library/codecs.rst:1424
 msgid "These RFCs together define a protocol to support non-ASCII characters in domain names. A domain name containing non-ASCII characters (such as ``www.Alliancefrançaise.nu``) is converted into an ASCII-compatible encoding (ACE, such as ``www.xn--alliancefranaise-npb.nu``). The ACE form of the domain name is then used in all places where arbitrary characters are not allowed by the protocol, such as DNS queries, HTTP :mailheader:`Host` fields, and so on. This conversion is carried out in the application; if possible invisible to the user: The application should transparently convert Unicode domain labels to IDNA on the wire, and convert back ACE labels to Unicode before presenting them to the user."
 msgstr ""
 
-#: ../../library/codecs.rst:1434
-msgid "Python supports this conversion in several ways:  the ``idna`` codec performs conversion between Unicode and ACE, separating an input string into labels based on the separator characters defined in :rfc:`section 3.1 of RFC 3490 <3490#section-3.1>` and converting each label to ACE as required, and conversely separating an input byte string into labels based on the ``.`` separator and converting any ACE labels found into unicode.  Furthermore, the :mod:`socket` module transparently converts Unicode host names to ACE, so that applications need not be concerned about converting host names themselves when they pass them to the socket module. On top of that, modules that have host names as function parameters, such as :mod:`http.client` and :mod:`ftplib`, accept Unicode host names (:mod:`http.client` then also transparently sends an IDNA hostname in the :mailheader:`Host` field if it sends that field at all)."
+#: ../../library/codecs.rst:1435
+msgid "Python supports this conversion in several ways:  the ``idna`` codec performs conversion between Unicode and ACE, separating an input string into labels based on the separator characters defined in :rfc:`section 3.1 of RFC 3490 <3490#section-3.1>` and converting each label to ACE as required, and conversely separating an input byte string into labels based on the ``.`` separator and converting any ACE labels found into unicode. Furthermore, the :mod:`socket` module transparently converts Unicode host names to ACE, so that applications need not be concerned about converting host names themselves when they pass them to the socket module. On top of that, modules that have host names as function parameters, such as :mod:`http.client` and :mod:`ftplib`, accept Unicode host names (:mod:`http.client` then also transparently sends an IDNA hostname in the :mailheader:`Host` field if it sends that field at all)."
 msgstr ""
 
-#: ../../library/codecs.rst:1447
-msgid "When receiving host names from the wire (such as in reverse name lookup), no automatic conversion to Unicode is performed: Applications wishing to present such host names to the user should decode them to Unicode."
+#: ../../library/codecs.rst:1448
+msgid "When receiving host names from the wire (such as in reverse name lookup), no automatic conversion to Unicode is performed: applications wishing to present such host names to the user should decode them to Unicode."
 msgstr ""
 
-#: ../../library/codecs.rst:1451
+#: ../../library/codecs.rst:1452
 msgid "The module :mod:`encodings.idna` also implements the nameprep procedure, which performs certain normalizations on host names, to achieve case-insensitivity of international domain names, and to unify similar characters. The nameprep functions can be used directly if desired."
 msgstr ""
 
-#: ../../library/codecs.rst:1459
+#: ../../library/codecs.rst:1460
 msgid "Return the nameprepped version of *label*. The implementation currently assumes query strings, so ``AllowUnassigned`` is true."
 msgstr ""
 
-#: ../../library/codecs.rst:1465
+#: ../../library/codecs.rst:1466
 msgid "Convert a label to ASCII, as specified in :rfc:`3490`. ``UseSTD3ASCIIRules`` is assumed to be false."
 msgstr ""
 
-#: ../../library/codecs.rst:1471
+#: ../../library/codecs.rst:1472
 msgid "Convert a label to Unicode, as specified in :rfc:`3490`."
 msgstr ""
 
-#: ../../library/codecs.rst:1475
+#: ../../library/codecs.rst:1476
 msgid ":mod:`encodings.mbcs` --- Windows ANSI codepage"
 msgstr ""
 
-#: ../../library/codecs.rst:1480
-msgid "Encode operand according to the ANSI codepage (CP_ACP)."
-msgstr ""
-
-#: ../../library/codecs.rst:1483
-msgid ":ref:`Availability <availability>`: Windows only."
+#: ../../library/codecs.rst:1481
+msgid "This module implements the ANSI codepage (CP_ACP)."
 msgstr ""
 
 #: ../../library/codecs.rst:1484
+msgid ":ref:`Availability <availability>`: Windows only."
+msgstr ""
+
+#: ../../library/codecs.rst:1485
 msgid "Support any error handler."
 msgstr ""
 
-#: ../../library/codecs.rst:1487
+#: ../../library/codecs.rst:1488
 msgid "Before 3.2, the *errors* argument was ignored; ``'replace'`` was always used to encode, and ``'ignore'`` to decode."
 msgstr ""
 
-#: ../../library/codecs.rst:1493
+#: ../../library/codecs.rst:1494
 msgid ":mod:`encodings.utf_8_sig` --- UTF-8 codec with BOM signature"
 msgstr ""
 
-#: ../../library/codecs.rst:1499
-msgid "This module implements a variant of the UTF-8 codec: On encoding a UTF-8 encoded BOM will be prepended to the UTF-8 encoded bytes. For the stateful encoder this is only done once (on the first write to the byte stream).  For decoding an optional UTF-8 encoded BOM at the start of the data will be skipped."
+#: ../../library/codecs.rst:1500
+msgid "This module implements a variant of the UTF-8 codec. On encoding, a UTF-8 encoded BOM will be prepended to the UTF-8 encoded bytes. For the stateful encoder this is only done once (on the first write to the byte stream). On decoding, an optional UTF-8 encoded BOM at the start of the data will be skipped."
 msgstr ""
 
