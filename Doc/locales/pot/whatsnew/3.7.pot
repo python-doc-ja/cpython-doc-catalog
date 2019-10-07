@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-07 11:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1974,7 +1974,7 @@ msgid "The ``fpectl`` module has been removed.  It was never enabled by default,
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2191
-#: ../../whatsnew/3.7.rst:2463
+#: ../../whatsnew/3.7.rst:2467
 msgid "Windows-only Changes"
 msgstr ""
 
@@ -2131,102 +2131,106 @@ msgid ":attr:`Struct.format <struct.Struct.format>` is now a :class:`str` instan
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2404
-msgid ":meth:`ast.literal_eval()` is now stricter.  Addition and subtraction of arbitrary numbers are no longer allowed. (Contributed by Serhiy Storchaka in :issue:`31778`.)"
+msgid ":mod:`argparse` subparsers can now be made mandatory by passing ``required=True`` to :meth:`ArgumentParser.add_subparsers() <argparse.ArgumentParser.add_subparsers>`. (Contributed by Anthony Sottile in :issue:`26510`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:2408
+msgid ":meth:`ast.literal_eval()` is now stricter.  Addition and subtraction of arbitrary numbers are no longer allowed. (Contributed by Serhiy Storchaka in :issue:`31778`.)"
+msgstr ""
+
+#: ../../whatsnew/3.7.rst:2412
 msgid ":meth:`Calendar.itermonthdates <calendar.Calendar.itermonthdates>` will now consistently raise an exception when a date falls outside of the ``0001-01-01`` through ``9999-12-31`` range.  To support applications that cannot tolerate such exceptions, the new :meth:`Calendar.itermonthdays3 <calendar.Calendar.itermonthdays3>` and :meth:`Calendar.itermonthdays4 <calendar.Calendar.itermonthdays4>` can be used. The new methods return tuples and are not restricted by the range supported by :class:`datetime.date`. (Contributed by Alexander Belopolsky in :issue:`28292`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2418
+#: ../../whatsnew/3.7.rst:2422
 msgid ":class:`collections.ChainMap` now preserves the order of the underlying mappings.  (Contributed by Raymond Hettinger in :issue:`32792`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2421
+#: ../../whatsnew/3.7.rst:2425
 msgid "The ``submit()`` method of :class:`concurrent.futures.ThreadPoolExecutor` and :class:`concurrent.futures.ProcessPoolExecutor` now raises a :exc:`RuntimeError` if called during interpreter shutdown. (Contributed by Mark Nemec in :issue:`33097`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2426
+#: ../../whatsnew/3.7.rst:2430
 msgid "The :class:`configparser.ConfigParser` constructor now uses ``read_dict()`` to process the default values, making its behavior consistent with the rest of the parser.  Non-string keys and values in the defaults dictionary are now being implicitly converted to strings. (Contributed by James Tocknell in :issue:`23835`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2432
+#: ../../whatsnew/3.7.rst:2436
 msgid "Several undocumented internal imports were removed. One example is that ``os.errno`` is no longer available; use ``import errno`` directly instead. Note that such undocumented internal imports may be removed any time without notice, even in micro version releases."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2440
+#: ../../whatsnew/3.7.rst:2444
 msgid "Changes in the C API"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2442
+#: ../../whatsnew/3.7.rst:2446
 msgid "The function :c:func:`PySlice_GetIndicesEx` is considered unsafe for resizable sequences.  If the slice indices are not instances of :class:`int`, but objects that implement the :meth:`!__index__` method, the sequence can be resized after passing its length to :c:func:`!PySlice_GetIndicesEx`.  This can lead to returning indices out of the length of the sequence.  For avoiding possible problems use new functions :c:func:`PySlice_Unpack` and :c:func:`PySlice_AdjustIndices`. (Contributed by Serhiy Storchaka in :issue:`27867`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2453
+#: ../../whatsnew/3.7.rst:2457
 msgid "CPython bytecode changes"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2455
+#: ../../whatsnew/3.7.rst:2459
 msgid "There are two new opcodes: :opcode:`LOAD_METHOD` and :opcode:`CALL_METHOD`. (Contributed by Yury Selivanov and INADA Naoki in :issue:`26110`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2458
+#: ../../whatsnew/3.7.rst:2462
 msgid "The :opcode:`STORE_ANNOTATION` opcode has been removed. (Contributed by Mark Shannon in :issue:`32550`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2465
+#: ../../whatsnew/3.7.rst:2469
 msgid "The file used to override :data:`sys.path` is now called ``<python-executable>._pth`` instead of ``'sys.path'``. See :ref:`finding_modules` for more information. (Contributed by Steve Dower in :issue:`28137`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2472
+#: ../../whatsnew/3.7.rst:2476
 msgid "Other CPython implementation changes"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2474
+#: ../../whatsnew/3.7.rst:2478
 msgid "In preparation for potential future changes to the public CPython runtime initialization API (see :pep:`432` for an initial, but somewhat outdated, draft), CPython's internal startup and configuration management logic has been significantly refactored. While these updates are intended to be entirely transparent to both embedding applications and users of the regular CPython CLI, they're being mentioned here as the refactoring changes the internal order of various operations during interpreter startup, and hence may uncover previously latent defects, either in embedding applications, or in CPython itself. (Initially contributed by Nick Coghlan and Eric Snow as part of :issue:`22257`, and further updated by Nick, Eric, and Victor Stinner in a number of other issues). Some known details affected:"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2487
+#: ../../whatsnew/3.7.rst:2491
 msgid ":c:func:`PySys_AddWarnOptionUnicode` is not currently usable by embedding applications due to the requirement to create a Unicode object prior to calling `Py_Initialize`. Use :c:func:`PySys_AddWarnOption` instead."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2491
+#: ../../whatsnew/3.7.rst:2495
 msgid "warnings filters added by an embedding application with :c:func:`PySys_AddWarnOption` should now more consistently take precedence over the default filters set by the interpreter"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2495
+#: ../../whatsnew/3.7.rst:2499
 msgid "Due to changes in the way the default warnings filters are configured, setting :c:data:`Py_BytesWarningFlag` to a value greater than one is no longer sufficient to both emit :exc:`BytesWarning` messages and have them converted to exceptions.  Instead, the flag must be set (to cause the warnings to be emitted in the first place), and an explicit ``error::BytesWarning`` warnings filter added to convert them to exceptions."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2502
+#: ../../whatsnew/3.7.rst:2506
 msgid "Due to a change in the way docstrings are handled by the compiler, the implicit ``return None`` in a function body consisting solely of a docstring is now marked as occurring on the same line as the docstring, not on the function's header line."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2507
+#: ../../whatsnew/3.7.rst:2511
 msgid "The current exception state has been moved from the frame object to the co-routine. This simplified the interpreter and fixed a couple of obscure bugs caused by having swap exception state when entering or exiting a generator. (Contributed by Mark Shannon in :issue:`25612`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2513
+#: ../../whatsnew/3.7.rst:2517
 msgid "Notable changes in Python 3.7.1"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2515
+#: ../../whatsnew/3.7.rst:2519
 msgid "Starting in 3.7.1, :c:func:`Py_Initialize` now consistently reads and respects all of the same environment settings as :c:func:`Py_Main` (in earlier Python versions, it respected an ill-defined subset of those environment variables, while in Python 3.7.0 it didn't read any of them due to :issue:`34247`). If this behavior is unwanted, set :c:data:`Py_IgnoreEnvironmentFlag` to 1 before calling :c:func:`Py_Initialize`."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2522
+#: ../../whatsnew/3.7.rst:2526
 msgid "In 3.7.1 the C API for Context Variables :ref:`was updated <contextvarsobjects_pointertype_change>` to use :c:type:`PyObject` pointers.  See also :issue:`34762`."
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2526
+#: ../../whatsnew/3.7.rst:2530
 msgid "In 3.7.1 the :mod:`tokenize` module now implicitly emits a ``NEWLINE`` token when provided with input that does not have a trailing new line.  This behavior now matches what the C tokenizer does internally. (Contributed by Ammar Askar in :issue:`33899`.)"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2532
+#: ../../whatsnew/3.7.rst:2536
 msgid "Notable changes in Python 3.7.2"
 msgstr ""
 
-#: ../../whatsnew/3.7.rst:2534
+#: ../../whatsnew/3.7.rst:2538
 msgid "In 3.7.2, :mod:`venv` on Windows no longer copies the original binaries, but creates redirector scripts named ``python.exe`` and ``pythonw.exe`` instead. This resolves a long standing issue where all virtual environments would have to be upgraded or recreated with each Python update. However, note that this release will still require recreation of virtual environments in order to get the new scripts."
 msgstr ""
 
