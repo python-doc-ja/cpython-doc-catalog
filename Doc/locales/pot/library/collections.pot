@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 10:59+0900\n"
+"POT-Creation-Date: 2019-10-10 03:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,8 +100,8 @@ msgstr ""
 msgid "wrapper around string objects for easier string subclassing"
 msgstr ""
 
-#: ../../library/collections.rst:36
-msgid "Moved :ref:`collections-abstract-base-classes` to the :mod:`collections.abc` module. For backwards compatibility, they continue to be visible in this module through Python 3.7.  Subsequently, they will be removed entirely."
+#: ../../library/collections.rst:41
+msgid "Moved :ref:`collections-abstract-base-classes` to the :mod:`collections.abc` module. For backwards compatibility, they continue to be visible in this module through Python 3.8."
 msgstr ""
 
 #: ../../library/collections.rst:43
