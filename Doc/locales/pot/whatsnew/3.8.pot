@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 11:33+0000\n"
+"POT-Creation-Date: 2019-10-12 11:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1385,7 +1385,7 @@ msgid "The CPython interpreter can swallow exceptions in some circumstances. In 
 msgstr ""
 
 #: ../../whatsnew/3.8.rst:1530
-msgid "Removed ``__str__`` implementations from builtin types :class:`bool`, :class:`int`, :class:`float`, :class:`complex` and few classes from the standard library.  They now inherit ``__str__()`` from :class:`object`. As result, defining the ``__repr__()`` method in the subclass of these classes will affect they string representation. (Contributed by Serhiy Storchaka in :issue:`36793`.)"
+msgid "Removed ``__str__`` implementations from builtin types :class:`bool`, :class:`int`, :class:`float`, :class:`complex` and few classes from the standard library.  They now inherit ``__str__()`` from :class:`object`. As result, defining the ``__repr__()`` method in the subclass of these classes will affect their string representation. (Contributed by Serhiy Storchaka in :issue:`36793`.)"
 msgstr ""
 
 #: ../../whatsnew/3.8.rst:1537
