@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-11 11:39+0000\n"
+"POT-Creation-Date: 2019-10-14 11:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgid "``Generic[T]`` as a base class defines that the class ``LoggedVar`` takes
 msgstr ""
 
 #: ../../library/typing.rst:234
-msgid "The :class:`Generic` base class uses a metaclass that defines :meth:`__getitem__` so that ``LoggedVar[t]`` is valid as a type::"
+msgid "The :class:`Generic` base class defines :meth:`__class_getitem__` so that ``LoggedVar[t]`` is valid as a type::"
 msgstr ""
 
 #: ../../library/typing.rst:243
