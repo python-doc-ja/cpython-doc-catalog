@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-10-18 17:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,91 +116,96 @@ msgstr ""
 msgid "Parse the source into an AST node.  Equivalent to ``compile(source, filename, mode, ast.PyCF_ONLY_AST)``."
 msgstr ""
 
-#: ../../library/ast.rst:135
-msgid "Safely evaluate an expression node or a Unicode or *Latin-1* encoded string containing a Python literal or container display.  The string or node provided may only consist of the following Python literal structures: strings, numbers, tuples, lists, dicts, booleans, and ``None``."
+#: ../../library/ast.rst:133
+#: ../../library/ast.rst:151
+msgid "It is possible to crash the Python interpreter with a sufficiently large/complex string due to stack depth limitations in Python's AST compiler."
 msgstr ""
 
 #: ../../library/ast.rst:140
+msgid "Safely evaluate an expression node or a Unicode or *Latin-1* encoded string containing a Python literal or container display.  The string or node provided may only consist of the following Python literal structures: strings, numbers, tuples, lists, dicts, booleans, and ``None``."
+msgstr ""
+
+#: ../../library/ast.rst:145
 msgid "This can be used for safely evaluating strings containing Python values from untrusted sources without the need to parse the values oneself.  It is not capable of evaluating arbitrarily complex expressions, for example involving operators or indexing."
 msgstr ""
 
-#: ../../library/ast.rst:148
+#: ../../library/ast.rst:158
 msgid "Return the docstring of the given *node* (which must be a :class:`FunctionDef`, :class:`ClassDef` or :class:`Module` node), or ``None`` if it has no docstring.  If *clean* is true, clean up the docstring's indentation with :func:`inspect.cleandoc`."
 msgstr ""
 
-#: ../../library/ast.rst:156
+#: ../../library/ast.rst:166
 msgid "When you compile a node tree with :func:`compile`, the compiler expects :attr:`lineno` and :attr:`col_offset` attributes for every node that supports them.  This is rather tedious to fill in for generated nodes, so this helper adds these attributes recursively where not already set, by setting them to the values of the parent node.  It works recursively starting at *node*."
 msgstr ""
 
-#: ../../library/ast.rst:165
+#: ../../library/ast.rst:175
 msgid "Increment the line number of each node in the tree starting at *node* by *n*. This is useful to \"move code\" to a different location in a file."
 msgstr ""
 
-#: ../../library/ast.rst:171
+#: ../../library/ast.rst:181
 msgid "Copy source location (:attr:`lineno` and :attr:`col_offset`) from *old_node* to *new_node* if possible, and return *new_node*."
 msgstr ""
 
-#: ../../library/ast.rst:177
+#: ../../library/ast.rst:187
 msgid "Yield a tuple of ``(fieldname, value)`` for each field in ``node._fields`` that is present on *node*."
 msgstr ""
 
-#: ../../library/ast.rst:183
+#: ../../library/ast.rst:193
 msgid "Yield all direct child nodes of *node*, that is, all fields that are nodes and all items of fields that are lists of nodes."
 msgstr ""
 
-#: ../../library/ast.rst:189
+#: ../../library/ast.rst:199
 msgid "Recursively yield all descendant nodes in the tree starting at *node* (including *node* itself), in no specified order.  This is useful if you only want to modify nodes in place and don't care about the context."
 msgstr ""
 
-#: ../../library/ast.rst:196
+#: ../../library/ast.rst:206
 msgid "A node visitor base class that walks the abstract syntax tree and calls a visitor function for every node found.  This function may return a value which is forwarded by the :meth:`visit` method."
 msgstr ""
 
-#: ../../library/ast.rst:200
+#: ../../library/ast.rst:210
 msgid "This class is meant to be subclassed, with the subclass adding visitor methods."
 msgstr ""
 
-#: ../../library/ast.rst:205
+#: ../../library/ast.rst:215
 msgid "Visit a node.  The default implementation calls the method called :samp:`self.visit_{classname}` where *classname* is the name of the node class, or :meth:`generic_visit` if that method doesn't exist."
 msgstr ""
 
-#: ../../library/ast.rst:211
+#: ../../library/ast.rst:221
 msgid "This visitor calls :meth:`visit` on all children of the node."
 msgstr ""
 
-#: ../../library/ast.rst:213
+#: ../../library/ast.rst:223
 msgid "Note that child nodes of nodes that have a custom visitor method won't be visited unless the visitor calls :meth:`generic_visit` or visits them itself."
 msgstr ""
 
-#: ../../library/ast.rst:217
+#: ../../library/ast.rst:227
 msgid "Don't use the :class:`NodeVisitor` if you want to apply changes to nodes during traversal.  For this a special visitor exists (:class:`NodeTransformer`) that allows modifications."
 msgstr ""
 
-#: ../../library/ast.rst:224
+#: ../../library/ast.rst:234
 msgid "A :class:`NodeVisitor` subclass that walks the abstract syntax tree and allows modification of nodes."
 msgstr ""
 
-#: ../../library/ast.rst:227
+#: ../../library/ast.rst:237
 msgid "The :class:`NodeTransformer` will walk the AST and use the return value of the visitor methods to replace or remove the old node.  If the return value of the visitor method is ``None``, the node will be removed from its location, otherwise it is replaced with the return value.  The return value may be the original node in which case no replacement takes place."
 msgstr ""
 
-#: ../../library/ast.rst:233
+#: ../../library/ast.rst:243
 msgid "Here is an example transformer that rewrites all occurrences of name lookups (``foo``) to ``data['foo']``::"
 msgstr ""
 
-#: ../../library/ast.rst:245
+#: ../../library/ast.rst:255
 msgid "Keep in mind that if the node you're operating on has child nodes you must either transform the child nodes yourself or call the :meth:`generic_visit` method for the node first."
 msgstr ""
 
-#: ../../library/ast.rst:249
+#: ../../library/ast.rst:259
 msgid "For nodes that were part of a collection of statements (that applies to all statement nodes), the visitor may also return a list of nodes rather than just a single node."
 msgstr ""
 
-#: ../../library/ast.rst:253
+#: ../../library/ast.rst:263
 msgid "Usually you use the transformer like this::"
 msgstr ""
 
-#: ../../library/ast.rst:260
+#: ../../library/ast.rst:270
 msgid "Return a formatted dump of the tree in *node*.  This is mainly useful for debugging purposes.  The returned string will show the names and the values for fields.  This makes the code impossible to evaluate, so if evaluation is wanted *annotate_fields* must be set to ``False``.  Attributes such as line numbers and column offsets are not dumped by default.  If this is wanted, *include_attributes* can be set to ``True``."
 msgstr ""
 
