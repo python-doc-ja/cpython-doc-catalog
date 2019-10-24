@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-24 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "the `Python Packaging Index <https://pypi.org>`__ is a public repository 
 msgstr ""
 
 #: ../../distributing/index.rst:37
-msgid "the `Python Packaging Authority <https://www.pypa.io/>`__ are the group of developers and documentation authors responsible for the maintenance and evolution of the standard packaging tools and the associated metadata and file format standards. They maintain a variety of tools, documentation and issue trackers on both `GitHub <https://github.com/pypa>`__ and `BitBucket <https://bitbucket.org/pypa/>`__."
+msgid "the `Python Packaging Authority <https://www.pypa.io/>`__ are the group of developers and documentation authors responsible for the maintenance and evolution of the standard packaging tools and the associated metadata and file format standards. They maintain a variety of tools, documentation and issue trackers on both `GitHub <https://github.com/pypa>`__ and `Bitbucket <https://bitbucket.org/pypa/>`__."
 msgstr ""
 
 #: ../../distributing/index.rst:44
@@ -153,7 +153,7 @@ msgid "check the Python Packaging Index to see if the name is already in use"
 msgstr ""
 
 #: ../../distributing/index.rst:151
-msgid "check popular hosting sites like GitHub, BitBucket, etc to see if there is already a project with that name"
+msgid "check popular hosting sites like GitHub, Bitbucket, etc to see if there is already a project with that name"
 msgstr ""
 
 #: ../../distributing/index.rst:153
