@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-07 17:00+0900\n"
+"POT-Creation-Date: 2019-10-27 17:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,8 +73,8 @@ msgid "Return the object at position *index* in the list pointed to by *list*.  
 msgstr ""
 
 #: ../../c-api/list.rst:83
-#: ../../c-api/list.rst:107
-#: ../../c-api/list.rst:135
+#: ../../c-api/list.rst:108
+#: ../../c-api/list.rst:136
 msgid "This function used an :c:type:`int` for *index*. This might require changes in your code for properly supporting 64-bit systems."
 msgstr ""
 
@@ -83,36 +83,36 @@ msgid "Macro form of :c:func:`PyList_GetItem` without error checking."
 msgstr ""
 
 #: ../../c-api/list.rst:92
-#: ../../c-api/list.rst:124
+#: ../../c-api/list.rst:125
 msgid "This macro used an :c:type:`int` for *i*. This might require changes in your code for properly supporting 64-bit systems."
 msgstr ""
 
 #: ../../c-api/list.rst:99
-msgid "Set the item at index *index* in list to *item*.  Return ``0`` on success or ``-1`` on failure."
+msgid "Set the item at index *index* in list to *item*.  Return ``0`` on success. If *index* is out of bounds, return ``-1`` and set an :exc:`IndexError` exception."
 msgstr ""
 
-#: ../../c-api/list.rst:104
+#: ../../c-api/list.rst:105
 msgid "This function \"steals\" a reference to *item* and discards a reference to an item already in the list at the affected position."
 msgstr ""
 
-#: ../../c-api/list.rst:114
+#: ../../c-api/list.rst:115
 msgid "Macro form of :c:func:`PyList_SetItem` without error checking. This is normally only used to fill in new lists where there is no previous content."
 msgstr ""
 
-#: ../../c-api/list.rst:119
+#: ../../c-api/list.rst:120
 msgid "This macro \"steals\" a reference to *item*, and, unlike :c:func:`PyList_SetItem`, does *not* discard a reference to any item that it being replaced; any reference in *list* at position *i* will be leaked."
 msgstr ""
 
-#: ../../c-api/list.rst:131
+#: ../../c-api/list.rst:132
 msgid "Insert the item *item* into list *list* in front of index *index*.  Return ``0`` if successful; return ``-1`` and set an exception if unsuccessful. Analogous to ``list.insert(index, item)``."
 msgstr ""
 
-#: ../../c-api/list.rst:142
+#: ../../c-api/list.rst:143
 msgid "Append the object *item* at the end of list *list*. Return ``0`` if successful; return ``-1`` and set an exception if unsuccessful.  Analogous to ``list.append(item)``."
 msgstr ""
 
-#: ../../c-api/list.rst:149
-msgid "Return a list of the objects in *list* containing the objects *between* *low* and *high*.  Return *NULL* and set an exception if unsuccessful.  Analogous to ``list[low:high]``.  Negative indices, as when slicing from Python, are not supported."
+#: ../../c-api/list.rst:150
+msgid "Return a list of the objects in *list* containing the objects *between* *low* and *high*.  Return *NULL* and set an exception if unsuccessful.  Analogous to ``list[low:high]``.  Indexing from the end of the list is not supported."
 msgstr ""
 
 #: ../../c-api/list.rst:154
@@ -121,7 +121,7 @@ msgid "This function used an :c:type:`int` for *low* and *high*. This might requ
 msgstr ""
 
 #: ../../c-api/list.rst:161
-msgid "Set the slice of *list* between *low* and *high* to the contents of *itemlist*.  Analogous to ``list[low:high] = itemlist``. The *itemlist* may be *NULL*, indicating the assignment of an empty list (slice deletion). Return ``0`` on success, ``-1`` on failure.  Negative indices, as when slicing from Python, are not supported."
+msgid "Set the slice of *list* between *low* and *high* to the contents of *itemlist*.  Analogous to ``list[low:high] = itemlist``. The *itemlist* may be *NULL*, indicating the assignment of an empty list (slice deletion). Return ``0`` on success, ``-1`` on failure.  Indexing from the end of the list is not supported."
 msgstr ""
 
 #: ../../c-api/list.rst:174

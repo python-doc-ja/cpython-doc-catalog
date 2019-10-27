@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-10-27 17:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,13 +70,13 @@ msgid "Return the size of the tuple *p*, which must be non-*NULL* and point to a
 msgstr ""
 
 #: ../../c-api/tuple.rst:84
-msgid "Return the object at position *pos* in the tuple pointed to by *p*.  If *pos* is out of bounds, return *NULL* and sets an :exc:`IndexError` exception."
+msgid "Return the object at position *pos* in the tuple pointed to by *p*.  If *pos* is out of bounds, return *NULL* and set an :exc:`IndexError` exception."
 msgstr ""
 
 #: ../../c-api/tuple.rst:87
 #: ../../c-api/tuple.rst:96
-#: ../../c-api/tuple.rst:120
-#: ../../c-api/tuple.rst:134
+#: ../../c-api/tuple.rst:123
+#: ../../c-api/tuple.rst:140
 msgid "This function used an :c:type:`int` type for *pos*. This might require changes in your code for properly supporting 64-bit systems."
 msgstr ""
 
@@ -85,39 +85,42 @@ msgid "Like :c:func:`PyTuple_GetItem`, but does no checking of its arguments."
 msgstr ""
 
 #: ../../c-api/tuple.rst:103
-msgid "Take a slice of the tuple pointed to by *p* from *low* to *high* and return it as a new tuple."
+msgid "Return the slice of the tuple pointed to by *p* between *low* and *high*, or *NULL* on failure.  This is the equivalent of the Python expression ``p[low:high]``.  Indexing from the end of the list is not supported."
 msgstr ""
 
-#: ../../c-api/tuple.rst:106
+#: ../../c-api/tuple.rst:107
 msgid "This function used an :c:type:`int` type for *low* and *high*. This might require changes in your code for properly supporting 64-bit systems."
 msgstr ""
 
-#: ../../c-api/tuple.rst:113
-msgid "Insert a reference to object *o* at position *pos* of the tuple pointed to by *p*. Return ``0`` on success."
+#: ../../c-api/tuple.rst:114
+msgid "Insert a reference to object *o* at position *pos* of the tuple pointed to by *p*.  Return ``0`` on success.  If *pos* is out of bounds, return ``-1`` and set an :exc:`IndexError` exception."
 msgstr ""
 
-#: ../../c-api/tuple.rst:118
-#: ../../c-api/tuple.rst:132
-msgid "This function \"steals\" a reference to *o*."
+#: ../../c-api/tuple.rst:120
+msgid "This function \"steals\" a reference to *o* and discards a reference to an item already in the tuple at the affected position."
 msgstr ""
 
-#: ../../c-api/tuple.rst:127
+#: ../../c-api/tuple.rst:130
 msgid "Like :c:func:`PyTuple_SetItem`, but does no error checking, and should *only* be used to fill in brand new tuples."
 msgstr ""
 
-#: ../../c-api/tuple.rst:141
+#: ../../c-api/tuple.rst:135
+msgid "This macro \"steals\" a reference to *o*, and, unlike :c:func:`PyTuple_SetItem`, does *not* discard a reference to any item that is being replaced; any reference in the tuple at position *pos* will be leaked."
+msgstr ""
+
+#: ../../c-api/tuple.rst:147
 msgid "Can be used to resize a tuple.  *newsize* will be the new length of the tuple. Because tuples are *supposed* to be immutable, this should only be used if there is only one reference to the object.  Do *not* use this if the tuple may already be known to some other part of the code.  The tuple will always grow or shrink at the end.  Think of this as destroying the old tuple and creating a new one, only more efficiently.  Returns ``0`` on success. Client code should never assume that the resulting value of ``*p`` will be the same as before calling this function. If the object referenced by ``*p`` is replaced, the original ``*p`` is destroyed.  On failure, returns ``-1`` and sets ``*p`` to *NULL*, and raises :exc:`MemoryError` or :exc:`SystemError`."
 msgstr ""
 
-#: ../../c-api/tuple.rst:152
+#: ../../c-api/tuple.rst:158
 msgid "Removed unused third parameter, *last_is_sticky*."
 msgstr ""
 
-#: ../../c-api/tuple.rst:155
+#: ../../c-api/tuple.rst:161
 msgid "This function used an :c:type:`int` type for *newsize*. This might require changes in your code for properly supporting 64-bit systems."
 msgstr ""
 
-#: ../../c-api/tuple.rst:162
+#: ../../c-api/tuple.rst:168
 msgid "Clear the free list. Return the total number of freed items."
 msgstr ""
 
