@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-27 11:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,26 +249,34 @@ msgid "The *userData* pointer is passed into the hook function. Since hook funct
 msgstr ""
 
 #: ../../c-api/sys.rst:331
-msgid "See :pep:`578` for a detailed description of auditing. Functions in the runtime and standard library that raise events include the details in each function's documentation."
+msgid "See :pep:`578` for a detailed description of auditing. Functions in the runtime and standard library that raise events include the details in each function's documentation and listed in the :ref:`audit events table <audit-events>`."
 msgstr ""
 
-#: ../../c-api/sys.rst:341
+#: ../../c-api/sys.rst:None
+msgid "Raises an :ref:`auditing event <auditing>` ``sys.addaudithook`` with no arguments."
+msgstr ""
+
+#: ../../c-api/sys.rst:338
+msgid "If the interpreter is initialized, this function raises a auditing event ``sys.addaudithook`` with no arguments. If any existing hooks raise an exception derived from :class:`Exception`, the new hook will not be added and the exception is cleared. As a result, callers cannot assume that their hook has been added unless they control all existing hooks."
+msgstr ""
+
+#: ../../c-api/sys.rst:350
 msgid "Process Control"
 msgstr ""
 
-#: ../../c-api/sys.rst:348
+#: ../../c-api/sys.rst:357
 msgid "Print a fatal error message and kill the process.  No cleanup is performed. This function should only be invoked when a condition is detected that would make it dangerous to continue using the Python interpreter; e.g., when the object administration appears to be corrupted.  On Unix, the standard C library function :c:func:`abort` is called which will attempt to produce a :file:`core` file."
 msgstr ""
 
-#: ../../c-api/sys.rst:362
+#: ../../c-api/sys.rst:371
 msgid "Exit the current process.  This calls :c:func:`Py_FinalizeEx` and then calls the standard C library function ``exit(status)``.  If :c:func:`Py_FinalizeEx` indicates an error, the exit status is set to 120."
 msgstr ""
 
-#: ../../c-api/sys.rst:366
+#: ../../c-api/sys.rst:375
 msgid "Errors from finalization no longer ignored."
 msgstr ""
 
-#: ../../c-api/sys.rst:376
+#: ../../c-api/sys.rst:385
 msgid "Register a cleanup function to be called by :c:func:`Py_FinalizeEx`.  The cleanup function will be called with no arguments and should return no value.  At most 32 cleanup functions can be registered.  When the registration is successful, :c:func:`Py_AtExit` returns ``0``; on failure, it returns ``-1``.  The cleanup function registered last is called first. Each cleanup function will be called at most once.  Since Python's internal finalization will have completed before the cleanup function, no Python APIs should be called by *func*."
 msgstr ""
 
