@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,11 +41,11 @@ msgid "Return true if the object *o* is a bytes object, but not an instance of a
 msgstr ""
 
 #: ../../c-api/bytes.rst:39
-msgid "Return a new bytes object with a copy of the string *v* as value on success, and *NULL* on failure.  The parameter *v* must not be *NULL*; it will not be checked."
+msgid "Return a new bytes object with a copy of the string *v* as value on success, and ``NULL`` on failure.  The parameter *v* must not be ``NULL``; it will not be checked."
 msgstr ""
 
 #: ../../c-api/bytes.rst:46
-msgid "Return a new bytes object with a copy of the string *v* as value and length *len* on success, and *NULL* on failure.  If *v* is *NULL*, the contents of the bytes object are uninitialized."
+msgid "Return a new bytes object with a copy of the string *v* as value and length *len* on success, and ``NULL`` on failure.  If *v* is ``NULL``, the contents of the bytes object are uninitialized."
 msgstr ""
 
 #: ../../c-api/bytes.rst:53
@@ -224,7 +224,7 @@ msgid "Macro form of :c:func:`PyBytes_Size` but without error checking."
 msgstr ""
 
 #: ../../c-api/bytes.rst:142
-msgid "Return a pointer to the contents of *o*.  The pointer refers to the internal buffer of *o*, which consists of ``len(o) + 1`` bytes.  The last byte in the buffer is always null, regardless of whether there are any other null bytes.  The data must not be modified in any way, unless the object was just created using ``PyBytes_FromStringAndSize(NULL, size)``. It must not be deallocated.  If *o* is not a bytes object at all, :c:func:`PyBytes_AsString` returns *NULL* and raises :exc:`TypeError`."
+msgid "Return a pointer to the contents of *o*.  The pointer refers to the internal buffer of *o*, which consists of ``len(o) + 1`` bytes.  The last byte in the buffer is always null, regardless of whether there are any other null bytes.  The data must not be modified in any way, unless the object was just created using ``PyBytes_FromStringAndSize(NULL, size)``. It must not be deallocated.  If *o* is not a bytes object at all, :c:func:`PyBytes_AsString` returns ``NULL`` and raises :exc:`TypeError`."
 msgstr ""
 
 #: ../../c-api/bytes.rst:154
@@ -236,7 +236,7 @@ msgid "Return the null-terminated contents of the object *obj* through the outpu
 msgstr ""
 
 #: ../../c-api/bytes.rst:162
-msgid "If *length* is *NULL*, the bytes object may not contain embedded null bytes; if it does, the function returns ``-1`` and a :exc:`ValueError` is raised."
+msgid "If *length* is ``NULL``, the bytes object may not contain embedded null bytes; if it does, the function returns ``-1`` and a :exc:`ValueError` is raised."
 msgstr ""
 
 #: ../../c-api/bytes.rst:166
@@ -248,7 +248,7 @@ msgid "Previously, :exc:`TypeError` was raised when embedded null bytes were enc
 msgstr ""
 
 #: ../../c-api/bytes.rst:180
-msgid "Create a new bytes object in *\\*bytes* containing the contents of *newpart* appended to *bytes*; the caller will own the new reference.  The reference to the old value of *bytes* will be stolen.  If the new object cannot be created, the old reference to *bytes* will still be discarded and the value of *\\*bytes* will be set to *NULL*; the appropriate exception will be set."
+msgid "Create a new bytes object in *\\*bytes* containing the contents of *newpart* appended to *bytes*; the caller will own the new reference.  The reference to the old value of *bytes* will be stolen.  If the new object cannot be created, the old reference to *bytes* will still be discarded and the value of *\\*bytes* will be set to ``NULL``; the appropriate exception will be set."
 msgstr ""
 
 #: ../../c-api/bytes.rst:189
@@ -256,6 +256,6 @@ msgid "Create a new bytes object in *\\*bytes* containing the contents of *newpa
 msgstr ""
 
 #: ../../c-api/bytes.rst:196
-msgid "A way to resize a bytes object even though it is \"immutable\". Only use this to build up a brand new bytes object; don't use this if the bytes may already be known in other parts of the code.  It is an error to call this function if the refcount on the input bytes object is not one. Pass the address of an existing bytes object as an lvalue (it may be written into), and the new size desired.  On success, *\\*bytes* holds the resized bytes object and ``0`` is returned; the address in *\\*bytes* may differ from its input value.  If the reallocation fails, the original bytes object at *\\*bytes* is deallocated, *\\*bytes* is set to *NULL*, :exc:`MemoryError` is set, and ``-1`` is returned."
+msgid "A way to resize a bytes object even though it is \"immutable\". Only use this to build up a brand new bytes object; don't use this if the bytes may already be known in other parts of the code.  It is an error to call this function if the refcount on the input bytes object is not one. Pass the address of an existing bytes object as an lvalue (it may be written into), and the new size desired.  On success, *\\*bytes* holds the resized bytes object and ``0`` is returned; the address in *\\*bytes* may differ from its input value.  If the reallocation fails, the original bytes object at *\\*bytes* is deallocated, *\\*bytes* is set to ``NULL``, :exc:`MemoryError` is set, and ``-1`` is returned."
 msgstr ""
 

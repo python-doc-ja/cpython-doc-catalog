@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,11 +89,11 @@ msgid "For :term:`contiguous` arrays, the value points to the beginning of the m
 msgstr ""
 
 #: ../../c-api/buffer.rst:104
-msgid "A new reference to the exporting object. The reference is owned by the consumer and automatically decremented and set to *NULL* by :c:func:`PyBuffer_Release`. The field is the equivalent of the return value of any standard C-API function."
+msgid "A new reference to the exporting object. The reference is owned by the consumer and automatically decremented and set to ``NULL`` by :c:func:`PyBuffer_Release`. The field is the equivalent of the return value of any standard C-API function."
 msgstr ""
 
 #: ../../c-api/buffer.rst:109
-msgid "As a special case, for *temporary* buffers that are wrapped by :c:func:`PyMemoryView_FromBuffer` or :c:func:`PyBuffer_FillInfo` this field is *NULL*. In general, exporting objects MUST NOT use this scheme."
+msgid "As a special case, for *temporary* buffers that are wrapped by :c:func:`PyMemoryView_FromBuffer` or :c:func:`PyBuffer_FillInfo` this field is ``NULL``. In general, exporting objects MUST NOT use this scheme."
 msgstr ""
 
 #: ../../c-api/buffer.rst:116
@@ -109,11 +109,11 @@ msgid "An indicator of whether the buffer is read-only. This field is controlled
 msgstr ""
 
 #: ../../c-api/buffer.rst:132
-msgid "Item size in bytes of a single element. Same as the value of :func:`struct.calcsize` called on non-NULL :c:member:`~Py_buffer.format` values."
+msgid "Item size in bytes of a single element. Same as the value of :func:`struct.calcsize` called on non-``NULL`` :c:member:`~Py_buffer.format` values."
 msgstr ""
 
 #: ../../c-api/buffer.rst:135
-msgid "Important exception: If a consumer requests a buffer without the :c:macro:`PyBUF_FORMAT` flag, :c:member:`~Py_buffer.format` will be set to  *NULL*,  but :c:member:`~Py_buffer.itemsize` still has the value for the original format."
+msgid "Important exception: If a consumer requests a buffer without the :c:macro:`PyBUF_FORMAT` flag, :c:member:`~Py_buffer.format` will be set to  ``NULL``,  but :c:member:`~Py_buffer.itemsize` still has the value for the original format."
 msgstr ""
 
 #: ../../c-api/buffer.rst:140
@@ -121,11 +121,11 @@ msgid "If :c:member:`~Py_buffer.shape` is present, the equality ``product(shape)
 msgstr ""
 
 #: ../../c-api/buffer.rst:144
-msgid "If :c:member:`~Py_buffer.shape` is *NULL* as a result of a :c:macro:`PyBUF_SIMPLE` or a :c:macro:`PyBUF_WRITABLE` request, the consumer must disregard :c:member:`~Py_buffer.itemsize` and assume ``itemsize == 1``."
+msgid "If :c:member:`~Py_buffer.shape` is ``NULL`` as a result of a :c:macro:`PyBUF_SIMPLE` or a :c:macro:`PyBUF_WRITABLE` request, the consumer must disregard :c:member:`~Py_buffer.itemsize` and assume ``itemsize == 1``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:150
-msgid "A *NUL* terminated string in :mod:`struct` module style syntax describing the contents of a single item. If this is *NULL*, ``\"B\"`` (unsigned bytes) is assumed."
+msgid "A *NUL* terminated string in :mod:`struct` module style syntax describing the contents of a single item. If this is ``NULL``, ``\"B\"`` (unsigned bytes) is assumed."
 msgstr ""
 
 #: ../../c-api/buffer.rst:154
@@ -133,7 +133,7 @@ msgid "This field is controlled by the :c:macro:`PyBUF_FORMAT` flag."
 msgstr ""
 
 #: ../../c-api/buffer.rst:158
-msgid "The number of dimensions the memory represents as an n-dimensional array. If it is ``0``, :c:member:`~Py_buffer.buf` points to a single item representing a scalar. In this case, :c:member:`~Py_buffer.shape`, :c:member:`~Py_buffer.strides` and :c:member:`~Py_buffer.suboffsets` MUST be *NULL*."
+msgid "The number of dimensions the memory represents as an n-dimensional array. If it is ``0``, :c:member:`~Py_buffer.buf` points to a single item representing a scalar. In this case, :c:member:`~Py_buffer.shape`, :c:member:`~Py_buffer.strides` and :c:member:`~Py_buffer.suboffsets` MUST be ``NULL``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:163
@@ -169,7 +169,7 @@ msgid "An array of :c:type:`Py_ssize_t` of length :c:member:`~Py_buffer.ndim`. I
 msgstr ""
 
 #: ../../c-api/buffer.rst:201
-msgid "If all suboffsets are negative (i.e. no de-referencing is needed), then this field must be NULL (the default value)."
+msgid "If all suboffsets are negative (i.e. no de-referencing is needed), then this field must be ``NULL`` (the default value)."
 msgstr ""
 
 #: ../../c-api/buffer.rst:204
@@ -213,7 +213,7 @@ msgid "Controls the :c:member:`~Py_buffer.readonly` field. If set, the exporter 
 msgstr ""
 
 #: ../../c-api/buffer.rst:250
-msgid "Controls the :c:member:`~Py_buffer.format` field. If set, this field MUST be filled in correctly. Otherwise, this field MUST be *NULL*."
+msgid "Controls the :c:member:`~Py_buffer.format` field. If set, this field MUST be filled in correctly. Otherwise, this field MUST be ``NULL``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:254
@@ -405,11 +405,11 @@ msgid "The logical structure of NumPy-style arrays is defined by :c:member:`~Py_
 msgstr ""
 
 #: ../../c-api/buffer.rst:350
-msgid "If ``ndim == 0``, the memory location pointed to by :c:member:`~Py_buffer.buf` is interpreted as a scalar of size :c:member:`~Py_buffer.itemsize`. In that case, both :c:member:`~Py_buffer.shape` and :c:member:`~Py_buffer.strides` are *NULL*."
+msgid "If ``ndim == 0``, the memory location pointed to by :c:member:`~Py_buffer.buf` is interpreted as a scalar of size :c:member:`~Py_buffer.itemsize`. In that case, both :c:member:`~Py_buffer.shape` and :c:member:`~Py_buffer.strides` are ``NULL``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:354
-msgid "If :c:member:`~Py_buffer.strides` is *NULL*, the array is interpreted as a standard n-dimensional C-array. Otherwise, the consumer must access an n-dimensional array as follows:"
+msgid "If :c:member:`~Py_buffer.strides` is ``NULL``, the array is interpreted as a standard n-dimensional C-array. Otherwise, the consumer must access an n-dimensional array as follows:"
 msgstr ""
 
 #: ../../c-api/buffer.rst:364
@@ -425,7 +425,7 @@ msgid "In addition to the regular items, PIL-style arrays can contain pointers t
 msgstr ""
 
 #: ../../c-api/buffer.rst:409
-msgid "Here is a function that returns a pointer to the element in an N-D array pointed to by an N-dimensional index when there are both non-NULL strides and suboffsets::"
+msgid "Here is a function that returns a pointer to the element in an N-D array pointed to by an N-dimensional index when there are both non-``NULL`` strides and suboffsets::"
 msgstr ""
 
 #: ../../c-api/buffer.rst:428
@@ -437,7 +437,7 @@ msgid "Return ``1`` if *obj* supports the buffer interface otherwise ``0``.  Whe
 msgstr ""
 
 #: ../../c-api/buffer.rst:439
-msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return ``-1``."
+msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to ``NULL`` and return ``-1``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:444
@@ -493,10 +493,10 @@ msgid "The *flags* argument indicates the request type. This function always fil
 msgstr ""
 
 #: ../../c-api/buffer.rst:517
-msgid "On success, set :c:member:`view->obj` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return ``-1``;"
+msgid "On success, set :c:member:`view->obj` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to ``NULL`` and return ``-1``;"
 msgstr ""
 
 #: ../../c-api/buffer.rst:521
-msgid "If this function is used as part of a :ref:`getbufferproc <buffer-structs>`, *exporter* MUST be set to the exporting object and *flags* must be passed unmodified. Otherwise, *exporter* MUST be NULL."
+msgid "If this function is used as part of a :ref:`getbufferproc <buffer-structs>`, *exporter* MUST be set to the exporting object and *flags* must be passed unmodified. Otherwise, *exporter* MUST be ``NULL``."
 msgstr ""
 

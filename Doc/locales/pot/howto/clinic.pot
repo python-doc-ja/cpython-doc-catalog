@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1079,7 +1079,7 @@ msgid "Currently Argument Clinic supports only a few return converters:"
 msgstr ""
 
 #: ../../howto/clinic.rst:1072
-msgid "None of these take parameters.  For the first three, return -1 to indicate error.  For ``DecodeFSDefault``, the return type is ``const char *``; return a NULL pointer to indicate an error."
+msgid "None of these take parameters.  For the first three, return -1 to indicate error.  For ``DecodeFSDefault``, the return type is ``const char *``; return a ``NULL`` pointer to indicate an error."
 msgstr ""
 
 #: ../../howto/clinic.rst:1076

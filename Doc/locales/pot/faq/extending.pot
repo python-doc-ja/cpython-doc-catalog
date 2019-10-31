@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "For bytes, :c:func:`PyBytes_Size` returns its length and :c:func:`PyBytes
 msgstr ""
 
 #: ../../faq/extending.rst:92
-msgid "To test the type of an object, first make sure it isn't *NULL*, and then use :c:func:`PyBytes_Check`, :c:func:`PyTuple_Check`, :c:func:`PyList_Check`, etc."
+msgid "To test the type of an object, first make sure it isn't ``NULL``, and then use :c:func:`PyBytes_Check`, :c:func:`PyTuple_Check`, :c:func:`PyList_Check`, etc."
 msgstr ""
 
 #: ../../faq/extending.rst:95

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Numeric values are stored with the least significant byte first."
 msgstr ""
 
 #: ../../c-api/marshal.rst:16
-msgid "The module supports two versions of the data format: version 0 is the historical version, version 1 shares interned strings in the file, and upon unmarshalling.  Version 2 uses a binary format for floating point numbers. *Py_MARSHAL_VERSION* indicates the current file format (currently 2)."
+msgid "The module supports two versions of the data format: version 0 is the historical version, version 1 shares interned strings in the file, and upon unmarshalling.  Version 2 uses a binary format for floating point numbers. ``Py_MARSHAL_VERSION`` indicates the current file format (currently 2)."
 msgstr ""
 
 #: ../../c-api/marshal.rst:24
@@ -68,7 +68,7 @@ msgstr ""
 #: ../../c-api/marshal.rst:69
 #: ../../c-api/marshal.rst:83
 #: ../../c-api/marshal.rst:92
-msgid "On error, sets the appropriate exception (:exc:`EOFError`, :exc:`ValueError` or :exc:`TypeError`) and returns *NULL*."
+msgid "On error, sets the appropriate exception (:exc:`EOFError`, :exc:`ValueError` or :exc:`TypeError`) and returns ``NULL``."
 msgstr ""
 
 #: ../../c-api/marshal.rst:75

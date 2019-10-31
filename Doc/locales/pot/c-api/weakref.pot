@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,11 @@ msgid "Return true if *ob* is a proxy object."
 msgstr ""
 
 #: ../../c-api/weakref.rst:31
-msgid "Return a weak reference object for the object *ob*.  This will always return a new reference, but is not guaranteed to create a new object; an existing reference object may be returned.  The second parameter, *callback*, can be a callable object that receives notification when *ob* is garbage collected; it should accept a single parameter, which will be the weak reference object itself. *callback* may also be ``None`` or *NULL*.  If *ob* is not a weakly-referencable object, or if *callback* is not callable, ``None``, or *NULL*, this will return *NULL* and raise :exc:`TypeError`."
+msgid "Return a weak reference object for the object *ob*.  This will always return a new reference, but is not guaranteed to create a new object; an existing reference object may be returned.  The second parameter, *callback*, can be a callable object that receives notification when *ob* is garbage collected; it should accept a single parameter, which will be the weak reference object itself. *callback* may also be ``None`` or ``NULL``.  If *ob* is not a weakly-referencable object, or if *callback* is not callable, ``None``, or ``NULL``, this will return ``NULL`` and raise :exc:`TypeError`."
 msgstr ""
 
 #: ../../c-api/weakref.rst:43
-msgid "Return a weak reference proxy object for the object *ob*.  This will always return a new reference, but is not guaranteed to create a new object; an existing proxy object may be returned.  The second parameter, *callback*, can be a callable object that receives notification when *ob* is garbage collected; it should accept a single parameter, which will be the weak reference object itself. *callback* may also be ``None`` or *NULL*.  If *ob* is not a weakly-referencable object, or if *callback* is not callable, ``None``, or *NULL*, this will return *NULL* and raise :exc:`TypeError`."
+msgid "Return a weak reference proxy object for the object *ob*.  This will always return a new reference, but is not guaranteed to create a new object; an existing proxy object may be returned.  The second parameter, *callback*, can be a callable object that receives notification when *ob* is garbage collected; it should accept a single parameter, which will be the weak reference object itself. *callback* may also be ``None`` or ``NULL``.  If *ob* is not a weakly-referencable object, or if *callback* is not callable, ``None``, or ``NULL``, this will return ``NULL`` and raise :exc:`TypeError`."
 msgstr ""
 
 #: ../../c-api/weakref.rst:55

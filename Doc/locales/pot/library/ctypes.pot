@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "You can call these functions like any other Python callable. This example
 msgstr ""
 
 #: ../../library/ctypes.rst:155
-msgid "This example calls both functions with a NULL pointer (``None`` should be used as the NULL pointer)::"
+msgid "This example calls both functions with a ``NULL`` pointer (``None`` should be used as the ``NULL`` pointer)::"
 msgstr ""
 
 #: ../../library/ctypes.rst:166
@@ -736,7 +736,7 @@ msgid "Quoting the docs for that value:"
 msgstr ""
 
 #: ../../library/ctypes.rst:1085
-msgid "This pointer is initialized to point to an array of :c:type:`struct _frozen` records, terminated by one whose members are all *NULL* or zero.  When a frozen module is imported, it is searched in this table.  Third-party code could play tricks with this to provide a dynamically created collection of frozen modules."
+msgid "This pointer is initialized to point to an array of :c:type:`struct _frozen` records, terminated by one whose members are all ``NULL`` or zero.  When a frozen module is imported, it is searched in this table.  Third-party code could play tricks with this to provide a dynamically created collection of frozen modules."
 msgstr ""
 
 #: ../../library/ctypes.rst:1090
@@ -748,7 +748,7 @@ msgid "We have defined the :c:type:`struct _frozen` data type, so we can get the
 msgstr ""
 
 #: ../../library/ctypes.rst:1109
-msgid "Since ``table`` is a ``pointer`` to the array of ``struct_frozen`` records, we can iterate over it, but we just have to make sure that our loop terminates, because pointers have no size. Sooner or later it would probably crash with an access violation or whatever, so it's better to break out of the loop when we hit the NULL entry::"
+msgid "Since ``table`` is a ``pointer`` to the array of ``struct_frozen`` records, we can iterate over it, but we just have to make sure that our loop terminates, because pointers have no size. Sooner or later it would probably crash with an access violation or whatever, so it's better to break out of the loop when we hit the ``NULL`` entry::"
 msgstr ""
 
 #: ../../library/ctypes.rst:1127

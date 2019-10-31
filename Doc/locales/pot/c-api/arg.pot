@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Unless otherwise stated, buffers are not NUL-terminated."
 msgstr ""
 
 #: ../../c-api/arg.rst:51
-msgid "Some formats require a read-only :term:`bytes-like object`, and set a pointer instead of a buffer structure.  They work by checking that the object's :c:member:`PyBufferProcs.bf_releasebuffer` field is *NULL*, which disallows mutable objects such as :class:`bytearray`."
+msgid "Some formats require a read-only :term:`bytes-like object`, and set a pointer instead of a buffer structure.  They work by checking that the object's :c:member:`PyBufferProcs.bf_releasebuffer` field is ``NULL``, which disallows mutable objects such as :class:`bytearray`."
 msgstr ""
 
 #: ../../c-api/arg.rst:58
@@ -103,7 +103,7 @@ msgid "``z`` (:class:`str` or ``None``) [const char \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:101
-msgid "Like ``s``, but the Python object may also be ``None``, in which case the C pointer is set to *NULL*."
+msgid "Like ``s``, but the Python object may also be ``None``, in which case the C pointer is set to ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:106
@@ -111,7 +111,7 @@ msgid "``z*`` (:class:`str`, :term:`bytes-like object` or ``None``) [Py_buffer]"
 msgstr ""
 
 #: ../../c-api/arg.rst:105
-msgid "Like ``s*``, but the Python object may also be ``None``, in which case the ``buf`` member of the :c:type:`Py_buffer` structure is set to *NULL*."
+msgid "Like ``s*``, but the Python object may also be ``None``, in which case the ``buf`` member of the :c:type:`Py_buffer` structure is set to ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:110
@@ -119,7 +119,7 @@ msgid "``z#`` (:class:`str`, read-only :term:`bytes-like object` or ``None``) [c
 msgstr ""
 
 #: ../../c-api/arg.rst:109
-msgid "Like ``s#``, but the Python object may also be ``None``, in which case the C pointer is set to *NULL*."
+msgid "Like ``s#``, but the Python object may also be ``None``, in which case the C pointer is set to ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:120
@@ -194,7 +194,7 @@ msgid "``Z`` (:class:`str` or ``None``) [const Py_UNICODE \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:168
-msgid "Like ``u``, but the Python object may also be ``None``, in which case the :c:type:`Py_UNICODE` pointer is set to *NULL*."
+msgid "Like ``u``, but the Python object may also be ``None``, in which case the :c:type:`Py_UNICODE` pointer is set to ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:181
@@ -202,7 +202,7 @@ msgid "``Z#`` (:class:`str` or ``None``) [const Py_UNICODE \\*, int]"
 msgstr ""
 
 #: ../../c-api/arg.rst:176
-msgid "Like ``u#``, but the Python object may also be ``None``, in which case the :c:type:`Py_UNICODE` pointer is set to *NULL*."
+msgid "Like ``u#``, but the Python object may also be ``None``, in which case the :c:type:`Py_UNICODE` pointer is set to ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:186
@@ -230,7 +230,7 @@ msgid "This variant on ``s`` is used for encoding Unicode into a character buffe
 msgstr ""
 
 #: ../../c-api/arg.rst:198
-msgid "This format requires two arguments.  The first is only used as input, and must be a :c:type:`const char\\*` which points to the name of an encoding as a NUL-terminated string, or *NULL*, in which case ``'utf-8'`` encoding is used. An exception is raised if the named encoding is not known to Python.  The second argument must be a :c:type:`char\\*\\*`; the value of the pointer it references will be set to a buffer with the contents of the argument text. The text will be encoded in the encoding specified by the first argument."
+msgid "This format requires two arguments.  The first is only used as input, and must be a :c:type:`const char\\*` which points to the name of an encoding as a NUL-terminated string, or ``NULL``, in which case ``'utf-8'`` encoding is used. An exception is raised if the named encoding is not known to Python.  The second argument must be a :c:type:`char\\*\\*`; the value of the pointer it references will be set to a buffer with the contents of the argument text. The text will be encoded in the encoding specified by the first argument."
 msgstr ""
 
 #: ../../c-api/arg.rst:206
@@ -254,7 +254,7 @@ msgid "This variant on ``s#`` is used for encoding Unicode into a character buff
 msgstr ""
 
 #: ../../c-api/arg.rst:221
-msgid "It requires three arguments.  The first is only used as input, and must be a :c:type:`const char\\*` which points to the name of an encoding as a NUL-terminated string, or *NULL*, in which case ``'utf-8'`` encoding is used. An exception is raised if the named encoding is not known to Python.  The second argument must be a :c:type:`char\\*\\*`; the value of the pointer it references will be set to a buffer with the contents of the argument text. The text will be encoded in the encoding specified by the first argument. The third argument must be a pointer to an integer; the referenced integer will be set to the number of bytes in the output buffer."
+msgid "It requires three arguments.  The first is only used as input, and must be a :c:type:`const char\\*` which points to the name of an encoding as a NUL-terminated string, or ``NULL``, in which case ``'utf-8'`` encoding is used. An exception is raised if the named encoding is not known to Python.  The second argument must be a :c:type:`char\\*\\*`; the value of the pointer it references will be set to a buffer with the contents of the argument text. The text will be encoded in the encoding specified by the first argument. The third argument must be a pointer to an integer; the referenced integer will be set to the number of bytes in the output buffer."
 msgstr ""
 
 #: ../../c-api/arg.rst:231
@@ -262,11 +262,11 @@ msgid "There are two modes of operation:"
 msgstr ""
 
 #: ../../c-api/arg.rst:233
-msgid "If *\\*buffer* points a *NULL* pointer, the function will allocate a buffer of the needed size, copy the encoded data into this buffer and set *\\*buffer* to reference the newly allocated storage.  The caller is responsible for calling :c:func:`PyMem_Free` to free the allocated buffer after usage."
+msgid "If *\\*buffer* points a ``NULL`` pointer, the function will allocate a buffer of the needed size, copy the encoded data into this buffer and set *\\*buffer* to reference the newly allocated storage.  The caller is responsible for calling :c:func:`PyMem_Free` to free the allocated buffer after usage."
 msgstr ""
 
 #: ../../c-api/arg.rst:238
-msgid "If *\\*buffer* points to a non-*NULL* pointer (an already allocated buffer), :c:func:`PyArg_ParseTuple` will use this location as the buffer and interpret the initial value of *\\*buffer_length* as the buffer size.  It will then copy the encoded data into the buffer and NUL-terminate it.  If the buffer is not large enough, a :exc:`ValueError` will be set."
+msgid "If *\\*buffer* points to a non-``NULL`` pointer (an already allocated buffer), :c:func:`PyArg_ParseTuple` will use this location as the buffer and interpret the initial value of *\\*buffer_length* as the buffer size.  It will then copy the encoded data into the buffer and NUL-terminate it.  If the buffer is not large enough, a :exc:`ValueError` will be set."
 msgstr ""
 
 #: ../../c-api/arg.rst:244
@@ -440,7 +440,7 @@ msgid "``O`` (object) [PyObject \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:318
-msgid "Store a Python object (without any conversion) in a C object pointer.  The C program thus receives the actual object that was passed.  The object's reference count is not increased.  The pointer stored is not *NULL*."
+msgid "Store a Python object (without any conversion) in a C object pointer.  The C program thus receives the actual object that was passed.  The object's reference count is not increased.  The pointer stored is not ``NULL``."
 msgstr ""
 
 #: ../../c-api/arg.rst:327
@@ -465,7 +465,7 @@ msgid "where *object* is the Python object to be converted and *address* is the 
 msgstr ""
 
 #: ../../c-api/arg.rst:345
-msgid "If the *converter* returns ``Py_CLEANUP_SUPPORTED``, it may get called a second time if the argument parsing eventually fails, giving the converter a chance to release any memory that it had already allocated. In this second call, the *object* parameter will be NULL; *address* will have the same value as in the original call."
+msgid "If the *converter* returns ``Py_CLEANUP_SUPPORTED``, it may get called a second time if the argument parsing eventually fails, giving the converter a chance to release any memory that it had already allocated. In this second call, the *object* parameter will be ``NULL``; *address* will have the same value as in the original call."
 msgstr ""
 
 #: ../../c-api/arg.rst:351
@@ -554,7 +554,7 @@ msgid "Identical to :c:func:`PyArg_ParseTuple`, except that it accepts a va_list
 msgstr ""
 
 #: ../../c-api/arg.rst:438
-msgid "Parse the parameters of a function that takes both positional and keyword parameters into local variables.  The *keywords* argument is a *NULL*-terminated array of keyword parameter names.  Empty names denote :ref:`positional-only parameters <positional-only_parameter>`. Returns true on success; on failure, it returns false and raises the appropriate exception."
+msgid "Parse the parameters of a function that takes both positional and keyword parameters into local variables.  The *keywords* argument is a ``NULL``-terminated array of keyword parameter names.  Empty names denote :ref:`positional-only parameters <positional-only_parameter>`. Returns true on success; on failure, it returns false and raises the appropriate exception."
 msgstr ""
 
 #: ../../c-api/arg.rst:445
@@ -590,7 +590,7 @@ msgid "Building values"
 msgstr ""
 
 #: ../../c-api/arg.rst:521
-msgid "Create a new value based on a format string similar to those accepted by the :c:func:`PyArg_Parse\\*` family of functions and a sequence of values.  Returns the value or *NULL* in the case of an error; an exception will be raised if *NULL* is returned."
+msgid "Create a new value based on a format string similar to those accepted by the :c:func:`PyArg_Parse\\*` family of functions and a sequence of values.  Returns the value or ``NULL`` in the case of an error; an exception will be raised if ``NULL`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:526
@@ -614,7 +614,7 @@ msgid "``s`` (:class:`str` or ``None``) [const char \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:549
-msgid "Convert a null-terminated C string to a Python :class:`str` object using ``'utf-8'`` encoding. If the C string pointer is *NULL*, ``None`` is used."
+msgid "Convert a null-terminated C string to a Python :class:`str` object using ``'utf-8'`` encoding. If the C string pointer is ``NULL``, ``None`` is used."
 msgstr ""
 
 #: ../../c-api/arg.rst:555
@@ -622,7 +622,7 @@ msgid "``s#`` (:class:`str` or ``None``) [const char \\*, int]"
 msgstr ""
 
 #: ../../c-api/arg.rst:553
-msgid "Convert a C string and its length to a Python :class:`str` object using ``'utf-8'`` encoding. If the C string pointer is *NULL*, the length is ignored and ``None`` is returned."
+msgid "Convert a C string and its length to a Python :class:`str` object using ``'utf-8'`` encoding. If the C string pointer is ``NULL``, the length is ignored and ``None`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:559
@@ -630,7 +630,7 @@ msgid "``y`` (:class:`bytes`) [const char \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:558
-msgid "This converts a C string to a Python :class:`bytes` object.  If the C string pointer is *NULL*, ``None`` is returned."
+msgid "This converts a C string to a Python :class:`bytes` object.  If the C string pointer is ``NULL``, ``None`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:563
@@ -638,7 +638,7 @@ msgid "``y#`` (:class:`bytes`) [const char \\*, int]"
 msgstr ""
 
 #: ../../c-api/arg.rst:562
-msgid "This converts a C string and its lengths to a Python object.  If the C string pointer is *NULL*, ``None`` is returned."
+msgid "This converts a C string and its lengths to a Python object.  If the C string pointer is ``NULL``, ``None`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:566
@@ -660,7 +660,7 @@ msgid "``u`` (:class:`str`) [const wchar_t \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:572
-msgid "Convert a null-terminated :c:type:`wchar_t` buffer of Unicode (UTF-16 or UCS-4) data to a Python Unicode object.  If the Unicode buffer pointer is *NULL*, ``None`` is returned."
+msgid "Convert a null-terminated :c:type:`wchar_t` buffer of Unicode (UTF-16 or UCS-4) data to a Python Unicode object.  If the Unicode buffer pointer is ``NULL``, ``None`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:579
@@ -668,7 +668,7 @@ msgid "``u#`` (:class:`str`) [const wchar_t \\*, int]"
 msgstr ""
 
 #: ../../c-api/arg.rst:577
-msgid "Convert a Unicode (UTF-16 or UCS-4) data buffer and its length to a Python Unicode object.   If the Unicode buffer pointer is *NULL*, the length is ignored and ``None`` is returned."
+msgid "Convert a Unicode (UTF-16 or UCS-4) data buffer and its length to a Python Unicode object.   If the Unicode buffer pointer is ``NULL``, the length is ignored and ``None`` is returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:582
@@ -756,7 +756,7 @@ msgid "Convert a C :c:type:`Py_complex` structure to a Python complex number."
 msgstr ""
 
 #: ../../c-api/arg.rst:638
-msgid "Pass a Python object untouched (except for its reference count, which is incremented by one).  If the object passed in is a *NULL* pointer, it is assumed that this was caused because the call producing the argument found an error and set an exception. Therefore, :c:func:`Py_BuildValue` will return *NULL* but won't raise an exception.  If no exception has been raised yet, :exc:`SystemError` is set."
+msgid "Pass a Python object untouched (except for its reference count, which is incremented by one).  If the object passed in is a ``NULL`` pointer, it is assumed that this was caused because the call producing the argument found an error and set an exception. Therefore, :c:func:`Py_BuildValue` will return ``NULL`` but won't raise an exception.  If no exception has been raised yet, :exc:`SystemError` is set."
 msgstr ""
 
 #: ../../c-api/arg.rst:646
@@ -776,7 +776,7 @@ msgid "Same as ``O``, except it doesn't increment the reference count on the obj
 msgstr ""
 
 #: ../../c-api/arg.rst:654
-msgid "Convert *anything* to a Python object through a *converter* function.  The function is called with *anything* (which should be compatible with :c:type:`void \\*`) as its argument and should return a \"new\" Python object, or *NULL* if an error occurred."
+msgid "Convert *anything* to a Python object through a *converter* function.  The function is called with *anything* (which should be compatible with :c:type:`void \\*`) as its argument and should return a \"new\" Python object, or ``NULL`` if an error occurred."
 msgstr ""
 
 #: ../../c-api/arg.rst:660
@@ -800,7 +800,7 @@ msgid "Convert a sequence of C values to a Python dictionary.  Each pair of cons
 msgstr ""
 
 #: ../../c-api/arg.rst:670
-msgid "If there is an error in the format string, the :exc:`SystemError` exception is set and *NULL* returned."
+msgid "If there is an error in the format string, the :exc:`SystemError` exception is set and ``NULL`` returned."
 msgstr ""
 
 #: ../../c-api/arg.rst:675

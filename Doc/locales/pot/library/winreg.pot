@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-10-31 11:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,7 +329,7 @@ msgid "*sub_key* is a string that holds the name of the subkey with which the va
 msgstr ""
 
 #: ../../library/winreg.rst:345
-msgid "Values in the registry have name, type, and data components. This method retrieves the data for a key's first value that has a NULL name. But the underlying API call doesn't return the type, so always use :func:`QueryValueEx` if possible."
+msgid "Values in the registry have name, type, and data components. This method retrieves the data for a key's first value that has a ``NULL`` name. But the underlying API call doesn't return the type, so always use :func:`QueryValueEx` if possible."
 msgstr ""
 
 #: ../../library/winreg.rst:353
@@ -365,7 +365,7 @@ msgid "If *key* represents a key on a remote computer, the path described by *fi
 msgstr ""
 
 #: ../../library/winreg.rst:394
-msgid "This function passes NULL for *security_attributes* to the API."
+msgid "This function passes ``NULL`` for *security_attributes* to the API."
 msgstr ""
 
 #: ../../library/winreg.rst:399
