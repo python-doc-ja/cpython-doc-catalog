@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Return true if the object *o* supports the iterator protocol."
 msgstr ""
 
 #: ../../c-api/iter.rst:17
-msgid "Return the next value from the iteration *o*.  The object must be an iterator (it is up to the caller to check this).  If there are no remaining values, returns *NULL* with no exception set.  If an error occurs while retrieving the item, returns *NULL* and passes along the exception."
+msgid "Return the next value from the iteration *o*.  The object must be an iterator (it is up to the caller to check this).  If there are no remaining values, returns ``NULL`` with no exception set.  If an error occurs while retrieving the item, returns ``NULL`` and passes along the exception."
 msgstr ""
 
 #: ../../c-api/iter.rst:22

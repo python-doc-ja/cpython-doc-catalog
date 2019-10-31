@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "Attribute Management"
 msgstr ""
 
 #: ../../extending/newtypes.rst:188
-msgid "For every object which can support attributes, the corresponding type must provide the functions that control how the attributes are resolved.  There needs to be a function which can retrieve attributes (if any are defined), and another to set attributes (if setting attributes is allowed).  Removing an attribute is a special case, for which the new value passed to the handler is *NULL*."
+msgid "For every object which can support attributes, the corresponding type must provide the functions that control how the attributes are resolved.  There needs to be a function which can retrieve attributes (if any are defined), and another to set attributes (if setting attributes is allowed).  Removing an attribute is a special case, for which the new value passed to the handler is ``NULL``."
 msgstr ""
 
 #: ../../extending/newtypes.rst:194
@@ -137,7 +137,7 @@ msgid "Note that this list does not place any restrictions on the values of the 
 msgstr ""
 
 #: ../../extending/newtypes.rst:231
-msgid "When :c:func:`PyType_Ready` is called, it uses three tables referenced by the type object to create :term:`descriptor`\\s which are placed in the dictionary of the type object.  Each descriptor controls access to one attribute of the instance object.  Each of the tables is optional; if all three are *NULL*, instances of the type will only have attributes that are inherited from their base type, and should leave the :c:member:`~PyTypeObject.tp_getattro` and :c:member:`~PyTypeObject.tp_setattro` fields *NULL* as well, allowing the base type to handle attributes."
+msgid "When :c:func:`PyType_Ready` is called, it uses three tables referenced by the type object to create :term:`descriptor`\\s which are placed in the dictionary of the type object.  Each descriptor controls access to one attribute of the instance object.  Each of the tables is optional; if all three are ``NULL``, instances of the type will only have attributes that are inherited from their base type, and should leave the :c:member:`~PyTypeObject.tp_getattro` and :c:member:`~PyTypeObject.tp_setattro` fields ``NULL`` as well, allowing the base type to handle attributes."
 msgstr ""
 
 #: ../../extending/newtypes.rst:239
@@ -145,11 +145,11 @@ msgid "The tables are declared as three fields of the type object::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:245
-msgid "If :c:member:`~PyTypeObject.tp_methods` is not *NULL*, it must refer to an array of :c:type:`PyMethodDef` structures.  Each entry in the table is an instance of this structure::"
+msgid "If :c:member:`~PyTypeObject.tp_methods` is not ``NULL``, it must refer to an array of :c:type:`PyMethodDef` structures.  Each entry in the table is an instance of this structure::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:256
-msgid "One entry should be defined for each method provided by the type; no entries are needed for methods inherited from a base type.  One additional entry is needed at the end; it is a sentinel that marks the end of the array.  The :attr:`ml_name` field of the sentinel must be *NULL*."
+msgid "One entry should be defined for each method provided by the type; no entries are needed for methods inherited from a base type.  One additional entry is needed at the end; it is a sentinel that marks the end of the array.  The :attr:`ml_name` field of the sentinel must be ``NULL``."
 msgstr ""
 
 #: ../../extending/newtypes.rst:261
@@ -209,7 +209,7 @@ msgid "An interesting advantage of using the :c:member:`~PyTypeObject.tp_members
 msgstr ""
 
 #: ../../extending/newtypes.rst:307
-msgid "As with the :c:member:`~PyTypeObject.tp_methods` table, a sentinel entry with a :attr:`name` value of *NULL* is required."
+msgid "As with the :c:member:`~PyTypeObject.tp_methods` table, a sentinel entry with a :attr:`name` value of ``NULL`` is required."
 msgstr ""
 
 #: ../../extending/newtypes.rst:321
@@ -229,7 +229,7 @@ msgid "Here is an example::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:351
-msgid "The :c:member:`~PyTypeObject.tp_setattr` handler is called when the :meth:`__setattr__` or :meth:`__delattr__` method of a class instance would be called.  When an attribute should be deleted, the third parameter will be *NULL*.  Here is an example that simply raises an exception; if this were really all you wanted, the :c:member:`~PyTypeObject.tp_setattr` handler should be set to *NULL*. ::"
+msgid "The :c:member:`~PyTypeObject.tp_setattr` handler is called when the :meth:`__setattr__` or :meth:`__delattr__` method of a class instance would be called.  When an attribute should be deleted, the third parameter will be ``NULL``.  Here is an example that simply raises an exception; if this were really all you wanted, the :c:member:`~PyTypeObject.tp_setattr` handler should be set to ``NULL``. ::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:365
@@ -241,7 +241,7 @@ msgid "The :c:member:`~PyTypeObject.tp_richcompare` handler is called when compa
 msgstr ""
 
 #: ../../extending/newtypes.rst:376
-msgid "This function is called with two Python objects and the operator as arguments, where the operator is one of ``Py_EQ``, ``Py_NE``, ``Py_LE``, ``Py_GT``, ``Py_LT`` or ``Py_GT``.  It should compare the two objects with respect to the specified operator and return ``Py_True`` or ``Py_False`` if the comparison is successful, ``Py_NotImplemented`` to indicate that comparison is not implemented and the other object's comparison method should be tried, or *NULL* if an exception was set."
+msgid "This function is called with two Python objects and the operator as arguments, where the operator is one of ``Py_EQ``, ``Py_NE``, ``Py_LE``, ``Py_GT``, ``Py_LT`` or ``Py_GT``.  It should compare the two objects with respect to the specified operator and return ``Py_True`` or ``Py_False`` if the comparison is successful, ``Py_NotImplemented`` to indicate that comparison is not implemented and the other object's comparison method should be tried, or ``NULL`` if an exception was set."
 msgstr ""
 
 #: ../../extending/newtypes.rst:384
@@ -257,7 +257,7 @@ msgid "Python supports a variety of *abstract* 'protocols;' the specific interfa
 msgstr ""
 
 #: ../../extending/newtypes.rst:420
-msgid "A number of these abstract interfaces were defined early in the development of the Python implementation.  In particular, the number, mapping, and sequence protocols have been part of Python since the beginning.  Other protocols have been added over time.  For protocols which depend on several handler routines from the type implementation, the older protocols have been defined as optional blocks of handlers referenced by the type object.  For newer protocols there are additional slots in the main type object, with a flag bit being set to indicate that the slots are present and should be checked by the interpreter.  (The flag bit does not indicate that the slot values are non-*NULL*. The flag may be set to indicate the presence of a slot, but a slot may still be unfilled.) ::"
+msgid "A number of these abstract interfaces were defined early in the development of the Python implementation.  In particular, the number, mapping, and sequence protocols have been part of Python since the beginning.  Other protocols have been added over time.  For protocols which depend on several handler routines from the type implementation, the older protocols have been defined as optional blocks of handlers referenced by the type object.  For newer protocols there are additional slots in the main type object, with a flag bit being set to indicate that the slots are present and should be checked by the interpreter.  (The flag bit does not indicate that the slot values are non-``NULL``. The flag may be set to indicate the presence of a slot, but a slot may still be unfilled.) ::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:435
@@ -289,7 +289,7 @@ msgid "*args* is a tuple containing the arguments to the call.  You can use :c:f
 msgstr ""
 
 #: ../../extending/newtypes.rst:478
-msgid "*kwds* is a dictionary of keyword arguments that were passed. If this is non-*NULL* and you support keyword arguments, use :c:func:`PyArg_ParseTupleAndKeywords` to extract the arguments.  If you do not want to support keyword arguments and this is non-*NULL*, raise a :exc:`TypeError` with a message saying that keyword arguments are not supported."
+msgid "*kwds* is a dictionary of keyword arguments that were passed. If this is non-``NULL`` and you support keyword arguments, use :c:func:`PyArg_ParseTupleAndKeywords` to extract the arguments.  If you do not want to support keyword arguments and this is non-``NULL``, raise a :exc:`TypeError` with a message saying that keyword arguments are not supported."
 msgstr ""
 
 #: ../../extending/newtypes.rst:484
@@ -297,7 +297,7 @@ msgid "Here is a toy ``tp_call`` implementation::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:510
-msgid "These functions provide support for the iterator protocol.  Both handlers take exactly one parameter, the instance for which they are being called, and return a new reference.  In the case of an error, they should set an exception and return *NULL*.  :c:member:`~PyTypeObject.tp_iter` corresponds to the Python :meth:`__iter__` method, while :c:member:`~PyTypeObject.tp_iternext` corresponds to the Python :meth:`~iterator.__next__` method."
+msgid "These functions provide support for the iterator protocol.  Both handlers take exactly one parameter, the instance for which they are being called, and return a new reference.  In the case of an error, they should set an exception and return ``NULL``.  :c:member:`~PyTypeObject.tp_iter` corresponds to the Python :meth:`__iter__` method, while :c:member:`~PyTypeObject.tp_iternext` corresponds to the Python :meth:`~iterator.__next__` method."
 msgstr ""
 
 #: ../../extending/newtypes.rst:517
@@ -313,7 +313,7 @@ msgid "Objects which can only be iterated over once (usually due to side effects
 msgstr ""
 
 #: ../../extending/newtypes.rst:529
-msgid "Any :term:`iterator` object should implement both :c:member:`~PyTypeObject.tp_iter` and :c:member:`~PyTypeObject.tp_iternext`.  An iterator's :c:member:`~PyTypeObject.tp_iter` handler should return a new reference to the iterator.  Its :c:member:`~PyTypeObject.tp_iternext` handler should return a new reference to the next object in the iteration, if there is one. If the iteration has reached the end, :c:member:`~PyTypeObject.tp_iternext` may return *NULL* without setting an exception, or it may set :exc:`StopIteration` *in addition* to returning *NULL*; avoiding the exception can yield slightly better performance.  If an actual error occurs, :c:member:`~PyTypeObject.tp_iternext` should always set an exception and return *NULL*."
+msgid "Any :term:`iterator` object should implement both :c:member:`~PyTypeObject.tp_iter` and :c:member:`~PyTypeObject.tp_iternext`.  An iterator's :c:member:`~PyTypeObject.tp_iter` handler should return a new reference to the iterator.  Its :c:member:`~PyTypeObject.tp_iternext` handler should return a new reference to the next object in the iteration, if there is one. If the iteration has reached the end, :c:member:`~PyTypeObject.tp_iternext` may return ``NULL`` without setting an exception, or it may set :exc:`StopIteration` *in addition* to returning ``NULL``; avoiding the exception can yield slightly better performance.  If an actual error occurs, :c:member:`~PyTypeObject.tp_iternext` should always set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../extending/newtypes.rst:545
@@ -333,7 +333,7 @@ msgid "For an object to be weakly referencable, the extension type must do two t
 msgstr ""
 
 #: ../../extending/newtypes.rst:556
-msgid "Include a :c:type:`PyObject\\*` field in the C object structure dedicated to the weak reference mechanism.  The object's constructor should leave it *NULL* (which is automatic when using the default :c:member:`~PyTypeObject.tp_alloc`)."
+msgid "Include a :c:type:`PyObject\\*` field in the C object structure dedicated to the weak reference mechanism.  The object's constructor should leave it ``NULL`` (which is automatic when using the default :c:member:`~PyTypeObject.tp_alloc`)."
 msgstr ""
 
 #: ../../extending/newtypes.rst:561
@@ -349,7 +349,7 @@ msgid "And the corresponding member in the statically-declared type object::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:581
-msgid "The only further addition is that ``tp_dealloc`` needs to clear any weak references (by calling :c:func:`PyObject_ClearWeakRefs`) if the field is non-*NULL*::"
+msgid "The only further addition is that ``tp_dealloc`` needs to clear any weak references (by calling :c:func:`PyObject_ClearWeakRefs`) if the field is non-``NULL``::"
 msgstr ""
 
 #: ../../extending/newtypes.rst:597

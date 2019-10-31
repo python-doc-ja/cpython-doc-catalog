@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "This instance of :c:type:`PyTypeObject` represents the Python instance me
 msgstr ""
 
 #: ../../c-api/method.rst:23
-msgid "Return true if *o* is an instance method object (has type :c:data:`PyInstanceMethod_Type`).  The parameter must not be *NULL*."
+msgid "Return true if *o* is an instance method object (has type :c:data:`PyInstanceMethod_Type`).  The parameter must not be ``NULL``."
 msgstr ""
 
 #: ../../c-api/method.rst:29
@@ -57,11 +57,11 @@ msgid "This instance of :c:type:`PyTypeObject` represents the Python method type
 msgstr ""
 
 #: ../../c-api/method.rst:66
-msgid "Return true if *o* is a method object (has type :c:data:`PyMethod_Type`).  The parameter must not be *NULL*."
+msgid "Return true if *o* is a method object (has type :c:data:`PyMethod_Type`).  The parameter must not be ``NULL``."
 msgstr ""
 
 #: ../../c-api/method.rst:72
-msgid "Return a new method object, with *func* being any callable object and *self* the instance the method should be bound. *func* is the function that will be called when the method is called. *self* must not be *NULL*."
+msgid "Return a new method object, with *func* being any callable object and *self* the instance the method should be bound. *func* is the function that will be called when the method is called. *self* must not be ``NULL``."
 msgstr ""
 
 #: ../../c-api/method.rst:79

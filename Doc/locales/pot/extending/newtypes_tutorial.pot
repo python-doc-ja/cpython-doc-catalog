@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 03:32+0000\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgid "Everything else in the file should be familiar, except for some code in :
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:178
-msgid "This initializes the :class:`Custom` type, filling in a number of members to the appropriate default values, including :attr:`ob_type` that we initially set to *NULL*. ::"
+msgid "This initializes the :class:`Custom` type, filling in a number of members to the appropriate default values, including :attr:`ob_type` that we initially set to ``NULL``. ::"
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:189
@@ -201,7 +201,7 @@ msgid "which is assigned to the :c:member:`~PyTypeObject.tp_dealloc` member::"
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:276
-msgid "This method first clears the reference counts of the two Python attributes. :c:func:`Py_XDECREF` correctly handles the case where its argument is *NULL* (which might happen here if ``tp_new`` failed midway).  It then calls the :c:member:`~PyTypeObject.tp_free` member of the object's type (computed by ``Py_TYPE(self)``) to free the object's memory.  Note that the object's type might not be :class:`CustomType`, because the object may be an instance of a subclass."
+msgid "This method first clears the reference counts of the two Python attributes. :c:func:`Py_XDECREF` correctly handles the case where its argument is ``NULL`` (which might happen here if ``tp_new`` failed midway).  It then calls the :c:member:`~PyTypeObject.tp_free` member of the object's type (computed by ``Py_TYPE(self)``) to free the object's memory.  Note that the object's type might not be :class:`CustomType`, because the object may be an instance of a subclass."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:285
@@ -217,7 +217,7 @@ msgid "and install it in the :c:member:`~PyTypeObject.tp_new` member::"
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:319
-msgid "The ``tp_new`` handler is responsible for creating (as opposed to initializing) objects of the type.  It is exposed in Python as the :meth:`__new__` method. It is not required to define a ``tp_new`` member, and indeed many extension types will simply reuse :c:func:`PyType_GenericNew` as done in the first version of the ``Custom`` type above.  In this case, we use the ``tp_new`` handler to initialize the ``first`` and ``last`` attributes to non-*NULL* default values."
+msgid "The ``tp_new`` handler is responsible for creating (as opposed to initializing) objects of the type.  It is exposed in Python as the :meth:`__new__` method. It is not required to define a ``tp_new`` member, and indeed many extension types will simply reuse :c:func:`PyType_GenericNew` as done in the first version of the ``Custom`` type above.  In this case, we use the ``tp_new`` handler to initialize the ``first`` and ``last`` attributes to non-``NULL`` default values."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:327
@@ -233,7 +233,7 @@ msgid "The ``tp_new`` implementation calls the :c:member:`~PyTypeObject.tp_alloc
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:343
-msgid "Since memory allocation may fail, we must check the :c:member:`~PyTypeObject.tp_alloc` result against *NULL* before proceeding."
+msgid "Since memory allocation may fail, we must check the :c:member:`~PyTypeObject.tp_alloc` result against ``NULL`` before proceeding."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:347
@@ -293,7 +293,7 @@ msgid "Each member definition has a member name, type, offset, access flags and 
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:455
-msgid "A disadvantage of this approach is that it doesn't provide a way to restrict the types of objects that can be assigned to the Python attributes.  We expect the first and last names to be strings, but any Python objects can be assigned. Further, the attributes can be deleted, setting the C pointers to *NULL*.  Even though we can make sure the members are initialized to non-*NULL* values, the members can be set to *NULL* if the attributes are deleted."
+msgid "A disadvantage of this approach is that it doesn't provide a way to restrict the types of objects that can be assigned to the Python attributes.  We expect the first and last names to be strings, but any Python objects can be assigned. Further, the attributes can be deleted, setting the C pointers to ``NULL``.  Even though we can make sure the members are initialized to non-``NULL`` values, the members can be set to ``NULL`` if the attributes are deleted."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:462
@@ -305,7 +305,7 @@ msgid "The method is implemented as a C function that takes a :class:`Custom` (o
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:491
-msgid "Note that we have to check for the possibility that our :attr:`first` and :attr:`last` members are *NULL*.  This is because they can be deleted, in which case they are set to *NULL*.  It would be better to prevent deletion of these attributes and to restrict the attribute values to be strings.  We'll see how to do that in the next section."
+msgid "Note that we have to check for the possibility that our :attr:`first` and :attr:`last` members are ``NULL``.  This is because they can be deleted, in which case they are set to ``NULL``.  It would be better to prevent deletion of these attributes and to restrict the attribute values to be strings.  We'll see how to do that in the next section."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:497
@@ -349,7 +349,7 @@ msgid "The getter function is passed a :class:`Custom` object and a \"closure\",
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:586
-msgid "The setter function is passed the :class:`Custom` object, the new value, and the closure.  The new value may be *NULL*, in which case the attribute is being deleted.  In our setter, we raise an error if the attribute is deleted or if its new value is not a string."
+msgid "The setter function is passed the :class:`Custom` object, the new value, and the closure.  The new value may be ``NULL``, in which case the attribute is being deleted.  In our setter, we raise an error if the attribute is deleted or if its new value is not a string."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:591
@@ -361,7 +361,7 @@ msgid "and register it in the :c:member:`~PyTypeObject.tp_getset` slot::"
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:605
-msgid "The last item in a :c:type:`PyGetSetDef` structure is the \"closure\" mentioned above.  In this case, we aren't using a closure, so we just pass *NULL*."
+msgid "The last item in a :c:type:`PyGetSetDef` structure is the \"closure\" mentioned above.  In this case, we aren't using a closure, so we just pass ``NULL``."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:608
@@ -373,7 +373,7 @@ msgid "We also need to update the :c:member:`~PyTypeObject.tp_init` handler to o
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:645
-msgid "With these changes, we can assure that the ``first`` and ``last`` members are never *NULL* so we can remove checks for *NULL* values in almost all cases. This means that most of the :c:func:`Py_XDECREF` calls can be converted to :c:func:`Py_DECREF` calls.  The only place we can't change these calls is in the ``tp_dealloc`` implementation, where there is the possibility that the initialization of these members failed in ``tp_new``."
+msgid "With these changes, we can assure that the ``first`` and ``last`` members are never ``NULL`` so we can remove checks for ``NULL`` values in almost all cases. This means that most of the :c:func:`Py_XDECREF` calls can be converted to :c:func:`Py_DECREF` calls.  The only place we can't change these calls is in the ``tp_dealloc`` implementation, where there is the possibility that the initialization of these members failed in ``tp_new``."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:652
@@ -421,7 +421,7 @@ msgid "Second, we need to provide a method for clearing any subobjects that can 
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:749
-msgid "Notice the use of the :c:func:`Py_CLEAR` macro.  It is the recommended and safe way to clear data attributes of arbitrary types while decrementing their reference counts.  If you were to call :c:func:`Py_XDECREF` instead on the attribute before setting it to *NULL*, there is a possibility that the attribute's destructor would call back into code that reads the attribute again (*especially* if there is a reference cycle)."
+msgid "Notice the use of the :c:func:`Py_CLEAR` macro.  It is the recommended and safe way to clear data attributes of arbitrary types while decrementing their reference counts.  If you were to call :c:func:`Py_XDECREF` instead on the attribute before setting it to ``NULL``, there is a possibility that the attribute's destructor would call back into code that reads the attribute again (*especially* if there is a reference cycle)."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:757

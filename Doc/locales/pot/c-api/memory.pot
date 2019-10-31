@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-06 21:56+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,21 +71,21 @@ msgstr ""
 #: ../../c-api/memory.rst:112
 #: ../../c-api/memory.rst:183
 #: ../../c-api/memory.rst:285
-msgid "Allocates *n* bytes and returns a pointer of type :c:type:`void\\*` to the allocated memory, or *NULL* if the request fails."
+msgid "Allocates *n* bytes and returns a pointer of type :c:type:`void\\*` to the allocated memory, or ``NULL`` if the request fails."
 msgstr ""
 
 #: ../../c-api/memory.rst:115
-msgid "Requesting zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyMem_RawMalloc(1)`` had been called instead. The memory will not have been initialized in any way."
+msgid "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyMem_RawMalloc(1)`` had been called instead. The memory will not have been initialized in any way."
 msgstr ""
 
 #: ../../c-api/memory.rst:122
 #: ../../c-api/memory.rst:193
 #: ../../c-api/memory.rst:295
-msgid "Allocates *nelem* elements each whose size in bytes is *elsize* and returns a pointer of type :c:type:`void\\*` to the allocated memory, or *NULL* if the request fails. The memory is initialized to zeros."
+msgid "Allocates *nelem* elements each whose size in bytes is *elsize* and returns a pointer of type :c:type:`void\\*` to the allocated memory, or ``NULL`` if the request fails. The memory is initialized to zeros."
 msgstr ""
 
 #: ../../c-api/memory.rst:126
-msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyMem_RawCalloc(1, 1)`` had been called instead."
+msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyMem_RawCalloc(1, 1)`` had been called instead."
 msgstr ""
 
 #: ../../c-api/memory.rst:135
@@ -95,15 +95,15 @@ msgid "Resizes the memory block pointed to by *p* to *n* bytes. The contents wil
 msgstr ""
 
 #: ../../c-api/memory.rst:138
-msgid "If *p* is *NULL*, the call is equivalent to ``PyMem_RawMalloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-*NULL*."
+msgid "If *p* is ``NULL``, the call is equivalent to ``PyMem_RawMalloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-``NULL``."
 msgstr ""
 
 #: ../../c-api/memory.rst:142
-msgid "Unless *p* is *NULL*, it must have been returned by a previous call to :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or :c:func:`PyMem_RawCalloc`."
+msgid "Unless *p* is ``NULL``, it must have been returned by a previous call to :c:func:`PyMem_RawMalloc`, :c:func:`PyMem_RawRealloc` or :c:func:`PyMem_RawCalloc`."
 msgstr ""
 
 #: ../../c-api/memory.rst:146
-msgid "If the request fails, :c:func:`PyMem_RawRealloc` returns *NULL* and *p* remains a valid pointer to the previous memory area."
+msgid "If the request fails, :c:func:`PyMem_RawRealloc` returns ``NULL`` and *p* remains a valid pointer to the previous memory area."
 msgstr ""
 
 #: ../../c-api/memory.rst:152
@@ -113,7 +113,7 @@ msgstr ""
 #: ../../c-api/memory.rst:157
 #: ../../c-api/memory.rst:227
 #: ../../c-api/memory.rst:329
-msgid "If *p* is *NULL*, no operation is performed."
+msgid "If *p* is ``NULL``, no operation is performed."
 msgstr ""
 
 #: ../../c-api/memory.rst:163
@@ -139,23 +139,23 @@ msgid "The default allocator is now pymalloc instead of system :c:func:`malloc`.
 msgstr ""
 
 #: ../../c-api/memory.rst:186
-msgid "Requesting zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyMem_Malloc(1)`` had been called instead. The memory will not have been initialized in any way."
+msgid "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyMem_Malloc(1)`` had been called instead. The memory will not have been initialized in any way."
 msgstr ""
 
 #: ../../c-api/memory.rst:197
-msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyMem_Calloc(1, 1)`` had been called instead."
+msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyMem_Calloc(1, 1)`` had been called instead."
 msgstr ""
 
 #: ../../c-api/memory.rst:209
-msgid "If *p* is *NULL*, the call is equivalent to ``PyMem_Malloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-*NULL*."
+msgid "If *p* is ``NULL``, the call is equivalent to ``PyMem_Malloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-``NULL``."
 msgstr ""
 
 #: ../../c-api/memory.rst:213
-msgid "Unless *p* is *NULL*, it must have been returned by a previous call to :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or :c:func:`PyMem_Calloc`."
+msgid "Unless *p* is ``NULL``, it must have been returned by a previous call to :c:func:`PyMem_Malloc`, :c:func:`PyMem_Realloc` or :c:func:`PyMem_Calloc`."
 msgstr ""
 
 #: ../../c-api/memory.rst:216
-msgid "If the request fails, :c:func:`PyMem_Realloc` returns *NULL* and *p* remains a valid pointer to the previous memory area."
+msgid "If the request fails, :c:func:`PyMem_Realloc` returns ``NULL`` and *p* remains a valid pointer to the previous memory area."
 msgstr ""
 
 #: ../../c-api/memory.rst:222
@@ -171,7 +171,7 @@ msgid "Same as :c:func:`PyMem_Malloc`, but allocates ``(n * sizeof(TYPE))`` byte
 msgstr ""
 
 #: ../../c-api/memory.rst:242
-msgid "Same as :c:func:`PyMem_Realloc`, but the memory block is resized to ``(n * sizeof(TYPE))`` bytes.  Returns a pointer cast to :c:type:`TYPE\\*`. On return, *p* will be a pointer to the new memory area, or *NULL* in the event of failure."
+msgid "Same as :c:func:`PyMem_Realloc`, but the memory block is resized to ``(n * sizeof(TYPE))`` bytes.  Returns a pointer cast to :c:type:`TYPE\\*`. On return, *p* will be a pointer to the new memory area, or ``NULL`` in the event of failure."
 msgstr ""
 
 #: ../../c-api/memory.rst:247
@@ -219,23 +219,23 @@ msgid "The :ref:`default object allocator <default-memory-allocators>` uses the 
 msgstr ""
 
 #: ../../c-api/memory.rst:288
-msgid "Requesting zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyObject_Malloc(1)`` had been called instead. The memory will not have been initialized in any way."
+msgid "Requesting zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyObject_Malloc(1)`` had been called instead. The memory will not have been initialized in any way."
 msgstr ""
 
 #: ../../c-api/memory.rst:299
-msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-*NULL* pointer if possible, as if ``PyObject_Calloc(1, 1)`` had been called instead."
+msgid "Requesting zero elements or elements of size zero bytes returns a distinct non-``NULL`` pointer if possible, as if ``PyObject_Calloc(1, 1)`` had been called instead."
 msgstr ""
 
 #: ../../c-api/memory.rst:311
-msgid "If *p* is *NULL*, the call is equivalent to ``PyObject_Malloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-*NULL*."
+msgid "If *p* is ``NULL``, the call is equivalent to ``PyObject_Malloc(n)``; else if *n* is equal to zero, the memory block is resized but is not freed, and the returned pointer is non-``NULL``."
 msgstr ""
 
 #: ../../c-api/memory.rst:315
-msgid "Unless *p* is *NULL*, it must have been returned by a previous call to :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or :c:func:`PyObject_Calloc`."
+msgid "Unless *p* is ``NULL``, it must have been returned by a previous call to :c:func:`PyObject_Malloc`, :c:func:`PyObject_Realloc` or :c:func:`PyObject_Calloc`."
 msgstr ""
 
 #: ../../c-api/memory.rst:318
-msgid "If the request fails, :c:func:`PyObject_Realloc` returns *NULL* and *p* remains a valid pointer to the previous memory area."
+msgid "If the request fails, :c:func:`PyObject_Realloc` returns ``NULL`` and *p* remains a valid pointer to the previous memory area."
 msgstr ""
 
 #: ../../c-api/memory.rst:324
@@ -477,7 +477,7 @@ msgid "Set the memory block allocator of the specified domain."
 msgstr ""
 
 #: ../../c-api/memory.rst:427
-msgid "The new allocator must return a distinct non-NULL pointer when requesting zero bytes."
+msgid "The new allocator must return a distinct non-``NULL`` pointer when requesting zero bytes."
 msgstr ""
 
 #: ../../c-api/memory.rst:430

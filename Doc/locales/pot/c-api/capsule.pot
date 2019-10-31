@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,19 +41,19 @@ msgid "Return true if its argument is a :c:type:`PyCapsule`."
 msgstr ""
 
 #: ../../c-api/capsule.rst:42
-msgid "Create a :c:type:`PyCapsule` encapsulating the *pointer*.  The *pointer* argument may not be *NULL*."
+msgid "Create a :c:type:`PyCapsule` encapsulating the *pointer*.  The *pointer* argument may not be ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:45
-msgid "On failure, set an exception and return *NULL*."
+msgid "On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:47
-msgid "The *name* string may either be *NULL* or a pointer to a valid C string.  If non-*NULL*, this string must outlive the capsule.  (Though it is permitted to free it inside the *destructor*.)"
+msgid "The *name* string may either be ``NULL`` or a pointer to a valid C string.  If non-``NULL``, this string must outlive the capsule.  (Though it is permitted to free it inside the *destructor*.)"
 msgstr ""
 
 #: ../../c-api/capsule.rst:51
-msgid "If the *destructor* argument is not *NULL*, it will be called with the capsule as its argument when it is destroyed."
+msgid "If the *destructor* argument is not ``NULL``, it will be called with the capsule as its argument when it is destroyed."
 msgstr ""
 
 #: ../../c-api/capsule.rst:54
@@ -61,35 +61,35 @@ msgid "If this capsule will be stored as an attribute of a module, the *name* sh
 msgstr ""
 
 #: ../../c-api/capsule.rst:61
-msgid "Retrieve the *pointer* stored in the capsule.  On failure, set an exception and return *NULL*."
+msgid "Retrieve the *pointer* stored in the capsule.  On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:64
-msgid "The *name* parameter must compare exactly to the name stored in the capsule. If the name stored in the capsule is *NULL*, the *name* passed in must also be *NULL*.  Python uses the C function :c:func:`strcmp` to compare capsule names."
+msgid "The *name* parameter must compare exactly to the name stored in the capsule. If the name stored in the capsule is ``NULL``, the *name* passed in must also be ``NULL``.  Python uses the C function :c:func:`strcmp` to compare capsule names."
 msgstr ""
 
 #: ../../c-api/capsule.rst:72
-msgid "Return the current destructor stored in the capsule.  On failure, set an exception and return *NULL*."
+msgid "Return the current destructor stored in the capsule.  On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:75
-msgid "It is legal for a capsule to have a *NULL* destructor.  This makes a *NULL* return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
+msgid "It is legal for a capsule to have a ``NULL`` destructor.  This makes a ``NULL`` return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 #: ../../c-api/capsule.rst:82
-msgid "Return the current context stored in the capsule.  On failure, set an exception and return *NULL*."
+msgid "Return the current context stored in the capsule.  On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:85
-msgid "It is legal for a capsule to have a *NULL* context.  This makes a *NULL* return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
+msgid "It is legal for a capsule to have a ``NULL`` context.  This makes a ``NULL`` return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 #: ../../c-api/capsule.rst:92
-msgid "Return the current name stored in the capsule.  On failure, set an exception and return *NULL*."
+msgid "Return the current name stored in the capsule.  On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:95
-msgid "It is legal for a capsule to have a *NULL* name.  This makes a *NULL* return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
+msgid "It is legal for a capsule to have a ``NULL`` name.  This makes a ``NULL`` return code somewhat ambiguous; use :c:func:`PyCapsule_IsValid` or :c:func:`PyErr_Occurred` to disambiguate."
 msgstr ""
 
 #: ../../c-api/capsule.rst:102
@@ -97,11 +97,11 @@ msgid "Import a pointer to a C object from a capsule attribute in a module.  The
 msgstr ""
 
 #: ../../c-api/capsule.rst:109
-msgid "Return the capsule's internal *pointer* on success.  On failure, set an exception and return *NULL*."
+msgid "Return the capsule's internal *pointer* on success.  On failure, set an exception and return ``NULL``."
 msgstr ""
 
 #: ../../c-api/capsule.rst:115
-msgid "Determines whether or not *capsule* is a valid capsule.  A valid capsule is non-*NULL*, passes :c:func:`PyCapsule_CheckExact`, has a non-*NULL* pointer stored in it, and its internal name matches the *name* parameter.  (See :c:func:`PyCapsule_GetPointer` for information on how capsule names are compared.)"
+msgid "Determines whether or not *capsule* is a valid capsule.  A valid capsule is non-``NULL``, passes :c:func:`PyCapsule_CheckExact`, has a non-``NULL`` pointer stored in it, and its internal name matches the *name* parameter.  (See :c:func:`PyCapsule_GetPointer` for information on how capsule names are compared.)"
 msgstr ""
 
 #: ../../c-api/capsule.rst:121
@@ -128,10 +128,10 @@ msgid "Set the destructor inside *capsule* to *destructor*."
 msgstr ""
 
 #: ../../c-api/capsule.rst:145
-msgid "Set the name inside *capsule* to *name*.  If non-*NULL*, the name must outlive the capsule.  If the previous *name* stored in the capsule was not *NULL*, no attempt is made to free it."
+msgid "Set the name inside *capsule* to *name*.  If non-``NULL``, the name must outlive the capsule.  If the previous *name* stored in the capsule was not ``NULL``, no attempt is made to free it."
 msgstr ""
 
 #: ../../c-api/capsule.rst:154
-msgid "Set the void pointer inside *capsule* to *pointer*.  The pointer may not be *NULL*."
+msgid "Set the void pointer inside *capsule* to *pointer*.  The pointer may not be ``NULL``."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "These APIs are a minimal emulation of the Python 2 C API for built-in fil
 msgstr ""
 
 #: ../../c-api/file.rst:22
-msgid "Create a Python file object from the file descriptor of an already opened file *fd*.  The arguments *name*, *encoding*, *errors* and *newline* can be *NULL* to use the defaults; *buffering* can be *-1* to use the default. *name* is ignored and kept for backward compatibility. Return *NULL* on failure. For a more comprehensive description of the arguments, please refer to the :func:`io.open` function documentation."
+msgid "Create a Python file object from the file descriptor of an already opened file *fd*.  The arguments *name*, *encoding*, *errors* and *newline* can be ``NULL`` to use the defaults; *buffering* can be *-1* to use the default. *name* is ignored and kept for backward compatibility. Return ``NULL`` on failure. For a more comprehensive description of the arguments, please refer to the :func:`io.open` function documentation."
 msgstr ""
 
 #: ../../c-api/file.rst:31

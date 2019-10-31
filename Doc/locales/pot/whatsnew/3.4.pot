@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 03:27+0000\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2036,11 +2036,11 @@ msgid ":c:func:`PyErr_SetImportError` now sets :exc:`TypeError` when its **msg**
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2504
-msgid "The result of the :c:data:`PyOS_ReadlineFunctionPointer` callback must now be a string allocated by :c:func:`PyMem_RawMalloc` or :c:func:`PyMem_RawRealloc`, or *NULL* if an error occurred, instead of a string allocated by :c:func:`PyMem_Malloc` or :c:func:`PyMem_Realloc` (:issue:`16742`)"
+msgid "The result of the :c:data:`PyOS_ReadlineFunctionPointer` callback must now be a string allocated by :c:func:`PyMem_RawMalloc` or :c:func:`PyMem_RawRealloc`, or ``NULL`` if an error occurred, instead of a string allocated by :c:func:`PyMem_Malloc` or :c:func:`PyMem_Realloc` (:issue:`16742`)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2510
-msgid ":c:func:`PyThread_set_key_value` now always set the value. In Python 3.3, the function did nothing if the key already exists (if the current value is a non-NULL pointer)."
+msgid ":c:func:`PyThread_set_key_value` now always set the value. In Python 3.3, the function did nothing if the key already exists (if the current value is a non-``NULL`` pointer)."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2514

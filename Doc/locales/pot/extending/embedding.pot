@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 11:09+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,7 +137,7 @@ msgid "Once the script is loaded, the name we're looking for is retrieved using 
 msgstr ""
 
 #: ../../extending/embedding.rst:199
-msgid "Upon return of the function, ``pValue`` is either *NULL* or it contains a reference to the return value of the function.  Be sure to release the reference after examining the value."
+msgid "Upon return of the function, ``pValue`` is either ``NULL`` or it contains a reference to the return value of the function.  Be sure to release the reference after examining the value."
 msgstr ""
 
 #: ../../extending/embedding.rst:207

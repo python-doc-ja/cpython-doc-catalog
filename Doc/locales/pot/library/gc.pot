@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgid "The following variables are provided for read-only access (you can mutate
 msgstr ""
 
 #: ../../library/gc.rst:209
-msgid "A list of objects which the collector found to be unreachable but could not be freed (uncollectable objects).  Starting with Python 3.4, this list should be empty most of the time, except when using instances of C extension types with a non-NULL ``tp_del`` slot."
+msgid "A list of objects which the collector found to be unreachable but could not be freed (uncollectable objects).  Starting with Python 3.4, this list should be empty most of the time, except when using instances of C extension types with a non-``NULL`` ``tp_del`` slot."
 msgstr ""
 
 #: ../../library/gc.rst:214

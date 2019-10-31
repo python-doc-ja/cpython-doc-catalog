@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-29 11:32+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1011,7 +1011,7 @@ msgid "The method no longer toggles :const:`SOCK_NONBLOCK` flag on :attr:`socket
 msgstr ""
 
 #: ../../library/socket.rst:1532
-msgid "Set the value of the given socket option (see the Unix manual page :manpage:`setsockopt(2)`).  The needed symbolic constants are defined in the :mod:`socket` module (:const:`SO_\\*` etc.).  The value can be an integer, ``None`` or a :term:`bytes-like object` representing a buffer. In the later case it is up to the caller to ensure that the bytestring contains the proper bits (see the optional built-in module :mod:`struct` for a way to encode C structures as bytestrings). When value is set to ``None``, optlen argument is required. It's equivalent to call setsockopt C function with optval=NULL and optlen=optlen."
+msgid "Set the value of the given socket option (see the Unix manual page :manpage:`setsockopt(2)`).  The needed symbolic constants are defined in the :mod:`socket` module (:const:`SO_\\*` etc.).  The value can be an integer, ``None`` or a :term:`bytes-like object` representing a buffer. In the later case it is up to the caller to ensure that the bytestring contains the proper bits (see the optional built-in module :mod:`struct` for a way to encode C structures as bytestrings). When *value* is set to ``None``, *optlen* argument is required. It's equivalent to call :c:func:`setsockopt` C function with ``optval=NULL`` and ``optlen=optlen``."
 msgstr ""
 
 #: ../../library/socket.rst:1546

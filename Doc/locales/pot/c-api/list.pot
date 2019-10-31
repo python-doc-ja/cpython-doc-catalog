@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-27 03:54+0000\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Return true if *p* is a list object, but not an instance of a subtype of 
 msgstr ""
 
 #: ../../c-api/list.rst:36
-msgid "Return a new list of length *len* on success, or *NULL* on failure."
+msgid "Return a new list of length *len* on success, or ``NULL`` on failure."
 msgstr ""
 
 #: ../../c-api/list.rst:40
@@ -53,7 +53,7 @@ msgid "Macro form of :c:func:`PyList_Size` without error checking."
 msgstr ""
 
 #: ../../c-api/list.rst:61
-msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be non-negative; indexing from the end of the list is not supported.  If *index* is out of bounds (<0 or >=len(list)), return *NULL* and set an :exc:`IndexError` exception."
+msgid "Return the object at position *index* in the list pointed to by *list*.  The position must be non-negative; indexing from the end of the list is not supported.  If *index* is out of bounds (<0 or >=len(list)), return ``NULL`` and set an :exc:`IndexError` exception."
 msgstr ""
 
 #: ../../c-api/list.rst:69
@@ -85,11 +85,11 @@ msgid "Append the object *item* at the end of list *list*. Return ``0`` if succe
 msgstr ""
 
 #: ../../c-api/list.rst:113
-msgid "Return a list of the objects in *list* containing the objects *between* *low* and *high*.  Return *NULL* and set an exception if unsuccessful.  Analogous to ``list[low:high]``.  Indexing from the end of the list is not supported."
+msgid "Return a list of the objects in *list* containing the objects *between* *low* and *high*.  Return ``NULL`` and set an exception if unsuccessful.  Analogous to ``list[low:high]``.  Indexing from the end of the list is not supported."
 msgstr ""
 
 #: ../../c-api/list.rst:120
-msgid "Set the slice of *list* between *low* and *high* to the contents of *itemlist*.  Analogous to ``list[low:high] = itemlist``. The *itemlist* may be *NULL*, indicating the assignment of an empty list (slice deletion). Return ``0`` on success, ``-1`` on failure.  Indexing from the end of the list is not supported."
+msgid "Set the slice of *list* between *low* and *high* to the contents of *itemlist*.  Analogous to ``list[low:high] = itemlist``. The *itemlist* may be ``NULL``, indicating the assignment of an empty list (slice deletion). Return ``0`` on success, ``-1`` on failure.  Indexing from the end of the list is not supported."
 msgstr ""
 
 #: ../../c-api/list.rst:129

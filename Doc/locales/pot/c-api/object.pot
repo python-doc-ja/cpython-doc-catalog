@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 11:40+0900\n"
+"POT-Creation-Date: 2019-10-31 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgid "Note that exceptions which occur while calling :meth:`__getattr__` and :m
 msgstr ""
 
 #: ../../c-api/object.rst:55
-msgid "Retrieve an attribute named *attr_name* from object *o*. Returns the attribute value on success, or *NULL* on failure.  This is the equivalent of the Python expression ``o.attr_name``."
+msgid "Retrieve an attribute named *attr_name* from object *o*. Returns the attribute value on success, or ``NULL`` on failure.  This is the equivalent of the Python expression ``o.attr_name``."
 msgstr ""
 
 #: ../../c-api/object.rst:62
-msgid "Retrieve an attribute named *attr_name* from object *o*. Returns the attribute value on success, or *NULL* on failure. This is the equivalent of the Python expression ``o.attr_name``."
+msgid "Retrieve an attribute named *attr_name* from object *o*. Returns the attribute value on success, or ``NULL`` on failure. This is the equivalent of the Python expression ``o.attr_name``."
 msgstr ""
 
 #: ../../c-api/object.rst:69
@@ -63,11 +63,11 @@ msgid "Set the value of the attribute named *attr_name*, for object *o*, to the 
 msgstr ""
 
 #: ../../c-api/object.rst:84
-msgid "If *v* is *NULL*, the attribute is deleted, however this feature is deprecated in favour of using :c:func:`PyObject_DelAttr`."
+msgid "If *v* is ``NULL``, the attribute is deleted, however this feature is deprecated in favour of using :c:func:`PyObject_DelAttr`."
 msgstr ""
 
 #: ../../c-api/object.rst:95
-msgid "If *v* is *NULL*, the attribute is deleted, however this feature is deprecated in favour of using :c:func:`PyObject_DelAttrString`."
+msgid "If *v* is ``NULL``, the attribute is deleted, however this feature is deprecated in favour of using :c:func:`PyObject_DelAttrString`."
 msgstr ""
 
 #: ../../c-api/object.rst:101
@@ -88,7 +88,7 @@ msgid "A generic implementation for the setter of a ``__dict__`` descriptor. Thi
 msgstr ""
 
 #: ../../c-api/object.rst:141
-msgid "Compare the values of *o1* and *o2* using the operation specified by *opid*, which must be one of :const:`Py_LT`, :const:`Py_LE`, :const:`Py_EQ`, :const:`Py_NE`, :const:`Py_GT`, or :const:`Py_GE`, corresponding to ``<``, ``<=``, ``==``, ``!=``, ``>``, or ``>=`` respectively. This is the equivalent of the Python expression ``o1 op o2``, where ``op`` is the operator corresponding to *opid*. Returns the value of the comparison on success, or *NULL* on failure."
+msgid "Compare the values of *o1* and *o2* using the operation specified by *opid*, which must be one of :const:`Py_LT`, :const:`Py_LE`, :const:`Py_EQ`, :const:`Py_NE`, :const:`Py_GT`, or :const:`Py_GE`, corresponding to ``<``, ``<=``, ``==``, ``!=``, ``>``, or ``>=`` respectively. This is the equivalent of the Python expression ``o1 op o2``, where ``op`` is the operator corresponding to *opid*. Returns the value of the comparison on success, or ``NULL`` on failure."
 msgstr ""
 
 #: ../../c-api/object.rst:151
@@ -100,7 +100,7 @@ msgid "If *o1* and *o2* are the same object, :c:func:`PyObject_RichCompareBool` 
 msgstr ""
 
 #: ../../c-api/object.rst:167
-msgid "Compute a string representation of object *o*.  Returns the string representation on success, *NULL* on failure.  This is the equivalent of the Python expression ``repr(o)``.  Called by the :func:`repr` built-in function."
+msgid "Compute a string representation of object *o*.  Returns the string representation on success, ``NULL`` on failure.  This is the equivalent of the Python expression ``repr(o)``.  Called by the :func:`repr` built-in function."
 msgstr ""
 
 #: ../../c-api/object.rst:171
@@ -113,11 +113,11 @@ msgid "As :c:func:`PyObject_Repr`, compute a string representation of object *o*
 msgstr ""
 
 #: ../../c-api/object.rst:190
-msgid "Compute a string representation of object *o*.  Returns the string representation on success, *NULL* on failure.  This is the equivalent of the Python expression ``str(o)``.  Called by the :func:`str` built-in function and, therefore, by the :func:`print` function."
+msgid "Compute a string representation of object *o*.  Returns the string representation on success, ``NULL`` on failure.  This is the equivalent of the Python expression ``str(o)``.  Called by the :func:`str` built-in function and, therefore, by the :func:`print` function."
 msgstr ""
 
 #: ../../c-api/object.rst:203
-msgid "Compute a bytes representation of object *o*.  *NULL* is returned on failure and a bytes object on success.  This is equivalent to the Python expression ``bytes(o)``, when *o* is not an integer.  Unlike ``bytes(o)``, a TypeError is raised when *o* is an integer instead of a zero-initialized bytes object."
+msgid "Compute a bytes representation of object *o*.  ``NULL`` is returned on failure and a bytes object on success.  This is equivalent to the Python expression ``bytes(o)``, when *o* is not an integer.  Unlike ``bytes(o)``, a TypeError is raised when *o* is an integer instead of a zero-initialized bytes object."
 msgstr ""
 
 #: ../../c-api/object.rst:212
@@ -162,7 +162,7 @@ msgid "Call a callable Python object *callable*, with arguments given by the tup
 msgstr ""
 
 #: ../../c-api/object.rst:261
-msgid "*args* must not be *NULL*, use an empty tuple if no arguments are needed. If no named arguments are needed, *kwargs* can be *NULL*."
+msgid "*args* must not be ``NULL``, use an empty tuple if no arguments are needed. If no named arguments are needed, *kwargs* can be ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:264
@@ -171,7 +171,7 @@ msgstr ""
 #: ../../c-api/object.rst:308
 #: ../../c-api/object.rst:327
 #: ../../c-api/object.rst:341
-msgid "Return the result of the call on success, or raise an exception and return *NULL* on failure."
+msgid "Return the result of the call on success, or raise an exception and return ``NULL`` on failure."
 msgstr ""
 
 #: ../../c-api/object.rst:267
@@ -179,7 +179,7 @@ msgid "This is the equivalent of the Python expression: ``callable(*args, **kwar
 msgstr ""
 
 #: ../../c-api/object.rst:273
-msgid "Call a callable Python object *callable*, with arguments given by the tuple *args*.  If no arguments are needed, then *args* can be *NULL*."
+msgid "Call a callable Python object *callable*, with arguments given by the tuple *args*.  If no arguments are needed, then *args* can be ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:279
@@ -188,7 +188,7 @@ msgid "This is the equivalent of the Python expression: ``callable(*args)``."
 msgstr ""
 
 #: ../../c-api/object.rst:284
-msgid "Call a callable Python object *callable*, with a variable number of C arguments. The C arguments are described using a :c:func:`Py_BuildValue` style format string.  The format can be *NULL*, indicating that no arguments are provided."
+msgid "Call a callable Python object *callable*, with a variable number of C arguments. The C arguments are described using a :c:func:`Py_BuildValue` style format string.  The format can be ``NULL``, indicating that no arguments are provided."
 msgstr ""
 
 #: ../../c-api/object.rst:293
@@ -204,7 +204,7 @@ msgid "Call the method named *name* of object *obj* with a variable number of C 
 msgstr ""
 
 #: ../../c-api/object.rst:306
-msgid "The format can be *NULL*, indicating that no arguments are provided."
+msgid "The format can be ``NULL``, indicating that no arguments are provided."
 msgstr ""
 
 #: ../../c-api/object.rst:311
@@ -220,7 +220,7 @@ msgid "The types of *name* and *format* were changed from ``char *``."
 msgstr ""
 
 #: ../../c-api/object.rst:323
-msgid "Call a callable Python object *callable*, with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by *NULL*."
+msgid "Call a callable Python object *callable*, with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:330
@@ -228,7 +228,7 @@ msgid "This is the equivalent of the Python expression: ``callable(arg1, arg2, .
 msgstr ""
 
 #: ../../c-api/object.rst:336
-msgid "Calls a method of the Python object *obj*, where the name of the method is given as a Python string object in *name*.  It is called with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by *NULL*."
+msgid "Calls a method of the Python object *obj*, where the name of the method is given as a Python string object in *name*.  It is called with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:349
@@ -252,11 +252,11 @@ msgid "Returns ``0`` if the object *o* is considered to be true, and ``1`` other
 msgstr ""
 
 #: ../../c-api/object.rst:383
-msgid "When *o* is non-*NULL*, returns a type object corresponding to the object type of object *o*. On failure, raises :exc:`SystemError` and returns *NULL*.  This is equivalent to the Python expression ``type(o)``. This function increments the reference count of the return value. There's really no reason to use this function instead of the common expression ``o->ob_type``, which returns a pointer of type :c:type:`PyTypeObject\\*`, except when the incremented reference count is needed."
+msgid "When *o* is non-``NULL``, returns a type object corresponding to the object type of object *o*. On failure, raises :exc:`SystemError` and returns ``NULL``.  This is equivalent to the Python expression ``type(o)``. This function increments the reference count of the return value. There's really no reason to use this function instead of the common expression ``o->ob_type``, which returns a pointer of type :c:type:`PyTypeObject\\*`, except when the incremented reference count is needed."
 msgstr ""
 
 #: ../../c-api/object.rst:394
-msgid "Return true if the object *o* is of type *type* or a subtype of *type*.  Both parameters must be non-*NULL*."
+msgid "Return true if the object *o* is of type *type* or a subtype of *type*.  Both parameters must be non-``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:403
@@ -268,7 +268,7 @@ msgid "Return an estimated length for the object *o*. First try to return its ac
 msgstr ""
 
 #: ../../c-api/object.rst:420
-msgid "Return element of *o* corresponding to the object *key* or *NULL* on failure. This is the equivalent of the Python expression ``o[key]``."
+msgid "Return element of *o* corresponding to the object *key* or ``NULL`` on failure. This is the equivalent of the Python expression ``o[key]``."
 msgstr ""
 
 #: ../../c-api/object.rst:426
@@ -280,10 +280,10 @@ msgid "Remove the mapping for the object *key* from the object *o*.  Return ``-1
 msgstr ""
 
 #: ../../c-api/object.rst:439
-msgid "This is equivalent to the Python expression ``dir(o)``, returning a (possibly empty) list of strings appropriate for the object argument, or *NULL* if there was an error.  If the argument is *NULL*, this is like the Python ``dir()``, returning the names of the current locals; in this case, if no execution frame is active then *NULL* is returned but :c:func:`PyErr_Occurred` will return false."
+msgid "This is equivalent to the Python expression ``dir(o)``, returning a (possibly empty) list of strings appropriate for the object argument, or ``NULL`` if there was an error.  If the argument is ``NULL``, this is like the Python ``dir()``, returning the names of the current locals; in this case, if no execution frame is active then ``NULL`` is returned but :c:func:`PyErr_Occurred` will return false."
 msgstr ""
 
 #: ../../c-api/object.rst:448
-msgid "This is equivalent to the Python expression ``iter(o)``. It returns a new iterator for the object argument, or the object  itself if the object is already an iterator.  Raises :exc:`TypeError` and returns *NULL* if the object cannot be iterated."
+msgid "This is equivalent to the Python expression ``iter(o)``. It returns a new iterator for the object argument, or the object  itself if the object is already an iterator.  Raises :exc:`TypeError` and returns ``NULL`` if the object cannot be iterated."
 msgstr ""
 
