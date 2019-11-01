@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-11-01 11:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "This module defines classes which implement the client side of the HTTP a
 msgstr ""
 
 #: ../../library/http.client.rst:23
-msgid "The `Requests package <http://docs.python-requests.org/>`_ is recommended for a higher-level HTTP client interface."
+msgid "The `Requests package <https://requests.readthedocs.io/en/master/>`_ is recommended for a higher-level HTTP client interface."
 msgstr ""
 
 #: ../../library/http.client.rst:28
