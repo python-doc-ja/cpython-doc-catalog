@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-15 03:13+0000\n"
+"POT-Creation-Date: 2019-11-01 03:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "The :mod:`urllib.request` module defines functions and classes which help
 msgstr ""
 
 #: ../../library/urllib.request.rst:21
-msgid "The `Requests package <http://docs.python-requests.org/>`_ is recommended for a higher-level HTTP client interface."
+msgid "The `Requests package <https://requests.readthedocs.io/en/master/>`_ is recommended for a higher-level HTTP client interface."
 msgstr ""
 
 #: ../../library/urllib.request.rst:25
