@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 11:47+0000\n"
+"POT-Creation-Date: 2019-11-04 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1780,5 +1780,9 @@ msgstr ""
 
 #: ../../whatsnew/3.8.rst:2157
 msgid "Added a benchmark script for timing various ways to access variables: ``Tools/scripts/var_access_benchmark.py``. (Contributed by Raymond Hettinger in :issue:`35884`.)"
+msgstr ""
+
+#: ../../whatsnew/3.8.rst:2161
+msgid "Here's a summary of performance improvements since Python 3.3:"
 msgstr ""
 
