@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 03:30+0000\n"
+"POT-Creation-Date: 2019-11-06 03:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "to the shell. [#]_ Since the choice of the directory where the interprete
 msgstr ""
 
 #: ../../tutorial/interpreter.rst:26
-msgid "On Windows machines where you have installed from the :ref:`Microsoft Store <windows-store>`, the :file:`python3.7` command will be available. If you have the :ref:`py.exe launcher <launcher>` installed, you can use the :file:`py` command. See :ref:`setting-envvars` for other ways to launch Python."
+msgid "On Windows machines where you have installed Python from the :ref:`Microsoft Store <windows-store>`, the :file:`python3.7` command will be available. If you have the :ref:`py.exe launcher <launcher>` installed, you can use the :file:`py` command. See :ref:`setting-envvars` for other ways to launch Python."
 msgstr ""
 
 #: ../../tutorial/interpreter.rst:31
