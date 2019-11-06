@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:48+0000\n"
+"POT-Creation-Date: 2019-11-06 11:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,7 +352,15 @@ msgstr ""
 msgid "Only effective on modules created using single-phase initialization."
 msgstr ""
 
-#: ../../c-api/module.rst:492
-msgid "Removes the module object created from *def* from the interpreter state."
+#: ../../c-api/module.rst:488
+msgid "Python calls ``PyState_AddModule`` automatically after importing a module, so it is unnecessary (but harmless) to call it from module initialization code. An explicit call is needed only if the module's own init code subsequently calls ``PyState_FindModule``. The function is mainly intended for implementing alternative import mechanisms (either by calling it directly, or by referring to its implementation for details of the required state updates)."
+msgstr ""
+
+#: ../../c-api/module.rst:496
+msgid "Return 0 on success or -1 on failure."
+msgstr ""
+
+#: ../../c-api/module.rst:502
+msgid "Removes the module object created from *def* from the interpreter state. Return 0 on success or -1 on failure."
 msgstr ""
 
