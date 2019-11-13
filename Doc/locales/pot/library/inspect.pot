@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-11-13 11:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -544,47 +544,47 @@ msgid "The function is based directly on :mod:`importlib`."
 msgstr ""
 
 #: ../../library/inspect.rst:280
-msgid "Return true if the object is a module."
+msgid "Return ``True`` if the object is a module."
 msgstr ""
 
 #: ../../library/inspect.rst:285
-msgid "Return true if the object is a class, whether built-in or created in Python code."
+msgid "Return ``True`` if the object is a class, whether built-in or created in Python code."
 msgstr ""
 
 #: ../../library/inspect.rst:291
-msgid "Return true if the object is a bound method written in Python."
+msgid "Return ``True`` if the object is a bound method written in Python."
 msgstr ""
 
 #: ../../library/inspect.rst:296
-msgid "Return true if the object is a Python function, which includes functions created by a :term:`lambda` expression."
+msgid "Return ``True`` if the object is a Python function, which includes functions created by a :term:`lambda` expression."
 msgstr ""
 
 #: ../../library/inspect.rst:302
-msgid "Return true if the object is a Python generator function."
+msgid "Return ``True`` if the object is a Python generator function."
 msgstr ""
 
 #: ../../library/inspect.rst:304
-msgid "Functions wrapped in :func:`functools.partial` now return true if the wrapped function is a Python generator function."
+msgid "Functions wrapped in :func:`functools.partial` now return ``True`` if the wrapped function is a Python generator function."
 msgstr ""
 
 #: ../../library/inspect.rst:311
-msgid "Return true if the object is a generator."
+msgid "Return ``True`` if the object is a generator."
 msgstr ""
 
 #: ../../library/inspect.rst:316
-msgid "Return true if the object is a :term:`coroutine function` (a function defined with an :keyword:`async def` syntax)."
+msgid "Return ``True`` if the object is a :term:`coroutine function` (a function defined with an :keyword:`async def` syntax)."
 msgstr ""
 
 #: ../../library/inspect.rst:321
-msgid "Functions wrapped in :func:`functools.partial` now return true if the wrapped function is a :term:`coroutine function`."
+msgid "Functions wrapped in :func:`functools.partial` now return ``True`` if the wrapped function is a :term:`coroutine function`."
 msgstr ""
 
 #: ../../library/inspect.rst:328
-msgid "Return true if the object is a :term:`coroutine` created by an :keyword:`async def` function."
+msgid "Return ``True`` if the object is a :term:`coroutine` created by an :keyword:`async def` function."
 msgstr ""
 
 #: ../../library/inspect.rst:336
-msgid "Return true if the object can be used in :keyword:`await` expression."
+msgid "Return ``True`` if the object can be used in :keyword:`await` expression."
 msgstr ""
 
 #: ../../library/inspect.rst:338
@@ -592,43 +592,43 @@ msgid "Can also be used to distinguish generator-based coroutines from regular g
 msgstr ""
 
 #: ../../library/inspect.rst:355
-msgid "Return true if the object is an :term:`asynchronous generator` function, for example::"
+msgid "Return ``True`` if the object is an :term:`asynchronous generator` function, for example::"
 msgstr ""
 
 #: ../../library/inspect.rst:366
-msgid "Functions wrapped in :func:`functools.partial` now return true if the wrapped function is a :term:`asynchronous generator` function."
+msgid "Functions wrapped in :func:`functools.partial` now return ``True`` if the wrapped function is a :term:`asynchronous generator` function."
 msgstr ""
 
 #: ../../library/inspect.rst:373
-msgid "Return true if the object is an :term:`asynchronous generator iterator` created by an :term:`asynchronous generator` function."
+msgid "Return ``True`` if the object is an :term:`asynchronous generator iterator` created by an :term:`asynchronous generator` function."
 msgstr ""
 
 #: ../../library/inspect.rst:380
-msgid "Return true if the object is a traceback."
+msgid "Return ``True`` if the object is a traceback."
 msgstr ""
 
 #: ../../library/inspect.rst:385
-msgid "Return true if the object is a frame."
+msgid "Return ``True`` if the object is a frame."
 msgstr ""
 
 #: ../../library/inspect.rst:390
-msgid "Return true if the object is a code."
+msgid "Return ``True`` if the object is a code."
 msgstr ""
 
 #: ../../library/inspect.rst:395
-msgid "Return true if the object is a built-in function or a bound built-in method."
+msgid "Return ``True`` if the object is a built-in function or a bound built-in method."
 msgstr ""
 
 #: ../../library/inspect.rst:400
-msgid "Return true if the object is a user-defined or built-in function or method."
+msgid "Return ``True`` if the object is a user-defined or built-in function or method."
 msgstr ""
 
 #: ../../library/inspect.rst:405
-msgid "Return true if the object is an abstract base class."
+msgid "Return ``True`` if the object is an abstract base class."
 msgstr ""
 
 #: ../../library/inspect.rst:410
-msgid "Return true if the object is a method descriptor, but not if :func:`ismethod`, :func:`isclass`, :func:`isfunction` or :func:`isbuiltin` are true."
+msgid "Return ``True`` if the object is a method descriptor, but not if :func:`ismethod`, :func:`isclass`, :func:`isfunction` or :func:`isbuiltin` are true."
 msgstr ""
 
 #: ../../library/inspect.rst:414
@@ -636,11 +636,11 @@ msgid "This, for example, is true of ``int.__add__``.  An object passing this te
 msgstr ""
 
 #: ../../library/inspect.rst:420
-msgid "Methods implemented via descriptors that also pass one of the other tests return false from the :func:`ismethoddescriptor` test, simply because the other tests promise more -- you can, e.g., count on having the :attr:`__func__` attribute (etc) when an object passes :func:`ismethod`."
+msgid "Methods implemented via descriptors that also pass one of the other tests return ``False`` from the :func:`ismethoddescriptor` test, simply because the other tests promise more -- you can, e.g., count on having the :attr:`__func__` attribute (etc) when an object passes :func:`ismethod`."
 msgstr ""
 
 #: ../../library/inspect.rst:428
-msgid "Return true if the object is a data descriptor."
+msgid "Return ``True`` if the object is a data descriptor."
 msgstr ""
 
 #: ../../library/inspect.rst:430
@@ -648,7 +648,7 @@ msgid "Data descriptors have both a :attr:`~object.__get__` and a :attr:`~object
 msgstr ""
 
 #: ../../library/inspect.rst:441
-msgid "Return true if the object is a getset descriptor."
+msgid "Return ``True`` if the object is a getset descriptor."
 msgstr ""
 
 #: ../../library/inspect.rst:445
@@ -656,7 +656,7 @@ msgid "getsets are attributes defined in extension modules via :c:type:`PyGetSet
 msgstr ""
 
 #: ../../library/inspect.rst:452
-msgid "Return true if the object is a member descriptor."
+msgid "Return ``True`` if the object is a member descriptor."
 msgstr ""
 
 #: ../../library/inspect.rst:456

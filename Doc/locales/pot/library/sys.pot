@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-27 11:47+0000\n"
+"POT-Creation-Date: 2019-11-13 11:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1367,7 +1367,7 @@ msgid "The character encoding is platform-dependent.  Non-Windows platforms use 
 msgstr ""
 
 #: ../../library/sys.rst:1437
-msgid "On Windows, UTF-8 is used for the console device.  Non-character devices such as disk files and pipes use the system locale encoding (i.e. the ANSI codepage).  Non-console character devices such as NUL (i.e. where isatty() returns True) use the value of the console input and output codepages at startup, respectively for stdin and stdout/stderr. This defaults to the system locale encoding if the process is not initially attached to a console."
+msgid "On Windows, UTF-8 is used for the console device.  Non-character devices such as disk files and pipes use the system locale encoding (i.e. the ANSI codepage).  Non-console character devices such as NUL (i.e. where ``isatty()`` returns ``True``) use the value of the console input and output codepages at startup, respectively for stdin and stdout/stderr. This defaults to the system locale encoding if the process is not initially attached to a console."
 msgstr ""
 
 #: ../../library/sys.rst:1446

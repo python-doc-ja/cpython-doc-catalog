@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-12 11:28+0000\n"
+"POT-Creation-Date: 2019-11-13 11:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -423,7 +423,7 @@ msgid "Parses an XML document from a sequence of string fragments.  *sequence* i
 msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:577
-msgid "Checks if an object appears to be a valid element object.  *element* is an element instance.  Returns a true value if this is an element object."
+msgid "Check if an object appears to be a valid element object.  *element* is an element instance.  Return ``True`` if this is an element object."
 msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:583
