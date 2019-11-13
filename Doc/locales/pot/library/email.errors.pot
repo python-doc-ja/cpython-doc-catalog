@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgid "This defect has not been used for several Python versions."
 msgstr ""
 
 #: ../../library/email.errors.rst:99
-msgid ":class:`MultipartInvariantViolationDefect` -- A message claimed to be a :mimetype:`multipart`, but no subparts were found.  Note that when a message has this defect, its :meth:`~email.message.Message.is_multipart` method may return false even though its content type claims to be :mimetype:`multipart`."
+msgid ":class:`MultipartInvariantViolationDefect` -- A message claimed to be a :mimetype:`multipart`, but no subparts were found.  Note that when a message has this defect, its :meth:`~email.message.Message.is_multipart` method may return ``False`` even though its content type claims to be :mimetype:`multipart`."
 msgstr ""
 
 #: ../../library/email.errors.rst:104

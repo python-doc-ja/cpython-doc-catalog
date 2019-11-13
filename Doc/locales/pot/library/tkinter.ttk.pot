@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1051,7 +1051,7 @@ msgid "open"
 msgstr ""
 
 #: ../../library/tkinter.ttk.rst:874
-msgid "True/False value indicating whether the item's children should be displayed or hidden."
+msgid "``True``/``False`` value indicating whether the item's children should be displayed or hidden."
 msgstr ""
 
 #: ../../library/tkinter.ttk.rst:877
@@ -1232,7 +1232,7 @@ msgid "The minimum width of the column in pixels. The treeview widget will not m
 msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1001
-msgid "stretch: True/False"
+msgid "stretch: ``True``/``False``"
 msgstr ""
 
 #: ../../library/tkinter.ttk.rst:1001

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 03:41+0000\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,7 +237,7 @@ msgid "Removes the specified filter *filter* from this logger."
 msgstr ""
 
 #: ../../library/logging.rst:286
-msgid "Applies this logger's filters to the record and returns a true value if the record is to be processed. The filters are consulted in turn, until one of them returns a false value. If none of them return a false value, the record will be processed (passed to handlers). If one returns a false value, no further processing of the record occurs."
+msgid "Apply this logger's filters to the record and return ``True`` if the record is to be processed. The filters are consulted in turn, until one of them returns a false value. If none of them return a false value, the record will be processed (passed to handlers). If one returns a false value, no further processing of the record occurs."
 msgstr ""
 
 #: ../../library/logging.rst:295
@@ -377,7 +377,7 @@ msgid "Removes the specified filter *filter* from this handler."
 msgstr ""
 
 #: ../../library/logging.rst:432
-msgid "Applies this handler's filters to the record and returns a true value if the record is to be processed. The filters are consulted in turn, until one of them returns a false value. If none of them return a false value, the record will be emitted. If one returns a false value, the handler will not emit the record."
+msgid "Apply this handler's filters to the record and return ``True`` if the record is to be processed. The filters are consulted in turn, until one of them returns a false value. If none of them return a false value, the record will be emitted. If one returns a false value, the handler will not emit the record."
 msgstr ""
 
 #: ../../library/logging.rst:441

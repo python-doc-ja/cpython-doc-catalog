@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -277,7 +277,7 @@ msgid "The :class:`DOMImplementation` interface provides a way for applications 
 msgstr ""
 
 #: ../../library/xml.dom.rst:213
-msgid "Return true if the feature identified by the pair of strings *feature* and *version* is implemented."
+msgid "Return ``True`` if the feature identified by the pair of strings *feature* and *version* is implemented."
 msgstr ""
 
 #: ../../library/xml.dom.rst:219
@@ -349,15 +349,15 @@ msgid "This has a different meaning for each node type; see the DOM specificatio
 msgstr ""
 
 #: ../../library/xml.dom.rst:338
-msgid "Returns true if the node has any attributes."
+msgid "Return ``True`` if the node has any attributes."
 msgstr ""
 
 #: ../../library/xml.dom.rst:343
-msgid "Returns true if the node has any child nodes."
+msgid "Return ``True`` if the node has any child nodes."
 msgstr ""
 
 #: ../../library/xml.dom.rst:348
-msgid "Returns true if *other* refers to the same node as this node. This is especially useful for DOM implementations which use any sort of proxy architecture (because more than one object can refer to the same node)."
+msgid "Return ``True`` if *other* refers to the same node as this node. This is especially useful for DOM implementations which use any sort of proxy architecture (because more than one object can refer to the same node)."
 msgstr ""
 
 #: ../../library/xml.dom.rst:354
@@ -518,11 +518,11 @@ msgid "Same as equivalent method in the :class:`Document` class."
 msgstr ""
 
 #: ../../library/xml.dom.rst:607
-msgid "Returns true if the element has an attribute named by *name*."
+msgid "Return ``True`` if the element has an attribute named by *name*."
 msgstr ""
 
 #: ../../library/xml.dom.rst:612
-msgid "Returns true if the element has an attribute named by *namespaceURI* and *localName*."
+msgid "Return ``True`` if the element has an attribute named by *namespaceURI* and *localName*."
 msgstr ""
 
 #: ../../library/xml.dom.rst:618

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 11:16+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -481,7 +481,7 @@ msgid "Cached bytecode invalidation"
 msgstr ""
 
 #: ../../reference/import.rst:682
-msgid "Before Python loads cached bytecode from ``.pyc`` file, it checks whether the cache is up-to-date with the source ``.py`` file. By default, Python does this by storing the source's last-modified timestamp and size in the cache file when writing it. At runtime, the import system then validates the cache file by checking the stored metadata in the cache file against at source's metadata."
+msgid "Before Python loads cached bytecode from ``.pyc`` file, it checks whether the cache is up-to-date with the source ``.py`` file. By default, Python does this by storing the source's last-modified timestamp and size in the cache file when writing it. At runtime, the import system then validates the cache file by checking the stored metadata in the cache file against the source's metadata."
 msgstr ""
 
 #: ../../reference/import.rst:689
@@ -577,7 +577,7 @@ msgid "In order to support imports of modules and initialized packages and also 
 msgstr ""
 
 #: ../../reference/import.rst:853
-msgid ":meth:`~importlib.abc.PathEntryFinder.find_spec` takes two argument, the fully qualified name of the module being imported, and the (optional) target module.  ``find_spec()`` returns a fully populated spec for the module. This spec will always have \"loader\" set (with one exception)."
+msgid ":meth:`~importlib.abc.PathEntryFinder.find_spec` takes two arguments: the fully qualified name of the module being imported, and the (optional) target module.  ``find_spec()`` returns a fully populated spec for the module. This spec will always have \"loader\" set (with one exception)."
 msgstr ""
 
 #: ../../reference/import.rst:858
@@ -621,7 +621,7 @@ msgid "If it is acceptable to only alter the behaviour of import statements with
 msgstr ""
 
 #: ../../reference/import.rst:917
-msgid "To selectively prevent import of some modules from a hook early on the meta path (rather than disabling the standard import system entirely), it is sufficient to raise :exc:`ModuleNotFoundError` directly from :meth:`~importlib.abc.MetaPathFinder.find_spec` instead of returning ``None``. The latter indicates that the meta path search should continue, while raising an exception terminates it immediately."
+msgid "To selectively prevent the import of some modules from a hook early on the meta path (rather than disabling the standard import system entirely), it is sufficient to raise :exc:`ModuleNotFoundError` directly from :meth:`~importlib.abc.MetaPathFinder.find_spec` instead of returning ``None``. The latter indicates that the meta path search should continue, while raising an exception terminates it immediately."
 msgstr ""
 
 #: ../../reference/import.rst:927

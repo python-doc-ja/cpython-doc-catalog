@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-24 11:15+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,15 +377,15 @@ msgid "When invoked without arguments: if this thread already owns the lock, inc
 msgstr ""
 
 #: ../../library/threading.rst:467
-msgid "When invoked with the *blocking* argument set to true, do the same thing as when called without arguments, and return true."
+msgid "When invoked with the *blocking* argument set to true, do the same thing as when called without arguments, and return ``True``."
 msgstr ""
 
 #: ../../library/threading.rst:470
-msgid "When invoked with the *blocking* argument set to false, do not block.  If a call without an argument would block, return false immediately; otherwise, do the same thing as when called without arguments, and return true."
+msgid "When invoked with the *blocking* argument set to false, do not block.  If a call without an argument would block, return ``False`` immediately; otherwise, do the same thing as when called without arguments, and return ``True``."
 msgstr ""
 
 #: ../../library/threading.rst:474
-msgid "When invoked with the floating-point *timeout* argument set to a positive value, block for at most the number of seconds specified by *timeout* and as long as the lock cannot be acquired.  Return true if the lock has been acquired, false if the timeout has elapsed."
+msgid "When invoked with the floating-point *timeout* argument set to a positive value, block for at most the number of seconds specified by *timeout* and as long as the lock cannot be acquired.  Return ``True`` if the lock has been acquired, false if the timeout has elapsed."
 msgstr ""
 
 #: ../../library/threading.rst:485
@@ -550,19 +550,19 @@ msgid "When invoked without arguments:"
 msgstr ""
 
 #: ../../library/threading.rst:708
-msgid "If the internal counter is larger than zero on entry, decrement it by one and return true immediately."
+msgid "If the internal counter is larger than zero on entry, decrement it by one and return ``True`` immediately."
 msgstr ""
 
 #: ../../library/threading.rst:710
-msgid "If the internal counter is zero on entry, block until awoken by a call to :meth:`~Semaphore.release`.  Once awoken (and the counter is greater than 0), decrement the counter by 1 and return true.  Exactly one thread will be awoken by each call to :meth:`~Semaphore.release`.  The order in which threads are awoken should not be relied on."
+msgid "If the internal counter is zero on entry, block until awoken by a call to :meth:`~Semaphore.release`.  Once awoken (and the counter is greater than 0), decrement the counter by 1 and return ``True``.  Exactly one thread will be awoken by each call to :meth:`~Semaphore.release`.  The order in which threads are awoken should not be relied on."
 msgstr ""
 
 #: ../../library/threading.rst:716
-msgid "When invoked with *blocking* set to false, do not block.  If a call without an argument would block, return false immediately; otherwise, do the same thing as when called without arguments, and return true."
+msgid "When invoked with *blocking* set to false, do not block.  If a call without an argument would block, return ``False`` immediately; otherwise, do the same thing as when called without arguments, and return ``True``."
 msgstr ""
 
 #: ../../library/threading.rst:720
-msgid "When invoked with a *timeout* other than ``None``, it will block for at most *timeout* seconds.  If acquire does not complete successfully in that interval, return false.  Return true otherwise."
+msgid "When invoked with a *timeout* other than ``None``, it will block for at most *timeout* seconds.  If acquire does not complete successfully in that interval, return ``False``.  Return ``True`` otherwise."
 msgstr ""
 
 #: ../../library/threading.rst:729
@@ -606,7 +606,7 @@ msgid "Class implementing event objects.  An event manages a flag that can be se
 msgstr ""
 
 #: ../../library/threading.rst:799
-msgid "Return true if and only if the internal flag is true."
+msgid "Return ``True`` if and only if the internal flag is true."
 msgstr ""
 
 #: ../../library/threading.rst:803
@@ -626,7 +626,7 @@ msgid "When the timeout argument is present and not ``None``, it should be a flo
 msgstr ""
 
 #: ../../library/threading.rst:823
-msgid "This method returns true if and only if the internal flag has been set to true, either before the wait call or after the wait starts, so it will always return ``True`` except if a timeout is given and the operation times out."
+msgid "This method returns ``True`` if and only if the internal flag has been set to true, either before the wait call or after the wait starts, so it will always return ``True`` except if a timeout is given and the operation times out."
 msgstr ""
 
 #: ../../library/threading.rst:835

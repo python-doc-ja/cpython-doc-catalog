@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-29 11:32+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgid "Remove the event from the queue. If *event* is not an event currently in 
 msgstr ""
 
 #: ../../library/sched.rst:107
-msgid "Return true if the event queue is empty."
+msgid "Return ``True`` if the event queue is empty."
 msgstr ""
 
 #: ../../library/sched.rst:112

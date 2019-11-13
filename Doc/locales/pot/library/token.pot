@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,15 +37,15 @@ msgid "Dictionary mapping the numeric values of the constants defined in this mo
 msgstr ""
 
 #: ../../library/token.rst:32
-msgid "Return true for terminal token values."
+msgid "Return ``True`` for terminal token values."
 msgstr ""
 
 #: ../../library/token.rst:37
-msgid "Return true for non-terminal token values."
+msgid "Return ``True`` for non-terminal token values."
 msgstr ""
 
 #: ../../library/token.rst:42
-msgid "Return true if *x* is the marker indicating the end of input."
+msgid "Return ``True`` if *x* is the marker indicating the end of input."
 msgstr ""
 
 #: ../../library/token.rst:45

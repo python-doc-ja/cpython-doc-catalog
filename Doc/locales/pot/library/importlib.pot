@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 01:07+0000\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -965,7 +965,7 @@ msgid "The path to the source file."
 msgstr ""
 
 #: ../../library/importlib.rst:1171
-msgid "Return true if :attr:`path` appears to be for a package."
+msgid "Return ``True`` if :attr:`path` appears to be for a package."
 msgstr ""
 
 #: ../../library/importlib.rst:1175

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 11:09+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1030,7 +1030,7 @@ msgid "OutputChecker objects"
 msgstr ""
 
 #: ../../library/doctest.rst:1532
-msgid "A class used to check the whether the actual output from a doctest example matches the expected output.  :class:`OutputChecker` defines two methods: :meth:`check_output`, which compares a given pair of outputs, and returns true if they match; and :meth:`output_difference`, which returns a string describing the differences between two outputs."
+msgid "A class used to check the whether the actual output from a doctest example matches the expected output.  :class:`OutputChecker` defines two methods: :meth:`check_output`, which compares a given pair of outputs, and returns ``True`` if they match; and :meth:`output_difference`, which returns a string describing the differences between two outputs."
 msgstr ""
 
 #: ../../library/doctest.rst:1539

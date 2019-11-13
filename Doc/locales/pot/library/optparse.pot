@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -746,7 +746,7 @@ msgid "``\"store_true\"``"
 msgstr ""
 
 #: ../../library/optparse.rst:931
-msgid "store a true value"
+msgid "store ``True``"
 msgstr ""
 
 #: ../../library/optparse.rst:934
@@ -754,7 +754,7 @@ msgid "``\"store_false\"``"
 msgstr ""
 
 #: ../../library/optparse.rst:934
-msgid "store a false value"
+msgid "store ``False``"
 msgstr ""
 
 #: ../../library/optparse.rst:940
@@ -937,7 +937,7 @@ msgid "``\"store_true\"`` [relevant: :attr:`~Option.dest`]"
 msgstr ""
 
 #: ../../library/optparse.rst:1138
-msgid "A special case of ``\"store_const\"`` that stores a true value to :attr:`~Option.dest`."
+msgid "A special case of ``\"store_const\"`` that stores ``True`` to :attr:`~Option.dest`."
 msgstr ""
 
 #: ../../library/optparse.rst:1141
@@ -945,7 +945,7 @@ msgid "``\"store_false\"`` [relevant: :attr:`~Option.dest`]"
 msgstr ""
 
 #: ../../library/optparse.rst:1143
-msgid "Like ``\"store_true\"``, but stores a false value."
+msgid "Like ``\"store_true\"``, but stores ``False``."
 msgstr ""
 
 #: ../../library/optparse.rst:1150
@@ -1167,7 +1167,7 @@ msgid "Returns the Option instance with the option string *opt_str*, or ``None``
 msgstr ""
 
 #: ../../library/optparse.rst:1399
-msgid "Return true if the OptionParser has an option with option string *opt_str* (e.g., ``-q`` or ``--verbose``)."
+msgid "Return ``True`` if the OptionParser has an option with option string *opt_str* (e.g., ``-q`` or ``--verbose``)."
 msgstr ""
 
 #: ../../library/optparse.rst:1404

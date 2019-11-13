@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 03:30+0000\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1223,7 +1223,7 @@ msgid "Specify which protocols the socket should advertise during the SSL/TLS ha
 msgstr ""
 
 #: ../../library/ssl.rst:1651
-msgid "This method will raise :exc:`NotImplementedError` if :data:`HAS_ALPN` is False."
+msgid "This method will raise :exc:`NotImplementedError` if :data:`HAS_ALPN` is ``False``."
 msgstr ""
 
 #: ../../library/ssl.rst:1654
@@ -1235,7 +1235,7 @@ msgid "Specify which protocols the socket should advertise during the SSL/TLS ha
 msgstr ""
 
 #: ../../library/ssl.rst:1670
-msgid "This method will raise :exc:`NotImplementedError` if :data:`HAS_NPN` is False."
+msgid "This method will raise :exc:`NotImplementedError` if :data:`HAS_NPN` is ``False``."
 msgstr ""
 
 #: ../../library/ssl.rst:1677

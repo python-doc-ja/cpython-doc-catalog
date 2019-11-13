@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 10:14+0900\n"
+"POT-Creation-Date: 2019-11-13 04:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgid "Return the total number of headers, including duplicates."
 msgstr ""
 
 #: ../../library/email.message.rst:181
-msgid "Return true if the message object has a field named *name*. Matching is done without regard to case and *name* does not include the trailing colon.  Used for the ``in`` operator.  For example::"
+msgid "Return ``True`` if the message object has a field named *name*. Matching is done without regard to case and *name* does not include the trailing colon.  Used for the ``in`` operator.  For example::"
 msgstr ""
 
 #: ../../library/email.message.rst:191
