@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 03:30+0000\n"
+"POT-Creation-Date: 2019-11-16 04:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,7 +387,7 @@ msgid "Enable :ref:`asyncio debug mode <asyncio-debug-mode>`."
 msgstr ""
 
 #: ../../using/cmdline.rst:451
-msgid "Set the :attr:`~sys.flags.dev_mode` attribute of :attr:`sys.flags` to ``True``"
+msgid "Set the :attr:`~sys.flags.dev_mode` attribute of :attr:`sys.flags` to ``True``."
 msgstr ""
 
 #: ../../using/cmdline.rst:454
@@ -591,11 +591,11 @@ msgid "``debug``: install debug hooks on top of the :ref:`default memory allocat
 msgstr ""
 
 #: ../../using/cmdline.rst:748
-msgid "``malloc_debug``: same as ``malloc`` but also install debug hooks"
+msgid "``malloc_debug``: same as ``malloc`` but also install debug hooks."
 msgstr ""
 
 #: ../../using/cmdline.rst:749
-msgid "``pymalloc_debug``: same as ``pymalloc`` but also install debug hooks"
+msgid "``pymalloc_debug``: same as ``pymalloc`` but also install debug hooks."
 msgstr ""
 
 #: ../../using/cmdline.rst:751
