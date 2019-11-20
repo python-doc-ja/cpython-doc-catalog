@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-25 10:57+0900\n"
+"POT-Creation-Date: 2019-11-20 04:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -491,7 +491,7 @@ msgid "*string* may be either a :class:`str` or a :class:`bytes`."
 msgstr ""
 
 #: ../../library/urllib.parse.rst:521
-msgid "Moved from :rfc:`2396` to :rfc:`3986` for quoting URL strings. \"~\" is now included in the set of reserved characters."
+msgid "Moved from :rfc:`2396` to :rfc:`3986` for quoting URL strings. \"~\" is now included in the set of unreserved characters."
 msgstr ""
 
 #: ../../library/urllib.parse.rst:525
