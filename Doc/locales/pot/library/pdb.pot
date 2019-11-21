@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-31 10:32+0900\n"
+"POT-Creation-Date: 2019-11-21 04:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,10 +377,14 @@ msgid "Quit from the debugger.  The program being executed is aborted."
 msgstr ""
 
 #: ../../library/pdb.rst:534
+msgid "Enter a recursive debugger that steps through the code argument (which is an arbitrary expression or statement to be executed in the current environment)."
+msgstr ""
+
+#: ../../library/pdb.rst:542
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/pdb.rst:535
+#: ../../library/pdb.rst:543
 msgid "Whether a frame is considered to originate in a certain module is determined by the ``__name__`` in the frame globals."
 msgstr ""
 
