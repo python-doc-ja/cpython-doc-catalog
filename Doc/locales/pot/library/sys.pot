@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 11:56+0000\n"
+"POT-Creation-Date: 2019-11-27 12:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Default flags became an empty string (``m`` flag for pymalloc has been re
 msgstr ""
 
 #: ../../library/sys.rst:28
-msgid "Adds the callable *hook* to the collection of active auditing hooks for the current interpreter."
+msgid "Append the callable *hook* to the list of active auditing hooks for the current interpreter."
 msgstr ""
 
 #: ../../library/sys.rst:31
@@ -45,7 +45,7 @@ msgid "Raises an :ref:`auditing event <auditing>` ``sys.addaudithook`` with no a
 msgstr ""
 
 #: ../../library/sys.rst:38
-msgid "Raises a auditing event ``sys.addaudithook`` with no arguments. If any existing hooks raise an exception derived from :class:`Exception`, the new hook will not be added and the exception suppressed. As a result, callers cannot assume that their hook has been added unless they control all existing hooks."
+msgid "Raise an auditing event ``sys.addaudithook`` with no arguments. If any existing hooks raise an exception derived from :class:`Exception`, the new hook will not be added and the exception suppressed. As a result, callers cannot assume that their hook has been added unless they control all existing hooks."
 msgstr ""
 
 #: ../../library/sys.rst:48
@@ -65,7 +65,7 @@ msgid "On Unix, command line arguments are passed by bytes from OS.  Python deco
 msgstr ""
 
 #: ../../library/sys.rst:77
-msgid "Raises an auditing event with any active hooks. The event name is a string identifying the event and its associated schema, which is the number and types of arguments. The schema for a given event is considered public and stable API and should not be modified between releases."
+msgid "Raise an auditing event with any active hooks. The event name is a string identifying the event and its associated schema, which is the number and types of arguments. The schema for a given event is considered public and stable API and should not be modified between releases."
 msgstr ""
 
 #: ../../library/sys.rst:82
