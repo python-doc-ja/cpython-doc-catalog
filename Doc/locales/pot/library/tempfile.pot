@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 00:37+0000\n"
+"POT-Creation-Date: 2019-11-28 12:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "The resulting file has one additional method, :func:`rollover`, which cau
 msgstr ""
 
 #: ../../library/tempfile.rst:107
-msgid "The returned object is a file-like object whose :attr:`_file` attribute is either an :class:`io.BytesIO` or :class:`io.StringIO` object (depending on whether binary or text *mode* was specified) or a true file object, depending on whether :func:`rollover` has been called.  This file-like object can be used in a :keyword:`with` statement, just like a normal file."
+msgid "The returned object is a file-like object whose :attr:`_file` attribute is either an :class:`io.BytesIO` or :class:`io.TextIOWrapper` object (depending on whether binary or text *mode* was specified) or a true file object, depending on whether :func:`rollover` has been called.  This file-like object can be used in a :keyword:`with` statement, just like a normal file."
 msgstr ""
 
 #: ../../library/tempfile.rst:114
