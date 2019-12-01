@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 11:25+0000\n"
+"POT-Creation-Date: 2019-12-01 12:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -901,7 +901,7 @@ msgid "This is like :meth:`now`, but returns the current UTC date and time, as a
 msgstr ""
 
 #: ../../library/datetime.rst:881
-msgid "Because naive ``datetime`` objects are treated by many ``datetime`` methods as local times, it is preferred to use aware datetimes to represent times in UTC. As such, the recommended way to create an object representing the current time in UTC  by calling ``datetime.now(timezone.utc)``."
+msgid "Because naive ``datetime`` objects are treated by many ``datetime`` methods as local times, it is preferred to use aware datetimes to represent times in UTC. As such, the recommended way to create an object representing the current time in UTC is by calling ``datetime.now(timezone.utc)``."
 msgstr ""
 
 #: ../../library/datetime.rst:889
@@ -945,7 +945,7 @@ msgid "except the latter formula always supports the full years range: between :
 msgstr ""
 
 #: ../../library/datetime.rst:942
-msgid "Because naive ``datetime`` objects are treated by many ``datetime`` methods as local times, it is preferred to use aware datetimes to represent times in UTC. As such, the recommended way to create an object representing a specific timestamp in UTC  by calling ``datetime.fromtimestamp(timestamp, tz=timezone.utc)``."
+msgid "Because naive ``datetime`` objects are treated by many ``datetime`` methods as local times, it is preferred to use aware datetimes to represent times in UTC. As such, the recommended way to create an object representing a specific timestamp in UTC is by calling ``datetime.fromtimestamp(timestamp, tz=timezone.utc)``."
 msgstr ""
 
 #: ../../library/datetime.rst:948
