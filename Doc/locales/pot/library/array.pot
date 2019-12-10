@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-23 03:16+0000\n"
+"POT-Creation-Date: 2019-12-10 04:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -288,79 +288,79 @@ msgstr ""
 msgid "Deprecated alias for :meth:`frombytes`."
 msgstr ""
 
-#: ../../library/array.rst:178
+#: ../../library/array.rst:180
 msgid "Extends this array with data from the given unicode string.  The array must be a type ``'u'`` array; otherwise a :exc:`ValueError` is raised.  Use ``array.frombytes(unicodestring.encode(enc))`` to append Unicode data to an array of some other type."
 msgstr ""
 
-#: ../../library/array.rst:186
+#: ../../library/array.rst:188
 msgid "Return the smallest *i* such that *i* is the index of the first occurrence of *x* in the array."
 msgstr ""
 
-#: ../../library/array.rst:192
+#: ../../library/array.rst:194
 msgid "Insert a new item with value *x* in the array before position *i*. Negative values are treated as being relative to the end of the array."
 msgstr ""
 
-#: ../../library/array.rst:198
+#: ../../library/array.rst:200
 msgid "Removes the item with the index *i* from the array and returns it. The optional argument defaults to ``-1``, so that by default the last item is removed and returned."
 msgstr ""
 
-#: ../../library/array.rst:205
+#: ../../library/array.rst:207
 msgid "Remove the first occurrence of *x* from the array."
 msgstr ""
 
-#: ../../library/array.rst:210
+#: ../../library/array.rst:212
 msgid "Reverse the order of the items in the array."
 msgstr ""
 
-#: ../../library/array.rst:215
+#: ../../library/array.rst:217
 msgid "Convert the array to an array of machine values and return the bytes representation (the same sequence of bytes that would be written to a file by the :meth:`tofile` method.)"
 msgstr ""
 
-#: ../../library/array.rst:219
+#: ../../library/array.rst:221
 msgid ":meth:`tostring` is renamed to :meth:`tobytes` for clarity."
 msgstr ""
 
-#: ../../library/array.rst:225
+#: ../../library/array.rst:227
 msgid "Write all items (as machine values) to the :term:`file object` *f*."
 msgstr ""
 
-#: ../../library/array.rst:230
+#: ../../library/array.rst:232
 msgid "Convert the array to an ordinary list with the same items."
 msgstr ""
 
-#: ../../library/array.rst:235
+#: ../../library/array.rst:237
 msgid "Deprecated alias for :meth:`tobytes`."
 msgstr ""
 
-#: ../../library/array.rst:240
+#: ../../library/array.rst:244
 msgid "Convert the array to a unicode string.  The array must be a type ``'u'`` array; otherwise a :exc:`ValueError` is raised. Use ``array.tobytes().decode(enc)`` to obtain a unicode string from an array of some other type."
 msgstr ""
 
-#: ../../library/array.rst:245
+#: ../../library/array.rst:249
 msgid "When an array object is printed or converted to a string, it is represented as ``array(typecode, initializer)``.  The *initializer* is omitted if the array is empty, otherwise it is a string if the *typecode* is ``'u'``, otherwise it is a list of numbers.  The string is guaranteed to be able to be converted back to an array with the same type and value using :func:`eval`, so long as the :class:`~array.array` class has been imported using ``from array import array``. Examples::"
 msgstr ""
 
-#: ../../library/array.rst:262
+#: ../../library/array.rst:266
 msgid "Module :mod:`struct`"
 msgstr ""
 
-#: ../../library/array.rst:262
+#: ../../library/array.rst:266
 msgid "Packing and unpacking of heterogeneous binary data."
 msgstr ""
 
-#: ../../library/array.rst:266
+#: ../../library/array.rst:270
 msgid "Module :mod:`xdrlib`"
 msgstr ""
 
-#: ../../library/array.rst:265
+#: ../../library/array.rst:269
 msgid "Packing and unpacking of External Data Representation (XDR) data as used in some remote procedure call systems."
 msgstr ""
 
-#: ../../library/array.rst:269
+#: ../../library/array.rst:273
 msgid "`The Numerical Python Documentation <https://docs.scipy.org/doc/>`_"
 msgstr ""
 
-#: ../../library/array.rst:269
+#: ../../library/array.rst:273
 msgid "The Numeric Python extension (NumPy) defines another array type; see http://www.numpy.org/ for further information about Numerical Python."
 msgstr ""
 
