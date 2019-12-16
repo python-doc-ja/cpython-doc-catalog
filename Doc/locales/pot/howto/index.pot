@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-01 14:24+0000\n"
+"POT-Creation-Date: 2019-12-16 12:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../howto/index.rst:3
+#: /home/travis/build/python/cpython-doc-catalog/Doc/howto/index.rst:3
 msgid "Python HOWTOs"
 msgstr ""
 
-#: ../../howto/index.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/howto/index.rst:5
 msgid "Python HOWTOs are documents that cover a single, specific topic, and attempt to cover it fairly completely. Modelled on the Linux Documentation Project's HOWTO collection, this collection is an effort to foster documentation that's more detailed than the Python Library Reference."
 msgstr ""
 
-#: ../../howto/index.rst:11
+#: /home/travis/build/python/cpython-doc-catalog/Doc/howto/index.rst:11
 msgid "Currently, the HOWTOs are:"
 msgstr ""
-
