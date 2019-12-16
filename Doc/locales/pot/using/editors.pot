@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 02:58+0000\n"
+"POT-Creation-Date: 2019-12-16 04:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../using/editors.rst:7
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/editors.rst:7
 msgid "Editors and IDEs"
 msgstr ""
 
-#: ../../using/editors.rst:9
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/editors.rst:9
 msgid "There are a number of IDEs that support Python programming language. Many editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` checks."
 msgstr ""
 
-#: ../../using/editors.rst:12
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/editors.rst:12
 msgid "Please go to `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ and `Integrated Development Environments <https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive list."
 msgstr ""
-
