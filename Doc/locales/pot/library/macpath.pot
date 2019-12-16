@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../library/macpath.rst:3
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/macpath.rst:3
 msgid ":mod:`macpath` --- Mac OS 9 path manipulation functions"
 msgstr ""
 
-#: ../../library/macpath.rst:9
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/macpath.rst:9
 msgid "This module is the Mac OS 9 (and earlier) implementation of the :mod:`os.path` module. It can be used to manipulate old-style Macintosh pathnames on Mac OS X (or any other platform)."
 msgstr ""
 
-#: ../../library/macpath.rst:13
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/macpath.rst:13
 msgid "The following functions are available in this module: :func:`normcase`, :func:`normpath`, :func:`isabs`, :func:`join`, :func:`split`, :func:`isdir`, :func:`isfile`, :func:`walk`, :func:`exists`. For other functions available in :mod:`os.path` dummy counterparts are available."
 msgstr ""
-

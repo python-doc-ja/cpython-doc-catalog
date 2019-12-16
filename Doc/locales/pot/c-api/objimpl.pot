@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../c-api/objimpl.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/objimpl.rst:8
 msgid "Object Implementation Support"
 msgstr ""
 
-#: ../../c-api/objimpl.rst:10
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/objimpl.rst:10
 msgid "This chapter describes the functions, types, and macros used when defining new object types."
 msgstr ""
-

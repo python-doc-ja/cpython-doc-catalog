@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../distutils/commandref.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:5
 msgid "Command Reference"
 msgstr ""
 
-#: ../../distutils/commandref.rst:22
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:22
 msgid "Installing modules: the :command:`install` command family"
 msgstr ""
 
-#: ../../distutils/commandref.rst:24
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:24
 msgid "The install command ensures that the build commands have been run and then runs the subcommands :command:`install_lib`, :command:`install_data` and :command:`install_scripts`."
 msgstr ""
 
-#: ../../distutils/commandref.rst:35
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:35
 msgid ":command:`install_data`"
 msgstr ""
 
-#: ../../distutils/commandref.rst:37
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:37
 msgid "This command installs all data files provided with the distribution."
 msgstr ""
 
-#: ../../distutils/commandref.rst:43
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:43
 msgid ":command:`install_scripts`"
 msgstr ""
 
-#: ../../distutils/commandref.rst:45
+#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/commandref.rst:45
 msgid "This command installs all (Python) scripts in the distribution."
 msgstr ""
-

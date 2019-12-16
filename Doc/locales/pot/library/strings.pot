@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../library/strings.rst:6
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/strings.rst:6
 msgid "String Services"
 msgstr ""
 
-#: ../../library/strings.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/strings.rst:8
 msgid "The modules described in this chapter provide a wide range of string manipulation operations."
 msgstr ""
 
-#: ../../library/strings.rst:11
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/strings.rst:11
 msgid "In addition, Python's built-in string classes support the sequence type methods described in the :ref:`typesseq` section, and also the string-specific methods described in the :ref:`string-methods` section. To output formatted strings use template strings or the ``%`` operator described in the :ref:`string-formatting` section. Also, see the :mod:`re` module for string functions based on regular expressions."
 msgstr ""
-

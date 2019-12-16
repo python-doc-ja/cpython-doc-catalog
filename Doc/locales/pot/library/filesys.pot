@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../library/filesys.rst:6
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:6
 msgid "File and Directory Access"
 msgstr ""
 
-#: ../../library/filesys.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:8
 msgid "The modules described in this chapter deal with disk files and directories.  For example, there are modules for reading the properties of files, manipulating paths in a portable way, and creating temporary files.  The full list of modules in this chapter is:"
 msgstr ""
 
-#: ../../library/filesys.rst:33
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:33
 msgid "Section :ref:`bltin-file-objects`"
 msgstr ""
 
-#: ../../library/filesys.rst:33
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:33
 msgid "A description of Python's built-in file objects."
 msgstr ""
 
-#: ../../library/filesys.rst:36
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:36
 msgid "Module :mod:`os`"
 msgstr ""
 
-#: ../../library/filesys.rst:36
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/filesys.rst:36
 msgid "Operating system interfaces, including functions to work with files at a lower level than the built-in file object."
 msgstr ""
-

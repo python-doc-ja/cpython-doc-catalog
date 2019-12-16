@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:21+0900\n"
+"POT-Creation-Date: 2019-12-16 18:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../library/persistence.rst:6
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/persistence.rst:6
 msgid "Data Persistence"
 msgstr ""
 
-#: ../../library/persistence.rst:8
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/persistence.rst:8
 msgid "The modules described in this chapter support storing Python data in a persistent form on disk.  The :mod:`pickle` and :mod:`marshal` modules can turn many Python data types into a stream of bytes and then recreate the objects from the bytes.  The various DBM-related modules support a family of hash-based file formats that store a mapping of strings to other strings.  The :mod:`bsddb` module also provides such disk-based string-to-string mappings based on hashing, and also supports B-Tree and record-based formats."
 msgstr ""
 
-#: ../../library/persistence.rst:16
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/persistence.rst:16
 msgid "The list of modules described in this chapter is:"
 msgstr ""
-
