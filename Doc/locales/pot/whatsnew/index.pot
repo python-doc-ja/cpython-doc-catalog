@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 15:22+0900\n"
+"POT-Creation-Date: 2019-12-17 18:25+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../whatsnew/index.rst:5
+#: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/index.rst:5
 msgid "What's New in Python"
 msgstr ""
 
-#: ../../whatsnew/index.rst:7
+#: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/index.rst:7
 msgid "The \"What's New in Python\" series of essays takes tours through the most important changes between major Python versions.  They are a \"must read\" for anyone wishing to stay up-to-date after a new release."
 msgstr ""
 
-#: ../../whatsnew/index.rst:30
+#: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/index.rst:30
 msgid "The \"Changelog\" is an HTML version of the `file built <https://pypi.org/project/blurb>`_ from the contents of the :source:`Misc/NEWS.d` directory tree, which contains *all* nontrivial changes to Python for the current version."
 msgstr ""
-
