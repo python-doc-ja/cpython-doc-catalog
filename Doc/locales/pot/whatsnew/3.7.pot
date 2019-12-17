@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 04:24+0000\n"
+"POT-Creation-Date: 2019-12-17 04:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2248,4 +2248,12 @@ msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/3.7.rst:2554
 msgid "In 3.7.2, :mod:`venv` on Windows no longer copies the original binaries, but creates redirector scripts named ``python.exe`` and ``pythonw.exe`` instead. This resolves a long standing issue where all virtual environments would have to be upgraded or recreated with each Python update. However, note that this release will still require recreation of virtual environments in order to get the new scripts."
+msgstr ""
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/3.7.rst:2562
+msgid "Notable changes in Python 3.7.6"
+msgstr ""
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/3.7.rst:2564
+msgid "Due to significant security concerns, the *reuse_address* parameter of :meth:`asyncio.loop.create_datagram_endpoint` is no longer supported. This is because of the behavior of the socket option ``SO_REUSEADDR`` in UDP. For more details, see the documentation for ``loop.create_datagram_endpoint()``. (Contributed by Kyle Stanley, Antoine Pitrou, and Yury Selivanov in :issue:`37228`.)"
 msgstr ""
