@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 12:12+0000\n"
+"POT-Creation-Date: 2019-12-26 12:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Return a new code object.  If you need a dummy code object to create a fr
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:45
-msgid "Similar to :c:func:`PyCode_New`, but with an extra \"posonlyargcount\" for positonal-only arguments."
+msgid "Similar to :c:func:`PyCode_New`, but with an extra \"posonlyargcount\" for positional-only arguments."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/code.rst:51
