@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 12:12+0000\n"
+"POT-Creation-Date: 2019-12-29 12:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,7 +839,7 @@ msgid "While in most uses, you will only embed a single Python interpreter, ther
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/init.rst:1179
-msgid "The \"main\" interpreter is the first one created when the runtime initializes. It is usually the only Python interpreter in a process.  Unlike sub-interpreters, the main interpreter has unique process-global responsibilities like signal handling.  It is also responsible for execution during runtime initialization and is usually the active interpreter during runtime finalization.  The :c:func:`PyInterpreterState_Main` funtion returns a pointer to its state."
+msgid "The \"main\" interpreter is the first one created when the runtime initializes. It is usually the only Python interpreter in a process.  Unlike sub-interpreters, the main interpreter has unique process-global responsibilities like signal handling.  It is also responsible for execution during runtime initialization and is usually the active interpreter during runtime finalization.  The :c:func:`PyInterpreterState_Main` function returns a pointer to its state."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/init.rst:1186

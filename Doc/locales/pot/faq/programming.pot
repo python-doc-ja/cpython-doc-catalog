@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 12:12+0000\n"
+"POT-Creation-Date: 2019-12-29 12:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -738,7 +738,7 @@ msgid "That's a tough one, in general.  First, here are a list of things to reme
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:1021
-msgid "Performance characteristics vary across Python implementations.  This FAQ focusses on :term:`CPython`."
+msgid "Performance characteristics vary across Python implementations.  This FAQ focuses on :term:`CPython`."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/faq/programming.rst:1023
