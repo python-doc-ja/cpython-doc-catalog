@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-01-06 04:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,7 +138,7 @@ msgid "Once you have your code supporting the oldest version of Python 2 you wan
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/howto/pyporting.rst:118
-msgid "Once you have your code well-tested you are ready to begin porting your code to Python 3! But to fully understand how your code is going to change and what you want to look out for while you code, you will want to learn what changes Python 3 makes in terms of Python 2. Typically the two best ways of doing that is reading the `\"What's New\"`_ doc for each release of Python 3 and the `Porting to Python 3`_ book (which is free online). There is also a handy `cheat sheet`_ from the Python-Future project."
+msgid "Once you have your code well-tested you are ready to begin porting your code to Python 3! But to fully understand how your code is going to change and what you want to look out for while you code, you will want to learn what changes Python 3 makes in terms of Python 2. Typically the two best ways of doing that is reading the :ref:`\"What's New\" <whatsnew-index>` doc for each release of Python 3 and the `Porting to Python 3`_ book (which is free online). There is also a handy `cheat sheet`_ from the Python-Future project."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/howto/pyporting.rst:128
@@ -282,7 +282,7 @@ msgid "Inevitably you will have code that has to choose what to do based on what
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/howto/pyporting.rst:305
-msgid "Let's pretend that you need access to a feature of importlib_ that is available in Python's standard library since Python 3.3 and available for Python 2 through importlib2_ on PyPI. You might be tempted to write code to access e.g. the ``importlib.abc`` module by doing the following::"
+msgid "Let's pretend that you need access to a feature of :mod:`importlib` that is available in Python's standard library since Python 3.3 and available for Python 2 through importlib2_ on PyPI. You might be tempted to write code to access e.g. the :mod:`importlib.abc` module by doing the following::"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/howto/pyporting.rst:317
