@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-13 12:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,13 +230,17 @@ msgid "For nodes that were part of a collection of statements (that applies to a
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:317
+msgid "If :class:`NodeTransformer` introduces new nodes (that weren't part of original tree) without giving them location information (such as :attr:`lineno`), :func:`fix_missing_locations` should be called with the new sub-tree to recalculate the location information::"
+msgstr ""
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:325
 msgid "Usually you use the transformer like this::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:324
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:332
 msgid "Return a formatted dump of the tree in *node*.  This is mainly useful for debugging purposes.  If *annotate_fields* is true (by default), the returned string will show the names and the values for fields. If *annotate_fields* is false, the result string will be more compact by omitting unambiguous field names.  Attributes such as line numbers and column offsets are not dumped by default.  If this is wanted, *include_attributes* can be set to true."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:334
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/ast.rst:342
 msgid "`Green Tree Snakes <https://greentreesnakes.readthedocs.io/>`_, an external documentation resource, has good details on working with Python ASTs."
 msgstr ""
