@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-14 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -445,7 +445,7 @@ msgid "DBL_EPSILON"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:482
-msgid "difference between 1 and the least value greater than 1 that is representable as a float"
+msgid "difference between 1.0 and the least value greater than 1.0 that is representable as a float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:485
@@ -481,7 +481,7 @@ msgid "DBL_MAX"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:491
-msgid "maximum representable finite float"
+msgid "maximum representable positive finite float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:493
@@ -493,7 +493,7 @@ msgid "DBL_MAX_EXP"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:493
-msgid "maximum integer e such that ``radix**(e-1)`` is a representable finite float"
+msgid "maximum integer *e* such that ``radix**(e-1)`` is a representable finite float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:496
@@ -505,7 +505,7 @@ msgid "DBL_MAX_10_EXP"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:496
-msgid "maximum integer e such that ``10**e`` is in the range of representable finite floats"
+msgid "maximum integer *e* such that ``10**e`` is in the range of representable finite floats"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:499
@@ -517,7 +517,7 @@ msgid "DBL_MIN"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:499
-msgid "minimum positive normalized float"
+msgid "minimum representable positive *normalized* float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:501
@@ -529,7 +529,7 @@ msgid "DBL_MIN_EXP"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:501
-msgid "minimum integer e such that ``radix**(e-1)`` is a normalized float"
+msgid "minimum integer *e* such that ``radix**(e-1)`` is a normalized float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:504
@@ -541,7 +541,7 @@ msgid "DBL_MIN_10_EXP"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:504
-msgid "minimum integer e such that ``10**e`` is a normalized float"
+msgid "minimum integer *e* such that ``10**e`` is a normalized float"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/sys.rst:507
