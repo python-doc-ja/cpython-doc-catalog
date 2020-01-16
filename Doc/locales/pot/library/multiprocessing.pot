@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-01-16 04:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1600,7 +1600,7 @@ msgid "Return whether the call has completed."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/multiprocessing.rst:2254
-msgid "Return whether the call completed without raising an exception.  Will raise :exc:`AssertionError` if the result is not ready."
+msgid "Return whether the call completed without raising an exception.  Will raise :exc:`ValueError` if the result is not ready."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/multiprocessing.rst:2257
