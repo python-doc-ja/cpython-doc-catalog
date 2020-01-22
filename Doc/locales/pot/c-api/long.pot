@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-22 12:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,6 @@ msgid "Return a C :c:type:`long` representation of *obj*.  If *obj* is not an in
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:138
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:181
 msgid "Raise :exc:`OverflowError` if the value of *obj* is out of range for a :c:type:`long`."
 msgstr ""
 
@@ -139,6 +138,10 @@ msgstr ""
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:176
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:195
 msgid "Return a C :c:type:`long long` representation of *obj*.  If *obj* is not an instance of :c:type:`PyLongObject`, first call its :meth:`__index__` or :meth:`__int__` method (if present) to convert it to a :c:type:`PyLongObject`."
+msgstr ""
+
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:181
+msgid "Raise :exc:`OverflowError` if the value of *obj* is out of range for a :c:type:`long long`."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/long.rst:200
