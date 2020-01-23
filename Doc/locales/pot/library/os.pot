@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-23 12:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -302,7 +302,6 @@ msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/os.rst:230
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/os.rst:443
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/os.rst:646
 msgid ":ref:`Availability <availability>`: most flavors of Unix, Windows."
 msgstr ""
 
@@ -315,6 +314,7 @@ msgid ":func:`getenvb` is only available if :data:`supports_bytes_environ` is ``
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/os.rst:242
+#: /home/travis/build/python/cpython-doc-catalog/Doc/library/os.rst:646
 msgid ":ref:`Availability <availability>`: most flavors of Unix."
 msgstr ""
 
