@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-01-24 04:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "It is important to realize that scopes are determined textually: the glob
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/classes.rst:146
-msgid "A special quirk of Python is that -- if no :keyword:`global` statement is in effect -- assignments to names always go into the innermost scope.  Assignments do not copy data --- they just bind names to objects.  The same is true for deletions: the statement ``del x`` removes the binding of ``x`` from the namespace referenced by the local scope.  In fact, all operations that introduce new names use the local scope: in particular, :keyword:`import` statements and function definitions bind the module or function name in the local scope."
+msgid "A special quirk of Python is that -- if no :keyword:`global` or :keyword:`nonlocal` statement is in effect -- assignments to names always go into the innermost scope. Assignments do not copy data --- they just bind names to objects.  The same is true for deletions: the statement ``del x`` removes the binding of ``x`` from the namespace referenced by the local scope.  In fact, all operations that introduce new names use the local scope: in particular, :keyword:`import` statements and function definitions bind the module or function name in the local scope."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/tutorial/classes.rst:154
