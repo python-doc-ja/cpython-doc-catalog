@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-26 12:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -634,7 +634,7 @@ msgid "csv"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/3.8.rst:727
-msgid "The :class:`csv.DictReader` now returns instances of :class:`dict` instead of a :class:`collections.OrderedDict`.  The tool is now faster and uses less memory while still preserving the field order. (Contributed by Michael Seek in :issue:`34003`.)"
+msgid "The :class:`csv.DictReader` now returns instances of :class:`dict` instead of a :class:`collections.OrderedDict`.  The tool is now faster and uses less memory while still preserving the field order. (Contributed by Michael Selik in :issue:`34003`.)"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/whatsnew/3.8.rst:734
