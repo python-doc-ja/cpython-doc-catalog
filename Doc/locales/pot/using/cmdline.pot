@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-28 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -720,7 +720,6 @@ msgid "Also note that even when locale coercion is disabled, or when it fails to
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:879
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:940
 msgid ":ref:`Availability <availability>`: \\*nix."
 msgstr ""
 
@@ -788,30 +787,30 @@ msgstr ""
 msgid "Also available as the :option:`-X` ``utf8`` option."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:941
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:939
 msgid "See :pep:`540` for more details."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:946
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:944
 msgid "Debug-mode variables"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:948
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:946
 msgid "Setting these variables only has an effect in a debug build of Python."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:952
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:950
 msgid "If set, Python will print threading debug info."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:954
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:952
 msgid "Need Python configured with the ``--with-pydebug`` build option."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:959
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:957
 msgid "If set, Python will dump objects and reference counts still alive after shutting down the interpreter."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:962
+#: /home/travis/build/python/cpython-doc-catalog/Doc/using/cmdline.rst:960
 msgid "Need Python configured with the ``--with-trace-refs`` build option."
 msgstr ""

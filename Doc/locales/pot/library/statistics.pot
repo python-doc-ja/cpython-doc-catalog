@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-26 12:31+0000\n"
+"POT-Creation-Date: 2020-01-28 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -582,7 +582,7 @@ msgid ":class:`NormalDist` readily solves classic probability problems."
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/statistics.rst:736
-msgid "For example, given `historical data for SAT exams <https://blog.prepscholar.com/sat-standard-deviation>`_ showing that scores are normally distributed with a mean of 1060 and a standard deviation of 192, determine the percentage of students with test scores between 1100 and 1200, after rounding to the nearest whole number:"
+msgid "For example, given `historical data for SAT exams <https://nces.ed.gov/programs/digest/d17/tables/dt17_226.40.asp>`_ showing that scores are normally distributed with a mean of 1060 and a standard deviation of 195, determine the percentage of students with test scores between 1100 and 1200, after rounding to the nearest whole number:"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/statistics.rst:749
@@ -598,7 +598,7 @@ msgid "Normal distributions can be used to approximate `Binomial distributions <
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/statistics.rst:780
-msgid "For example, an open source conference has 750 attendees and two rooms with a 500 person capacity.  There is a talk about Python and another about Ruby. In previous conferences, 65% of the attendees preferred to listen to Python talks.  Assuming the population preferences haven't changed, what is the probability that the rooms will stay within their capacity limits?"
+msgid "For example, an open source conference has 750 attendees and two rooms with a 500 person capacity.  There is a talk about Python and another about Ruby. In previous conferences, 65% of the attendees preferred to listen to Python talks.  Assuming the population preferences haven't changed, what is the probability that the Python room will stay within its capacity limits?"
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/library/statistics.rst:811
