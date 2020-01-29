@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-01-29 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -322,17 +322,17 @@ msgid "Return element of *o* corresponding to the object *key* or ``NULL`` on fa
 msgstr ""
 
 #: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:504
-msgid "Map the object *key* to the value *v*.  Raise an exception and return ``-1`` on failure; return ``0`` on success.  This is the equivalent of the Python statement ``o[key] = v``."
+msgid "Map the object *key* to the value *v*.  Raise an exception and return ``-1`` on failure; return ``0`` on success.  This is the equivalent of the Python statement ``o[key] = v``.  This function *does not* steal a reference to *v*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:511
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:512
 msgid "Remove the mapping for the object *key* from the object *o*.  Return ``-1`` on failure.  This is equivalent to the Python statement ``del o[key]``."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:517
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:518
 msgid "This is equivalent to the Python expression ``dir(o)``, returning a (possibly empty) list of strings appropriate for the object argument, or ``NULL`` if there was an error.  If the argument is ``NULL``, this is like the Python ``dir()``, returning the names of the current locals; in this case, if no execution frame is active then ``NULL`` is returned but :c:func:`PyErr_Occurred` will return false."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:526
+#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/object.rst:527
 msgid "This is equivalent to the Python expression ``iter(o)``. It returns a new iterator for the object argument, or the object  itself if the object is already an iterator.  Raises :exc:`TypeError` and returns ``NULL`` if the object cannot be iterated."
 msgstr ""
