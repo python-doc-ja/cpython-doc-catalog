@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-02-09 12:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,776 +16,776 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:2
+#: ../../library/http.rst:2
 msgid ":mod:`http` --- HTTP modules"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:7
+#: ../../library/http.rst:7
 msgid "**Source code:** :source:`Lib/http/__init__.py`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:15
+#: ../../library/http.rst:15
 msgid ":mod:`http` is a package that collects several modules for working with the HyperText Transfer Protocol:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:18
+#: ../../library/http.rst:18
 msgid ":mod:`http.client` is a low-level HTTP protocol client; for high-level URL opening use :mod:`urllib.request`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:20
+#: ../../library/http.rst:20
 msgid ":mod:`http.server` contains basic HTTP server classes based on :mod:`socketserver`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:21
+#: ../../library/http.rst:21
 msgid ":mod:`http.cookies` has utilities for implementing state management with cookies"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:22
+#: ../../library/http.rst:22
 msgid ":mod:`http.cookiejar` provides persistence of cookies"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:24
+#: ../../library/http.rst:24
 msgid ":mod:`http` is also a module that defines a number of HTTP status codes and associated messages through the :class:`http.HTTPStatus` enum:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:31
+#: ../../library/http.rst:31
 msgid "A subclass of :class:`enum.IntEnum` that defines a set of HTTP status codes, reason phrases and long descriptions written in English."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:34
+#: ../../library/http.rst:34
 msgid "Usage::"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:53
+#: ../../library/http.rst:53
 msgid "HTTP status codes"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:55
+#: ../../library/http.rst:55
 msgid "Supported, `IANA-registered <https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml>`_ status codes available in :class:`http.HTTPStatus` are:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:60
+#: ../../library/http.rst:60
 msgid "Code"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:60
+#: ../../library/http.rst:60
 msgid "Enum Name"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:60
+#: ../../library/http.rst:60
 msgid "Details"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:62
+#: ../../library/http.rst:62
 msgid "``100``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:62
+#: ../../library/http.rst:62
 msgid "``CONTINUE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:62
+#: ../../library/http.rst:62
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.2.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:63
+#: ../../library/http.rst:63
 msgid "``101``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:63
+#: ../../library/http.rst:63
 msgid "``SWITCHING_PROTOCOLS``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:63
+#: ../../library/http.rst:63
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.2.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:64
+#: ../../library/http.rst:64
 msgid "``102``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:64
+#: ../../library/http.rst:64
 msgid "``PROCESSING``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:64
+#: ../../library/http.rst:64
 msgid "WebDAV :rfc:`2518`, Section 10.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:65
+#: ../../library/http.rst:65
 msgid "``200``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:65
+#: ../../library/http.rst:65
 msgid "``OK``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:65
+#: ../../library/http.rst:65
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:66
+#: ../../library/http.rst:66
 msgid "``201``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:66
+#: ../../library/http.rst:66
 msgid "``CREATED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:66
+#: ../../library/http.rst:66
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:67
+#: ../../library/http.rst:67
 msgid "``202``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:67
+#: ../../library/http.rst:67
 msgid "``ACCEPTED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:67
+#: ../../library/http.rst:67
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.3"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:68
+#: ../../library/http.rst:68
 msgid "``203``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:68
+#: ../../library/http.rst:68
 msgid "``NON_AUTHORITATIVE_INFORMATION``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:68
+#: ../../library/http.rst:68
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:69
+#: ../../library/http.rst:69
 msgid "``204``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:69
+#: ../../library/http.rst:69
 msgid "``NO_CONTENT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:69
+#: ../../library/http.rst:69
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.5"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:70
+#: ../../library/http.rst:70
 msgid "``205``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:70
+#: ../../library/http.rst:70
 msgid "``RESET_CONTENT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:70
+#: ../../library/http.rst:70
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.3.6"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:71
+#: ../../library/http.rst:71
 msgid "``206``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:71
+#: ../../library/http.rst:71
 msgid "``PARTIAL_CONTENT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:71
+#: ../../library/http.rst:71
 msgid "HTTP/1.1 :rfc:`7233`, Section 4.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:72
+#: ../../library/http.rst:72
 msgid "``207``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:72
+#: ../../library/http.rst:72
 msgid "``MULTI_STATUS``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:72
+#: ../../library/http.rst:72
 msgid "WebDAV :rfc:`4918`, Section 11.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:73
+#: ../../library/http.rst:73
 msgid "``208``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:73
+#: ../../library/http.rst:73
 msgid "``ALREADY_REPORTED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:73
+#: ../../library/http.rst:73
 msgid "WebDAV Binding Extensions :rfc:`5842`, Section 7.1 (Experimental)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:74
+#: ../../library/http.rst:74
 msgid "``226``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:74
+#: ../../library/http.rst:74
 msgid "``IM_USED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:74
+#: ../../library/http.rst:74
 msgid "Delta Encoding in HTTP :rfc:`3229`, Section 10.4.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:75
+#: ../../library/http.rst:75
 msgid "``300``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:75
+#: ../../library/http.rst:75
 msgid "``MULTIPLE_CHOICES``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:75
+#: ../../library/http.rst:75
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:76
+#: ../../library/http.rst:76
 msgid "``301``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:76
+#: ../../library/http.rst:76
 msgid "``MOVED_PERMANENTLY``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:76
+#: ../../library/http.rst:76
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:77
+#: ../../library/http.rst:77
 msgid "``302``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:77
+#: ../../library/http.rst:77
 msgid "``FOUND``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:77
+#: ../../library/http.rst:77
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.3"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:78
+#: ../../library/http.rst:78
 msgid "``303``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:78
+#: ../../library/http.rst:78
 msgid "``SEE_OTHER``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:78
+#: ../../library/http.rst:78
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:79
+#: ../../library/http.rst:79
 msgid "``304``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:79
+#: ../../library/http.rst:79
 msgid "``NOT_MODIFIED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:79
+#: ../../library/http.rst:79
 msgid "HTTP/1.1 :rfc:`7232`, Section 4.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:80
+#: ../../library/http.rst:80
 msgid "``305``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:80
+#: ../../library/http.rst:80
 msgid "``USE_PROXY``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:80
+#: ../../library/http.rst:80
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.5"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:81
+#: ../../library/http.rst:81
 msgid "``307``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:81
+#: ../../library/http.rst:81
 msgid "``TEMPORARY_REDIRECT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:81
+#: ../../library/http.rst:81
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.4.7"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:82
+#: ../../library/http.rst:82
 msgid "``308``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:82
+#: ../../library/http.rst:82
 msgid "``PERMANENT_REDIRECT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:82
+#: ../../library/http.rst:82
 msgid "Permanent Redirect :rfc:`7238`, Section 3 (Experimental)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:83
+#: ../../library/http.rst:83
 msgid "``400``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:83
+#: ../../library/http.rst:83
 msgid "``BAD_REQUEST``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:83
+#: ../../library/http.rst:83
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:84
+#: ../../library/http.rst:84
 msgid "``401``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:84
+#: ../../library/http.rst:84
 msgid "``UNAUTHORIZED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:84
+#: ../../library/http.rst:84
 msgid "HTTP/1.1 Authentication :rfc:`7235`, Section 3.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:85
+#: ../../library/http.rst:85
 msgid "``402``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:85
+#: ../../library/http.rst:85
 msgid "``PAYMENT_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:85
+#: ../../library/http.rst:85
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:86
+#: ../../library/http.rst:86
 msgid "``403``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:86
+#: ../../library/http.rst:86
 msgid "``FORBIDDEN``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:86
+#: ../../library/http.rst:86
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.3"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:87
+#: ../../library/http.rst:87
 msgid "``404``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:87
+#: ../../library/http.rst:87
 msgid "``NOT_FOUND``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:87
+#: ../../library/http.rst:87
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:88
+#: ../../library/http.rst:88
 msgid "``405``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:88
+#: ../../library/http.rst:88
 msgid "``METHOD_NOT_ALLOWED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:88
+#: ../../library/http.rst:88
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.5"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:89
+#: ../../library/http.rst:89
 msgid "``406``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:89
+#: ../../library/http.rst:89
 msgid "``NOT_ACCEPTABLE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:89
+#: ../../library/http.rst:89
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.6"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:90
+#: ../../library/http.rst:90
 msgid "``407``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:90
+#: ../../library/http.rst:90
 msgid "``PROXY_AUTHENTICATION_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:90
+#: ../../library/http.rst:90
 msgid "HTTP/1.1 Authentication :rfc:`7235`, Section 3.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:91
+#: ../../library/http.rst:91
 msgid "``408``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:91
+#: ../../library/http.rst:91
 msgid "``REQUEST_TIMEOUT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:91
+#: ../../library/http.rst:91
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.7"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:92
+#: ../../library/http.rst:92
 msgid "``409``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:92
+#: ../../library/http.rst:92
 msgid "``CONFLICT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:92
+#: ../../library/http.rst:92
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.8"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:93
+#: ../../library/http.rst:93
 msgid "``410``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:93
+#: ../../library/http.rst:93
 msgid "``GONE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:93
+#: ../../library/http.rst:93
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.9"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:94
+#: ../../library/http.rst:94
 msgid "``411``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:94
+#: ../../library/http.rst:94
 msgid "``LENGTH_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:94
+#: ../../library/http.rst:94
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.10"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:95
+#: ../../library/http.rst:95
 msgid "``412``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:95
+#: ../../library/http.rst:95
 msgid "``PRECONDITION_FAILED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:95
+#: ../../library/http.rst:95
 msgid "HTTP/1.1 :rfc:`7232`, Section 4.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:96
+#: ../../library/http.rst:96
 msgid "``413``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:96
+#: ../../library/http.rst:96
 msgid "``REQUEST_ENTITY_TOO_LARGE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:96
+#: ../../library/http.rst:96
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.11"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:97
+#: ../../library/http.rst:97
 msgid "``414``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:97
+#: ../../library/http.rst:97
 msgid "``REQUEST_URI_TOO_LONG``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:97
+#: ../../library/http.rst:97
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.12"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:98
+#: ../../library/http.rst:98
 msgid "``415``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:98
+#: ../../library/http.rst:98
 msgid "``UNSUPPORTED_MEDIA_TYPE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:98
+#: ../../library/http.rst:98
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.13"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:99
+#: ../../library/http.rst:99
 msgid "``416``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:99
+#: ../../library/http.rst:99
 msgid "``REQUESTED_RANGE_NOT_SATISFIABLE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:99
+#: ../../library/http.rst:99
 msgid "HTTP/1.1 Range Requests :rfc:`7233`, Section 4.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:100
+#: ../../library/http.rst:100
 msgid "``417``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:100
+#: ../../library/http.rst:100
 msgid "``EXPECTATION_FAILED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:100
+#: ../../library/http.rst:100
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.14"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:101
+#: ../../library/http.rst:101
 msgid "``421``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:101
+#: ../../library/http.rst:101
 msgid "``MISDIRECTED_REQUEST``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:101
+#: ../../library/http.rst:101
 msgid "HTTP/2 :rfc:`7540`, Section 9.1.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:102
+#: ../../library/http.rst:102
 msgid "``422``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:102
+#: ../../library/http.rst:102
 msgid "``UNPROCESSABLE_ENTITY``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:102
+#: ../../library/http.rst:102
 msgid "WebDAV :rfc:`4918`, Section 11.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:103
+#: ../../library/http.rst:103
 msgid "``423``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:103
+#: ../../library/http.rst:103
 msgid "``LOCKED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:103
+#: ../../library/http.rst:103
 msgid "WebDAV :rfc:`4918`, Section 11.3"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:104
+#: ../../library/http.rst:104
 msgid "``424``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:104
+#: ../../library/http.rst:104
 msgid "``FAILED_DEPENDENCY``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:104
+#: ../../library/http.rst:104
 msgid "WebDAV :rfc:`4918`, Section 11.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:105
+#: ../../library/http.rst:105
 msgid "``426``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:105
+#: ../../library/http.rst:105
 msgid "``UPGRADE_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:105
+#: ../../library/http.rst:105
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.5.15"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:106
+#: ../../library/http.rst:106
 msgid "``428``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:106
+#: ../../library/http.rst:106
 msgid "``PRECONDITION_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:106
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:107
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:108
+#: ../../library/http.rst:106
+#: ../../library/http.rst:107
+#: ../../library/http.rst:108
 msgid "Additional HTTP Status Codes :rfc:`6585`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:107
+#: ../../library/http.rst:107
 msgid "``429``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:107
+#: ../../library/http.rst:107
 msgid "``TOO_MANY_REQUESTS``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:108
+#: ../../library/http.rst:108
 msgid "``431``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:108
+#: ../../library/http.rst:108
 msgid "``REQUEST_HEADER_FIELDS_TOO_LARGE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:109
+#: ../../library/http.rst:109
 msgid "``451``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:109
+#: ../../library/http.rst:109
 msgid "``UNAVAILABLE_FOR_LEGAL_REASONS``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:109
+#: ../../library/http.rst:109
 msgid "An HTTP Status Code to Report Legal Obstacles :rfc:`7725`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:110
+#: ../../library/http.rst:110
 msgid "``500``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:110
+#: ../../library/http.rst:110
 msgid "``INTERNAL_SERVER_ERROR``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:110
+#: ../../library/http.rst:110
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.1"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:111
+#: ../../library/http.rst:111
 msgid "``501``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:111
+#: ../../library/http.rst:111
 msgid "``NOT_IMPLEMENTED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:111
+#: ../../library/http.rst:111
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:112
+#: ../../library/http.rst:112
 msgid "``502``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:112
+#: ../../library/http.rst:112
 msgid "``BAD_GATEWAY``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:112
+#: ../../library/http.rst:112
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.3"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:113
+#: ../../library/http.rst:113
 msgid "``503``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:113
+#: ../../library/http.rst:113
 msgid "``SERVICE_UNAVAILABLE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:113
+#: ../../library/http.rst:113
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.4"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:114
+#: ../../library/http.rst:114
 msgid "``504``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:114
+#: ../../library/http.rst:114
 msgid "``GATEWAY_TIMEOUT``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:114
+#: ../../library/http.rst:114
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.5"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:115
+#: ../../library/http.rst:115
 msgid "``505``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:115
+#: ../../library/http.rst:115
 msgid "``HTTP_VERSION_NOT_SUPPORTED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:115
+#: ../../library/http.rst:115
 msgid "HTTP/1.1 :rfc:`7231`, Section 6.6.6"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:116
+#: ../../library/http.rst:116
 msgid "``506``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:116
+#: ../../library/http.rst:116
 msgid "``VARIANT_ALSO_NEGOTIATES``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:116
+#: ../../library/http.rst:116
 msgid "Transparent Content Negotiation in HTTP :rfc:`2295`, Section 8.1 (Experimental)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:117
+#: ../../library/http.rst:117
 msgid "``507``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:117
+#: ../../library/http.rst:117
 msgid "``INSUFFICIENT_STORAGE``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:117
+#: ../../library/http.rst:117
 msgid "WebDAV :rfc:`4918`, Section 11.5"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:118
+#: ../../library/http.rst:118
 msgid "``508``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:118
+#: ../../library/http.rst:118
 msgid "``LOOP_DETECTED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:118
+#: ../../library/http.rst:118
 msgid "WebDAV Binding Extensions :rfc:`5842`, Section 7.2 (Experimental)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:119
+#: ../../library/http.rst:119
 msgid "``510``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:119
+#: ../../library/http.rst:119
 msgid "``NOT_EXTENDED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:119
+#: ../../library/http.rst:119
 msgid "An HTTP Extension Framework :rfc:`2774`, Section 7 (Experimental)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:120
+#: ../../library/http.rst:120
 msgid "``511``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:120
+#: ../../library/http.rst:120
 msgid "``NETWORK_AUTHENTICATION_REQUIRED``"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:120
+#: ../../library/http.rst:120
 msgid "Additional HTTP Status Codes :rfc:`6585`, Section 6"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:123
+#: ../../library/http.rst:123
 msgid "In order to preserve backwards compatibility, enum values are also present in the :mod:`http.client` module in the form of constants. The enum name is equal to the constant name (i.e. ``http.HTTPStatus.OK`` is also available as ``http.client.OK``)."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:128
+#: ../../library/http.rst:128
 msgid "Added ``421 MISDIRECTED_REQUEST`` status code."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/http.rst:131
+#: ../../library/http.rst:131
 msgid "Added ``451 UNAVAILABLE_FOR_LEGAL_REASONS`` status code."
 msgstr ""

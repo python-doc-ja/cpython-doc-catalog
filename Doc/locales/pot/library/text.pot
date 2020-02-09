@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-02-09 12:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/text.rst:6
+#: ../../library/text.rst:6
 msgid "Text Processing Services"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/text.rst:8
+#: ../../library/text.rst:8
 msgid "The modules described in this chapter provide a wide range of string manipulation operations and other text processing services."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/text.rst:11
+#: ../../library/text.rst:11
 msgid "The :mod:`codecs` module described under :ref:`binaryservices` is also highly relevant to text processing. In addition, see the documentation for Python's built-in string type in :ref:`textseq`."
 msgstr ""

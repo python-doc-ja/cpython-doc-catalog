@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 12:19+0000\n"
+"POT-Creation-Date: 2020-02-09 12:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrency.rst:5
+#: ../../library/concurrency.rst:5
 msgid "Concurrent Execution"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrency.rst:7
+#: ../../library/concurrency.rst:7
 msgid "The modules described in this chapter provide support for concurrent execution of code. The appropriate choice of tool will depend on the task to be executed (CPU bound vs IO bound) and preferred style of development (event driven cooperative multitasking vs preemptive multitasking). Here's an overview:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrency.rst:26
+#: ../../library/concurrency.rst:26
 msgid "The following are support modules for some of the above services:"
 msgstr ""
