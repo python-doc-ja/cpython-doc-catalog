@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,63 +16,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:6
+#: ../../c-api/function.rst:6
 msgid "Function Objects"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:10
+#: ../../c-api/function.rst:10
 msgid "There are a few functions specific to Python functions."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:15
+#: ../../c-api/function.rst:15
 msgid "The C structure used for functions."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:22
+#: ../../c-api/function.rst:22
 msgid "This is an instance of :c:type:`PyTypeObject` and represents the Python function type.  It is exposed to Python programmers as ``types.FunctionType``."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:28
+#: ../../c-api/function.rst:28
 msgid "Return true if *o* is a function object (has type :c:data:`PyFunction_Type`). The parameter must not be *NULL*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:34
+#: ../../c-api/function.rst:34
 msgid "Return a new function object associated with the code object *code*. *globals* must be a dictionary with the global variables accessible to the function."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:37
+#: ../../c-api/function.rst:37
 msgid "The function's docstring, name and *__module__* are retrieved from the code object, the argument defaults and closure are set to *NULL*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:43
+#: ../../c-api/function.rst:43
 msgid "Return the code object associated with the function object *op*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:48
+#: ../../c-api/function.rst:48
 msgid "Return the globals dictionary associated with the function object *op*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:53
+#: ../../c-api/function.rst:53
 msgid "Return the *__module__* attribute of the function object *op*. This is normally a string containing the module name, but can be set to any other object by Python code."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:60
+#: ../../c-api/function.rst:60
 msgid "Return the argument default values of the function object *op*. This can be a tuple of arguments or *NULL*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:66
+#: ../../c-api/function.rst:66
 msgid "Set the argument default values for the function object *op*. *defaults* must be *Py_None* or a tuple."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:69
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:83
+#: ../../c-api/function.rst:69
+#: ../../c-api/function.rst:83
 msgid "Raises :exc:`SystemError` and returns ``-1`` on failure."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:74
+#: ../../c-api/function.rst:74
 msgid "Return the closure associated with the function object *op*. This can be *NULL* or a tuple of cell objects."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/function.rst:80
+#: ../../c-api/function.rst:80
 msgid "Set the closure associated with the function object *op*. *closure* must be *Py_None* or a tuple of cell objects."
 msgstr ""

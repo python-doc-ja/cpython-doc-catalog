@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,34 +16,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:3
+#: ../../library/tty.rst:3
 msgid ":mod:`tty` --- Terminal control functions"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:12
+#: ../../library/tty.rst:12
 msgid "The :mod:`tty` module defines functions for putting the tty into cbreak and raw modes."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:15
+#: ../../library/tty.rst:15
 msgid "Because it requires the :mod:`termios` module, it will work only on Unix."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:17
+#: ../../library/tty.rst:17
 msgid "The :mod:`tty` module defines the following functions:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:22
+#: ../../library/tty.rst:22
 msgid "Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:29
+#: ../../library/tty.rst:29
 msgid "Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:36
+#: ../../library/tty.rst:36
 msgid "Module :mod:`termios`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/tty.rst:37
+#: ../../library/tty.rst:37
 msgid "Low-level terminal control interface."
 msgstr ""

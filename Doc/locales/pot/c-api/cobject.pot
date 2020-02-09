@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,38 +16,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:6
+#: ../../c-api/cobject.rst:6
 msgid "CObjects"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:13
+#: ../../c-api/cobject.rst:13
 msgid "The CObject API is deprecated as of Python 2.7.  Please switch to the new :ref:`capsules` API."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:18
+#: ../../c-api/cobject.rst:18
 msgid "This subtype of :c:type:`PyObject` represents an opaque value, useful for C extension modules who need to pass an opaque value (as a :c:type:`void\\*` pointer) through Python code to other C code.  It is often used to make a C function pointer defined in one module available to other modules, so the regular import mechanism can be used to access C APIs defined in dynamically loaded modules."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:28
+#: ../../c-api/cobject.rst:28
 msgid "Return true if its argument is a :c:type:`PyCObject`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:33
+#: ../../c-api/cobject.rst:33
 msgid "Create a :c:type:`PyCObject` from the ``void *`` *cobj*.  The *destr* function will be called when the object is reclaimed, unless it is *NULL*."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:39
+#: ../../c-api/cobject.rst:39
 msgid "Create a :c:type:`PyCObject` from the :c:type:`void \\*` *cobj*.  The *destr* function will be called when the object is reclaimed. The *desc* argument can be used to pass extra callback data for the destructor function."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:46
+#: ../../c-api/cobject.rst:46
 msgid "Return the object :c:type:`void \\*` that the :c:type:`PyCObject` *self* was created with."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:52
+#: ../../c-api/cobject.rst:52
 msgid "Return the description :c:type:`void \\*` that the :c:type:`PyCObject` *self* was created with."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/c-api/cobject.rst:58
+#: ../../c-api/cobject.rst:58
 msgid "Set the void pointer inside *self* to *cobj*. The :c:type:`PyCObject` must not have an associated destructor. Return true on success, false on failure."
 msgstr ""

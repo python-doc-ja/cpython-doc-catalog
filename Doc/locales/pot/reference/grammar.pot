@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/reference/grammar.rst:2
+#: ../../reference/grammar.rst:2
 msgid "Full Grammar specification"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/reference/grammar.rst:4
+#: ../../reference/grammar.rst:4
 msgid "This is the full Python grammar, as it is read by the parser generator and used to parse Python source files:"
 msgstr ""

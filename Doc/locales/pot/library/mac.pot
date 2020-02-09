@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/mac.rst:5
+#: ../../library/mac.rst:5
 msgid "Mac OS X specific services"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/mac.rst:7
+#: ../../library/mac.rst:7
 msgid "This chapter describes modules that are only available on the Mac OS X platform."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/mac.rst:9
+#: ../../library/mac.rst:9
 msgid "See the chapters :ref:`mac-scripting` and :ref:`undoc-mac-modules` for more modules, and the HOWTO :ref:`using-on-mac` for a general introduction to Mac-specific Python programming."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/mac.rst:15
+#: ../../library/mac.rst:15
 msgid "Most of the OS X APIs that these modules use are deprecated or removed in recent versions of OS X.  Many are not available when Python is executing in 64-bit mode.  These modules have been removed in Python 3.  You should avoid using them in Python 2."
 msgstr ""

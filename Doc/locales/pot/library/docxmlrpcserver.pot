@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,57 +16,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:2
+#: ../../library/docxmlrpcserver.rst:2
 msgid ":mod:`DocXMLRPCServer` --- Self-documenting XML-RPC server"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:10
+#: ../../library/docxmlrpcserver.rst:10
 msgid "The :mod:`DocXMLRPCServer` module has been merged into :mod:`xmlrpc.server` in Python 3.  The :term:`2to3` tool will automatically adapt imports when converting your sources to Python 3."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:17
+#: ../../library/docxmlrpcserver.rst:17
 msgid "The :mod:`DocXMLRPCServer` module extends the classes found in :mod:`SimpleXMLRPCServer` to serve HTML documentation in response to HTTP GET requests. Servers can either be free standing, using :class:`~DocXMLRPCServer.DocXMLRPCServer`, or embedded in a CGI environment, using :class:`DocCGIXMLRPCRequestHandler`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:25
+#: ../../library/docxmlrpcserver.rst:25
 msgid "Create a new server instance. All parameters have the same meaning as for :class:`SimpleXMLRPCServer.SimpleXMLRPCServer`; *requestHandler* defaults to :class:`DocXMLRPCRequestHandler`."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:32
+#: ../../library/docxmlrpcserver.rst:32
 msgid "Create a new instance to handle XML-RPC requests in a CGI environment."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:37
+#: ../../library/docxmlrpcserver.rst:37
 msgid "Create a new request handler instance. This request handler supports XML-RPC POST requests, documentation GET requests, and modifies logging so that the *logRequests* parameter to the :class:`~DocXMLRPCServer.DocXMLRPCServer` constructor parameter is honored."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:46
+#: ../../library/docxmlrpcserver.rst:46
 msgid "DocXMLRPCServer Objects"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:48
+#: ../../library/docxmlrpcserver.rst:48
 msgid "The :class:`~DocXMLRPCServer.DocXMLRPCServer` class is derived from :class:`SimpleXMLRPCServer.SimpleXMLRPCServer` and provides a means of creating self-documenting, stand alone XML-RPC servers. HTTP POST requests are handled as XML-RPC method calls. HTTP GET requests are handled by generating pydoc-style HTML documentation. This allows a server to provide its own web-based documentation."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:58
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:87
+#: ../../library/docxmlrpcserver.rst:58
+#: ../../library/docxmlrpcserver.rst:87
 msgid "Set the title used in the generated HTML documentation. This title will be used inside the HTML \"title\" element."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:64
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:93
+#: ../../library/docxmlrpcserver.rst:64
+#: ../../library/docxmlrpcserver.rst:93
 msgid "Set the name used in the generated HTML documentation. This name will appear at the top of the generated documentation inside a \"h1\" element."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:70
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:99
+#: ../../library/docxmlrpcserver.rst:70
+#: ../../library/docxmlrpcserver.rst:99
 msgid "Set the description used in the generated HTML documentation. This description will appear as a paragraph, below the server name, in the documentation."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:75
+#: ../../library/docxmlrpcserver.rst:75
 msgid "DocCGIXMLRPCRequestHandler"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/docxmlrpcserver.rst:77
+#: ../../library/docxmlrpcserver.rst:77
 msgid "The :class:`DocCGIXMLRPCRequestHandler` class is derived from :class:`SimpleXMLRPCServer.CGIXMLRPCRequestHandler` and provides a means of creating self-documenting, XML-RPC CGI scripts. HTTP POST requests are handled as XML-RPC method calls. HTTP GET requests are handled by generating pydoc-style HTML documentation. This allows a server to provide its own web-based documentation."
 msgstr ""

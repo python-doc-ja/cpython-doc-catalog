@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/markup.rst:5
+#: ../../library/markup.rst:5
 msgid "Structured Markup Processing Tools"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/markup.rst:7
+#: ../../library/markup.rst:7
 msgid "Python supports a variety of modules to work with various forms of structured data markup.  This includes modules to work with the Standard Generalized Markup Language (SGML) and the Hypertext Markup Language (HTML), and several interfaces for working with the Extensible Markup Language (XML)."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/markup.rst:12
+#: ../../library/markup.rst:12
 msgid "It is important to note that modules in the :mod:`xml` package require that there be at least one SAX-compliant XML parser available. Starting with Python 2.3, the Expat parser is included with Python, so the :mod:`xml.parsers.expat` module will always be available. You may still want to be aware of the `PyXML add-on package <http://pyxml.sourceforge.net/>`_; that package provides an extended set of XML libraries for Python."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/markup.rst:19
+#: ../../library/markup.rst:19
 msgid "The documentation for the :mod:`xml.dom` and :mod:`xml.sax` packages are the definition of the Python bindings for the DOM and SAX interfaces."
 msgstr ""

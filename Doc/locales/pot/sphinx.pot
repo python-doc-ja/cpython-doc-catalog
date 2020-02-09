@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-28 18:40+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,100 +16,100 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:10
+#: ../../tools/templates/download.html:10
 msgid "Download Python %(release)s Documentation"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:13
+#: ../../tools/templates/download.html:13
 msgid "Last updated on: %(last_updated)s."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:16
+#: ../../tools/templates/download.html:16
 msgid "To download an archive containing all the documents for\n"
 "this version of Python in one of various formats, follow one of links\n"
 "in this table. The numbers in the table are the size of the download\n"
 "files in megabytes."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:22
+#: ../../tools/templates/download.html:22
 msgid "Format"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:23
+#: ../../tools/templates/download.html:23
 msgid "Packed as .zip"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:24
+#: ../../tools/templates/download.html:24
 msgid "Packed as .tar.bz2"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:26
+#: ../../tools/templates/download.html:26
 msgid "PDF (US-Letter paper size)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:29
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:34
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:41
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:45
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:51
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:56
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:64
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:69
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:1
+#: ../../tools/templates/download.html:29
+#: ../../tools/templates/download.html:34
+#: ../../tools/templates/download.html:41
+#: ../../tools/templates/download.html:45
+#: ../../tools/templates/download.html:51
+#: ../../tools/templates/download.html:56
+#: ../../tools/templates/download.html:64
+#: ../../tools/templates/download.html:69
+#: ../../tools/templates/indexsidebar.html:1
 msgid "Download"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:30
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:35
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:42
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:46
+#: ../../tools/templates/download.html:30
+#: ../../tools/templates/download.html:35
+#: ../../tools/templates/download.html:42
+#: ../../tools/templates/download.html:46
 msgid "(ca. 11 MB)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:38
+#: ../../tools/templates/download.html:38
 msgid "PDF (A4 paper size)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:48
+#: ../../tools/templates/download.html:48
 msgid "HTML"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:52
+#: ../../tools/templates/download.html:52
 msgid "(ca. 7.5 MB)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:57
+#: ../../tools/templates/download.html:57
 msgid "(ca. 5 MB)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:61
+#: ../../tools/templates/download.html:61
 msgid "Plain Text"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:65
+#: ../../tools/templates/download.html:65
 msgid "(ca. 2.5 MB)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:70
+#: ../../tools/templates/download.html:70
 msgid "(ca. 2 MB)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:75
+#: ../../tools/templates/download.html:75
 msgid "These archives contain all the content in the\n"
 "documentation."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:78
+#: ../../tools/templates/download.html:78
 msgid "HTML Help\n"
 "(<tt>.chm</tt>) files are made available in the \"Files\" section\n"
 "on the <a href=\"%(download_page)s\">Python download page</a>."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:83
+#: ../../tools/templates/download.html:83
 msgid "Unpacking"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:85
+#: ../../tools/templates/download.html:85
 msgid "Unix users should download the .tar.bz2 archives; these\n"
 "are bzipped tar archives and can be handled in the usual way using tar\n"
 "and the bzip2 program. The <a href=\"http://www.info-zip.org\">InfoZIP</a> unzip\n"
@@ -118,271 +118,271 @@ msgid "Unix users should download the .tar.bz2 archives; these\n"
 "times."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:92
+#: ../../tools/templates/download.html:92
 msgid "Windows users can use the ZIP archives since those are\n"
 "customary on that platform. These are created on Unix using the\n"
 "InfoZIP zip program."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:97
+#: ../../tools/templates/download.html:97
 msgid "Problems"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/download.html:99
+#: ../../tools/templates/download.html:99
 msgid "If you have comments or suggestions for the Python\n"
 "documentation, please send email to\n"
 "<a href=\"mailto:docs@python.org\">docs@python.org</a>."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:6
+#: ../../tools/templates/indexcontent.html:6
 msgid "Welcome! This is the documentation for Python %(release)s."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:8
+#: ../../tools/templates/indexcontent.html:8
 msgid "Parts of the documentation:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:11
+#: ../../tools/templates/indexcontent.html:11
 msgid "What's new in Python %(version)s?"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:12
+#: ../../tools/templates/indexcontent.html:12
 msgid "or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents</a> since 2.0"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:13
+#: ../../tools/templates/indexcontent.html:13
 msgid "Tutorial"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:14
+#: ../../tools/templates/indexcontent.html:14
 msgid "start here"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:15
+#: ../../tools/templates/indexcontent.html:15
 msgid "Library Reference"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:16
+#: ../../tools/templates/indexcontent.html:16
 msgid "keep this under your pillow"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:17
+#: ../../tools/templates/indexcontent.html:17
 msgid "Language Reference"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:18
+#: ../../tools/templates/indexcontent.html:18
 msgid "describes syntax and language elements"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:19
+#: ../../tools/templates/indexcontent.html:19
 msgid "Python Setup and Usage"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:20
+#: ../../tools/templates/indexcontent.html:20
 msgid "how to use Python on different platforms"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:21
+#: ../../tools/templates/indexcontent.html:21
 msgid "Python HOWTOs"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:22
+#: ../../tools/templates/indexcontent.html:22
 msgid "in-depth documents on specific topics"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:24
+#: ../../tools/templates/indexcontent.html:24
 msgid "Installing Python Modules"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:25
+#: ../../tools/templates/indexcontent.html:25
 msgid "installing from the Python Package Index &amp; other sources"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:26
+#: ../../tools/templates/indexcontent.html:26
 msgid "Distributing Python Modules"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:27
+#: ../../tools/templates/indexcontent.html:27
 msgid "publishing modules for installation by others"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:28
+#: ../../tools/templates/indexcontent.html:28
 msgid "Extending and Embedding"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:29
+#: ../../tools/templates/indexcontent.html:29
 msgid "tutorial for C/C++ programmers"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:30
+#: ../../tools/templates/indexcontent.html:30
 msgid "Python/C API"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:31
+#: ../../tools/templates/indexcontent.html:31
 msgid "reference for C/C++ programmers"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:32
+#: ../../tools/templates/indexcontent.html:32
 msgid "FAQs"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:33
+#: ../../tools/templates/indexcontent.html:33
 msgid "frequently asked questions (with answers!)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:37
+#: ../../tools/templates/indexcontent.html:37
 msgid "Indices and tables:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:40
+#: ../../tools/templates/indexcontent.html:40
 msgid "Global Module Index"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:41
+#: ../../tools/templates/indexcontent.html:41
 msgid "quick access to all modules"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:42
+#: ../../tools/templates/indexcontent.html:42
 msgid "General Index"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:43
+#: ../../tools/templates/indexcontent.html:43
 msgid "all functions, classes, terms"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:44
+#: ../../tools/templates/indexcontent.html:44
 msgid "Glossary"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:45
+#: ../../tools/templates/indexcontent.html:45
 msgid "the most important terms explained"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:47
+#: ../../tools/templates/indexcontent.html:47
 msgid "Search page"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:48
+#: ../../tools/templates/indexcontent.html:48
 msgid "search this documentation"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:49
+#: ../../tools/templates/indexcontent.html:49
 msgid "Complete Table of Contents"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:50
+#: ../../tools/templates/indexcontent.html:50
 msgid "lists all sections and subsections"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:54
+#: ../../tools/templates/indexcontent.html:54
 msgid "Meta information:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:57
+#: ../../tools/templates/indexcontent.html:57
 msgid "Reporting bugs"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:58
+#: ../../tools/templates/indexcontent.html:58
 msgid "About the documentation"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:60
+#: ../../tools/templates/indexcontent.html:60
 msgid "History and License of Python"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexcontent.html:61
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:30
+#: ../../tools/templates/indexcontent.html:61
+#: ../../tools/templates/layout.html:30
 msgid "Copyright"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:2
+#: ../../tools/templates/indexsidebar.html:2
 msgid "Download these documents"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:3
+#: ../../tools/templates/indexsidebar.html:3
 msgid "Docs by version"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:5
+#: ../../tools/templates/indexsidebar.html:5
 msgid "Python 3.9 (in development)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:6
+#: ../../tools/templates/indexsidebar.html:6
 msgid "Python 3.8 (stable)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:7
+#: ../../tools/templates/indexsidebar.html:7
 msgid "Python 3.7 (stable)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:8
+#: ../../tools/templates/indexsidebar.html:8
 msgid "Python 3.6 (security-fixes)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:9
+#: ../../tools/templates/indexsidebar.html:9
 msgid "Python 3.5 (security-fixes)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:10
+#: ../../tools/templates/indexsidebar.html:10
 msgid "Python 2.7 (EOL)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:11
+#: ../../tools/templates/indexsidebar.html:11
 msgid "All versions"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:14
+#: ../../tools/templates/indexsidebar.html:14
 msgid "Other resources"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:17
+#: ../../tools/templates/indexsidebar.html:17
 msgid "PEP Index"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:18
+#: ../../tools/templates/indexsidebar.html:18
 msgid "Beginner's Guide"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:19
+#: ../../tools/templates/indexsidebar.html:19
 msgid "Book List"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/indexsidebar.html:20
+#: ../../tools/templates/indexsidebar.html:20
 msgid "Audio/Visual Talks"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:9
+#: ../../tools/templates/layout.html:9
 msgid "Documentation"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:32
+#: ../../tools/templates/layout.html:32
 msgid "The Python Software Foundation is a non-profit corporation."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:33
+#: ../../tools/templates/layout.html:33
 msgid "Please donate."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:35
+#: ../../tools/templates/layout.html:35
 msgid "Last updated on %(last_update)s."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:36
+#: ../../tools/templates/layout.html:36
 msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:38
+#: ../../tools/templates/layout.html:38
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:42
+#: ../../tools/templates/layout.html:42
 msgid "This Page"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:44
+#: ../../tools/templates/layout.html:44
 msgid "Report a Bug"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/tools/templates/layout.html:46
+#: ../../tools/templates/layout.html:46
 msgid "Show Source"
 msgstr ""

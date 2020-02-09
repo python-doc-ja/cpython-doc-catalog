@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:32+0900\n"
+"POT-Creation-Date: 2020-02-09 18:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sun.rst:6
+#: ../../library/sun.rst:6
 msgid "SunOS Specific Services"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/sun.rst:8
+#: ../../library/sun.rst:8
 msgid "The modules described in this chapter provide interfaces to features that are unique to SunOS 5 (also known as Solaris version 2)."
 msgstr ""
