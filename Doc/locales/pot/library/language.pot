@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:39+0900\n"
+"POT-Creation-Date: 2020-02-09 18:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/language.rst:5
+#: ../../library/language.rst:5
 msgid "Python Language Services"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/language.rst:7
+#: ../../library/language.rst:7
 msgid "Python provides a number of modules to assist in working with the Python language.  These modules support tokenizing, parsing, syntax analysis, bytecode disassembly, and various other facilities."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/language.rst:11
+#: ../../library/language.rst:11
 msgid "These modules include:"
 msgstr ""

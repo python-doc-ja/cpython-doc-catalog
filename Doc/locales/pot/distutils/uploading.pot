@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:39+0900\n"
+"POT-Creation-Date: 2020-02-09 18:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/uploading.rst:5
+#: ../../distutils/uploading.rst:5
 msgid "Uploading Packages to the Package Index"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/uploading.rst:7
+#: ../../distutils/uploading.rst:7
 msgid "The contents of this page have moved to the section :ref:`package-index`."
 msgstr ""

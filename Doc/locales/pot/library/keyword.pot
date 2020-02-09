@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:39+0900\n"
+"POT-Creation-Date: 2020-02-09 18:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:2
+#: ../../library/keyword.rst:2
 msgid ":mod:`keyword` --- Testing for Python keywords"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:7
+#: ../../library/keyword.rst:7
 msgid "**Source code:** :source:`Lib/keyword.py`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:11
+#: ../../library/keyword.rst:11
 msgid "This module allows a Python program to determine if a string is a keyword."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:16
+#: ../../library/keyword.rst:16
 msgid "Return true if *s* is a Python keyword."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/keyword.rst:21
+#: ../../library/keyword.rst:21
 msgid "Sequence containing all the keywords defined for the interpreter.  If any keywords are defined to only be active when particular :mod:`__future__` statements are in effect, these will be included as well."
 msgstr ""
