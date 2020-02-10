@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-02-10 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/packageindex.rst:7
+#: ../../distutils/packageindex.rst:7
 msgid "The Python Package Index (PyPI)"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/packageindex.rst:9
+#: ../../distutils/packageindex.rst:9
 msgid "The `Python Package Index (PyPI)`_ stores metadata describing distributions packaged with distutils and other publishing tools, as well the distribution archives themselves."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/distutils/packageindex.rst:13
+#: ../../distutils/packageindex.rst:13
 msgid "References to up to date PyPI documentation can be found at :ref:`publishing-python-packages`."
 msgstr ""

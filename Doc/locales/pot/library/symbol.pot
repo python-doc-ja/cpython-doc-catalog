@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-02-10 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/symbol.rst:2
+#: ../../library/symbol.rst:2
 msgid ":mod:`symbol` --- Constants used with Python parse trees"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/symbol.rst:9
+#: ../../library/symbol.rst:9
 msgid "**Source code:** :source:`Lib/symbol.py`"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/symbol.rst:13
+#: ../../library/symbol.rst:13
 msgid "This module provides constants which represent the numeric values of internal nodes of the parse tree.  Unlike most Python constants, these use lower-case names.  Refer to the file :file:`Grammar/Grammar` in the Python distribution for the definitions of the names in the context of the language grammar.  The specific numeric values which the names map to may change between Python versions."
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/symbol.rst:20
+#: ../../library/symbol.rst:20
 msgid "This module also provides one additional data object:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/symbol.rst:25
+#: ../../library/symbol.rst:25
 msgid "Dictionary mapping the numeric values of the constants defined in this module back to name strings, allowing more human-readable representation of parse trees to be generated."
 msgstr ""

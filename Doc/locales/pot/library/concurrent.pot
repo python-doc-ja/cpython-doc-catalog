@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 04:28+0000\n"
+"POT-Creation-Date: 2020-02-10 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrent.rst:2
+#: ../../library/concurrent.rst:2
 msgid "The :mod:`concurrent` package"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrent.rst:4
+#: ../../library/concurrent.rst:4
 msgid "Currently, there is only one module in this package:"
 msgstr ""
 
-#: /home/travis/build/python/cpython-doc-catalog/Doc/library/concurrent.rst:6
+#: ../../library/concurrent.rst:6
 msgid ":mod:`concurrent.futures` -- Launching parallel tasks"
 msgstr ""
