@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-02-11 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -471,18 +471,18 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:823
 #: ../../c-api/exceptions.rst:956
-#: ../../c-api/exceptions.rst:1004
+#: ../../c-api/exceptions.rst:1001
 msgid "C Name"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:823
-#: ../../c-api/exceptions.rst:1004
+#: ../../c-api/exceptions.rst:1001
 msgid "Python Name"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:823
 #: ../../c-api/exceptions.rst:956
-#: ../../c-api/exceptions.rst:1004
+#: ../../c-api/exceptions.rst:1001
 msgid "Notes"
 msgstr ""
 
@@ -499,7 +499,7 @@ msgstr ""
 #: ../../c-api/exceptions.rst:829
 #: ../../c-api/exceptions.rst:875
 #: ../../c-api/exceptions.rst:887
-#: ../../c-api/exceptions.rst:1006
+#: ../../c-api/exceptions.rst:1003
 msgid "\\(1)"
 msgstr ""
 
@@ -960,7 +960,7 @@ msgid "These aliases used to be separate exception types."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:968
-#: ../../c-api/exceptions.rst:1032
+#: ../../c-api/exceptions.rst:1029
 msgid "Notes:"
 msgstr ""
 
@@ -969,113 +969,109 @@ msgid "This is a base class for other standard exceptions."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:974
-msgid "This is the same as :exc:`weakref.ReferenceError`."
-msgstr ""
-
-#: ../../c-api/exceptions.rst:977
 msgid "Only defined on Windows; protect code that uses this by testing that the preprocessor macro ``MS_WINDOWS`` is defined."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:983
+#: ../../c-api/exceptions.rst:980
 msgid "Standard Warning Categories"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:985
+#: ../../c-api/exceptions.rst:982
 msgid "All standard Python warning categories are available as global variables whose names are ``PyExc_`` followed by the Python exception name. These have the type :c:type:`PyObject\\*`; they are all class objects. For completeness, here are all the variables:"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1006
+#: ../../c-api/exceptions.rst:1003
 msgid ":c:data:`PyExc_Warning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1006
+#: ../../c-api/exceptions.rst:1003
 msgid ":exc:`Warning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1008
+#: ../../c-api/exceptions.rst:1005
 msgid ":c:data:`PyExc_BytesWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1008
+#: ../../c-api/exceptions.rst:1005
 msgid ":exc:`BytesWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1010
+#: ../../c-api/exceptions.rst:1007
 msgid ":c:data:`PyExc_DeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1010
+#: ../../c-api/exceptions.rst:1007
 msgid ":exc:`DeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1012
+#: ../../c-api/exceptions.rst:1009
 msgid ":c:data:`PyExc_FutureWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1012
+#: ../../c-api/exceptions.rst:1009
 msgid ":exc:`FutureWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1014
+#: ../../c-api/exceptions.rst:1011
 msgid ":c:data:`PyExc_ImportWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1014
+#: ../../c-api/exceptions.rst:1011
 msgid ":exc:`ImportWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1016
+#: ../../c-api/exceptions.rst:1013
 msgid ":c:data:`PyExc_PendingDeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1016
+#: ../../c-api/exceptions.rst:1013
 msgid ":exc:`PendingDeprecationWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1018
+#: ../../c-api/exceptions.rst:1015
 msgid ":c:data:`PyExc_ResourceWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1018
+#: ../../c-api/exceptions.rst:1015
 msgid ":exc:`ResourceWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1020
+#: ../../c-api/exceptions.rst:1017
 msgid ":c:data:`PyExc_RuntimeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1020
+#: ../../c-api/exceptions.rst:1017
 msgid ":exc:`RuntimeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1022
+#: ../../c-api/exceptions.rst:1019
 msgid ":c:data:`PyExc_SyntaxWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1022
+#: ../../c-api/exceptions.rst:1019
 msgid ":exc:`SyntaxWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1024
+#: ../../c-api/exceptions.rst:1021
 msgid ":c:data:`PyExc_UnicodeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1024
+#: ../../c-api/exceptions.rst:1021
 msgid ":exc:`UnicodeWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1026
+#: ../../c-api/exceptions.rst:1023
 msgid ":c:data:`PyExc_UserWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1026
+#: ../../c-api/exceptions.rst:1023
 msgid ":exc:`UserWarning`"
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1029
+#: ../../c-api/exceptions.rst:1026
 msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""
 
-#: ../../c-api/exceptions.rst:1035
+#: ../../c-api/exceptions.rst:1032
 msgid "This is a base class for other standard warning categories."
 msgstr ""
