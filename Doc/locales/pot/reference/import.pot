@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-02-11 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -581,7 +581,7 @@ msgid ":meth:`~importlib.abc.PathEntryFinder.find_spec` takes two arguments: the
 msgstr ""
 
 #: ../../reference/import.rst:858
-msgid "To indicate to the import machinery that the spec represents a namespace :term:`portion`. the path entry finder sets \"loader\" on the spec to ``None`` and \"submodule_search_locations\" to a list containing the portion."
+msgid "To indicate to the import machinery that the spec represents a namespace :term:`portion`, the path entry finder sets \"loader\" on the spec to ``None`` and \"submodule_search_locations\" to a list containing the portion."
 msgstr ""
 
 #: ../../reference/import.rst:863
