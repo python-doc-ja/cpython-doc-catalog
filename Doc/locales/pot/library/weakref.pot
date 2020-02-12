@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-02-12 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,118 +220,114 @@ msgstr ""
 msgid "Sequence containing all the type objects for proxies.  This can make it simpler to test if an object is a proxy without being dependent on naming both proxy types."
 msgstr ""
 
-#: ../../library/weakref.rst:328
-msgid "Exception raised when a proxy object is used but the underlying object has been collected.  This is the same as the standard :exc:`ReferenceError` exception."
-msgstr ""
-
-#: ../../library/weakref.rst:335
+#: ../../library/weakref.rst:329
 msgid ":pep:`205` - Weak References"
 msgstr ""
 
-#: ../../library/weakref.rst:335
+#: ../../library/weakref.rst:329
 msgid "The proposal and rationale for this feature, including links to earlier implementations and information about similar features in other languages."
 msgstr ""
 
-#: ../../library/weakref.rst:342
+#: ../../library/weakref.rst:336
 msgid "Weak Reference Objects"
 msgstr ""
 
-#: ../../library/weakref.rst:344
+#: ../../library/weakref.rst:338
 msgid "Weak reference objects have no methods and no attributes besides :attr:`ref.__callback__`. A weak reference object allows the referent to be obtained, if it still exists, by calling it:"
 msgstr ""
 
-#: ../../library/weakref.rst:358
+#: ../../library/weakref.rst:352
 msgid "If the referent no longer exists, calling the reference object returns :const:`None`:"
 msgstr ""
 
-#: ../../library/weakref.rst:365
+#: ../../library/weakref.rst:359
 msgid "Testing that a weak reference object is still live should be done using the expression ``ref() is not None``.  Normally, application code that needs to use a reference object should follow this pattern::"
 msgstr ""
 
-#: ../../library/weakref.rst:378
+#: ../../library/weakref.rst:372
 msgid "Using a separate test for \"liveness\" creates race conditions in threaded applications; another thread can cause a weak reference to become invalidated before the weak reference is called; the idiom shown above is safe in threaded applications as well as single-threaded applications."
 msgstr ""
 
-#: ../../library/weakref.rst:383
+#: ../../library/weakref.rst:377
 msgid "Specialized versions of :class:`ref` objects can be created through subclassing. This is used in the implementation of the :class:`WeakValueDictionary` to reduce the memory overhead for each entry in the mapping.  This may be most useful to associate additional information with a reference, but could also be used to insert additional processing on calls to retrieve the referent."
 msgstr ""
 
-#: ../../library/weakref.rst:389
+#: ../../library/weakref.rst:383
 msgid "This example shows how a subclass of :class:`ref` can be used to store additional information about an object and affect the value that's returned when the referent is accessed::"
 msgstr ""
 
-#: ../../library/weakref.rst:416
+#: ../../library/weakref.rst:410
 msgid "Example"
 msgstr ""
 
-#: ../../library/weakref.rst:418
+#: ../../library/weakref.rst:412
 msgid "This simple example shows how an application can use object IDs to retrieve objects that it has seen before.  The IDs of the objects can then be used in other data structures without forcing the objects to remain alive, but the objects can still be retrieved by ID if they do."
 msgstr ""
 
-#: ../../library/weakref.rst:443
+#: ../../library/weakref.rst:437
 msgid "Finalizer Objects"
 msgstr ""
 
-#: ../../library/weakref.rst:445
+#: ../../library/weakref.rst:439
 msgid "The main benefit of using :class:`finalize` is that it makes it simple to register a callback without needing to preserve the returned finalizer object.  For instance"
 msgstr ""
 
-#: ../../library/weakref.rst:459
+#: ../../library/weakref.rst:453
 msgid "The finalizer can be called directly as well.  However the finalizer will invoke the callback at most once."
 msgstr ""
 
-#: ../../library/weakref.rst:475
+#: ../../library/weakref.rst:469
 msgid "You can unregister a finalizer using its :meth:`~finalize.detach` method.  This kills the finalizer and returns the arguments passed to the constructor when it was created."
 msgstr ""
 
-#: ../../library/weakref.rst:489
+#: ../../library/weakref.rst:483
 msgid "Unless you set the :attr:`~finalize.atexit` attribute to :const:`False`, a finalizer will be called when the program exits if it is still alive.  For instance"
 msgstr ""
 
-#: ../../library/weakref.rst:504
+#: ../../library/weakref.rst:498
 msgid "Comparing finalizers with :meth:`__del__` methods"
 msgstr ""
 
-#: ../../library/weakref.rst:506
+#: ../../library/weakref.rst:500
 msgid "Suppose we want to create a class whose instances represent temporary directories.  The directories should be deleted with their contents when the first of the following events occurs:"
 msgstr ""
 
-#: ../../library/weakref.rst:510
+#: ../../library/weakref.rst:504
 msgid "the object is garbage collected,"
 msgstr ""
 
-#: ../../library/weakref.rst:511
+#: ../../library/weakref.rst:505
 msgid "the object's :meth:`remove` method is called, or"
 msgstr ""
 
-#: ../../library/weakref.rst:512
+#: ../../library/weakref.rst:506
 msgid "the program exits."
 msgstr ""
 
-#: ../../library/weakref.rst:514
+#: ../../library/weakref.rst:508
 msgid "We might try to implement the class using a :meth:`__del__` method as follows::"
 msgstr ""
 
-#: ../../library/weakref.rst:533
+#: ../../library/weakref.rst:527
 msgid "Starting with Python 3.4, :meth:`__del__` methods no longer prevent reference cycles from being garbage collected, and module globals are no longer forced to :const:`None` during :term:`interpreter shutdown`. So this code should work without any issues on CPython."
 msgstr ""
 
-#: ../../library/weakref.rst:538
+#: ../../library/weakref.rst:532
 msgid "However, handling of :meth:`__del__` methods is notoriously implementation specific, since it depends on internal details of the interpreter's garbage collector implementation."
 msgstr ""
 
-#: ../../library/weakref.rst:542
+#: ../../library/weakref.rst:536
 msgid "A more robust alternative can be to define a finalizer which only references the specific functions and objects that it needs, rather than having access to the full state of the object::"
 msgstr ""
 
-#: ../../library/weakref.rst:558
+#: ../../library/weakref.rst:552
 msgid "Defined like this, our finalizer only receives a reference to the details it needs to clean up the directory appropriately. If the object never gets garbage collected the finalizer will still be called at exit."
 msgstr ""
 
-#: ../../library/weakref.rst:562
+#: ../../library/weakref.rst:556
 msgid "The other advantage of weakref based finalizers is that they can be used to register finalizers for classes where the definition is controlled by a third party, such as running code when a module is unloaded::"
 msgstr ""
 
-#: ../../library/weakref.rst:574
+#: ../../library/weakref.rst:568
 msgid "If you create a finalizer object in a daemonic thread just as the program exits then there is the possibility that the finalizer does not get called at exit.  However, in a daemonic thread :func:`atexit.register`, ``try: ... finally: ...`` and ``with: ...`` do not guarantee that cleanup occurs either."
 msgstr ""
