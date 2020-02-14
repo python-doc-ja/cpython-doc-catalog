@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-11 18:50+0900\n"
+"POT-Creation-Date: 2020-02-14 18:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,7 +367,7 @@ msgid "Functions defined with ``async def`` syntax are always coroutine function
 msgstr ""
 
 #: ../../reference/compound_stmts.rst:732
-msgid "It is a :exc:`SyntaxError` to use ``yield from`` expressions in ``async def`` coroutines. Using ``await`` in :keyword:`f-strings` will also produce a :exc:`SyntaxError`."
+msgid "It is a :exc:`SyntaxError` to use ``yield from`` expressions in ``async def`` coroutines."
 msgstr ""
 
 #: ../../reference/compound_stmts.rst:735
