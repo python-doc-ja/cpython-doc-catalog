@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-02-26 12:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,7 +115,7 @@ msgid "Like ``s*``, but the Python object may also be ``None``, in which case th
 msgstr ""
 
 #: ../../c-api/arg.rst:110
-msgid "``z#`` (:class:`str`, read-only :term:`bytes-like object` or ``None``) [const char \\*, int]"
+msgid "``z#`` (:class:`str`, read-only :term:`bytes-like object` or ``None``) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:109
@@ -143,7 +143,7 @@ msgid "This variant on ``s*`` doesn't accept Unicode objects, only bytes-like ob
 msgstr ""
 
 #: ../../c-api/arg.rst:129
-msgid "``y#`` (read-only :term:`bytes-like object`) [const char \\*, int]"
+msgid "``y#`` (read-only :term:`bytes-like object`) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:128
@@ -182,7 +182,7 @@ msgid "Part of the old-style :c:type:`Py_UNICODE` API; please migrate to using :
 msgstr ""
 
 #: ../../c-api/arg.rst:165
-msgid "``u#`` (:class:`str`) [const Py_UNICODE \\*, int]"
+msgid "``u#`` (:class:`str`) [const Py_UNICODE \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:159
@@ -198,7 +198,7 @@ msgid "Like ``u``, but the Python object may also be ``None``, in which case the
 msgstr ""
 
 #: ../../c-api/arg.rst:181
-msgid "``Z#`` (:class:`str` or ``None``) [const Py_UNICODE \\*, int]"
+msgid "``Z#`` (:class:`str` or ``None``) [const Py_UNICODE \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:176
@@ -246,7 +246,7 @@ msgid "Same as ``es`` except that byte string objects are passed through without
 msgstr ""
 
 #: ../../c-api/arg.rst:245
-msgid "``es#`` (:class:`str`) [const char \\*encoding, char \\*\\*buffer, int \\*buffer_length]"
+msgid "``es#`` (:class:`str`) [const char \\*encoding, char \\*\\*buffer, int or :c:type:`Py_ssize_t` \\*buffer_length]"
 msgstr ""
 
 #: ../../c-api/arg.rst:217
@@ -274,7 +274,7 @@ msgid "In both cases, *\\*buffer_length* is set to the length of the encoded dat
 msgstr ""
 
 #: ../../c-api/arg.rst:250
-msgid "``et#`` (:class:`str`, :class:`bytes` or :class:`bytearray`) [const char \\*encoding, char \\*\\*buffer, int \\*buffer_length]"
+msgid "``et#`` (:class:`str`, :class:`bytes` or :class:`bytearray`) [const char \\*encoding, char \\*\\*buffer, int or :c:type:`Py_ssize_t` \\*buffer_length]"
 msgstr ""
 
 #: ../../c-api/arg.rst:248
@@ -618,7 +618,7 @@ msgid "Convert a null-terminated C string to a Python :class:`str` object using 
 msgstr ""
 
 #: ../../c-api/arg.rst:555
-msgid "``s#`` (:class:`str` or ``None``) [const char \\*, int]"
+msgid "``s#`` (:class:`str` or ``None``) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:553
@@ -634,7 +634,7 @@ msgid "This converts a C string to a Python :class:`bytes` object.  If the C str
 msgstr ""
 
 #: ../../c-api/arg.rst:563
-msgid "``y#`` (:class:`bytes`) [const char \\*, int]"
+msgid "``y#`` (:class:`bytes`) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:562
@@ -647,7 +647,7 @@ msgid "Same as ``s``."
 msgstr ""
 
 #: ../../c-api/arg.rst:569
-msgid "``z#`` (:class:`str` or ``None``) [const char \\*, int]"
+msgid "``z#`` (:class:`str` or ``None``) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:569
@@ -664,7 +664,7 @@ msgid "Convert a null-terminated :c:type:`wchar_t` buffer of Unicode (UTF-16 or 
 msgstr ""
 
 #: ../../c-api/arg.rst:579
-msgid "``u#`` (:class:`str`) [const wchar_t \\*, int]"
+msgid "``u#`` (:class:`str`) [const wchar_t \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:577
@@ -676,7 +676,7 @@ msgid "``U`` (:class:`str` or ``None``) [const char \\*]"
 msgstr ""
 
 #: ../../c-api/arg.rst:585
-msgid "``U#`` (:class:`str` or ``None``) [const char \\*, int]"
+msgid "``U#`` (:class:`str` or ``None``) [const char \\*, int or :c:type:`Py_ssize_t`]"
 msgstr ""
 
 #: ../../c-api/arg.rst:588
