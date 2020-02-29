@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-21 12:45+0000\n"
+"POT-Creation-Date: 2020-02-29 12:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgid "Most built-in types implement the following options for format specificat
 msgstr ""
 
 #: ../../library/string.rst:305
-msgid "A general convention is that an empty format string (``\"\"``) produces the same result as if you had called :func:`str` on the value. A non-empty format string typically modifies the result."
+msgid "A general convention is that an empty format specification produces the same result as if you had called :func:`str` on the value. A non-empty format specification typically modifies the result."
 msgstr ""
 
 #: ../../library/string.rst:309
