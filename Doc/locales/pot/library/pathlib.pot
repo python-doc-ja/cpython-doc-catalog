@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-03-05 04:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -357,7 +357,7 @@ msgid "Return a new path object representing the user's home directory (as retur
 msgstr ""
 
 #: ../../library/pathlib.rst:665
-msgid "Return information about this path (similarly to :func:`os.stat`). The result is looked up at each call to this method."
+msgid "Return a :class:`os.stat_result` object containing information about this path, like :func:`os.stat`. The result is looked up at each call to this method."
 msgstr ""
 
 #: ../../library/pathlib.rst:679
