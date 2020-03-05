@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-19 12:45+0000\n"
+"POT-Creation-Date: 2020-03-05 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,7 +606,7 @@ msgid "By default, all keys must be present in a TypedDict. It is possible to ov
 msgstr ""
 
 #: ../../library/typing.rst:1007
-msgid "This means that a point2D TypedDict can have any of the keys omitted.A type checker is only expected to support a literal False or True as the value of the total argument. True is the default, and makes all items defined in the class body be required."
+msgid "This means that a point2D TypedDict can have any of the keys omitted. A type checker is only expected to support a literal False or True as the value of the total argument. True is the default, and makes all items defined in the class body be required."
 msgstr ""
 
 #: ../../library/typing.rst:1012
