@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-03-15 05:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgid "**Source code:** :source:`Lib/keyword.py`"
 msgstr ""
 
 #: ../../library/keyword.rst:11
-msgid "This module allows a Python program to determine if a string is a keyword."
+msgid "This module allows a Python program to determine if a string is a :ref:`keyword <keywords>`."
 msgstr ""
 
-#: ../../library/keyword.rst:16
-msgid "Return ``True`` if *s* is a Python keyword."
+#: ../../library/keyword.rst:17
+msgid "Return ``True`` if *s* is a Python :ref:`keyword <keywords>`."
 msgstr ""
 
-#: ../../library/keyword.rst:21
-msgid "Sequence containing all the keywords defined for the interpreter.  If any keywords are defined to only be active when particular :mod:`__future__` statements are in effect, these will be included as well."
+#: ../../library/keyword.rst:22
+msgid "Sequence containing all the :ref:`keywords <keywords>` defined for the interpreter.  If any keywords are defined to only be active when particular :mod:`__future__` statements are in effect, these will be included as well."
 msgstr ""
