@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-03-31 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Mailcap files are used to configure how MIME-aware applications such as m
 msgstr ""
 
 #: ../../library/mailcap.rst:20
-msgid "The mailcap format is documented in :rfc:`1524`, \"A User Agent Configuration Mechanism For Multimedia Mail Format Information,\" but is not an Internet standard.  However, mailcap files are supported on most Unix systems."
+msgid "The mailcap format is documented in :rfc:`1524`, \"A User Agent Configuration Mechanism For Multimedia Mail Format Information\", but is not an Internet standard.  However, mailcap files are supported on most Unix systems."
 msgstr ""
 
 #: ../../library/mailcap.rst:27

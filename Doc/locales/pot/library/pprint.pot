@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-03-31 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgid "Prints the formatted representation of *object* on *stream*, followed by 
 msgstr ""
 
 #: ../../library/pprint.rst:123
-msgid "Determine if the formatted representation of *object* is \"readable,\" or can be used to reconstruct the value using :func:`eval`.  This always returns ``False`` for recursive objects."
+msgid "Determine if the formatted representation of *object* is \"readable\", or can be used to reconstruct the value using :func:`eval`.  This always returns ``False`` for recursive objects."
 msgstr ""
 
 #: ../../library/pprint.rst:133

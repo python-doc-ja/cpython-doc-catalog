@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 13:19+0000\n"
+"POT-Creation-Date: 2020-03-31 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Objects, values and types"
 msgstr ""
 
 #: ../../reference/datamodel.rst:18
-msgid ":dfn:`Objects` are Python's abstraction for data.  All data in a Python program is represented by objects or by relations between objects. (In a sense, and in conformance to Von Neumann's model of a \"stored program computer,\" code is also represented by objects.)"
+msgid ":dfn:`Objects` are Python's abstraction for data.  All data in a Python program is represented by objects or by relations between objects. (In a sense, and in conformance to Von Neumann's model of a \"stored program computer\", code is also represented by objects.)"
 msgstr ""
 
 #: ../../reference/datamodel.rst:35
