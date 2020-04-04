@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 18:48+0900\n"
+"POT-Creation-Date: 2020-04-04 11:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,7 +213,7 @@ msgid "Instance Objects"
 msgstr ""
 
 #: ../../tutorial/classes.rst:324
-msgid "Now what can we do with instance objects?  The only operations understood by instance objects are attribute references.  There are two kinds of valid attribute names, data attributes and methods."
+msgid "Now what can we do with instance objects?  The only operations understood by instance objects are attribute references.  There are two kinds of valid attribute names: data attributes and methods."
 msgstr ""
 
 #: ../../tutorial/classes.rst:328
