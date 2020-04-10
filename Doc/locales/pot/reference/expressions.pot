@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-05 13:26+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1257,3 +1257,4 @@ msgstr ""
 #: ../../reference/expressions.rst:1887
 msgid "The power operator ``**`` binds less tightly than an arithmetic or bitwise unary operator on its right, that is, ``2**-1`` is ``0.5``."
 msgstr ""
+

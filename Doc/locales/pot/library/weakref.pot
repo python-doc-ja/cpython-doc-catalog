@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-12 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -331,3 +331,4 @@ msgstr ""
 #: ../../library/weakref.rst:568
 msgid "If you create a finalizer object in a daemonic thread just as the program exits then there is the possibility that the finalizer does not get called at exit.  However, in a daemonic thread :func:`atexit.register`, ``try: ... finally: ...`` and ``with: ...`` do not guarantee that cleanup occurs either."
 msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,3 +135,4 @@ msgstr ""
 #: ../../library/email.utils.rst:216
 msgid "Note that the sign of the timezone offset is the opposite of the sign of the ``time.timezone`` variable for the same timezone; the latter variable follows the POSIX standard while this module follows :rfc:`2822`."
 msgstr ""
+

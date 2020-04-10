@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -339,3 +339,4 @@ msgstr ""
 #: ../../library/nntplib.rst:557
 msgid "Decode a header value, un-escaping any escaped non-ASCII characters. *header_str* must be a :class:`str` object.  The unescaped value is returned.  Using this function is recommended to display some headers in a human readable form::"
 msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -605,3 +605,4 @@ msgstr ""
 #: ../../library/itertools.rst:903
 msgid "Note, many of the above recipes can be optimized by replacing global lookups with local variables defined as default values.  For example, the *dotproduct* recipe can be written as::"
 msgstr ""
+

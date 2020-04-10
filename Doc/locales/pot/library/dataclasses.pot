@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -388,3 +388,4 @@ msgstr ""
 #: ../../library/dataclasses.rst:591
 msgid "Raised when an implicitly defined :meth:`__setattr__` or :meth:`__delattr__` is called on a dataclass which was defined with ``frozen=True``."
 msgstr ""
+

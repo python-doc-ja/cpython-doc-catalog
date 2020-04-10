@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,3 +99,4 @@ msgstr ""
 #: ../../library/reprlib.rst:147
 msgid "The use of dynamic dispatching by :meth:`Repr.repr1` allows subclasses of :class:`Repr` to add support for additional built-in object types or to modify the handling of types already supported. This example shows how special support for file objects could be added::"
 msgstr ""
+

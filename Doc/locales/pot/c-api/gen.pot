@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,3 +47,4 @@ msgstr ""
 #: ../../c-api/gen.rst:41
 msgid "Create and return a new generator object based on the *frame* object, with ``__name__`` and ``__qualname__`` set to *name* and *qualname*. A reference to *frame* is stolen by this function.  The *frame* argument must not be ``NULL``."
 msgstr ""
+

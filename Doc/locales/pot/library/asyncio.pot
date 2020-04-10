@@ -8,28 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../../library/asyncio.rst:66
-#: ../../library/asyncio.rst:66
-msgid "High-level APIs"
-msgstr ""
-
-#: ../../library/asyncio.rst:77
-#: ../../library/asyncio.rst:77
-msgid "Low-level APIs"
-msgstr ""
-
-#: ../../library/asyncio.rst:87
-#: ../../library/asyncio.rst:87
-msgid "Guides and Tutorials"
-msgstr ""
 
 #: ../../library/asyncio.rst:2
 msgid ":mod:`asyncio` --- Asynchronous I/O"
@@ -94,3 +79,16 @@ msgstr ""
 #: ../../library/asyncio.rst:65
 msgid "Reference"
 msgstr ""
+
+#: ../../library/asyncio.rst:66
+msgid "High-level APIs"
+msgstr ""
+
+#: ../../library/asyncio.rst:77
+msgid "Low-level APIs"
+msgstr ""
+
+#: ../../library/asyncio.rst:87
+msgid "Guides and Tutorials"
+msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,3 +63,4 @@ msgstr ""
 #: ../../library/rlcompleter.rst:56
 msgid "If called for a dotted name, it will try to evaluate anything without obvious side-effects (functions will not be evaluated, but it can generate calls to :meth:`__getattr__`) up to the last part, and find matches for the rest via the :func:`dir` function.  Any exception raised during the evaluation of the expression is caught, silenced and :const:`None` is returned."
 msgstr ""
+

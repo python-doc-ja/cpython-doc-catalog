@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -736,3 +736,4 @@ msgstr ""
 #: ../../library/typing.rst:1139
 msgid "Note that the first type annotation must be enclosed in quotes, making it a \"forward reference\", to hide the ``expensive_mod`` reference from the interpreter runtime.  Type annotations for local variables are not evaluated, so the second annotation does not need to be enclosed in quotes."
 msgstr ""
+

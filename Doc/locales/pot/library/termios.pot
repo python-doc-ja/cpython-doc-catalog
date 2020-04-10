@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,3 +75,4 @@ msgstr ""
 #: ../../library/termios.rst:88
 msgid "Here's a function that prompts for a password with echoing turned off.  Note the technique using a separate :func:`tcgetattr` call and a :keyword:`try` ... :keyword:`finally` statement to ensure that the old tty attributes are restored exactly no matter what happens::"
 msgstr ""
+

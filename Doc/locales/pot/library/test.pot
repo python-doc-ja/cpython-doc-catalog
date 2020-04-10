@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -970,3 +970,4 @@ msgstr ""
 #: ../../library/test.rst:1419
 msgid "Create a zip package directory with a path of *zip_dir* and *zip_basename* containing an empty ``__init__`` file and a file *script_basename* containing the *source*.  If *compiled* is ``True``, both source files will be compiled and added to the zip package.  Return a tuple of the full zip path and the archive name for the zip file."
 msgstr ""
+

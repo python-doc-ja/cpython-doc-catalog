@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,3 +195,4 @@ msgstr ""
 #: ../../extending/embedding.rst:318
 msgid "If this procedure doesn't work for you (it is not guaranteed to work for all Unix-like platforms; however, we welcome :ref:`bug reports <reporting-bugs>`) you will have to read your system's documentation about dynamic linking and/or examine Python's :file:`Makefile` (use :func:`sysconfig.get_makefile_filename` to find its location) and compilation options.  In this case, the :mod:`sysconfig` module is a useful tool to programmatically extract the configuration values that you will want to combine together.  For example:"
 msgstr ""
+

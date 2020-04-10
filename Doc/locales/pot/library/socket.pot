@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1149,3 +1149,4 @@ msgstr ""
 #: ../../library/socket.rst:1873
 msgid "both in the UNIX Programmer's Manual, Supplementary Documents 1 (sections PS1:7 and PS1:8).  The platform-specific reference material for the various socket-related system calls are also a valuable source of information on the details of socket semantics.  For Unix, refer to the manual pages; for Windows, see the WinSock (or Winsock 2) specification.  For IPv6-ready APIs, readers may want to refer to :rfc:`3493` titled Basic Socket Interface Extensions for IPv6."
 msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,3 +63,4 @@ msgstr ""
 #: ../../distutils/extending.rst:90
 msgid "Commands that create distributions (files in the :file:`dist/` directory) need to add ``(command, filename)`` pairs to ``self.distribution.dist_files`` so that :command:`upload` can upload it to PyPI.  The *filename* in the pair contains no path information, only the name of the file itself.  In dry-run mode, pairs should still be added to represent what would have been created."
 msgstr ""
+

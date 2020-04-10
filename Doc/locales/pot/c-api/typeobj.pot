@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 04:58+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -985,3 +985,4 @@ msgstr ""
 #: ../../c-api/typeobj.rst:1429
 msgid "Must return an :term:`awaitable` object.  See :meth:`__anext__` for details. This slot may be set to ``NULL``."
 msgstr ""
+

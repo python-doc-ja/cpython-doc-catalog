@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -639,3 +639,4 @@ msgstr ""
 #: ../../library/unittest.mock-examples.rst:1262
 msgid "As of version 1.5, the Python testing library `PyHamcrest <https://pyhamcrest.readthedocs.io/>`_ provides similar functionality, that may be useful here, in the form of its equality matcher (`hamcrest.library.integration.match_equality <https://pyhamcrest.readthedocs.io/en/release-1.8/integration/#module-hamcrest.library.integration.match_equality>`_)."
 msgstr ""
+

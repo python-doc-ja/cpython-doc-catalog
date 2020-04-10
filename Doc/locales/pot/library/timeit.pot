@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,3 +226,4 @@ msgstr ""
 #: ../../library/timeit.rst:359
 msgid "Another option is to pass :func:`globals` to the  *globals* parameter, which will cause the code to be executed within your current global namespace.  This can be more convenient than individually specifying imports::"
 msgstr ""
+

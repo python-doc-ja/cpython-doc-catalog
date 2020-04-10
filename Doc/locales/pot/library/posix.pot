@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,3 +71,4 @@ msgstr ""
 #: ../../library/posix.rst:88
 msgid "The :mod:`os` module provides an alternate implementation of ``environ`` which updates the environment on modification. Note also that updating :data:`os.environ` will render this dictionary obsolete. Use of the :mod:`os` module version of this is recommended over direct access to the :mod:`posix` module."
 msgstr ""
+

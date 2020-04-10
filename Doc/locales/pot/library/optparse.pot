@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1657,3 +1657,4 @@ msgstr ""
 #: ../../library/optparse.rst:2029
 msgid "If the ``attr`` attribute of ``values`` doesn't exist or is ``None``, then ensure_value() first sets it to ``value``, and then returns 'value. This is very handy for actions like ``\"extend\"``, ``\"append\"``, and ``\"count\"``, all of which accumulate data in a variable and expect that variable to be of a certain type (a list for the first two, an integer for the latter).  Using :meth:`ensure_value` means that scripts using your action don't have to worry about setting a default value for the option destinations in question; they can just leave the default as ``None`` and :meth:`ensure_value` will take care of getting it right when it's needed."
 msgstr ""
+

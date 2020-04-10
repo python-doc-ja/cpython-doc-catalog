@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1681,3 +1681,4 @@ msgstr ""
 #: ../../distutils/apiref.rst:2027
 msgid "The ``check`` command performs some tests on the meta-data of a package. For example, it verifies that all required meta-data are provided as the arguments passed to the :func:`setup` function."
 msgstr ""
+

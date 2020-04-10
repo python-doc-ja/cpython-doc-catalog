@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,3 +27,4 @@ msgstr ""
 #: ../../using/editors.rst:12
 msgid "Please go to `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ and `Integrated Development Environments <https://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive list."
 msgstr ""
+

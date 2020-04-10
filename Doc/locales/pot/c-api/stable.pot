@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,3 +39,4 @@ msgstr ""
 #: ../../c-api/stable.rst:36
 msgid "As of Python 3.2, the set of functions available to the limited API is documented in :pep:`384`.  In the C API documentation, API elements that are not part of the limited API are marked as \"Not part of the limited API.\""
 msgstr ""
+

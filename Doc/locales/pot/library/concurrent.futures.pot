@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -338,3 +338,4 @@ msgstr ""
 #: ../../library/concurrent.futures.rst:489
 msgid "Derived from :exc:`~concurrent.futures.BrokenExecutor` (formerly :exc:`RuntimeError`), this exception class is raised when one of the workers of a :class:`ProcessPoolExecutor` has terminated in a non-clean fashion (for example, if it was killed from the outside)."
 msgstr ""
+

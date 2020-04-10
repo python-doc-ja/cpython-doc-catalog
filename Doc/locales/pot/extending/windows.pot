@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,3 +99,4 @@ msgstr ""
 #: ../../extending/windows.rst:133
 msgid "Developer Studio will throw in a lot of import libraries that you do not really need, adding about 100K to your executable.  To get rid of them, use the Project Settings dialog, Link tab, to specify *ignore default libraries*.  Add the correct :file:`msvcrtxx.lib` to the list of libraries."
 msgstr ""
+

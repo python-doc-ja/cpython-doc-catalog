@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -452,3 +452,4 @@ msgstr ""
 #: ../../library/warnings.rst:512
 msgid "The :class:`catch_warnings` manager works by replacing and then later restoring the module's :func:`showwarning` function and internal list of filter specifications.  This means the context manager is modifying global state and therefore is not thread-safe."
 msgstr ""
+

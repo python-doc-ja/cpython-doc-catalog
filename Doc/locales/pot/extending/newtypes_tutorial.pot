@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -507,3 +507,4 @@ msgstr ""
 #: ../../extending/newtypes_tutorial.rst:905
 msgid "Also, even with our attributes restricted to strings instances, the user could pass arbitrary :class:`str` subclasses and therefore still create reference cycles."
 msgstr ""
+

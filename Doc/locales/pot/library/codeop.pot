@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,3 +71,4 @@ msgstr ""
 #: ../../library/codeop.rst:69
 msgid "Instances of this class have :meth:`__call__` methods identical in signature to :func:`compile_command`; the difference is that if the instance compiles program text containing a ``__future__`` statement, the instance 'remembers' and compiles all subsequent program texts with the statement in force."
 msgstr ""
+

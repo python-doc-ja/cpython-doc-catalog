@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -294,3 +294,4 @@ msgstr ""
 #: ../../library/asyncio-sync.rst:330
 msgid "Acquiring a lock using ``await lock`` or ``yield from lock`` and/or :keyword:`with` statement (``with await lock``, ``with (yield from lock)``) is deprecated.  Use ``async with lock`` instead."
 msgstr ""
+

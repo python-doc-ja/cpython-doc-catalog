@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,3 +233,4 @@ msgstr ""
 #: ../../c-api/sys.rst:323
 msgid "Register a cleanup function to be called by :c:func:`Py_FinalizeEx`.  The cleanup function will be called with no arguments and should return no value.  At most 32 cleanup functions can be registered.  When the registration is successful, :c:func:`Py_AtExit` returns ``0``; on failure, it returns ``-1``.  The cleanup function registered last is called first. Each cleanup function will be called at most once.  Since Python's internal finalization will have completed before the cleanup function, no Python APIs should be called by *func*."
 msgstr ""
+

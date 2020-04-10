@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,3 +307,4 @@ msgstr ""
 #: ../../tutorial/introduction.rst:542
 msgid "Unlike other languages, special characters such as ``\\n`` have the same meaning with both single (``'...'``) and double (``\"...\"``) quotes. The only difference between the two is that within single quotes you don't need to escape ``\"`` (but you have to escape ``\\'``) and vice versa."
 msgstr ""
+

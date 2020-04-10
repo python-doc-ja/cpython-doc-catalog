@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -467,3 +467,4 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:851
 msgid "A string literal appearing as the first statement in the class body is transformed into the namespace's ``__doc__`` item and therefore the class's :term:`docstring`."
 msgstr ""
+

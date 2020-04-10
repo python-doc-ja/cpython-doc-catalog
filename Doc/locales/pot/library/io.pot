@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -913,3 +913,4 @@ msgstr ""
 #: ../../library/io.rst:1046
 msgid "The above implicitly extends to text files, since the :func:`open()` function will wrap a buffered object inside a :class:`TextIOWrapper`.  This includes standard streams and therefore affects the built-in function :func:`print()` as well."
 msgstr ""
+

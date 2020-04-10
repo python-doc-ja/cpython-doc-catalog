@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,3 +40,4 @@ msgstr ""
 #: ../../library/sndhdr.rst:45
 msgid "Determines the type of sound data stored in a file based on the file  header. The name of the file is given by *filename*.  This function returns a namedtuple as described above on success, or ``None``."
 msgstr ""
+

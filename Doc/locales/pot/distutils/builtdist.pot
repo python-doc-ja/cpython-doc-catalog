@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -608,3 +608,4 @@ msgstr ""
 #: ../../distutils/builtdist.rst:456
 msgid "Starting with Python 2.6, bdist_wininst supports a :option:`!--user-access-control` option.  The default is 'none' (meaning no UAC handling is done), and other valid values are 'auto' (meaning prompt for UAC elevation if Python was installed for all users) and 'force' (meaning always prompt for elevation)."
 msgstr ""
+

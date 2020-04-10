@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 05:01+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -475,3 +475,4 @@ msgstr ""
 #: ../../tutorial/classes.rst:918
 msgid "Except for one thing.  Module objects have a secret read-only attribute called :attr:`~object.__dict__` which returns the dictionary used to implement the module's namespace; the name :attr:`~object.__dict__` is an attribute but not a global name. Obviously, using this violates the abstraction of namespace implementation, and should be restricted to things like post-mortem debuggers."
 msgstr ""
+

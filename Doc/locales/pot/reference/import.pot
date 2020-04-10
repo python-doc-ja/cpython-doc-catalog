@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-11 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -763,3 +763,4 @@ msgstr ""
 #: ../../reference/import.rst:1070
 msgid "In legacy code, it is possible to find instances of :class:`imp.NullImporter` in the :data:`sys.path_importer_cache`.  It is recommended that code be changed to use ``None`` instead.  See :ref:`portingpythoncode` for more details."
 msgstr ""
+

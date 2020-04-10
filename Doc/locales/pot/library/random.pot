@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,3 +319,4 @@ msgstr ""
 #: ../../library/random.rst:491
 msgid "`A Concrete Introduction to Probability (using Python) <http://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb>`_ a tutorial by `Peter Norvig <http://norvig.com/bio.html>`_ covering the basics of probability theory, how to write simulations, and how to perform data analysis using Python."
 msgstr ""
+

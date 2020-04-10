@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,3 +223,4 @@ msgstr ""
 #: ../../library/formatter.rst:347
 msgid "Simple writer class which writes output on the :term:`file object` passed in as *file* or, if *file* is omitted, on standard output.  The output is simply word-wrapped to the number of columns specified by *maxcol*.  This class is suitable for reflowing a sequence of paragraphs."
 msgstr ""
+

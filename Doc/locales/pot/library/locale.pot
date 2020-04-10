@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -576,3 +576,4 @@ msgstr ""
 #: ../../library/locale.rst:582
 msgid "Python applications should normally find no need to invoke these functions, and should use :mod:`gettext` instead.  A known exception to this rule are applications that link with additional C libraries which internally invoke :c:func:`gettext` or :c:func:`dcgettext`.  For these applications, it may be necessary to bind the text domain, so that the libraries can properly locate their message catalogs."
 msgstr ""
+

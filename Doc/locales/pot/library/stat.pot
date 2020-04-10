@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -338,3 +338,4 @@ msgstr ""
 #: ../../library/stat.rst:403
 msgid "On Windows, the following file attribute constants are available for use when testing bits in the ``st_file_attributes`` member returned by :func:`os.stat`. See the `Windows API documentation <https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117.aspx>`_ for more detail on the meaning of these constants."
 msgstr ""
+

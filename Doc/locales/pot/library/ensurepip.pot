@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,3 +147,4 @@ msgstr ""
 #: ../../library/ensurepip.rst:130
 msgid "The bootstrapping process may install additional modules required by ``pip``, but other software should not assume those dependencies will always be present by default (as the dependencies may be removed in a future version of ``pip``)."
 msgstr ""
+

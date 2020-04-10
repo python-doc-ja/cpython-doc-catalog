@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -955,3 +955,4 @@ msgstr ""
 #: ../../library/xml.dom.rst:1029
 msgid "The IDL definitions do not fully embody the requirements of the W3C DOM API, such as the notion of certain objects, such as the return value of :meth:`getElementsByTagName`, being \"live\".  The Python DOM API does not require implementations to enforce such requirements."
 msgstr ""
+

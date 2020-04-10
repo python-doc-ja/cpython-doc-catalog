@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,3 +258,4 @@ msgstr ""
 #: ../../c-api/bytes.rst:196
 msgid "A way to resize a bytes object even though it is \"immutable\". Only use this to build up a brand new bytes object; don't use this if the bytes may already be known in other parts of the code.  It is an error to call this function if the refcount on the input bytes object is not one. Pass the address of an existing bytes object as an lvalue (it may be written into), and the new size desired.  On success, *\\*bytes* holds the resized bytes object and ``0`` is returned; the address in *\\*bytes* may differ from its input value.  If the reallocation fails, the original bytes object at *\\*bytes* is deallocated, *\\*bytes* is set to ``NULL``, :exc:`MemoryError` is set, and ``-1`` is returned."
 msgstr ""
+

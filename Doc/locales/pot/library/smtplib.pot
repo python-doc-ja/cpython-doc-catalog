@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-10 04:47+0000\n"
+"POT-Creation-Date: 2020-04-10 22:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -442,3 +442,4 @@ msgstr ""
 #: ../../library/smtplib.rst:584
 msgid "In general, you will want to use the :mod:`email` package's features to construct an email message, which you can then send via :meth:`~smtplib.SMTP.send_message`; see :ref:`email-examples`."
 msgstr ""
+
