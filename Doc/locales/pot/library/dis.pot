@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 22:51+0000\n"
+"POT-Creation-Date: 2020-04-13 03:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -657,7 +657,7 @@ msgid "The dictionary is created from stack items instead of creating an empty d
 msgstr ""
 
 #: ../../library/dis.rst:838
-msgid "The version of :opcode:`BUILD_MAP` specialized for constant keys.  *count* values are consumed from the stack.  The top element on the stack contains a tuple of keys."
+msgid "The version of :opcode:`BUILD_MAP` specialized for constant keys. Pops the top element on the stack which contains a tuple of keys, then starting from ``TOS1``, pops *count* values to form values in the built dictionary."
 msgstr ""
 
 #: ../../library/dis.rst:847
