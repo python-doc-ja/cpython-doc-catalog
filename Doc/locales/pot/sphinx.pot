@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-14 22:38+0900\n"
+"POT-Creation-Date: 2020-04-19 22:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -291,7 +291,7 @@ msgid "History and License of Python"
 msgstr ""
 
 #: ../../tools/templates/indexcontent.html:63
-#: ../../tools/templates/layout.html:33
+#: ../../tools/templates/layout.html:43
 msgid "Copyright"
 msgstr ""
 
@@ -351,38 +351,54 @@ msgstr ""
 msgid "Audio/Visual Talks"
 msgstr ""
 
-#: ../../tools/templates/layout.html:10
+#: ../../tools/templates/layout.html:5
+msgid "This document is for an old version of Python that is "
+msgstr ""
+
+#: ../../tools/templates/layout.html:5
+msgid "no longer supported"
+msgstr ""
+
+#: ../../tools/templates/layout.html:6
+msgid "You should upgrade, and read the "
+msgstr ""
+
+#: ../../tools/templates/layout.html:7
+msgid " Python documentation for the current stable release"
+msgstr ""
+
+#: ../../tools/templates/layout.html:20
 msgid "Documentation"
 msgstr ""
 
-#: ../../tools/templates/layout.html:35
+#: ../../tools/templates/layout.html:45
 msgid "The Python Software Foundation is a non-profit corporation."
 msgstr ""
 
-#: ../../tools/templates/layout.html:36
+#: ../../tools/templates/layout.html:46
 msgid "Please donate."
 msgstr ""
 
-#: ../../tools/templates/layout.html:38
+#: ../../tools/templates/layout.html:48
 msgid "Last updated on %(last_update)s."
 msgstr ""
 
-#: ../../tools/templates/layout.html:39
+#: ../../tools/templates/layout.html:49
 msgid "<a href=\"%(pathto_bugs)s\">Found a bug</a>?"
 msgstr ""
 
-#: ../../tools/templates/layout.html:41
+#: ../../tools/templates/layout.html:51
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
-#: ../../tools/templates/layout.html:46
+#: ../../tools/templates/layout.html:56
 msgid "This Page"
 msgstr ""
 
-#: ../../tools/templates/layout.html:48
+#: ../../tools/templates/layout.html:58
 msgid "Report a Bug"
 msgstr ""
 
-#: ../../tools/templates/layout.html:50
+#: ../../tools/templates/layout.html:60
 msgid "Show Source"
 msgstr ""
