@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-19 22:38+0900\n"
+"POT-Creation-Date: 2020-04-21 22:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +360,7 @@ msgid "no longer supported"
 msgstr ""
 
 #: ../../tools/templates/layout.html:6
-msgid "You should upgrade, and read the "
+msgid "You should upgrade and read the "
 msgstr ""
 
 #: ../../tools/templates/layout.html:7
