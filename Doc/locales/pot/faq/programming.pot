@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 22:51+0000\n"
+"POT-Creation-Date: 2020-04-27 13:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1090,7 +1090,7 @@ msgid "Python programmers can easily implement delegation.  For example, the fol
 msgstr ""
 
 #: ../../faq/programming.rst:1502
-msgid "Here the ``UpperOut`` class redefines the ``write()`` method to convert the argument string to uppercase before calling the underlying ``self.__outfile.write()`` method.  All other methods are delegated to the underlying ``self.__outfile`` object.  The delegation is accomplished via the ``__getattr__`` method; consult :ref:`the language reference <attribute-access>` for more information about controlling attribute access."
+msgid "Here the ``UpperOut`` class redefines the ``write()`` method to convert the argument string to uppercase before calling the underlying ``self._outfile.write()`` method.  All other methods are delegated to the underlying ``self._outfile`` object.  The delegation is accomplished via the ``__getattr__`` method; consult :ref:`the language reference <attribute-access>` for more information about controlling attribute access."
 msgstr ""
 
 #: ../../faq/programming.rst:1509

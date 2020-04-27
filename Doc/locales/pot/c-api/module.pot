@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 22:51+0000\n"
+"POT-Creation-Date: 2020-04-27 13:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "Name for the new module."
 msgstr ""
 
 #: ../../c-api/module.rst:155
-msgid "Docstring for the module; usually a docstring variable created with :c:func:`PyDoc_STRVAR` is used."
+msgid "Docstring for the module; usually a docstring variable created with :c:macro:`PyDoc_STRVAR` is used."
 msgstr ""
 
 #: ../../c-api/module.rst:160
