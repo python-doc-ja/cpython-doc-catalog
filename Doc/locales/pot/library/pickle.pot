@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-19 13:36+0000\n"
+"POT-Creation-Date: 2020-05-02 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -231,7 +231,7 @@ msgid "The *buffers* argument was added."
 msgstr ""
 
 #: ../../library/pickle.rst:257
-msgid "Return the reconstituted object hierarchy of the pickled representation *bytes_object* of an object."
+msgid "Return the reconstituted object hierarchy of the pickled representation *data* of an object. *data* must be a :term:`bytes-like object`."
 msgstr ""
 
 #: ../../library/pickle.rst:271
