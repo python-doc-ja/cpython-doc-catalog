@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-05-03 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,37 +192,37 @@ msgid "A multi-line statement may be given by specifying each line as a separate
 msgstr ""
 
 #: ../../library/timeit.rst:253
-msgid "If :option:`-n` is not given, a suitable number of loops is calculated by trying successive powers of 10 until the total time is at least 0.2 seconds."
+msgid "If :option:`-n` is not given, a suitable number of loops is calculated by trying increasing numbers from the sequence 1, 2, 5, 10, 20, 50, ... until the total time is at least 0.2 seconds."
 msgstr ""
 
-#: ../../library/timeit.rst:256
+#: ../../library/timeit.rst:257
 msgid ":func:`default_timer` measurements can be affected by other programs running on the same machine, so the best thing to do when accurate timing is necessary is to repeat the timing a few times and use the best time.  The :option:`-r` option is good for this; the default of 5 repetitions is probably enough in most cases.  You can use :func:`time.process_time` to measure CPU time."
 msgstr ""
 
-#: ../../library/timeit.rst:264
+#: ../../library/timeit.rst:265
 msgid "There is a certain baseline overhead associated with executing a pass statement. The code here doesn't try to hide it, but you should be aware of it.  The baseline overhead can be measured by invoking the program without arguments, and it might differ between Python versions."
 msgstr ""
 
-#: ../../library/timeit.rst:273
+#: ../../library/timeit.rst:274
 msgid "Examples"
 msgstr ""
 
-#: ../../library/timeit.rst:275
+#: ../../library/timeit.rst:276
 msgid "It is possible to provide a setup statement that is executed only once at the beginning:"
 msgstr ""
 
-#: ../../library/timeit.rst:292
+#: ../../library/timeit.rst:293
 msgid "The same can be done using the :class:`Timer` class and its methods::"
 msgstr ""
 
-#: ../../library/timeit.rst:302
+#: ../../library/timeit.rst:303
 msgid "The following examples show how to time expressions that contain multiple lines. Here we compare the cost of using :func:`hasattr` vs. :keyword:`try`/:keyword:`except` to test for missing and present object attributes:"
 msgstr ""
 
-#: ../../library/timeit.rst:348
+#: ../../library/timeit.rst:349
 msgid "To give the :mod:`timeit` module access to functions you define, you can pass a *setup* parameter which contains an import statement::"
 msgstr ""
 
-#: ../../library/timeit.rst:359
+#: ../../library/timeit.rst:360
 msgid "Another option is to pass :func:`globals` to the  *globals* parameter, which will cause the code to be executed within your current global namespace.  This can be more convenient than individually specifying imports::"
 msgstr ""

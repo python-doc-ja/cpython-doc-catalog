@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 13:45+0000\n"
+"POT-Creation-Date: 2020-05-03 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "*state* should have been obtained from a previous call to :func:`getstate
 msgstr ""
 
 #: ../../library/random.rst:104
-msgid "Returns a Python integer with *k* random bits. This method is supplied with the MersenneTwister generator and some other generators may also provide it as an optional part of the API. When available, :meth:`getrandbits` enables :meth:`randrange` to handle arbitrarily large ranges."
+msgid "Returns a Python integer with *k* random bits. This method is supplied with the Mersenne Twister generator and some other generators may also provide it as an optional part of the API. When available, :meth:`getrandbits` enables :meth:`randrange` to handle arbitrarily large ranges."
 msgstr ""
 
 #: ../../library/random.rst:111
