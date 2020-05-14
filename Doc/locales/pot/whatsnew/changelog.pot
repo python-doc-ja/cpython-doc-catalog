@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-12 13:52+0000\n"
+"POT-Creation-Date: 2020-05-14 13:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgid "Changelog"
 msgstr ""
 
 #: ../../../build/NEWS:5
-msgid "Python next"
+msgid "Python 3.8.3 final"
 msgstr ""
 
 #: ../../../build/NEWS:7
-msgid "*Release date: XXXX-XX-XX*"
+msgid "*Release date: 2020-05-13*"
 msgstr ""
 
 #: ../../../build/NEWS:10
