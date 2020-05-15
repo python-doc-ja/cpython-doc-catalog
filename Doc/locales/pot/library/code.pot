@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 22:51+0000\n"
+"POT-Creation-Date: 2020-05-15 13:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "This function is useful for programs that want to emulate Python's interp
 msgstr ""
 
 #: ../../library/code.rst:57
-msgid "*source* is the source string; *filename* is the optional filename from which source was read, defaulting to ``'<input>'``; and *symbol* is the optional grammar start symbol, which should be either ``'single'`` (the default) or ``'eval'``."
+msgid "*source* is the source string; *filename* is the optional filename from which source was read, defaulting to ``'<input>'``; and *symbol* is the optional grammar start symbol, which should be ``'single'`` (the default), ``'eval'`` or ``'exec'``."
 msgstr ""
 
 #: ../../library/code.rst:62
