@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-28 13:17+0000\n"
+"POT-Creation-Date: 2020-05-23 13:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,7 +261,7 @@ msgid "All identifiers are converted into the normal form NFKC while parsing; co
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:326
-msgid "A non-normative HTML file listing all valid identifier characters for Unicode 4.1 can be found at https://www.dcl.hpi.uni-potsdam.de/home/loewis/table-3131.html."
+msgid "A non-normative HTML file listing all valid identifier characters for Unicode 4.1 can be found at https://www.unicode.org/Public/13.0.0/ucd/DerivedCoreProperties.txt"
 msgstr ""
 
 #: ../../reference/lexical_analysis.rst:334
