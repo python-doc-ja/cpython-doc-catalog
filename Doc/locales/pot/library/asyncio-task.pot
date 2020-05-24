@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-05-24 13:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -409,7 +409,7 @@ msgid "Passing coroutine objects to ``wait()`` directly is deprecated."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:582
-msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently.  Return an iterator of :class:`Future` objects. Each Future object returned represents the earliest result from the set of the remaining awaitables."
+msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently.  Return an iterator of coroutines. Each coroutine returned can be awaited to get the earliest next result from the set of the remaining awaitables."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:587
