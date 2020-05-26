@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-05-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgid "(Only supported on BSD.)  Returns a kernel event object; see section :ref
 msgstr ""
 
 #: ../../library/select.rst:119
-msgid "This is a straightforward interface to the Unix :c:func:`select` system call. The first three arguments are sequences of 'waitable objects': either integers representing file descriptors or objects with a parameterless method named :meth:`~io.IOBase.fileno` returning such an integer:"
+msgid "This is a straightforward interface to the Unix :c:func:`select` system call. The first three arguments are iterables of 'waitable objects': either integers representing file descriptors or objects with a parameterless method named :meth:`~io.IOBase.fileno` returning such an integer:"
 msgstr ""
 
 #: ../../library/select.rst:124
@@ -120,7 +120,7 @@ msgid "*xlist*: wait for an \"exceptional condition\" (see the manual page for w
 msgstr ""
 
 #: ../../library/select.rst:129
-msgid "Empty sequences are allowed, but acceptance of three empty sequences is platform-dependent. (It is known to work on Unix but not on Windows.)  The optional *timeout* argument specifies a time-out as a floating point number in seconds.  When the *timeout* argument is omitted the function blocks until at least one file descriptor is ready.  A time-out value of zero specifies a poll and never blocks."
+msgid "Empty iterables are allowed, but acceptance of three empty iterables is platform-dependent. (It is known to work on Unix but not on Windows.)  The optional *timeout* argument specifies a time-out as a floating point number in seconds.  When the *timeout* argument is omitted the function blocks until at least one file descriptor is ready.  A time-out value of zero specifies a poll and never blocks."
 msgstr ""
 
 #: ../../library/select.rst:136
@@ -128,7 +128,7 @@ msgid "The return value is a triple of lists of objects that are ready: subsets 
 msgstr ""
 
 #: ../../library/select.rst:144
-msgid "Among the acceptable object types in the sequences are Python :term:`file objects <file object>` (e.g. ``sys.stdin``, or objects returned by :func:`open` or :func:`os.popen`), socket objects returned by :func:`socket.socket`.  You may also define a :dfn:`wrapper` class yourself, as long as it has an appropriate :meth:`~io.IOBase.fileno` method (that really returns a file descriptor, not just a random integer)."
+msgid "Among the acceptable object types in the iterables are Python :term:`file objects <file object>` (e.g. ``sys.stdin``, or objects returned by :func:`open` or :func:`os.popen`), socket objects returned by :func:`socket.socket`.  You may also define a :dfn:`wrapper` class yourself, as long as it has an appropriate :meth:`~io.IOBase.fileno` method (that really returns a file descriptor, not just a random integer)."
 msgstr ""
 
 #: ../../library/select.rst:155
