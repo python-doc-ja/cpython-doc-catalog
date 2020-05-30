@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 22:51+0000\n"
+"POT-Creation-Date: 2020-05-30 14:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,23 +48,23 @@ msgstr ""
 msgid "PyQt is a :program:`sip`\\ -wrapped binding to the Qt toolkit.  Qt is an extensive C++ GUI application development framework that is available for Unix, Windows and Mac OS X. :program:`sip` is a tool for generating bindings for C++ libraries as Python classes, and is specifically designed for Python."
 msgstr ""
 
-#: ../../library/othergui.rst:36
-msgid "`PySide <https://wiki.qt.io/PySide>`_"
+#: ../../library/othergui.rst:37
+msgid "`PySide2 <https://doc.qt.io/qtforpython/>`_"
 msgstr ""
 
 #: ../../library/othergui.rst:34
-msgid "PySide is a newer binding to the Qt toolkit, provided by Nokia. Compared to PyQt, its licensing scheme is friendlier to non-open source applications."
+msgid "Also known as the Qt for Python project, PySide2 is a newer binding to the Qt toolkit. It is provided by The Qt Company and aims to provide a complete port of PySide to Qt 5. Compared to PyQt, its licensing scheme is friendlier to non-open source applications."
 msgstr ""
 
-#: ../../library/othergui.rst:47
+#: ../../library/othergui.rst:48
 msgid "`wxPython <https://www.wxpython.org>`_"
 msgstr ""
 
-#: ../../library/othergui.rst:39
+#: ../../library/othergui.rst:40
 msgid "wxPython is a cross-platform GUI toolkit for Python that is built around the popular `wxWidgets <https://www.wxwidgets.org/>`_ (formerly wxWindows) C++ toolkit.  It provides a native look and feel for applications on Windows, Mac OS X, and Unix systems by using each platform's native widgets where ever possible, (GTK+ on Unix-like systems).  In addition to an extensive set of widgets, wxPython provides classes for online documentation and context sensitive help, printing, HTML viewing, low-level device context drawing, drag and drop, system clipboard access, an XML-based resource format and more, including an ever growing library of user-contributed modules."
 msgstr ""
 
-#: ../../library/othergui.rst:50
-msgid "PyGTK, PyQt, and wxPython, all have a modern look and feel and more widgets than Tkinter. In addition, there are many other GUI toolkits for Python, both cross-platform, and platform-specific. See the `GUI Programming <https://wiki.python.org/moin/GuiProgramming>`_ page in the Python Wiki for a much more complete list, and also for links to documents where the different GUI toolkits are compared."
+#: ../../library/othergui.rst:51
+msgid "PyGTK, PyQt, PySide2, and wxPython, all have a modern look and feel and more widgets than Tkinter. In addition, there are many other GUI toolkits for Python, both cross-platform, and platform-specific. See the `GUI Programming <https://wiki.python.org/moin/GuiProgramming>`_ page in the Python Wiki for a much more complete list, and also for links to documents where the different GUI toolkits are compared."
 msgstr ""
 
