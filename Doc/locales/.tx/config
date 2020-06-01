@@ -1441,6 +1441,12 @@ source_file = pot/library/glob.pot
 source_lang = en
 type = PO
 
+[python-newest.library--graphlib]
+file_filter = <lang>/LC_MESSAGES/library/graphlib.po
+source_file = pot/library/graphlib.pot
+source_lang = en
+type = PO
+
 [python-newest.library--grp]
 file_filter = <lang>/LC_MESSAGES/library/grp.po
 source_file = pot/library/grp.pot
