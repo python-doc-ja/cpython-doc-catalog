@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-06-23 14:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgid "An event loop runs in a thread (typically the main thread) and executes a
 msgstr ""
 
 #: ../../library/asyncio-dev.rst:76
-msgid "To schedule a callback from a different OS thread, the :meth:`loop.call_soon_threadsafe` method should be used. Example::"
+msgid "To schedule a :term:`callback` from another OS thread, the :meth:`loop.call_soon_threadsafe` method should be used. Example::"
 msgstr ""
 
 #: ../../library/asyncio-dev.rst:81
