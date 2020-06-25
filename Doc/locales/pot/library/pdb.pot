@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-06-25 14:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -384,10 +384,14 @@ msgstr ""
 msgid "Enter a recursive debugger that steps through the code argument (which is an arbitrary expression or statement to be executed in the current environment)."
 msgstr ""
 
-#: ../../library/pdb.rst:544
-msgid "Footnotes"
+#: ../../library/pdb.rst:542
+msgid "Print the return value for the last return of a function."
 msgstr ""
 
 #: ../../library/pdb.rst:545
+msgid "Footnotes"
+msgstr ""
+
+#: ../../library/pdb.rst:546
 msgid "Whether a frame is considered to originate in a certain module is determined by the ``__name__`` in the frame globals."
 msgstr ""
