@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-26 14:03+0000\n"
+"POT-Creation-Date: 2020-07-04 14:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,7 +406,7 @@ msgid "A generic version of :class:`collections.abc.ByteString`."
 msgstr ""
 
 #: ../../library/typing.rst:674
-msgid "This type represents the types :class:`bytes`, :class:`bytearray`, and :class:`memoryview`."
+msgid "This type represents the types :class:`bytes`, :class:`bytearray`, and :class:`memoryview` of byte sequences."
 msgstr ""
 
 #: ../../library/typing.rst:677
