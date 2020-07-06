@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-07-06 03:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "A *scope* is a textual region of a Python program where a namespace is di
 msgstr ""
 
 #: ../../tutorial/classes.rst:116
-msgid "Although scopes are determined statically, they are used dynamically. At any time during execution, there are at least three nested scopes whose namespaces are directly accessible:"
+msgid "Although scopes are determined statically, they are used dynamically. At any time during execution, At any time during execution, there are 3 or 4 nested scopes whose namespaces are directly accessible:"
 msgstr ""
 
 #: ../../tutorial/classes.rst:120

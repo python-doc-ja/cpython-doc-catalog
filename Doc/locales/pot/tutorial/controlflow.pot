@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-07-06 03:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,361 +153,361 @@ msgid "The actual parameters (arguments) to a function call are introduced in th
 msgstr ""
 
 #: ../../tutorial/controlflow.rst:300
-msgid "A function definition introduces the function name in the current symbol table. The value of the function name has a type that is recognized by the interpreter as a user-defined function.  This value can be assigned to another name which can then also be used as a function.  This serves as a general renaming mechanism::"
+msgid "A function definition associates the function name with the function object in the current symbol table.  The interpreter recognizes the object pointed to by that name as a user-defined function.  Other names can also point to that same function object and can also be used to access the function::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:312
+#: ../../tutorial/controlflow.rst:311
 msgid "Coming from other languages, you might object that ``fib`` is not a function but a procedure since it doesn't return a value.  In fact, even functions without a :keyword:`return` statement do return a value, albeit a rather boring one.  This value is called ``None`` (it's a built-in name).  Writing the value ``None`` is normally suppressed by the interpreter if it would be the only value written. You can see it if you really want to using :func:`print`::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:323
+#: ../../tutorial/controlflow.rst:322
 msgid "It is simple to write a function that returns a list of the numbers of the Fibonacci series, instead of printing it::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:339
+#: ../../tutorial/controlflow.rst:338
 msgid "This example, as usual, demonstrates some new Python features:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:341
+#: ../../tutorial/controlflow.rst:340
 msgid "The :keyword:`return` statement returns with a value from a function. :keyword:`!return` without an expression argument returns ``None``. Falling off the end of a function also returns ``None``."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:345
+#: ../../tutorial/controlflow.rst:344
 msgid "The statement ``result.append(a)`` calls a *method* of the list object ``result``.  A method is a function that 'belongs' to an object and is named ``obj.methodname``, where ``obj`` is some object (this may be an expression), and ``methodname`` is the name of a method that is defined by the object's type. Different types define different methods.  Methods of different types may have the same name without causing ambiguity.  (It is possible to define your own object types and methods, using *classes*, see :ref:`tut-classes`) The method :meth:`append` shown in the example is defined for list objects; it adds a new element at the end of the list.  In this example it is equivalent to ``result = result + [a]``, but more efficient."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:360
+#: ../../tutorial/controlflow.rst:359
 msgid "More on Defining Functions"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:362
+#: ../../tutorial/controlflow.rst:361
 msgid "It is also possible to define functions with a variable number of arguments. There are three forms, which can be combined."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:369
+#: ../../tutorial/controlflow.rst:368
 msgid "Default Argument Values"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:371
+#: ../../tutorial/controlflow.rst:370
 msgid "The most useful form is to specify a default value for one or more arguments. This creates a function that can be called with fewer arguments than it is defined to allow.  For example::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:387
+#: ../../tutorial/controlflow.rst:386
 msgid "This function can be called in several ways:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:389
+#: ../../tutorial/controlflow.rst:388
 msgid "giving only the mandatory argument: ``ask_ok('Do you really want to quit?')``"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:391
+#: ../../tutorial/controlflow.rst:390
 msgid "giving one of the optional arguments: ``ask_ok('OK to overwrite the file?', 2)``"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:393
+#: ../../tutorial/controlflow.rst:392
 msgid "or even giving all arguments: ``ask_ok('OK to overwrite the file?', 2, 'Come on, only yes or no!')``"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:396
+#: ../../tutorial/controlflow.rst:395
 msgid "This example also introduces the :keyword:`in` keyword. This tests whether or not a sequence contains a certain value."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:399
+#: ../../tutorial/controlflow.rst:398
 msgid "The default values are evaluated at the point of function definition in the *defining* scope, so that ::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:410
+#: ../../tutorial/controlflow.rst:409
 msgid "will print ``5``."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:412
+#: ../../tutorial/controlflow.rst:411
 msgid "**Important warning:**  The default value is evaluated only once. This makes a difference when the default is a mutable object such as a list, dictionary, or instances of most classes.  For example, the following function accumulates the arguments passed to it on subsequent calls::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:425
+#: ../../tutorial/controlflow.rst:424
 msgid "This will print ::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:431
+#: ../../tutorial/controlflow.rst:430
 msgid "If you don't want the default to be shared between subsequent calls, you can write the function like this instead::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:444
+#: ../../tutorial/controlflow.rst:443
 msgid "Keyword Arguments"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:446
+#: ../../tutorial/controlflow.rst:445
 msgid "Functions can also be called using :term:`keyword arguments <keyword argument>` of the form ``kwarg=value``.  For instance, the following function::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:455
+#: ../../tutorial/controlflow.rst:454
 msgid "accepts one required argument (``voltage``) and three optional arguments (``state``, ``action``, and ``type``).  This function can be called in any of the following ways::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:466
+#: ../../tutorial/controlflow.rst:465
 msgid "but all the following calls would be invalid::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:473
+#: ../../tutorial/controlflow.rst:472
 msgid "In a function call, keyword arguments must follow positional arguments. All the keyword arguments passed must match one of the arguments accepted by the function (e.g. ``actor`` is not a valid argument for the ``parrot`` function), and their order is not important.  This also includes non-optional arguments (e.g. ``parrot(voltage=1000)`` is valid too). No argument may receive a value more than once. Here's an example that fails due to this restriction::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:489
+#: ../../tutorial/controlflow.rst:488
 msgid "When a final formal parameter of the form ``**name`` is present, it receives a dictionary (see :ref:`typesmapping`) containing all keyword arguments except for those corresponding to a formal parameter.  This may be combined with a formal parameter of the form ``*name`` (described in the next subsection) which receives a :ref:`tuple <tut-tuples>` containing the positional arguments beyond the formal parameter list.  (``*name`` must occur before ``**name``.) For example, if we define a function like this::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:506
+#: ../../tutorial/controlflow.rst:505
 msgid "It could be called like this::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:514
+#: ../../tutorial/controlflow.rst:513
 msgid "and of course it would print:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:527
+#: ../../tutorial/controlflow.rst:526
 msgid "Note that the order in which the keyword arguments are printed is guaranteed to match the order in which they were provided in the function call."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:531
+#: ../../tutorial/controlflow.rst:530
 msgid "Special parameters"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:533
+#: ../../tutorial/controlflow.rst:532
 msgid "By default, arguments may be passed to a Python function either by position or explicitly by keyword. For readability and performance, it makes sense to restrict the way arguments can be passed so that a developer need only look at the function definition to determine if items are passed by position, by position or keyword, or by keyword."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:539
+#: ../../tutorial/controlflow.rst:538
 msgid "A function definition may look like:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:550
+#: ../../tutorial/controlflow.rst:549
 msgid "where ``/`` and ``*`` are optional. If used, these symbols indicate the kind of parameter by how the arguments may be passed to the function: positional-only, positional-or-keyword, and keyword-only. Keyword parameters are also referred to as named parameters."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:557
+#: ../../tutorial/controlflow.rst:556
 msgid "Positional-or-Keyword Arguments"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:559
+#: ../../tutorial/controlflow.rst:558
 msgid "If ``/`` and ``*`` are not present in the function definition, arguments may be passed to a function by position or by keyword."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:564
+#: ../../tutorial/controlflow.rst:563
 msgid "Positional-Only Parameters"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:566
+#: ../../tutorial/controlflow.rst:565
 msgid "Looking at this in a bit more detail, it is possible to mark certain parameters as *positional-only*. If *positional-only*, the parameters' order matters, and the parameters cannot be passed by keyword. Positional-only parameters are placed before a ``/`` (forward-slash). The ``/`` is used to logically separate the positional-only parameters from the rest of the parameters. If there is no ``/`` in the function definition, there are no positional-only parameters."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:574
+#: ../../tutorial/controlflow.rst:573
 msgid "Parameters following the ``/`` may be *positional-or-keyword* or *keyword-only*."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:578
+#: ../../tutorial/controlflow.rst:577
 msgid "Keyword-Only Arguments"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:580
+#: ../../tutorial/controlflow.rst:579
 msgid "To mark parameters as *keyword-only*, indicating the parameters must be passed by keyword argument, place an ``*`` in the arguments list just before the first *keyword-only* parameter."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:586
+#: ../../tutorial/controlflow.rst:585
 msgid "Function Examples"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:588
+#: ../../tutorial/controlflow.rst:587
 msgid "Consider the following example function definitions paying close attention to the markers ``/`` and ``*``::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:604
+#: ../../tutorial/controlflow.rst:603
 msgid "The first function definition, ``standard_arg``, the most familiar form, places no restrictions on the calling convention and arguments may be passed by position or keyword::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:614
+#: ../../tutorial/controlflow.rst:613
 msgid "The second function ``pos_only_arg`` is restricted to only use positional parameters as there is a ``/`` in the function definition::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:625
+#: ../../tutorial/controlflow.rst:624
 msgid "The third function ``kwd_only_args`` only allows keyword arguments as indicated by a ``*`` in the function definition::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:636
+#: ../../tutorial/controlflow.rst:635
 msgid "And the last uses all three calling conventions in the same function definition::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:656
+#: ../../tutorial/controlflow.rst:655
 msgid "Finally, consider this function definition which has a potential collision between the positional argument ``name``  and ``**kwds`` which has ``name`` as a key::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:661
+#: ../../tutorial/controlflow.rst:660
 msgid "There is no possible call that will make it return ``True`` as the keyword ``'name'`` will always to bind to the first parameter. For example::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:670
+#: ../../tutorial/controlflow.rst:669
 msgid "But using ``/`` (positional only arguments), it is possible since it allows ``name`` as a positional argument and ``'name'`` as a key in the keyword arguments::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:677
+#: ../../tutorial/controlflow.rst:676
 msgid "In other words, the names of positional-only parameters can be used in ``**kwds`` without ambiguity."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:682
+#: ../../tutorial/controlflow.rst:681
 msgid "Recap"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:684
+#: ../../tutorial/controlflow.rst:683
 msgid "The use case will determine which parameters to use in the function definition::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:688
+#: ../../tutorial/controlflow.rst:687
 msgid "As guidance:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:690
+#: ../../tutorial/controlflow.rst:689
 msgid "Use positional-only if you want the name of the parameters to not be available to the user. This is useful when parameter names have no real meaning, if you want to enforce the order of the arguments when the function is called or if you need to take some positional parameters and arbitrary keywords."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:695
+#: ../../tutorial/controlflow.rst:694
 msgid "Use keyword-only when names have meaning and the function definition is more understandable by being explicit with names or you want to prevent users relying on the position of the argument being passed."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:698
+#: ../../tutorial/controlflow.rst:697
 msgid "For an API, use positional-only to prevent breaking API changes if the parameter's name is modified in the future."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:704
+#: ../../tutorial/controlflow.rst:703
 msgid "Arbitrary Argument Lists"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:709
+#: ../../tutorial/controlflow.rst:708
 msgid "Finally, the least frequently used option is to specify that a function can be called with an arbitrary number of arguments.  These arguments will be wrapped up in a tuple (see :ref:`tut-tuples`).  Before the variable number of arguments, zero or more normal arguments may occur. ::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:718
+#: ../../tutorial/controlflow.rst:717
 msgid "Normally, these ``variadic`` arguments will be last in the list of formal parameters, because they scoop up all remaining input arguments that are passed to the function. Any formal parameters which occur after the ``*args`` parameter are 'keyword-only' arguments, meaning that they can only be used as keywords rather than positional arguments. ::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:735
+#: ../../tutorial/controlflow.rst:734
 msgid "Unpacking Argument Lists"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:737
+#: ../../tutorial/controlflow.rst:736
 msgid "The reverse situation occurs when the arguments are already in a list or tuple but need to be unpacked for a function call requiring separate positional arguments.  For instance, the built-in :func:`range` function expects separate *start* and *stop* arguments.  If they are not available separately, write the function call with the  ``*``\\ -operator to unpack the arguments out of a list or tuple::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:753
+#: ../../tutorial/controlflow.rst:752
 msgid "In the same fashion, dictionaries can deliver keyword arguments with the ``**``\\ -operator::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:769
+#: ../../tutorial/controlflow.rst:768
 msgid "Lambda Expressions"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:771
+#: ../../tutorial/controlflow.rst:770
 msgid "Small anonymous functions can be created with the :keyword:`lambda` keyword. This function returns the sum of its two arguments: ``lambda a, b: a+b``. Lambda functions can be used wherever function objects are required.  They are syntactically restricted to a single expression.  Semantically, they are just syntactic sugar for a normal function definition.  Like nested function definitions, lambda functions can reference variables from the containing scope::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:788
+#: ../../tutorial/controlflow.rst:787
 msgid "The above example uses a lambda expression to return a function.  Another use is to pass a small function as an argument::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:800
+#: ../../tutorial/controlflow.rst:799
 msgid "Documentation Strings"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:807
+#: ../../tutorial/controlflow.rst:806
 msgid "Here are some conventions about the content and formatting of documentation strings."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:810
+#: ../../tutorial/controlflow.rst:809
 msgid "The first line should always be a short, concise summary of the object's purpose.  For brevity, it should not explicitly state the object's name or type, since these are available by other means (except if the name happens to be a verb describing a function's operation).  This line should begin with a capital letter and end with a period."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:816
+#: ../../tutorial/controlflow.rst:815
 msgid "If there are more lines in the documentation string, the second line should be blank, visually separating the summary from the rest of the description.  The following lines should be one or more paragraphs describing the object's calling conventions, its side effects, etc."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:821
+#: ../../tutorial/controlflow.rst:820
 msgid "The Python parser does not strip indentation from multi-line string literals in Python, so tools that process documentation have to strip indentation if desired.  This is done using the following convention. The first non-blank line *after* the first line of the string determines the amount of indentation for the entire documentation string.  (We can't use the first line since it is generally adjacent to the string's opening quotes so its indentation is not apparent in the string literal.)  Whitespace \"equivalent\" to this indentation is then stripped from the start of all lines of the string.  Lines that are indented less should not occur, but if they occur all their leading whitespace should be stripped.  Equivalence of whitespace should be tested after expansion of tabs (to 8 spaces, normally)."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:833
+#: ../../tutorial/controlflow.rst:832
 msgid "Here is an example of a multi-line docstring::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:851
+#: ../../tutorial/controlflow.rst:850
 msgid "Function Annotations"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:859
+#: ../../tutorial/controlflow.rst:858
 msgid ":ref:`Function annotations <function>` are completely optional metadata information about the types used by user-defined functions (see :pep:`3107` and :pep:`484` for more information)."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:863
+#: ../../tutorial/controlflow.rst:862
 msgid ":term:`Annotations <function annotation>` are stored in the :attr:`__annotations__` attribute of the function as a dictionary and have no effect on any other part of the function.  Parameter annotations are defined by a colon after the parameter name, followed by an expression evaluating to the value of the annotation.  Return annotations are defined by a literal ``->``, followed by an expression, between the parameter list and the colon denoting the end of the :keyword:`def` statement.  The following example has a positional argument, a keyword argument, and the return value annotated::"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:885
+#: ../../tutorial/controlflow.rst:884
 msgid "Intermezzo: Coding Style"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:890
+#: ../../tutorial/controlflow.rst:889
 msgid "Now that you are about to write longer, more complex pieces of Python, it is a good time to talk about *coding style*.  Most languages can be written (or more concise, *formatted*) in different styles; some are more readable than others. Making it easy for others to read your code is always a good idea, and adopting a nice coding style helps tremendously for that."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:896
+#: ../../tutorial/controlflow.rst:895
 msgid "For Python, :pep:`8` has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style.  Every Python developer should read it at some point; here are the most important points extracted for you:"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:901
+#: ../../tutorial/controlflow.rst:900
 msgid "Use 4-space indentation, and no tabs."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:903
+#: ../../tutorial/controlflow.rst:902
 msgid "4 spaces are a good compromise between small indentation (allows greater nesting depth) and large indentation (easier to read).  Tabs introduce confusion, and are best left out."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:907
+#: ../../tutorial/controlflow.rst:906
 msgid "Wrap lines so that they don't exceed 79 characters."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:909
+#: ../../tutorial/controlflow.rst:908
 msgid "This helps users with small displays and makes it possible to have several code files side-by-side on larger displays."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:912
+#: ../../tutorial/controlflow.rst:911
 msgid "Use blank lines to separate functions and classes, and larger blocks of code inside functions."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:915
+#: ../../tutorial/controlflow.rst:914
 msgid "When possible, put comments on a line of their own."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:917
+#: ../../tutorial/controlflow.rst:916
 msgid "Use docstrings."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:919
+#: ../../tutorial/controlflow.rst:918
 msgid "Use spaces around operators and after commas, but not directly inside bracketing constructs: ``a = f(1, 2) + g(3, 4)``."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:922
+#: ../../tutorial/controlflow.rst:921
 msgid "Name your classes and functions consistently; the convention is to use ``UpperCamelCase`` for classes and ``lowercase_with_underscores`` for functions and methods.  Always use ``self`` as the name for the first method argument (see :ref:`tut-firstclasses` for more on classes and methods)."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:927
+#: ../../tutorial/controlflow.rst:926
 msgid "Don't use fancy encodings if your code is meant to be used in international environments.  Python's default, UTF-8, or even plain ASCII work best in any case."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:931
+#: ../../tutorial/controlflow.rst:930
 msgid "Likewise, don't use non-ASCII characters in identifiers if there is only the slightest chance people speaking a different language will read or maintain the code."
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:937
+#: ../../tutorial/controlflow.rst:936
 msgid "Footnotes"
 msgstr ""
 
-#: ../../tutorial/controlflow.rst:938
+#: ../../tutorial/controlflow.rst:937
 msgid "Actually, *call by object reference* would be a better description, since if a mutable object is passed, the caller will see any changes the callee makes to it (items inserted into a list)."
 msgstr ""
