@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-07-11 03:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid "Returns weekday of first day of the month and number of days in month,  f
 msgstr ""
 
 #: ../../library/calendar.rst:351
-msgid "Returns a matrix representing a month's calendar.  Each row represents a week; days outside of the month a represented by zeros. Each week begins with Monday unless set by :func:`setfirstweekday`."
+msgid "Returns a matrix representing a month's calendar.  Each row represents a week; days outside of the month are represented by zeros. Each week begins with Monday unless set by :func:`setfirstweekday`."
 msgstr ""
 
 #: ../../library/calendar.rst:358
