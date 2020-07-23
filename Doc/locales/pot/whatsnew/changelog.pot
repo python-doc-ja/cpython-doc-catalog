@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 14:37+0000\n"
+"POT-Creation-Date: 2020-07-23 14:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2043,7 +2043,7 @@ msgid "`bpo-38636 <https://bugs.python.org/issue38636>`__: Fix IDLE Format menu 
 msgstr ""
 
 #: ../../../build/NEWS:1423
-msgid "`bpo-4630 <https://bugs.python.org/issue4630>`__: Add an option to toggle IDLE's cursor blink for shell, editor, and output windows.  See Settings, General, Window Preferences, Cursor Blink. Patch by Zachary Spytz."
+msgid "`bpo-4630 <https://bugs.python.org/issue4630>`__: Add an option to toggle IDLE's cursor blink for shell, editor, and output windows.  See Settings, General, Window Preferences, Cursor Blink. Patch by Zackery Spytz."
 msgstr ""
 
 #: ../../../build/NEWS:1427
