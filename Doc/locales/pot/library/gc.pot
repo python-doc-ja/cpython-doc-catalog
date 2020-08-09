@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-09 03:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Set the garbage collection thresholds (the collection frequency). Setting
 msgstr ""
 
 #: ../../library/gc.rst:99
-msgid "The GC classifies objects into three generations depending on how many collection sweeps they have survived.  New objects are placed in the youngest generation (generation ``0``).  If an object survives a collection it is moved into the next older generation.  Since generation ``2`` is the oldest generation, objects in that generation remain there after a collection.  In order to decide when to run, the collector keeps track of the number object allocations and deallocations since the last collection.  When the number of allocations minus the number of deallocations exceeds *threshold0*, collection starts.  Initially only generation ``0`` is examined.  If generation ``0`` has been examined more than *threshold1* times since generation ``1`` has been examined, then generation ``1`` is examined as well.  Similarly, *threshold2* controls the number of collections of generation ``1`` before collecting generation ``2``."
+msgid "The GC classifies objects into three generations depending on how many collection sweeps they have survived.  New objects are placed in the youngest generation (generation ``0``).  If an object survives a collection it is moved into the next older generation.  Since generation ``2`` is the oldest generation, objects in that generation remain there after a collection.  In order to decide when to run, the collector keeps track of the number object allocations and deallocations since the last collection.  When the number of allocations minus the number of deallocations exceeds *threshold0*, collection starts.  Initially only generation ``0`` is examined.  If generation ``0`` has been examined more than *threshold1* times since generation ``1`` has been examined, then generation ``1`` is examined as well. With the third generation, things are a bit more complicated, see `Collecting the oldest generation <https://devguide.python.org/garbage_collector/#collecting-the-oldest-generation>`_ for more information."
 msgstr ""
 
 #: ../../library/gc.rst:116
