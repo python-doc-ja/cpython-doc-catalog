@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-12 14:51+0000\n"
+"POT-Creation-Date: 2020-08-14 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,7 +185,7 @@ msgid "Library"
 msgstr ""
 
 #: ../../../build/NEWS:18
-msgid "`bpo-41520 <https://bugs.python.org/issue41520>`__: Fix :mod:`codeop` regression: it no longer ignores :exc:`SyntaxWarning`."
+msgid "`bpo-41520 <https://bugs.python.org/issue41520>`__: Fix :mod:`codeop` regression that prevented turning compile warnings into errors."
 msgstr ""
 
 #: ../../../build/NEWS:21
