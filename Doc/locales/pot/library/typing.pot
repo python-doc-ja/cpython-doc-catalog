@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-13 03:51+0000\n"
+"POT-Creation-Date: 2020-08-15 03:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,7 +193,7 @@ msgid "A special kind of type is :data:`Any`. A static type checker will treat e
 msgstr ""
 
 #: ../../library/typing.rst:327
-msgid "This means that it is possible to perform any operation or method call on a value of type on :data:`Any` and assign it to any variable::"
+msgid "This means that it is possible to perform any operation or method call on a value of type :data:`Any` and assign it to any variable::"
 msgstr ""
 
 #: ../../library/typing.rst:345
