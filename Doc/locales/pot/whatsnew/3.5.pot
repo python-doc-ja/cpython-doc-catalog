@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -318,7 +318,7 @@ msgid "Experience has shown that the majority of function annotation uses were t
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:415
-msgid ":pep:`484` introduces a :term:`provisional module <provisional api>` to provide these standard definitions and tools, along with some conventions for situations where annotations are not available."
+msgid ":pep:`484` introduces a :term:`provisional module <provisional API>` to provide these standard definitions and tools, along with some conventions for situations where annotations are not available."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:419
@@ -586,7 +586,7 @@ msgid "typing"
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:729
-msgid "The new :mod:`typing` :term:`provisional <provisional api>` module provides standard definitions and tools for function type annotations. See :ref:`Type Hints <whatsnew-pep-484>` for more information."
+msgid "The new :mod:`typing` :term:`provisional <provisional API>` module provides standard definitions and tools for function type annotations. See :ref:`Type Hints <whatsnew-pep-484>` for more information."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:736
@@ -626,7 +626,7 @@ msgid "asyncio"
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:775
-msgid "Since the :mod:`asyncio` module is :term:`provisional <provisional api>`, all changes introduced in Python 3.5 have also been backported to Python 3.4.x."
+msgid "Since the :mod:`asyncio` module is :term:`provisional <provisional API>`, all changes introduced in Python 3.5 have also been backported to Python 3.4.x."
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:778
@@ -1518,7 +1518,7 @@ msgid "sys"
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:1866
-msgid "A new :func:`~sys.set_coroutine_wrapper` function allows setting a global hook that will be called whenever a :term:`coroutine object <coroutine>` is created by an :keyword:`async def` function.  A corresponding :func:`~sys.get_coroutine_wrapper` can be used to obtain a currently set wrapper.  Both functions are :term:`provisional <provisional api>`, and are intended for debugging purposes only.  (Contributed by Yury Selivanov in :issue:`24017`.)"
+msgid "A new :func:`~sys.set_coroutine_wrapper` function allows setting a global hook that will be called whenever a :term:`coroutine object <coroutine>` is created by an :keyword:`async def` function.  A corresponding :func:`~sys.get_coroutine_wrapper` can be used to obtain a currently set wrapper.  Both functions are :term:`provisional <provisional API>`, and are intended for debugging purposes only.  (Contributed by Yury Selivanov in :issue:`24017`.)"
 msgstr ""
 
 #: ../../whatsnew/3.5.rst:1874

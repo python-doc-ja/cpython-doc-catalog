@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-03 12:50+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1990,7 +1990,7 @@ msgid ":c:type:`PyBaseObject_Type` provides a :attr:`tp_richcompare` implementat
 msgstr ""
 
 #: ../../c-api/typeobj.rst:1397
-msgid "If the instances of this type are weakly referenceable, this field is greater than zero and contains the offset in the instance structure of the weak reference list head (ignoring the GC header, if present); this offset is used by :c:func:`PyObject_ClearWeakRefs` and the :c:func:`PyWeakref_\\*` functions.  The instance structure needs to include a field of type :c:type:`PyObject\\*` which is initialized to ``NULL``."
+msgid "If the instances of this type are weakly referenceable, this field is greater than zero and contains the offset in the instance structure of the weak reference list head (ignoring the GC header, if present); this offset is used by :c:func:`PyObject_ClearWeakRefs` and the :c:func:`PyWeakref_\\*` functions.  The instance structure needs to include a field of type :c:type:`PyObject*` which is initialized to ``NULL``."
 msgstr ""
 
 #: ../../c-api/typeobj.rst:1404

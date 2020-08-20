@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,6 +349,10 @@ msgstr ""
 msgid "C or F"
 msgstr ""
 
+#: ../../c-api/buffer.rst:304
+msgid ":c:macro:`PyBUF_ND`"
+msgstr ""
+
 #: ../../c-api/buffer.rst:309
 msgid "compound requests"
 msgstr ""
@@ -437,11 +441,11 @@ msgid "Return ``1`` if *obj* supports the buffer interface otherwise ``0``.  Whe
 msgstr ""
 
 #: ../../c-api/buffer.rst:439
-msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to ``NULL`` and return ``-1``."
+msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set ``view->obj`` to ``NULL`` and return ``-1``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:444
-msgid "On success, fill in *view*, set :c:member:`view->obj` to a new reference to *exporter* and return 0. In the case of chained buffer providers that redirect requests to a single object, :c:member:`view->obj` MAY refer to this object instead of *exporter* (See :ref:`Buffer Object Structures <buffer-structs>`)."
+msgid "On success, fill in *view*, set ``view->obj`` to a new reference to *exporter* and return 0. In the case of chained buffer providers that redirect requests to a single object, ``view->obj`` MAY refer to this object instead of *exporter* (See :ref:`Buffer Object Structures <buffer-structs>`)."
 msgstr ""
 
 #: ../../c-api/buffer.rst:449
@@ -449,7 +453,7 @@ msgid "Successful calls to :c:func:`PyObject_GetBuffer` must be paired with call
 msgstr ""
 
 #: ../../c-api/buffer.rst:457
-msgid "Release the buffer *view* and decrement the reference count for :c:member:`view->obj`. This function MUST be called when the buffer is no longer being used, otherwise reference leaks may occur."
+msgid "Release the buffer *view* and decrement the reference count for ``view->obj``. This function MUST be called when the buffer is no longer being used, otherwise reference leaks may occur."
 msgstr ""
 
 #: ../../c-api/buffer.rst:461
@@ -493,7 +497,7 @@ msgid "The *flags* argument indicates the request type. This function always fil
 msgstr ""
 
 #: ../../c-api/buffer.rst:517
-msgid "On success, set :c:member:`view->obj` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to ``NULL`` and return ``-1``;"
+msgid "On success, set ``view->obj`` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set ``view->obj`` to ``NULL`` and return ``-1``;"
 msgstr ""
 
 #: ../../c-api/buffer.rst:521

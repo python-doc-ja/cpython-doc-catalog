@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,7 +193,7 @@ msgid "Call a callable Python object *callable*, with a variable number of C arg
 msgstr ""
 
 #: ../../c-api/object.rst:293
-msgid "Note that if you only pass :c:type:`PyObject \\*` args, :c:func:`PyObject_CallFunctionObjArgs` is a faster alternative."
+msgid "Note that if you only pass :c:type:`PyObject *` args, :c:func:`PyObject_CallFunctionObjArgs` is a faster alternative."
 msgstr ""
 
 #: ../../c-api/object.rst:296
@@ -213,7 +213,7 @@ msgid "This is the equivalent of the Python expression: ``obj.name(arg1, arg2, .
 msgstr ""
 
 #: ../../c-api/object.rst:314
-msgid "Note that if you only pass :c:type:`PyObject \\*` args, :c:func:`PyObject_CallMethodObjArgs` is a faster alternative."
+msgid "Note that if you only pass :c:type:`PyObject *` args, :c:func:`PyObject_CallMethodObjArgs` is a faster alternative."
 msgstr ""
 
 #: ../../c-api/object.rst:317
@@ -221,7 +221,7 @@ msgid "The types of *name* and *format* were changed from ``char *``."
 msgstr ""
 
 #: ../../c-api/object.rst:323
-msgid "Call a callable Python object *callable*, with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
+msgid "Call a callable Python object *callable*, with a variable number of :c:type:`PyObject*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:330
@@ -229,7 +229,7 @@ msgid "This is the equivalent of the Python expression: ``callable(arg1, arg2, .
 msgstr ""
 
 #: ../../c-api/object.rst:336
-msgid "Calls a method of the Python object *obj*, where the name of the method is given as a Python string object in *name*.  It is called with a variable number of :c:type:`PyObject\\*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
+msgid "Calls a method of the Python object *obj*, where the name of the method is given as a Python string object in *name*.  It is called with a variable number of :c:type:`PyObject*` arguments.  The arguments are provided as a variable number of parameters followed by ``NULL``."
 msgstr ""
 
 #: ../../c-api/object.rst:347
@@ -302,7 +302,7 @@ msgid "Returns ``0`` if the object *o* is considered to be true, and ``1`` other
 msgstr ""
 
 #: ../../c-api/object.rst:461
-msgid "When *o* is non-``NULL``, returns a type object corresponding to the object type of object *o*. On failure, raises :exc:`SystemError` and returns ``NULL``.  This is equivalent to the Python expression ``type(o)``. This function increments the reference count of the return value. There's really no reason to use this function instead of the common expression ``o->ob_type``, which returns a pointer of type :c:type:`PyTypeObject\\*`, except when the incremented reference count is needed."
+msgid "When *o* is non-``NULL``, returns a type object corresponding to the object type of object *o*. On failure, raises :exc:`SystemError` and returns ``NULL``.  This is equivalent to the Python expression ``type(o)``. This function increments the reference count of the return value. There's really no reason to use this function instead of the common expression ``o->ob_type``, which returns a pointer of type :c:type:`PyTypeObject*`, except when the incremented reference count is needed."
 msgstr ""
 
 #: ../../c-api/object.rst:472

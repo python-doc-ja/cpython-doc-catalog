@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-07 14:46+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -479,7 +479,7 @@ msgid "Standard Exceptions"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:772
-msgid "All standard Python exceptions are available as global variables whose names are ``PyExc_`` followed by the Python exception name.  These have the type :c:type:`PyObject\\*`; they are all class objects.  For completeness, here are all the variables:"
+msgid "All standard Python exceptions are available as global variables whose names are ``PyExc_`` followed by the Python exception name.  These have the type :c:type:`PyObject*`; they are all class objects.  For completeness, here are all the variables:"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:833
@@ -990,7 +990,7 @@ msgid "Standard Warning Categories"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:992
-msgid "All standard Python warning categories are available as global variables whose names are ``PyExc_`` followed by the Python exception name. These have the type :c:type:`PyObject\\*`; they are all class objects. For completeness, here are all the variables:"
+msgid "All standard Python warning categories are available as global variables whose names are ``PyExc_`` followed by the Python exception name. These have the type :c:type:`PyObject*`; they are all class objects. For completeness, here are all the variables:"
 msgstr ""
 
 #: ../../c-api/exceptions.rst:1013

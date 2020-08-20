@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Several of these functions accept a start symbol from the grammar as a pa
 msgstr ""
 
 #: ../../c-api/veryhigh.rst:19
-msgid "Note also that several of these functions take :c:type:`FILE\\*` parameters.  One particular issue which needs to be handled carefully is that the :c:type:`FILE` structure for different C libraries can be different and incompatible.  Under Windows (at least), it is possible for dynamically linked extensions to actually use different libraries, so care should be taken that :c:type:`FILE\\*` parameters are only passed to these functions if it is certain that they were created by the same library that the Python runtime is using."
+msgid "Note also that several of these functions take :c:type:`FILE*` parameters.  One particular issue which needs to be handled carefully is that the :c:type:`FILE` structure for different C libraries can be different and incompatible.  Under Windows (at least), it is possible for dynamically linked extensions to actually use different libraries, so care should be taken that :c:type:`FILE*` parameters are only passed to these functions if it is certain that they were created by the same library that the Python runtime is using."
 msgstr ""
 
 #: ../../c-api/veryhigh.rst:30

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1389,7 +1389,7 @@ msgid "typing"
 msgstr ""
 
 #: ../../whatsnew/3.6.rst:1600
-msgid "Since the :mod:`typing` module is :term:`provisional <provisional api>`, all changes introduced in Python 3.6 have also been backported to Python 3.5.x."
+msgid "Since the :mod:`typing` module is :term:`provisional <provisional API>`, all changes introduced in Python 3.6 have also been backported to Python 3.5.x."
 msgstr ""
 
 #: ../../whatsnew/3.6.rst:1604

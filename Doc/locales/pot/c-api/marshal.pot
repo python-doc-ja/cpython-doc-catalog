@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-08-20 14:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "The following functions allow marshalled values to be read back in."
 msgstr ""
 
 #: ../../c-api/marshal.rst:46
-msgid "Return a C :c:type:`long` from the data stream in a :c:type:`FILE\\*` opened for reading.  Only a 32-bit value can be read in using this function, regardless of the native size of :c:type:`long`."
+msgid "Return a C :c:type:`long` from the data stream in a :c:type:`FILE*` opened for reading.  Only a 32-bit value can be read in using this function, regardless of the native size of :c:type:`long`."
 msgstr ""
 
 #: ../../c-api/marshal.rst:50
@@ -58,11 +58,11 @@ msgid "On error, sets the appropriate exception (:exc:`EOFError`) and returns ``
 msgstr ""
 
 #: ../../c-api/marshal.rst:56
-msgid "Return a C :c:type:`short` from the data stream in a :c:type:`FILE\\*` opened for reading.  Only a 16-bit value can be read in using this function, regardless of the native size of :c:type:`short`."
+msgid "Return a C :c:type:`short` from the data stream in a :c:type:`FILE*` opened for reading.  Only a 16-bit value can be read in using this function, regardless of the native size of :c:type:`short`."
 msgstr ""
 
 #: ../../c-api/marshal.rst:66
-msgid "Return a Python object from the data stream in a :c:type:`FILE\\*` opened for reading."
+msgid "Return a Python object from the data stream in a :c:type:`FILE*` opened for reading."
 msgstr ""
 
 #: ../../c-api/marshal.rst:69
@@ -72,7 +72,7 @@ msgid "On error, sets the appropriate exception (:exc:`EOFError`, :exc:`ValueErr
 msgstr ""
 
 #: ../../c-api/marshal.rst:75
-msgid "Return a Python object from the data stream in a :c:type:`FILE\\*` opened for reading.  Unlike :c:func:`PyMarshal_ReadObjectFromFile`, this function assumes that no further objects will be read from the file, allowing it to aggressively load file data into memory so that the de-serialization can operate from data in memory rather than reading a byte at a time from the file.  Only use these variant if you are certain that you won't be reading anything else from the file."
+msgid "Return a Python object from the data stream in a :c:type:`FILE*` opened for reading.  Unlike :c:func:`PyMarshal_ReadObjectFromFile`, this function assumes that no further objects will be read from the file, allowing it to aggressively load file data into memory so that the de-serialization can operate from data in memory rather than reading a byte at a time from the file.  Only use these variant if you are certain that you won't be reading anything else from the file."
 msgstr ""
 
 #: ../../c-api/marshal.rst:89
