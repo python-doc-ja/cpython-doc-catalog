@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 03:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -657,7 +657,7 @@ msgid "iterable"
 msgstr ""
 
 #: ../../glossary.rst:585
-msgid "An object capable of returning its members one at a time. Examples of iterables include all sequence types (such as :class:`list`, :class:`str`, and :class:`tuple`) and some non-sequence types like :class:`dict`, :term:`file objects <file object>`, and objects of any classes you define with an :meth:`__iter__` method or with a :meth:`__getitem__` method that implements :term:`Sequence` semantics."
+msgid "An object capable of returning its members one at a time. Examples of iterables include all sequence types (such as :class:`list`, :class:`str`, and :class:`tuple`) and some non-sequence types like :class:`dict`, :term:`file objects <file object>`, and objects of any classes you define with an :meth:`__iter__` method or with a :meth:`__getitem__` method that implements :term:`Sequence <sequence>` semantics."
 msgstr ""
 
 #: ../../glossary.rst:592

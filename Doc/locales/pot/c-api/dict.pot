@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Insert *val* into the dictionary *p* with a key of *key*.  *key* must be 
 msgstr ""
 
 #: ../../c-api/dict.rst:75
-msgid "Insert *val* into the dictionary *p* using *key* as a key. *key* should be a :c:type:`const char\\*`.  The key object is created using ``PyUnicode_FromString(key)``.  Return ``0`` on success or ``-1`` on failure.  This function *does not* steal a reference to *val*."
+msgid "Insert *val* into the dictionary *p* using *key* as a key. *key* should be a :c:type:`const char*`.  The key object is created using ``PyUnicode_FromString(key)``.  Return ``0`` on success or ``-1`` on failure.  This function *does not* steal a reference to *val*."
 msgstr ""
 
 #: ../../c-api/dict.rst:83
@@ -85,7 +85,7 @@ msgid "Variant of :c:func:`PyDict_GetItem` that does not suppress exceptions. Re
 msgstr ""
 
 #: ../../c-api/dict.rst:114
-msgid "This is the same as :c:func:`PyDict_GetItem`, but *key* is specified as a :c:type:`const char\\*`, rather than a :c:type:`PyObject\\*`."
+msgid "This is the same as :c:func:`PyDict_GetItem`, but *key* is specified as a :c:type:`const char*`, rather than a :c:type:`PyObject*`."
 msgstr ""
 
 #: ../../c-api/dict.rst:117
@@ -113,7 +113,7 @@ msgid "Return the number of items in the dictionary.  This is equivalent to ``le
 msgstr ""
 
 #: ../../c-api/dict.rst:159
-msgid "Iterate over all key-value pairs in the dictionary *p*.  The :c:type:`Py_ssize_t` referred to by *ppos* must be initialized to ``0`` prior to the first call to this function to start the iteration; the function returns true for each pair in the dictionary, and false once all pairs have been reported.  The parameters *pkey* and *pvalue* should either point to :c:type:`PyObject\\*` variables that will be filled in with each key and value, respectively, or may be ``NULL``.  Any references returned through them are borrowed.  *ppos* should not be altered during iteration. Its value represents offsets within the internal dictionary structure, and since the structure is sparse, the offsets are not consecutive."
+msgid "Iterate over all key-value pairs in the dictionary *p*.  The :c:type:`Py_ssize_t` referred to by *ppos* must be initialized to ``0`` prior to the first call to this function to start the iteration; the function returns true for each pair in the dictionary, and false once all pairs have been reported.  The parameters *pkey* and *pvalue* should either point to :c:type:`PyObject*` variables that will be filled in with each key and value, respectively, or may be ``NULL``.  Any references returned through them are borrowed.  *ppos* should not be altered during iteration. Its value represents offsets within the internal dictionary structure, and since the structure is sparse, the offsets are not consecutive."
 msgstr ""
 
 #: ../../c-api/dict.rst:170

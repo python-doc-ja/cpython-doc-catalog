@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2460,11 +2460,11 @@ msgid ":c:func:`PyUnicode_EncodeUTF16`"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:2312
-msgid ":c:func:`PyUnicode_EncodeUnicodeEscape:` use :c:func:`PyUnicode_AsUnicodeEscapeString`"
+msgid ":c:func:`PyUnicode_EncodeUnicodeEscape` use :c:func:`PyUnicode_AsUnicodeEscapeString`"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:2314
-msgid ":c:func:`PyUnicode_EncodeRawUnicodeEscape:` use :c:func:`PyUnicode_AsRawUnicodeEscapeString`"
+msgid ":c:func:`PyUnicode_EncodeRawUnicodeEscape` use :c:func:`PyUnicode_AsRawUnicodeEscapeString`"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:2316

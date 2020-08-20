@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-12 03:50+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -630,7 +630,7 @@ msgid "The :mod:`asyncio` module has received many new features, usability and :
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:639
-msgid "The new :term:`provisional <provisional api>` :func:`asyncio.run` function can be used to run a coroutine from synchronous code by automatically creating and destroying the event loop. (Contributed by Yury Selivanov in :issue:`32314`.)"
+msgid "The new :term:`provisional <provisional API>` :func:`asyncio.run` function can be used to run a coroutine from synchronous code by automatically creating and destroying the event loop. (Contributed by Yury Selivanov in :issue:`32314`.)"
 msgstr ""
 
 #: ../../whatsnew/3.7.rst:644

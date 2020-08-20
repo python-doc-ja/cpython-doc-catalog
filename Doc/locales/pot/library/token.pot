@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -256,22 +256,22 @@ msgstr ""
 msgid "Token value that indicates the encoding used to decode the source bytes into text. The first token returned by :func:`tokenize.tokenize` will always be an ``ENCODING`` token."
 msgstr ""
 
-#: ../../library/token.rst:74
+#: ../../library/token.rst:75
 msgid "Token value indicating that a type comment was recognized.  Such tokens are only produced when :func:`ast.parse()` is invoked with ``type_comments=True``."
 msgstr ""
 
-#: ../../library/token.rst:79
+#: ../../library/token.rst:80
 msgid "Added :data:`AWAIT` and :data:`ASYNC` tokens."
 msgstr ""
 
-#: ../../library/token.rst:82
+#: ../../library/token.rst:83
 msgid "Added :data:`COMMENT`, :data:`NL` and :data:`ENCODING` tokens."
 msgstr ""
 
-#: ../../library/token.rst:85
+#: ../../library/token.rst:86
 msgid "Removed :data:`AWAIT` and :data:`ASYNC` tokens. \"async\" and \"await\" are now tokenized as :data:`NAME` tokens."
 msgstr ""
 
-#: ../../library/token.rst:89
+#: ../../library/token.rst:90
 msgid "Added :data:`TYPE_COMMENT`, :data:`TYPE_IGNORE`, :data:`COLONEQUAL`. Added :data:`AWAIT` and :data:`ASYNC` tokens back (they're needed to support parsing older Python versions for :func:`ast.parse` with ``feature_version`` set to 6 or lower)."
 msgstr ""

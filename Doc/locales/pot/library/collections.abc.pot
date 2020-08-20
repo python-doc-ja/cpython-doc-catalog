@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,7 +367,7 @@ msgid "ABC for :term:`awaitable` objects, which can be used in :keyword:`await` 
 msgstr ""
 
 #: ../../library/collections.abc.rst:188
-msgid ":term:`Coroutine` objects and instances of the :class:`~collections.abc.Coroutine` ABC are all instances of this ABC."
+msgid ":term:`Coroutine <coroutine>` objects and instances of the :class:`~collections.abc.Coroutine` ABC are all instances of this ABC."
 msgstr ""
 
 #: ../../library/collections.abc.rst:192

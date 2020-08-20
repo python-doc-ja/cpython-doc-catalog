@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-08-20 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1699,7 +1699,7 @@ msgid "Awaitable Objects"
 msgstr ""
 
 #: ../../reference/datamodel.rst:2603
-msgid "An :term:`awaitable` object generally implements an :meth:`__await__` method. :term:`Coroutine` objects returned from :keyword:`async def` functions are awaitable."
+msgid "An :term:`awaitable` object generally implements an :meth:`__await__` method. :term:`Coroutine objects <coroutine>` returned from :keyword:`async def` functions are awaitable."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2609
@@ -1719,7 +1719,7 @@ msgid "Coroutine Objects"
 msgstr ""
 
 #: ../../reference/datamodel.rst:2629
-msgid ":term:`Coroutine` objects are :term:`awaitable` objects. A coroutine's execution can be controlled by calling :meth:`__await__` and iterating over the result.  When the coroutine has finished executing and returns, the iterator raises :exc:`StopIteration`, and the exception's :attr:`~StopIteration.value` attribute holds the return value.  If the coroutine raises an exception, it is propagated by the iterator.  Coroutines should not directly raise unhandled :exc:`StopIteration` exceptions."
+msgid ":term:`Coroutine objects <coroutine>` are :term:`awaitable` objects. A coroutine's execution can be controlled by calling :meth:`__await__` and iterating over the result.  When the coroutine has finished executing and returns, the iterator raises :exc:`StopIteration`, and the exception's :attr:`~StopIteration.value` attribute holds the return value.  If the coroutine raises an exception, it is propagated by the iterator.  Coroutines should not directly raise unhandled :exc:`StopIteration` exceptions."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2637
