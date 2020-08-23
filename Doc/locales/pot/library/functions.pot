@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-08 14:46+0000\n"
+"POT-Creation-Date: 2020-08-23 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1432,78 +1432,82 @@ msgstr ""
 msgid "Without an argument, :func:`vars` acts like :func:`locals`.  Note, the locals dictionary is only useful for reads since updates to the locals dictionary are ignored."
 msgstr ""
 
-#: ../../library/functions.rst:1720
+#: ../../library/functions.rst:1717
+msgid "A :exc:`TypeError` exception is raised if an object is specified but it doesn't have a :attr:`~object.__dict__` attribute (for example, if its class defines the :attr:`~object.__slots__` attribute)."
+msgstr ""
+
+#: ../../library/functions.rst:1723
 msgid "Make an iterator that aggregates elements from each of the iterables."
 msgstr ""
 
-#: ../../library/functions.rst:1722
+#: ../../library/functions.rst:1725
 msgid "Returns an iterator of tuples, where the *i*-th tuple contains the *i*-th element from each of the argument sequences or iterables.  The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples.  With no arguments, it returns an empty iterator.  Equivalent to::"
 msgstr ""
 
-#: ../../library/functions.rst:1741
+#: ../../library/functions.rst:1744
 msgid "The left-to-right evaluation order of the iterables is guaranteed. This makes possible an idiom for clustering a data series into n-length groups using ``zip(*[iter(s)]*n)``.  This repeats the *same* iterator ``n`` times so that each output tuple has the result of ``n`` calls to the iterator. This has the effect of dividing the input into n-length chunks."
 msgstr ""
 
-#: ../../library/functions.rst:1747
+#: ../../library/functions.rst:1750
 msgid ":func:`zip` should only be used with unequal length inputs when you don't care about trailing, unmatched values from the longer iterables.  If those values are important, use :func:`itertools.zip_longest` instead."
 msgstr ""
 
-#: ../../library/functions.rst:1751
+#: ../../library/functions.rst:1754
 msgid ":func:`zip` in conjunction with the ``*`` operator can be used to unzip a list::"
 msgstr ""
 
-#: ../../library/functions.rst:1772
+#: ../../library/functions.rst:1775
 msgid "This is an advanced function that is not needed in everyday Python programming, unlike :func:`importlib.import_module`."
 msgstr ""
 
-#: ../../library/functions.rst:1775
+#: ../../library/functions.rst:1778
 msgid "This function is invoked by the :keyword:`import` statement.  It can be replaced (by importing the :mod:`builtins` module and assigning to ``builtins.__import__``) in order to change semantics of the :keyword:`!import` statement, but doing so is **strongly** discouraged as it is usually simpler to use import hooks (see :pep:`302`) to attain the same goals and does not cause issues with code which assumes the default import implementation is in use.  Direct use of :func:`__import__` is also discouraged in favor of :func:`importlib.import_module`."
 msgstr ""
 
-#: ../../library/functions.rst:1784
+#: ../../library/functions.rst:1787
 msgid "The function imports the module *name*, potentially using the given *globals* and *locals* to determine how to interpret the name in a package context. The *fromlist* gives the names of objects or submodules that should be imported from the module given by *name*.  The standard implementation does not use its *locals* argument at all, and uses its *globals* only to determine the package context of the :keyword:`import` statement."
 msgstr ""
 
-#: ../../library/functions.rst:1791
+#: ../../library/functions.rst:1794
 msgid "*level* specifies whether to use absolute or relative imports. ``0`` (the default) means only perform absolute imports.  Positive values for *level* indicate the number of parent directories to search relative to the directory of the module calling :func:`__import__` (see :pep:`328` for the details)."
 msgstr ""
 
-#: ../../library/functions.rst:1797
+#: ../../library/functions.rst:1800
 msgid "When the *name* variable is of the form ``package.module``, normally, the top-level package (the name up till the first dot) is returned, *not* the module named by *name*.  However, when a non-empty *fromlist* argument is given, the module named by *name* is returned."
 msgstr ""
 
-#: ../../library/functions.rst:1802
+#: ../../library/functions.rst:1805
 msgid "For example, the statement ``import spam`` results in bytecode resembling the following code::"
 msgstr ""
 
-#: ../../library/functions.rst:1807
+#: ../../library/functions.rst:1810
 msgid "The statement ``import spam.ham`` results in this call::"
 msgstr ""
 
-#: ../../library/functions.rst:1811
+#: ../../library/functions.rst:1814
 msgid "Note how :func:`__import__` returns the toplevel module here because this is the object that is bound to a name by the :keyword:`import` statement."
 msgstr ""
 
-#: ../../library/functions.rst:1814
+#: ../../library/functions.rst:1817
 msgid "On the other hand, the statement ``from spam.ham import eggs, sausage as saus`` results in ::"
 msgstr ""
 
-#: ../../library/functions.rst:1821
+#: ../../library/functions.rst:1824
 msgid "Here, the ``spam.ham`` module is returned from :func:`__import__`.  From this object, the names to import are retrieved and assigned to their respective names."
 msgstr ""
 
-#: ../../library/functions.rst:1825
+#: ../../library/functions.rst:1828
 msgid "If you simply want to import a module (potentially within a package) by name, use :func:`importlib.import_module`."
 msgstr ""
 
-#: ../../library/functions.rst:1828
+#: ../../library/functions.rst:1831
 msgid "Negative values for *level* are no longer supported (which also changes the default value to 0)."
 msgstr ""
 
-#: ../../library/functions.rst:1834
+#: ../../library/functions.rst:1837
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/functions.rst:1835
+#: ../../library/functions.rst:1838
 msgid "Note that the parser only accepts the Unix-style end of line convention. If you are reading the code from a file, make sure to use newline conversion mode to convert Windows or Mac-style newlines."
 msgstr ""
