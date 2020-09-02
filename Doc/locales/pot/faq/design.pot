@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-09-02 14:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -433,137 +433,137 @@ msgid "Python 2.6 adds an :mod:`abc` module that lets you define Abstract Base C
 msgstr ""
 
 #: ../../faq/design.rst:573
-msgid "For Python, many of the advantages of interface specifications can be obtained by an appropriate test discipline for components.  There is also a tool, PyChecker, which can be used to find problems due to subclassing."
+msgid "For Python, many of the advantages of interface specifications can be obtained by an appropriate test discipline for components."
 msgstr ""
 
-#: ../../faq/design.rst:577
+#: ../../faq/design.rst:576
 msgid "A good test suite for a module can both provide a regression test and serve as a module interface specification and a set of examples.  Many Python modules can be run as a script to provide a simple \"self test.\"  Even modules which use complex external interfaces can often be tested in isolation using trivial \"stub\" emulations of the external interface.  The :mod:`doctest` and :mod:`unittest` modules or third-party test frameworks can be used to construct exhaustive test suites that exercise every line of code in a module."
 msgstr ""
 
-#: ../../faq/design.rst:585
+#: ../../faq/design.rst:584
 msgid "An appropriate testing discipline can help build large complex applications in Python as well as having interface specifications would.  In fact, it can be better because an interface specification cannot test certain properties of a program.  For example, the :meth:`append` method is expected to add new elements to the end of some internal list; an interface specification cannot test that your :meth:`append` implementation will actually do this correctly, but it's trivial to check this property in a test suite."
 msgstr ""
 
-#: ../../faq/design.rst:593
+#: ../../faq/design.rst:592
 msgid "Writing test suites is very helpful, and you might want to design your code with an eye to making it easily tested.  One increasingly popular technique, test-directed development, calls for writing parts of the test suite first, before you write any of the actual code.  Of course Python allows you to be sloppy and not write test cases at all."
 msgstr ""
 
-#: ../../faq/design.rst:601
+#: ../../faq/design.rst:600
 msgid "Why is there no goto?"
 msgstr ""
 
-#: ../../faq/design.rst:603
+#: ../../faq/design.rst:602
 msgid "You can use exceptions to provide a \"structured goto\" that even works across function calls.  Many feel that exceptions can conveniently emulate all reasonable uses of the \"go\" or \"goto\" constructs of C, Fortran, and other languages.  For example::"
 msgstr ""
 
-#: ../../faq/design.rst:618
+#: ../../faq/design.rst:617
 msgid "This doesn't allow you to jump into the middle of a loop, but that's usually considered an abuse of goto anyway.  Use sparingly."
 msgstr ""
 
-#: ../../faq/design.rst:623
+#: ../../faq/design.rst:622
 msgid "Why can't raw strings (r-strings) end with a backslash?"
 msgstr ""
 
-#: ../../faq/design.rst:625
+#: ../../faq/design.rst:624
 msgid "More precisely, they can't end with an odd number of backslashes: the unpaired backslash at the end escapes the closing quote character, leaving an unterminated string."
 msgstr ""
 
-#: ../../faq/design.rst:629
+#: ../../faq/design.rst:628
 msgid "Raw strings were designed to ease creating input for processors (chiefly regular expression engines) that want to do their own backslash escape processing. Such processors consider an unmatched trailing backslash to be an error anyway, so raw strings disallow that.  In return, they allow you to pass on the string quote character by escaping it with a backslash.  These rules work well when r-strings are used for their intended purpose."
 msgstr ""
 
-#: ../../faq/design.rst:636
+#: ../../faq/design.rst:635
 msgid "If you're trying to build Windows pathnames, note that all Windows system calls accept forward slashes too::"
 msgstr ""
 
-#: ../../faq/design.rst:641
+#: ../../faq/design.rst:640
 msgid "If you're trying to build a pathname for a DOS command, try e.g. one of ::"
 msgstr ""
 
-#: ../../faq/design.rst:649
+#: ../../faq/design.rst:648
 msgid "Why doesn't Python have a \"with\" statement for attribute assignments?"
 msgstr ""
 
-#: ../../faq/design.rst:651
+#: ../../faq/design.rst:650
 msgid "Python has a 'with' statement that wraps the execution of a block, calling code on the entrance and exit from the block.  Some language have a construct that looks like this::"
 msgstr ""
 
-#: ../../faq/design.rst:659
+#: ../../faq/design.rst:658
 msgid "In Python, such a construct would be ambiguous."
 msgstr ""
 
-#: ../../faq/design.rst:661
+#: ../../faq/design.rst:660
 msgid "Other languages, such as Object Pascal, Delphi, and C++, use static types, so it's possible to know, in an unambiguous way, what member is being assigned to. This is the main point of static typing -- the compiler *always* knows the scope of every variable at compile time."
 msgstr ""
 
-#: ../../faq/design.rst:666
+#: ../../faq/design.rst:665
 msgid "Python uses dynamic types. It is impossible to know in advance which attribute will be referenced at runtime. Member attributes may be added or removed from objects on the fly. This makes it impossible to know, from a simple reading, what attribute is being referenced: a local one, a global one, or a member attribute?"
 msgstr ""
 
-#: ../../faq/design.rst:672
+#: ../../faq/design.rst:671
 msgid "For instance, take the following incomplete snippet::"
 msgstr ""
 
-#: ../../faq/design.rst:678
+#: ../../faq/design.rst:677
 msgid "The snippet assumes that \"a\" must have a member attribute called \"x\".  However, there is nothing in Python that tells the interpreter this. What should happen if \"a\" is, let us say, an integer?  If there is a global variable named \"x\", will it be used inside the with block?  As you see, the dynamic nature of Python makes such choices much harder."
 msgstr ""
 
-#: ../../faq/design.rst:684
+#: ../../faq/design.rst:683
 msgid "The primary benefit of \"with\" and similar language features (reduction of code volume) can, however, easily be achieved in Python by assignment.  Instead of::"
 msgstr ""
 
-#: ../../faq/design.rst:691
+#: ../../faq/design.rst:690
 msgid "write this::"
 msgstr ""
 
-#: ../../faq/design.rst:698
+#: ../../faq/design.rst:697
 msgid "This also has the side-effect of increasing execution speed because name bindings are resolved at run-time in Python, and the second version only needs to perform the resolution once."
 msgstr ""
 
-#: ../../faq/design.rst:704
+#: ../../faq/design.rst:703
 msgid "Why are colons required for the if/while/def/class statements?"
 msgstr ""
 
-#: ../../faq/design.rst:706
+#: ../../faq/design.rst:705
 msgid "The colon is required primarily to enhance readability (one of the results of the experimental ABC language).  Consider this::"
 msgstr ""
 
-#: ../../faq/design.rst:712
+#: ../../faq/design.rst:711
 msgid "versus ::"
 msgstr ""
 
-#: ../../faq/design.rst:717
+#: ../../faq/design.rst:716
 msgid "Notice how the second one is slightly easier to read.  Notice further how a colon sets off the example in this FAQ answer; it's a standard usage in English."
 msgstr ""
 
-#: ../../faq/design.rst:720
+#: ../../faq/design.rst:719
 msgid "Another minor reason is that the colon makes it easier for editors with syntax highlighting; they can look for colons to decide when indentation needs to be increased instead of having to do a more elaborate parsing of the program text."
 msgstr ""
 
-#: ../../faq/design.rst:726
+#: ../../faq/design.rst:725
 msgid "Why does Python allow commas at the end of lists and tuples?"
 msgstr ""
 
-#: ../../faq/design.rst:728
+#: ../../faq/design.rst:727
 msgid "Python lets you add a trailing comma at the end of lists, tuples, and dictionaries::"
 msgstr ""
 
-#: ../../faq/design.rst:739
+#: ../../faq/design.rst:738
 msgid "There are several reasons to allow this."
 msgstr ""
 
-#: ../../faq/design.rst:741
+#: ../../faq/design.rst:740
 msgid "When you have a literal value for a list, tuple, or dictionary spread across multiple lines, it's easier to add more elements because you don't have to remember to add a comma to the previous line.  The lines can also be reordered without creating a syntax error."
 msgstr ""
 
-#: ../../faq/design.rst:746
+#: ../../faq/design.rst:745
 msgid "Accidentally omitting the comma can lead to errors that are hard to diagnose. For example::"
 msgstr ""
 
-#: ../../faq/design.rst:756
+#: ../../faq/design.rst:755
 msgid "This list looks like it has four elements, but it actually contains three: \"fee\", \"fiefoo\" and \"fum\".  Always adding the comma avoids this source of error."
 msgstr ""
 
-#: ../../faq/design.rst:759
+#: ../../faq/design.rst:758
 msgid "Allowing the trailing comma may also make programmatic code generation easier."
 msgstr ""
