@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-09-06 15:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Exception raised when an error occurs while attempting to compile the fil
 msgstr ""
 
 #: ../../library/py_compile.rst:32
-msgid "Compile a source file to byte-code and write out the byte-code cache file. The source code is loaded from the file named *file*.  The byte-code is written to *cfile*, which defaults to the :pep:`3147`/:pep:`488` path, ending in ``.pyc``. For example, if *file* is ``/foo/bar/baz.py`` *cfile* will default to ``/foo/bar/__pycache__/baz.cpython-32.pyc`` for Python 3.2.  If *dfile* is specified, it is used as the name of the source file in error messages when instead of *file*.  If *doraise* is true, a :exc:`PyCompileError` is raised when an error is encountered while compiling *file*. If *doraise* is false (the default), an error string is written to ``sys.stderr``, but no exception is raised.  This function returns the path to byte-compiled file, i.e. whatever *cfile* value was used."
+msgid "Compile a source file to byte-code and write out the byte-code cache file. The source code is loaded from the file named *file*.  The byte-code is written to *cfile*, which defaults to the :pep:`3147`/:pep:`488` path, ending in ``.pyc``. For example, if *file* is ``/foo/bar/baz.py`` *cfile* will default to ``/foo/bar/__pycache__/baz.cpython-32.pyc`` for Python 3.2.  If *dfile* is specified, it is used as the name of the source file in error messages instead of *file*.  If *doraise* is true, a :exc:`PyCompileError` is raised when an error is encountered while compiling *file*. If *doraise* is false (the default), an error string is written to ``sys.stderr``, but no exception is raised.  This function returns the path to byte-compiled file, i.e. whatever *cfile* value was used."
 msgstr ""
 
 #: ../../library/py_compile.rst:45
