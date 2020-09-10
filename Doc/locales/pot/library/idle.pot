@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 03:35+0000\n"
+"POT-Creation-Date: 2020-09-10 04:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -771,7 +771,7 @@ msgid "Completions are supplied, when requested and available, for module names,
 msgstr ""
 
 #: ../../library/idle.rst:488
-msgid "One way to open a box is to type a key character and wait for a predefined interval.  This defaults to 2 seconds; customize it in the settings dialog.  (To prevent auto popups, set the delay to a large number of milliseconds, such as 100000000.) For imported module names or class or function attributes, type '.'. For filenames in the root directory, type :data:`os.sep` or data:`os.altsep` immediately after an opening quote.  (On Windows, one can specify a drive first.)  Move into subdirectories by typing a directory name and a separator."
+msgid "One way to open a box is to type a key character and wait for a predefined interval.  This defaults to 2 seconds; customize it in the settings dialog.  (To prevent auto popups, set the delay to a large number of milliseconds, such as 100000000.) For imported module names or class or function attributes, type '.'. For filenames in the root directory, type :data:`os.sep` or :data:`os.altsep` immediately after an opening quote.  (On Windows, one can specify a drive first.)  Move into subdirectories by typing a directory name and a separator."
 msgstr ""
 
 #: ../../library/idle.rst:498
