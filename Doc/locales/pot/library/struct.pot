@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-09-12 04:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,7 +186,7 @@ msgid "Note the difference between ``'@'`` and ``'='``: both use native byte ord
 msgstr ""
 
 #: ../../library/struct.rst:162
-msgid "The form ``'!'`` is available for those poor souls who claim they can't remember whether network byte order is big-endian or little-endian."
+msgid "The form ``'!'`` represents the network byte order which is always big-endian as defined in `IETF RFC 1700 <IETF RFC 1700_>`_."
 msgstr ""
 
 #: ../../library/struct.rst:165
