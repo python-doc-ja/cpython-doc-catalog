@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 14:53+0000\n"
+"POT-Creation-Date: 2020-09-14 15:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -489,249 +489,249 @@ msgid "%-style formatting:  `%s` and `%r` call the :class:`Enum` class's :meth:`
 msgstr ""
 
 #: ../../library/enum.rst:746
-msgid ":ref:`Formatted string literals <f-strings>`, :meth:`str.format`, and :func:`format` will use the mixed-in type's :meth:`__format__`.  If the :class:`Enum` class's :func:`str` or :func:`repr` is desired, use the `!s` or `!r` format codes."
-msgstr ""
-
-#: ../../library/enum.rst:752
-msgid "When to use :meth:`__new__` vs. :meth:`__init__`"
+msgid ":ref:`Formatted string literals <f-strings>`, :meth:`str.format`, and :func:`format` will use the mixed-in type's :meth:`__format__` unless :meth:`__str__` or :meth:`__format__` is overridden in the subclass, in which case the overridden methods or :class:`Enum` methods will be used. Use the !s and !r format codes to force usage of the :class:`Enum` class's :meth:`__str__` and :meth:`__repr__` methods."
 msgstr ""
 
 #: ../../library/enum.rst:754
+msgid "When to use :meth:`__new__` vs. :meth:`__init__`"
+msgstr ""
+
+#: ../../library/enum.rst:756
 msgid ":meth:`__new__` must be used whenever you want to customize the actual value of the :class:`Enum` member.  Any other modifications may go in either :meth:`__new__` or :meth:`__init__`, with :meth:`__init__` being preferred."
 msgstr ""
 
-#: ../../library/enum.rst:758
+#: ../../library/enum.rst:760
 msgid "For example, if you want to pass several items to the constructor, but only want one of them to be the value::"
 msgstr ""
 
-#: ../../library/enum.rst:784
+#: ../../library/enum.rst:786
 msgid "Interesting examples"
 msgstr ""
 
-#: ../../library/enum.rst:786
+#: ../../library/enum.rst:788
 msgid "While :class:`Enum`, :class:`IntEnum`, :class:`IntFlag`, and :class:`Flag` are expected to cover the majority of use-cases, they cannot cover them all.  Here are recipes for some different types of enumerations that can be used directly, or as examples for creating one's own."
 msgstr ""
 
-#: ../../library/enum.rst:793
+#: ../../library/enum.rst:795
 msgid "Omitting values"
 msgstr ""
 
-#: ../../library/enum.rst:795
+#: ../../library/enum.rst:797
 msgid "In many use-cases one doesn't care what the actual value of an enumeration is. There are several ways to define this type of simple enumeration:"
 msgstr ""
 
-#: ../../library/enum.rst:798
+#: ../../library/enum.rst:800
 msgid "use instances of :class:`auto` for the value"
 msgstr ""
 
-#: ../../library/enum.rst:799
+#: ../../library/enum.rst:801
 msgid "use instances of :class:`object` as the value"
 msgstr ""
 
-#: ../../library/enum.rst:800
+#: ../../library/enum.rst:802
 msgid "use a descriptive string as the value"
 msgstr ""
 
-#: ../../library/enum.rst:801
+#: ../../library/enum.rst:803
 msgid "use a tuple as the value and a custom :meth:`__new__` to replace the tuple with an :class:`int` value"
 msgstr ""
 
-#: ../../library/enum.rst:804
+#: ../../library/enum.rst:806
 msgid "Using any of these methods signifies to the user that these values are not important, and also enables one to add, remove, or reorder members without having to renumber the remaining members."
 msgstr ""
 
-#: ../../library/enum.rst:808
+#: ../../library/enum.rst:810
 msgid "Whichever method you choose, you should provide a :meth:`repr` that also hides the (unimportant) value::"
 msgstr ""
 
-#: ../../library/enum.rst:818
+#: ../../library/enum.rst:820
 msgid "Using :class:`auto`"
 msgstr ""
 
-#: ../../library/enum.rst:820
+#: ../../library/enum.rst:822
 msgid "Using :class:`auto` would look like::"
 msgstr ""
 
-#: ../../library/enum.rst:832
+#: ../../library/enum.rst:834
 msgid "Using :class:`object`"
 msgstr ""
 
-#: ../../library/enum.rst:834
+#: ../../library/enum.rst:836
 msgid "Using :class:`object` would look like::"
 msgstr ""
 
-#: ../../library/enum.rst:846
+#: ../../library/enum.rst:848
 msgid "Using a descriptive string"
 msgstr ""
 
-#: ../../library/enum.rst:848
+#: ../../library/enum.rst:850
 msgid "Using a string as the value would look like::"
 msgstr ""
 
-#: ../../library/enum.rst:862
+#: ../../library/enum.rst:864
 msgid "Using a custom :meth:`__new__`"
 msgstr ""
 
-#: ../../library/enum.rst:864
+#: ../../library/enum.rst:866
 msgid "Using an auto-numbering :meth:`__new__` would look like::"
 msgstr ""
 
-#: ../../library/enum.rst:886
+#: ../../library/enum.rst:888
 msgid "The :meth:`__new__` method, if defined, is used during creation of the Enum members; it is then replaced by Enum's :meth:`__new__` which is used after class creation for lookup of existing members."
 msgstr ""
 
-#: ../../library/enum.rst:892
+#: ../../library/enum.rst:894
 msgid "OrderedEnum"
 msgstr ""
 
-#: ../../library/enum.rst:894
+#: ../../library/enum.rst:896
 msgid "An ordered enumeration that is not based on :class:`IntEnum` and so maintains the normal :class:`Enum` invariants (such as not being comparable to other enumerations)::"
 msgstr ""
 
-#: ../../library/enum.rst:928
+#: ../../library/enum.rst:930
 msgid "DuplicateFreeEnum"
 msgstr ""
 
-#: ../../library/enum.rst:930
+#: ../../library/enum.rst:932
 msgid "Raises an error if a duplicate member name is found instead of creating an alias::"
 msgstr ""
 
-#: ../../library/enum.rst:955
+#: ../../library/enum.rst:957
 msgid "This is a useful example for subclassing Enum to add or change other behaviors as well as disallowing aliases.  If the only desired change is disallowing aliases, the :func:`unique` decorator can be used instead."
 msgstr ""
 
-#: ../../library/enum.rst:961
+#: ../../library/enum.rst:963
 msgid "Planet"
 msgstr ""
 
-#: ../../library/enum.rst:963
+#: ../../library/enum.rst:965
 msgid "If :meth:`__new__` or :meth:`__init__` is defined the value of the enum member will be passed to those methods::"
 msgstr ""
 
-#: ../../library/enum.rst:991
+#: ../../library/enum.rst:993
 msgid "TimePeriod"
 msgstr ""
 
-#: ../../library/enum.rst:993
+#: ../../library/enum.rst:995
 msgid "An example to show the :attr:`_ignore_` attribute in use::"
 msgstr ""
 
-#: ../../library/enum.rst:1010
+#: ../../library/enum.rst:1012
 msgid "How are Enums different?"
 msgstr ""
 
-#: ../../library/enum.rst:1012
+#: ../../library/enum.rst:1014
 msgid "Enums have a custom metaclass that affects many aspects of both derived Enum classes and their instances (members)."
 msgstr ""
 
-#: ../../library/enum.rst:1017
+#: ../../library/enum.rst:1019
 msgid "Enum Classes"
 msgstr ""
 
-#: ../../library/enum.rst:1019
+#: ../../library/enum.rst:1021
 msgid "The :class:`EnumMeta` metaclass is responsible for providing the :meth:`__contains__`, :meth:`__dir__`, :meth:`__iter__` and other methods that allow one to do things with an :class:`Enum` class that fail on a typical class, such as `list(Color)` or `some_enum_var in Color`.  :class:`EnumMeta` is responsible for ensuring that various other methods on the final :class:`Enum` class are correct (such as :meth:`__new__`, :meth:`__getnewargs__`, :meth:`__str__` and :meth:`__repr__`)."
 msgstr ""
 
-#: ../../library/enum.rst:1029
+#: ../../library/enum.rst:1031
 msgid "Enum Members (aka instances)"
 msgstr ""
 
-#: ../../library/enum.rst:1031
+#: ../../library/enum.rst:1033
 msgid "The most interesting thing about Enum members is that they are singletons. :class:`EnumMeta` creates them all while it is creating the :class:`Enum` class itself, and then puts a custom :meth:`__new__` in place to ensure that no new ones are ever instantiated by returning only the existing member instances."
 msgstr ""
 
-#: ../../library/enum.rst:1039
+#: ../../library/enum.rst:1041
 msgid "Finer Points"
 msgstr ""
 
-#: ../../library/enum.rst:1042
+#: ../../library/enum.rst:1044
 msgid "Supported ``__dunder__`` names"
 msgstr ""
 
-#: ../../library/enum.rst:1044
+#: ../../library/enum.rst:1046
 msgid ":attr:`__members__` is a read-only ordered mapping of ``member_name``:``member`` items.  It is only available on the class."
 msgstr ""
 
-#: ../../library/enum.rst:1047
+#: ../../library/enum.rst:1049
 msgid ":meth:`__new__`, if specified, must create and return the enum members; it is also a very good idea to set the member's :attr:`_value_` appropriately.  Once all the members are created it is no longer used."
 msgstr ""
 
-#: ../../library/enum.rst:1053
+#: ../../library/enum.rst:1055
 msgid "Supported ``_sunder_`` names"
 msgstr ""
 
-#: ../../library/enum.rst:1055
+#: ../../library/enum.rst:1057
 msgid "``_name_`` -- name of the member"
 msgstr ""
 
-#: ../../library/enum.rst:1056
+#: ../../library/enum.rst:1058
 msgid "``_value_`` -- value of the member; can be set / modified in ``__new__``"
 msgstr ""
 
-#: ../../library/enum.rst:1058
+#: ../../library/enum.rst:1060
 msgid "``_missing_`` -- a lookup function used when a value is not found; may be overridden"
 msgstr ""
 
-#: ../../library/enum.rst:1060
+#: ../../library/enum.rst:1062
 msgid "``_ignore_`` -- a list of names, either as a :func:`list` or a :func:`str`, that will not be transformed into members, and will be removed from the final class"
 msgstr ""
 
-#: ../../library/enum.rst:1063
+#: ../../library/enum.rst:1065
 msgid "``_order_`` -- used in Python 2/3 code to ensure member order is consistent (class attribute, removed during class creation)"
 msgstr ""
 
-#: ../../library/enum.rst:1065
+#: ../../library/enum.rst:1067
 msgid "``_generate_next_value_`` -- used by the `Functional API`_ and by :class:`auto` to get an appropriate value for an enum member; may be overridden"
 msgstr ""
 
-#: ../../library/enum.rst:1069
+#: ../../library/enum.rst:1071
 msgid "``_missing_``, ``_order_``, ``_generate_next_value_``"
 msgstr ""
 
-#: ../../library/enum.rst:1070
+#: ../../library/enum.rst:1072
 msgid "``_ignore_``"
 msgstr ""
 
-#: ../../library/enum.rst:1072
+#: ../../library/enum.rst:1074
 msgid "To help keep Python 2 / Python 3 code in sync an :attr:`_order_` attribute can be provided.  It will be checked against the actual order of the enumeration and raise an error if the two do not match::"
 msgstr ""
 
-#: ../../library/enum.rst:1088
+#: ../../library/enum.rst:1090
 msgid "In Python 2 code the :attr:`_order_` attribute is necessary as definition order is lost before it can be recorded."
 msgstr ""
 
-#: ../../library/enum.rst:1092
+#: ../../library/enum.rst:1094
 msgid "``Enum`` member type"
 msgstr ""
 
-#: ../../library/enum.rst:1094
+#: ../../library/enum.rst:1096
 msgid ":class:`Enum` members are instances of their :class:`Enum` class, and are normally accessed as ``EnumClass.member``.  Under certain circumstances they can also be accessed as ``EnumClass.member.member``, but you should never do this as that lookup may fail or, worse, return something besides the :class:`Enum` member you are looking for (this is another good reason to use all-uppercase names for members)::"
 msgstr ""
 
-#: ../../library/enum.rst:1115
+#: ../../library/enum.rst:1117
 msgid "Boolean value of ``Enum`` classes and members"
 msgstr ""
 
-#: ../../library/enum.rst:1117
+#: ../../library/enum.rst:1119
 msgid ":class:`Enum` members that are mixed with non-:class:`Enum` types (such as :class:`int`, :class:`str`, etc.) are evaluated according to the mixed-in type's rules; otherwise, all members evaluate as :data:`True`.  To make your own Enum's boolean evaluation depend on the member's value add the following to your class::"
 msgstr ""
 
-#: ../../library/enum.rst:1126
+#: ../../library/enum.rst:1128
 msgid ":class:`Enum` classes always evaluate as :data:`True`."
 msgstr ""
 
-#: ../../library/enum.rst:1130
+#: ../../library/enum.rst:1132
 msgid "``Enum`` classes with methods"
 msgstr ""
 
-#: ../../library/enum.rst:1132
+#: ../../library/enum.rst:1134
 msgid "If you give your :class:`Enum` subclass extra methods, like the `Planet`_ class above, those methods will show up in a :func:`dir` of the member, but not of the class::"
 msgstr ""
 
-#: ../../library/enum.rst:1143
+#: ../../library/enum.rst:1145
 msgid "Combining members of ``Flag``"
 msgstr ""
 
-#: ../../library/enum.rst:1145
+#: ../../library/enum.rst:1147
 msgid "If a combination of Flag members is not named, the :func:`repr` will include all named flags and all named combinations of flags that are in the value::"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-09-14 15:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,7 +284,7 @@ msgid "By default, IIS gives a ``PATH_INFO`` that duplicates the ``SCRIPT_NAME``
 msgstr ""
 
 #: ../../library/wsgiref.rst:478
-msgid "IIS can be configured to pass the correct ``PATH_INFO``, but this causes another bug where ``PATH_TRANSLATED`` is wrong. Luckily this variable is rarely used and is not guaranteed by WSGI. On IIS<7, though, the setting can only be made on a vhost level, affecting all other script mappings, many of which break when exposed to the ``PATH_TRANSLATED`` bug. For this reason IIS<7 is almost never deployed with the fix. (Even IIS7 rarely uses it because there is still no UI for it.)"
+msgid "IIS can be configured to pass the correct ``PATH_INFO``, but this causes another bug where ``PATH_TRANSLATED`` is wrong. Luckily this variable is rarely used and is not guaranteed by WSGI. On IIS<7, though, the setting can only be made on a vhost level, affecting all other script mappings, many of which break when exposed to the ``PATH_TRANSLATED`` bug. For this reason IIS<7 is almost never deployed with the fix (Even IIS7 rarely uses it because there is still no UI for it.)."
 msgstr ""
 
 #: ../../library/wsgiref.rst:486
