@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-09-27 04:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "As it parses the command line, :mod:`optparse` sets attributes of the ``o
 msgstr ""
 
 #: ../../library/optparse.rst:58
-msgid "Additionally, users can run one of  ::"
+msgid "Additionally, users can run one of the following ::"
 msgstr ""
 
 #: ../../library/optparse.rst:63
