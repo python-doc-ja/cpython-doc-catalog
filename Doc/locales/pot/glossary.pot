@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 03:54+0000\n"
+"POT-Creation-Date: 2020-09-28 04:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1193,87 +1193,87 @@ msgstr ""
 msgid "Type aliases are useful for simplifying :term:`type hints <type hint>`. For example::"
 msgstr ""
 
-#: ../../glossary.rst:1093
+#: ../../glossary.rst:1091
 msgid "could be made more readable like this::"
 msgstr ""
 
-#: ../../glossary.rst:1102
-#: ../../glossary.rst:1116
+#: ../../glossary.rst:1098
+#: ../../glossary.rst:1112
 msgid "See :mod:`typing` and :pep:`484`, which describe this functionality."
 msgstr ""
 
-#: ../../glossary.rst:1103
+#: ../../glossary.rst:1099
 msgid "type hint"
 msgstr ""
 
-#: ../../glossary.rst:1105
+#: ../../glossary.rst:1101
 msgid "An :term:`annotation` that specifies the expected type for a variable, a class attribute, or a function parameter or return value."
 msgstr ""
 
-#: ../../glossary.rst:1108
+#: ../../glossary.rst:1104
 msgid "Type hints are optional and are not enforced by Python but they are useful to static type analysis tools, and aid IDEs with code completion and refactoring."
 msgstr ""
 
-#: ../../glossary.rst:1112
+#: ../../glossary.rst:1108
 msgid "Type hints of global variables, class attributes, and functions, but not local variables, can be accessed using :func:`typing.get_type_hints`."
 msgstr ""
 
-#: ../../glossary.rst:1117
+#: ../../glossary.rst:1113
 msgid "universal newlines"
 msgstr ""
 
-#: ../../glossary.rst:1119
+#: ../../glossary.rst:1115
 msgid "A manner of interpreting text streams in which all of the following are recognized as ending a line: the Unix end-of-line convention ``'\\n'``, the Windows convention ``'\\r\\n'``, and the old Macintosh convention ``'\\r'``.  See :pep:`278` and :pep:`3116`, as well as :func:`bytes.splitlines` for an additional use."
 msgstr ""
 
-#: ../../glossary.rst:1124
+#: ../../glossary.rst:1120
 msgid "variable annotation"
 msgstr ""
 
-#: ../../glossary.rst:1126
+#: ../../glossary.rst:1122
 msgid "An :term:`annotation` of a variable or a class attribute."
 msgstr ""
 
-#: ../../glossary.rst:1128
+#: ../../glossary.rst:1124
 msgid "When annotating a variable or a class attribute, assignment is optional::"
 msgstr ""
 
-#: ../../glossary.rst:1133
+#: ../../glossary.rst:1129
 msgid "Variable annotations are usually used for :term:`type hints <type hint>`: for example this variable is expected to take :class:`int` values::"
 msgstr ""
 
-#: ../../glossary.rst:1139
+#: ../../glossary.rst:1135
 msgid "Variable annotation syntax is explained in section :ref:`annassign`."
 msgstr ""
 
-#: ../../glossary.rst:1141
+#: ../../glossary.rst:1137
 msgid "See :term:`function annotation`, :pep:`484` and :pep:`526`, which describe this functionality."
 msgstr ""
 
-#: ../../glossary.rst:1143
+#: ../../glossary.rst:1139
 msgid "virtual environment"
 msgstr ""
 
-#: ../../glossary.rst:1145
+#: ../../glossary.rst:1141
 msgid "A cooperatively isolated runtime environment that allows Python users and applications to install and upgrade Python distribution packages without interfering with the behaviour of other Python applications running on the same system."
 msgstr ""
 
-#: ../../glossary.rst:1150
+#: ../../glossary.rst:1146
 msgid "See also :mod:`venv`."
 msgstr ""
 
-#: ../../glossary.rst:1151
+#: ../../glossary.rst:1147
 msgid "virtual machine"
 msgstr ""
 
-#: ../../glossary.rst:1153
+#: ../../glossary.rst:1149
 msgid "A computer defined entirely in software.  Python's virtual machine executes the :term:`bytecode` emitted by the bytecode compiler."
 msgstr ""
 
-#: ../../glossary.rst:1155
+#: ../../glossary.rst:1151
 msgid "Zen of Python"
 msgstr ""
 
-#: ../../glossary.rst:1157
+#: ../../glossary.rst:1153
 msgid "Listing of Python design principles and philosophies that are helpful in understanding and using the language.  The listing can be found by typing \"``import this``\" at the interactive prompt."
 msgstr ""
