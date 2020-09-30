@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-02 14:59+0000\n"
+"POT-Creation-Date: 2020-09-30 15:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -870,533 +870,545 @@ msgid "This converts the list into a set, thereby removing duplicates, and then 
 msgstr ""
 
 #: ../../faq/programming.rst:1167
-msgid "How do you make an array in Python?"
+msgid "How do you remove multiple items from a list"
 msgstr ""
 
 #: ../../faq/programming.rst:1169
+msgid "As with removing duplicates, explicitly iterating in reverse with a delete condition is one possibility.  However, it is easier and faster to use slice replacement with an implicit or explicit forward iteration. Here are three variations.::"
+msgstr ""
+
+#: ../../faq/programming.rst:1178
+msgid "If space is not an issue, the list comprehension may be fastest."
+msgstr ""
+
+#: ../../faq/programming.rst:1182
+msgid "How do you make an array in Python?"
+msgstr ""
+
+#: ../../faq/programming.rst:1184
 msgid "Use a list::"
 msgstr ""
 
-#: ../../faq/programming.rst:1173
+#: ../../faq/programming.rst:1188
 msgid "Lists are equivalent to C or Pascal arrays in their time complexity; the primary difference is that a Python list can contain objects of many different types."
 msgstr ""
 
-#: ../../faq/programming.rst:1176
+#: ../../faq/programming.rst:1191
 msgid "The ``array`` module also provides methods for creating arrays of fixed types with compact representations, but they are slower to index than lists.  Also note that the Numeric extensions and others define array-like structures with various characteristics as well."
 msgstr ""
 
-#: ../../faq/programming.rst:1181
+#: ../../faq/programming.rst:1196
 msgid "To get Lisp-style linked lists, you can emulate cons cells using tuples::"
 msgstr ""
 
-#: ../../faq/programming.rst:1185
+#: ../../faq/programming.rst:1200
 msgid "If mutability is desired, you could use lists instead of tuples.  Here the analogue of lisp car is ``lisp_list[0]`` and the analogue of cdr is ``lisp_list[1]``.  Only do this if you're sure you really need to, because it's usually a lot slower than using Python lists."
 msgstr ""
 
-#: ../../faq/programming.rst:1194
+#: ../../faq/programming.rst:1209
 msgid "How do I create a multidimensional list?"
 msgstr ""
 
-#: ../../faq/programming.rst:1196
+#: ../../faq/programming.rst:1211
 msgid "You probably tried to make a multidimensional array like this::"
 msgstr ""
 
-#: ../../faq/programming.rst:1200
+#: ../../faq/programming.rst:1215
 msgid "This looks correct if you print it:"
 msgstr ""
 
-#: ../../faq/programming.rst:1211
+#: ../../faq/programming.rst:1226
 msgid "But when you assign a value, it shows up in multiple places:"
 msgstr ""
 
-#: ../../faq/programming.rst:1223
+#: ../../faq/programming.rst:1238
 msgid "The reason is that replicating a list with ``*`` doesn't create copies, it only creates references to the existing objects.  The ``*3`` creates a list containing 3 references to the same list of length two.  Changes to one row will show in all rows, which is almost certainly not what you want."
 msgstr ""
 
-#: ../../faq/programming.rst:1228
+#: ../../faq/programming.rst:1243
 msgid "The suggested approach is to create a list of the desired length first and then fill in each element with a newly created list::"
 msgstr ""
 
-#: ../../faq/programming.rst:1235
+#: ../../faq/programming.rst:1250
 msgid "This generates a list containing 3 different lists of length two.  You can also use a list comprehension::"
 msgstr ""
 
-#: ../../faq/programming.rst:1241
+#: ../../faq/programming.rst:1256
 msgid "Or, you can use an extension that provides a matrix datatype; `NumPy <http://www.numpy.org/>`_ is the best known."
 msgstr ""
 
-#: ../../faq/programming.rst:1246
+#: ../../faq/programming.rst:1261
 msgid "How do I apply a method to a sequence of objects?"
 msgstr ""
 
-#: ../../faq/programming.rst:1248
+#: ../../faq/programming.rst:1263
 msgid "Use a list comprehension::"
 msgstr ""
 
-#: ../../faq/programming.rst:1255
+#: ../../faq/programming.rst:1270
 msgid "Why does a_tuple[i] += ['item'] raise an exception when the addition works?"
 msgstr ""
 
-#: ../../faq/programming.rst:1257
+#: ../../faq/programming.rst:1272
 msgid "This is because of a combination of the fact that augmented assignment operators are *assignment* operators, and the difference between mutable and immutable objects in Python."
 msgstr ""
 
-#: ../../faq/programming.rst:1261
+#: ../../faq/programming.rst:1276
 msgid "This discussion applies in general when augmented assignment operators are applied to elements of a tuple that point to mutable objects, but we'll use a ``list`` and ``+=`` as our exemplar."
 msgstr ""
 
-#: ../../faq/programming.rst:1265
+#: ../../faq/programming.rst:1280
 msgid "If you wrote::"
 msgstr ""
 
-#: ../../faq/programming.rst:1273
+#: ../../faq/programming.rst:1288
 msgid "The reason for the exception should be immediately clear: ``1`` is added to the object ``a_tuple[0]`` points to (``1``), producing the result object, ``2``, but when we attempt to assign the result of the computation, ``2``, to element ``0`` of the tuple, we get an error because we can't change what an element of a tuple points to."
 msgstr ""
 
-#: ../../faq/programming.rst:1279
+#: ../../faq/programming.rst:1294
 msgid "Under the covers, what this augmented assignment statement is doing is approximately this::"
 msgstr ""
 
-#: ../../faq/programming.rst:1288
+#: ../../faq/programming.rst:1303
 msgid "It is the assignment part of the operation that produces the error, since a tuple is immutable."
 msgstr ""
 
-#: ../../faq/programming.rst:1291
+#: ../../faq/programming.rst:1306
 msgid "When you write something like::"
 msgstr ""
 
-#: ../../faq/programming.rst:1299
+#: ../../faq/programming.rst:1314
 msgid "The exception is a bit more surprising, and even more surprising is the fact that even though there was an error, the append worked::"
 msgstr ""
 
-#: ../../faq/programming.rst:1305
+#: ../../faq/programming.rst:1320
 msgid "To see why this happens, you need to know that (a) if an object implements an ``__iadd__`` magic method, it gets called when the ``+=`` augmented assignment is executed, and its return value is what gets used in the assignment statement; and (b) for lists, ``__iadd__`` is equivalent to calling ``extend`` on the list and returning the list.  That's why we say that for lists, ``+=`` is a \"shorthand\" for ``list.extend``::"
 msgstr ""
 
-#: ../../faq/programming.rst:1317
+#: ../../faq/programming.rst:1332
 msgid "This is equivalent to::"
 msgstr ""
 
-#: ../../faq/programming.rst:1322
+#: ../../faq/programming.rst:1337
 msgid "The object pointed to by a_list has been mutated, and the pointer to the mutated object is assigned back to ``a_list``.  The end result of the assignment is a no-op, since it is a pointer to the same object that ``a_list`` was previously pointing to, but the assignment still happens."
 msgstr ""
 
-#: ../../faq/programming.rst:1327
+#: ../../faq/programming.rst:1342
 msgid "Thus, in our tuple example what is happening is equivalent to::"
 msgstr ""
 
-#: ../../faq/programming.rst:1335
+#: ../../faq/programming.rst:1350
 msgid "The ``__iadd__`` succeeds, and thus the list is extended, but even though ``result`` points to the same object that ``a_tuple[0]`` already points to, that final assignment still results in an error, because tuples are immutable."
 msgstr ""
 
-#: ../../faq/programming.rst:1341
+#: ../../faq/programming.rst:1356
 msgid "I want to do a complicated sort: can you do a Schwartzian Transform in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:1343
+#: ../../faq/programming.rst:1358
 msgid "The technique, attributed to Randal Schwartz of the Perl community, sorts the elements of a list by a metric which maps each element to its \"sort value\". In Python, use the ``key`` argument for the :meth:`list.sort` method::"
 msgstr ""
 
-#: ../../faq/programming.rst:1352
+#: ../../faq/programming.rst:1367
 msgid "How can I sort one list by values from another list?"
 msgstr ""
 
-#: ../../faq/programming.rst:1354
+#: ../../faq/programming.rst:1369
 msgid "Merge them into an iterator of tuples, sort the resulting list, and then pick out the element you want. ::"
 msgstr ""
 
-#: ../../faq/programming.rst:1368
+#: ../../faq/programming.rst:1383
 msgid "An alternative for the last step is::"
 msgstr ""
 
-#: ../../faq/programming.rst:1373
+#: ../../faq/programming.rst:1388
 msgid "If you find this more legible, you might prefer to use this instead of the final list comprehension.  However, it is almost twice as slow for long lists.  Why? First, the ``append()`` operation has to reallocate memory, and while it uses some tricks to avoid doing that each time, it still has to do it occasionally, and that costs quite a bit.  Second, the expression \"result.append\" requires an extra attribute lookup, and third, there's a speed reduction from having to make all those function calls."
 msgstr ""
 
-#: ../../faq/programming.rst:1383
+#: ../../faq/programming.rst:1398
 msgid "Objects"
 msgstr ""
 
-#: ../../faq/programming.rst:1386
+#: ../../faq/programming.rst:1401
 msgid "What is a class?"
 msgstr ""
 
-#: ../../faq/programming.rst:1388
+#: ../../faq/programming.rst:1403
 msgid "A class is the particular object type created by executing a class statement. Class objects are used as templates to create instance objects, which embody both the data (attributes) and code (methods) specific to a datatype."
 msgstr ""
 
-#: ../../faq/programming.rst:1392
+#: ../../faq/programming.rst:1407
 msgid "A class can be based on one or more other classes, called its base class(es). It then inherits the attributes and methods of its base classes. This allows an object model to be successively refined by inheritance.  You might have a generic ``Mailbox`` class that provides basic accessor methods for a mailbox, and subclasses such as ``MboxMailbox``, ``MaildirMailbox``, ``OutlookMailbox`` that handle various specific mailbox formats."
 msgstr ""
 
-#: ../../faq/programming.rst:1401
+#: ../../faq/programming.rst:1416
 msgid "What is a method?"
 msgstr ""
 
-#: ../../faq/programming.rst:1403
+#: ../../faq/programming.rst:1418
 msgid "A method is a function on some object ``x`` that you normally call as ``x.name(arguments...)``.  Methods are defined as functions inside the class definition::"
 msgstr ""
 
-#: ../../faq/programming.rst:1413
+#: ../../faq/programming.rst:1428
 msgid "What is self?"
 msgstr ""
 
-#: ../../faq/programming.rst:1415
+#: ../../faq/programming.rst:1430
 msgid "Self is merely a conventional name for the first argument of a method.  A method defined as ``meth(self, a, b, c)`` should be called as ``x.meth(a, b, c)`` for some instance ``x`` of the class in which the definition occurs; the called method will think it is called as ``meth(x, a, b, c)``."
 msgstr ""
 
-#: ../../faq/programming.rst:1420
+#: ../../faq/programming.rst:1435
 msgid "See also :ref:`why-self`."
 msgstr ""
 
-#: ../../faq/programming.rst:1424
+#: ../../faq/programming.rst:1439
 msgid "How do I check if an object is an instance of a given class or of a subclass of it?"
 msgstr ""
 
-#: ../../faq/programming.rst:1426
+#: ../../faq/programming.rst:1441
 msgid "Use the built-in function ``isinstance(obj, cls)``.  You can check if an object is an instance of any of a number of classes by providing a tuple instead of a single class, e.g. ``isinstance(obj, (class1, class2, ...))``, and can also check whether an object is one of Python's built-in types, e.g. ``isinstance(obj, str)`` or ``isinstance(obj, (int, float, complex))``."
 msgstr ""
 
-#: ../../faq/programming.rst:1432
+#: ../../faq/programming.rst:1447
 msgid "Note that most programs do not use :func:`isinstance` on user-defined classes very often.  If you are developing the classes yourself, a more proper object-oriented style is to define methods on the classes that encapsulate a particular behaviour, instead of checking the object's class and doing a different thing based on what class it is.  For example, if you have a function that does something::"
 msgstr ""
 
-#: ../../faq/programming.rst:1446
+#: ../../faq/programming.rst:1461
 msgid "A better approach is to define a ``search()`` method on all the classes and just call it::"
 msgstr ""
 
-#: ../../faq/programming.rst:1461
+#: ../../faq/programming.rst:1476
 msgid "What is delegation?"
 msgstr ""
 
-#: ../../faq/programming.rst:1463
+#: ../../faq/programming.rst:1478
 msgid "Delegation is an object oriented technique (also called a design pattern). Let's say you have an object ``x`` and want to change the behaviour of just one of its methods.  You can create a new class that provides a new implementation of the method you're interested in changing and delegates all other methods to the corresponding method of ``x``."
 msgstr ""
 
-#: ../../faq/programming.rst:1469
+#: ../../faq/programming.rst:1484
 msgid "Python programmers can easily implement delegation.  For example, the following class implements a class that behaves like a file but converts all written data to uppercase::"
 msgstr ""
 
-#: ../../faq/programming.rst:1484
+#: ../../faq/programming.rst:1499
 msgid "Here the ``UpperOut`` class redefines the ``write()`` method to convert the argument string to uppercase before calling the underlying ``self._outfile.write()`` method.  All other methods are delegated to the underlying ``self._outfile`` object.  The delegation is accomplished via the ``__getattr__`` method; consult :ref:`the language reference <attribute-access>` for more information about controlling attribute access."
 msgstr ""
 
-#: ../../faq/programming.rst:1491
+#: ../../faq/programming.rst:1506
 msgid "Note that for more general cases delegation can get trickier. When attributes must be set as well as retrieved, the class must define a :meth:`__setattr__` method too, and it must do so carefully.  The basic implementation of :meth:`__setattr__` is roughly equivalent to the following::"
 msgstr ""
 
-#: ../../faq/programming.rst:1502
+#: ../../faq/programming.rst:1517
 msgid "Most :meth:`__setattr__` implementations must modify ``self.__dict__`` to store local state for self without causing an infinite recursion."
 msgstr ""
 
-#: ../../faq/programming.rst:1507
+#: ../../faq/programming.rst:1522
 msgid "How do I call a method defined in a base class from a derived class that overrides it?"
 msgstr ""
 
-#: ../../faq/programming.rst:1509
+#: ../../faq/programming.rst:1524
 msgid "Use the built-in :func:`super` function::"
 msgstr ""
 
-#: ../../faq/programming.rst:1515
+#: ../../faq/programming.rst:1530
 msgid "For version prior to 3.0, you may be using classic classes: For a class definition such as ``class Derived(Base): ...`` you can call method ``meth()`` defined in ``Base`` (or one of ``Base``'s base classes) as ``Base.meth(self, arguments...)``.  Here, ``Base.meth`` is an unbound method, so you need to provide the ``self`` argument."
 msgstr ""
 
-#: ../../faq/programming.rst:1523
+#: ../../faq/programming.rst:1538
 msgid "How can I organize my code to make it easier to change the base class?"
 msgstr ""
 
-#: ../../faq/programming.rst:1525
+#: ../../faq/programming.rst:1540
 msgid "You could define an alias for the base class, assign the real base class to it before your class definition, and use the alias throughout your class.  Then all you have to change is the value assigned to the alias.  Incidentally, this trick is also handy if you want to decide dynamically (e.g. depending on availability of resources) which base class to use.  Example::"
 msgstr ""
 
-#: ../../faq/programming.rst:1540
+#: ../../faq/programming.rst:1555
 msgid "How do I create static class data and static class methods?"
 msgstr ""
 
-#: ../../faq/programming.rst:1542
+#: ../../faq/programming.rst:1557
 msgid "Both static data and static methods (in the sense of C++ or Java) are supported in Python."
 msgstr ""
 
-#: ../../faq/programming.rst:1545
+#: ../../faq/programming.rst:1560
 msgid "For static data, simply define a class attribute.  To assign a new value to the attribute, you have to explicitly use the class name in the assignment::"
 msgstr ""
 
-#: ../../faq/programming.rst:1557
+#: ../../faq/programming.rst:1572
 msgid "``c.count`` also refers to ``C.count`` for any ``c`` such that ``isinstance(c, C)`` holds, unless overridden by ``c`` itself or by some class on the base-class search path from ``c.__class__`` back to ``C``."
 msgstr ""
 
-#: ../../faq/programming.rst:1561
+#: ../../faq/programming.rst:1576
 msgid "Caution: within a method of C, an assignment like ``self.count = 42`` creates a new and unrelated instance named \"count\" in ``self``'s own dict.  Rebinding of a class-static data name must always specify the class whether inside a method or not::"
 msgstr ""
 
-#: ../../faq/programming.rst:1568
+#: ../../faq/programming.rst:1583
 msgid "Static methods are possible::"
 msgstr ""
 
-#: ../../faq/programming.rst:1576
+#: ../../faq/programming.rst:1591
 msgid "However, a far more straightforward way to get the effect of a static method is via a simple module-level function::"
 msgstr ""
 
-#: ../../faq/programming.rst:1582
+#: ../../faq/programming.rst:1597
 msgid "If your code is structured so as to define one class (or tightly related class hierarchy) per module, this supplies the desired encapsulation."
 msgstr ""
 
-#: ../../faq/programming.rst:1587
+#: ../../faq/programming.rst:1602
 msgid "How can I overload constructors (or methods) in Python?"
 msgstr ""
 
-#: ../../faq/programming.rst:1589
+#: ../../faq/programming.rst:1604
 msgid "This answer actually applies to all methods, but the question usually comes up first in the context of constructors."
 msgstr ""
 
-#: ../../faq/programming.rst:1592
+#: ../../faq/programming.rst:1607
 msgid "In C++ you'd write"
 msgstr ""
 
-#: ../../faq/programming.rst:1601
+#: ../../faq/programming.rst:1616
 msgid "In Python you have to write a single constructor that catches all cases using default arguments.  For example::"
 msgstr ""
 
-#: ../../faq/programming.rst:1611
+#: ../../faq/programming.rst:1626
 msgid "This is not entirely equivalent, but close enough in practice."
 msgstr ""
 
-#: ../../faq/programming.rst:1613
+#: ../../faq/programming.rst:1628
 msgid "You could also try a variable-length argument list, e.g. ::"
 msgstr ""
 
-#: ../../faq/programming.rst:1618
+#: ../../faq/programming.rst:1633
 msgid "The same approach works for all method definitions."
 msgstr ""
 
-#: ../../faq/programming.rst:1622
+#: ../../faq/programming.rst:1637
 msgid "I try to use __spam and I get an error about _SomeClassName__spam."
 msgstr ""
 
-#: ../../faq/programming.rst:1624
+#: ../../faq/programming.rst:1639
 msgid "Variable names with double leading underscores are \"mangled\" to provide a simple but effective way to define class private variables.  Any identifier of the form ``__spam`` (at least two leading underscores, at most one trailing underscore) is textually replaced with ``_classname__spam``, where ``classname`` is the current class name with any leading underscores stripped."
 msgstr ""
 
-#: ../../faq/programming.rst:1630
+#: ../../faq/programming.rst:1645
 msgid "This doesn't guarantee privacy: an outside user can still deliberately access the \"_classname__spam\" attribute, and private values are visible in the object's ``__dict__``.  Many Python programmers never bother to use private variable names at all."
 msgstr ""
 
-#: ../../faq/programming.rst:1637
+#: ../../faq/programming.rst:1652
 msgid "My class defines __del__ but it is not called when I delete the object."
 msgstr ""
 
-#: ../../faq/programming.rst:1639
+#: ../../faq/programming.rst:1654
 msgid "There are several possible reasons for this."
 msgstr ""
 
-#: ../../faq/programming.rst:1641
+#: ../../faq/programming.rst:1656
 msgid "The del statement does not necessarily call :meth:`__del__` -- it simply decrements the object's reference count, and if this reaches zero :meth:`__del__` is called."
 msgstr ""
 
-#: ../../faq/programming.rst:1645
+#: ../../faq/programming.rst:1660
 msgid "If your data structures contain circular links (e.g. a tree where each child has a parent reference and each parent has a list of children) the reference counts will never go back to zero.  Once in a while Python runs an algorithm to detect such cycles, but the garbage collector might run some time after the last reference to your data structure vanishes, so your :meth:`__del__` method may be called at an inconvenient and random time. This is inconvenient if you're trying to reproduce a problem. Worse, the order in which object's :meth:`__del__` methods are executed is arbitrary.  You can run :func:`gc.collect` to force a collection, but there *are* pathological cases where objects will never be collected."
 msgstr ""
 
-#: ../../faq/programming.rst:1656
+#: ../../faq/programming.rst:1671
 msgid "Despite the cycle collector, it's still a good idea to define an explicit ``close()`` method on objects to be called whenever you're done with them.  The ``close()`` method can then remove attributes that refer to subobjects.  Don't call :meth:`__del__` directly -- :meth:`__del__` should call ``close()`` and ``close()`` should make sure that it can be called more than once for the same object."
 msgstr ""
 
-#: ../../faq/programming.rst:1663
+#: ../../faq/programming.rst:1678
 msgid "Another way to avoid cyclical references is to use the :mod:`weakref` module, which allows you to point to objects without incrementing their reference count. Tree data structures, for instance, should use weak references for their parent and sibling references (if they need them!)."
 msgstr ""
 
-#: ../../faq/programming.rst:1676
+#: ../../faq/programming.rst:1691
 msgid "Finally, if your :meth:`__del__` method raises an exception, a warning message is printed to :data:`sys.stderr`."
 msgstr ""
 
-#: ../../faq/programming.rst:1681
+#: ../../faq/programming.rst:1696
 msgid "How do I get a list of all instances of a given class?"
 msgstr ""
 
-#: ../../faq/programming.rst:1683
+#: ../../faq/programming.rst:1698
 msgid "Python does not keep track of all instances of a class (or of a built-in type). You can program the class's constructor to keep track of all instances by keeping a list of weak references to each instance."
 msgstr ""
 
-#: ../../faq/programming.rst:1689
+#: ../../faq/programming.rst:1704
 msgid "Why does the result of ``id()`` appear to be not unique?"
 msgstr ""
 
-#: ../../faq/programming.rst:1691
+#: ../../faq/programming.rst:1706
 msgid "The :func:`id` builtin returns an integer that is guaranteed to be unique during the lifetime of the object.  Since in CPython, this is the object's memory address, it happens frequently that after an object is deleted from memory, the next freshly created object is allocated at the same position in memory.  This is illustrated by this example:"
 msgstr ""
 
-#: ../../faq/programming.rst:1702
+#: ../../faq/programming.rst:1717
 msgid "The two ids belong to different integer objects that are created before, and deleted immediately after execution of the ``id()`` call.  To be sure that objects whose id you want to examine are still alive, create another reference to the object:"
 msgstr ""
 
-#: ../../faq/programming.rst:1715
+#: ../../faq/programming.rst:1730
 msgid "Modules"
 msgstr ""
 
-#: ../../faq/programming.rst:1718
+#: ../../faq/programming.rst:1733
 msgid "How do I create a .pyc file?"
 msgstr ""
 
-#: ../../faq/programming.rst:1720
+#: ../../faq/programming.rst:1735
 msgid "When a module is imported for the first time (or when the source file has changed since the current compiled file was created) a ``.pyc`` file containing the compiled code should be created in a ``__pycache__`` subdirectory of the directory containing the ``.py`` file.  The ``.pyc`` file will have a filename that starts with the same name as the ``.py`` file, and ends with ``.pyc``, with a middle component that depends on the particular ``python`` binary that created it.  (See :pep:`3147` for details.)"
 msgstr ""
 
-#: ../../faq/programming.rst:1728
+#: ../../faq/programming.rst:1743
 msgid "One reason that a ``.pyc`` file may not be created is a permissions problem with the directory containing the source file, meaning that the ``__pycache__`` subdirectory cannot be created. This can happen, for example, if you develop as one user but run as another, such as if you are testing with a web server."
 msgstr ""
 
-#: ../../faq/programming.rst:1733
+#: ../../faq/programming.rst:1748
 msgid "Unless the :envvar:`PYTHONDONTWRITEBYTECODE` environment variable is set, creation of a .pyc file is automatic if you're importing a module and Python has the ability (permissions, free space, etc...) to create a ``__pycache__`` subdirectory and write the compiled module to that subdirectory."
 msgstr ""
 
-#: ../../faq/programming.rst:1738
+#: ../../faq/programming.rst:1753
 msgid "Running Python on a top level script is not considered an import and no ``.pyc`` will be created.  For example, if you have a top-level module ``foo.py`` that imports another module ``xyz.py``, when you run ``foo`` (by typing ``python foo.py`` as a shell command), a ``.pyc`` will be created for ``xyz`` because ``xyz`` is imported, but no ``.pyc`` file will be created for ``foo`` since ``foo.py`` isn't being imported."
 msgstr ""
 
-#: ../../faq/programming.rst:1745
+#: ../../faq/programming.rst:1760
 msgid "If you need to create a ``.pyc`` file for ``foo`` -- that is, to create a ``.pyc`` file for a module that is not imported -- you can, using the :mod:`py_compile` and :mod:`compileall` modules."
 msgstr ""
 
-#: ../../faq/programming.rst:1749
+#: ../../faq/programming.rst:1764
 msgid "The :mod:`py_compile` module can manually compile any module.  One way is to use the ``compile()`` function in that module interactively::"
 msgstr ""
 
-#: ../../faq/programming.rst:1755
+#: ../../faq/programming.rst:1770
 msgid "This will write the ``.pyc`` to a ``__pycache__`` subdirectory in the same location as ``foo.py`` (or you can override that with the optional parameter ``cfile``)."
 msgstr ""
 
-#: ../../faq/programming.rst:1759
+#: ../../faq/programming.rst:1774
 msgid "You can also automatically compile all files in a directory or directories using the :mod:`compileall` module.  You can do it from the shell prompt by running ``compileall.py`` and providing the path of a directory containing Python files to compile::"
 msgstr ""
 
-#: ../../faq/programming.rst:1768
+#: ../../faq/programming.rst:1783
 msgid "How do I find the current module name?"
 msgstr ""
 
-#: ../../faq/programming.rst:1770
+#: ../../faq/programming.rst:1785
 msgid "A module can find out its own module name by looking at the predefined global variable ``__name__``.  If this has the value ``'__main__'``, the program is running as a script.  Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking ``__name__``::"
 msgstr ""
 
-#: ../../faq/programming.rst:1785
+#: ../../faq/programming.rst:1800
 msgid "How can I have modules that mutually import each other?"
 msgstr ""
 
-#: ../../faq/programming.rst:1787
+#: ../../faq/programming.rst:1802
 msgid "Suppose you have the following modules:"
 msgstr ""
 
-#: ../../faq/programming.rst:1789
+#: ../../faq/programming.rst:1804
 msgid "foo.py::"
 msgstr ""
 
-#: ../../faq/programming.rst:1794
+#: ../../faq/programming.rst:1809
 msgid "bar.py::"
 msgstr ""
 
-#: ../../faq/programming.rst:1799
+#: ../../faq/programming.rst:1814
 msgid "The problem is that the interpreter will perform the following steps:"
 msgstr ""
 
-#: ../../faq/programming.rst:1801
+#: ../../faq/programming.rst:1816
 msgid "main imports foo"
 msgstr ""
 
-#: ../../faq/programming.rst:1802
+#: ../../faq/programming.rst:1817
 msgid "Empty globals for foo are created"
 msgstr ""
 
-#: ../../faq/programming.rst:1803
+#: ../../faq/programming.rst:1818
 msgid "foo is compiled and starts executing"
 msgstr ""
 
-#: ../../faq/programming.rst:1804
+#: ../../faq/programming.rst:1819
 msgid "foo imports bar"
 msgstr ""
 
-#: ../../faq/programming.rst:1805
+#: ../../faq/programming.rst:1820
 msgid "Empty globals for bar are created"
 msgstr ""
 
-#: ../../faq/programming.rst:1806
+#: ../../faq/programming.rst:1821
 msgid "bar is compiled and starts executing"
 msgstr ""
 
-#: ../../faq/programming.rst:1807
+#: ../../faq/programming.rst:1822
 msgid "bar imports foo (which is a no-op since there already is a module named foo)"
 msgstr ""
 
-#: ../../faq/programming.rst:1808
+#: ../../faq/programming.rst:1823
 msgid "bar.foo_var = foo.foo_var"
 msgstr ""
 
-#: ../../faq/programming.rst:1810
+#: ../../faq/programming.rst:1825
 msgid "The last step fails, because Python isn't done with interpreting ``foo`` yet and the global symbol dictionary for ``foo`` is still empty."
 msgstr ""
 
-#: ../../faq/programming.rst:1813
+#: ../../faq/programming.rst:1828
 msgid "The same thing happens when you use ``import foo``, and then try to access ``foo.foo_var`` in global code."
 msgstr ""
 
-#: ../../faq/programming.rst:1816
+#: ../../faq/programming.rst:1831
 msgid "There are (at least) three possible workarounds for this problem."
 msgstr ""
 
-#: ../../faq/programming.rst:1818
+#: ../../faq/programming.rst:1833
 msgid "Guido van Rossum recommends avoiding all uses of ``from <module> import ...``, and placing all code inside functions.  Initializations of global variables and class variables should use constants or built-in functions only.  This means everything from an imported module is referenced as ``<module>.<name>``."
 msgstr ""
 
-#: ../../faq/programming.rst:1823
+#: ../../faq/programming.rst:1838
 msgid "Jim Roskind suggests performing steps in the following order in each module:"
 msgstr ""
 
-#: ../../faq/programming.rst:1825
+#: ../../faq/programming.rst:1840
 msgid "exports (globals, functions, and classes that don't need imported base classes)"
 msgstr ""
 
-#: ../../faq/programming.rst:1827
+#: ../../faq/programming.rst:1842
 msgid "``import`` statements"
 msgstr ""
 
-#: ../../faq/programming.rst:1828
+#: ../../faq/programming.rst:1843
 msgid "active code (including globals that are initialized from imported values)."
 msgstr ""
 
-#: ../../faq/programming.rst:1830
+#: ../../faq/programming.rst:1845
 msgid "van Rossum doesn't like this approach much because the imports appear in a strange place, but it does work."
 msgstr ""
 
-#: ../../faq/programming.rst:1833
+#: ../../faq/programming.rst:1848
 msgid "Matthias Urlichs recommends restructuring your code so that the recursive import is not necessary in the first place."
 msgstr ""
 
-#: ../../faq/programming.rst:1836
+#: ../../faq/programming.rst:1851
 msgid "These solutions are not mutually exclusive."
 msgstr ""
 
-#: ../../faq/programming.rst:1840
+#: ../../faq/programming.rst:1855
 msgid "__import__('x.y.z') returns <module 'x'>; how do I get z?"
 msgstr ""
 
-#: ../../faq/programming.rst:1842
+#: ../../faq/programming.rst:1857
 msgid "Consider using the convenience function :func:`~importlib.import_module` from :mod:`importlib` instead::"
 msgstr ""
 
-#: ../../faq/programming.rst:1849
+#: ../../faq/programming.rst:1864
 msgid "When I edit an imported module and reimport it, the changes don't show up.  Why does this happen?"
 msgstr ""
 
-#: ../../faq/programming.rst:1851
+#: ../../faq/programming.rst:1866
 msgid "For reasons of efficiency as well as consistency, Python only reads the module file on the first time a module is imported.  If it didn't, in a program consisting of many modules where each one imports the same basic module, the basic module would be parsed and re-parsed many times.  To force re-reading of a changed module, do this::"
 msgstr ""
 
-#: ../../faq/programming.rst:1861
+#: ../../faq/programming.rst:1876
 msgid "Warning: this technique is not 100% fool-proof.  In particular, modules containing statements like ::"
 msgstr ""
 
-#: ../../faq/programming.rst:1866
+#: ../../faq/programming.rst:1881
 msgid "will continue to work with the old version of the imported objects.  If the module contains class definitions, existing class instances will *not* be updated to use the new class definition.  This can result in the following paradoxical behaviour::"
 msgstr ""
 
-#: ../../faq/programming.rst:1879
+#: ../../faq/programming.rst:1894
 msgid "The nature of the problem is made clear if you print out the \"identity\" of the class objects::"
 msgstr ""
