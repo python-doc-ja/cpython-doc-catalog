@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-15 14:59+0000\n"
+"POT-Creation-Date: 2020-10-04 15:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgid "Initially :pep:`484` defined Python static type system as using *nominal 
 msgstr ""
 
 #: ../../library/typing.rst:404
-msgid "This requirement previously also applied to abstract base classes, such as :class:`Iterable`. The problem with this approach is that a class had to be explicitly marked to support them, which is unpythonic and unlike what one would normally do in idiomatic dynamically typed Python code. For example, this conforms to the :pep:`484`::"
+msgid "This requirement previously also applied to abstract base classes, such as :class:`~collections.abc.Iterable`. The problem with this approach is that a class had to be explicitly marked to support them, which is unpythonic and unlike what one would normally do in idiomatic dynamically typed Python code. For example, this conforms to :pep:`484`::"
 msgstr ""
 
 #: ../../library/typing.rst:417
