@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-30 04:13+0000\n"
+"POT-Creation-Date: 2020-10-06 04:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -878,7 +878,7 @@ msgid "As with removing duplicates, explicitly iterating in reverse with a delet
 msgstr ""
 
 #: ../../faq/programming.rst:1179
-msgid "If space is not an issue, the list comprehension may be fastest."
+msgid "The list comprehension may be fastest."
 msgstr ""
 
 #: ../../faq/programming.rst:1183
