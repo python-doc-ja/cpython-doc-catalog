@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-10-13 04:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,7 +98,7 @@ msgid "For further discussion and two alternative approaches, see the `ASPN cook
 msgstr ""
 
 #: ../../library/math.rst:131
-msgid "Return the greatest common divisor of the specified integer arguments. If any of the arguments is nonzero, then the returned value is the largest positive integer that is a divisor af all arguments.  If all arguments are zero, then the returned value is ``0``.  ``gcd()`` without arguments returns ``0``."
+msgid "Return the greatest common divisor of the specified integer arguments. If any of the arguments is nonzero, then the returned value is the largest positive integer that is a divisor of all arguments.  If all arguments are zero, then the returned value is ``0``.  ``gcd()`` without arguments returns ``0``."
 msgstr ""
 
 #: ../../library/math.rst:139
