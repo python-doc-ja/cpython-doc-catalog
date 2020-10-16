@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 12:40+0000\n"
+"POT-Creation-Date: 2020-10-16 15:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../library/importlib.metadata.rst:5
-msgid "Using importlib.metadata"
+msgid "Using :mod:`!importlib.metadata`"
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:8
@@ -25,11 +25,11 @@ msgid "This functionality is provisional and may deviate from the usual version 
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:11
-msgid "``importlib.metadata`` is a library that provides for access to installed package metadata.  Built in part on Python's import system, this library intends to replace similar functionality in the `entry point API`_ and `metadata API`_ of ``pkg_resources``.  Along with ``importlib.resources`` in `Python 3.7 and newer`_ (backported as `importlib_resources`_ for older versions of Python), this can eliminate the need to use the older and less efficient ``pkg_resources`` package."
+msgid "``importlib.metadata`` is a library that provides for access to installed package metadata.  Built in part on Python's import system, this library intends to replace similar functionality in the `entry point API`_ and `metadata API`_ of ``pkg_resources``.  Along with :mod:`importlib.resources` in Python 3.7 and newer (backported as `importlib_resources`_ for older versions of Python), this can eliminate the need to use the older and less efficient ``pkg_resources`` package."
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:20
-msgid "By \"installed package\" we generally mean a third-party package installed into Python's ``site-packages`` directory via tools such as `pip <https://pypi.org/project/pip/>`_.  Specifically, it means a package with either a discoverable ``dist-info`` or ``egg-info`` directory, and metadata defined by `PEP 566`_ or its older specifications. By default, package metadata can live on the file system or in zip archives on ``sys.path``.  Through an extension mechanism, the metadata can live almost anywhere."
+msgid "By \"installed package\" we generally mean a third-party package installed into Python's ``site-packages`` directory via tools such as `pip <https://pypi.org/project/pip/>`_.  Specifically, it means a package with either a discoverable ``dist-info`` or ``egg-info`` directory, and metadata defined by :pep:`566` or its older specifications. By default, package metadata can live on the file system or in zip archives on :data:`sys.path`.  Through an extension mechanism, the metadata can live almost anywhere."
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:31
@@ -101,7 +101,7 @@ msgid "Distribution files"
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:134
-msgid "You can also get the full set of files contained within a distribution.  The ``files()`` function takes a distribution package name and returns all of the files installed by this distribution.  Each file object returned is a ``PackagePath``, a `pathlib.Path`_ derived object with additional ``dist``, ``size``, and ``hash`` properties as indicated by the metadata.  For example::"
+msgid "You can also get the full set of files contained within a distribution.  The ``files()`` function takes a distribution package name and returns all of the files installed by this distribution.  Each file object returned is a ``PackagePath``, a :class:`pathlib.Path` derived object with additional ``dist``, ``size``, and ``hash`` properties as indicated by the metadata.  For example::"
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:150
@@ -137,7 +137,7 @@ msgid "There are all kinds of additional metadata available on the ``Distributio
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:206
-msgid "The full set of available metadata is not described here.  See `PEP 566 <https://www.python.org/dev/peps/pep-0566/>`_ for additional details."
+msgid "The full set of available metadata is not described here.  See :pep:`566` for additional details."
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:211
@@ -145,7 +145,7 @@ msgid "Extending the search algorithm"
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:213
-msgid "Because package metadata is not available through ``sys.path`` searches, or package loaders directly, the metadata for a package is found through import system `finders`_.  To find a distribution package's metadata, ``importlib.metadata`` queries the list of `meta path finders`_ on `sys.meta_path`_."
+msgid "Because package metadata is not available through :data:`sys.path` searches, or package loaders directly, the metadata for a package is found through import system :ref:`finders <finders-and-loaders>`.  To find a distribution package's metadata, ``importlib.metadata`` queries the list of :term:`meta path finders <meta path finder>` on :data:`sys.meta_path`."
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:219
@@ -153,7 +153,7 @@ msgid "The default ``PathFinder`` for Python includes a hook that calls into ``i
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:223
-msgid "The abstract class :py:class:`importlib.abc.MetaPathFinder` defines the interface expected of finders by Python's import system. ``importlib.metadata`` extends this protocol by looking for an optional ``find_distributions`` callable on the finders from ``sys.meta_path`` and presents this extended interface as the ``DistributionFinder`` abstract base class, which defines this abstract method::"
+msgid "The abstract class :py:class:`importlib.abc.MetaPathFinder` defines the interface expected of finders by Python's import system. ``importlib.metadata`` extends this protocol by looking for an optional ``find_distributions`` callable on the finders from :data:`sys.meta_path` and presents this extended interface as the ``DistributionFinder`` abstract base class, which defines this abstract method::"
 msgstr ""
 
 #: ../../library/importlib.metadata.rst:237
@@ -164,10 +164,10 @@ msgstr ""
 msgid "What this means in practice is that to support finding distribution package metadata in locations other than the file system, subclass ``Distribution`` and implement the abstract methods. Then from a custom finder, return instances of this derived ``Distribution`` in the ``find_distributions()`` method."
 msgstr ""
 
-#: ../../library/importlib.metadata.rst:260
+#: ../../library/importlib.metadata.rst:254
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/importlib.metadata.rst:261
-msgid "Technically, the returned distribution metadata object is an `email.message.Message <https://docs.python.org/3/library/email.message.html#email.message.EmailMessage>`_ instance, but this is an implementation detail, and not part of the stable API.  You should only use dictionary-like methods and syntax to access the metadata contents."
+#: ../../library/importlib.metadata.rst:255
+msgid "Technically, the returned distribution metadata object is an :class:`email.message.EmailMessage` instance, but this is an implementation detail, and not part of the stable API.  You should only use dictionary-like methods and syntax to access the metadata contents."
 msgstr ""
