@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-13 04:20+0000\n"
+"POT-Creation-Date: 2020-10-20 04:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -531,7 +531,7 @@ msgid "Usage::"
 msgstr ""
 
 #: ../../library/typing.rst:822
-msgid "Type variables exist primarily for the benefit of static type checkers.  They serve as the parameters for generic types as well as for generic function definitions.  See class Generic for more information on generic types.  Generic functions work as follows::"
+msgid "Type variables exist primarily for the benefit of static type checkers.  They serve as the parameters for generic types as well as for generic function definitions.  See :class:`Generic` for more information on generic types.  Generic functions work as follows::"
 msgstr ""
 
 #: ../../library/typing.rst:835
