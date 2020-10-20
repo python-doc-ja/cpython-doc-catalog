@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-05 14:59+0000\n"
+"POT-Creation-Date: 2020-10-20 15:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2690,7 +2690,7 @@ msgid "The positional-only arguments *path*, *args*, and *env* are similar to :f
 msgstr ""
 
 #: ../../library/os.rst:3667
-msgid "The *path* parameter is the path to the executable file.The *path* should contain a directory.Use :func:`posix_spawnp` to pass an executable file without directory."
+msgid "The *path* parameter is the path to the executable file.  The *path* should contain a directory.  Use :func:`posix_spawnp` to pass an executable file without directory."
 msgstr ""
 
 #: ../../library/os.rst:3671
