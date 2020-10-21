@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 15:20+0000\n"
+"POT-Creation-Date: 2020-10-21 15:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,7 @@ msgid "Added *follow_symlinks* argument and support for Linux extended attribute
 msgstr ""
 
 #: ../../library/shutil.rst:160
-msgid "Copies the file *src* to the file or directory *dst*.  *src* and *dst* should be strings.  If *dst* specifies a directory, the file will be copied into *dst* using the base filename from *src*.  Returns the path to the newly created file."
+msgid "Copies the file *src* to the file or directory *dst*.  *src* and *dst* should be :term:`path-like objects <path-like object>` or strings.  If *dst* specifies a directory, the file will be copied into *dst* using the base filename from *src*.  Returns the path to the newly created file."
 msgstr ""
 
 #: ../../library/shutil.rst:165
