@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-30 14:04+0000\n"
+"POT-Creation-Date: 2020-10-22 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,38 +237,34 @@ msgid "Python 3.6 (security-fixes)"
 msgstr ""
 
 #: ../../tools/templates/indexsidebar.html:10
-msgid "Python 3.5 (security-fixes)"
-msgstr ""
-
-#: ../../tools/templates/indexsidebar.html:11
 msgid "Python 2.7 (EOL)"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:12
+#: ../../tools/templates/indexsidebar.html:11
 msgid "All versions"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:15
+#: ../../tools/templates/indexsidebar.html:14
 msgid "Other resources"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:18
+#: ../../tools/templates/indexsidebar.html:17
 msgid "PEP Index"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:19
+#: ../../tools/templates/indexsidebar.html:18
 msgid "Beginner's Guide"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:20
+#: ../../tools/templates/indexsidebar.html:19
 msgid "Book List"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:21
+#: ../../tools/templates/indexsidebar.html:20
 msgid "Audio/Visual Talks"
 msgstr ""
 
-#: ../../tools/templates/indexsidebar.html:22
+#: ../../tools/templates/indexsidebar.html:21
 msgid "Python Developer’s Guide"
 msgstr ""
 
