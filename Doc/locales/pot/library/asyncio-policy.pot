@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-10-22 04:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,7 +236,7 @@ msgid "This watcher is used by default."
 msgstr ""
 
 #: ../../library/asyncio-policy.rst:220
-msgid "This implementation registers a :py:data:`SIGCHLD` signal handler on instantiation. That can break third-party code that installs a custom handler for `SIGCHLD`.  signal)."
+msgid "This implementation registers a :py:data:`SIGCHLD` signal handler on instantiation. That can break third-party code that installs a custom handler for :py:data:`SIGCHLD` signal."
 msgstr ""
 
 #: ../../library/asyncio-policy.rst:224

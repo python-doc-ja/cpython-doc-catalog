@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-10-22 04:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -534,7 +534,7 @@ msgid "other future statements."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:877
-msgid "The only feature in Python 3.7 that requires using the future statement is ``annotations``."
+msgid "The only feature that requires using the future statement is ``annotations`` (see :pep:`563`)."
 msgstr ""
 
 #: ../../reference/simple_stmts.rst:880
