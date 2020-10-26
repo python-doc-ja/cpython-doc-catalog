@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 15:27+0000\n"
+"POT-Creation-Date: 2020-10-26 15:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -366,7 +366,7 @@ msgid "If it is an *integer*, the array will have that size and will be initiali
 msgstr ""
 
 #: ../../library/functions.rst:154
-msgid "If it is an object conforming to the *buffer* interface, a read-only buffer of the object will be used to initialize the bytes array."
+msgid "If it is an object conforming to the :ref:`buffer interface <bufferobjects>`, a read-only buffer of the object will be used to initialize the bytes array."
 msgstr ""
 
 #: ../../library/functions.rst:157
