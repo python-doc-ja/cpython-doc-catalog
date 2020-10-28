@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-22 04:25+0000\n"
+"POT-Creation-Date: 2020-10-28 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1535,7 +1535,7 @@ msgid "Emulating callable objects"
 msgstr ""
 
 #: ../../reference/datamodel.rst:2170
-msgid "Called when the instance is \"called\" as a function; if this method is defined, ``x(arg1, arg2, ...)`` is a shorthand for ``x.__call__(arg1, arg2, ...)``."
+msgid "Called when the instance is \"called\" as a function; if this method is defined, ``x(arg1, arg2, ...)`` roughly translates to ``type(x).__call__(x, arg1, ...)``."
 msgstr ""
 
 #: ../../reference/datamodel.rst:2177
