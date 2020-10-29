@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-25 04:26+0000\n"
+"POT-Creation-Date: 2020-10-29 04:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3508,214 +3508,462 @@ msgid "Note that there is no specific slot for any of these methods in the type 
 msgstr ""
 
 #: ../../library/stdtypes.rst:4737
-msgid "Other Built-in Types"
+msgid "Generic Alias Type"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4739
-msgid "The interpreter supports several other kinds of objects. Most of these support only one or two operations."
+#: ../../library/stdtypes.rst:4743
+msgid "``GenericAlias`` objects are created by subscripting a class (usually a container), such as ``list[int]``.  They are intended primarily for :term:`type annotations <annotation>`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4746
-msgid "Modules"
+#: ../../library/stdtypes.rst:4747
+msgid "Usually, the :ref:`subscription <subscriptions>` of container objects calls the method :meth:`__getitem__` of the object.  However, the subscription of some containers' classes may call the classmethod :meth:`__class_getitem__` of the class instead. The classmethod :meth:`__class_getitem__` should return a ``GenericAlias`` object."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4748
-msgid "The only special operation on a module is attribute access: ``m.name``, where *m* is a module and *name* accesses a name defined in *m*'s symbol table. Module attributes can be assigned to.  (Note that the :keyword:`import` statement is not, strictly speaking, an operation on a module object; ``import foo`` does not require a module object named *foo* to exist, rather it requires an (external) *definition* for a module named *foo* somewhere.)"
+#: ../../library/stdtypes.rst:4754
+msgid "If the :meth:`__getitem__` of the class' metaclass is present, it will take precedence over the :meth:`__class_getitem__` defined in the class (see :pep:`560` for more details)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4755
-msgid "A special attribute of every module is :attr:`~object.__dict__`. This is the dictionary containing the module's symbol table. Modifying this dictionary will actually change the module's symbol table, but direct assignment to the :attr:`~object.__dict__` attribute is not possible (you can write ``m.__dict__['a'] = 1``, which defines ``m.a`` to be ``1``, but you can't write ``m.__dict__ = {}``).  Modifying :attr:`~object.__dict__` directly is not recommended."
+#: ../../library/stdtypes.rst:4758
+msgid "The ``GenericAlias`` object acts as a proxy for :term:`generic types <generic type>`, implementing *parameterized generics* - a specific instance of a generic which provides the types for container elements."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4763
-msgid "Modules built into the interpreter are written like this: ``<module 'sys' (built-in)>``.  If loaded from a file, they are written as ``<module 'os' from '/usr/local/lib/pythonX.Y/os.pyc'>``."
+#: ../../library/stdtypes.rst:4762
+msgid "The user-exposed type for the ``GenericAlias`` object can be accessed from :data:`types.GenericAlias` and used for :func:`isinstance` checks."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4771
-msgid "Classes and Class Instances"
+#: ../../library/stdtypes.rst:4767
+msgid "Creates a ``GenericAlias`` representing a type ``T`` containing elements of types *X*, *Y*, and more depending on the ``T`` used. For example, a function expecting a :class:`list` containing :class:`float` elements::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4773
-msgid "See :ref:`objects` and :ref:`class` for these."
+#: ../../library/stdtypes.rst:4775
+msgid "Another example for :term:`mapping` objects, using a :class:`dict`, which is a generic type expecting two type parameters representing the key type and the value type.  In this example, the function expects a ``dict`` with keys of type :class:`str` and values of type :class:`int`::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4779
-msgid "Functions"
+#: ../../library/stdtypes.rst:4783
+msgid "The builtin functions :func:`isinstance` and :func:`issubclass` do not accept ``GenericAlias`` types for their second argument::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4781
-msgid "Function objects are created by function definitions.  The only operation on a function object is to call it: ``func(argument-list)``."
+#: ../../library/stdtypes.rst:4791
+msgid "The Python runtime does not enforce :term:`type annotations <annotation>`. This extends to generic types and their type parameters. When creating an object from a ``GenericAlias``, container elements are not checked against their type. For example, the following code is discouraged, but will run without errors::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4784
-msgid "There are really two flavors of function objects: built-in functions and user-defined functions.  Both support the same operation (to call the function), but the implementation is different, hence the different object types."
-msgstr ""
-
-#: ../../library/stdtypes.rst:4788
-msgid "See :ref:`function` for more information."
-msgstr ""
-
-#: ../../library/stdtypes.rst:4794
-msgid "Methods"
-msgstr ""
-
-#: ../../library/stdtypes.rst:4798
-msgid "Methods are functions that are called using the attribute notation. There are two flavors: built-in methods (such as :meth:`append` on lists) and class instance methods.  Built-in methods are described with the types that support them."
-msgstr ""
-
-#: ../../library/stdtypes.rst:4803
-msgid "If you access a method (a function defined in a class namespace) through an instance, you get a special object: a :dfn:`bound method` (also called :dfn:`instance method`) object. When called, it will add the ``self`` argument to the argument list.  Bound methods have two special read-only attributes: ``m.__self__`` is the object on which the method operates, and ``m.__func__`` is the function implementing the method.  Calling ``m(arg-1, arg-2, ..., arg-n)`` is completely equivalent to calling ``m.__func__(m.__self__, arg-1, arg-2, ..., arg-n)``."
+#: ../../library/stdtypes.rst:4801
+msgid "Furthermore, parameterized generics erase type parameters during object creation::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4812
-msgid "Like function objects, bound method objects support getting arbitrary attributes.  However, since method attributes are actually stored on the underlying function object (``meth.__func__``), setting method attributes on bound methods is disallowed.  Attempting to set an attribute on a method results in an :exc:`AttributeError` being raised.  In order to set a method attribute, you need to explicitly set it on the underlying function object::"
+msgid "Calling :func:`repr` or :func:`str` on a generic shows the parameterized type::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4832
-#: ../../library/stdtypes.rst:4860
-msgid "See :ref:`types` for more information."
+#: ../../library/stdtypes.rst:4820
+msgid "The :meth:`__getitem__` method of generics will raise an exception to disallow mistakes like ``dict[str][str]``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4840
-msgid "Code Objects"
+#: ../../library/stdtypes.rst:4828
+msgid "However, such expressions are valid when :ref:`type variables <generics>` are used.  The index must have as many elements as there are type variable items in the ``GenericAlias`` object's :attr:`__args__ <genericalias.__args__>`. ::"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4839
+msgid "Standard Generic Collections"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4841
+msgid "These standard library collections support parameterized generics."
+msgstr ""
+
+#: ../../library/stdtypes.rst:4843
+msgid ":class:`tuple`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4844
+msgid ":class:`list`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4845
+msgid ":class:`dict`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4846
-msgid "Code objects are used by the implementation to represent \"pseudo-compiled\" executable Python code such as a function body. They differ from function objects because they don't contain a reference to their global execution environment.  Code objects are returned by the built-in :func:`compile` function and can be extracted from function objects through their :attr:`__code__` attribute. See also the :mod:`code` module."
+msgid ":class:`set`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4847
+msgid ":class:`frozenset`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4848
+msgid ":class:`type`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4849
+msgid ":class:`collections.deque`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4850
+msgid ":class:`collections.defaultdict`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4851
+msgid ":class:`collections.OrderedDict`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4852
+msgid ":class:`collections.Counter`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4853
+msgid ":class:`collections.ChainMap`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4854
+msgid ":class:`collections.abc.Awaitable`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4855
+msgid ":class:`collections.abc.Coroutine`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4856
+msgid ":class:`collections.abc.AsyncIterable`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4857
-msgid "A code object can be executed or evaluated by passing it (instead of a source string) to the :func:`exec` or :func:`eval`  built-in functions."
+msgid ":class:`collections.abc.AsyncIterator`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4858
+msgid ":class:`collections.abc.AsyncGenerator`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4859
+msgid ":class:`collections.abc.Iterable`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4860
+msgid ":class:`collections.abc.Iterator`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4861
+msgid ":class:`collections.abc.Generator`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4862
+msgid ":class:`collections.abc.Reversible`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4863
+msgid ":class:`collections.abc.Container`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4864
+msgid ":class:`collections.abc.Collection`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4865
+msgid ":class:`collections.abc.Callable`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4866
-msgid "Type Objects"
+msgid ":class:`collections.abc.Set`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4867
+msgid ":class:`collections.abc.MutableSet`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4868
+msgid ":class:`collections.abc.Mapping`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4869
+msgid ":class:`collections.abc.MutableMapping`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4870
+msgid ":class:`collections.abc.Sequence`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4871
+msgid ":class:`collections.abc.MutableSequence`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4872
-msgid "Type objects represent the various object types.  An object's type is accessed by the built-in function :func:`type`.  There are no special operations on types.  The standard module :mod:`types` defines names for all standard built-in types."
+msgid ":class:`collections.abc.ByteString`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4873
+msgid ":class:`collections.abc.MappingView`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4874
+msgid ":class:`collections.abc.KeysView`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4875
+msgid ":class:`collections.abc.ItemsView`"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4876
+msgid ":class:`collections.abc.ValuesView`"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4877
-msgid "Types are written like this: ``<class 'int'>``."
+msgid ":class:`contextlib.AbstractContextManager`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4883
-msgid "The Null Object"
+#: ../../library/stdtypes.rst:4878
+msgid ":class:`contextlib.AbstractAsyncContextManager`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4885
-msgid "This object is returned by functions that don't explicitly return a value.  It supports no special operations.  There is exactly one null object, named ``None`` (a built-in name).  ``type(None)()`` produces the same singleton."
+#: ../../library/stdtypes.rst:4879
+msgid ":ref:`re.Pattern <re-objects>`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4889
-msgid "It is written as ``None``."
+#: ../../library/stdtypes.rst:4880
+msgid ":ref:`re.Match <match-objects>`"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4896
-msgid "The Ellipsis Object"
+#: ../../library/stdtypes.rst:4884
+msgid "Special Attributes of Generic Alias"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4886
+msgid "All parameterized generics implement special read-only attributes."
+msgstr ""
+
+#: ../../library/stdtypes.rst:4890
+msgid "This attribute points at the non-parameterized generic class::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4898
-msgid "This object is commonly used by slicing (see :ref:`slicings`).  It supports no special operations.  There is exactly one ellipsis object, named :const:`Ellipsis` (a built-in name).  ``type(Ellipsis)()`` produces the :const:`Ellipsis` singleton."
+msgid "This attribute is a :class:`tuple` (possibly of length 1) of generic types passed to the original :meth:`__class_getitem__` of the generic container::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4903
-msgid "It is written as ``Ellipsis`` or ``...``."
+#: ../../library/stdtypes.rst:4908
+msgid "This attribute is a lazily computed tuple (possibly empty) of unique type variables found in ``__args__``::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4909
-msgid "The NotImplemented Object"
+#: ../../library/stdtypes.rst:4920
+msgid ":pep:`585` -- \"Type Hinting Generics In Standard Collections\""
 msgstr ""
 
-#: ../../library/stdtypes.rst:4911
-msgid "This object is returned from comparisons and binary operations when they are asked to operate on types they don't support. See :ref:`comparisons` for more information.  There is exactly one ``NotImplemented`` object. ``type(NotImplemented)()`` produces the singleton instance."
-msgstr ""
-
-#: ../../library/stdtypes.rst:4916
-msgid "It is written as ``NotImplemented``."
+#: ../../library/stdtypes.rst:4921
+msgid ":meth:`__class_getitem__` -- Used to implement parameterized generics."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4922
-msgid "Boolean Values"
+msgid ":ref:`generics` -- Generics in the :mod:`typing` module."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4924
-msgid "Boolean values are the two constant objects ``False`` and ``True``.  They are used to represent truth values (although other values can also be considered false or true).  In numeric contexts (for example when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. The built-in function :func:`bool` can be used to convert any value to a Boolean, if the value can be interpreted as a truth value (see section :ref:`truth` above)."
+#: ../../library/stdtypes.rst:4930
+msgid "Other Built-in Types"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4937
-msgid "They are written as ``False`` and ``True``, respectively."
+#: ../../library/stdtypes.rst:4932
+msgid "The interpreter supports several other kinds of objects. Most of these support only one or two operations."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4943
-msgid "Internal Objects"
+#: ../../library/stdtypes.rst:4939
+msgid "Modules"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4945
-msgid "See :ref:`types` for this information.  It describes stack frame objects, traceback objects, and slice objects."
+#: ../../library/stdtypes.rst:4941
+msgid "The only special operation on a module is attribute access: ``m.name``, where *m* is a module and *name* accesses a name defined in *m*'s symbol table. Module attributes can be assigned to.  (Note that the :keyword:`import` statement is not, strictly speaking, an operation on a module object; ``import foo`` does not require a module object named *foo* to exist, rather it requires an (external) *definition* for a module named *foo* somewhere.)"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4952
-msgid "Special Attributes"
+#: ../../library/stdtypes.rst:4948
+msgid "A special attribute of every module is :attr:`~object.__dict__`. This is the dictionary containing the module's symbol table. Modifying this dictionary will actually change the module's symbol table, but direct assignment to the :attr:`~object.__dict__` attribute is not possible (you can write ``m.__dict__['a'] = 1``, which defines ``m.a`` to be ``1``, but you can't write ``m.__dict__ = {}``).  Modifying :attr:`~object.__dict__` directly is not recommended."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4954
-msgid "The implementation adds a few special read-only attributes to several object types, where they are relevant.  Some of these are not reported by the :func:`dir` built-in function."
+#: ../../library/stdtypes.rst:4956
+msgid "Modules built into the interpreter are written like this: ``<module 'sys' (built-in)>``.  If loaded from a file, they are written as ``<module 'os' from '/usr/local/lib/pythonX.Y/os.pyc'>``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4961
-msgid "A dictionary or other mapping object used to store an object's (writable) attributes."
+#: ../../library/stdtypes.rst:4964
+msgid "Classes and Class Instances"
 msgstr ""
 
-#: ../../library/stdtypes.rst:4967
-msgid "The class to which a class instance belongs."
+#: ../../library/stdtypes.rst:4966
+msgid "See :ref:`objects` and :ref:`class` for these."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4972
-msgid "The tuple of base classes of a class object."
+msgid "Functions"
+msgstr ""
+
+#: ../../library/stdtypes.rst:4974
+msgid "Function objects are created by function definitions.  The only operation on a function object is to call it: ``func(argument-list)``."
 msgstr ""
 
 #: ../../library/stdtypes.rst:4977
-msgid "The name of the class, function, method, descriptor, or generator instance."
+msgid "There are really two flavors of function objects: built-in functions and user-defined functions.  Both support the same operation (to call the function), but the implementation is different, hence the different object types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4983
-msgid "The :term:`qualified name` of the class, function, method, descriptor, or generator instance."
+#: ../../library/stdtypes.rst:4981
+msgid "See :ref:`function` for more information."
+msgstr ""
+
+#: ../../library/stdtypes.rst:4987
+msgid "Methods"
 msgstr ""
 
 #: ../../library/stdtypes.rst:4991
-msgid "This attribute is a tuple of classes that are considered when looking for base classes during method resolution."
+msgid "Methods are functions that are called using the attribute notation. There are two flavors: built-in methods (such as :meth:`append` on lists) and class instance methods.  Built-in methods are described with the types that support them."
 msgstr ""
 
-#: ../../library/stdtypes.rst:4997
-msgid "This method can be overridden by a metaclass to customize the method resolution order for its instances.  It is called at class instantiation, and its result is stored in :attr:`~class.__mro__`."
+#: ../../library/stdtypes.rst:4996
+msgid "If you access a method (a function defined in a class namespace) through an instance, you get a special object: a :dfn:`bound method` (also called :dfn:`instance method`) object. When called, it will add the ``self`` argument to the argument list.  Bound methods have two special read-only attributes: ``m.__self__`` is the object on which the method operates, and ``m.__func__`` is the function implementing the method.  Calling ``m(arg-1, arg-2, ..., arg-n)`` is completely equivalent to calling ``m.__func__(m.__self__, arg-1, arg-2, ..., arg-n)``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5004
-msgid "Each class keeps a list of weak references to its immediate subclasses.  This method returns a list of all those references still alive. Example::"
-msgstr ""
-
-#: ../../library/stdtypes.rst:5013
-msgid "Footnotes"
-msgstr ""
-
-#: ../../library/stdtypes.rst:5014
-msgid "Additional information on these special methods may be found in the Python Reference Manual (:ref:`customization`)."
-msgstr ""
-
-#: ../../library/stdtypes.rst:5017
-msgid "As a consequence, the list ``[1, 2]`` is considered equal to ``[1.0, 2.0]``, and similarly for tuples."
-msgstr ""
-
-#: ../../library/stdtypes.rst:5020
-msgid "They must have since the parser can't tell the type of the operands."
-msgstr ""
-
-#: ../../library/stdtypes.rst:5022
-msgid "Cased characters are those with general category property being one of \"Lu\" (Letter, uppercase), \"Ll\" (Letter, lowercase), or \"Lt\" (Letter, titlecase)."
+#: ../../library/stdtypes.rst:5005
+msgid "Like function objects, bound method objects support getting arbitrary attributes.  However, since method attributes are actually stored on the underlying function object (``meth.__func__``), setting method attributes on bound methods is disallowed.  Attempting to set an attribute on a method results in an :exc:`AttributeError` being raised.  In order to set a method attribute, you need to explicitly set it on the underlying function object::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:5025
+#: ../../library/stdtypes.rst:5053
+msgid "See :ref:`types` for more information."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5033
+msgid "Code Objects"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5039
+msgid "Code objects are used by the implementation to represent \"pseudo-compiled\" executable Python code such as a function body. They differ from function objects because they don't contain a reference to their global execution environment.  Code objects are returned by the built-in :func:`compile` function and can be extracted from function objects through their :attr:`__code__` attribute. See also the :mod:`code` module."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5050
+msgid "A code object can be executed or evaluated by passing it (instead of a source string) to the :func:`exec` or :func:`eval`  built-in functions."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5059
+msgid "Type Objects"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5065
+msgid "Type objects represent the various object types.  An object's type is accessed by the built-in function :func:`type`.  There are no special operations on types.  The standard module :mod:`types` defines names for all standard built-in types."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5070
+msgid "Types are written like this: ``<class 'int'>``."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5076
+msgid "The Null Object"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5078
+msgid "This object is returned by functions that don't explicitly return a value.  It supports no special operations.  There is exactly one null object, named ``None`` (a built-in name).  ``type(None)()`` produces the same singleton."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5082
+msgid "It is written as ``None``."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5089
+msgid "The Ellipsis Object"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5091
+msgid "This object is commonly used by slicing (see :ref:`slicings`).  It supports no special operations.  There is exactly one ellipsis object, named :const:`Ellipsis` (a built-in name).  ``type(Ellipsis)()`` produces the :const:`Ellipsis` singleton."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5096
+msgid "It is written as ``Ellipsis`` or ``...``."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5102
+msgid "The NotImplemented Object"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5104
+msgid "This object is returned from comparisons and binary operations when they are asked to operate on types they don't support. See :ref:`comparisons` for more information.  There is exactly one ``NotImplemented`` object. ``type(NotImplemented)()`` produces the singleton instance."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5109
+msgid "It is written as ``NotImplemented``."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5115
+msgid "Boolean Values"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5117
+msgid "Boolean values are the two constant objects ``False`` and ``True``.  They are used to represent truth values (although other values can also be considered false or true).  In numeric contexts (for example when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. The built-in function :func:`bool` can be used to convert any value to a Boolean, if the value can be interpreted as a truth value (see section :ref:`truth` above)."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5130
+msgid "They are written as ``False`` and ``True``, respectively."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5136
+msgid "Internal Objects"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5138
+msgid "See :ref:`types` for this information.  It describes stack frame objects, traceback objects, and slice objects."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5145
+msgid "Special Attributes"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5147
+msgid "The implementation adds a few special read-only attributes to several object types, where they are relevant.  Some of these are not reported by the :func:`dir` built-in function."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5154
+msgid "A dictionary or other mapping object used to store an object's (writable) attributes."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5160
+msgid "The class to which a class instance belongs."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5165
+msgid "The tuple of base classes of a class object."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5170
+msgid "The name of the class, function, method, descriptor, or generator instance."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5176
+msgid "The :term:`qualified name` of the class, function, method, descriptor, or generator instance."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5184
+msgid "This attribute is a tuple of classes that are considered when looking for base classes during method resolution."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5190
+msgid "This method can be overridden by a metaclass to customize the method resolution order for its instances.  It is called at class instantiation, and its result is stored in :attr:`~class.__mro__`."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5197
+msgid "Each class keeps a list of weak references to its immediate subclasses.  This method returns a list of all those references still alive. Example::"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5206
+msgid "Footnotes"
+msgstr ""
+
+#: ../../library/stdtypes.rst:5207
+msgid "Additional information on these special methods may be found in the Python Reference Manual (:ref:`customization`)."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5210
+msgid "As a consequence, the list ``[1, 2]`` is considered equal to ``[1.0, 2.0]``, and similarly for tuples."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5213
+msgid "They must have since the parser can't tell the type of the operands."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5215
+msgid "Cased characters are those with general category property being one of \"Lu\" (Letter, uppercase), \"Ll\" (Letter, lowercase), or \"Lt\" (Letter, titlecase)."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5218
 msgid "To format only a tuple you should therefore provide a singleton tuple whose only element is the tuple to be formatted."
 msgstr ""
