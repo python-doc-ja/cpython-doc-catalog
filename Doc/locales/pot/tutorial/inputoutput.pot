@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-28 14:05+0000\n"
+"POT-Creation-Date: 2020-12-20 15:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,97 +185,101 @@ msgid "It is good practice to use the :keyword:`with` keyword when dealing with 
 msgstr ""
 
 #: ../../tutorial/inputoutput.rst:330
-msgid "If you're not using the :keyword:`with` keyword, then you should call ``f.close()`` to close the file and immediately free up any system resources used by it. If you don't explicitly close a file, Python's garbage collector will eventually destroy the object and close the open file for you, but the file may stay open for a while.  Another risk is that different Python implementations will do this clean-up at different times."
+msgid "If you're not using the :keyword:`with` keyword, then you should call ``f.close()`` to close the file and immediately free up any system resources used by it."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:338
+#: ../../tutorial/inputoutput.rst:335
+msgid "Calling ``f.write()`` without using the :keyword:`!with` keyword or calling ``f.close()`` **might** result in the arguments of ``f.write()`` not being completely written to the disk, even if the program exits successfully."
+msgstr ""
+
+#: ../../tutorial/inputoutput.rst:343
 msgid "After a file object is closed, either by a :keyword:`with` statement or by calling ``f.close()``, attempts to use the file object will automatically fail. ::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:352
+#: ../../tutorial/inputoutput.rst:357
 msgid "Methods of File Objects"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:354
+#: ../../tutorial/inputoutput.rst:359
 msgid "The rest of the examples in this section will assume that a file object called ``f`` has already been created."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:357
+#: ../../tutorial/inputoutput.rst:362
 msgid "To read a file's contents, call ``f.read(size)``, which reads some quantity of data and returns it as a string (in text mode) or bytes object (in binary mode). *size* is an optional numeric argument.  When *size* is omitted or negative, the entire contents of the file will be read and returned; it's your problem if the file is twice as large as your machine's memory. Otherwise, at most *size* characters (in text mode) or *size* bytes (in binary mode) are read and returned. If the end of the file has been reached, ``f.read()`` will return an empty string (``''``).  ::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:371
+#: ../../tutorial/inputoutput.rst:376
 msgid "``f.readline()`` reads a single line from the file; a newline character (``\\n``) is left at the end of the string, and is only omitted on the last line of the file if the file doesn't end in a newline.  This makes the return value unambiguous; if ``f.readline()`` returns an empty string, the end of the file has been reached, while a blank line is represented by ``'\\n'``, a string containing only a single newline.  ::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:385
+#: ../../tutorial/inputoutput.rst:390
 msgid "For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:394
+#: ../../tutorial/inputoutput.rst:399
 msgid "If you want to read all the lines of a file in a list you can also use ``list(f)`` or ``f.readlines()``."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:397
+#: ../../tutorial/inputoutput.rst:402
 msgid "``f.write(string)`` writes the contents of *string* to the file, returning the number of characters written. ::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:403
+#: ../../tutorial/inputoutput.rst:408
 msgid "Other types of objects need to be converted -- either to a string (in text mode) or a bytes object (in binary mode) -- before writing them::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:411
+#: ../../tutorial/inputoutput.rst:416
 msgid "``f.tell()`` returns an integer giving the file object's current position in the file represented as number of bytes from the beginning of the file when in binary mode and an opaque number when in text mode."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:415
+#: ../../tutorial/inputoutput.rst:420
 msgid "To change the file object's position, use ``f.seek(offset, whence)``.  The position is computed from adding *offset* to a reference point; the reference point is selected by the *whence* argument.  A *whence* value of 0 measures from the beginning of the file, 1 uses the current file position, and 2 uses the end of the file as the reference point.  *whence* can be omitted and defaults to 0, using the beginning of the file as the reference point. ::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:434
+#: ../../tutorial/inputoutput.rst:439
 msgid "In text files (those opened without a ``b`` in the mode string), only seeks relative to the beginning of the file are allowed (the exception being seeking to the very file end with ``seek(0, 2)``) and the only valid *offset* values are those returned from the ``f.tell()``, or zero. Any other *offset* value produces undefined behaviour."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:440
+#: ../../tutorial/inputoutput.rst:445
 msgid "File objects have some additional methods, such as :meth:`~file.isatty` and :meth:`~file.truncate` which are less frequently used; consult the Library Reference for a complete guide to file objects."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:448
+#: ../../tutorial/inputoutput.rst:453
 msgid "Saving structured data with :mod:`json`"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:452
+#: ../../tutorial/inputoutput.rst:457
 msgid "Strings can easily be written to and read from a file.  Numbers take a bit more effort, since the :meth:`read` method only returns strings, which will have to be passed to a function like :func:`int`, which takes a string like ``'123'`` and returns its numeric value 123.  When you want to save more complex data types like nested lists and dictionaries, parsing and serializing by hand becomes complicated."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:459
+#: ../../tutorial/inputoutput.rst:464
 msgid "Rather than having users constantly writing and debugging code to save complicated data types to files, Python allows you to use the popular data interchange format called `JSON (JavaScript Object Notation) <http://json.org>`_.  The standard module called :mod:`json` can take Python data hierarchies, and convert them to string representations; this process is called :dfn:`serializing`.  Reconstructing the data from the string representation is called :dfn:`deserializing`.  Between serializing and deserializing, the string representing the object may have been stored in a file or data, or sent over a network connection to some distant machine."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:470
+#: ../../tutorial/inputoutput.rst:475
 msgid "The JSON format is commonly used by modern applications to allow for data exchange.  Many programmers are already familiar with it, which makes it a good choice for interoperability."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:474
+#: ../../tutorial/inputoutput.rst:479
 msgid "If you have an object ``x``, you can view its JSON string representation with a simple line of code::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:481
+#: ../../tutorial/inputoutput.rst:486
 msgid "Another variant of the :func:`~json.dumps` function, called :func:`~json.dump`, simply serializes the object to a :term:`text file`.  So if ``f`` is a :term:`text file` object opened for writing, we can do this::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:487
+#: ../../tutorial/inputoutput.rst:492
 msgid "To decode the object again, if ``f`` is a :term:`text file` object which has been opened for reading::"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:492
+#: ../../tutorial/inputoutput.rst:497
 msgid "This simple serialization technique can handle lists and dictionaries, but serializing arbitrary class instances in JSON requires a bit of extra effort. The reference for the :mod:`json` module contains an explanation of this."
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:498
+#: ../../tutorial/inputoutput.rst:503
 msgid ":mod:`pickle` - the pickle module"
 msgstr ""
 
-#: ../../tutorial/inputoutput.rst:500
+#: ../../tutorial/inputoutput.rst:505
 msgid "Contrary to :ref:`JSON <tut-json>`, *pickle* is a protocol which allows the serialization of arbitrarily complex Python objects.  As such, it is specific to Python and cannot be used to communicate with applications written in other languages.  It is also insecure by default: deserializing pickle data coming from an untrusted source can execute arbitrary code, if the data was crafted by a skilled attacker."
 msgstr ""

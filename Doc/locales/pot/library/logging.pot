@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 13:16+0000\n"
+"POT-Creation-Date: 2020-12-20 15:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -994,7 +994,7 @@ msgid "Note that if you have defined any custom logging level higher than ``CRIT
 msgstr ""
 
 #: ../../library/logging.rst:1085
-msgid "The *level* parameter was defaulted to level ``CRITICAL``. See Issue #28524 for more information about this change."
+msgid "The *level* parameter was defaulted to level ``CRITICAL``. See :issue:`28524` for more information about this change."
 msgstr ""
 
 #: ../../library/logging.rst:1091

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:34+0000\n"
+"POT-Creation-Date: 2020-12-20 15:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -337,7 +337,7 @@ msgid "Waiting Primitives"
 msgstr ""
 
 #: ../../library/asyncio-task.rst:503
-msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently and block until the condition specified by *return_when*."
+msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable concurrently and block until the condition specified by *return_when*."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:507
@@ -413,7 +413,7 @@ msgid "Passing coroutine objects to ``wait()`` directly is deprecated."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:590
-msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently.  Return an iterator of coroutines. Each coroutine returned can be awaited to get the earliest next result from the set of the remaining awaitables."
+msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable concurrently.  Return an iterator of coroutines. Each coroutine returned can be awaited to get the earliest next result from the iterable of the remaining awaitables."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:595
