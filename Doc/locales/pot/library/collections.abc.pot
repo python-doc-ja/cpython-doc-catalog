@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-23 03:56+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -419,7 +419,7 @@ msgid "Notes on using :class:`Set` and :class:`MutableSet` as a mixin:"
 msgstr ""
 
 #: ../../library/collections.abc.rst:287
-msgid "Since some set operations create new sets, the default mixin methods need a way to create new instances from an iterable. The class constructor is assumed to have a signature in the form ``ClassName(iterable)``. That assumption is factored-out to an internal classmethod called :meth:`_from_iterable` which calls ``cls(iterable)`` to produce a new set. If the :class:`Set` mixin is being used in a class with a different constructor signature, you will need to override :meth:`_from_iterable` with a classmethod that can construct new instances from an iterable argument."
+msgid "Since some set operations create new sets, the default mixin methods need a way to create new instances from an iterable. The class constructor is assumed to have a signature in the form ``ClassName(iterable)``. That assumption is factored-out to an internal classmethod called :meth:`_from_iterable` which calls ``cls(iterable)`` to produce a new set. If the :class:`Set` mixin is being used in a class with a different constructor signature, you will need to override :meth:`_from_iterable` with a classmethod or regular method that can construct new instances from an iterable argument."
 msgstr ""
 
 #: ../../library/collections.abc.rst:298

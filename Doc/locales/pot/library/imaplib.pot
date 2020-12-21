@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-13 04:04+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,7 @@ msgid "At the end of the module, there is a test section that contains a more ex
 msgstr ""
 
 #: ../../library/imaplib.rst:177
-msgid "Documents describing the protocol, and sources and binaries  for servers implementing it, can all be found at the University of Washington's *IMAP Information Center* (https://www.washington.edu/imap/)."
+msgid "Documents describing the protocol, sources for servers implementing it, by the University of Washington's IMAP Information Center can all be found at (**Source Code**) https://github.com/uw-imap/imap (**Not Maintained**)."
 msgstr ""
 
 #: ../../library/imaplib.rst:185

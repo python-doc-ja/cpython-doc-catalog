@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-27 04:26+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -450,7 +450,7 @@ msgid "The *mode* argument specifies what kind of code must be compiled; it can 
 msgstr ""
 
 #: ../../library/functions.rst:248
-msgid "The optional argument *flags* and *dont_inherit* controls which :ref:`compiler options <ast-compiler-flags>` should be activated and which :ref:`future features <future>` should be allowed. If neither is present (or both are zero) the code is compiled with the same flags that affect the code that is calling :func:`compile`. If the *flags* argument is given and *dont_inherit* is not (or is zero) then the compiler options and the future statements specified by the *flags* argument are used in addition to those that would be used anyway. If *dont_inherit* is a non-zero integer then the *flags* argument is it -- the flags (future features and compiler options) in the surrounding code are ignored."
+msgid "The optional arguments *flags* and *dont_inherit* control which :ref:`compiler options <ast-compiler-flags>` should be activated and which :ref:`future features <future>` should be allowed. If neither is present (or both are zero) the code is compiled with the same flags that affect the code that is calling :func:`compile`. If the *flags* argument is given and *dont_inherit* is not (or is zero) then the compiler options and the future statements specified by the *flags* argument are used in addition to those that would be used anyway. If *dont_inherit* is a non-zero integer then the *flags* argument is it -- the flags (future features and compiler options) in the surrounding code are ignored."
 msgstr ""
 
 #: ../../library/functions.rst:259

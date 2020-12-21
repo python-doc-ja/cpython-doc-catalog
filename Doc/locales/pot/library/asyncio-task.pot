@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 03:48+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -341,11 +341,11 @@ msgid "Waiting Primitives"
 msgstr ""
 
 #: ../../library/asyncio-task.rst:506
-msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently and block until the condition specified by *return_when*."
+msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable concurrently and block until the condition specified by *return_when*."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:510
-msgid "The *aws* set must not be empty."
+msgid "The *aws* iterable must not be empty."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:512
@@ -421,7 +421,7 @@ msgid "Passing coroutine objects to ``wait()`` directly is deprecated."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:595
-msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* set concurrently.  Return an iterator of coroutines. Each coroutine returned can be awaited to get the earliest next result from the set of the remaining awaitables."
+msgid "Run :ref:`awaitable objects <asyncio-awaitables>` in the *aws* iterable concurrently.  Return an iterator of coroutines. Each coroutine returned can be awaited to get the earliest next result from the iterable of the remaining awaitables."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:600
@@ -437,7 +437,7 @@ msgid "Asynchronously run function *func* in a separate thread."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:620
-msgid "Any \\*args and \\*\\*kwargs supplied for this function are directly passed to *func*. Also, the current :class:`contextvars.Context` is propogated, allowing context variables from the event loop thread to be accessed in the separate thread."
+msgid "Any \\*args and \\*\\*kwargs supplied for this function are directly passed to *func*. Also, the current :class:`contextvars.Context` is propagated, allowing context variables from the event loop thread to be accessed in the separate thread."
 msgstr ""
 
 #: ../../library/asyncio-task.rst:625

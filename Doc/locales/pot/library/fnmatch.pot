@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-12-21 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Test whether *filename* matches *pattern*, returning :const:`True` or :co
 msgstr ""
 
 #: ../../library/fnmatch.rst:78
-msgid "Return the subset of the list of *names* that match *pattern*. It is the same as ``[n for n in names if fnmatch(n, pattern)]``, but implemented more efficiently."
+msgid "Construct a list from those elements of the iterable *names* that match *pattern*. It is the same as ``[n for n in names if fnmatch(n, pattern)]``, but implemented more efficiently."
 msgstr ""
 
 #: ../../library/fnmatch.rst:84
