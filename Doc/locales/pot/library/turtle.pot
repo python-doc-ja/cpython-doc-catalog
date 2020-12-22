@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 03:54+0000\n"
+"POT-Creation-Date: 2020-12-22 04:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -983,7 +983,7 @@ msgstr ""
 msgid "Set pencolor to the RGB color represented by the tuple of *r*, *g*, and *b*.  Each of *r*, *g*, and *b* must be in the range 0..colormode, where colormode is either 1.0 or 255 (see :func:`colormode`)."
 msgstr ""
 
-#: ../../library/turtle.rst:917
+#: ../../library/turtle.rst:914
 msgid "``pencolor(r, g, b)``"
 msgstr ""
 
@@ -1023,7 +1023,7 @@ msgstr ""
 msgid "Set fillcolor to the RGB color represented by the tuple of *r*, *g*, and *b*.  Each of *r*, *g*, and *b* must be in the range 0..colormode, where colormode is either 1.0 or 255 (see :func:`colormode`)."
 msgstr ""
 
-#: ../../library/turtle.rst:966
+#: ../../library/turtle.rst:963
 msgid "``fillcolor(r, g, b)``"
 msgstr ""
 
@@ -1059,7 +1059,7 @@ msgstr ""
 msgid "Inputs as in :func:`pencolor`, set both, fillcolor and pencolor, to the given value."
 msgstr ""
 
-#: ../../library/turtle.rst:1005
+#: ../../library/turtle.rst:1002
 msgid "``color(colorstring1, colorstring2)``, ``color((r1,g1,b1), (r2,g2,b2))``"
 msgstr ""
 
