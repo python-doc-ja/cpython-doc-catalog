@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:25+0000\n"
+"POT-Creation-Date: 2020-12-24 04:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,7 +135,7 @@ msgid "An asyncio event can be used to notify multiple asyncio tasks that some e
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:106
-msgid "An Event object manages an internal flag that can be set to *true* with the :meth:`set` method and reset to *false* with the :meth:`clear` method.  The :meth:`wait` method blocks until the flag is set to *true*.  The flag is set to *false* initially."
+msgid "An Event object manages an internal flag that can be set to *true* with the :meth:`~Event.set` method and reset to *false* with the :meth:`clear` method.  The :meth:`~Event.wait` method blocks until the flag is set to *true*.  The flag is set to *false* initially."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:117
@@ -147,7 +147,7 @@ msgid "Wait until the event is set."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:144
-msgid "If the event is set, return ``True`` immediately. Otherwise block until another task calls :meth:`set`."
+msgid "If the event is set, return ``True`` immediately. Otherwise block until another task calls :meth:`~Event.set`."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:149
@@ -163,7 +163,7 @@ msgid "Clear (unset) the event."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:158
-msgid "Tasks awaiting on :meth:`wait` will now block until the :meth:`set` method is called again."
+msgid "Tasks awaiting on :meth:`~Event.wait` will now block until the :meth:`~Event.set` method is called again."
 msgstr ""
 
 #: ../../library/asyncio-sync.rst:163
