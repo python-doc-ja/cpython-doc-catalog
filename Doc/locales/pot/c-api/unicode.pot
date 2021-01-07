@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,11 +81,11 @@ msgid "The following APIs are really C macros and can be used to do fast checks 
 msgstr ""
 
 #: ../../c-api/unicode.rst:93
-msgid "Return true if the object *o* is a Unicode object or an instance of a Unicode subtype."
+msgid "Return true if the object *o* is a Unicode object or an instance of a Unicode subtype.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/unicode.rst:99
-msgid "Return true if the object *o* is a Unicode object, but not an instance of a subtype."
+msgid "Return true if the object *o* is a Unicode object, but not an instance of a subtype.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/unicode.rst:105

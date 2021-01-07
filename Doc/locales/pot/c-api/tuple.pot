@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-01-07 05:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgid "This instance of :c:type:`PyTypeObject` represents the Python tuple type;
 msgstr ""
 
 #: ../../c-api/tuple.rst:24
-msgid "Return true if *p* is a tuple object or an instance of a subtype of the tuple type."
+msgid "Return true if *p* is a tuple object or an instance of a subtype of the tuple type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/tuple.rst:30
-msgid "Return true if *p* is a tuple object, but not an instance of a subtype of the tuple type."
+msgid "Return true if *p* is a tuple object, but not an instance of a subtype of the tuple type.  This function always succeeds."
 msgstr ""
 
 #: ../../c-api/tuple.rst:36
