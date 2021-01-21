@@ -1,12 +1,6 @@
 [main]
 host = https://www.transifex.com
 
-[python-38.0]
-file_filter = <lang>/LC_MESSAGES/0.po
-source_file = pot/0.pot
-source_lang = en
-type = PO
-
 [python-38.about]
 file_filter = <lang>/LC_MESSAGES/about.po
 source_file = pot/about.pot
