@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-02-10 05:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1162,18 +1162,18 @@ msgstr ""
 msgid "A class used for internal typing representation of string forward references. For example, ``list[\"SomeClass\"]`` is implicitly transformed into ``list[ForwardRef(\"SomeClass\")]``.  This class should not be instantiated by a user, but may be used by introspection tools."
 msgstr ""
 
-#: ../../library/typing.rst:1718
+#: ../../library/typing.rst:1720
 msgid "Constant"
 msgstr ""
 
-#: ../../library/typing.rst:1722
+#: ../../library/typing.rst:1724
 msgid "A special constant that is assumed to be ``True`` by 3rd party static type checkers. It is ``False`` at runtime. Usage::"
 msgstr ""
 
-#: ../../library/typing.rst:1731
+#: ../../library/typing.rst:1733
 msgid "The first type annotation must be enclosed in quotes, making it a \"forward reference\", to hide the ``expensive_mod`` reference from the interpreter runtime.  Type annotations for local variables are not evaluated, so the second annotation does not need to be enclosed in quotes."
 msgstr ""
 
-#: ../../library/typing.rst:1738
+#: ../../library/typing.rst:1740
 msgid "If ``from __future__ import annotations`` is used in Python 3.7 or later, annotations are not evaluated at function definition time. Instead, they are stored as strings in ``__annotations__``, This makes it unnecessary to use quotes around the annotation. (see :pep:`563`)."
 msgstr ""
