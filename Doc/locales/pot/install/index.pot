@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-02-19 05:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -958,9 +958,9 @@ msgid "This also means you could replace all existing COFF-libraries with OMF-li
 msgstr ""
 
 #: ../../install/index.rst:1067
-msgid "Check https://www.sourceware.org/cygwin/ and http://www.mingw.org/ for more information"
+msgid "Check https://www.sourceware.org/cygwin/ for more information"
 msgstr ""
 
-#: ../../install/index.rst:1070
+#: ../../install/index.rst:1069
 msgid "Then you have no POSIX emulation available, but you also don't need :file:`cygwin1.dll`."
 msgstr ""
