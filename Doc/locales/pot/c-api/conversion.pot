@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 05:30+0000\n"
+"POT-Creation-Date: 2021-02-20 05:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid ":c:func:`PyOS_snprintf` and :c:func:`PyOS_vsnprintf` wrap the Standard C 
 msgstr ""
 
 #: ../../c-api/conversion.rst:28
-msgid "The wrappers ensure that *str*[*size*-1] is always ``'\\0'`` upon return. They never write more than *size* bytes (including the trailing ``'\\0'``) into str. Both functions require that ``str != NULL``, ``size > 0`` and ``format != NULL``."
+msgid "The wrappers ensure that ``str[size-1]`` is always ``'\\0'`` upon return. They never write more than *size* bytes (including the trailing ``'\\0'``) into str. Both functions require that ``str != NULL``, ``size > 0`` and ``format != NULL``."
 msgstr ""
 
 #: ../../c-api/conversion.rst:33
@@ -49,15 +49,15 @@ msgid "The return value (*rv*) for these functions should be interpreted as foll
 msgstr ""
 
 #: ../../c-api/conversion.rst:39
-msgid "When ``0 <= rv < size``, the output conversion was successful and *rv* characters were written to *str* (excluding the trailing ``'\\0'`` byte at *str*[*rv*])."
+msgid "When ``0 <= rv < size``, the output conversion was successful and *rv* characters were written to *str* (excluding the trailing ``'\\0'`` byte at ``str[rv]``)."
 msgstr ""
 
 #: ../../c-api/conversion.rst:43
-msgid "When ``rv >= size``, the output conversion was truncated and a buffer with ``rv + 1`` bytes would have been needed to succeed. *str*[*size*-1] is ``'\\0'`` in this case."
+msgid "When ``rv >= size``, the output conversion was truncated and a buffer with ``rv + 1`` bytes would have been needed to succeed. ``str[size-1]`` is ``'\\0'`` in this case."
 msgstr ""
 
 #: ../../c-api/conversion.rst:47
-msgid "When ``rv < 0``, \"something bad happened.\" *str*[*size*-1] is ``'\\0'`` in this case too, but the rest of *str* is undefined. The exact cause of the error depends on the underlying platform."
+msgid "When ``rv < 0``, \"something bad happened.\" ``str[size-1]`` is ``'\\0'`` in this case too, but the rest of *str* is undefined. The exact cause of the error depends on the underlying platform."
 msgstr ""
 
 #: ../../c-api/conversion.rst:51
