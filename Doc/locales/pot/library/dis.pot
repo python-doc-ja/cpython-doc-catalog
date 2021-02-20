@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 16:06+0000\n"
+"POT-Creation-Date: 2021-02-20 16:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,7 +293,7 @@ msgid "Lifts second and third stack item one position up, moves top down to posi
 msgstr ""
 
 #: ../../library/dis.rst:349
-msgid "Lifts second, third and forth stack items one position up, moves top down to position four."
+msgid "Lifts second, third and fourth stack items one position up, moves top down to position four."
 msgstr ""
 
 #: ../../library/dis.rst:357
