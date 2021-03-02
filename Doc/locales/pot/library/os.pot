@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -423,7 +423,7 @@ msgstr ""
 msgid "On some platforms, including FreeBSD and Mac OS X, setting ``environ`` may cause memory leaks. Refer to the system documentation for :c:func:`putenv`."
 msgstr ""
 
-#: ../../library/os.rst:455
+#: ../../library/os.rst:454
 msgid "Raises an :ref:`auditing event <auditing>` ``os.putenv`` with arguments ``key``, ``value``."
 msgstr ""
 
@@ -552,7 +552,7 @@ msgstr ""
 msgid "Deletion of items in ``os.environ`` is automatically translated into a corresponding call to :func:`unsetenv`; however, calls to :func:`unsetenv` don't update ``os.environ``, so it is actually preferable to delete items of ``os.environ``."
 msgstr ""
 
-#: ../../library/os.rst:652
+#: ../../library/os.rst:651
 msgid "Raises an :ref:`auditing event <auditing>` ``os.unsetenv`` with argument ``key``."
 msgstr ""
 
@@ -649,9 +649,9 @@ msgstr ""
 msgid "Change the mode of the file given by *fd* to the numeric *mode*.  See the docs for :func:`chmod` for possible values of *mode*.  As of Python 3.3, this is equivalent to ``os.chmod(fd, mode)``."
 msgstr ""
 
-#: ../../library/os.rst:780
-#: ../../library/os.rst:1702
-#: ../../library/os.rst:1793
+#: ../../library/os.rst:779
+#: ../../library/os.rst:1701
+#: ../../library/os.rst:1792
 msgid "Raises an :ref:`auditing event <auditing>` ``os.chmod`` with arguments ``path``, ``mode``, ``dir_fd``."
 msgstr ""
 
@@ -659,9 +659,9 @@ msgstr ""
 msgid "Change the owner and group id of the file given by *fd* to the numeric *uid* and *gid*.  To leave one of the ids unchanged, set it to -1.  See :func:`chown`.  As of Python 3.3, this is equivalent to ``os.chown(fd, uid, gid)``."
 msgstr ""
 
-#: ../../library/os.rst:792
-#: ../../library/os.rst:1724
-#: ../../library/os.rst:1806
+#: ../../library/os.rst:791
+#: ../../library/os.rst:1723
+#: ../../library/os.rst:1805
 msgid "Raises an :ref:`auditing event <auditing>` ``os.chown`` with arguments ``path``, ``uid``, ``gid``, ``dir_fd``."
 msgstr ""
 
@@ -715,7 +715,7 @@ msgstr ""
 msgid "Truncate the file corresponding to file descriptor *fd*, so that it is at most *length* bytes in size.  As of Python 3.3, this is equivalent to ``os.truncate(fd, length)``."
 msgstr ""
 
-#: ../../library/os.rst:867
+#: ../../library/os.rst:866
 msgid "Raises an :ref:`auditing event <auditing>` ``os.truncate`` with arguments ``fd``, ``length``."
 msgstr ""
 
@@ -740,7 +740,7 @@ msgstr ""
 msgid "Apply, test or remove a POSIX lock on an open file descriptor. *fd* is an open file descriptor. *cmd* specifies the command to use - one of :data:`F_LOCK`, :data:`F_TLOCK`, :data:`F_ULOCK` or :data:`F_TEST`. *len* specifies the section of the file to lock."
 msgstr ""
 
-#: ../../library/os.rst:901
+#: ../../library/os.rst:900
 msgid "Raises an :ref:`auditing event <auditing>` ``os.lockf`` with arguments ``fd``, ``cmd``, ``len``."
 msgstr ""
 
@@ -772,7 +772,7 @@ msgstr ""
 msgid "This function can support :ref:`paths relative to directory descriptors <dir_fd>` with the *dir_fd* parameter."
 msgstr ""
 
-#: ../../library/os.rst:956
+#: ../../library/os.rst:955
 msgid "Raises an :ref:`auditing event <auditing>` ``open`` with arguments ``path``, ``mode``, ``flags``."
 msgstr ""
 
@@ -1246,8 +1246,8 @@ msgstr ""
 msgid "This function can raise :exc:`OSError` and subclasses such as :exc:`FileNotFoundError`, :exc:`PermissionError`, and :exc:`NotADirectoryError`."
 msgstr ""
 
-#: ../../library/os.rst:1625
-#: ../../library/os.rst:1752
+#: ../../library/os.rst:1624
+#: ../../library/os.rst:1751
 msgid "Raises an :ref:`auditing event <auditing>` ``os.chdir`` with argument ``path``."
 msgstr ""
 
@@ -1311,8 +1311,8 @@ msgstr ""
 msgid "This function can support :ref:`not following symlinks <follow_symlinks>`."
 msgstr ""
 
-#: ../../library/os.rst:1655
-#: ../../library/os.rst:1778
+#: ../../library/os.rst:1654
+#: ../../library/os.rst:1777
 msgid "Raises an :ref:`auditing event <auditing>` ``os.chflags`` with arguments ``path``, ``flags``."
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "This function can support specifying *src_dir_fd* and/or *dst_dir_fd* to supply :ref:`paths relative to directory descriptors <dir_fd>`, and :ref:`not following symlinks <follow_symlinks>`."
 msgstr ""
 
-#: ../../library/os.rst:1822
+#: ../../library/os.rst:1821
 msgid "Raises an :ref:`auditing event <auditing>` ``os.link`` with arguments ``src``, ``dst``, ``src_dir_fd``, ``dst_dir_fd``."
 msgstr ""
 
@@ -1500,7 +1500,7 @@ msgstr ""
 msgid "This function can also support :ref:`specifying a file descriptor <path_fd>`; the file descriptor must refer to a directory."
 msgstr ""
 
-#: ../../library/os.rst:1852
+#: ../../library/os.rst:1851
 msgid "Raises an :ref:`auditing event <auditing>` ``os.listdir`` with argument ``path``."
 msgstr ""
 
@@ -1571,8 +1571,8 @@ msgstr ""
 msgid "It is also possible to create temporary directories; see the :mod:`tempfile` module's :func:`tempfile.mkdtemp` function."
 msgstr ""
 
-#: ../../library/os.rst:1928
-#: ../../library/os.rst:1962
+#: ../../library/os.rst:1927
+#: ../../library/os.rst:1961
 msgid "Raises an :ref:`auditing event <auditing>` ``os.mkdir`` with arguments ``path``, ``mode``, ``dir_fd``."
 msgstr ""
 
@@ -1688,9 +1688,9 @@ msgstr ""
 msgid "This function is semantically identical to :func:`unlink`."
 msgstr ""
 
-#: ../../library/os.rst:2129
-#: ../../library/os.rst:2151
-#: ../../library/os.rst:2935
+#: ../../library/os.rst:2128
+#: ../../library/os.rst:2150
+#: ../../library/os.rst:2934
 msgid "Raises an :ref:`auditing event <auditing>` ``os.remove`` with arguments ``path``, ``dir_fd``."
 msgstr ""
 
@@ -1719,9 +1719,9 @@ msgstr ""
 msgid "If you want cross-platform overwriting of the destination, use :func:`replace`."
 msgstr ""
 
-#: ../../library/os.rst:2178
-#: ../../library/os.rst:2199
-#: ../../library/os.rst:2216
+#: ../../library/os.rst:2177
+#: ../../library/os.rst:2198
+#: ../../library/os.rst:2215
 msgid "Raises an :ref:`auditing event <auditing>` ``os.rename`` with arguments ``src``, ``dst``, ``src_dir_fd``, ``dst_dir_fd``."
 msgstr ""
 
@@ -1749,7 +1749,7 @@ msgstr ""
 msgid "Remove (delete) the directory *path*.  If the directory does not exist or is not empty, an :exc:`FileNotFoundError` or an :exc:`OSError` is raised respectively.  In order to remove whole directory trees, :func:`shutil.rmtree` can be used."
 msgstr ""
 
-#: ../../library/os.rst:2234
+#: ../../library/os.rst:2233
 msgid "Raises an :ref:`auditing event <auditing>` ``os.rmdir`` with arguments ``path``, ``dir_fd``."
 msgstr ""
 
@@ -1770,7 +1770,7 @@ msgstr ""
 msgid "*path* may be a :term:`path-like object`.  If *path* is of type ``bytes`` (directly or indirectly through the :class:`PathLike` interface), the type of the :attr:`~os.DirEntry.name` and :attr:`~os.DirEntry.path` attributes of each :class:`os.DirEntry` will be ``bytes``; in all other circumstances, they will be of type ``str``."
 msgstr ""
 
-#: ../../library/os.rst:2271
+#: ../../library/os.rst:2270
 msgid "Raises an :ref:`auditing event <auditing>` ``os.scandir`` with argument ``path``."
 msgstr ""
 
@@ -2233,7 +2233,7 @@ msgstr ""
 msgid ":exc:`OSError` is raised when the function is called by an unprivileged user."
 msgstr ""
 
-#: ../../library/os.rst:2881
+#: ../../library/os.rst:2880
 msgid "Raises an :ref:`auditing event <auditing>` ``os.symlink`` with arguments ``src``, ``dst``, ``dir_fd``."
 msgstr ""
 
@@ -2253,7 +2253,7 @@ msgstr ""
 msgid "Truncate the file corresponding to *path*, so that it is at most *length* bytes in size."
 msgstr ""
 
-#: ../../library/os.rst:2915
+#: ../../library/os.rst:2914
 msgid "Raises an :ref:`auditing event <auditing>` ``os.truncate`` with arguments ``path``, ``length``."
 msgstr ""
 
@@ -2289,7 +2289,7 @@ msgstr ""
 msgid "Note that the exact times you set here may not be returned by a subsequent :func:`~os.stat` call, depending on the resolution with which your operating system records access and modification times; see :func:`~os.stat`. The best way to preserve exact times is to use the *st_atime_ns* and *st_mtime_ns* fields from the :func:`os.stat` result object with the *ns* parameter to `utime`."
 msgstr ""
 
-#: ../../library/os.rst:2974
+#: ../../library/os.rst:2973
 msgid "Raises an :ref:`auditing event <auditing>` ``os.utime`` with arguments ``path``, ``times``, ``ns``, ``dir_fd``."
 msgstr ""
 
@@ -2338,7 +2338,7 @@ msgstr ""
 msgid "In the next example (simple implementation of :func:`shutil.rmtree`), walking the tree bottom-up is essential, :func:`rmdir` doesn't allow deleting a directory before the directory is empty::"
 msgstr ""
 
-#: ../../library/os.rst:3072
+#: ../../library/os.rst:3071
 msgid "Raises an :ref:`auditing event <auditing>` ``os.walk`` with arguments ``top``, ``topdown``, ``onerror``, ``followlinks``."
 msgstr ""
 
@@ -2366,7 +2366,7 @@ msgstr ""
 msgid "In the next example, walking the tree bottom-up is essential: :func:`rmdir` doesn't allow deleting a directory before the directory is empty::"
 msgstr ""
 
-#: ../../library/os.rst:3133
+#: ../../library/os.rst:3132
 msgid "Raises an :ref:`auditing event <auditing>` ``os.fwalk`` with arguments ``top``, ``topdown``, ``onerror``, ``follow_symlinks``, ``dir_fd``."
 msgstr ""
 
@@ -2406,7 +2406,7 @@ msgstr ""
 msgid "Return the value of the extended filesystem attribute *attribute* for *path*. *attribute* can be bytes or str (directly or indirectly through the :class:`PathLike` interface). If it is str, it is encoded with the filesystem encoding."
 msgstr ""
 
-#: ../../library/os.rst:3208
+#: ../../library/os.rst:3207
 msgid "Raises an :ref:`auditing event <auditing>` ``os.getxattr`` with arguments ``path``, ``attribute``."
 msgstr ""
 
@@ -2420,7 +2420,7 @@ msgstr ""
 msgid "Return a list of the extended filesystem attributes on *path*.  The attributes in the list are represented as strings decoded with the filesystem encoding.  If *path* is ``None``, :func:`listxattr` will examine the current directory."
 msgstr ""
 
-#: ../../library/os.rst:3224
+#: ../../library/os.rst:3223
 msgid "Raises an :ref:`auditing event <auditing>` ``os.listxattr`` with argument ``path``."
 msgstr ""
 
@@ -2428,7 +2428,7 @@ msgstr ""
 msgid "Removes the extended filesystem attribute *attribute* from *path*. *attribute* should be bytes or str (directly or indirectly through the :class:`PathLike` interface). If it is a string, it is encoded with the filesystem encoding."
 msgstr ""
 
-#: ../../library/os.rst:3240
+#: ../../library/os.rst:3239
 msgid "Raises an :ref:`auditing event <auditing>` ``os.removexattr`` with arguments ``path``, ``attribute``."
 msgstr ""
 
@@ -2440,7 +2440,7 @@ msgstr ""
 msgid "A bug in Linux kernel versions less than 2.6.39 caused the flags argument to be ignored on some filesystems."
 msgstr ""
 
-#: ../../library/os.rst:3265
+#: ../../library/os.rst:3264
 msgid "Raises an :ref:`auditing event <auditing>` ``os.setxattr`` with arguments ``path``, ``attribute``, ``value``, ``flags``."
 msgstr ""
 
@@ -2488,7 +2488,7 @@ msgstr ""
 msgid "See the `Microsoft documentation <https://msdn.microsoft.com/44228cf2-6306-466c-8f16-f513cd3ba8b5>`_ for more information about how DLLs are loaded."
 msgstr ""
 
-#: ../../library/os.rst:3329
+#: ../../library/os.rst:3328
 msgid "Raises an :ref:`auditing event <auditing>` ``os.add_dll_directory`` with argument ``path``."
 msgstr ""
 
@@ -2524,7 +2524,7 @@ msgstr ""
 msgid "For :func:`execve` on some platforms, *path* may also be specified as an open file descriptor.  This functionality may not be supported on your platform; you can check whether or not it is available using :data:`os.supports_fd`. If it is unavailable, using it will raise a :exc:`NotImplementedError`."
 msgstr ""
 
-#: ../../library/os.rst:3397
+#: ../../library/os.rst:3396
 msgid "Raises an :ref:`auditing event <auditing>` ``os.exec`` with arguments ``path``, ``args``, ``env``."
 msgstr ""
 
@@ -2624,7 +2624,7 @@ msgstr ""
 msgid "Note that some platforms including FreeBSD <= 6.3 and Cygwin have known issues when using ``fork()`` from a thread."
 msgstr ""
 
-#: ../../library/os.rst:3563
+#: ../../library/os.rst:3562
 msgid "Raises an :ref:`auditing event <auditing>` ``os.fork`` with no arguments."
 msgstr ""
 
@@ -2640,7 +2640,7 @@ msgstr ""
 msgid "Fork a child process, using a new pseudo-terminal as the child's controlling terminal. Return a pair of ``(pid, fd)``, where *pid* is ``0`` in the child, the new child's process id in the parent, and *fd* is the file descriptor of the master end of the pseudo-terminal.  For a more portable approach, use the :mod:`pty` module.  If an error occurs :exc:`OSError` is raised."
 msgstr ""
 
-#: ../../library/os.rst:3584
+#: ../../library/os.rst:3583
 msgid "Raises an :ref:`auditing event <auditing>` ``os.forkpty`` with no arguments."
 msgstr ""
 
@@ -2660,7 +2660,7 @@ msgstr ""
 msgid "See also :func:`signal.pthread_kill`."
 msgstr ""
 
-#: ../../library/os.rst:3612
+#: ../../library/os.rst:3611
 msgid "Raises an :ref:`auditing event <auditing>` ``os.kill`` with arguments ``pid``, ``sig``."
 msgstr ""
 
@@ -2672,7 +2672,7 @@ msgstr ""
 msgid "Send the signal *sig* to the process group *pgid*."
 msgstr ""
 
-#: ../../library/os.rst:3626
+#: ../../library/os.rst:3625
 msgid "Raises an :ref:`auditing event <auditing>` ``os.killpg`` with arguments ``pgid``, ``sig``."
 msgstr ""
 
@@ -2784,8 +2784,8 @@ msgstr ""
 msgid "The *scheduler* argument must be a tuple containing the (optional) scheduler policy and an instance of :class:`sched_param` with the scheduler parameters. A value of ``None`` in the place of the scheduler policy indicates that is not being provided. This argument is a combination of the C library :c:data:`POSIX_SPAWN_SETSCHEDPARAM` and :c:data:`POSIX_SPAWN_SETSCHEDULER` flags."
 msgstr ""
 
-#: ../../library/os.rst:3768
-#: ../../library/os.rst:3784
+#: ../../library/os.rst:3767
+#: ../../library/os.rst:3783
 msgid "Raises an :ref:`auditing event <auditing>` ``os.posix_spawn`` with arguments ``path``, ``argv``, ``env``."
 msgstr ""
 
@@ -2865,7 +2865,7 @@ msgstr ""
 msgid "As an example, the following calls to :func:`spawnlp` and :func:`spawnvpe` are equivalent::"
 msgstr ""
 
-#: ../../library/os.rst:3886
+#: ../../library/os.rst:3885
 msgid "Raises an :ref:`auditing event <auditing>` ``os.spawn`` with arguments ``mode``, ``path``, ``args``, ``env``."
 msgstr ""
 
@@ -2905,7 +2905,7 @@ msgstr ""
 msgid "To reduce interpreter startup overhead, the Win32 :c:func:`ShellExecute` function is not resolved until this function is first called.  If the function cannot be resolved, :exc:`NotImplementedError` will be raised."
 msgstr ""
 
-#: ../../library/os.rst:3957
+#: ../../library/os.rst:3956
 msgid "Raises an :ref:`auditing event <auditing>` ``os.startfile`` with arguments ``path``, ``operation``."
 msgstr ""
 
@@ -2929,7 +2929,7 @@ msgstr ""
 msgid "On Unix, :func:`waitstatus_to_exitcode` can be used to convert the result (exit status) into an exit code. On Windows, the result is directly the exit code."
 msgstr ""
 
-#: ../../library/os.rst:3990
+#: ../../library/os.rst:3989
 msgid "Raises an :ref:`auditing event <auditing>` ``os.system`` with argument ``command``."
 msgstr ""
 

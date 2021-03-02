@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-13 05:27+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,9 +60,9 @@ msgstr ""
 msgid "If *follow_symlinks* is false and *src* is a symbolic link, a new symbolic link will be created instead of copying the file *src* points to."
 msgstr ""
 
-#: ../../library/shutil.rst:71
-#: ../../library/shutil.rst:177
-#: ../../library/shutil.rst:208
+#: ../../library/shutil.rst:70
+#: ../../library/shutil.rst:176
+#: ../../library/shutil.rst:207
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.copyfile`` with arguments ``src``, ``dst``."
 msgstr ""
 
@@ -90,8 +90,8 @@ msgstr ""
 msgid "Copy the permission bits from *src* to *dst*.  The file contents, owner, and group are unaffected.  *src* and *dst* are path-like objects or path names given as strings. If *follow_symlinks* is false, and both *src* and *dst* are symbolic links, :func:`copymode` will attempt to modify the mode of *dst* itself (rather than the file it points to).  This functionality is not available on every platform; please see :func:`copystat` for more information.  If :func:`copymode` cannot modify symbolic links on the local platform, and it is asked to do so, it will do nothing and return."
 msgstr ""
 
-#: ../../library/shutil.rst:107
-#: ../../library/shutil.rst:179
+#: ../../library/shutil.rst:106
+#: ../../library/shutil.rst:178
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.copymode`` with arguments ``src``, ``dst``."
 msgstr ""
 
@@ -131,8 +131,8 @@ msgstr ""
 msgid "Please see :data:`os.supports_follow_symlinks` for more information."
 msgstr ""
 
-#: ../../library/shutil.rst:154
-#: ../../library/shutil.rst:210
+#: ../../library/shutil.rst:153
+#: ../../library/shutil.rst:209
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.copystat`` with arguments ``src``, ``dst``."
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr ""
 msgid "If *copy_function* is given, it must be a callable that will be used to copy each file. It will be called with the source path and the destination path as arguments. By default, :func:`~shutil.copy2` is used, but any function that supports the same signature (like :func:`~shutil.copy`) can be used."
 msgstr ""
 
-#: ../../library/shutil.rst:270
+#: ../../library/shutil.rst:269
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.copytree`` with arguments ``src``, ``dst``."
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "The first parameter, *function*, is the function which raised the exception; it depends on the platform and implementation.  The second parameter, *path*, will be the path name passed to *function*.  The third parameter, *excinfo*, will be the exception information returned by :func:`sys.exc_info`.  Exceptions raised by *onerror* will not be caught."
 msgstr ""
 
-#: ../../library/shutil.rst:319
+#: ../../library/shutil.rst:318
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.rmtree`` with argument ``path``."
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr ""
 msgid "If *copy_function* is given, it must be a callable that takes two arguments *src* and *dst*, and will be used to copy *src* to *dst* if :func:`os.rename` cannot be used.  If the source is a directory, :func:`copytree` is called, passing it the :func:`copy_function`. The default *copy_function* is :func:`copy2`.  Using :func:`~shutil.copy` as the *copy_function* allows the move to succeed when it is not possible to also copy the metadata, at the expense of not copying any of the metadata."
 msgstr ""
 
-#: ../../library/shutil.rst:360
+#: ../../library/shutil.rst:359
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.move`` with arguments ``src``, ``dst``."
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "See also :func:`os.chown`, the underlying function."
 msgstr ""
 
-#: ../../library/shutil.rst:401
+#: ../../library/shutil.rst:400
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.chown`` with arguments ``path``, ``user``, ``group``."
 msgstr ""
 
@@ -440,7 +440,7 @@ msgstr ""
 msgid "The *verbose* argument is unused and deprecated."
 msgstr ""
 
-#: ../../library/shutil.rst:597
+#: ../../library/shutil.rst:596
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.make_archive`` with arguments ``base_name``, ``format``, ``root_dir``, ``base_dir``."
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "*format* is the archive format: one of \"zip\", \"tar\", \"gztar\", \"bztar\", or \"xztar\".  Or any other format registered with :func:`register_unpack_format`.  If not provided, :func:`unpack_archive` will use the archive file name extension and see if an unpacker was registered for that extension.  In case none is found, a :exc:`ValueError` is raised."
 msgstr ""
 
-#: ../../library/shutil.rst:657
+#: ../../library/shutil.rst:656
 msgid "Raises an :ref:`auditing event <auditing>` ``shutil.unpack_archive`` with arguments ``filename``, ``extract_dir``, ``format``."
 msgstr ""
 

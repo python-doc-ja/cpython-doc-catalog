@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "When an auditing event is raised through the :func:`sys.audit` function, each hook will be called in the order it was added with the event name and the tuple of arguments. Native hooks added by :c:func:`PySys_AddAuditHook` are called first, followed by hooks added in the current interpreter.  Hooks can then log the event, raise an exception to abort the operation, or terminate the process entirely."
 msgstr ""
 
-#: ../../library/sys.rst:None
+#: ../../library/sys.rst:38
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.addaudithook`` with no arguments."
 msgstr ""
 
@@ -224,7 +224,7 @@ msgstr ""
 msgid "When an exception is raised and uncaught, the interpreter calls ``sys.excepthook`` with three arguments, the exception class, exception instance, and a traceback object.  In an interactive session this happens just before control is returned to the prompt; in a Python program this happens just before the program exits.  The handling of such top-level exceptions can be customized by assigning another three-argument function to ``sys.excepthook``."
 msgstr ""
 
-#: ../../library/sys.rst:None
+#: ../../library/sys.rst:331
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.excepthook`` with arguments ``hook``, ``type``, ``value``, ``traceback``."
 msgstr ""
 
@@ -718,7 +718,7 @@ msgstr ""
 msgid "Return a frame object from the call stack.  If optional integer *depth* is given, return the frame object that many calls below the top of the stack.  If that is deeper than the call stack, :exc:`ValueError` is raised.  The default for *depth* is zero, returning the frame at the top of the call stack."
 msgstr ""
 
-#: ../../library/sys.rst:715
+#: ../../library/sys.rst:714
 msgid "Raises an :ref:`auditing event <auditing>` ``sys._getframe`` with no arguments."
 msgstr ""
 
@@ -966,7 +966,7 @@ msgstr ""
 msgid "When this attribute exists, its value is automatically called (with no arguments) when the interpreter is launched in :ref:`interactive mode <tut-interactive>`.  This is done after the :envvar:`PYTHONSTARTUP` file is read, so that you can set this hook there.  The :mod:`site` module :ref:`sets this <rlcompleter-config>`."
 msgstr ""
 
-#: ../../library/sys.rst:None
+#: ../../library/sys.rst:953
 msgid "Raises an :ref:`auditing event <auditing>` ``cpython.run_interactivehook`` with argument ``hook``."
 msgstr ""
 
@@ -1191,7 +1191,7 @@ msgstr ""
 msgid "Profile functions should have three arguments: *frame*, *event*, and *arg*. *frame* is the current stack frame.  *event* is a string: ``'call'``, ``'return'``, ``'c_call'``, ``'c_return'``, or ``'c_exception'``. *arg* depends on the event type."
 msgstr ""
 
-#: ../../library/sys.rst:1247
+#: ../../library/sys.rst:1246
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.setprofile`` with no arguments."
 msgstr ""
 
@@ -1326,7 +1326,7 @@ msgstr ""
 msgid "For more information on code and frame objects, refer to :ref:`types`."
 msgstr ""
 
-#: ../../library/sys.rst:1381
+#: ../../library/sys.rst:1380
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.settrace`` with no arguments."
 msgstr ""
 
@@ -1342,11 +1342,11 @@ msgstr ""
 msgid "Accepts two optional keyword arguments which are callables that accept an :term:`asynchronous generator iterator` as an argument. The *firstiter* callable will be called when an asynchronous generator is iterated for the first time. The *finalizer* will be called when an asynchronous generator is about to be garbage collected."
 msgstr ""
 
-#: ../../library/sys.rst:1403
+#: ../../library/sys.rst:1402
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.set_asyncgen_hooks_firstiter`` with no arguments."
 msgstr ""
 
-#: ../../library/sys.rst:1405
+#: ../../library/sys.rst:1404
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.set_asyncgen_hooks_finalizer`` with no arguments."
 msgstr ""
 
@@ -1554,7 +1554,7 @@ msgstr ""
 msgid "See also :func:`excepthook` which handles uncaught exceptions."
 msgstr ""
 
-#: ../../library/sys.rst:None
+#: ../../library/sys.rst:1609
 msgid "Raises an :ref:`auditing event <auditing>` ``sys.unraisablehook`` with arguments ``hook``, ``unraisable``."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -479,7 +479,7 @@ msgstr ""
 msgid "The newly created socket is :ref:`non-inheritable <fd_inheritance>`."
 msgstr ""
 
-#: ../../library/socket.rst:575
+#: ../../library/socket.rst:574
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.__new__`` with arguments ``self``, ``family``, ``type``, ``protocol``."
 msgstr ""
 
@@ -617,7 +617,7 @@ msgstr ""
 msgid "In these tuples, *family*, *type*, *proto* are all integers and are meant to be passed to the :func:`.socket` function.  *canonname* will be a string representing the canonical name of the *host* if :const:`AI_CANONNAME` is part of the *flags* argument; else *canonname* will be empty.  *sockaddr* is a tuple describing a socket address, whose format depends on the returned *family* (a ``(address, port)`` 2-tuple for :const:`AF_INET`, a ``(address, port, flowinfo, scope_id)`` 4-tuple for :const:`AF_INET6`), and is meant to be passed to the :meth:`socket.connect` method."
 msgstr ""
 
-#: ../../library/socket.rst:774
+#: ../../library/socket.rst:773
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.getaddrinfo`` with arguments ``host``, ``port``, ``family``, ``type``, ``protocol``."
 msgstr ""
 
@@ -654,7 +654,7 @@ msgstr ""
 msgid "Return a string containing the hostname of the machine where  the Python interpreter is currently executing."
 msgstr ""
 
-#: ../../library/socket.rst:833
+#: ../../library/socket.rst:832
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.gethostname`` with no arguments."
 msgstr ""
 
@@ -809,7 +809,7 @@ msgstr ""
 msgid "Set the machine's hostname to *name*.  This will raise an :exc:`OSError` if you don't have enough rights."
 msgstr ""
 
-#: ../../library/socket.rst:1075
+#: ../../library/socket.rst:1074
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.sethostname`` with argument ``name``."
 msgstr ""
 
@@ -934,7 +934,7 @@ msgstr ""
 msgid "If the connection is interrupted by a signal, the method waits until the connection completes, or raise a :exc:`socket.timeout` on timeout, if the signal handler doesn't raise an exception and the socket is blocking or has a timeout. For non-blocking sockets, the method raises an :exc:`InterruptedError` exception if the connection is interrupted by a signal (or the exception raised by the signal handler)."
 msgstr ""
 
-#: ../../library/socket.rst:1218
+#: ../../library/socket.rst:1217
 #: ../../library/socket.rst:1235
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.connect`` with arguments ``self``, ``address``."
 msgstr ""
@@ -1107,7 +1107,7 @@ msgstr ""
 msgid "Send data to the socket.  The socket should not be connected to a remote socket, since the destination socket is specified by *address*.  The optional *flags* argument has the same meaning as for :meth:`recv` above.  Return the number of bytes sent. (The format of *address* depends on the address family --- see above.)"
 msgstr ""
 
-#: ../../library/socket.rst:1578
+#: ../../library/socket.rst:1577
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.sendto`` with arguments ``self``, ``address``."
 msgstr ""
 
@@ -1119,7 +1119,7 @@ msgstr ""
 msgid "The following function sends the list of file descriptors *fds* over an :const:`AF_UNIX` socket, on systems which support the :const:`SCM_RIGHTS` mechanism.  See also :meth:`recvmsg`. ::"
 msgstr ""
 
-#: ../../library/socket.rst:1619
+#: ../../library/socket.rst:1618
 msgid "Raises an :ref:`auditing event <auditing>` ``socket.sendmsg`` with arguments ``self``, ``address``."
 msgstr ""
 

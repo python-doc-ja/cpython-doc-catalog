@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -309,7 +309,7 @@ msgstr ""
 msgid "If *signalnum* is 0, then no signal is sent, but error checking is still performed; this can be used to check if the target thread is still running."
 msgstr ""
 
-#: ../../library/signal.rst:385
+#: ../../library/signal.rst:384
 msgid "Raises an :ref:`auditing event <auditing>` ``signal.pthread_kill`` with arguments ``thread_id``, ``signalnum``."
 msgstr ""
 

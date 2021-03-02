@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1041,7 +1041,7 @@ msgstr ""
 msgid "This method may still be bypassed when looking up special methods as the result of implicit invocation via language syntax or built-in functions. See :ref:`special-lookup`."
 msgstr ""
 
-#: ../../reference/datamodel.rst:None
+#: ../../reference/datamodel.rst:1562
 msgid "Raises an :ref:`auditing event <auditing>` ``object.__getattr__`` with arguments ``obj``, ``name``."
 msgstr ""
 
@@ -1057,7 +1057,7 @@ msgstr ""
 msgid "If :meth:`__setattr__` wants to assign to an instance attribute, it should call the base class method with the same name, for example, ``object.__setattr__(self, name, value)``."
 msgstr ""
 
-#: ../../reference/datamodel.rst:None
+#: ../../reference/datamodel.rst:1579
 msgid "Raises an :ref:`auditing event <auditing>` ``object.__setattr__`` with arguments ``obj``, ``name``, ``value``."
 msgstr ""
 
@@ -1069,7 +1069,7 @@ msgstr ""
 msgid "Like :meth:`__setattr__` but for attribute deletion instead of assignment.  This should only be implemented if ``del obj.name`` is meaningful for the object."
 msgstr ""
 
-#: ../../reference/datamodel.rst:None
+#: ../../reference/datamodel.rst:1591
 msgid "Raises an :ref:`auditing event <auditing>` ``object.__delattr__`` with arguments ``obj``, ``name``."
 msgstr ""
 

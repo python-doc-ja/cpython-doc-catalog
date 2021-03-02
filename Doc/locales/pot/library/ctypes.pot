@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1008,7 +1008,7 @@ msgstr ""
 msgid "An instance of :class:`PyDLL` that exposes Python C API functions as attributes.  Note that all these functions are assumed to return C :c:type:`int`, which is of course not always the truth, so you have to assign the correct :attr:`restype` attribute to use these functions."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:1525
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.dlopen`` with argument ``name``."
 msgstr ""
 
@@ -1016,7 +1016,7 @@ msgstr ""
 msgid "Loading a library through any of these objects raises an :ref:`auditing event <auditing>` ``ctypes.dlopen`` with string argument ``name``, the name used to load the library."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:1531
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.dlsym`` with arguments ``library``, ``name``."
 msgstr ""
 
@@ -1024,7 +1024,7 @@ msgstr ""
 msgid "Accessing a function on a loaded library raises an auditing event ``ctypes.dlsym`` with arguments ``library`` (the library object) and ``name`` (the symbol's name as a string or integer)."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:1537
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.dlsym/handle`` with arguments ``handle``, ``name``."
 msgstr ""
 
@@ -1096,7 +1096,7 @@ msgstr ""
 msgid "This exception is raised when a foreign function call cannot convert one of the passed arguments."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:1628
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.seh_exception`` with argument ``code``."
 msgstr ""
 
@@ -1104,7 +1104,7 @@ msgstr ""
 msgid "On Windows, when a foreign function call raises a system exception (for example, due to an access violation), it will be captured and replaced with a suitable Python exception. Further, an auditing event ``ctypes.seh_exception`` with argument ``code`` will be raised, allowing an audit hook to replace the exception with its own."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:1636
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.call_function`` with arguments ``func_pointer``, ``arguments``."
 msgstr ""
 
@@ -1438,7 +1438,7 @@ msgstr ""
 msgid "This method returns a ctypes type instance using the memory specified by *address* which must be an integer."
 msgstr ""
 
-#: ../../library/ctypes.rst:None
+#: ../../library/ctypes.rst:2095
 msgid "Raises an :ref:`auditing event <auditing>` ``ctypes.cdata`` with argument ``address``."
 msgstr ""
 

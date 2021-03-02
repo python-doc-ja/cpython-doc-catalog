@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,13 +44,13 @@ msgstr ""
 msgid "Return a new :class:`NNTP` object, representing a connection to the NNTP server running on host *host*, listening at port *port*. An optional *timeout* can be specified for the socket connection. If the optional *user* and *password* are provided, or if suitable credentials are present in :file:`/.netrc` and the optional flag *usenetrc* is true, the ``AUTHINFO USER`` and ``AUTHINFO PASS`` commands are used to identify and authenticate the user to the server.  If the optional flag *readermode* is true, then a ``mode reader`` command is sent before authentication is performed.  Reader mode is sometimes necessary if you are connecting to an NNTP server on the local machine and intend to call reader-specific commands, such as ``group``.  If you get unexpected :exc:`NNTPPermanentError`\\ s, you might need to set *readermode*. The :class:`NNTP` class supports the :keyword:`with` statement to unconditionally consume :exc:`OSError` exceptions and to close the NNTP connection when done, e.g.:"
 msgstr ""
 
-#: ../../library/nntplib.rst:83
-#: ../../library/nntplib.rst:115
+#: ../../library/nntplib.rst:82
+#: ../../library/nntplib.rst:114
 msgid "Raises an :ref:`auditing event <auditing>` ``nntplib.connect`` with arguments ``self``, ``host``, ``port``."
 msgstr ""
 
-#: ../../library/nntplib.rst:None
-#: ../../library/nntplib.rst:None
+#: ../../library/nntplib.rst:84
+#: ../../library/nntplib.rst:116
 msgid "Raises an :ref:`auditing event <auditing>` ``nntplib.putline`` with arguments ``self``, ``line``."
 msgstr ""
 

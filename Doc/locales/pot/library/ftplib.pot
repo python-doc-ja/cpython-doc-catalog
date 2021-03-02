@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,7 +131,7 @@ msgstr ""
 msgid "Connect to the given host and port.  The default port number is ``21``, as specified by the FTP protocol specification.  It is rarely needed to specify a different port number.  This function should be called only once for each instance; it should not be called at all if a host was given when the instance was created.  All other methods can only be used after a connection has been made. The optional *timeout* parameter specifies a timeout in seconds for the connection attempt. If no *timeout* is passed, the global default timeout setting will be used. *source_address* is a 2-tuple ``(host, port)`` for the socket to bind to as its source address before connecting."
 msgstr ""
 
-#: ../../library/ftplib.rst:209
+#: ../../library/ftplib.rst:208
 msgid "Raises an :ref:`auditing event <auditing>` ``ftplib.connect`` with arguments ``self``, ``host``, ``port``."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-08 05:23+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,7 +345,7 @@ msgstr ""
 msgid "This function drops you into the debugger at the call site.  Specifically, it calls :func:`sys.breakpointhook`, passing ``args`` and ``kws`` straight through.  By default, ``sys.breakpointhook()`` calls :func:`pdb.set_trace()` expecting no arguments.  In this case, it is purely a convenience function so you don't have to explicitly import :mod:`pdb` or type as much code to enter the debugger.  However, :func:`sys.breakpointhook` can be set to some other function and :func:`breakpoint` will automatically call that, allowing you to drop into the debugger of choice."
 msgstr ""
 
-#: ../../library/functions.rst:131
+#: ../../library/functions.rst:130
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with argument ``breakpointhook``."
 msgstr ""
 
@@ -469,7 +469,7 @@ msgstr ""
 msgid "If you want to parse Python code into its AST representation, see :func:`ast.parse`."
 msgstr ""
 
-#: ../../library/functions.rst:None
+#: ../../library/functions.rst:279
 msgid "Raises an :ref:`auditing event <auditing>` ``compile`` with arguments ``source``, ``filename``."
 msgstr ""
 
@@ -607,8 +607,8 @@ msgstr ""
 msgid "See :func:`ast.literal_eval` for a function that can safely evaluate strings with expressions containing only literals."
 msgstr ""
 
-#: ../../library/functions.rst:None
-#: ../../library/functions.rst:None
+#: ../../library/functions.rst:496
+#: ../../library/functions.rst:532
 msgid "Raises an :ref:`auditing event <auditing>` ``exec`` with argument ``code_object``."
 msgstr ""
 
@@ -777,7 +777,7 @@ msgstr ""
 msgid "If the :mod:`readline` module was loaded, then :func:`input` will use it to provide elaborate line editing and history features."
 msgstr ""
 
-#: ../../library/functions.rst:None
+#: ../../library/functions.rst:788
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.input`` with argument ``prompt``."
 msgstr ""
 
@@ -785,7 +785,7 @@ msgstr ""
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.input`` with argument ``prompt`` before reading input"
 msgstr ""
 
-#: ../../library/functions.rst:None
+#: ../../library/functions.rst:793
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.input/result`` with argument ``result``."
 msgstr ""
 
@@ -1096,7 +1096,7 @@ msgstr ""
 msgid "See also the file handling modules, such as, :mod:`fileinput`, :mod:`io` (where :func:`open` is declared), :mod:`os`, :mod:`os.path`, :mod:`tempfile`, and :mod:`shutil`."
 msgstr ""
 
-#: ../../library/functions.rst:1238
+#: ../../library/functions.rst:1237
 msgid "Raises an :ref:`auditing event <auditing>` ``open`` with arguments ``file``, ``mode``, ``flags``."
 msgstr ""
 

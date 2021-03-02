@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-02 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,7 @@ msgstr ""
 msgid "The legacy ``urllib.urlopen`` function from Python 2.6 and earlier has been discontinued; :func:`urllib.request.urlopen` corresponds to the old ``urllib2.urlopen``.  Proxy handling, which was done by passing a dictionary parameter to ``urllib.urlopen``, can be obtained by using :class:`ProxyHandler` objects."
 msgstr ""
 
-#: ../../library/urllib.request.rst:None
+#: ../../library/urllib.request.rst:90
 msgid "Raises an :ref:`auditing event <auditing>` ``urllib.Request`` with arguments ``fullurl``, ``data``, ``headers``, ``method``."
 msgstr ""
 
