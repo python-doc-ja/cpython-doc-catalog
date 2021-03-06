@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-03-06 05:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -259,7 +259,7 @@ msgid "This is the inverse function of :func:`localtime`.  Its argument is the :
 msgstr ""
 
 #: ../../library/time.rst:271
-msgid "Return the value (in fractional seconds) of a monotonic clock, i.e. a clock that cannot go backwards.  The clock is not affected by system clock updates. The reference point of the returned value is undefined, so that only the difference between the results of consecutive calls is valid."
+msgid "Return the value (in fractional seconds) of a monotonic clock, i.e. a clock that cannot go backwards.  The clock is not affected by system clock updates. The reference point of the returned value is undefined, so that only the difference between the results of two calls is valid."
 msgstr ""
 
 #: ../../library/time.rst:277
@@ -271,7 +271,7 @@ msgid "Similar to :func:`monotonic`, but return time as nanoseconds."
 msgstr ""
 
 #: ../../library/time.rst:292
-msgid "Return the value (in fractional seconds) of a performance counter, i.e. a clock with the highest available resolution to measure a short duration.  It does include time elapsed during sleep and is system-wide.  The reference point of the returned value is undefined, so that only the difference between the results of consecutive calls is valid."
+msgid "Return the value (in fractional seconds) of a performance counter, i.e. a clock with the highest available resolution to measure a short duration.  It does include time elapsed during sleep and is system-wide.  The reference point of the returned value is undefined, so that only the difference between the results of two calls is valid."
 msgstr ""
 
 #: ../../library/time.rst:302
@@ -279,7 +279,7 @@ msgid "Similar to :func:`perf_counter`, but return time as nanoseconds."
 msgstr ""
 
 #: ../../library/time.rst:314
-msgid "Return the value (in fractional seconds) of the sum of the system and user CPU time of the current process.  It does not include time elapsed during sleep.  It is process-wide by definition.  The reference point of the returned value is undefined, so that only the difference between the results of consecutive calls is valid."
+msgid "Return the value (in fractional seconds) of the sum of the system and user CPU time of the current process.  It does not include time elapsed during sleep.  It is process-wide by definition.  The reference point of the returned value is undefined, so that only the difference between the results of two calls is valid."
 msgstr ""
 
 #: ../../library/time.rst:324
@@ -733,7 +733,7 @@ msgid "The number returned by :func:`.time` may be converted into a more common 
 msgstr ""
 
 #: ../../library/time.rst:592
-msgid "Return the value (in fractional seconds) of the sum of the system and user CPU time of the current thread.  It does not include time elapsed during sleep.  It is thread-specific by definition.  The reference point of the returned value is undefined, so that only the difference between the results of consecutive calls in the same thread is valid."
+msgid "Return the value (in fractional seconds) of the sum of the system and user CPU time of the current thread.  It does not include time elapsed during sleep.  It is thread-specific by definition.  The reference point of the returned value is undefined, so that only the difference between the results of two calls in the same thread is valid."
 msgstr ""
 
 #: ../../library/time.rst:600
