@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 16:06+0000\n"
+"POT-Creation-Date: 2021-03-09 16:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "By default, :func:`dataclass` will not implicitly add a :meth:`__hash__` 
 msgstr ""
 
 #: ../../library/dataclasses.rst:139
-msgid "If :meth:`__hash__` is not explicit defined, or if it is set to ``None``, then :func:`dataclass` *may* add an implicit :meth:`__hash__` method. Although not recommended, you can force :func:`dataclass` to create a :meth:`__hash__` method with ``unsafe_hash=True``. This might be the case if your class is logically immutable but can nonetheless be mutated. This is a specialized use case and should be considered carefully."
+msgid "If :meth:`__hash__` is not explicitly defined, or if it is set to ``None``, then :func:`dataclass` *may* add an implicit :meth:`__hash__` method. Although not recommended, you can force :func:`dataclass` to create a :meth:`__hash__` method with ``unsafe_hash=True``. This might be the case if your class is logically immutable but can nonetheless be mutated. This is a specialized use case and should be considered carefully."
 msgstr ""
 
 #: ../../library/dataclasses.rst:146
