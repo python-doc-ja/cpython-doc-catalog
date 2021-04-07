@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-06 05:06+0000\n"
+"POT-Creation-Date: 2021-04-07 05:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2048,57 +2048,61 @@ msgid "This module implements :rfc:`3490` (Internationalized Domain Names in App
 msgstr ""
 
 #: ../../library/codecs.rst:1417
+msgid "If you need the IDNA 2008 standard from :rfc:`5891` and :rfc:`5895`, use the third-party `idna module <https://pypi.org/project/idna/>_`."
+msgstr ""
+
+#: ../../library/codecs.rst:1420
 msgid "These RFCs together define a protocol to support non-ASCII characters in domain names. A domain name containing non-ASCII characters (such as ``www.Alliancefrançaise.nu``) is converted into an ASCII-compatible encoding (ACE, such as ``www.xn--alliancefranaise-npb.nu``). The ACE form of the domain name is then used in all places where arbitrary characters are not allowed by the protocol, such as DNS queries, HTTP :mailheader:`Host` fields, and so on. This conversion is carried out in the application; if possible invisible to the user: The application should transparently convert Unicode domain labels to IDNA on the wire, and convert back ACE labels to Unicode before presenting them to the user."
 msgstr ""
 
-#: ../../library/codecs.rst:1428
+#: ../../library/codecs.rst:1431
 msgid "Python supports this conversion in several ways:  the ``idna`` codec performs conversion between Unicode and ACE, separating an input string into labels based on the separator characters defined in :rfc:`section 3.1 of RFC 3490 <3490#section-3.1>` and converting each label to ACE as required, and conversely separating an input byte string into labels based on the ``.`` separator and converting any ACE labels found into unicode. Furthermore, the :mod:`socket` module transparently converts Unicode host names to ACE, so that applications need not be concerned about converting host names themselves when they pass them to the socket module. On top of that, modules that have host names as function parameters, such as :mod:`http.client` and :mod:`ftplib`, accept Unicode host names (:mod:`http.client` then also transparently sends an IDNA hostname in the :mailheader:`Host` field if it sends that field at all)."
 msgstr ""
 
-#: ../../library/codecs.rst:1441
+#: ../../library/codecs.rst:1444
 msgid "When receiving host names from the wire (such as in reverse name lookup), no automatic conversion to Unicode is performed: applications wishing to present such host names to the user should decode them to Unicode."
 msgstr ""
 
-#: ../../library/codecs.rst:1445
+#: ../../library/codecs.rst:1448
 msgid "The module :mod:`encodings.idna` also implements the nameprep procedure, which performs certain normalizations on host names, to achieve case-insensitivity of international domain names, and to unify similar characters. The nameprep functions can be used directly if desired."
 msgstr ""
 
-#: ../../library/codecs.rst:1453
+#: ../../library/codecs.rst:1456
 msgid "Return the nameprepped version of *label*. The implementation currently assumes query strings, so ``AllowUnassigned`` is true."
 msgstr ""
 
-#: ../../library/codecs.rst:1459
+#: ../../library/codecs.rst:1462
 msgid "Convert a label to ASCII, as specified in :rfc:`3490`. ``UseSTD3ASCIIRules`` is assumed to be false."
 msgstr ""
 
-#: ../../library/codecs.rst:1465
+#: ../../library/codecs.rst:1468
 msgid "Convert a label to Unicode, as specified in :rfc:`3490`."
 msgstr ""
 
-#: ../../library/codecs.rst:1469
+#: ../../library/codecs.rst:1472
 msgid ":mod:`encodings.mbcs` --- Windows ANSI codepage"
 msgstr ""
 
-#: ../../library/codecs.rst:1474
+#: ../../library/codecs.rst:1477
 msgid "This module implements the ANSI codepage (CP_ACP)."
 msgstr ""
 
-#: ../../library/codecs.rst:1477
+#: ../../library/codecs.rst:1480
 msgid ":ref:`Availability <availability>`: Windows only."
 msgstr ""
 
-#: ../../library/codecs.rst:1478
+#: ../../library/codecs.rst:1481
 msgid "Support any error handler."
 msgstr ""
 
-#: ../../library/codecs.rst:1481
+#: ../../library/codecs.rst:1484
 msgid "Before 3.2, the *errors* argument was ignored; ``'replace'`` was always used to encode, and ``'ignore'`` to decode."
 msgstr ""
 
-#: ../../library/codecs.rst:1487
+#: ../../library/codecs.rst:1490
 msgid ":mod:`encodings.utf_8_sig` --- UTF-8 codec with BOM signature"
 msgstr ""
 
-#: ../../library/codecs.rst:1493
+#: ../../library/codecs.rst:1496
 msgid "This module implements a variant of the UTF-8 codec. On encoding, a UTF-8 encoded BOM will be prepended to the UTF-8 encoded bytes. For the stateful encoder this is only done once (on the first write to the byte stream). On decoding, an optional UTF-8 encoded BOM at the start of the data will be skipped."
 msgstr ""
