@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 16:06+0000\n"
+"POT-Creation-Date: 2021-04-26 17:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1214,7 +1214,7 @@ msgid "If ``a`` is an instance of :class:`super`, then the binding ``super(B, ob
 msgstr ""
 
 #: ../../reference/datamodel.rst:1771
-msgid "For instance bindings, the precedence of descriptor invocation depends on the which descriptor methods are defined.  A descriptor can define any combination of :meth:`__get__`, :meth:`__set__` and :meth:`__delete__`.  If it does not define :meth:`__get__`, then accessing the attribute will return the descriptor object itself unless there is a value in the object's instance dictionary.  If the descriptor defines :meth:`__set__` and/or :meth:`__delete__`, it is a data descriptor; if it defines neither, it is a non-data descriptor.  Normally, data descriptors define both :meth:`__get__` and :meth:`__set__`, while non-data descriptors have just the :meth:`__get__` method.  Data descriptors with :meth:`__set__` and :meth:`__get__` defined always override a redefinition in an instance dictionary.  In contrast, non-data descriptors can be overridden by instances."
+msgid "For instance bindings, the precedence of descriptor invocation depends on which descriptor methods are defined.  A descriptor can define any combination of :meth:`__get__`, :meth:`__set__` and :meth:`__delete__`.  If it does not define :meth:`__get__`, then accessing the attribute will return the descriptor object itself unless there is a value in the object's instance dictionary.  If the descriptor defines :meth:`__set__` and/or :meth:`__delete__`, it is a data descriptor; if it defines neither, it is a non-data descriptor.  Normally, data descriptors define both :meth:`__get__` and :meth:`__set__`, while non-data descriptors have just the :meth:`__get__` method.  Data descriptors with :meth:`__set__` and :meth:`__get__` defined always override a redefinition in an instance dictionary.  In contrast, non-data descriptors can be overridden by instances."
 msgstr ""
 
 #: ../../reference/datamodel.rst:1784
