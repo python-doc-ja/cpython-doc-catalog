@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-04-26 06:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,7 +370,7 @@ msgid "Normally, when you pass an invalid argument list to the :meth:`~ArgumentP
 msgstr ""
 
 #: ../../library/argparse.rst:662
-msgid "If the user would like catch errors manually, the feature can be enable by setting ``exit_on_error`` to ``False``::"
+msgid "If the user would like to catch errors manually, the feature can be enabled by setting ``exit_on_error`` to ``False``::"
 msgstr ""
 
 #: ../../library/argparse.rst:679
