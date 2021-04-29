@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 16:40+0000\n"
+"POT-Creation-Date: 2021-04-29 17:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1377,7 +1377,7 @@ msgid "There are two typical use cases for *super*.  In a class hierarchy with s
 msgstr ""
 
 #: ../../library/functions.rst:1625
-msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement \"diamond diagrams\" where multiple base classes implement the same method.  Good design dictates that this method have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
+msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement \"diamond diagrams\" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
 msgstr ""
 
 #: ../../library/functions.rst:1635
