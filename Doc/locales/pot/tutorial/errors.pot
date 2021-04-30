@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-04-30 06:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgid "Exception Chaining"
 msgstr ""
 
 #: ../../tutorial/errors.rst:275
-msgid "The :keyword:`raise` statement allows an optional :keyword:`from` which enables chaining exceptions. For example::"
+msgid "The :keyword:`raise` statement allows an optional :keyword:`from<raise>` which enables chaining exceptions. For example::"
 msgstr ""
 
 #: ../../tutorial/errors.rst:281
