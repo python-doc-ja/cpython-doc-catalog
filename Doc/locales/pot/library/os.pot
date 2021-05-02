@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 06:10+0000\n"
+"POT-Creation-Date: 2021-05-02 06:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2433,7 +2433,7 @@ msgid "Raises an :ref:`auditing event <auditing>` ``os.removexattr`` with argume
 msgstr ""
 
 #: ../../library/os.rst:3248
-msgid "Set the extended filesystem attribute *attribute* on *path* to *value*. *attribute* must be a bytes or str with no embedded NULs (directly or indirectly through the :class:`PathLike` interface). If it is a str, it is encoded with the filesystem encoding.  *flags* may be :data:`XATTR_REPLACE` or :data:`XATTR_CREATE`. If :data:`XATTR_REPLACE` is given and the attribute does not exist, ``EEXISTS`` will be raised. If :data:`XATTR_CREATE` is given and the attribute already exists, the attribute will not be created and ``ENODATA`` will be raised."
+msgid "Set the extended filesystem attribute *attribute* on *path* to *value*. *attribute* must be a bytes or str with no embedded NULs (directly or indirectly through the :class:`PathLike` interface). If it is a str, it is encoded with the filesystem encoding.  *flags* may be :data:`XATTR_REPLACE` or :data:`XATTR_CREATE`. If :data:`XATTR_REPLACE` is given and the attribute does not exist, ``ENODATA`` will be raised. If :data:`XATTR_CREATE` is given and the attribute already exists, the attribute will not be created and ``EEXISTS`` will be raised."
 msgstr ""
 
 #: ../../library/os.rst:3262
