@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-20 06:06+0000\n"
+"POT-Creation-Date: 2021-05-03 06:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1287,9 +1287,9 @@ msgid "Due to automatic garbage-collection, free lists, and the dynamic nature o
 msgstr ""
 
 #: ../../reference/expressions.rst:1911
-msgid "The ``%`` operator is also used for string formatting; the same precedence applies."
+msgid "The power operator ``**`` binds less tightly than an arithmetic or bitwise unary operator on its right, that is, ``2**-1`` is ``0.5``."
 msgstr ""
 
 #: ../../reference/expressions.rst:1914
-msgid "The power operator ``**`` binds less tightly than an arithmetic or bitwise unary operator on its right, that is, ``2**-1`` is ``0.5``."
+msgid "The ``%`` operator is also used for string formatting; the same precedence applies."
 msgstr ""
