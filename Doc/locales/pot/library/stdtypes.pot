@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-05-04 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3820,7 +3820,7 @@ msgid "Like function objects, bound method objects support getting arbitrary att
 msgstr ""
 
 #: ../../library/stdtypes.rst:5026
-#: ../../library/stdtypes.rst:5054
+#: ../../library/stdtypes.rst:5057
 msgid "See :ref:`types` for more information."
 msgstr ""
 
@@ -3832,138 +3832,142 @@ msgstr ""
 msgid "Code objects are used by the implementation to represent \"pseudo-compiled\" executable Python code such as a function body. They differ from function objects because they don't contain a reference to their global execution environment.  Code objects are returned by the built-in :func:`compile` function and can be extracted from function objects through their :attr:`__code__` attribute. See also the :mod:`code` module."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5051
+#: ../../library/stdtypes.rst:5047
+msgid "Accessing ``__code__`` raises an :ref:`auditing event <auditing>` ``object.__getattr__`` with arguments ``obj`` and ``\"__code__\"``."
+msgstr ""
+
+#: ../../library/stdtypes.rst:5054
 msgid "A code object can be executed or evaluated by passing it (instead of a source string) to the :func:`exec` or :func:`eval`  built-in functions."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5060
+#: ../../library/stdtypes.rst:5063
 msgid "Type Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5066
+#: ../../library/stdtypes.rst:5069
 msgid "Type objects represent the various object types.  An object's type is accessed by the built-in function :func:`type`.  There are no special operations on types.  The standard module :mod:`types` defines names for all standard built-in types."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5071
+#: ../../library/stdtypes.rst:5074
 msgid "Types are written like this: ``<class 'int'>``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5077
+#: ../../library/stdtypes.rst:5080
 msgid "The Null Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5079
+#: ../../library/stdtypes.rst:5082
 msgid "This object is returned by functions that don't explicitly return a value.  It supports no special operations.  There is exactly one null object, named ``None`` (a built-in name).  ``type(None)()`` produces the same singleton."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5083
+#: ../../library/stdtypes.rst:5086
 msgid "It is written as ``None``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5090
+#: ../../library/stdtypes.rst:5093
 msgid "The Ellipsis Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5092
+#: ../../library/stdtypes.rst:5095
 msgid "This object is commonly used by slicing (see :ref:`slicings`).  It supports no special operations.  There is exactly one ellipsis object, named :const:`Ellipsis` (a built-in name).  ``type(Ellipsis)()`` produces the :const:`Ellipsis` singleton."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5097
+#: ../../library/stdtypes.rst:5100
 msgid "It is written as ``Ellipsis`` or ``...``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5103
+#: ../../library/stdtypes.rst:5106
 msgid "The NotImplemented Object"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5105
+#: ../../library/stdtypes.rst:5108
 msgid "This object is returned from comparisons and binary operations when they are asked to operate on types they don't support. See :ref:`comparisons` for more information.  There is exactly one ``NotImplemented`` object. ``type(NotImplemented)()`` produces the singleton instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5110
+#: ../../library/stdtypes.rst:5113
 msgid "It is written as ``NotImplemented``."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5116
+#: ../../library/stdtypes.rst:5119
 msgid "Boolean Values"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5118
+#: ../../library/stdtypes.rst:5121
 msgid "Boolean values are the two constant objects ``False`` and ``True``.  They are used to represent truth values (although other values can also be considered false or true).  In numeric contexts (for example when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. The built-in function :func:`bool` can be used to convert any value to a Boolean, if the value can be interpreted as a truth value (see section :ref:`truth` above)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5131
+#: ../../library/stdtypes.rst:5134
 msgid "They are written as ``False`` and ``True``, respectively."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5137
+#: ../../library/stdtypes.rst:5140
 msgid "Internal Objects"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5139
+#: ../../library/stdtypes.rst:5142
 msgid "See :ref:`types` for this information.  It describes stack frame objects, traceback objects, and slice objects."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5146
+#: ../../library/stdtypes.rst:5149
 msgid "Special Attributes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5148
+#: ../../library/stdtypes.rst:5151
 msgid "The implementation adds a few special read-only attributes to several object types, where they are relevant.  Some of these are not reported by the :func:`dir` built-in function."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5155
+#: ../../library/stdtypes.rst:5158
 msgid "A dictionary or other mapping object used to store an object's (writable) attributes."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5161
+#: ../../library/stdtypes.rst:5164
 msgid "The class to which a class instance belongs."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5166
+#: ../../library/stdtypes.rst:5169
 msgid "The tuple of base classes of a class object."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5171
+#: ../../library/stdtypes.rst:5174
 msgid "The name of the class, function, method, descriptor, or generator instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5177
+#: ../../library/stdtypes.rst:5180
 msgid "The :term:`qualified name` of the class, function, method, descriptor, or generator instance."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5185
+#: ../../library/stdtypes.rst:5188
 msgid "This attribute is a tuple of classes that are considered when looking for base classes during method resolution."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5191
+#: ../../library/stdtypes.rst:5194
 msgid "This method can be overridden by a metaclass to customize the method resolution order for its instances.  It is called at class instantiation, and its result is stored in :attr:`~class.__mro__`."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5198
+#: ../../library/stdtypes.rst:5201
 msgid "Each class keeps a list of weak references to its immediate subclasses.  This method returns a list of all those references still alive.  The list is in definition order.  Example::"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5207
+#: ../../library/stdtypes.rst:5210
 msgid "Footnotes"
 msgstr ""
 
-#: ../../library/stdtypes.rst:5208
+#: ../../library/stdtypes.rst:5211
 msgid "Additional information on these special methods may be found in the Python Reference Manual (:ref:`customization`)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5211
+#: ../../library/stdtypes.rst:5214
 msgid "As a consequence, the list ``[1, 2]`` is considered equal to ``[1.0, 2.0]``, and similarly for tuples."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5214
+#: ../../library/stdtypes.rst:5217
 msgid "They must have since the parser can't tell the type of the operands."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5216
+#: ../../library/stdtypes.rst:5219
 msgid "Cased characters are those with general category property being one of \"Lu\" (Letter, uppercase), \"Ll\" (Letter, lowercase), or \"Lt\" (Letter, titlecase)."
 msgstr ""
 
-#: ../../library/stdtypes.rst:5219
+#: ../../library/stdtypes.rst:5222
 msgid "To format only a tuple you should therefore provide a singleton tuple whose only element is the tuple to be formatted."
 msgstr ""
