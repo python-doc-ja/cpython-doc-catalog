@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-30 06:13+0000\n"
+"POT-Creation-Date: 2021-05-05 06:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,41 +205,45 @@ msgid "An exception could occur during execution of an :keyword:`!except` or :ke
 msgstr ""
 
 #: ../../tutorial/errors.rst:408
+msgid "If the :keyword:`!finally` clause executes a :keyword:`break`, :keyword:`continue` or :keyword:`return` statement, exceptions are not re-raised."
+msgstr ""
+
+#: ../../tutorial/errors.rst:412
 msgid "If the :keyword:`!try` statement reaches a :keyword:`break`, :keyword:`continue` or :keyword:`return` statement, the :keyword:`!finally` clause will execute just prior to the :keyword:`!break`, :keyword:`!continue` or :keyword:`!return` statement's execution."
 msgstr ""
 
-#: ../../tutorial/errors.rst:414
+#: ../../tutorial/errors.rst:418
 msgid "If a :keyword:`!finally` clause includes a :keyword:`!return` statement, the returned value will be the one from the :keyword:`!finally` clause's :keyword:`!return` statement, not the value from the :keyword:`!try` clause's :keyword:`!return` statement."
 msgstr ""
 
-#: ../../tutorial/errors.rst:420
+#: ../../tutorial/errors.rst:424
 msgid "For example::"
 msgstr ""
 
-#: ../../tutorial/errors.rst:431
+#: ../../tutorial/errors.rst:435
 msgid "A more complicated example::"
 msgstr ""
 
-#: ../../tutorial/errors.rst:456
+#: ../../tutorial/errors.rst:460
 msgid "As you can see, the :keyword:`finally` clause is executed in any event.  The :exc:`TypeError` raised by dividing two strings is not handled by the :keyword:`except` clause and therefore re-raised after the :keyword:`!finally` clause has been executed."
 msgstr ""
 
-#: ../../tutorial/errors.rst:461
+#: ../../tutorial/errors.rst:465
 msgid "In real world applications, the :keyword:`finally` clause is useful for releasing external resources (such as files or network connections), regardless of whether the use of the resource was successful."
 msgstr ""
 
-#: ../../tutorial/errors.rst:469
+#: ../../tutorial/errors.rst:473
 msgid "Predefined Clean-up Actions"
 msgstr ""
 
-#: ../../tutorial/errors.rst:471
+#: ../../tutorial/errors.rst:475
 msgid "Some objects define standard clean-up actions to be undertaken when the object is no longer needed, regardless of whether or not the operation using the object succeeded or failed. Look at the following example, which tries to open a file and print its contents to the screen. ::"
 msgstr ""
 
-#: ../../tutorial/errors.rst:479
+#: ../../tutorial/errors.rst:483
 msgid "The problem with this code is that it leaves the file open for an indeterminate amount of time after this part of the code has finished executing. This is not an issue in simple scripts, but can be a problem for larger applications. The :keyword:`with` statement allows objects like files to be used in a way that ensures they are always cleaned up promptly and correctly. ::"
 msgstr ""
 
-#: ../../tutorial/errors.rst:489
+#: ../../tutorial/errors.rst:493
 msgid "After the statement is executed, the file *f* is always closed, even if a problem was encountered while processing the lines. Objects which, like files, provide predefined clean-up actions will indicate this in their documentation."
 msgstr ""
