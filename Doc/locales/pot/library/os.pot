@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-02 06:13+0000\n"
+"POT-Creation-Date: 2021-05-12 06:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2910,11 +2910,11 @@ msgid "Raises an :ref:`auditing event <auditing>` ``os.startfile`` with argument
 msgstr ""
 
 #: ../../library/os.rst:3964
-msgid "Execute the command (a string) in a subshell.  This is implemented by calling the Standard C function :c:func:`system`, and has the same limitations. Changes to :data:`sys.stdin`, etc. are not reflected in the environment of the executed command. If *command* generates any output, it will be sent to the interpreter standard output stream."
+msgid "Execute the command (a string) in a subshell.  This is implemented by calling the Standard C function :c:func:`system`, and has the same limitations. Changes to :data:`sys.stdin`, etc. are not reflected in the environment of the executed command. If *command* generates any output, it will be sent to the interpreter standard output stream. The C standard does not specify the meaning of the return value of the C function, so the return value of the Python function is system-dependent."
 msgstr ""
 
-#: ../../library/os.rst:3970
-msgid "On Unix, the return value is the exit status of the process encoded in the format specified for :func:`wait`.  Note that POSIX does not specify the meaning of the return value of the C :c:func:`system` function, so the return value of the Python function is system-dependent."
+#: ../../library/os.rst:3972
+msgid "On Unix, the return value is the exit status of the process encoded in the format specified for :func:`wait`."
 msgstr ""
 
 #: ../../library/os.rst:3975

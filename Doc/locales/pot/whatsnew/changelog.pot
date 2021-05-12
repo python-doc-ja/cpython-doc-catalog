@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 06:18+0000\n"
+"POT-Creation-Date: 2021-05-12 06:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -473,7 +473,7 @@ msgid "`bpo-43284 <https://bugs.python.org/issue43284>`__: platform.win32_ver de
 msgstr ""
 
 #: ../../../build/NEWS:139
-msgid "`bpo-42248 <https://bugs.python.org/issue42248>`__: [Enum] ensure exceptions raised in ``_missing__`` are released"
+msgid "`bpo-42248 <https://bugs.python.org/issue42248>`__: [Enum] ensure exceptions raised in ``_missing_`` are released."
 msgstr ""
 
 #: ../../../build/NEWS:141
