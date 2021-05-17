@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 06:19+0000\n"
+"POT-Creation-Date: 2021-05-17 06:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3213,7 +3213,7 @@ msgid "Return the scheduling policy for the process with PID *pid*. A *pid* of 0
 msgstr ""
 
 #: ../../library/os.rst:4392
-msgid "Set a scheduling parameters for the process with PID *pid*. A *pid* of 0 means the calling process. *param* is a :class:`sched_param` instance."
+msgid "Set the scheduling parameters for the process with PID *pid*. A *pid* of 0 means the calling process. *param* is a :class:`sched_param` instance."
 msgstr ""
 
 #: ../../library/os.rst:4398
