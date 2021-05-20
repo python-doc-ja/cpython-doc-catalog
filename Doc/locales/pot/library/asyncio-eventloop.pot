@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-05-20 06:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -415,7 +415,7 @@ msgid "*sock*, if given, should be an existing, already connected :class:`socket
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:442
-msgid "*local_addr*, if given, is a ``(local_host, local_port)`` tuple used to bind the socket to locally.  The *local_host* and *local_port* are looked up using ``getaddrinfo()``, similarly to *host* and *port*."
+msgid "*local_addr*, if given, is a ``(local_host, local_port)`` tuple used to bind the socket locally.  The *local_host* and *local_port* are looked up using ``getaddrinfo()``, similarly to *host* and *port*."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:446
@@ -491,7 +491,7 @@ msgid "A tuple of ``(transport, protocol)`` is returned on success."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:520
-msgid "*local_addr*, if given, is a ``(local_host, local_port)`` tuple used to bind the socket to locally.  The *local_host* and *local_port* are looked up using :meth:`getaddrinfo`."
+msgid "*local_addr*, if given, is a ``(local_host, local_port)`` tuple used to bind the socket locally.  The *local_host* and *local_port* are looked up using :meth:`getaddrinfo`."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:524
