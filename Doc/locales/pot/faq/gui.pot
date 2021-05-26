@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-05-26 06:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "FLTK"
 msgstr ""
 
 #: ../../faq/gui.rst:93
-msgid "Python bindings for `the FLTK toolkit <http://www.fltk.org>`_, a simple yet powerful and mature cross-platform windowing system, are available from `the PyFLTK project <http://pyfltk.sourceforge.net>`_."
+msgid "Python bindings for `the FLTK toolkit <http://www.fltk.org>`_, a simple yet powerful and mature cross-platform windowing system, are available from `the PyFLTK project <https://pyfltk.sourceforge.io/>`_."
 msgstr ""
 
 #: ../../faq/gui.rst:98
