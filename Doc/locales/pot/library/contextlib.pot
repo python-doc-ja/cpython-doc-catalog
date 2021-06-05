@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 06:32+0000\n"
+"POT-Creation-Date: 2021-06-05 06:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "An example using *enter_result*::"
 msgstr ""
 
 #: ../../library/contextlib.rst:193
-msgid "Return a context manager that suppresses any of the specified exceptions if they are raised in the body of a :keyword:`!with` statement and then resumes execution with the first statement following the end of the :keyword:`!with` statement."
+msgid "Return a context manager that suppresses any of the specified exceptions if they occur in the body of a :keyword:`!with` statement and then resumes execution with the first statement following the end of the :keyword:`!with` statement."
 msgstr ""
 
 #: ../../library/contextlib.rst:198
