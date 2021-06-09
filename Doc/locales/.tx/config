@@ -1,2935 +1,2935 @@
 [main]
 host = https://www.transifex.com
 
-[python-newest.about]
+[python-39.about]
 file_filter = <lang>/LC_MESSAGES/about.po
 source_file = pot/about.pot
 source_lang = en
 type = PO
 
-[python-newest.bugs]
+[python-39.bugs]
 file_filter = <lang>/LC_MESSAGES/bugs.po
 source_file = pot/bugs.pot
 source_lang = en
 type = PO
 
-[python-newest.contents]
+[python-39.contents]
 file_filter = <lang>/LC_MESSAGES/contents.po
 source_file = pot/contents.pot
 source_lang = en
 type = PO
 
-[python-newest.copyright]
+[python-39.copyright]
 file_filter = <lang>/LC_MESSAGES/copyright.po
 source_file = pot/copyright.pot
 source_lang = en
 type = PO
 
-[python-newest.glossary_]
+[python-39.glossary_]
 file_filter = <lang>/LC_MESSAGES/glossary.po
 source_file = pot/glossary.pot
 source_lang = en
 type = PO
 
-[python-newest.license]
+[python-39.license]
 file_filter = <lang>/LC_MESSAGES/license.po
 source_file = pot/license.pot
 source_lang = en
 type = PO
 
-[python-newest.sphinx]
+[python-39.sphinx]
 file_filter = <lang>/LC_MESSAGES/sphinx.po
 source_file = pot/sphinx.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--abstract]
+[python-39.c-api--abstract]
 file_filter = <lang>/LC_MESSAGES/c-api/abstract.po
 source_file = pot/c-api/abstract.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--allocation]
+[python-39.c-api--allocation]
 file_filter = <lang>/LC_MESSAGES/c-api/allocation.po
 source_file = pot/c-api/allocation.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--apiabiversion]
+[python-39.c-api--apiabiversion]
 file_filter = <lang>/LC_MESSAGES/c-api/apiabiversion.po
 source_file = pot/c-api/apiabiversion.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--arg]
+[python-39.c-api--arg]
 file_filter = <lang>/LC_MESSAGES/c-api/arg.po
 source_file = pot/c-api/arg.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--bool]
+[python-39.c-api--bool]
 file_filter = <lang>/LC_MESSAGES/c-api/bool.po
 source_file = pot/c-api/bool.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--buffer]
+[python-39.c-api--buffer]
 file_filter = <lang>/LC_MESSAGES/c-api/buffer.po
 source_file = pot/c-api/buffer.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--bytearray]
+[python-39.c-api--bytearray]
 file_filter = <lang>/LC_MESSAGES/c-api/bytearray.po
 source_file = pot/c-api/bytearray.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--bytes]
+[python-39.c-api--bytes]
 file_filter = <lang>/LC_MESSAGES/c-api/bytes.po
 source_file = pot/c-api/bytes.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--call]
+[python-39.c-api--call]
 file_filter = <lang>/LC_MESSAGES/c-api/call.po
 source_file = pot/c-api/call.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--capsule]
+[python-39.c-api--capsule]
 file_filter = <lang>/LC_MESSAGES/c-api/capsule.po
 source_file = pot/c-api/capsule.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--cell]
+[python-39.c-api--cell]
 file_filter = <lang>/LC_MESSAGES/c-api/cell.po
 source_file = pot/c-api/cell.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--code]
+[python-39.c-api--code]
 file_filter = <lang>/LC_MESSAGES/c-api/code.po
 source_file = pot/c-api/code.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--codec]
+[python-39.c-api--codec]
 file_filter = <lang>/LC_MESSAGES/c-api/codec.po
 source_file = pot/c-api/codec.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--complex]
+[python-39.c-api--complex]
 file_filter = <lang>/LC_MESSAGES/c-api/complex.po
 source_file = pot/c-api/complex.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--concrete]
+[python-39.c-api--concrete]
 file_filter = <lang>/LC_MESSAGES/c-api/concrete.po
 source_file = pot/c-api/concrete.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--contextvars]
+[python-39.c-api--contextvars]
 file_filter = <lang>/LC_MESSAGES/c-api/contextvars.po
 source_file = pot/c-api/contextvars.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--conversion]
+[python-39.c-api--conversion]
 file_filter = <lang>/LC_MESSAGES/c-api/conversion.po
 source_file = pot/c-api/conversion.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--coro]
+[python-39.c-api--coro]
 file_filter = <lang>/LC_MESSAGES/c-api/coro.po
 source_file = pot/c-api/coro.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--datetime]
+[python-39.c-api--datetime]
 file_filter = <lang>/LC_MESSAGES/c-api/datetime.po
 source_file = pot/c-api/datetime.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--descriptor]
+[python-39.c-api--descriptor]
 file_filter = <lang>/LC_MESSAGES/c-api/descriptor.po
 source_file = pot/c-api/descriptor.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--dict]
+[python-39.c-api--dict]
 file_filter = <lang>/LC_MESSAGES/c-api/dict.po
 source_file = pot/c-api/dict.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--exceptions]
+[python-39.c-api--exceptions]
 file_filter = <lang>/LC_MESSAGES/c-api/exceptions.po
 source_file = pot/c-api/exceptions.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--file]
+[python-39.c-api--file]
 file_filter = <lang>/LC_MESSAGES/c-api/file.po
 source_file = pot/c-api/file.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--float]
+[python-39.c-api--float]
 file_filter = <lang>/LC_MESSAGES/c-api/float.po
 source_file = pot/c-api/float.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--function]
+[python-39.c-api--function]
 file_filter = <lang>/LC_MESSAGES/c-api/function.po
 source_file = pot/c-api/function.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--gcsupport]
+[python-39.c-api--gcsupport]
 file_filter = <lang>/LC_MESSAGES/c-api/gcsupport.po
 source_file = pot/c-api/gcsupport.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--gen]
+[python-39.c-api--gen]
 file_filter = <lang>/LC_MESSAGES/c-api/gen.po
 source_file = pot/c-api/gen.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--import]
+[python-39.c-api--import]
 file_filter = <lang>/LC_MESSAGES/c-api/import.po
 source_file = pot/c-api/import.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--index]
+[python-39.c-api--index]
 file_filter = <lang>/LC_MESSAGES/c-api/index.po
 source_file = pot/c-api/index.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--init]
+[python-39.c-api--init]
 file_filter = <lang>/LC_MESSAGES/c-api/init.po
 source_file = pot/c-api/init.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--init_config]
+[python-39.c-api--init_config]
 file_filter = <lang>/LC_MESSAGES/c-api/init_config.po
 source_file = pot/c-api/init_config.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--intro]
+[python-39.c-api--intro]
 file_filter = <lang>/LC_MESSAGES/c-api/intro.po
 source_file = pot/c-api/intro.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--iter]
+[python-39.c-api--iter]
 file_filter = <lang>/LC_MESSAGES/c-api/iter.po
 source_file = pot/c-api/iter.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--iterator]
+[python-39.c-api--iterator]
 file_filter = <lang>/LC_MESSAGES/c-api/iterator.po
 source_file = pot/c-api/iterator.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--list]
+[python-39.c-api--list]
 file_filter = <lang>/LC_MESSAGES/c-api/list.po
 source_file = pot/c-api/list.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--long]
+[python-39.c-api--long]
 file_filter = <lang>/LC_MESSAGES/c-api/long.po
 source_file = pot/c-api/long.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--mapping]
+[python-39.c-api--mapping]
 file_filter = <lang>/LC_MESSAGES/c-api/mapping.po
 source_file = pot/c-api/mapping.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--marshal]
+[python-39.c-api--marshal]
 file_filter = <lang>/LC_MESSAGES/c-api/marshal.po
 source_file = pot/c-api/marshal.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--memory]
+[python-39.c-api--memory]
 file_filter = <lang>/LC_MESSAGES/c-api/memory.po
 source_file = pot/c-api/memory.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--memoryview]
+[python-39.c-api--memoryview]
 file_filter = <lang>/LC_MESSAGES/c-api/memoryview.po
 source_file = pot/c-api/memoryview.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--method]
+[python-39.c-api--method]
 file_filter = <lang>/LC_MESSAGES/c-api/method.po
 source_file = pot/c-api/method.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--module]
+[python-39.c-api--module]
 file_filter = <lang>/LC_MESSAGES/c-api/module.po
 source_file = pot/c-api/module.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--none]
+[python-39.c-api--none]
 file_filter = <lang>/LC_MESSAGES/c-api/none.po
 source_file = pot/c-api/none.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--number]
+[python-39.c-api--number]
 file_filter = <lang>/LC_MESSAGES/c-api/number.po
 source_file = pot/c-api/number.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--objbuffer]
+[python-39.c-api--objbuffer]
 file_filter = <lang>/LC_MESSAGES/c-api/objbuffer.po
 source_file = pot/c-api/objbuffer.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--object]
+[python-39.c-api--object]
 file_filter = <lang>/LC_MESSAGES/c-api/object.po
 source_file = pot/c-api/object.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--objimpl]
+[python-39.c-api--objimpl]
 file_filter = <lang>/LC_MESSAGES/c-api/objimpl.po
 source_file = pot/c-api/objimpl.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--refcounting]
+[python-39.c-api--refcounting]
 file_filter = <lang>/LC_MESSAGES/c-api/refcounting.po
 source_file = pot/c-api/refcounting.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--reflection]
+[python-39.c-api--reflection]
 file_filter = <lang>/LC_MESSAGES/c-api/reflection.po
 source_file = pot/c-api/reflection.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--sequence]
+[python-39.c-api--sequence]
 file_filter = <lang>/LC_MESSAGES/c-api/sequence.po
 source_file = pot/c-api/sequence.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--set]
+[python-39.c-api--set]
 file_filter = <lang>/LC_MESSAGES/c-api/set.po
 source_file = pot/c-api/set.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--slice]
+[python-39.c-api--slice]
 file_filter = <lang>/LC_MESSAGES/c-api/slice.po
 source_file = pot/c-api/slice.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--stable]
+[python-39.c-api--stable]
 file_filter = <lang>/LC_MESSAGES/c-api/stable.po
 source_file = pot/c-api/stable.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--structures]
+[python-39.c-api--structures]
 file_filter = <lang>/LC_MESSAGES/c-api/structures.po
 source_file = pot/c-api/structures.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--sys]
+[python-39.c-api--sys]
 file_filter = <lang>/LC_MESSAGES/c-api/sys.po
 source_file = pot/c-api/sys.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--tuple]
+[python-39.c-api--tuple]
 file_filter = <lang>/LC_MESSAGES/c-api/tuple.po
 source_file = pot/c-api/tuple.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--type]
+[python-39.c-api--type]
 file_filter = <lang>/LC_MESSAGES/c-api/type.po
 source_file = pot/c-api/type.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--typeobj]
+[python-39.c-api--typeobj]
 file_filter = <lang>/LC_MESSAGES/c-api/typeobj.po
 source_file = pot/c-api/typeobj.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--unicode]
+[python-39.c-api--unicode]
 file_filter = <lang>/LC_MESSAGES/c-api/unicode.po
 source_file = pot/c-api/unicode.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--utilities]
+[python-39.c-api--utilities]
 file_filter = <lang>/LC_MESSAGES/c-api/utilities.po
 source_file = pot/c-api/utilities.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--veryhigh]
+[python-39.c-api--veryhigh]
 file_filter = <lang>/LC_MESSAGES/c-api/veryhigh.po
 source_file = pot/c-api/veryhigh.pot
 source_lang = en
 type = PO
 
-[python-newest.c-api--weakref]
+[python-39.c-api--weakref]
 file_filter = <lang>/LC_MESSAGES/c-api/weakref.po
 source_file = pot/c-api/weakref.pot
 source_lang = en
 type = PO
 
-[python-newest.distributing--index]
+[python-39.distributing--index]
 file_filter = <lang>/LC_MESSAGES/distributing/index.po
 source_file = pot/distributing/index.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--_setuptools_disclaimer]
+[python-39.distutils--_setuptools_disclaimer]
 file_filter = <lang>/LC_MESSAGES/distutils/_setuptools_disclaimer.po
 source_file = pot/distutils/_setuptools_disclaimer.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--apiref]
+[python-39.distutils--apiref]
 file_filter = <lang>/LC_MESSAGES/distutils/apiref.po
 source_file = pot/distutils/apiref.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--builtdist]
+[python-39.distutils--builtdist]
 file_filter = <lang>/LC_MESSAGES/distutils/builtdist.po
 source_file = pot/distutils/builtdist.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--commandref]
+[python-39.distutils--commandref]
 file_filter = <lang>/LC_MESSAGES/distutils/commandref.po
 source_file = pot/distutils/commandref.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--configfile]
+[python-39.distutils--configfile]
 file_filter = <lang>/LC_MESSAGES/distutils/configfile.po
 source_file = pot/distutils/configfile.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--examples]
+[python-39.distutils--examples]
 file_filter = <lang>/LC_MESSAGES/distutils/examples.po
 source_file = pot/distutils/examples.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--extending]
+[python-39.distutils--extending]
 file_filter = <lang>/LC_MESSAGES/distutils/extending.po
 source_file = pot/distutils/extending.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--index]
+[python-39.distutils--index]
 file_filter = <lang>/LC_MESSAGES/distutils/index.po
 source_file = pot/distutils/index.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--introduction]
+[python-39.distutils--introduction]
 file_filter = <lang>/LC_MESSAGES/distutils/introduction.po
 source_file = pot/distutils/introduction.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--packageindex]
+[python-39.distutils--packageindex]
 file_filter = <lang>/LC_MESSAGES/distutils/packageindex.po
 source_file = pot/distutils/packageindex.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--setupscript]
+[python-39.distutils--setupscript]
 file_filter = <lang>/LC_MESSAGES/distutils/setupscript.po
 source_file = pot/distutils/setupscript.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--sourcedist]
+[python-39.distutils--sourcedist]
 file_filter = <lang>/LC_MESSAGES/distutils/sourcedist.po
 source_file = pot/distutils/sourcedist.pot
 source_lang = en
 type = PO
 
-[python-newest.distutils--uploading]
+[python-39.distutils--uploading]
 file_filter = <lang>/LC_MESSAGES/distutils/uploading.po
 source_file = pot/distutils/uploading.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--building]
+[python-39.extending--building]
 file_filter = <lang>/LC_MESSAGES/extending/building.po
 source_file = pot/extending/building.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--embedding]
+[python-39.extending--embedding]
 file_filter = <lang>/LC_MESSAGES/extending/embedding.po
 source_file = pot/extending/embedding.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--extending]
+[python-39.extending--extending]
 file_filter = <lang>/LC_MESSAGES/extending/extending.po
 source_file = pot/extending/extending.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--index]
+[python-39.extending--index]
 file_filter = <lang>/LC_MESSAGES/extending/index.po
 source_file = pot/extending/index.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--newtypes]
+[python-39.extending--newtypes]
 file_filter = <lang>/LC_MESSAGES/extending/newtypes.po
 source_file = pot/extending/newtypes.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--newtypes_tutorial]
+[python-39.extending--newtypes_tutorial]
 file_filter = <lang>/LC_MESSAGES/extending/newtypes_tutorial.po
 source_file = pot/extending/newtypes_tutorial.pot
 source_lang = en
 type = PO
 
-[python-newest.extending--windows]
+[python-39.extending--windows]
 file_filter = <lang>/LC_MESSAGES/extending/windows.po
 source_file = pot/extending/windows.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--design]
+[python-39.faq--design]
 file_filter = <lang>/LC_MESSAGES/faq/design.po
 source_file = pot/faq/design.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--extending]
+[python-39.faq--extending]
 file_filter = <lang>/LC_MESSAGES/faq/extending.po
 source_file = pot/faq/extending.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--general]
+[python-39.faq--general]
 file_filter = <lang>/LC_MESSAGES/faq/general.po
 source_file = pot/faq/general.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--gui]
+[python-39.faq--gui]
 file_filter = <lang>/LC_MESSAGES/faq/gui.po
 source_file = pot/faq/gui.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--index]
+[python-39.faq--index]
 file_filter = <lang>/LC_MESSAGES/faq/index.po
 source_file = pot/faq/index.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--installed]
+[python-39.faq--installed]
 file_filter = <lang>/LC_MESSAGES/faq/installed.po
 source_file = pot/faq/installed.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--library]
+[python-39.faq--library]
 file_filter = <lang>/LC_MESSAGES/faq/library.po
 source_file = pot/faq/library.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--programming]
+[python-39.faq--programming]
 file_filter = <lang>/LC_MESSAGES/faq/programming.po
 source_file = pot/faq/programming.pot
 source_lang = en
 type = PO
 
-[python-newest.faq--windows]
+[python-39.faq--windows]
 file_filter = <lang>/LC_MESSAGES/faq/windows.po
 source_file = pot/faq/windows.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--argparse]
+[python-39.howto--argparse]
 file_filter = <lang>/LC_MESSAGES/howto/argparse.po
 source_file = pot/howto/argparse.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--clinic]
+[python-39.howto--clinic]
 file_filter = <lang>/LC_MESSAGES/howto/clinic.po
 source_file = pot/howto/clinic.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--cporting]
+[python-39.howto--cporting]
 file_filter = <lang>/LC_MESSAGES/howto/cporting.po
 source_file = pot/howto/cporting.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--curses]
+[python-39.howto--curses]
 file_filter = <lang>/LC_MESSAGES/howto/curses.po
 source_file = pot/howto/curses.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--descriptor]
+[python-39.howto--descriptor]
 file_filter = <lang>/LC_MESSAGES/howto/descriptor.po
 source_file = pot/howto/descriptor.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--functional]
+[python-39.howto--functional]
 file_filter = <lang>/LC_MESSAGES/howto/functional.po
 source_file = pot/howto/functional.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--index]
+[python-39.howto--index]
 file_filter = <lang>/LC_MESSAGES/howto/index.po
 source_file = pot/howto/index.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--instrumentation]
+[python-39.howto--instrumentation]
 file_filter = <lang>/LC_MESSAGES/howto/instrumentation.po
 source_file = pot/howto/instrumentation.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--ipaddress]
+[python-39.howto--ipaddress]
 file_filter = <lang>/LC_MESSAGES/howto/ipaddress.po
 source_file = pot/howto/ipaddress.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--logging-cookbook]
+[python-39.howto--logging-cookbook]
 file_filter = <lang>/LC_MESSAGES/howto/logging-cookbook.po
 source_file = pot/howto/logging-cookbook.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--logging]
+[python-39.howto--logging]
 file_filter = <lang>/LC_MESSAGES/howto/logging.po
 source_file = pot/howto/logging.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--pyporting]
+[python-39.howto--pyporting]
 file_filter = <lang>/LC_MESSAGES/howto/pyporting.po
 source_file = pot/howto/pyporting.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--regex]
+[python-39.howto--regex]
 file_filter = <lang>/LC_MESSAGES/howto/regex.po
 source_file = pot/howto/regex.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--sockets]
+[python-39.howto--sockets]
 file_filter = <lang>/LC_MESSAGES/howto/sockets.po
 source_file = pot/howto/sockets.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--sorting]
+[python-39.howto--sorting]
 file_filter = <lang>/LC_MESSAGES/howto/sorting.po
 source_file = pot/howto/sorting.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--unicode]
+[python-39.howto--unicode]
 file_filter = <lang>/LC_MESSAGES/howto/unicode.po
 source_file = pot/howto/unicode.pot
 source_lang = en
 type = PO
 
-[python-newest.howto--urllib2]
+[python-39.howto--urllib2]
 file_filter = <lang>/LC_MESSAGES/howto/urllib2.po
 source_file = pot/howto/urllib2.pot
 source_lang = en
 type = PO
 
-[python-newest.install--index]
+[python-39.install--index]
 file_filter = <lang>/LC_MESSAGES/install/index.po
 source_file = pot/install/index.pot
 source_lang = en
 type = PO
 
-[python-newest.installing--index]
+[python-39.installing--index]
 file_filter = <lang>/LC_MESSAGES/installing/index.po
 source_file = pot/installing/index.pot
 source_lang = en
 type = PO
 
-[python-newest.library--2to3]
+[python-39.library--2to3]
 file_filter = <lang>/LC_MESSAGES/library/2to3.po
 source_file = pot/library/2to3.pot
 source_lang = en
 type = PO
 
-[python-newest.library--__future__]
+[python-39.library--__future__]
 file_filter = <lang>/LC_MESSAGES/library/__future__.po
 source_file = pot/library/__future__.pot
 source_lang = en
 type = PO
 
-[python-newest.library--__main__]
+[python-39.library--__main__]
 file_filter = <lang>/LC_MESSAGES/library/__main__.po
 source_file = pot/library/__main__.pot
 source_lang = en
 type = PO
 
-[python-newest.library--_thread]
+[python-39.library--_thread]
 file_filter = <lang>/LC_MESSAGES/library/_thread.po
 source_file = pot/library/_thread.pot
 source_lang = en
 type = PO
 
-[python-newest.library--abc]
+[python-39.library--abc]
 file_filter = <lang>/LC_MESSAGES/library/abc.po
 source_file = pot/library/abc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--aifc]
+[python-39.library--aifc]
 file_filter = <lang>/LC_MESSAGES/library/aifc.po
 source_file = pot/library/aifc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--allos]
+[python-39.library--allos]
 file_filter = <lang>/LC_MESSAGES/library/allos.po
 source_file = pot/library/allos.pot
 source_lang = en
 type = PO
 
-[python-newest.library--archiving]
+[python-39.library--archiving]
 file_filter = <lang>/LC_MESSAGES/library/archiving.po
 source_file = pot/library/archiving.pot
 source_lang = en
 type = PO
 
-[python-newest.library--argparse]
+[python-39.library--argparse]
 file_filter = <lang>/LC_MESSAGES/library/argparse.po
 source_file = pot/library/argparse.pot
 source_lang = en
 type = PO
 
-[python-newest.library--array]
+[python-39.library--array]
 file_filter = <lang>/LC_MESSAGES/library/array.po
 source_file = pot/library/array.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ast]
+[python-39.library--ast]
 file_filter = <lang>/LC_MESSAGES/library/ast.po
 source_file = pot/library/ast.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asynchat]
+[python-39.library--asynchat]
 file_filter = <lang>/LC_MESSAGES/library/asynchat.po
 source_file = pot/library/asynchat.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-api-index]
+[python-39.library--asyncio-api-index]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-api-index.po
 source_file = pot/library/asyncio-api-index.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-dev]
+[python-39.library--asyncio-dev]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-dev.po
 source_file = pot/library/asyncio-dev.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-eventloop]
+[python-39.library--asyncio-eventloop]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-eventloop.po
 source_file = pot/library/asyncio-eventloop.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-exceptions]
+[python-39.library--asyncio-exceptions]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-exceptions.po
 source_file = pot/library/asyncio-exceptions.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-future]
+[python-39.library--asyncio-future]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-future.po
 source_file = pot/library/asyncio-future.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-llapi-index]
+[python-39.library--asyncio-llapi-index]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-llapi-index.po
 source_file = pot/library/asyncio-llapi-index.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-platforms]
+[python-39.library--asyncio-platforms]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-platforms.po
 source_file = pot/library/asyncio-platforms.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-policy]
+[python-39.library--asyncio-policy]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-policy.po
 source_file = pot/library/asyncio-policy.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-protocol]
+[python-39.library--asyncio-protocol]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-protocol.po
 source_file = pot/library/asyncio-protocol.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-queue]
+[python-39.library--asyncio-queue]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-queue.po
 source_file = pot/library/asyncio-queue.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-stream]
+[python-39.library--asyncio-stream]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-stream.po
 source_file = pot/library/asyncio-stream.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-subprocess]
+[python-39.library--asyncio-subprocess]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-subprocess.po
 source_file = pot/library/asyncio-subprocess.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-sync]
+[python-39.library--asyncio-sync]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-sync.po
 source_file = pot/library/asyncio-sync.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-task]
+[python-39.library--asyncio-task]
 file_filter = <lang>/LC_MESSAGES/library/asyncio-task.po
 source_file = pot/library/asyncio-task.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio]
+[python-39.library--asyncio]
 file_filter = <lang>/LC_MESSAGES/library/asyncio.po
 source_file = pot/library/asyncio.pot
 source_lang = en
 type = PO
 
-[python-newest.library--asyncore]
+[python-39.library--asyncore]
 file_filter = <lang>/LC_MESSAGES/library/asyncore.po
 source_file = pot/library/asyncore.pot
 source_lang = en
 type = PO
 
-[python-newest.library--atexit]
+[python-39.library--atexit]
 file_filter = <lang>/LC_MESSAGES/library/atexit.po
 source_file = pot/library/atexit.pot
 source_lang = en
 type = PO
 
-[python-newest.library--audioop]
+[python-39.library--audioop]
 file_filter = <lang>/LC_MESSAGES/library/audioop.po
 source_file = pot/library/audioop.pot
 source_lang = en
 type = PO
 
-[python-newest.library--audit_events]
+[python-39.library--audit_events]
 file_filter = <lang>/LC_MESSAGES/library/audit_events.po
 source_file = pot/library/audit_events.pot
 source_lang = en
 type = PO
 
-[python-newest.library--base64]
+[python-39.library--base64]
 file_filter = <lang>/LC_MESSAGES/library/base64.po
 source_file = pot/library/base64.pot
 source_lang = en
 type = PO
 
-[python-newest.library--bdb]
+[python-39.library--bdb]
 file_filter = <lang>/LC_MESSAGES/library/bdb.po
 source_file = pot/library/bdb.pot
 source_lang = en
 type = PO
 
-[python-newest.library--binary]
+[python-39.library--binary]
 file_filter = <lang>/LC_MESSAGES/library/binary.po
 source_file = pot/library/binary.pot
 source_lang = en
 type = PO
 
-[python-newest.library--binascii]
+[python-39.library--binascii]
 file_filter = <lang>/LC_MESSAGES/library/binascii.po
 source_file = pot/library/binascii.pot
 source_lang = en
 type = PO
 
-[python-newest.library--binhex]
+[python-39.library--binhex]
 file_filter = <lang>/LC_MESSAGES/library/binhex.po
 source_file = pot/library/binhex.pot
 source_lang = en
 type = PO
 
-[python-newest.library--bisect]
+[python-39.library--bisect]
 file_filter = <lang>/LC_MESSAGES/library/bisect.po
 source_file = pot/library/bisect.pot
 source_lang = en
 type = PO
 
-[python-newest.library--builtins]
+[python-39.library--builtins]
 file_filter = <lang>/LC_MESSAGES/library/builtins.po
 source_file = pot/library/builtins.pot
 source_lang = en
 type = PO
 
-[python-newest.library--bz2]
+[python-39.library--bz2]
 file_filter = <lang>/LC_MESSAGES/library/bz2.po
 source_file = pot/library/bz2.pot
 source_lang = en
 type = PO
 
-[python-newest.library--calendar]
+[python-39.library--calendar]
 file_filter = <lang>/LC_MESSAGES/library/calendar.po
 source_file = pot/library/calendar.pot
 source_lang = en
 type = PO
 
-[python-newest.library--cgi]
+[python-39.library--cgi]
 file_filter = <lang>/LC_MESSAGES/library/cgi.po
 source_file = pot/library/cgi.pot
 source_lang = en
 type = PO
 
-[python-newest.library--cgitb]
+[python-39.library--cgitb]
 file_filter = <lang>/LC_MESSAGES/library/cgitb.po
 source_file = pot/library/cgitb.pot
 source_lang = en
 type = PO
 
-[python-newest.library--chunk]
+[python-39.library--chunk]
 file_filter = <lang>/LC_MESSAGES/library/chunk.po
 source_file = pot/library/chunk.pot
 source_lang = en
 type = PO
 
-[python-newest.library--cmath]
+[python-39.library--cmath]
 file_filter = <lang>/LC_MESSAGES/library/cmath.po
 source_file = pot/library/cmath.pot
 source_lang = en
 type = PO
 
-[python-newest.library--cmd]
+[python-39.library--cmd]
 file_filter = <lang>/LC_MESSAGES/library/cmd.po
 source_file = pot/library/cmd.pot
 source_lang = en
 type = PO
 
-[python-newest.library--code]
+[python-39.library--code]
 file_filter = <lang>/LC_MESSAGES/library/code.po
 source_file = pot/library/code.pot
 source_lang = en
 type = PO
 
-[python-newest.library--codecs]
+[python-39.library--codecs]
 file_filter = <lang>/LC_MESSAGES/library/codecs.po
 source_file = pot/library/codecs.pot
 source_lang = en
 type = PO
 
-[python-newest.library--codeop]
+[python-39.library--codeop]
 file_filter = <lang>/LC_MESSAGES/library/codeop.po
 source_file = pot/library/codeop.pot
 source_lang = en
 type = PO
 
-[python-newest.library--collections_abc]
+[python-39.library--collections_abc]
 file_filter = <lang>/LC_MESSAGES/library/collections.abc.po
 source_file = pot/library/collections.abc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--collections]
+[python-39.library--collections]
 file_filter = <lang>/LC_MESSAGES/library/collections.po
 source_file = pot/library/collections.pot
 source_lang = en
 type = PO
 
-[python-newest.library--colorsys]
+[python-39.library--colorsys]
 file_filter = <lang>/LC_MESSAGES/library/colorsys.po
 source_file = pot/library/colorsys.pot
 source_lang = en
 type = PO
 
-[python-newest.library--compileall]
+[python-39.library--compileall]
 file_filter = <lang>/LC_MESSAGES/library/compileall.po
 source_file = pot/library/compileall.pot
 source_lang = en
 type = PO
 
-[python-newest.library--concurrency]
+[python-39.library--concurrency]
 file_filter = <lang>/LC_MESSAGES/library/concurrency.po
 source_file = pot/library/concurrency.pot
 source_lang = en
 type = PO
 
-[python-newest.library--concurrent_futures]
+[python-39.library--concurrent_futures]
 file_filter = <lang>/LC_MESSAGES/library/concurrent.futures.po
 source_file = pot/library/concurrent.futures.pot
 source_lang = en
 type = PO
 
-[python-newest.library--concurrent]
+[python-39.library--concurrent]
 file_filter = <lang>/LC_MESSAGES/library/concurrent.po
 source_file = pot/library/concurrent.pot
 source_lang = en
 type = PO
 
-[python-newest.library--configparser]
+[python-39.library--configparser]
 file_filter = <lang>/LC_MESSAGES/library/configparser.po
 source_file = pot/library/configparser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--constants]
+[python-39.library--constants]
 file_filter = <lang>/LC_MESSAGES/library/constants.po
 source_file = pot/library/constants.pot
 source_lang = en
 type = PO
 
-[python-newest.library--contextlib]
+[python-39.library--contextlib]
 file_filter = <lang>/LC_MESSAGES/library/contextlib.po
 source_file = pot/library/contextlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--contextvars]
+[python-39.library--contextvars]
 file_filter = <lang>/LC_MESSAGES/library/contextvars.po
 source_file = pot/library/contextvars.pot
 source_lang = en
 type = PO
 
-[python-newest.library--copy]
+[python-39.library--copy]
 file_filter = <lang>/LC_MESSAGES/library/copy.po
 source_file = pot/library/copy.pot
 source_lang = en
 type = PO
 
-[python-newest.library--copyreg]
+[python-39.library--copyreg]
 file_filter = <lang>/LC_MESSAGES/library/copyreg.po
 source_file = pot/library/copyreg.pot
 source_lang = en
 type = PO
 
-[python-newest.library--crypt]
+[python-39.library--crypt]
 file_filter = <lang>/LC_MESSAGES/library/crypt.po
 source_file = pot/library/crypt.pot
 source_lang = en
 type = PO
 
-[python-newest.library--crypto]
+[python-39.library--crypto]
 file_filter = <lang>/LC_MESSAGES/library/crypto.po
 source_file = pot/library/crypto.pot
 source_lang = en
 type = PO
 
-[python-newest.library--csv]
+[python-39.library--csv]
 file_filter = <lang>/LC_MESSAGES/library/csv.po
 source_file = pot/library/csv.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ctypes]
+[python-39.library--ctypes]
 file_filter = <lang>/LC_MESSAGES/library/ctypes.po
 source_file = pot/library/ctypes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--curses_ascii]
+[python-39.library--curses_ascii]
 file_filter = <lang>/LC_MESSAGES/library/curses.ascii.po
 source_file = pot/library/curses.ascii.pot
 source_lang = en
 type = PO
 
-[python-newest.library--curses_panel]
+[python-39.library--curses_panel]
 file_filter = <lang>/LC_MESSAGES/library/curses.panel.po
 source_file = pot/library/curses.panel.pot
 source_lang = en
 type = PO
 
-[python-newest.library--curses]
+[python-39.library--curses]
 file_filter = <lang>/LC_MESSAGES/library/curses.po
 source_file = pot/library/curses.pot
 source_lang = en
 type = PO
 
-[python-newest.library--custominterp]
+[python-39.library--custominterp]
 file_filter = <lang>/LC_MESSAGES/library/custominterp.po
 source_file = pot/library/custominterp.pot
 source_lang = en
 type = PO
 
-[python-newest.library--dataclasses]
+[python-39.library--dataclasses]
 file_filter = <lang>/LC_MESSAGES/library/dataclasses.po
 source_file = pot/library/dataclasses.pot
 source_lang = en
 type = PO
 
-[python-newest.library--datatypes]
+[python-39.library--datatypes]
 file_filter = <lang>/LC_MESSAGES/library/datatypes.po
 source_file = pot/library/datatypes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--datetime]
+[python-39.library--datetime]
 file_filter = <lang>/LC_MESSAGES/library/datetime.po
 source_file = pot/library/datetime.pot
 source_lang = en
 type = PO
 
-[python-newest.library--dbm]
+[python-39.library--dbm]
 file_filter = <lang>/LC_MESSAGES/library/dbm.po
 source_file = pot/library/dbm.pot
 source_lang = en
 type = PO
 
-[python-newest.library--debug]
+[python-39.library--debug]
 file_filter = <lang>/LC_MESSAGES/library/debug.po
 source_file = pot/library/debug.pot
 source_lang = en
 type = PO
 
-[python-newest.library--decimal]
+[python-39.library--decimal]
 file_filter = <lang>/LC_MESSAGES/library/decimal.po
 source_file = pot/library/decimal.pot
 source_lang = en
 type = PO
 
-[python-newest.library--development]
+[python-39.library--development]
 file_filter = <lang>/LC_MESSAGES/library/development.po
 source_file = pot/library/development.pot
 source_lang = en
 type = PO
 
-[python-newest.library--devmode]
+[python-39.library--devmode]
 file_filter = <lang>/LC_MESSAGES/library/devmode.po
 source_file = pot/library/devmode.pot
 source_lang = en
 type = PO
 
-[python-newest.library--dialog]
+[python-39.library--dialog]
 file_filter = <lang>/LC_MESSAGES/library/dialog.po
 source_file = pot/library/dialog.pot
 source_lang = en
 type = PO
 
-[python-newest.library--difflib]
+[python-39.library--difflib]
 file_filter = <lang>/LC_MESSAGES/library/difflib.po
 source_file = pot/library/difflib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--dis]
+[python-39.library--dis]
 file_filter = <lang>/LC_MESSAGES/library/dis.po
 source_file = pot/library/dis.pot
 source_lang = en
 type = PO
 
-[python-newest.library--distribution]
+[python-39.library--distribution]
 file_filter = <lang>/LC_MESSAGES/library/distribution.po
 source_file = pot/library/distribution.pot
 source_lang = en
 type = PO
 
-[python-newest.library--distutils]
+[python-39.library--distutils]
 file_filter = <lang>/LC_MESSAGES/library/distutils.po
 source_file = pot/library/distutils.pot
 source_lang = en
 type = PO
 
-[python-newest.library--doctest]
+[python-39.library--doctest]
 file_filter = <lang>/LC_MESSAGES/library/doctest.po
 source_file = pot/library/doctest.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_charset]
+[python-39.library--email_charset]
 file_filter = <lang>/LC_MESSAGES/library/email.charset.po
 source_file = pot/library/email.charset.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_compat32-message]
+[python-39.library--email_compat32-message]
 file_filter = <lang>/LC_MESSAGES/library/email.compat32-message.po
 source_file = pot/library/email.compat32-message.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_contentmanager]
+[python-39.library--email_contentmanager]
 file_filter = <lang>/LC_MESSAGES/library/email.contentmanager.po
 source_file = pot/library/email.contentmanager.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_encoders]
+[python-39.library--email_encoders]
 file_filter = <lang>/LC_MESSAGES/library/email.encoders.po
 source_file = pot/library/email.encoders.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_errors]
+[python-39.library--email_errors]
 file_filter = <lang>/LC_MESSAGES/library/email.errors.po
 source_file = pot/library/email.errors.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_examples]
+[python-39.library--email_examples]
 file_filter = <lang>/LC_MESSAGES/library/email.examples.po
 source_file = pot/library/email.examples.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_generator]
+[python-39.library--email_generator]
 file_filter = <lang>/LC_MESSAGES/library/email.generator.po
 source_file = pot/library/email.generator.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_header]
+[python-39.library--email_header]
 file_filter = <lang>/LC_MESSAGES/library/email.header.po
 source_file = pot/library/email.header.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_headerregistry]
+[python-39.library--email_headerregistry]
 file_filter = <lang>/LC_MESSAGES/library/email.headerregistry.po
 source_file = pot/library/email.headerregistry.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_iterators]
+[python-39.library--email_iterators]
 file_filter = <lang>/LC_MESSAGES/library/email.iterators.po
 source_file = pot/library/email.iterators.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_message]
+[python-39.library--email_message]
 file_filter = <lang>/LC_MESSAGES/library/email.message.po
 source_file = pot/library/email.message.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_mime]
+[python-39.library--email_mime]
 file_filter = <lang>/LC_MESSAGES/library/email.mime.po
 source_file = pot/library/email.mime.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_parser]
+[python-39.library--email_parser]
 file_filter = <lang>/LC_MESSAGES/library/email.parser.po
 source_file = pot/library/email.parser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_policy]
+[python-39.library--email_policy]
 file_filter = <lang>/LC_MESSAGES/library/email.policy.po
 source_file = pot/library/email.policy.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email]
+[python-39.library--email]
 file_filter = <lang>/LC_MESSAGES/library/email.po
 source_file = pot/library/email.pot
 source_lang = en
 type = PO
 
-[python-newest.library--email_utils]
+[python-39.library--email_utils]
 file_filter = <lang>/LC_MESSAGES/library/email.utils.po
 source_file = pot/library/email.utils.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ensurepip]
+[python-39.library--ensurepip]
 file_filter = <lang>/LC_MESSAGES/library/ensurepip.po
 source_file = pot/library/ensurepip.pot
 source_lang = en
 type = PO
 
-[python-newest.library--enum]
+[python-39.library--enum]
 file_filter = <lang>/LC_MESSAGES/library/enum.po
 source_file = pot/library/enum.pot
 source_lang = en
 type = PO
 
-[python-newest.library--errno]
+[python-39.library--errno]
 file_filter = <lang>/LC_MESSAGES/library/errno.po
 source_file = pot/library/errno.pot
 source_lang = en
 type = PO
 
-[python-newest.library--exceptions]
+[python-39.library--exceptions]
 file_filter = <lang>/LC_MESSAGES/library/exceptions.po
 source_file = pot/library/exceptions.pot
 source_lang = en
 type = PO
 
-[python-newest.library--faulthandler]
+[python-39.library--faulthandler]
 file_filter = <lang>/LC_MESSAGES/library/faulthandler.po
 source_file = pot/library/faulthandler.pot
 source_lang = en
 type = PO
 
-[python-newest.library--fcntl]
+[python-39.library--fcntl]
 file_filter = <lang>/LC_MESSAGES/library/fcntl.po
 source_file = pot/library/fcntl.pot
 source_lang = en
 type = PO
 
-[python-newest.library--filecmp]
+[python-39.library--filecmp]
 file_filter = <lang>/LC_MESSAGES/library/filecmp.po
 source_file = pot/library/filecmp.pot
 source_lang = en
 type = PO
 
-[python-newest.library--fileformats]
+[python-39.library--fileformats]
 file_filter = <lang>/LC_MESSAGES/library/fileformats.po
 source_file = pot/library/fileformats.pot
 source_lang = en
 type = PO
 
-[python-newest.library--fileinput]
+[python-39.library--fileinput]
 file_filter = <lang>/LC_MESSAGES/library/fileinput.po
 source_file = pot/library/fileinput.pot
 source_lang = en
 type = PO
 
-[python-newest.library--filesys]
+[python-39.library--filesys]
 file_filter = <lang>/LC_MESSAGES/library/filesys.po
 source_file = pot/library/filesys.pot
 source_lang = en
 type = PO
 
-[python-newest.library--fnmatch]
+[python-39.library--fnmatch]
 file_filter = <lang>/LC_MESSAGES/library/fnmatch.po
 source_file = pot/library/fnmatch.pot
 source_lang = en
 type = PO
 
-[python-newest.library--formatter]
+[python-39.library--formatter]
 file_filter = <lang>/LC_MESSAGES/library/formatter.po
 source_file = pot/library/formatter.pot
 source_lang = en
 type = PO
 
-[python-newest.library--fractions]
+[python-39.library--fractions]
 file_filter = <lang>/LC_MESSAGES/library/fractions.po
 source_file = pot/library/fractions.pot
 source_lang = en
 type = PO
 
-[python-newest.library--frameworks]
+[python-39.library--frameworks]
 file_filter = <lang>/LC_MESSAGES/library/frameworks.po
 source_file = pot/library/frameworks.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ftplib]
+[python-39.library--ftplib]
 file_filter = <lang>/LC_MESSAGES/library/ftplib.po
 source_file = pot/library/ftplib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--functional]
+[python-39.library--functional]
 file_filter = <lang>/LC_MESSAGES/library/functional.po
 source_file = pot/library/functional.pot
 source_lang = en
 type = PO
 
-[python-newest.library--functions]
+[python-39.library--functions]
 file_filter = <lang>/LC_MESSAGES/library/functions.po
 source_file = pot/library/functions.pot
 source_lang = en
 type = PO
 
-[python-newest.library--functools]
+[python-39.library--functools]
 file_filter = <lang>/LC_MESSAGES/library/functools.po
 source_file = pot/library/functools.pot
 source_lang = en
 type = PO
 
-[python-newest.library--gc]
+[python-39.library--gc]
 file_filter = <lang>/LC_MESSAGES/library/gc.po
 source_file = pot/library/gc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--getopt]
+[python-39.library--getopt]
 file_filter = <lang>/LC_MESSAGES/library/getopt.po
 source_file = pot/library/getopt.pot
 source_lang = en
 type = PO
 
-[python-newest.library--getpass]
+[python-39.library--getpass]
 file_filter = <lang>/LC_MESSAGES/library/getpass.po
 source_file = pot/library/getpass.pot
 source_lang = en
 type = PO
 
-[python-newest.library--gettext]
+[python-39.library--gettext]
 file_filter = <lang>/LC_MESSAGES/library/gettext.po
 source_file = pot/library/gettext.pot
 source_lang = en
 type = PO
 
-[python-newest.library--glob]
+[python-39.library--glob]
 file_filter = <lang>/LC_MESSAGES/library/glob.po
 source_file = pot/library/glob.pot
 source_lang = en
 type = PO
 
-[python-newest.library--graphlib]
+[python-39.library--graphlib]
 file_filter = <lang>/LC_MESSAGES/library/graphlib.po
 source_file = pot/library/graphlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--grp]
+[python-39.library--grp]
 file_filter = <lang>/LC_MESSAGES/library/grp.po
 source_file = pot/library/grp.pot
 source_lang = en
 type = PO
 
-[python-newest.library--gzip]
+[python-39.library--gzip]
 file_filter = <lang>/LC_MESSAGES/library/gzip.po
 source_file = pot/library/gzip.pot
 source_lang = en
 type = PO
 
-[python-newest.library--hashlib]
+[python-39.library--hashlib]
 file_filter = <lang>/LC_MESSAGES/library/hashlib.po
 source_file = pot/library/hashlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--heapq]
+[python-39.library--heapq]
 file_filter = <lang>/LC_MESSAGES/library/heapq.po
 source_file = pot/library/heapq.pot
 source_lang = en
 type = PO
 
-[python-newest.library--hmac]
+[python-39.library--hmac]
 file_filter = <lang>/LC_MESSAGES/library/hmac.po
 source_file = pot/library/hmac.pot
 source_lang = en
 type = PO
 
-[python-newest.library--html_entities]
+[python-39.library--html_entities]
 file_filter = <lang>/LC_MESSAGES/library/html.entities.po
 source_file = pot/library/html.entities.pot
 source_lang = en
 type = PO
 
-[python-newest.library--html_parser]
+[python-39.library--html_parser]
 file_filter = <lang>/LC_MESSAGES/library/html.parser.po
 source_file = pot/library/html.parser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--html]
+[python-39.library--html]
 file_filter = <lang>/LC_MESSAGES/library/html.po
 source_file = pot/library/html.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http_client]
+[python-39.library--http_client]
 file_filter = <lang>/LC_MESSAGES/library/http.client.po
 source_file = pot/library/http.client.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http_cookiejar]
+[python-39.library--http_cookiejar]
 file_filter = <lang>/LC_MESSAGES/library/http.cookiejar.po
 source_file = pot/library/http.cookiejar.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http_cookies]
+[python-39.library--http_cookies]
 file_filter = <lang>/LC_MESSAGES/library/http.cookies.po
 source_file = pot/library/http.cookies.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http]
+[python-39.library--http]
 file_filter = <lang>/LC_MESSAGES/library/http.po
 source_file = pot/library/http.pot
 source_lang = en
 type = PO
 
-[python-newest.library--http_server]
+[python-39.library--http_server]
 file_filter = <lang>/LC_MESSAGES/library/http.server.po
 source_file = pot/library/http.server.pot
 source_lang = en
 type = PO
 
-[python-newest.library--i18n]
+[python-39.library--i18n]
 file_filter = <lang>/LC_MESSAGES/library/i18n.po
 source_file = pot/library/i18n.pot
 source_lang = en
 type = PO
 
-[python-newest.library--idle]
+[python-39.library--idle]
 file_filter = <lang>/LC_MESSAGES/library/idle.po
 source_file = pot/library/idle.pot
 source_lang = en
 type = PO
 
-[python-newest.library--imaplib]
+[python-39.library--imaplib]
 file_filter = <lang>/LC_MESSAGES/library/imaplib.po
 source_file = pot/library/imaplib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--imghdr]
+[python-39.library--imghdr]
 file_filter = <lang>/LC_MESSAGES/library/imghdr.po
 source_file = pot/library/imghdr.pot
 source_lang = en
 type = PO
 
-[python-newest.library--imp]
+[python-39.library--imp]
 file_filter = <lang>/LC_MESSAGES/library/imp.po
 source_file = pot/library/imp.pot
 source_lang = en
 type = PO
 
-[python-newest.library--importlib_metadata]
+[python-39.library--importlib_metadata]
 file_filter = <lang>/LC_MESSAGES/library/importlib.metadata.po
 source_file = pot/library/importlib.metadata.pot
 source_lang = en
 type = PO
 
-[python-newest.library--importlib]
+[python-39.library--importlib]
 file_filter = <lang>/LC_MESSAGES/library/importlib.po
 source_file = pot/library/importlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--index]
+[python-39.library--index]
 file_filter = <lang>/LC_MESSAGES/library/index.po
 source_file = pot/library/index.pot
 source_lang = en
 type = PO
 
-[python-newest.library--inspect]
+[python-39.library--inspect]
 file_filter = <lang>/LC_MESSAGES/library/inspect.po
 source_file = pot/library/inspect.pot
 source_lang = en
 type = PO
 
-[python-newest.library--internet]
+[python-39.library--internet]
 file_filter = <lang>/LC_MESSAGES/library/internet.po
 source_file = pot/library/internet.pot
 source_lang = en
 type = PO
 
-[python-newest.library--intro]
+[python-39.library--intro]
 file_filter = <lang>/LC_MESSAGES/library/intro.po
 source_file = pot/library/intro.pot
 source_lang = en
 type = PO
 
-[python-newest.library--io]
+[python-39.library--io]
 file_filter = <lang>/LC_MESSAGES/library/io.po
 source_file = pot/library/io.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ipaddress]
+[python-39.library--ipaddress]
 file_filter = <lang>/LC_MESSAGES/library/ipaddress.po
 source_file = pot/library/ipaddress.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ipc]
+[python-39.library--ipc]
 file_filter = <lang>/LC_MESSAGES/library/ipc.po
 source_file = pot/library/ipc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--itertools]
+[python-39.library--itertools]
 file_filter = <lang>/LC_MESSAGES/library/itertools.po
 source_file = pot/library/itertools.pot
 source_lang = en
 type = PO
 
-[python-newest.library--json]
+[python-39.library--json]
 file_filter = <lang>/LC_MESSAGES/library/json.po
 source_file = pot/library/json.pot
 source_lang = en
 type = PO
 
-[python-newest.library--keyword]
+[python-39.library--keyword]
 file_filter = <lang>/LC_MESSAGES/library/keyword.po
 source_file = pot/library/keyword.pot
 source_lang = en
 type = PO
 
-[python-newest.library--language]
+[python-39.library--language]
 file_filter = <lang>/LC_MESSAGES/library/language.po
 source_file = pot/library/language.pot
 source_lang = en
 type = PO
 
-[python-newest.library--linecache]
+[python-39.library--linecache]
 file_filter = <lang>/LC_MESSAGES/library/linecache.po
 source_file = pot/library/linecache.pot
 source_lang = en
 type = PO
 
-[python-newest.library--locale]
+[python-39.library--locale]
 file_filter = <lang>/LC_MESSAGES/library/locale.po
 source_file = pot/library/locale.pot
 source_lang = en
 type = PO
 
-[python-newest.library--logging_config]
+[python-39.library--logging_config]
 file_filter = <lang>/LC_MESSAGES/library/logging.config.po
 source_file = pot/library/logging.config.pot
 source_lang = en
 type = PO
 
-[python-newest.library--logging_handlers]
+[python-39.library--logging_handlers]
 file_filter = <lang>/LC_MESSAGES/library/logging.handlers.po
 source_file = pot/library/logging.handlers.pot
 source_lang = en
 type = PO
 
-[python-newest.library--logging]
+[python-39.library--logging]
 file_filter = <lang>/LC_MESSAGES/library/logging.po
 source_file = pot/library/logging.pot
 source_lang = en
 type = PO
 
-[python-newest.library--lzma]
+[python-39.library--lzma]
 file_filter = <lang>/LC_MESSAGES/library/lzma.po
 source_file = pot/library/lzma.pot
 source_lang = en
 type = PO
 
-[python-newest.library--mailbox]
+[python-39.library--mailbox]
 file_filter = <lang>/LC_MESSAGES/library/mailbox.po
 source_file = pot/library/mailbox.pot
 source_lang = en
 type = PO
 
-[python-newest.library--mailcap]
+[python-39.library--mailcap]
 file_filter = <lang>/LC_MESSAGES/library/mailcap.po
 source_file = pot/library/mailcap.pot
 source_lang = en
 type = PO
 
-[python-newest.library--markup]
+[python-39.library--markup]
 file_filter = <lang>/LC_MESSAGES/library/markup.po
 source_file = pot/library/markup.pot
 source_lang = en
 type = PO
 
-[python-newest.library--marshal]
+[python-39.library--marshal]
 file_filter = <lang>/LC_MESSAGES/library/marshal.po
 source_file = pot/library/marshal.pot
 source_lang = en
 type = PO
 
-[python-newest.library--math]
+[python-39.library--math]
 file_filter = <lang>/LC_MESSAGES/library/math.po
 source_file = pot/library/math.pot
 source_lang = en
 type = PO
 
-[python-newest.library--mimetypes]
+[python-39.library--mimetypes]
 file_filter = <lang>/LC_MESSAGES/library/mimetypes.po
 source_file = pot/library/mimetypes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--misc]
+[python-39.library--misc]
 file_filter = <lang>/LC_MESSAGES/library/misc.po
 source_file = pot/library/misc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--mm]
+[python-39.library--mm]
 file_filter = <lang>/LC_MESSAGES/library/mm.po
 source_file = pot/library/mm.pot
 source_lang = en
 type = PO
 
-[python-newest.library--mmap]
+[python-39.library--mmap]
 file_filter = <lang>/LC_MESSAGES/library/mmap.po
 source_file = pot/library/mmap.pot
 source_lang = en
 type = PO
 
-[python-newest.library--modulefinder]
+[python-39.library--modulefinder]
 file_filter = <lang>/LC_MESSAGES/library/modulefinder.po
 source_file = pot/library/modulefinder.pot
 source_lang = en
 type = PO
 
-[python-newest.library--modules]
+[python-39.library--modules]
 file_filter = <lang>/LC_MESSAGES/library/modules.po
 source_file = pot/library/modules.pot
 source_lang = en
 type = PO
 
-[python-newest.library--msilib]
+[python-39.library--msilib]
 file_filter = <lang>/LC_MESSAGES/library/msilib.po
 source_file = pot/library/msilib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--msvcrt]
+[python-39.library--msvcrt]
 file_filter = <lang>/LC_MESSAGES/library/msvcrt.po
 source_file = pot/library/msvcrt.pot
 source_lang = en
 type = PO
 
-[python-newest.library--multiprocessing]
+[python-39.library--multiprocessing]
 file_filter = <lang>/LC_MESSAGES/library/multiprocessing.po
 source_file = pot/library/multiprocessing.pot
 source_lang = en
 type = PO
 
-[python-newest.library--multiprocessing_shared_memory]
+[python-39.library--multiprocessing_shared_memory]
 file_filter = <lang>/LC_MESSAGES/library/multiprocessing.shared_memory.po
 source_file = pot/library/multiprocessing.shared_memory.pot
 source_lang = en
 type = PO
 
-[python-newest.library--netdata]
+[python-39.library--netdata]
 file_filter = <lang>/LC_MESSAGES/library/netdata.po
 source_file = pot/library/netdata.pot
 source_lang = en
 type = PO
 
-[python-newest.library--netrc]
+[python-39.library--netrc]
 file_filter = <lang>/LC_MESSAGES/library/netrc.po
 source_file = pot/library/netrc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--nis]
+[python-39.library--nis]
 file_filter = <lang>/LC_MESSAGES/library/nis.po
 source_file = pot/library/nis.pot
 source_lang = en
 type = PO
 
-[python-newest.library--nntplib]
+[python-39.library--nntplib]
 file_filter = <lang>/LC_MESSAGES/library/nntplib.po
 source_file = pot/library/nntplib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--numbers]
+[python-39.library--numbers]
 file_filter = <lang>/LC_MESSAGES/library/numbers.po
 source_file = pot/library/numbers.pot
 source_lang = en
 type = PO
 
-[python-newest.library--numeric]
+[python-39.library--numeric]
 file_filter = <lang>/LC_MESSAGES/library/numeric.po
 source_file = pot/library/numeric.pot
 source_lang = en
 type = PO
 
-[python-newest.library--operator]
+[python-39.library--operator]
 file_filter = <lang>/LC_MESSAGES/library/operator.po
 source_file = pot/library/operator.pot
 source_lang = en
 type = PO
 
-[python-newest.library--optparse]
+[python-39.library--optparse]
 file_filter = <lang>/LC_MESSAGES/library/optparse.po
 source_file = pot/library/optparse.pot
 source_lang = en
 type = PO
 
-[python-newest.library--os_path]
+[python-39.library--os_path]
 file_filter = <lang>/LC_MESSAGES/library/os.path.po
 source_file = pot/library/os.path.pot
 source_lang = en
 type = PO
 
-[python-newest.library--os]
+[python-39.library--os]
 file_filter = <lang>/LC_MESSAGES/library/os.po
 source_file = pot/library/os.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ossaudiodev]
+[python-39.library--ossaudiodev]
 file_filter = <lang>/LC_MESSAGES/library/ossaudiodev.po
 source_file = pot/library/ossaudiodev.pot
 source_lang = en
 type = PO
 
-[python-newest.library--othergui]
+[python-39.library--othergui]
 file_filter = <lang>/LC_MESSAGES/library/othergui.po
 source_file = pot/library/othergui.pot
 source_lang = en
 type = PO
 
-[python-newest.library--parser]
+[python-39.library--parser]
 file_filter = <lang>/LC_MESSAGES/library/parser.po
 source_file = pot/library/parser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pathlib]
+[python-39.library--pathlib]
 file_filter = <lang>/LC_MESSAGES/library/pathlib.po
 source_file = pot/library/pathlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pdb]
+[python-39.library--pdb]
 file_filter = <lang>/LC_MESSAGES/library/pdb.po
 source_file = pot/library/pdb.pot
 source_lang = en
 type = PO
 
-[python-newest.library--persistence]
+[python-39.library--persistence]
 file_filter = <lang>/LC_MESSAGES/library/persistence.po
 source_file = pot/library/persistence.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pickle]
+[python-39.library--pickle]
 file_filter = <lang>/LC_MESSAGES/library/pickle.po
 source_file = pot/library/pickle.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pickletools]
+[python-39.library--pickletools]
 file_filter = <lang>/LC_MESSAGES/library/pickletools.po
 source_file = pot/library/pickletools.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pipes]
+[python-39.library--pipes]
 file_filter = <lang>/LC_MESSAGES/library/pipes.po
 source_file = pot/library/pipes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pkgutil]
+[python-39.library--pkgutil]
 file_filter = <lang>/LC_MESSAGES/library/pkgutil.po
 source_file = pot/library/pkgutil.pot
 source_lang = en
 type = PO
 
-[python-newest.library--platform]
+[python-39.library--platform]
 file_filter = <lang>/LC_MESSAGES/library/platform.po
 source_file = pot/library/platform.pot
 source_lang = en
 type = PO
 
-[python-newest.library--plistlib]
+[python-39.library--plistlib]
 file_filter = <lang>/LC_MESSAGES/library/plistlib.po
 source_file = pot/library/plistlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--poplib]
+[python-39.library--poplib]
 file_filter = <lang>/LC_MESSAGES/library/poplib.po
 source_file = pot/library/poplib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--posix]
+[python-39.library--posix]
 file_filter = <lang>/LC_MESSAGES/library/posix.po
 source_file = pot/library/posix.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pprint]
+[python-39.library--pprint]
 file_filter = <lang>/LC_MESSAGES/library/pprint.po
 source_file = pot/library/pprint.pot
 source_lang = en
 type = PO
 
-[python-newest.library--profile]
+[python-39.library--profile]
 file_filter = <lang>/LC_MESSAGES/library/profile.po
 source_file = pot/library/profile.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pty]
+[python-39.library--pty]
 file_filter = <lang>/LC_MESSAGES/library/pty.po
 source_file = pot/library/pty.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pwd]
+[python-39.library--pwd]
 file_filter = <lang>/LC_MESSAGES/library/pwd.po
 source_file = pot/library/pwd.pot
 source_lang = en
 type = PO
 
-[python-newest.library--py_compile]
+[python-39.library--py_compile]
 file_filter = <lang>/LC_MESSAGES/library/py_compile.po
 source_file = pot/library/py_compile.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pyclbr]
+[python-39.library--pyclbr]
 file_filter = <lang>/LC_MESSAGES/library/pyclbr.po
 source_file = pot/library/pyclbr.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pydoc]
+[python-39.library--pydoc]
 file_filter = <lang>/LC_MESSAGES/library/pydoc.po
 source_file = pot/library/pydoc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--pyexpat]
+[python-39.library--pyexpat]
 file_filter = <lang>/LC_MESSAGES/library/pyexpat.po
 source_file = pot/library/pyexpat.pot
 source_lang = en
 type = PO
 
-[python-newest.library--python]
+[python-39.library--python]
 file_filter = <lang>/LC_MESSAGES/library/python.po
 source_file = pot/library/python.pot
 source_lang = en
 type = PO
 
-[python-newest.library--queue]
+[python-39.library--queue]
 file_filter = <lang>/LC_MESSAGES/library/queue.po
 source_file = pot/library/queue.pot
 source_lang = en
 type = PO
 
-[python-newest.library--quopri]
+[python-39.library--quopri]
 file_filter = <lang>/LC_MESSAGES/library/quopri.po
 source_file = pot/library/quopri.pot
 source_lang = en
 type = PO
 
-[python-newest.library--random]
+[python-39.library--random]
 file_filter = <lang>/LC_MESSAGES/library/random.po
 source_file = pot/library/random.pot
 source_lang = en
 type = PO
 
-[python-newest.library--re]
+[python-39.library--re]
 file_filter = <lang>/LC_MESSAGES/library/re.po
 source_file = pot/library/re.pot
 source_lang = en
 type = PO
 
-[python-newest.library--readline]
+[python-39.library--readline]
 file_filter = <lang>/LC_MESSAGES/library/readline.po
 source_file = pot/library/readline.pot
 source_lang = en
 type = PO
 
-[python-newest.library--reprlib]
+[python-39.library--reprlib]
 file_filter = <lang>/LC_MESSAGES/library/reprlib.po
 source_file = pot/library/reprlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--resource]
+[python-39.library--resource]
 file_filter = <lang>/LC_MESSAGES/library/resource.po
 source_file = pot/library/resource.pot
 source_lang = en
 type = PO
 
-[python-newest.library--rlcompleter]
+[python-39.library--rlcompleter]
 file_filter = <lang>/LC_MESSAGES/library/rlcompleter.po
 source_file = pot/library/rlcompleter.pot
 source_lang = en
 type = PO
 
-[python-newest.library--runpy]
+[python-39.library--runpy]
 file_filter = <lang>/LC_MESSAGES/library/runpy.po
 source_file = pot/library/runpy.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sched]
+[python-39.library--sched]
 file_filter = <lang>/LC_MESSAGES/library/sched.po
 source_file = pot/library/sched.pot
 source_lang = en
 type = PO
 
-[python-newest.library--secrets]
+[python-39.library--secrets]
 file_filter = <lang>/LC_MESSAGES/library/secrets.po
 source_file = pot/library/secrets.pot
 source_lang = en
 type = PO
 
-[python-newest.library--select]
+[python-39.library--select]
 file_filter = <lang>/LC_MESSAGES/library/select.po
 source_file = pot/library/select.pot
 source_lang = en
 type = PO
 
-[python-newest.library--selectors]
+[python-39.library--selectors]
 file_filter = <lang>/LC_MESSAGES/library/selectors.po
 source_file = pot/library/selectors.pot
 source_lang = en
 type = PO
 
-[python-newest.library--shelve]
+[python-39.library--shelve]
 file_filter = <lang>/LC_MESSAGES/library/shelve.po
 source_file = pot/library/shelve.pot
 source_lang = en
 type = PO
 
-[python-newest.library--shlex]
+[python-39.library--shlex]
 file_filter = <lang>/LC_MESSAGES/library/shlex.po
 source_file = pot/library/shlex.pot
 source_lang = en
 type = PO
 
-[python-newest.library--shutil]
+[python-39.library--shutil]
 file_filter = <lang>/LC_MESSAGES/library/shutil.po
 source_file = pot/library/shutil.pot
 source_lang = en
 type = PO
 
-[python-newest.library--signal]
+[python-39.library--signal]
 file_filter = <lang>/LC_MESSAGES/library/signal.po
 source_file = pot/library/signal.pot
 source_lang = en
 type = PO
 
-[python-newest.library--site]
+[python-39.library--site]
 file_filter = <lang>/LC_MESSAGES/library/site.po
 source_file = pot/library/site.pot
 source_lang = en
 type = PO
 
-[python-newest.library--smtpd]
+[python-39.library--smtpd]
 file_filter = <lang>/LC_MESSAGES/library/smtpd.po
 source_file = pot/library/smtpd.pot
 source_lang = en
 type = PO
 
-[python-newest.library--smtplib]
+[python-39.library--smtplib]
 file_filter = <lang>/LC_MESSAGES/library/smtplib.po
 source_file = pot/library/smtplib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sndhdr]
+[python-39.library--sndhdr]
 file_filter = <lang>/LC_MESSAGES/library/sndhdr.po
 source_file = pot/library/sndhdr.pot
 source_lang = en
 type = PO
 
-[python-newest.library--socket]
+[python-39.library--socket]
 file_filter = <lang>/LC_MESSAGES/library/socket.po
 source_file = pot/library/socket.pot
 source_lang = en
 type = PO
 
-[python-newest.library--socketserver]
+[python-39.library--socketserver]
 file_filter = <lang>/LC_MESSAGES/library/socketserver.po
 source_file = pot/library/socketserver.pot
 source_lang = en
 type = PO
 
-[python-newest.library--spwd]
+[python-39.library--spwd]
 file_filter = <lang>/LC_MESSAGES/library/spwd.po
 source_file = pot/library/spwd.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sqlite3]
+[python-39.library--sqlite3]
 file_filter = <lang>/LC_MESSAGES/library/sqlite3.po
 source_file = pot/library/sqlite3.pot
 source_lang = en
 type = PO
 
-[python-newest.library--ssl]
+[python-39.library--ssl]
 file_filter = <lang>/LC_MESSAGES/library/ssl.po
 source_file = pot/library/ssl.pot
 source_lang = en
 type = PO
 
-[python-newest.library--stat]
+[python-39.library--stat]
 file_filter = <lang>/LC_MESSAGES/library/stat.po
 source_file = pot/library/stat.pot
 source_lang = en
 type = PO
 
-[python-newest.library--statistics]
+[python-39.library--statistics]
 file_filter = <lang>/LC_MESSAGES/library/statistics.po
 source_file = pot/library/statistics.pot
 source_lang = en
 type = PO
 
-[python-newest.library--stdtypes]
+[python-39.library--stdtypes]
 file_filter = <lang>/LC_MESSAGES/library/stdtypes.po
 source_file = pot/library/stdtypes.pot
 source_lang = en
 type = PO
 
-[python-newest.library--string]
+[python-39.library--string]
 file_filter = <lang>/LC_MESSAGES/library/string.po
 source_file = pot/library/string.pot
 source_lang = en
 type = PO
 
-[python-newest.library--stringprep]
+[python-39.library--stringprep]
 file_filter = <lang>/LC_MESSAGES/library/stringprep.po
 source_file = pot/library/stringprep.pot
 source_lang = en
 type = PO
 
-[python-newest.library--struct]
+[python-39.library--struct]
 file_filter = <lang>/LC_MESSAGES/library/struct.po
 source_file = pot/library/struct.pot
 source_lang = en
 type = PO
 
-[python-newest.library--subprocess]
+[python-39.library--subprocess]
 file_filter = <lang>/LC_MESSAGES/library/subprocess.po
 source_file = pot/library/subprocess.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sunau]
+[python-39.library--sunau]
 file_filter = <lang>/LC_MESSAGES/library/sunau.po
 source_file = pot/library/sunau.pot
 source_lang = en
 type = PO
 
-[python-newest.library--superseded]
+[python-39.library--superseded]
 file_filter = <lang>/LC_MESSAGES/library/superseded.po
 source_file = pot/library/superseded.pot
 source_lang = en
 type = PO
 
-[python-newest.library--symbol]
+[python-39.library--symbol]
 file_filter = <lang>/LC_MESSAGES/library/symbol.po
 source_file = pot/library/symbol.pot
 source_lang = en
 type = PO
 
-[python-newest.library--symtable]
+[python-39.library--symtable]
 file_filter = <lang>/LC_MESSAGES/library/symtable.po
 source_file = pot/library/symtable.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sys]
+[python-39.library--sys]
 file_filter = <lang>/LC_MESSAGES/library/sys.po
 source_file = pot/library/sys.pot
 source_lang = en
 type = PO
 
-[python-newest.library--sysconfig]
+[python-39.library--sysconfig]
 file_filter = <lang>/LC_MESSAGES/library/sysconfig.po
 source_file = pot/library/sysconfig.pot
 source_lang = en
 type = PO
 
-[python-newest.library--syslog]
+[python-39.library--syslog]
 file_filter = <lang>/LC_MESSAGES/library/syslog.po
 source_file = pot/library/syslog.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tabnanny]
+[python-39.library--tabnanny]
 file_filter = <lang>/LC_MESSAGES/library/tabnanny.po
 source_file = pot/library/tabnanny.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tarfile]
+[python-39.library--tarfile]
 file_filter = <lang>/LC_MESSAGES/library/tarfile.po
 source_file = pot/library/tarfile.pot
 source_lang = en
 type = PO
 
-[python-newest.library--telnetlib]
+[python-39.library--telnetlib]
 file_filter = <lang>/LC_MESSAGES/library/telnetlib.po
 source_file = pot/library/telnetlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tempfile]
+[python-39.library--tempfile]
 file_filter = <lang>/LC_MESSAGES/library/tempfile.po
 source_file = pot/library/tempfile.pot
 source_lang = en
 type = PO
 
-[python-newest.library--termios]
+[python-39.library--termios]
 file_filter = <lang>/LC_MESSAGES/library/termios.po
 source_file = pot/library/termios.pot
 source_lang = en
 type = PO
 
-[python-newest.library--test]
+[python-39.library--test]
 file_filter = <lang>/LC_MESSAGES/library/test.po
 source_file = pot/library/test.pot
 source_lang = en
 type = PO
 
-[python-newest.library--text]
+[python-39.library--text]
 file_filter = <lang>/LC_MESSAGES/library/text.po
 source_file = pot/library/text.pot
 source_lang = en
 type = PO
 
-[python-newest.library--textwrap]
+[python-39.library--textwrap]
 file_filter = <lang>/LC_MESSAGES/library/textwrap.po
 source_file = pot/library/textwrap.pot
 source_lang = en
 type = PO
 
-[python-newest.library--threading]
+[python-39.library--threading]
 file_filter = <lang>/LC_MESSAGES/library/threading.po
 source_file = pot/library/threading.pot
 source_lang = en
 type = PO
 
-[python-newest.library--time]
+[python-39.library--time]
 file_filter = <lang>/LC_MESSAGES/library/time.po
 source_file = pot/library/time.pot
 source_lang = en
 type = PO
 
-[python-newest.library--timeit]
+[python-39.library--timeit]
 file_filter = <lang>/LC_MESSAGES/library/timeit.po
 source_file = pot/library/timeit.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tk]
+[python-39.library--tk]
 file_filter = <lang>/LC_MESSAGES/library/tk.po
 source_file = pot/library/tk.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_colorchooser]
+[python-39.library--tkinter_colorchooser]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.colorchooser.po
 source_file = pot/library/tkinter.colorchooser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_dnd]
+[python-39.library--tkinter_dnd]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.dnd.po
 source_file = pot/library/tkinter.dnd.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_font]
+[python-39.library--tkinter_font]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.font.po
 source_file = pot/library/tkinter.font.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_messagebox]
+[python-39.library--tkinter_messagebox]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.messagebox.po
 source_file = pot/library/tkinter.messagebox.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter]
+[python-39.library--tkinter]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.po
 source_file = pot/library/tkinter.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_scrolledtext]
+[python-39.library--tkinter_scrolledtext]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.scrolledtext.po
 source_file = pot/library/tkinter.scrolledtext.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_tix]
+[python-39.library--tkinter_tix]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.tix.po
 source_file = pot/library/tkinter.tix.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tkinter_ttk]
+[python-39.library--tkinter_ttk]
 file_filter = <lang>/LC_MESSAGES/library/tkinter.ttk.po
 source_file = pot/library/tkinter.ttk.pot
 source_lang = en
 type = PO
 
-[python-newest.library--token]
+[python-39.library--token]
 file_filter = <lang>/LC_MESSAGES/library/token.po
 source_file = pot/library/token.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tokenize]
+[python-39.library--tokenize]
 file_filter = <lang>/LC_MESSAGES/library/tokenize.po
 source_file = pot/library/tokenize.pot
 source_lang = en
 type = PO
 
-[python-newest.library--trace]
+[python-39.library--trace]
 file_filter = <lang>/LC_MESSAGES/library/trace.po
 source_file = pot/library/trace.pot
 source_lang = en
 type = PO
 
-[python-newest.library--traceback]
+[python-39.library--traceback]
 file_filter = <lang>/LC_MESSAGES/library/traceback.po
 source_file = pot/library/traceback.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tracemalloc]
+[python-39.library--tracemalloc]
 file_filter = <lang>/LC_MESSAGES/library/tracemalloc.po
 source_file = pot/library/tracemalloc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--tty]
+[python-39.library--tty]
 file_filter = <lang>/LC_MESSAGES/library/tty.po
 source_file = pot/library/tty.pot
 source_lang = en
 type = PO
 
-[python-newest.library--turtle]
+[python-39.library--turtle]
 file_filter = <lang>/LC_MESSAGES/library/turtle.po
 source_file = pot/library/turtle.pot
 source_lang = en
 type = PO
 
-[python-newest.library--types]
+[python-39.library--types]
 file_filter = <lang>/LC_MESSAGES/library/types.po
 source_file = pot/library/types.pot
 source_lang = en
 type = PO
 
-[python-newest.library--typing]
+[python-39.library--typing]
 file_filter = <lang>/LC_MESSAGES/library/typing.po
 source_file = pot/library/typing.pot
 source_lang = en
 type = PO
 
-[python-newest.library--undoc]
+[python-39.library--undoc]
 file_filter = <lang>/LC_MESSAGES/library/undoc.po
 source_file = pot/library/undoc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unicodedata]
+[python-39.library--unicodedata]
 file_filter = <lang>/LC_MESSAGES/library/unicodedata.po
 source_file = pot/library/unicodedata.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unittest_mock-examples]
+[python-39.library--unittest_mock-examples]
 file_filter = <lang>/LC_MESSAGES/library/unittest.mock-examples.po
 source_file = pot/library/unittest.mock-examples.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unittest_mock]
+[python-39.library--unittest_mock]
 file_filter = <lang>/LC_MESSAGES/library/unittest.mock.po
 source_file = pot/library/unittest.mock.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unittest]
+[python-39.library--unittest]
 file_filter = <lang>/LC_MESSAGES/library/unittest.po
 source_file = pot/library/unittest.pot
 source_lang = en
 type = PO
 
-[python-newest.library--unix]
+[python-39.library--unix]
 file_filter = <lang>/LC_MESSAGES/library/unix.po
 source_file = pot/library/unix.pot
 source_lang = en
 type = PO
 
-[python-newest.library--urllib_error]
+[python-39.library--urllib_error]
 file_filter = <lang>/LC_MESSAGES/library/urllib.error.po
 source_file = pot/library/urllib.error.pot
 source_lang = en
 type = PO
 
-[python-newest.library--urllib_parse]
+[python-39.library--urllib_parse]
 file_filter = <lang>/LC_MESSAGES/library/urllib.parse.po
 source_file = pot/library/urllib.parse.pot
 source_lang = en
 type = PO
 
-[python-newest.library--urllib]
+[python-39.library--urllib]
 file_filter = <lang>/LC_MESSAGES/library/urllib.po
 source_file = pot/library/urllib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--urllib_request]
+[python-39.library--urllib_request]
 file_filter = <lang>/LC_MESSAGES/library/urllib.request.po
 source_file = pot/library/urllib.request.pot
 source_lang = en
 type = PO
 
-[python-newest.library--urllib_robotparser]
+[python-39.library--urllib_robotparser]
 file_filter = <lang>/LC_MESSAGES/library/urllib.robotparser.po
 source_file = pot/library/urllib.robotparser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--uu]
+[python-39.library--uu]
 file_filter = <lang>/LC_MESSAGES/library/uu.po
 source_file = pot/library/uu.pot
 source_lang = en
 type = PO
 
-[python-newest.library--uuid]
+[python-39.library--uuid]
 file_filter = <lang>/LC_MESSAGES/library/uuid.po
 source_file = pot/library/uuid.pot
 source_lang = en
 type = PO
 
-[python-newest.library--venv]
+[python-39.library--venv]
 file_filter = <lang>/LC_MESSAGES/library/venv.po
 source_file = pot/library/venv.pot
 source_lang = en
 type = PO
 
-[python-newest.library--warnings]
+[python-39.library--warnings]
 file_filter = <lang>/LC_MESSAGES/library/warnings.po
 source_file = pot/library/warnings.pot
 source_lang = en
 type = PO
 
-[python-newest.library--wave]
+[python-39.library--wave]
 file_filter = <lang>/LC_MESSAGES/library/wave.po
 source_file = pot/library/wave.pot
 source_lang = en
 type = PO
 
-[python-newest.library--weakref]
+[python-39.library--weakref]
 file_filter = <lang>/LC_MESSAGES/library/weakref.po
 source_file = pot/library/weakref.pot
 source_lang = en
 type = PO
 
-[python-newest.library--webbrowser]
+[python-39.library--webbrowser]
 file_filter = <lang>/LC_MESSAGES/library/webbrowser.po
 source_file = pot/library/webbrowser.pot
 source_lang = en
 type = PO
 
-[python-newest.library--windows]
+[python-39.library--windows]
 file_filter = <lang>/LC_MESSAGES/library/windows.po
 source_file = pot/library/windows.pot
 source_lang = en
 type = PO
 
-[python-newest.library--winreg]
+[python-39.library--winreg]
 file_filter = <lang>/LC_MESSAGES/library/winreg.po
 source_file = pot/library/winreg.pot
 source_lang = en
 type = PO
 
-[python-newest.library--winsound]
+[python-39.library--winsound]
 file_filter = <lang>/LC_MESSAGES/library/winsound.po
 source_file = pot/library/winsound.pot
 source_lang = en
 type = PO
 
-[python-newest.library--wsgiref]
+[python-39.library--wsgiref]
 file_filter = <lang>/LC_MESSAGES/library/wsgiref.po
 source_file = pot/library/wsgiref.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xdrlib]
+[python-39.library--xdrlib]
 file_filter = <lang>/LC_MESSAGES/library/xdrlib.po
 source_file = pot/library/xdrlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_dom_minidom]
+[python-39.library--xml_dom_minidom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.minidom.po
 source_file = pot/library/xml.dom.minidom.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_dom]
+[python-39.library--xml_dom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.po
 source_file = pot/library/xml.dom.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_dom_pulldom]
+[python-39.library--xml_dom_pulldom]
 file_filter = <lang>/LC_MESSAGES/library/xml.dom.pulldom.po
 source_file = pot/library/xml.dom.pulldom.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_etree_elementtree]
+[python-39.library--xml_etree_elementtree]
 file_filter = <lang>/LC_MESSAGES/library/xml.etree.elementtree.po
 source_file = pot/library/xml.etree.elementtree.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml]
+[python-39.library--xml]
 file_filter = <lang>/LC_MESSAGES/library/xml.po
 source_file = pot/library/xml.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_sax_handler]
+[python-39.library--xml_sax_handler]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.handler.po
 source_file = pot/library/xml.sax.handler.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_sax]
+[python-39.library--xml_sax]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.po
 source_file = pot/library/xml.sax.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_sax_reader]
+[python-39.library--xml_sax_reader]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.reader.po
 source_file = pot/library/xml.sax.reader.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xml_sax_utils]
+[python-39.library--xml_sax_utils]
 file_filter = <lang>/LC_MESSAGES/library/xml.sax.utils.po
 source_file = pot/library/xml.sax.utils.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xmlrpc_client]
+[python-39.library--xmlrpc_client]
 file_filter = <lang>/LC_MESSAGES/library/xmlrpc.client.po
 source_file = pot/library/xmlrpc.client.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xmlrpc]
+[python-39.library--xmlrpc]
 file_filter = <lang>/LC_MESSAGES/library/xmlrpc.po
 source_file = pot/library/xmlrpc.pot
 source_lang = en
 type = PO
 
-[python-newest.library--xmlrpc_server]
+[python-39.library--xmlrpc_server]
 file_filter = <lang>/LC_MESSAGES/library/xmlrpc.server.po
 source_file = pot/library/xmlrpc.server.pot
 source_lang = en
 type = PO
 
-[python-newest.library--zipapp]
+[python-39.library--zipapp]
 file_filter = <lang>/LC_MESSAGES/library/zipapp.po
 source_file = pot/library/zipapp.pot
 source_lang = en
 type = PO
 
-[python-newest.library--zipfile]
+[python-39.library--zipfile]
 file_filter = <lang>/LC_MESSAGES/library/zipfile.po
 source_file = pot/library/zipfile.pot
 source_lang = en
 type = PO
 
-[python-newest.library--zipimport]
+[python-39.library--zipimport]
 file_filter = <lang>/LC_MESSAGES/library/zipimport.po
 source_file = pot/library/zipimport.pot
 source_lang = en
 type = PO
 
-[python-newest.library--zlib]
+[python-39.library--zlib]
 file_filter = <lang>/LC_MESSAGES/library/zlib.po
 source_file = pot/library/zlib.pot
 source_lang = en
 type = PO
 
-[python-newest.library--zoneinfo]
+[python-39.library--zoneinfo]
 file_filter = <lang>/LC_MESSAGES/library/zoneinfo.po
 source_file = pot/library/zoneinfo.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--compound_stmts]
+[python-39.reference--compound_stmts]
 file_filter = <lang>/LC_MESSAGES/reference/compound_stmts.po
 source_file = pot/reference/compound_stmts.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--datamodel]
+[python-39.reference--datamodel]
 file_filter = <lang>/LC_MESSAGES/reference/datamodel.po
 source_file = pot/reference/datamodel.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--executionmodel]
+[python-39.reference--executionmodel]
 file_filter = <lang>/LC_MESSAGES/reference/executionmodel.po
 source_file = pot/reference/executionmodel.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--expressions]
+[python-39.reference--expressions]
 file_filter = <lang>/LC_MESSAGES/reference/expressions.po
 source_file = pot/reference/expressions.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--grammar]
+[python-39.reference--grammar]
 file_filter = <lang>/LC_MESSAGES/reference/grammar.po
 source_file = pot/reference/grammar.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--import]
+[python-39.reference--import]
 file_filter = <lang>/LC_MESSAGES/reference/import.po
 source_file = pot/reference/import.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--index]
+[python-39.reference--index]
 file_filter = <lang>/LC_MESSAGES/reference/index.po
 source_file = pot/reference/index.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--introduction]
+[python-39.reference--introduction]
 file_filter = <lang>/LC_MESSAGES/reference/introduction.po
 source_file = pot/reference/introduction.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--lexical_analysis]
+[python-39.reference--lexical_analysis]
 file_filter = <lang>/LC_MESSAGES/reference/lexical_analysis.po
 source_file = pot/reference/lexical_analysis.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--simple_stmts]
+[python-39.reference--simple_stmts]
 file_filter = <lang>/LC_MESSAGES/reference/simple_stmts.po
 source_file = pot/reference/simple_stmts.pot
 source_lang = en
 type = PO
 
-[python-newest.reference--toplevel_components]
+[python-39.reference--toplevel_components]
 file_filter = <lang>/LC_MESSAGES/reference/toplevel_components.po
 source_file = pot/reference/toplevel_components.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--appendix]
+[python-39.tutorial--appendix]
 file_filter = <lang>/LC_MESSAGES/tutorial/appendix.po
 source_file = pot/tutorial/appendix.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--appetite]
+[python-39.tutorial--appetite]
 file_filter = <lang>/LC_MESSAGES/tutorial/appetite.po
 source_file = pot/tutorial/appetite.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--classes]
+[python-39.tutorial--classes]
 file_filter = <lang>/LC_MESSAGES/tutorial/classes.po
 source_file = pot/tutorial/classes.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--controlflow]
+[python-39.tutorial--controlflow]
 file_filter = <lang>/LC_MESSAGES/tutorial/controlflow.po
 source_file = pot/tutorial/controlflow.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--datastructures]
+[python-39.tutorial--datastructures]
 file_filter = <lang>/LC_MESSAGES/tutorial/datastructures.po
 source_file = pot/tutorial/datastructures.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--errors]
+[python-39.tutorial--errors]
 file_filter = <lang>/LC_MESSAGES/tutorial/errors.po
 source_file = pot/tutorial/errors.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--floatingpoint]
+[python-39.tutorial--floatingpoint]
 file_filter = <lang>/LC_MESSAGES/tutorial/floatingpoint.po
 source_file = pot/tutorial/floatingpoint.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--index]
+[python-39.tutorial--index]
 file_filter = <lang>/LC_MESSAGES/tutorial/index.po
 source_file = pot/tutorial/index.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--inputoutput]
+[python-39.tutorial--inputoutput]
 file_filter = <lang>/LC_MESSAGES/tutorial/inputoutput.po
 source_file = pot/tutorial/inputoutput.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--interactive]
+[python-39.tutorial--interactive]
 file_filter = <lang>/LC_MESSAGES/tutorial/interactive.po
 source_file = pot/tutorial/interactive.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--interpreter]
+[python-39.tutorial--interpreter]
 file_filter = <lang>/LC_MESSAGES/tutorial/interpreter.po
 source_file = pot/tutorial/interpreter.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--introduction]
+[python-39.tutorial--introduction]
 file_filter = <lang>/LC_MESSAGES/tutorial/introduction.po
 source_file = pot/tutorial/introduction.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--modules]
+[python-39.tutorial--modules]
 file_filter = <lang>/LC_MESSAGES/tutorial/modules.po
 source_file = pot/tutorial/modules.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--stdlib]
+[python-39.tutorial--stdlib]
 file_filter = <lang>/LC_MESSAGES/tutorial/stdlib.po
 source_file = pot/tutorial/stdlib.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--stdlib2]
+[python-39.tutorial--stdlib2]
 file_filter = <lang>/LC_MESSAGES/tutorial/stdlib2.po
 source_file = pot/tutorial/stdlib2.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--venv]
+[python-39.tutorial--venv]
 file_filter = <lang>/LC_MESSAGES/tutorial/venv.po
 source_file = pot/tutorial/venv.pot
 source_lang = en
 type = PO
 
-[python-newest.tutorial--whatnow]
+[python-39.tutorial--whatnow]
 file_filter = <lang>/LC_MESSAGES/tutorial/whatnow.po
 source_file = pot/tutorial/whatnow.pot
 source_lang = en
 type = PO
 
-[python-newest.using--cmdline]
+[python-39.using--cmdline]
 file_filter = <lang>/LC_MESSAGES/using/cmdline.po
 source_file = pot/using/cmdline.pot
 source_lang = en
 type = PO
 
-[python-newest.using--editors]
+[python-39.using--editors]
 file_filter = <lang>/LC_MESSAGES/using/editors.po
 source_file = pot/using/editors.pot
 source_lang = en
 type = PO
 
-[python-newest.using--index]
+[python-39.using--index]
 file_filter = <lang>/LC_MESSAGES/using/index.po
 source_file = pot/using/index.pot
 source_lang = en
 type = PO
 
-[python-newest.using--mac]
+[python-39.using--mac]
 file_filter = <lang>/LC_MESSAGES/using/mac.po
 source_file = pot/using/mac.pot
 source_lang = en
 type = PO
 
-[python-newest.using--unix]
+[python-39.using--unix]
 file_filter = <lang>/LC_MESSAGES/using/unix.po
 source_file = pot/using/unix.pot
 source_lang = en
 type = PO
 
-[python-newest.using--windows]
+[python-39.using--windows]
 file_filter = <lang>/LC_MESSAGES/using/windows.po
 source_file = pot/using/windows.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_0]
+[python-39.whatsnew--2_0]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.0.po
 source_file = pot/whatsnew/2.0.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_1]
+[python-39.whatsnew--2_1]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.1.po
 source_file = pot/whatsnew/2.1.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_2]
+[python-39.whatsnew--2_2]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.2.po
 source_file = pot/whatsnew/2.2.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_3]
+[python-39.whatsnew--2_3]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.3.po
 source_file = pot/whatsnew/2.3.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_4]
+[python-39.whatsnew--2_4]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.4.po
 source_file = pot/whatsnew/2.4.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_5]
+[python-39.whatsnew--2_5]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.5.po
 source_file = pot/whatsnew/2.5.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_6]
+[python-39.whatsnew--2_6]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.6.po
 source_file = pot/whatsnew/2.6.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--2_7]
+[python-39.whatsnew--2_7]
 file_filter = <lang>/LC_MESSAGES/whatsnew/2.7.po
 source_file = pot/whatsnew/2.7.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_0]
+[python-39.whatsnew--3_0]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.0.po
 source_file = pot/whatsnew/3.0.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_1]
+[python-39.whatsnew--3_1]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.1.po
 source_file = pot/whatsnew/3.1.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_2]
+[python-39.whatsnew--3_2]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.2.po
 source_file = pot/whatsnew/3.2.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_3]
+[python-39.whatsnew--3_3]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.3.po
 source_file = pot/whatsnew/3.3.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_4]
+[python-39.whatsnew--3_4]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.4.po
 source_file = pot/whatsnew/3.4.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_5]
+[python-39.whatsnew--3_5]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.5.po
 source_file = pot/whatsnew/3.5.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_6]
+[python-39.whatsnew--3_6]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.6.po
 source_file = pot/whatsnew/3.6.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_7]
+[python-39.whatsnew--3_7]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.7.po
 source_file = pot/whatsnew/3.7.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_8]
+[python-39.whatsnew--3_8]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.8.po
 source_file = pot/whatsnew/3.8.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--3_9]
+[python-39.whatsnew--3_9]
 file_filter = <lang>/LC_MESSAGES/whatsnew/3.9.po
 source_file = pot/whatsnew/3.9.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--changelog]
+[python-39.whatsnew--changelog]
 file_filter = <lang>/LC_MESSAGES/whatsnew/changelog.po
 source_file = pot/whatsnew/changelog.pot
 source_lang = en
 type = PO
 
-[python-newest.whatsnew--index]
+[python-39.whatsnew--index]
 file_filter = <lang>/LC_MESSAGES/whatsnew/index.po
 source_file = pot/whatsnew/index.pot
 source_lang = en
