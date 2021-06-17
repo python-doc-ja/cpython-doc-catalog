@@ -385,6 +385,12 @@ source_file = pot/c-api/type.pot
 source_lang = en
 type = PO
 
+[python-39.c-api--typehints]
+file_filter = <lang>/LC_MESSAGES/c-api/typehints.po
+source_file = pot/c-api/typehints.pot
+source_lang = en
+type = PO
+
 [python-39.c-api--typeobj]
 file_filter = <lang>/LC_MESSAGES/c-api/typeobj.po
 source_file = pot/c-api/typeobj.pot

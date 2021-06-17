@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-07 05:06+0000\n"
+"POT-Creation-Date: 2021-06-17 06:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Return the difference between two complex numbers, using the C :c:type:`P
 msgstr ""
 
 #: ../../c-api/complex.rst:51
-msgid "Return the negation of the complex number *complex*, using the C :c:type:`Py_complex` representation."
+msgid "Return the negation of the complex number *num*, using the C :c:type:`Py_complex` representation."
 msgstr ""
 
 #: ../../c-api/complex.rst:57
