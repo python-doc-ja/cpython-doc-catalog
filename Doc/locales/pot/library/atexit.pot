@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-06-23 06:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "At normal program termination (for instance, if :func:`sys.exit` is calle
 msgstr ""
 
 #: ../../library/atexit.rst:40
-msgid "If an exception is raised during execution of the exit handlers, a traceback is printed (unless :exc:`SystemExit` is raised) and the exception information is saved.  After all exit handlers have had a chance to run the last exception to be raised is re-raised."
+msgid "If an exception is raised during execution of the exit handlers, a traceback is printed (unless :exc:`SystemExit` is raised) and the exception information is saved.  After all exit handlers have had a chance to run, the last exception to be raised is re-raised."
 msgstr ""
 
 #: ../../library/atexit.rst:45
@@ -68,14 +68,14 @@ msgstr ""
 msgid "The following simple example demonstrates how a module can initialize a counter from a file when it is imported and save the counter's updated value automatically when the program terminates without relying on the application making an explicit call into this module at termination. ::"
 msgstr ""
 
-#: ../../library/atexit.rst:92
+#: ../../library/atexit.rst:93
 msgid "Positional and keyword arguments may also be passed to :func:`register` to be passed along to the registered function when it is called::"
 msgstr ""
 
-#: ../../library/atexit.rst:104
+#: ../../library/atexit.rst:105
 msgid "Usage as a :term:`decorator`::"
 msgstr ""
 
-#: ../../library/atexit.rst:112
+#: ../../library/atexit.rst:113
 msgid "This only works with functions that can be called without arguments."
 msgstr ""
