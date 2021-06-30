@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-06-30 06:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,33 +114,33 @@ msgid "Returns a ``tuple`` with all the nodes that are ready. Initially it retur
 msgstr ""
 
 #: ../../library/graphlib.rst:157
-msgid "Returns an iterable of nodes in a topological order. Using this method does not require to call :meth:`TopologicalSorter.prepare` or :meth:`TopologicalSorter.done`. This method is equivalent to::"
+msgid "Returns an iterator object which will iterate over nodes in a topological order. When using this method, :meth:`~TopologicalSorter.prepare` and :meth:`~TopologicalSorter.done` should not be called. This method is equivalent to::"
 msgstr ""
 
-#: ../../library/graphlib.rst:168
+#: ../../library/graphlib.rst:169
 msgid "The particular order that is returned may depend on the specific order in which the items were inserted in the graph. For example:"
 msgstr ""
 
-#: ../../library/graphlib.rst:185
+#: ../../library/graphlib.rst:186
 msgid "This is due to the fact that \"0\" and \"2\" are in the same level in the graph (they would have been returned in the same call to :meth:`~TopologicalSorter.get_ready`) and the order between them is determined by the order of insertion."
 msgstr ""
 
-#: ../../library/graphlib.rst:191
+#: ../../library/graphlib.rst:192
 msgid "If any cycle is detected, :exc:`CycleError` will be raised."
 msgstr ""
 
-#: ../../library/graphlib.rst:197
+#: ../../library/graphlib.rst:198
 msgid "Exceptions"
 msgstr ""
 
-#: ../../library/graphlib.rst:198
+#: ../../library/graphlib.rst:199
 msgid "The :mod:`graphlib` module defines the following exception classes:"
 msgstr ""
 
-#: ../../library/graphlib.rst:202
+#: ../../library/graphlib.rst:203
 msgid "Subclass of :exc:`ValueError` raised by :meth:`TopologicalSorter.prepare` if cycles exist in the working graph. If multiple cycles exist, only one undefined choice among them will be reported and included in the exception."
 msgstr ""
 
-#: ../../library/graphlib.rst:206
+#: ../../library/graphlib.rst:207
 msgid "The detected cycle can be accessed via the second element in the :attr:`~CycleError.args` attribute of the exception instance and consists in a list of nodes, such that each node is, in the graph, an immediate predecessor of the next node in the list. In the reported list, the first and the last node will be the same, to make it clear that it is cyclic."
 msgstr ""
