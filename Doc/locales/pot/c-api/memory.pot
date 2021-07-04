@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-04 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -533,7 +533,7 @@ msgid "Debug hooks on the Python memory allocators"
 msgstr ""
 
 #: ../../c-api/memory.rst:491
-msgid "When :ref:`Python is built is debug mode <debug-build>`, the :c:func:`PyMem_SetupDebugHooks` function is called at the :ref:`Python preinitialization <c-preinit>` to setup debug hooks on Python memory allocators to detect memory errors."
+msgid "When :ref:`Python is built in debug mode <debug-build>`, the :c:func:`PyMem_SetupDebugHooks` function is called at the :ref:`Python preinitialization <c-preinit>` to setup debug hooks on Python memory allocators to detect memory errors."
 msgstr ""
 
 #: ../../c-api/memory.rst:496
