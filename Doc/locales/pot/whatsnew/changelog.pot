@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 17:46+0000\n"
+"POT-Creation-Date: 2021-07-06 17:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgid "Security"
 msgstr ""
 
 #: ../../../build/NEWS:12
-msgid "`bpo-44022 <https://bugs.python.org/issue44022>`__: mod:`http.client` now avoids infinitely reading potential HTTP headers after a ``100 Continue`` status response from the server."
+msgid "`bpo-44022 <https://bugs.python.org/issue44022>`__: :mod:`http.client` now avoids infinitely reading potential HTTP headers after a ``100 Continue`` status response from the server."
 msgstr ""
 
 #: ../../../build/NEWS:15
