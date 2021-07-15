@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 06:27+0000\n"
+"POT-Creation-Date: 2021-07-15 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -434,7 +434,7 @@ msgid "Here's a shorter example using a :term:`generator`:"
 msgstr ""
 
 #: ../../library/sqlite3.rst:636
-msgid "This is a nonstandard convenience method for executing multiple SQL statements at once. It issues a ``COMMIT`` statement first, then executes the SQL script it gets as a parameter.  This method disregards :attr:`isolation_level`; any transation control must be added to *sql_script*."
+msgid "This is a nonstandard convenience method for executing multiple SQL statements at once. It issues a ``COMMIT`` statement first, then executes the SQL script it gets as a parameter.  This method disregards :attr:`isolation_level`; any transaction control must be added to *sql_script*."
 msgstr ""
 
 #: ../../library/sqlite3.rst:641
