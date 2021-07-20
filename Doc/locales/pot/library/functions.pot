@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-20 13:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -426,7 +426,7 @@ msgid "Return ``True`` if any element of the *iterable* is true.  If the iterabl
 msgstr ""
 
 #: ../../library/functions.rst:117
-msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\\x``, ``\\u`` or ``\\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
+msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\\x``, ``\\u``, or ``\\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
 msgstr ""
 
 #: ../../library/functions.rst:125
@@ -434,7 +434,7 @@ msgid "Convert an integer number to a binary string prefixed with \"0b\". The re
 msgstr ""
 
 #: ../../library/functions.rst:135
-msgid "If prefix \"0b\" is desired or not, you can use either of the following ways."
+msgid "If the prefix \"0b\" is desired or not, you can use either of the following ways."
 msgstr ""
 
 #: ../../library/functions.rst:142
@@ -444,7 +444,7 @@ msgid "See also :func:`format` for more information."
 msgstr ""
 
 #: ../../library/functions.rst:147
-msgid "Return a Boolean value, i.e. one of ``True`` or ``False``.  *x* is converted using the standard :ref:`truth testing procedure <truth>`.  If *x* is false or omitted, this returns ``False``; otherwise it returns ``True``.  The :class:`bool` class is a subclass of :class:`int` (see :ref:`typesnumeric`). It cannot be subclassed further.  Its only instances are ``False`` and ``True`` (see :ref:`bltin-boolean-values`)."
+msgid "Return a Boolean value, i.e. one of ``True`` or ``False``.  *x* is converted using the standard :ref:`truth testing procedure <truth>`.  If *x* is false or omitted, this returns ``False``; otherwise, it returns ``True``.  The :class:`bool` class is a subclass of :class:`int` (see :ref:`typesnumeric`). It cannot be subclassed further.  Its only instances are ``False`` and ``True`` (see :ref:`bltin-boolean-values`)."
 msgstr ""
 
 #: ../../library/functions.rst:156
@@ -494,7 +494,7 @@ msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
 msgstr ""
 
 #: ../../library/functions.rst:209
-msgid "Return a new \"bytes\" object, which is an immutable sequence of integers in the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of :class:`bytearray` -- it has the same non-mutating methods and the same indexing and slicing behavior."
+msgid "Return a new \"bytes\" object which is an immutable sequence of integers in the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of :class:`bytearray` -- it has the same non-mutating methods and the same indexing and slicing behavior."
 msgstr ""
 
 #: ../../library/functions.rst:214
@@ -530,7 +530,7 @@ msgid "Transform a method into a class method."
 msgstr ""
 
 #: ../../library/functions.rst:248
-msgid "A class method receives the class as implicit first argument, just like an instance method receives the instance. To declare a class method, use this idiom::"
+msgid "A class method receives the class as an implicit first argument, just like an instance method receives the instance. To declare a class method, use this idiom::"
 msgstr ""
 
 #: ../../library/functions.rst:256
@@ -602,7 +602,7 @@ msgid "It is possible to crash the Python interpreter with a sufficiently large/
 msgstr ""
 
 #: ../../library/functions.rst:344
-msgid "Allowed use of Windows and Mac newlines.  Also input in ``'exec'`` mode does not have to end in a newline anymore.  Added the *optimize* parameter."
+msgid "Allowed use of Windows and Mac newlines.  Also, input in ``'exec'`` mode does not have to end in a newline anymore.  Added the *optimize* parameter."
 msgstr ""
 
 #: ../../library/functions.rst:348
@@ -660,7 +660,7 @@ msgid "If the object has a method named :meth:`__dir__`, this method will be cal
 msgstr ""
 
 #: ../../library/functions.rst:421
-msgid "If the object does not provide :meth:`__dir__`, the function tries its best to gather information from the object's :attr:`~object.__dict__` attribute, if defined, and from its type object.  The resulting list is not necessarily complete, and may be inaccurate when the object has a custom :func:`__getattr__`."
+msgid "If the object does not provide :meth:`__dir__`, the function tries its best to gather information from the object's :attr:`~object.__dict__` attribute, if defined, and from its type object.  The resulting list is not necessarily complete and may be inaccurate when the object has a custom :func:`__getattr__`."
 msgstr ""
 
 #: ../../library/functions.rst:426
@@ -688,7 +688,7 @@ msgid "Because :func:`dir` is supplied primarily as a convenience for use at an 
 msgstr ""
 
 #: ../../library/functions.rst:469
-msgid "Take two (non complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division.  With mixed operand types, the rules for binary arithmetic operators apply.  For integers, the result is the same as ``(a // b, a % b)``. For floating point numbers the result is ``(q, a % b)``, where *q* is usually ``math.floor(a / b)`` but may be 1 less than that.  In any case ``q * b + a % b`` is very close to *a*, if ``a % b`` is non-zero it has the same sign as *b*, and ``0 <= abs(a % b) < abs(b)``."
+msgid "Take two (non-complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division.  With mixed operand types, the rules for binary arithmetic operators apply.  For integers, the result is the same as ``(a // b, a % b)``. For floating point numbers the result is ``(q, a % b)``, where *q* is usually ``math.floor(a / b)`` but may be 1 less than that.  In any case ``q * b + a % b`` is very close to *a*, if ``a % b`` is non-zero it has the same sign as *b*, and ``0 <= abs(a % b) < abs(b)``."
 msgstr ""
 
 #: ../../library/functions.rst:481
@@ -712,11 +712,11 @@ msgid "The return value is the result of the evaluated expression. Syntax errors
 msgstr ""
 
 #: ../../library/functions.rst:530
-msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\\'s return value will be ``None``."
+msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case, pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\\'s return value will be ``None``."
 msgstr ""
 
 #: ../../library/functions.rst:535
-msgid "Hints: dynamic execution of statements is supported by the :func:`exec` function.  The :func:`globals` and :func:`locals` functions returns the current global and local dictionary, respectively, which may be useful to pass around for use by :func:`eval` or :func:`exec`."
+msgid "Hints: dynamic execution of statements is supported by the :func:`exec` function.  The :func:`globals` and :func:`locals` functions return the current global and local dictionary, respectively, which may be useful to pass around for use by :func:`eval` or :func:`exec`."
 msgstr ""
 
 #: ../../library/functions.rst:540
@@ -742,7 +742,7 @@ msgid "This function supports dynamic execution of Python code. *object* must be
 msgstr ""
 
 #: ../../library/functions.rst:566
-msgid "In all cases, if the optional parts are omitted, the code is executed in the current scope.  If only *globals* is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables.  If *globals* and *locals* are given, they are used for the global and local variables, respectively.  If provided, *locals* can be any mapping object.  Remember that at module level, globals and locals are the same dictionary. If exec gets two separate objects as *globals* and *locals*, the code will be executed as if it were embedded in a class definition."
+msgid "In all cases, if the optional parts are omitted, the code is executed in the current scope.  If only *globals* is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables.  If *globals* and *locals* are given, they are used for the global and local variables, respectively.  If provided, *locals* can be any mapping object.  Remember that at the module level, globals and locals are the same dictionary. If exec gets two separate objects as *globals* and *locals*, the code will be executed as if it were embedded in a class definition."
 msgstr ""
 
 #: ../../library/functions.rst:576
@@ -774,11 +774,11 @@ msgid "Return a floating point number constructed from a number or string *x*."
 msgstr ""
 
 #: ../../library/functions.rst:626
-msgid "If the argument is a string, it should contain a decimal number, optionally preceded by a sign, and optionally embedded in whitespace.  The optional sign may be ``'+'`` or ``'-'``; a ``'+'`` sign has no effect on the value produced.  The argument may also be a string representing a NaN (not-a-number), or a positive or negative infinity.  More precisely, the input must conform to the following grammar after leading and trailing whitespace characters are removed:"
+msgid "If the argument is a string, it should contain a decimal number, optionally preceded by a sign, and optionally embedded in whitespace.  The optional sign may be ``'+'`` or ``'-'``; a ``'+'`` sign has no effect on the value produced.  The argument may also be a string representing a NaN (not-a-number), or positive or negative infinity.  More precisely, the input must conform to the following grammar after leading and trailing whitespace characters are removed:"
 msgstr ""
 
 #: ../../library/functions.rst:641
-msgid "Here ``floatnumber`` is the form of a Python floating-point literal, described in :ref:`floating`.  Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\" and \"iNfINity\" are all acceptable spellings for positive infinity."
+msgid "Here ``floatnumber`` is the form of a Python floating-point literal, described in :ref:`floating`.  Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", and \"iNfINity\" are all acceptable spellings for positive infinity."
 msgstr ""
 
 #: ../../library/functions.rst:646
@@ -806,7 +806,7 @@ msgid "Falls back to :meth:`__index__` if :meth:`__float__` is not defined."
 msgstr ""
 
 #: ../../library/functions.rst:688
-msgid "Convert a *value* to a \"formatted\" representation, as controlled by *format_spec*.  The interpretation of *format_spec* will depend on the type of the *value* argument, however there is a standard formatting syntax that is used by most built-in types: :ref:`formatspec`."
+msgid "Convert a *value* to a \"formatted\" representation, as controlled by *format_spec*.  The interpretation of *format_spec* will depend on the type of the *value* argument; however, there is a standard formatting syntax that is used by most built-in types: :ref:`formatspec`."
 msgstr ""
 
 #: ../../library/functions.rst:693
@@ -858,7 +858,7 @@ msgid "Invoke the built-in help system.  (This function is intended for interact
 msgstr ""
 
 #: ../../library/functions.rst:774
-msgid "Note that if a slash(/) appears in the parameter list of a function, when invoking :func:`help`, it means that the parameters prior to the slash are positional-only. For more info, see :ref:`the FAQ entry on positional-only parameters <faq-positional-only-arguments>`."
+msgid "Note that if a slash(/) appears in the parameter list of a function when invoking :func:`help`, it means that the parameters prior to the slash are positional-only. For more info, see :ref:`the FAQ entry on positional-only parameters <faq-positional-only-arguments>`."
 msgstr ""
 
 #: ../../library/functions.rst:779
@@ -938,7 +938,7 @@ msgid "Falls back to :meth:`__index__` if :meth:`__int__` is not defined."
 msgstr ""
 
 #: ../../library/functions.rst:900
-msgid "Return ``True`` if the *object* argument is an instance of the *classinfo* argument, or of a (direct, indirect or :term:`virtual <abstract base class>`) subclass thereof.  If *object* is not an object of the given type, the function always returns ``False``. If *classinfo* is a tuple of type objects (or recursively, other such tuples) or a :ref:`types-union` of multiple types, return ``True`` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a :exc:`TypeError` exception is raised."
+msgid "Return ``True`` if the *object* argument is an instance of the *classinfo* argument, or of a (direct, indirect, or :term:`virtual <abstract base class>`) subclass thereof.  If *object* is not an object of the given type, the function always returns ``False``. If *classinfo* is a tuple of type objects (or recursively, other such tuples) or a :ref:`types-union` of multiple types, return ``True`` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a :exc:`TypeError` exception is raised."
 msgstr ""
 
 #: ../../library/functions.rst:910
@@ -947,7 +947,7 @@ msgid "*classinfo* can be a :ref:`types-union`."
 msgstr ""
 
 #: ../../library/functions.rst:916
-msgid "Return ``True`` if *class* is a subclass (direct, indirect or :term:`virtual <abstract base class>`) of *classinfo*.  A class is considered a subclass of itself. *classinfo* may be a tuple of class objects or a :ref:`types-union`, in which case every entry in *classinfo* will be checked. In any other case, a :exc:`TypeError` exception is raised."
+msgid "Return ``True`` if *class* is a subclass (direct, indirect, or :term:`virtual <abstract base class>`) of *classinfo*.  A class is considered a subclass of itself. *classinfo* may be a tuple of class objects or a :ref:`types-union`, in which case every entry in *classinfo* will be checked. In any other case, a :exc:`TypeError` exception is raised."
 msgstr ""
 
 #: ../../library/functions.rst:929
@@ -1034,7 +1034,7 @@ msgid "Retrieve the next item from the *iterator* by calling its :meth:`~iterato
 msgstr ""
 
 #: ../../library/functions.rst:1070
-msgid "Return a new featureless object.  :class:`object` is a base for all classes. It has the methods that are common to all instances of Python classes.  This function does not accept any arguments."
+msgid "Return a new featureless object.  :class:`object` is a base for all classes. It has methods that are common to all instances of Python classes.  This function does not accept any arguments."
 msgstr ""
 
 #: ../../library/functions.rst:1076
@@ -1046,7 +1046,7 @@ msgid "Convert an integer number to an octal string prefixed with \"0o\".  The r
 msgstr ""
 
 #: ../../library/functions.rst:1092
-msgid "If you want to convert an integer number to octal string either with prefix \"0o\" or not, you can use either of the following ways."
+msgid "If you want to convert an integer number to an octal string either with the prefix \"0o\" or not, you can use either of the following ways."
 msgstr ""
 
 #: ../../library/functions.rst:1109
@@ -1054,11 +1054,11 @@ msgid "Open *file* and return a corresponding :term:`file object`.  If the file 
 msgstr ""
 
 #: ../../library/functions.rst:1113
-msgid "*file* is a :term:`path-like object` giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped.  (If a file descriptor is given, it is closed when the returned I/O object is closed, unless *closefd* is set to ``False``.)"
+msgid "*file* is a :term:`path-like object` giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped.  (If a file descriptor is given, it is closed when the returned I/O object is closed unless *closefd* is set to ``False``.)"
 msgstr ""
 
 #: ../../library/functions.rst:1119
-msgid "*mode* is an optional string that specifies the mode in which the file is opened.  It defaults to ``'r'`` which means open for reading in text mode. Other common values are ``'w'`` for writing (truncating the file if it already exists), ``'x'`` for exclusive creation and ``'a'`` for appending (which on *some* Unix systems, means that *all* writes append to the end of the file regardless of the current seek position).  In text mode, if *encoding* is not specified the encoding used is platform dependent: ``locale.getpreferredencoding(False)`` is called to get the current locale encoding. (For reading and writing raw bytes use binary mode and leave *encoding* unspecified.)  The available modes are:"
+msgid "*mode* is an optional string that specifies the mode in which the file is opened.  It defaults to ``'r'`` which means open for reading in text mode. Other common values are ``'w'`` for writing (truncating the file if it already exists), ``'x'`` for exclusive creation, and ``'a'`` for appending (which on *some* Unix systems, means that *all* writes append to the end of the file regardless of the current seek position).  In text mode, if *encoding* is not specified the encoding used is platform-dependent: ``locale.getpreferredencoding(False)`` is called to get the current locale encoding. (For reading and writing raw bytes use binary mode and leave *encoding* unspecified.)  The available modes are:"
 msgstr ""
 
 #: ../../library/functions.rst:1136
@@ -1098,7 +1098,7 @@ msgid "``'a'``"
 msgstr ""
 
 #: ../../library/functions.rst:1141
-msgid "open for writing, appending to the end of the file if it exists"
+msgid "open for writing, appending to the end of file if it exists"
 msgstr ""
 
 #: ../../library/functions.rst:1142
@@ -1126,7 +1126,7 @@ msgid "open for updating (reading and writing)"
 msgstr ""
 
 #: ../../library/functions.rst:1147
-msgid "The default mode is ``'r'`` (open for reading text, synonym of ``'rt'``). Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and ``'r+b'`` open the file with no truncation."
+msgid "The default mode is ``'r'`` (open for reading text, a synonym of ``'rt'``). Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and ``'r+b'`` open the file with no truncation."
 msgstr ""
 
 #: ../../library/functions.rst:1151
@@ -1134,7 +1134,7 @@ msgid "As mentioned in the :ref:`io-overview`, Python distinguishes between bina
 msgstr ""
 
 #: ../../library/functions.rst:1159
-msgid "There is an additional mode character permitted, ``'U'``, which no longer has any effect, and is considered deprecated. It previously enabled :term:`universal newlines` in text mode, which became the default behaviour in Python 3.0. Refer to the documentation of the :ref:`newline <open-newline-parameter>` parameter for further details."
+msgid "There is an additional mode character permitted, ``'U'``, which no longer has any effect, and is considered deprecated. It previously enabled :term:`universal newlines` in text mode, which became the default behavior in Python 3.0. Refer to the documentation of the :ref:`newline <open-newline-parameter>` parameter for further details."
 msgstr ""
 
 #: ../../library/functions.rst:1167
@@ -1202,7 +1202,7 @@ msgid "When writing output to the stream, if *newline* is ``None``, any ``'\\n'`
 msgstr ""
 
 #: ../../library/functions.rst:1251
-msgid "If *closefd* is ``False`` and a file descriptor rather than a filename was given, the underlying file descriptor will be kept open when the file is closed.  If a filename is given *closefd* must be ``True`` (the default) otherwise an error will be raised."
+msgid "If *closefd* is ``False`` and a file descriptor rather than a filename was given, the underlying file descriptor will be kept open when the file is closed.  If a filename is given *closefd* must be ``True`` (the default); otherwise, an error will be raised."
 msgstr ""
 
 #: ../../library/functions.rst:1256
@@ -1222,7 +1222,7 @@ msgid "The type of :term:`file object` returned by the :func:`open` function dep
 msgstr ""
 
 #: ../../library/functions.rst:1298
-msgid "See also the file handling modules, such as, :mod:`fileinput`, :mod:`io` (where :func:`open` is declared), :mod:`os`, :mod:`os.path`, :mod:`tempfile`, and :mod:`shutil`."
+msgid "See also the file handling modules, such as :mod:`fileinput`, :mod:`io` (where :func:`open` is declared), :mod:`os`, :mod:`os.path`, :mod:`tempfile`, and :mod:`shutil`."
 msgstr ""
 
 #: ../../library/functions.rst:1302
@@ -1302,7 +1302,7 @@ msgid "Allow keyword arguments.  Formerly, only positional arguments were suppor
 msgstr ""
 
 #: ../../library/functions.rst:1387
-msgid "Print *objects* to the text stream *file*, separated by *sep* and followed by *end*.  *sep*, *end*, *file* and *flush*, if present, must be given as keyword arguments."
+msgid "Print *objects* to the text stream *file*, separated by *sep* and followed by *end*.  *sep*, *end*, *file*, and *flush*, if present, must be given as keyword arguments."
 msgstr ""
 
 #: ../../library/functions.rst:1391
@@ -1314,7 +1314,7 @@ msgid "The *file* argument must be an object with a ``write(string)`` method; if
 msgstr ""
 
 #: ../../library/functions.rst:1402
-msgid "Whether output is buffered is usually determined by *file*, but if the *flush* keyword argument is true, the stream is forcibly flushed."
+msgid "Whether the output is buffered is usually determined by *file*, but if the *flush* keyword argument is true, the stream is forcibly flushed."
 msgstr ""
 
 #: ../../library/functions.rst:1405
@@ -1334,7 +1334,7 @@ msgid "A typical use is to define a managed attribute ``x``::"
 msgstr ""
 
 #: ../../library/functions.rst:1434
-msgid "If *c* is an instance of *C*, ``c.x`` will invoke the getter, ``c.x = value`` will invoke the setter and ``del c.x`` the deleter."
+msgid "If *c* is an instance of *C*, ``c.x`` will invoke the getter, ``c.x = value`` will invoke the setter, and ``del c.x`` the deleter."
 msgstr ""
 
 #: ../../library/functions.rst:1437
@@ -1366,7 +1366,7 @@ msgid "Rather than being a function, :class:`range` is actually an immutable seq
 msgstr ""
 
 #: ../../library/functions.rst:1498
-msgid "Return a string containing a printable representation of an object.  For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to :func:`eval`, otherwise the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object.  A class can control what this function returns for its instances by defining a :meth:`__repr__` method."
+msgid "Return a string containing a printable representation of an object.  For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to :func:`eval`; otherwise, the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object.  A class can control what this function returns for its instances by defining a :meth:`__repr__` method."
 msgstr ""
 
 #: ../../library/functions.rst:1509
@@ -1378,7 +1378,7 @@ msgid "Return *number* rounded to *ndigits* precision after the decimal point.  
 msgstr ""
 
 #: ../../library/functions.rst:1521
-msgid "For the built-in types supporting :func:`round`, values are rounded to the closest multiple of 10 to the power minus *ndigits*; if two multiples are equally close, rounding is done toward the even choice (so, for example, both ``round(0.5)`` and ``round(-0.5)`` are ``0``, and ``round(1.5)`` is ``2``).  Any integer value is valid for *ndigits* (positive, zero, or negative).  The return value is an integer if *ndigits* is omitted or ``None``. Otherwise the return value has the same type as *number*."
+msgid "For the built-in types supporting :func:`round`, values are rounded to the closest multiple of 10 to the power minus *ndigits*; if two multiples are equally close, rounding is done toward the even choice (so, for example, both ``round(0.5)`` and ``round(-0.5)`` are ``0``, and ``round(1.5)`` is ``2``).  Any integer value is valid for *ndigits* (positive, zero, or negative).  The return value is an integer if *ndigits* is omitted or ``None``. Otherwise, the return value has the same type as *number*."
 msgstr ""
 
 #: ../../library/functions.rst:1530
@@ -1398,7 +1398,7 @@ msgid "For other containers see the built-in :class:`frozenset`, :class:`list`, 
 msgstr ""
 
 #: ../../library/functions.rst:1557
-msgid "This is the counterpart of :func:`getattr`.  The arguments are an object, a string and an arbitrary value.  The string may name an existing attribute or a new attribute.  The function assigns the value to the attribute, provided the object allows it.  For example, ``setattr(x, 'foobar', 123)`` is equivalent to ``x.foobar = 123``."
+msgid "This is the counterpart of :func:`getattr`.  The arguments are an object, a string, and an arbitrary value.  The string may name an existing attribute or a new attribute.  The function assigns the value to the attribute, provided the object allows it.  For example, ``setattr(x, 'foobar', 123)`` is equivalent to ``x.foobar = 123``."
 msgstr ""
 
 #: ../../library/functions.rst:1565
@@ -1406,7 +1406,7 @@ msgid "Since :ref:`private name mangling <private-name-mangling>` happens at com
 msgstr ""
 
 #: ../../library/functions.rst:1574
-msgid "Return a :term:`slice` object representing the set of indices specified by ``range(start, stop, step)``.  The *start* and *step* arguments default to ``None``.  Slice objects have read-only data attributes :attr:`~slice.start`, :attr:`~slice.stop` and :attr:`~slice.step` which merely return the argument values (or their default).  They have no other explicit functionality; however they are used by NumPy and other third party packages. Slice objects are also generated when extended indexing syntax is used.  For example: ``a[start:stop:step]`` or ``a[start:stop, i]``.  See :func:`itertools.islice` for an alternate version that returns an iterator."
+msgid "Return a :term:`slice` object representing the set of indices specified by ``range(start, stop, step)``.  The *start* and *step* arguments default to ``None``.  Slice objects have read-only data attributes :attr:`~slice.start`, :attr:`~slice.stop`, and :attr:`~slice.step` which merely return the argument values (or their default).  They have no other explicit functionality; however, they are used by NumPy and other third-party packages. Slice objects are also generated when extended indexing syntax is used.  For example: ``a[start:stop:step]`` or ``a[start:stop, i]``.  See :func:`itertools.islice` for an alternate version that returns an iterator."
 msgstr ""
 
 #: ../../library/functions.rst:1587
@@ -1454,7 +1454,7 @@ msgid "A static method can be called either on the class (such as ``C.f()``) or 
 msgstr ""
 
 #: ../../library/functions.rst:1626
-msgid "Static methods in Python are similar to those found in Java or C++. Also see :func:`classmethod` for a variant that is useful for creating alternate class constructors."
+msgid "Static methods in Python are similar to those found in Java or C++. Also, see :func:`classmethod` for a variant that is useful for creating alternate class constructors."
 msgstr ""
 
 #: ../../library/functions.rst:1630
@@ -1658,7 +1658,7 @@ msgid "This function is invoked by the :keyword:`import` statement.  It can be r
 msgstr ""
 
 #: ../../library/functions.rst:1922
-msgid "The function imports the module *name*, potentially using the given *globals* and *locals* to determine how to interpret the name in a package context. The *fromlist* gives the names of objects or submodules that should be imported from the module given by *name*.  The standard implementation does not use its *locals* argument at all, and uses its *globals* only to determine the package context of the :keyword:`import` statement."
+msgid "The function imports the module *name*, potentially using the given *globals* and *locals* to determine how to interpret the name in a package context. The *fromlist* gives the names of objects or submodules that should be imported from the module given by *name*.  The standard implementation does not use its *locals* argument at all and uses its *globals* only to determine the package context of the :keyword:`import` statement."
 msgstr ""
 
 #: ../../library/functions.rst:1929
