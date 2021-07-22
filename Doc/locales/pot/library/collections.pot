@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-22 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -774,7 +774,7 @@ msgid "The class, :class:`UserDict` acts as a wrapper around dictionary objects.
 msgstr ""
 
 #: ../../library/collections.rst:1208
-msgid "Class that simulates a dictionary.  The instance's contents are kept in a regular dictionary, which is accessible via the :attr:`data` attribute of :class:`UserDict` instances.  If *initialdata* is provided, :attr:`data` is initialized with its contents; note that a reference to *initialdata* will not be kept, allowing it be used for other purposes."
+msgid "Class that simulates a dictionary.  The instance's contents are kept in a regular dictionary, which is accessible via the :attr:`data` attribute of :class:`UserDict` instances.  If *initialdata* is provided, :attr:`data` is initialized with its contents; note that a reference to *initialdata* will not be kept, allowing it to be used for other purposes."
 msgstr ""
 
 #: ../../library/collections.rst:1214
