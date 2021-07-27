@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1006,7 +1006,7 @@ msgid "The :mod:`xmlrpclib` module now supports an XML-RPC extension for handlin
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1651
-msgid "The new :mod:`DocXMLRPCServer` module allows writing self-documenting XML-RPC servers. Run it in demo mode (as a program) to see it in action.   Pointing the Web browser to the RPC server produces pydoc-style documentation; pointing xmlrpclib to the server allows invoking the actual methods. (Contributed by Brian Quinlan.)"
+msgid "The new :mod:`DocXMLRPCServer` module allows writing self-documenting XML-RPC servers. Run it in demo mode (as a program) to see it in action.   Pointing the web browser to the RPC server produces pydoc-style documentation; pointing xmlrpclib to the server allows invoking the actual methods. (Contributed by Brian Quinlan.)"
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1657

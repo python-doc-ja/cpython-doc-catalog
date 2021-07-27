@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "Consider also using the :func:`asyncio.run` function instead of using low
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:56
-msgid "Deprecation warning is emitted if there is no running event loop. If future Python releases this function will be an alias of :func:`get_running_loop`."
+msgid "Deprecation warning is emitted if there is no running event loop. In future Python releases, this function will be an alias of :func:`get_running_loop`."
 msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:63

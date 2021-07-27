@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "The ease of adding code caused a few initial growing pains, such as code 
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:106
-msgid "Producing an actual patch is the last step in adding a new feature, and is usually easy compared to the earlier task of coming up with a good design. Discussions of new features can often explode into lengthy mailing list threads, making the discussion hard to follow, and no one can read every posting to python-dev.  Therefore, a relatively formal process has been set up to write Python Enhancement Proposals (PEPs), modelled on the Internet RFC process.  PEPs are draft documents that describe a proposed new feature, and are continually revised until the community reaches a consensus, either accepting or rejecting the proposal.  Quoting from the introduction to :pep:`1`, \"PEP Purpose and Guidelines\":"
+msgid "Producing an actual patch is the last step in adding a new feature, and is usually easy compared to the earlier task of coming up with a good design. Discussions of new features can often explode into lengthy mailing list threads, making the discussion hard to follow, and no one can read every posting to python-dev.  Therefore, a relatively formal process has been set up to write Python Enhancement Proposals (PEPs), modelled on the internet RFC process.  PEPs are draft documents that describe a proposed new feature, and are continually revised until the community reaches a consensus, either accepting or rejecting the proposal.  Quoting from the introduction to :pep:`1`, \"PEP Purpose and Guidelines\":"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:120
@@ -445,7 +445,7 @@ msgid "The :file:`Python/importdl.c` file, which was a mass of #ifdefs to suppor
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:767
-msgid "Vladimir Marangozov's long-awaited malloc restructuring was completed, to make it easy to have the Python interpreter use a custom allocator instead of C's standard :func:`malloc`.  For documentation, read the comments in :file:`Include/pymem.h` and :file:`Include/objimpl.h`.  For the lengthy discussions during which the interface was hammered out, see the Web archives of the 'patches' and 'python-dev' lists at python.org."
+msgid "Vladimir Marangozov's long-awaited malloc restructuring was completed, to make it easy to have the Python interpreter use a custom allocator instead of C's standard :func:`malloc`.  For documentation, read the comments in :file:`Include/pymem.h` and :file:`Include/objimpl.h`.  For the lengthy discussions during which the interface was hammered out, see the web archives of the 'patches' and 'python-dev' lists at python.org."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:774
@@ -569,7 +569,7 @@ msgid "Relationship to PyXML"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1004
-msgid "The XML Special Interest Group has been working on XML-related Python code for a while.  Its code distribution, called PyXML, is available from the SIG's Web pages at https://www.python.org/community/sigs/current/xml-sig. The PyXML distribution also used the package name ``xml``.  If you've written programs that used PyXML, you're probably wondering about its compatibility with the 2.0 :mod:`xml` package."
+msgid "The XML Special Interest Group has been working on XML-related Python code for a while.  Its code distribution, called PyXML, is available from the SIG's web pages at https://www.python.org/community/sigs/current/xml-sig. The PyXML distribution also used the package name ``xml``.  If you've written programs that used PyXML, you're probably wondering about its compatibility with the 2.0 :mod:`xml` package."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1010
@@ -653,7 +653,7 @@ msgid ":mod:`pyexpat`: An interface to the Expat XML parser. (Contributed by Pau
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1111
-msgid ":mod:`robotparser`: Parse a :file:`robots.txt` file, which is used for writing Web spiders that politely avoid certain areas of a Web site.  The parser accepts the contents of a :file:`robots.txt` file, builds a set of rules from it, and can then answer questions about the fetchability of a given URL.  (Contributed by Skip Montanaro.)"
+msgid ":mod:`robotparser`: Parse a :file:`robots.txt` file, which is used for writing web spiders that politely avoid certain areas of a web site.  The parser accepts the contents of a :file:`robots.txt` file, builds a set of rules from it, and can then answer questions about the fetchability of a given URL.  (Contributed by Skip Montanaro.)"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1117

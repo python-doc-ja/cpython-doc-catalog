@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Of the various forms of :abbr:`IPC (Inter Process Communication)`, socket
 msgstr ""
 
 #: ../../howto/sockets.rst:47
-msgid "They were invented in Berkeley as part of the BSD flavor of Unix. They spread like wildfire with the Internet. With good reason --- the combination of sockets with INET makes talking to arbitrary machines around the world unbelievably easy (at least compared to other schemes)."
+msgid "They were invented in Berkeley as part of the BSD flavor of Unix. They spread like wildfire with the internet. With good reason --- the combination of sockets with INET makes talking to arbitrary machines around the world unbelievably easy (at least compared to other schemes)."
 msgstr ""
 
 #: ../../howto/sockets.rst:54

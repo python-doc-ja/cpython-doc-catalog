@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "There are four basic concrete server classes:"
 msgstr ""
 
 #: ../../library/socketserver.rst:18
-msgid "This uses the Internet TCP protocol, which provides for continuous streams of data between the client and server. If *bind_and_activate* is true, the constructor automatically attempts to invoke :meth:`~BaseServer.server_bind` and :meth:`~BaseServer.server_activate`.  The other parameters are passed to the :class:`BaseServer` base class."
+msgid "This uses the internet TCP protocol, which provides for continuous streams of data between the client and server. If *bind_and_activate* is true, the constructor automatically attempts to invoke :meth:`~BaseServer.server_bind` and :meth:`~BaseServer.server_activate`.  The other parameters are passed to the :class:`BaseServer` base class."
 msgstr ""
 
 #: ../../library/socketserver.rst:28
@@ -165,7 +165,7 @@ msgid "The user-provided request handler class; an instance of this class is cre
 msgstr ""
 
 #: ../../library/socketserver.rst:263
-msgid "The address on which the server is listening.  The format of addresses varies depending on the protocol family; see the documentation for the :mod:`socket` module for details.  For Internet protocols, this is a tuple containing a string giving the address, and an integer port number: ``('127.0.0.1', 80)``, for example."
+msgid "The address on which the server is listening.  The format of addresses varies depending on the protocol family; see the documentation for the :mod:`socket` module for details.  For internet protocols, this is a tuple containing a string giving the address, and an integer port number: ``('127.0.0.1', 80)``, for example."
 msgstr ""
 
 #: ../../library/socketserver.rst:272

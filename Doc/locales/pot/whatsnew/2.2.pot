@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "The largest and most far-reaching changes in Python 2.2 are to Python's m
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:52
-msgid "A long time ago I wrote a Web page listing flaws in Python's design.  One of the most significant flaws was that it's impossible to subclass Python types implemented in C.  In particular, it's not possible to subclass built-in types, so you can't just subclass, say, lists in order to add a single useful method to them. The :mod:`UserList` module provides a class that supports all of the methods of lists and that can be subclassed further, but there's lots of C code that expects a regular Python list and won't accept a :class:`UserList` instance."
+msgid "A long time ago I wrote a web page listing flaws in Python's design.  One of the most significant flaws was that it's impossible to subclass Python types implemented in C.  In particular, it's not possible to subclass built-in types, so you can't just subclass, say, lists in order to add a single useful method to them. The :mod:`UserList` module provides a class that supports all of the methods of lists and that can be subclassed further, but there's lots of C code that expects a regular Python list and won't accept a :class:`UserList` instance."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:61

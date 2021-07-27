@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../library/webbrowser.rst:2
-msgid ":mod:`webbrowser` --- Convenient Web-browser controller"
+msgid ":mod:`webbrowser` --- Convenient web-browser controller"
 msgstr ""
 
 #: ../../library/webbrowser.rst:10
@@ -25,7 +25,7 @@ msgid "**Source code:** :source:`Lib/webbrowser.py`"
 msgstr ""
 
 #: ../../library/webbrowser.rst:14
-msgid "The :mod:`webbrowser` module provides a high-level interface to allow displaying Web-based documents to users. Under most circumstances, simply calling the :func:`.open` function from this module will do the right thing."
+msgid "The :mod:`webbrowser` module provides a high-level interface to allow displaying web-based documents to users. Under most circumstances, simply calling the :func:`.open` function from this module will do the right thing."
 msgstr ""
 
 #: ../../library/webbrowser.rst:18

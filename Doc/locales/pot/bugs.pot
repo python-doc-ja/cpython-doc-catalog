@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "Using the Python issue tracker"
 msgstr ""
 
 #: ../../bugs.rst:43
-msgid "Bug reports for Python itself should be submitted via the Python Bug Tracker (https://bugs.python.org/).  The bug tracker offers a Web form which allows pertinent information to be entered and submitted to the developers."
+msgid "Bug reports for Python itself should be submitted via the Python Bug Tracker (https://bugs.python.org/).  The bug tracker offers a web form which allows pertinent information to be entered and submitted to the developers."
 msgstr ""
 
 #: ../../bugs.rst:47

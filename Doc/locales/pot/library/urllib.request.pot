@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1078,7 +1078,7 @@ msgid "For backward compatibility, if a URL appears to point to a local file but
 msgstr ""
 
 #: ../../library/urllib.request.rst:1544
-msgid "The :func:`urlopen` and :func:`urlretrieve` functions can cause arbitrarily long delays while waiting for a network connection to be set up.  This means that it is difficult to build an interactive Web client using these functions without using threads."
+msgid "The :func:`urlopen` and :func:`urlretrieve` functions can cause arbitrarily long delays while waiting for a network connection to be set up.  This means that it is difficult to build an interactive web client using these functions without using threads."
 msgstr ""
 
 #: ../../library/urllib.request.rst:1553

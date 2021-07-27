@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,6 @@ msgid "Return the value of a single variable *name*. Equivalent to ``get_config_
 msgstr ""
 
 #: ../../library/sysconfig.rst:51
-#: ../../library/sysconfig.rst:178
 msgid "If *name* is not found, return ``None``."
 msgstr ""
 
@@ -207,6 +206,10 @@ msgstr ""
 
 #: ../../library/sysconfig.rst:175
 msgid "If *expand* is set to ``False``, the path will not be expanded using the variables."
+msgstr ""
+
+#: ../../library/sysconfig.rst:178
+msgid "If *name* is not found, raise a :exc:`KeyError`."
 msgstr ""
 
 #: ../../library/sysconfig.rst:183

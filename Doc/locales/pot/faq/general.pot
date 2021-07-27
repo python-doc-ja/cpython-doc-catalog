@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgid "Python is a high-level general-purpose programming language that can be a
 msgstr ""
 
 #: ../../faq/general.rst:114
-msgid "The language comes with a large standard library that covers areas such as string processing (regular expressions, Unicode, calculating differences between files), Internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP, CGI programming), software engineering (unit testing, logging, profiling, parsing Python code), and operating system interfaces (system calls, filesystems, TCP/IP sockets).  Look at the table of contents for :ref:`library-index` to get an idea of what's available.  A wide variety of third-party extensions are also available.  Consult `the Python Package Index <https://pypi.org>`_ to find packages of interest to you."
+msgid "The language comes with a large standard library that covers areas such as string processing (regular expressions, Unicode, calculating differences between files), internet protocols (HTTP, FTP, SMTP, XML-RPC, POP, IMAP, CGI programming), software engineering (unit testing, logging, profiling, parsing Python code), and operating system interfaces (system calls, filesystems, TCP/IP sockets).  Look at the table of contents for :ref:`library-index` to get an idea of what's available.  A wide variety of third-party extensions are also available.  Consult `the Python Package Index <https://pypi.org>`_ to find packages of interest to you."
 msgstr ""
 
 #: ../../faq/general.rst:126

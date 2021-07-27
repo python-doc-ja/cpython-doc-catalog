@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "More Python resources:"
 msgstr ""
 
 #: ../../tutorial/whatnow.rst:33
-msgid "https://www.python.org:  The major Python Web site.  It contains code, documentation, and pointers to Python-related pages around the Web.  This Web site is mirrored in various places around the world, such as Europe, Japan, and Australia; a mirror may be faster than the main site, depending on your geographical location."
+msgid "https://www.python.org:  The major Python web site.  It contains code, documentation, and pointers to Python-related pages around the web.  This web site is mirrored in various places around the world, such as Europe, Japan, and Australia; a mirror may be faster than the main site, depending on your geographical location."
 msgstr ""
 
 #: ../../tutorial/whatnow.rst:39

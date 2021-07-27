@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -308,7 +308,7 @@ msgid "Calling :func:`putenv` directly does not change ``os.environ``, so it's b
 msgstr ""
 
 #: ../../library/os.rst:197
-msgid "On some platforms, including FreeBSD and Mac OS X, setting ``environ`` may cause memory leaks.  Refer to the system documentation for :c:func:`putenv`."
+msgid "On some platforms, including FreeBSD and macOS, setting ``environ`` may cause memory leaks.  Refer to the system documentation for :c:func:`putenv`."
 msgstr ""
 
 #: ../../library/os.rst:201
@@ -422,7 +422,7 @@ msgid "Return list of supplemental group ids associated with the current process
 msgstr ""
 
 #: ../../library/os.rst:372
-msgid "On Mac OS X, :func:`getgroups` behavior differs somewhat from other Unix platforms. If the Python interpreter was built with a deployment target of :const:`10.5` or earlier, :func:`getgroups` returns the list of effective group ids associated with the current user process; this list is limited to a system-defined number of entries, typically 16, and may be modified by calls to :func:`setgroups` if suitably privileged. If built with a deployment target greater than :const:`10.5`, :func:`getgroups` returns the current group access list for the user associated with the effective user id of the process; the group access list may change over the lifetime of the process, it is not affected by calls to :func:`setgroups`, and its length is not limited to 16.  The deployment target value, :const:`MACOSX_DEPLOYMENT_TARGET`, can be obtained with :func:`sysconfig.get_config_var`."
+msgid "On macOS, :func:`getgroups` behavior differs somewhat from other Unix platforms. If the Python interpreter was built with a deployment target of :const:`10.5` or earlier, :func:`getgroups` returns the list of effective group ids associated with the current user process; this list is limited to a system-defined number of entries, typically 16, and may be modified by calls to :func:`setgroups` if suitably privileged. If built with a deployment target greater than :const:`10.5`, :func:`getgroups` returns the current group access list for the user associated with the effective user id of the process; the group access list may change over the lifetime of the process, it is not affected by calls to :func:`setgroups`, and its length is not limited to 16.  The deployment target value, :const:`MACOSX_DEPLOYMENT_TARGET`, can be obtained with :func:`sysconfig.get_config_var`."
 msgstr ""
 
 #: ../../library/os.rst:389
@@ -500,7 +500,7 @@ msgid "Assignments to items in ``os.environ`` are automatically translated into 
 msgstr ""
 
 #: ../../library/os.rst:519
-msgid "On some platforms, including FreeBSD and Mac OS X, setting ``environ`` may cause memory leaks. Refer to the system documentation for :c:func:`putenv`."
+msgid "On some platforms, including FreeBSD and macOS, setting ``environ`` may cause memory leaks. Refer to the system documentation for :c:func:`putenv`."
 msgstr ""
 
 #: ../../library/os.rst:522
@@ -528,7 +528,7 @@ msgid "Set the list of supplemental group ids associated with the current proces
 msgstr ""
 
 #: ../../library/os.rst:557
-msgid "On Mac OS X, the length of *groups* may not exceed the system-defined maximum number of effective group ids, typically 16. See the documentation for :func:`getgroups` for cases where it may not return the same group list set by calling setgroups()."
+msgid "On macOS, the length of *groups* may not exceed the system-defined maximum number of effective group ids, typically 16. See the documentation for :func:`getgroups` for cases where it may not return the same group list set by calling setgroups()."
 msgstr ""
 
 #: ../../library/os.rst:564
@@ -1137,11 +1137,11 @@ msgid "On Linux, if *offset* is given as ``None``, the bytes are read from the c
 msgstr ""
 
 #: ../../library/os.rst:1382
-msgid "The second case may be used on Mac OS X and FreeBSD where *headers* and *trailers* are arbitrary sequences of buffers that are written before and after the data from *in_fd* is written. It returns the same as the first case."
+msgid "The second case may be used on macOS and FreeBSD where *headers* and *trailers* are arbitrary sequences of buffers that are written before and after the data from *in_fd* is written. It returns the same as the first case."
 msgstr ""
 
 #: ../../library/os.rst:1386
-msgid "On Mac OS X and FreeBSD, a value of ``0`` for *count* specifies to send until the end of *in_fd* is reached."
+msgid "On macOS and FreeBSD, a value of ``0`` for *count* specifies to send until the end of *in_fd* is reached."
 msgstr ""
 
 #: ../../library/os.rst:1389

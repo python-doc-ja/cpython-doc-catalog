@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -925,7 +925,7 @@ msgid "HTTPHandler"
 msgstr ""
 
 #: ../../library/logging.handlers.rst:929
-msgid "The :class:`HTTPHandler` class, located in the :mod:`logging.handlers` module, supports sending logging messages to a Web server, using either ``GET`` or ``POST`` semantics."
+msgid "The :class:`HTTPHandler` class, located in the :mod:`logging.handlers` module, supports sending logging messages to a web server, using either ``GET`` or ``POST`` semantics."
 msgstr ""
 
 #: ../../library/logging.handlers.rst:936
@@ -941,11 +941,11 @@ msgid "Provides a dictionary, based on ``record``, which is to be URL-encoded an
 msgstr ""
 
 #: ../../library/logging.handlers.rst:960
-msgid "Sends the record to the Web server as a URL-encoded dictionary. The :meth:`mapLogRecord` method is used to convert the record to the dictionary to be sent."
+msgid "Sends the record to the web server as a URL-encoded dictionary. The :meth:`mapLogRecord` method is used to convert the record to the dictionary to be sent."
 msgstr ""
 
 #: ../../library/logging.handlers.rst:964
-msgid "Since preparing a record for sending it to a Web server is not the same as a generic formatting operation, using :meth:`~logging.Handler.setFormatter` to specify a :class:`~logging.Formatter` for a :class:`HTTPHandler` has no effect. Instead of calling :meth:`~logging.Handler.format`, this handler calls :meth:`mapLogRecord` and then :func:`urllib.parse.urlencode` to encode the dictionary in a form suitable for sending to a Web server."
+msgid "Since preparing a record for sending it to a web server is not the same as a generic formatting operation, using :meth:`~logging.Handler.setFormatter` to specify a :class:`~logging.Formatter` for a :class:`HTTPHandler` has no effect. Instead of calling :meth:`~logging.Handler.format`, this handler calls :meth:`mapLogRecord` and then :func:`urllib.parse.urlencode` to encode the dictionary in a form suitable for sending to a web server."
 msgstr ""
 
 #: ../../library/logging.handlers.rst:977
@@ -957,7 +957,7 @@ msgid "The :class:`QueueHandler` class, located in the :mod:`logging.handlers` m
 msgstr ""
 
 #: ../../library/logging.handlers.rst:985
-msgid "Along with the :class:`QueueListener` class, :class:`QueueHandler` can be used to let handlers do their work on a separate thread from the one which does the logging. This is important in Web applications and also other service applications where threads servicing clients need to respond as quickly as possible, while any potentially slow operations (such as sending an email via :class:`SMTPHandler`) are done on a separate thread."
+msgid "Along with the :class:`QueueListener` class, :class:`QueueHandler` can be used to let handlers do their work on a separate thread from the one which does the logging. This is important in web applications and also other service applications where threads servicing clients need to respond as quickly as possible, while any potentially slow operations (such as sending an email via :class:`SMTPHandler`) are done on a separate thread."
 msgstr ""
 
 #: ../../library/logging.handlers.rst:994
@@ -993,7 +993,7 @@ msgid "The :class:`QueueListener` class, located in the :mod:`logging.handlers` 
 msgstr ""
 
 #: ../../library/logging.handlers.rst:1047
-msgid "Along with the :class:`QueueHandler` class, :class:`QueueListener` can be used to let handlers do their work on a separate thread from the one which does the logging. This is important in Web applications and also other service applications where threads servicing clients need to respond as quickly as possible, while any potentially slow operations (such as sending an email via :class:`SMTPHandler`) are done on a separate thread."
+msgid "Along with the :class:`QueueHandler` class, :class:`QueueListener` can be used to let handlers do their work on a separate thread from the one which does the logging. This is important in web applications and also other service applications where threads servicing clients need to respond as quickly as possible, while any potentially slow operations (such as sending an email via :class:`SMTPHandler`) are done on a separate thread."
 msgstr ""
 
 #: ../../library/logging.handlers.rst:1056

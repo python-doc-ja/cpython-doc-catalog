@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 12:56+0000\n"
+"POT-Creation-Date: 2021-07-27 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3821,7 +3821,7 @@ msgid "However, union objects containing :ref:`parameterized generics <types-gen
 msgstr ""
 
 #: ../../library/stdtypes.rst:5042
-msgid "The user-exposed type for the union object can be accessed from :data:`types.Union` and used for :func:`isinstance` checks.  An object cannot be instantiated from the type::"
+msgid "The user-exposed type for the union object can be accessed from :data:`types.UnionType` and used for :func:`isinstance` checks.  An object cannot be instantiated from the type::"
 msgstr ""
 
 #: ../../library/stdtypes.rst:5055
