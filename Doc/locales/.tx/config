@@ -307,6 +307,12 @@ source_file = pot/c-api/number.pot
 source_lang = en
 type = PO
 
+[python-newest.c-api--objbuffer]
+file_filter = <lang>/LC_MESSAGES/c-api/objbuffer.po
+source_file = pot/c-api/objbuffer.pot
+source_lang = en
+type = PO
+
 [python-newest.c-api--object]
 file_filter = <lang>/LC_MESSAGES/c-api/object.po
 source_file = pot/c-api/object.pot
