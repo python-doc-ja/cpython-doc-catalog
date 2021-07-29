@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-20 05:29+0000\n"
+"POT-Creation-Date: 2021-07-29 07:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -573,7 +573,7 @@ msgid "Pushes :func:`builtins.__build_class__` onto the stack.  It is later call
 msgstr ""
 
 #: ../../library/dis.rst:742
-msgid "This opcode performs several operations before a with block starts.  First, it loads :meth:`~object.__exit__` from the context manager and pushes it onto the stack for later use by :opcode:`WITH_CLEANUP_START`.  Then, :meth:`~object.__enter__` is called, and a finally block pointing to *delta* is pushed.  Finally, the result of calling the ``__enter__()`` method is pushed onto the stack.  The next opcode will either ignore it (:opcode:`POP_TOP`), or store it in (a) variable(s) (:opcode:`STORE_FAST`, :opcode:`STORE_NAME`, or :opcode:`UNPACK_SEQUENCE`)."
+msgid "This opcode performs several operations before a with block starts.  First, it loads :meth:`~object.__exit__` from the context manager and pushes it onto the stack for later use by :opcode:`WITH_EXCEPT_START`.  Then, :meth:`~object.__enter__` is called, and a finally block pointing to *delta* is pushed.  Finally, the result of calling the ``__enter__()`` method is pushed onto the stack.  The next opcode will either ignore it (:opcode:`POP_TOP`), or store it in (a) variable(s) (:opcode:`STORE_FAST`, :opcode:`STORE_NAME`, or :opcode:`UNPACK_SEQUENCE`)."
 msgstr ""
 
 #: ../../library/dis.rst:754

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 06:53+0000\n"
+"POT-Creation-Date: 2021-07-29 07:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgid "Setting it makes the :mod:`sqlite3` module parse the declared type for ea
 msgstr ""
 
 #: ../../library/sqlite3.rst:159
-msgid "Setting this makes the SQLite interface parse the column name for each column it returns.  It will look for a string formed [mytype] in there, and then decide that 'mytype' is the type of the column. It will try to find an entry of 'mytype' in the converters dictionary and then use the converter function found there to return the value. The column name found in :attr:`Cursor.description` does not include the type, i. e. if you use something like ``'as \"Expiration date [datetime]\"'`` in your SQL, then we will parse out everything until the first ``'['`` for the column name and strip the preceeding space: the column name would simply be \"Expiration date\"."
+msgid "Setting this makes the SQLite interface parse the column name for each column it returns.  It will look for a string formed [mytype] in there, and then decide that 'mytype' is the type of the column. It will try to find an entry of 'mytype' in the converters dictionary and then use the converter function found there to return the value. The column name found in :attr:`Cursor.description` does not include the type, i. e. if you use something like ``'as \"Expiration date [datetime]\"'`` in your SQL, then we will parse out everything until the first ``'['`` for the column name and strip the preceding space: the column name would simply be \"Expiration date\"."
 msgstr ""
 
 #: ../../library/sqlite3.rst:172
