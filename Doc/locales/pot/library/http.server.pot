@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 06:18+0000\n"
+"POT-Creation-Date: 2021-07-30 07:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgid "This method will parse and dispatch the request to the appropriate :meth:
 msgstr ""
 
 #: ../../library/http.server.rst:196
-msgid "When a HTTP/1.1 compliant server receives an ``Expect: 100-continue`` request header it responds back with a ``100 Continue`` followed by ``200 OK`` headers. This method can be overridden to raise an error if the server does not want the client to continue.  For e.g. server can chose to send ``417 Expectation Failed`` as a response header and ``return False``."
+msgid "When a HTTP/1.1 compliant server receives an ``Expect: 100-continue`` request header it responds back with a ``100 Continue`` followed by ``200 OK`` headers. This method can be overridden to raise an error if the server does not want the client to continue.  For e.g. server can choose to send ``417 Expectation Failed`` as a response header and ``return False``."
 msgstr ""
 
 #: ../../library/http.server.rst:207
