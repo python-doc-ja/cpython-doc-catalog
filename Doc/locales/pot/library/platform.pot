@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-08-03 07:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "The function relies on the system's :file:`file` command to do the actual
 msgstr ""
 
 #: ../../library/platform.rst:45
-msgid "On Mac OS X (and perhaps other platforms), executable files may be universal files containing multiple architectures."
+msgid "On macOS (and perhaps other platforms), executable files may be universal files containing multiple architectures."
 msgstr ""
 
 #: ../../library/platform.rst:48

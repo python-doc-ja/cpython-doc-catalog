@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-08-03 07:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Other Graphical User Interface Packages"
 msgstr ""
 
 #: ../../library/othergui.rst:6
-msgid "Major cross-platform (Windows, Mac OS X, Unix-like) GUI toolkits are available for Python:"
+msgid "Major cross-platform (Windows, macOS, Unix-like) GUI toolkits are available for Python:"
 msgstr ""
 
 #: ../../library/othergui.rst:17
@@ -45,7 +45,7 @@ msgid "`PyQt <https://riverbankcomputing.com/software/pyqt/intro>`_"
 msgstr ""
 
 #: ../../library/othergui.rst:27
-msgid "PyQt is a :program:`sip`\\ -wrapped binding to the Qt toolkit.  Qt is an extensive C++ GUI application development framework that is available for Unix, Windows and Mac OS X. :program:`sip` is a tool for generating bindings for C++ libraries as Python classes, and is specifically designed for Python."
+msgid "PyQt is a :program:`sip`\\ -wrapped binding to the Qt toolkit.  Qt is an extensive C++ GUI application development framework that is available for Unix, Windows and macOS. :program:`sip` is a tool for generating bindings for C++ libraries as Python classes, and is specifically designed for Python."
 msgstr ""
 
 #: ../../library/othergui.rst:37
@@ -61,7 +61,7 @@ msgid "`wxPython <https://www.wxpython.org>`_"
 msgstr ""
 
 #: ../../library/othergui.rst:40
-msgid "wxPython is a cross-platform GUI toolkit for Python that is built around the popular `wxWidgets <https://www.wxwidgets.org/>`_ (formerly wxWindows) C++ toolkit.  It provides a native look and feel for applications on Windows, Mac OS X, and Unix systems by using each platform's native widgets where ever possible, (GTK+ on Unix-like systems).  In addition to an extensive set of widgets, wxPython provides classes for online documentation and context sensitive help, printing, HTML viewing, low-level device context drawing, drag and drop, system clipboard access, an XML-based resource format and more, including an ever growing library of user-contributed modules."
+msgid "wxPython is a cross-platform GUI toolkit for Python that is built around the popular `wxWidgets <https://www.wxwidgets.org/>`_ (formerly wxWindows) C++ toolkit.  It provides a native look and feel for applications on Windows, macOS, and Unix systems by using each platform's native widgets where ever possible, (GTK+ on Unix-like systems).  In addition to an extensive set of widgets, wxPython provides classes for online documentation and context sensitive help, printing, HTML viewing, low-level device context drawing, drag and drop, system clipboard access, an XML-based resource format and more, including an ever growing library of user-contributed modules."
 msgstr ""
 
 #: ../../library/othergui.rst:51
