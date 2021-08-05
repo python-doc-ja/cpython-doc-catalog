@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-08-05 07:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr ""
 msgid "If you would like to read one core Python developer's take on why Python 3 came into existence, you can read Nick Coghlan's `Python 3 Q & A`_ or Brett Cannon's `Why Python 3 exists`_."
 msgstr ""
 
-#: ../../howto/pyporting.rst:23
-msgid "For help with porting, you can email the python-porting_ mailing list with questions."
+#: ../../howto/pyporting.rst:24
+msgid "For help with porting, you can view the archived python-porting_ mailing list."
 msgstr ""
 
 #: ../../howto/pyporting.rst:27

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-08-05 07:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "For the :class:`Document` node, an additional keyword argument *encoding*
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:148
-msgid "Silimarly, explicitly stating the *standalone* argument causes the standalone document declarations to be added to the prologue of the XML document. If the value is set to `True`, `standalone=\"yes\"` is added, otherwise it is set to `\"no\"`. Not stating the argument will omit the declaration from the document."
+msgid "Similarly, explicitly stating the *standalone* argument causes the standalone document declarations to be added to the prologue of the XML document. If the value is set to `True`, `standalone=\"yes\"` is added, otherwise it is set to `\"no\"`. Not stating the argument will omit the declaration from the document."
 msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:155
