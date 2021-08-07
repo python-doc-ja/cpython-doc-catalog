@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 07:05+0000\n"
+"POT-Creation-Date: 2021-08-07 07:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -351,6 +351,10 @@ msgstr ""
 
 #: ../../library/hashlib.rst:384
 msgid "*last_node*: boolean indicating whether the processed node is the last one (`False` for sequential mode)."
+msgstr ""
+
+#: ../../library/hashlib.rst:None
+msgid "Explanation of tree mode parameters."
 msgstr ""
 
 #: ../../library/hashlib.rst:390
