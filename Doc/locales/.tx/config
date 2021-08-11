@@ -2029,6 +2029,12 @@ source_file = pot/library/secrets.pot
 source_lang = en
 type = PO
 
+[python-39.library--security_warnings]
+file_filter = <lang>/LC_MESSAGES/library/security_warnings.po
+source_file = pot/library/security_warnings.pot
+source_lang = en
+type = PO
+
 [python-39.library--select]
 file_filter = <lang>/LC_MESSAGES/library/select.po
 source_file = pot/library/select.pot

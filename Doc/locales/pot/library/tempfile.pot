@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 05:36+0000\n"
+"POT-Creation-Date: 2021-08-11 07:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,22 +243,22 @@ msgstr ""
 msgid "Here are some examples of typical usage of the :mod:`tempfile` module::"
 msgstr ""
 
-#: ../../library/tempfile.rst:320
+#: ../../library/tempfile.rst:321
 msgid "Deprecated functions and variables"
 msgstr ""
 
-#: ../../library/tempfile.rst:322
+#: ../../library/tempfile.rst:323
 msgid "A historical way to create temporary files was to first generate a file name with the :func:`mktemp` function and then create a file using this name. Unfortunately this is not secure, because a different process may create a file with this name in the time between the call to :func:`mktemp` and the subsequent attempt to create the file by the first process. The solution is to combine the two steps and create the file immediately. This approach is used by :func:`mkstemp` and the other functions described above."
 msgstr ""
 
-#: ../../library/tempfile.rst:333
+#: ../../library/tempfile.rst:334
 msgid "Use :func:`mkstemp` instead."
 msgstr ""
 
-#: ../../library/tempfile.rst:336
+#: ../../library/tempfile.rst:337
 msgid "Return an absolute pathname of a file that did not exist at the time the call is made.  The *prefix*, *suffix*, and *dir* arguments are similar to those of :func:`mkstemp`, except that bytes file names, ``suffix=None`` and ``prefix=None`` are not supported."
 msgstr ""
 
-#: ../../library/tempfile.rst:343
+#: ../../library/tempfile.rst:344
 msgid "Use of this function may introduce a security hole in your program.  By the time you get around to doing anything with the file name it returns, someone else may have beaten you to the punch.  :func:`mktemp` usage can be replaced easily with :func:`NamedTemporaryFile`, passing it the ``delete=False`` parameter::"
 msgstr ""
