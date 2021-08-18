@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"POT-Creation-Date: 2021-08-18 07:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,11 +145,11 @@ msgid "In addition to indexing, *slicing* is also supported.  While indexing is 
 msgstr ""
 
 #: ../../tutorial/introduction.rst:272
-msgid "Note how the start is always included, and the end always excluded.  This makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
+msgid "Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced. ::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:280
-msgid "Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced. ::"
+#: ../../tutorial/introduction.rst:282
+msgid "Note how the start is always included, and the end always excluded.  This makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
 msgstr ""
 
 #: ../../tutorial/introduction.rst:290
