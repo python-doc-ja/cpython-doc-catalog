@@ -23,15 +23,11 @@ jobs:
       - name: Check out cpython-doc-catalog
         uses: actions/chekout@v2
       
-      - name: Create directory
+      - name: Create directories
         run: |
+          # Create messages directory
           mkdir -p cpython-doc-catalog/Doc/locales/ja/
-        
-      - name: Check out python-docs-ja
-        uses: actions/checkout@v2
-        with:
-          repository: python-doc-ja/cpython-doc-catalog
-          path: cpython-doc-catalog/Doc/locales/ja/
+          # ...
       
       - name: Test checkout
         run: |
