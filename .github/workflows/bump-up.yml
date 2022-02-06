@@ -22,12 +22,16 @@ jobs:
     steps:
       - name: Check out cpython-doc-catalog
         uses: actions/chekout@v2
+      
+      - name: Create directory
+        run: |
+          mkdir -p cpython-doc-catalog/Doc/locales/ja/
         
       - name: Check out python-docs-ja
         uses: actions/checkout@v2
         with:
           repository: python-doc-ja/cpython-doc-catalog
-          path: cpython-doc-catalog/Doc/locales/ja/LC_MESSAGES/
+          path: cpython-doc-catalog/Doc/locales/ja/
       
       - name: Test checkout
         run: |
